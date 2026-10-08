@@ -153,3 +153,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### 有限布局UDF overlay（2026-10-09，Verified static）
 
 支持单只读物理partition、Type1 map、标准tag261 File Entry、单short AD。File Entry info length @56 u64、recorded blocks @64 u64，AD从176+extended_attr_length开始，u32长度及u32相对partition block；元数据位置由parser确定。Partition length @192、单partition integrity size table @84；descriptor tag CRC16 @8、CRC长度@10、location@12、checksum@4。原CRC长度保持，未知bytes保留。增长镜像新anchor追加一sector、partition不含尾anchor，PVD总sector数包含它。实际ISO/UDF双视图AFS回读通过，不等于runtime验收。见 [新候选](QA_EXPANDED_POC.md)。
+
+### 构建receipt与QA数据
+
+pipeline.json schema1记录显式locale、原ISO/font/locale/tool SHA-256、range start、步骤command/exit/log、status/failed_step和candidate路径/hash；静态结果与runtime分开。QA_CHECKLIST.json的版本/BIOS/backend初始null，各case初始untested且evidence空。独立verification.json schema1不依赖构建receipt推导。UDF主备space bitmap/table/integrity引用需全部zero；不将非零空间管理描述符当未知padding透传。见 [构建与证据](POC_PIPELINE.md)。

@@ -8,7 +8,7 @@ import unittest
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT/'tools'),str(ROOT/'lib')]
 from iso import patch_iso,SECTOR
-from udf_overlay import plan_udf_overlay,apply_udf_overlay,validate_tag,retag
+from udf_overlay import plan_udf_overlay,apply_udf_overlay,validate_tag,retag,require_empty_space_descriptors
 from iso_validation import verify_iso_overlay
 
 
@@ -73,6 +73,22 @@ class UdfOverlayTests(unittest.TestCase):
     def test_crc_bounds(self):
         block=bytearray(SECTOR);struct.pack_into('<H',block,10,2040)
         with self.assertRaisesRegex(ValueError,'outside'):retag(bytes(block))
+    def test_empty_space_descriptors(self):
+        from types import SimpleNamespace
+        names=['freed_space_bitmap','freed_space_table','partition_integrity_table','unalloc_space_bitmap','unalloc_space_table']
+        p=SimpleNamespace(part_contents_use=SimpleNamespace(**{n:SimpleNamespace(extent_length=0,log_block_num=0) for n in names}))
+        require_empty_space_descriptors(p)
+    def test_nonempty_space_descriptor(self):
+        from types import SimpleNamespace
+        names=['freed_space_bitmap','freed_space_table','partition_integrity_table','unalloc_space_bitmap','unalloc_space_table']
+        for n in names:
+            p=SimpleNamespace(part_contents_use=SimpleNamespace(**{k:SimpleNamespace(extent_length=8 if k==n else 0,log_block_num=0) for k in names}))
+            with self.assertRaisesRegex(ValueError,'additional'):require_empty_space_descriptors(p)
+    def test_nonzero_space_location(self):
+        from types import SimpleNamespace
+        names=['freed_space_bitmap','freed_space_table','partition_integrity_table','unalloc_space_bitmap','unalloc_space_table']
+        p=SimpleNamespace(part_contents_use=SimpleNamespace(**{n:SimpleNamespace(extent_length=0,log_block_num=1) for n in names}))
+        with self.assertRaisesRegex(ValueError,'additional'):require_empty_space_descriptors(p)
 
 
 if __name__=='__main__':unittest.main()

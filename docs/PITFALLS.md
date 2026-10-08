@@ -113,3 +113,8 @@ Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长s
 ## 混合UDF修复不只移动anchor
 
 已复现的增长镜像错误通过同步标准File Entry/short AD、主备partition length、integrity size table、新尾anchor和PVD解决静态回读；未知descriptor bytes必须保留并重新计算原范围CRC/checksum。新anchor需要额外sector，不能写入新增AFS最后一sector。仅放宽旧预检或忽略UDF parser会留下错误文件视图。254项测试与真实双视图回读不替代PCSX2缓存/字库验收。见 [新候选验证](QA_EXPANDED_POC.md)。
+
+## 构建报告和同源验证的证据边界
+
+仅按DIFF_FILE中的hash核对输出可能漏掉错误报告或中间资源传递；新增验证从原ISO/字体/locale重新推导，不读取构建报告，隔离ELF byte tamper已检测。二次推导仍复用同一parser/writer，不能代替独立格式审计或PCSX2运行测试。输出目录重复使用会混合历史产物，新编排/验证要求空子目录，不删除旧候选。见 [构建链](POC_PIPELINE.md)。
+UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足；当前overlay检查主备五组引用全部为空，未知布局拒绝。

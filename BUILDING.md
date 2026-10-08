@@ -1,6 +1,6 @@
 # Building and Research
 
-目前提供研究工具、单字及小字集实验ISO builder；完整游戏内验收待完成。没有batch translation。
+目前提供研究工具、单字/小字集/新增槽PoC及一键构建，完整游戏内验收待完成，没有批量翻译。
 
 ## Inputs
 研究输入仅包含韩版SCKA-20043 ISO；保持原位，不复制进跟踪目录。
@@ -25,14 +25,14 @@ work/venv/Scripts/python.exe -X utf8 tools/research_media.py --iso "<original-KR
 
 Inventory只读ISO；输出提取的SHIP/FILE/ELF、ISO身份/目录、text-family census、UE2 export表、font PNG于ignored work/research。
 Media wrapper只抽单片180216，直接调用upstream build_cutscene，不新增SFD实现。使用relative ASS path避免Windowsfilter escaping问题。
-所有游戏数据/实验副本仅work/build；生成catalog也不跟踪。工具不输出可玩中文补丁。
+所有游戏数据/实验副本仅work/build；生成catalog也不跟踪。研究工具不作为发布版验收；新增槽实验ISO的构建身份和运行时状态分别见docs/QA_EXPANDED_POC.md。
 
-## Results and acceptance
+## 旧小字集阶段的历史结果与验收
 46 tests passed（原14项、单字PoC10项、小字集22项，包含真实pycdlib metadata的relocation测试）；707 KR FPB无编辑byte-identical。
 SFD一片静态demux/hardsub/mux成功且ADX相同；duration drift与warning见KNOWN_ISSUES。
 Font bitmap可读是static evidence；截图另已确认读档UI单字显示，wrap/save/scene等门禁仍待完成，见docs/QA_GLYPH_POC.md。
 
-## Planned KR-only locale build (not implemented)
+## 当前KR-only最小PoC构建（限三个显示字段）
 只读原版/verify hash → KR资源提取 → locales/<locale> target validation → stable glyph/code map →两font+bundle同步 → sparse text replacement →AFS manifest/TOC同步 →复用ISO patcher →outputs重新解析 →PCSX2验收。
 source data UTF-8，runtime encoding由locale backend决定，不把中文写入en。
 原版不覆盖，binary patch若后续需要必须expected bytes/hash gate。
@@ -139,3 +139,9 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 完成Font扩容、package和bundle后运行：
 `work/venv/Scripts/python.exe -X utf8 tools/build_expanded_locale.py --iso "<original-KR-ISO-path>" --expansion-dir work/font-expansion --package-dir work/font-package --bundle-dir work/font-bundle --out build/expanded-text-poc-03-udf`
 集成命令现在先规划有限布局UDF overlay，再复用上游ISO writer并同步UDF。真实韩版1 in-place/1 relocation与两视图回读通过，254项测试通过；未知布局仍在写入前拒绝。候选hash及运行时门禁见 [新增槽验收](docs/QA_EXPANDED_POC.md)。
+
+## 一键构建与独立验证
+
+`work/venv/Scripts/python.exe -X utf8 tools/build_poc_pipeline.py --iso "<original-KR-ISO-path>" --font "<matching-font-path>" --locale locales/zh-CN/poc-text.json --out build/poc-pipeline`
+五步从原输入完成Font/package/bundle/ISO/独立verify，不依赖旧work中间文件。输出必须是新空ignored子目录；pipeline.json记录每步命令、退出状态和源码/输入hash，自动生成待测试QA清单。
+单独验证命令不信任构建报告，见 [完整构建、验证及证据边界](docs/POC_PIPELINE.md)。284项测试通过，输出ISO与上一候选相同；PCSX2验收仍待完成。

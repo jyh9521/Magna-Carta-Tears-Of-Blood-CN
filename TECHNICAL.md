@@ -138,3 +138,8 @@ Verified static：celfid包含唯一engine header、export table、两Font seria
 
 保留上游ISO9660 patcher，新增单物理partition/Type1 map/标准File Entry/单short AD的防御性overlay。FILE.AFS增长重定位后同步UDF info length、recorded blocks和AD；主备partition与integrity size table增长，新anchor追加到镜像末尾而非覆盖文件，tag location/CRC16/checksum和ISO PVD同步。未知descriptor fields、时间与扩展属性保持，原源bytes/两视图extent先验证；不套用固定韩版offset到未知布局。
 真实候选3232653312 B，ISO与UDF读回两AFS一致，全原区域未修改bytes通过；源ISO/ELF不改。运行时cache/显示未验收。字段、hash与测试见 [新增槽PoC](docs/QA_EXPANDED_POC.md)。
+
+## 不依赖构建报告的PoC二次推导（2026-10-09）
+
+Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FPB/UI/AFS，比较候选全部archive bytes及ISO9660/UDF metadata和原区域未修改bytes；不读取DIFF_FILE或中间资源报告。一键编排复用既有阶段，干净源码复现相同ISOhash，隔离ELF单byte tamper被拒绝。UDF主备空空间管理引用已实际确认并加入门禁，非零引用不放行。
+验证复用同一基础parser/writer，不能排除共同实现缺陷；284项测试不替代运行时验收。见 [构建与验证链](docs/POC_PIPELINE.md)。

@@ -51,3 +51,7 @@ ISO9660和UDF都从新候选读回两个完整AFS并匹配本地输出；AFS顺�
 依次运行BUILDING.md中的Font扩容、package、bundle和expanded locale命令。字体仍为hash锁定的本地SimHei，资源不分发；发布级字体许可方案仍需完成。
 事务保存在ignored `build/udf-overlay-17/VERIFICATION.txt`；旧UDF预检失败与失败镜像不删除，见 [历史失败](FONT_BUNDLE.md)。
 新增槽显示及最小存读档/场景/linked名称门禁通过后，开始已确认parser覆盖的少量UI/剧情正式试译；再扩大批次，不要求先穷尽全部逆向。
+
+## 构建链后续验证（2026-10-09）
+
+一键构建和不依赖构建报告的二次推导已复现本页同一ISOhash，284项测试通过，隔离ELF tamper已检测。自动生成QA清单的全部运行时状态为untested，不转移旧截图结论；本页候选保留，测试同hash副本无需增加轮次。见 [一键构建与验收入口](POC_PIPELINE.md)。

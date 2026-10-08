@@ -27,6 +27,13 @@ def retag(block: bytes) -> bytes:
     validate_tag(bytes(result));return bytes(result)
 
 
+def require_empty_space_descriptors(partition) -> None:
+    for name in ('freed_space_bitmap','freed_space_table','partition_integrity_table','unalloc_space_bitmap','unalloc_space_table'):
+        descriptor=getattr(partition.part_contents_use,name)
+        require(descriptor.extent_length==0 and descriptor.log_block_num==0,
+                'UDF space-management descriptor requires additional synchronization')
+
+
 def plan_udf_overlay(source: Path, replacements: dict[str, Path]) -> dict:
     import pycdlib
     from pycdlib.udf import UDFFileEntry,UDFShortAD
@@ -40,6 +47,7 @@ def plan_udf_overlay(source: Path, replacements: dict[str, Path]) -> dict:
         partition=main[0];start=partition.part_start_location
         require(partition.part_num==0 and partition.access_type==1 and reserve[0].part_start_location==start
                 and reserve[0].part_length==partition.part_length,'UDF partition geometry mismatch')
+        for item in (main[0],reserve[0]):require_empty_space_descriptors(item)
         for sequence in (cd.udf_main_descs,cd.udf_reserve_descs):
             require(len(sequence.logical_volumes)==1 and len(sequence.logical_volumes[0].partition_maps)==1
                     and type(sequence.logical_volumes[0].partition_maps[0]).__name__=='UDFType1PartitionMap',
