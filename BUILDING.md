@@ -149,3 +149,7 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 ## PoC验收记录校验
 
 一键生成的QA_CHECKLIST.json可复制到ignored测试目录，填写人工状态/环境/证据后使用tools/validate_poc_qa.py。命令、退出状态及人工证据边界见 [验收记录](docs/POC_QA_RECORDS.md)。有效pending记录退出0不代表游戏验收通过。
+
+## 名称资源隔离实验
+
+tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原ISO和明确字体/locale生成名称资源与plan，不生成ISO；命令及未确认语义见 [名称资源](docs/NAME_SLOTS.md)。不能把输出单独替入原字库镜像。

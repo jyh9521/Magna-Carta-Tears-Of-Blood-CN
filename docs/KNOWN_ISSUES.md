@@ -5,9 +5,9 @@
 | 项目 | 状态 | 证据/下一步 |
 |---|---|---|
 | 中文显示/无乱码/不崩溃 | Partial observation | 读档短UI和开场中文样本可读；完整字集、冷启动与长期稳定性待测 |
-| 共享字形槽副作用 | Screenshot + static inventory | 当前33字map的16槽与目标窗口外原文重合5140次/615个FPB；稳定map不能消除冲突，完整原文范围和容量方案待研究 |
-| 字宽/自动换行/标点/两font切换 | Partial observation | 所示长句折行和标点混排可见；末尾下一页显示有反馈确认，无该页截图；完整排版与两Font切换待测 |
-| mapping稳定/容量扩展 | Static PoC | 33字显式map重排不重分配；运行时全范围、跨场景稳定与扩容未知 |
+| 共享字形槽副作用 | Screenshot + static inventory | 旧text-poc-02的33字map有16槽与原文重合5140次/615个FPB；当前新增槽候选静态保留原字形，不继承旧覆盖方案，完整范围/长期稳定性待测 |
+| 字宽/自动换行/标点/两font切换 | Partial observation | 本轮新增槽四图显示标点混排、长句折行及末页尾句；完整排版与两Font切换待测，见QA_EXPANDED_POC.md |
+| mapping稳定/容量扩展 | Static PoC | 当前D0新增33字形已接入候选并有局部显示反馈；原字形保持为静态证据，运行时全范围/缓存/跨场景稳定仍未知 |
 | native函数定位 | Static candidates only | ELF无有效符号；23个标识/13个有限地址构造候选已定位，字体查表和字宽算法未确认；见NATIVE_RESEARCH.md |
 | 小字集实验text-poc-02 | Partial runtime observation | 三张截图与三个测试目标相容；镜像hash未在截图中绑定，存读档/切场景未测试；见QA_TEXT_POC.md |
 | 全量FPB编辑例外 | Verified static / semantics pending | 六个显式seq0前缀不满足partition；12个池严格CP949失败；百分号和NUL结构待研究；见FPB_AUDIT.md |
@@ -43,3 +43,5 @@
 2026-10-09：一键构建及不依赖构建报告的完整二次推导通过，隔离ELF tamper检测通过，284项测试通过；ISOhash保持，不新增运行时证据。共同parser/writer缺陷、字体cache、布局、存读档/场景/linked名称仍需游戏验收。见 [构建链与最短验收](POC_PIPELINE.md)。
 
 2026-10-09新增人工验收记录门禁，309项测试通过；实际候选九项仍untested。旧记录hash可拒绝，错误截图内容仍需人工核对；没有新增PCSX2运行证据。见 [验收记录](POC_QA_RECORDS.md)。
+
+2026-10-09新增槽反馈补齐短UI/标点/长句及末页直接截图；完整运行时项目仍未验收。角色名称5字段及缓存仅独立资源准备，尚未生成可运行名称候选，见 [名称实验](NAME_SLOTS.md)与 [新截图](QA_EXPANDED_POC.md)。

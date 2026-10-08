@@ -122,3 +122,7 @@ UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足
 ## 有效记录不等同游戏验收
 
 记录校验退出0包括pending；recorded-complete只表示全部人工pass。证据hash证明文件绑定，不证明截图来自候选ISO或画面符合预期。不能从文件存在、hash匹配或单幅截图推导存读档/场景/战斗通过，详见 [验收记录边界](POC_QA_RECORDS.md)。
+
+## 姓名重复不等于全局改名授权
+
+原celfid17处、SHIP437处姓名字节命中包括其它语义；只允许显式字段试验，不用substring/global rename推导关联。新D0文本若配原字库会产生不匹配，因此名称实验不输出原Font缓存包或ISO，须与新增字库候选协调接入。见 [名称资源](NAME_SLOTS.md)。

@@ -161,3 +161,7 @@ pipeline.json schema1记录显式locale、原ISO/font/locale/tool SHA-256、rang
 ## qa-validation.json — 人工记录证据索引
 
 schema1保存candidate/receipt/locale SHA256、environment、cases的recorded_status及每项evidence路径/大小/hash。record_state为pending/recorded-complete/recorded-failure；runtime明确manual claims only/not independently verified。它不是ISO结构报告或游戏验收证明，详见 [记录格式](POC_QA_RECORDS.md)。
+
+## 韩版角色CHA首字段实验
+
+00000460.cha：12 B header、301条299 B记录，slot0/4/8/169/229首NUL字符串相同；前四可写258 B，第五254 B，trailer40/44 B保持。celfid含完整唯一副本；slot号和marker id不混用。具体用途/逻辑关联待运行核验，见 [名称字段](NAME_SLOTS.md)。

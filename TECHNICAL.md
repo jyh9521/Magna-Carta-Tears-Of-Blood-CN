@@ -143,3 +143,7 @@ Verified static：celfid包含唯一engine header、export table、两Font seria
 
 Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FPB/UI/AFS，比较候选全部archive bytes及ISO9660/UDF metadata和原区域未修改bytes；不读取DIFF_FILE或中间资源报告。一键编排复用既有阶段，干净源码复现相同ISOhash，隔离ELF单byte tamper被拒绝。UDF主备空空间管理引用已实际确认并加入门禁，非零引用不放行。
 验证复用同一基础parser/writer，不能排除共同实现缺陷；284项测试不替代运行时验收。见 [构建与验证链](docs/POC_PIPELINE.md)。
+
+## 2026-10-09 名称首字段与缓存
+
+原00000460.cha为301×299 B记录加12 B header，在celfid完整唯一副本起点3220278。5条相同姓名首字段的容量/trailer和受控同步实验已核验；相同字节命中不等于运行时linked group，见 [名称资源实验](docs/NAME_SLOTS.md)。新增槽四图支持局部显示，完整运行时门禁仍保留。
