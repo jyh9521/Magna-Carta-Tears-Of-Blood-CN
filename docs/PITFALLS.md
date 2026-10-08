@@ -126,3 +126,7 @@ UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足
 ## 姓名重复不等于全局改名授权
 
 原celfid17处、SHIP437处姓名字节命中包括其它语义；只允许显式字段试验，不用substring/global rename推导关联。新D0文本若配原字库会产生不匹配，因此名称实验不输出原Font缓存包或ISO，须与新增字库候选协调接入。见 [名称资源](NAME_SLOTS.md)。
+
+## 扩容后不能搬用原缓存绝对位置
+
+单姓名资源在原bundle起点3220278，新Font扩容后为3226797。名称overlay在版本/hash门禁后匹配完整唯一资源，不把旧offset盲写进新bundle；每次报告实际offset。只改slot0也可能触及lookup语义，运行时试验前不扩展其它字段，见 [单姓名候选](QA_NAME_POC.md)。

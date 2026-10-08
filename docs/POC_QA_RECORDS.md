@@ -50,3 +50,7 @@ work/venv/Scripts/python.exe -X utf8 tools/validate_poc_qa.py --candidate "<cand
 **Verified**：记录结构、输入/证据文件hash、拒绝门禁、合成状态与CLI行为。
 **High-confidence deduction**：独立记录副本及证据hash有助于追踪人工验收资料的版本和后续变化。
 **Unverified hypothesis**：新增槽候选的游戏内表现；完整人工pass也不自动升级为独立运行时验证。
+
+## 可选名称case
+
+locale含显式name_slot_overlays时，生成器与validator增加SHIP/resource/slot/N名称case；单字段候选共10项而非9项，expected与target严格比较。人物菜单的名称证据独立于相同测试文字的剧情/UI证据，见 [单姓名候选](QA_NAME_POC.md)。

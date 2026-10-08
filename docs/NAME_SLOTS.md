@@ -38,3 +38,7 @@ work/venv/Scripts/python.exe -X utf8 tools/prepare_name_slots.py --iso "<origina
 **High-confidence deduction**：5个相同首字段属于角色名称相关数据，SHIP与完整缓存需协调；不能据此确认5个字段全部为纯显示名称。
 **Unverified hypothesis**：字段作为UI显示或lookup key的具体作用、5条记录的逻辑关联、其它437处的语义及实际名称渲染路径。
 下一步以显式slot配置接入新增槽候选，分资源/分记录测试名称显示与脚本连续性；原镜像、既有可测试候选保持，未确认字段不开放批量写回。
+
+## 后续单字段镜像接入
+
+独立资源阶段的5条替换仅是受控资源演示。后续可运行候选改用显式slot0单字段，其余4条保持，复用本页相同边界与缓存机制；不把全5条资源直接替入镜像，见 [名称定位候选](QA_NAME_POC.md)。

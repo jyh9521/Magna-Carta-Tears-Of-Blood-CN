@@ -165,3 +165,7 @@ schema1保存candidate/receipt/locale SHA256、environment、cases的recorded_st
 ## 韩版角色CHA首字段实验
 
 00000460.cha：12 B header、301条299 B记录，slot0/4/8/169/229首NUL字符串相同；前四可写258 B，第五254 B，trailer40/44 B保持。celfid含完整唯一副本；slot号和marker id不混用。具体用途/逻辑关联待运行核验，见 [名称字段](NAME_SLOTS.md)。
+
+## name_slot_overlays — 实验性显式字段层
+
+locale可选数组，每条resource/expected_sha256/source_text/source_encoding/expected_slots/targets明确源身份与选中slot。expected_slots为全体完全相同首字段库存，targets仅为显式子集；不自动将同文判断为linked group。每个target含slot/target，报告name_slots与原三条records分开，QA增加稳定SHIP/resource/slot/N id。见 [名称配置](QA_NAME_POC.md)。

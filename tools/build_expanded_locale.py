@@ -15,6 +15,7 @@ from translate.celfid import decompress_chunked,recompress_chunked
 from iso import patch_iso
 from iso_validation import verify_iso_overlay
 from udf_overlay import plan_udf_overlay,apply_udf_overlay
+from name_slot_overlay import apply_name_slots
 
 
 def main() -> None:
@@ -69,8 +70,11 @@ def main() -> None:
     core.require(all(max(values)<=budget for values in widths.values()),'UI width budget exceeded')
     core.require(bundle.count(ui)==1,'UI bundle copy not unique')
     new_bundle,ui_segments=overlay_segments(bundle,[dict(label='ui',offset=bundle.index(ui),original=ui,modified=new_ui)],expected_sha256=bundle_report['modified_sha256'])
+    name_overrides,new_bundle,name_info=apply_name_slots(ship,new_bundle,encoder,locale.get('name_slot_overlays',[]))
     compressed=recompress_chunked(new_bundle);core.require(decompress_chunked(compressed)==new_bundle,'compression round trip mismatch')
     fover={'mrtsengine.u':engine,'celfid.lix':compressed};sover={game['fpb_resource'].lower():new_fpb,game['ui_resource'].lower():new_ui}
+    core.require(not set(sover).intersection(name_overrides),'name overlay collides with text target')
+    sover.update(name_overrides)
     for entries,overrides in [(fe,fover),(se,sover)]:overrides[entries[0][0].lower()]=core.manifest_overlay(entries[0][1],{n:len(b) for n,b in overrides.items()})
     changes={n:checked_archive(out/('original-'+n),out/n,overrides) for n,overrides in [('FILE.AFS',fover),('SHIP.AFS',sover)]}
     replacements={'/FILE.AFS':out/'FILE.AFS','/SHIP.AFS':out/'SHIP.AFS'}
@@ -86,7 +90,7 @@ def main() -> None:
     report=dict(milestone='expanded-text-poc',source_sha256=game['expected_iso_sha256'],modified_sha256=core.file_digest(out/'MODIFIED_FILE.iso'),
                 iso=validation,afs_changes=changes,package_sha256=core.digest(engine),bundle_sha256=core.digest(new_bundle),
                 fpb_records=fpb_info,ui=ui_info,ui_segments=ui_segments,candidate_ui_widths=widths,map=mapping['entries'],
-                glyphs_per_font=count,records=3,udf_records=udf_records,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
+                glyphs_per_font=count,records=3,name_slots=name_info,udf_records=udf_records,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
     (out/'DIFF_FILE.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     core.require(core.file_digest(args.iso)==game['expected_iso_sha256'],'original ISO changed')
     print(f"EXPANDED LOCALE STATIC PASS fonts=2 records=3 glyphs={count} in_place={branches[0]} relocated={branches[1]} iso_readback=true udf_synced={str(validation['udf_synced']).lower()} runtime=unverified")

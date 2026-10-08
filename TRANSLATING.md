@@ -61,4 +61,8 @@ UI副本同步不是完整linked name group校验；角色名、其他固定slot
 
 ## 新增槽实验与正式试译门禁
 
-独立Font扩容实验使用实际Font range/base/count验证映射，旧PoC map不改。已进入独立package和celfid候选；带UDF同步的D0实验ISO已通过结构回读，游戏显示与缓存尚未验收。完成新增槽镜像、最小显示/换行/存读档/切场景与linked名称验证后，从已确认资源的小批量正式试译开始；不以穷尽全部引擎逆向作为前提，不越过未知格式门禁。具体顺序见 [扩容实验](docs/FONT_EXPANSION.md)。
+独立Font扩容实验使用实际Font range/base/count验证映射，旧PoC map不改。已进入独立package和celfid候选；带UDF同步的D0实验ISO已通过结构回读，基线已有局部UI/剧情显示截图，完整缓存路径与回归尚未验收。完成新增槽镜像、最小显示/换行/存读档/切场景与linked名称验证后，从已确认资源的小批量正式试译开始；不以穷尽全部引擎逆向作为前提，不越过未知格式门禁。具体顺序见 [扩容实验](docs/FONT_EXPANSION.md)。
+
+## 单姓名字段定位例外（非正式译文）
+
+poc-name-01.json复用现有PoC字符，只增加CHA slot0目标“测试中文”，其他同名字段不自动扩散；不作为正式人名或生产catalog。源hash/完整匹配库存/明确slot/控制符/编码/容量/缓存需校验，人物菜单及lookup/剧情作用另验。新截图仅支持基线局部显示，存读档/场景与名称仍分别保留门禁。见 [名称候选](docs/QA_NAME_POC.md)。

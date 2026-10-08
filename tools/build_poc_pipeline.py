@@ -10,6 +10,7 @@ sys.path.insert(0,str(ROOT/'tools'))
 import font_poc as core
 from build_locale import load_config
 from verify_expanded_locale import fresh_output
+from name_slot_overlay import name_cases
 
 
 def command_plan(iso: Path,font: Path,locale: Path,profile: Path,out: Path,start: int) -> list[tuple[str,list[str]]]:
@@ -45,6 +46,7 @@ def run_steps(plan: list[tuple[str,list[str]]],out: Path,receipt: dict,*,runner=
 def write_qa(out: Path, config: dict, result: dict) -> None:
     cases=[dict(id=entry['id'],kind=entry['kind'],expected=entry['target'],status='untested',evidence=[])
            for entry in config['entries']]
+    cases.extend(name_cases(config))
     for name in ['cold-boot','two-font-paths','normal-save-load','scene-transition','battle','linked-character-name']:
         cases.append(dict(id=name,status='untested',evidence=[]))
     (out/'QA_CHECKLIST.json').write_text(json.dumps(dict(candidate_sha256=result['candidate_sha256'],
@@ -61,6 +63,7 @@ SHA-256：`{result['candidate_sha256']}`。
 1. 冷启动本目录image/MODIFIED_FILE.iso，不载入旧即时存档。
 2. 进入读档列表，空槽提示预期为“{ui}”；记录启动、缺字/乱码、重叠及裁切结果。这一步不需等待完整开场。
 3. 短UI通过后再检查开场标点、$n、长句折行和下一页末尾。分页不计作切场景。
+4. 若locale含name_slot_overlays，姓名目标及slot见QA_CHECKLIST.json；中文标记只用于定位来源。记录人物菜单/资料页及继续剧情的结果，姓名仍为原文也是有效定位结果，不作全局替换。
 
 ## 证据记录
 

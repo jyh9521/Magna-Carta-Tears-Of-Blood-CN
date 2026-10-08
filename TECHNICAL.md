@@ -147,3 +147,7 @@ Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FP
 ## 2026-10-09 名称首字段与缓存
 
 原00000460.cha为301×299 B记录加12 B header，在celfid完整唯一副本起点3220278。5条相同姓名首字段的容量/trailer和受控同步实验已核验；相同字节命中不等于运行时linked group，见 [名称资源实验](docs/NAME_SLOTS.md)。新增槽四图支持局部显示，完整运行时门禁仍保留。
+
+## 2026-10-09 单slot名称接入
+
+显式name_slot_overlays采用原资源hash及完整匹配库存门禁，仅按targets子集修改，复用slot_resource中的上游slot包装。slot0和新增Font缓存同步已接入AFS/ISO/UDF；旧三字段镜像在新工具下同hash验证通过。名称语义/运行时仍未验证，见 [候选身份](docs/QA_NAME_POC.md)。

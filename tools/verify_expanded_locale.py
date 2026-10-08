@@ -20,6 +20,7 @@ from research_inventory import package_tables,font_data
 from translate.celfid import decompress_chunked,recompress_chunked
 from udf_overlay import plan_udf_overlay
 from iso_validation import verify_iso_overlay
+from name_slot_overlay import apply_name_slots
 
 
 def fresh_output(path: Path, inputs: list[Path], *, root: Path=ROOT) -> Path:
@@ -86,9 +87,12 @@ def verify_candidate(source: Path, candidate: Path, font: Path, locale_path: Pat
     for serial in fonts.values():core.require(max(estimate_widths(record['target'],encoder,serial))<=record['max_estimated_pixels'],'UI width budget exceeded')
     core.require(bundle.count(ui)==1,'UI cached copy not unique')
     bundle,_=overlay_segments(bundle,[dict(label='ui',offset=bundle.index(ui),original=ui,modified=new_ui)],expected_sha256=core.digest(bundle))
+    name_overrides,bundle,name_info=apply_name_slots(ship,bundle,encoder,locale.get('name_slot_overlays',[]))
     compressed=recompress_chunked(bundle);core.require(decompress_chunked(compressed)==bundle,'compression round trip mismatch')
     overrides={'FILE.AFS':{'mrtsengine.u':engine,'celfid.lix':compressed},
                'SHIP.AFS':{game['fpb_resource'].lower():new_fpb,game['ui_resource'].lower():new_ui}}
+    core.require(not set(overrides['SHIP.AFS']).intersection(name_overrides),'name overlay collides with text target')
+    overrides['SHIP.AFS'].update(name_overrides)
     for name,entries in [('FILE.AFS',file_entries),('SHIP.AFS',ship_entries)]:
         edits=overrides[name];edits[entries[0][0].lower()]=core.manifest_overlay(entries[0][1],{n:len(data) for n,data in edits.items()})
         checked_archive(out/('original-'+name),out/('expected-'+name),edits)
@@ -103,7 +107,7 @@ def verify_candidate(source: Path, candidate: Path, font: Path, locale_path: Pat
                  'verification input changed')
     result=dict(schema=1,locale=locale['locale'],source_sha256=game['expected_iso_sha256'],candidate_sha256=candidate_hash,
                 font_sha256=core.file_digest(font),range_start=f'{start:04X}',font_characters=len(encoder.entries),records=len(locale['entries']),
-                iso=iso,independent_inputs='source ISO + font + locale; no build reports',
+                iso=iso,name_slots=name_info,independent_inputs='source ISO + font + locale; no build reports',
                 checks=['font raster/metrics/map','all export identities/payloads','cached fragments and UI copy',
                         'FPB/fixed-slot tokens and payloads','full AFS bytes/metadata/manifest','ISO9660/UDF views','untargeted ISO bytes'],
                 runtime='unverified')

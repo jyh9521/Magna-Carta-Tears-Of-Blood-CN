@@ -153,3 +153,7 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 ## 名称资源隔离实验
 
 tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原ISO和明确字体/locale生成名称资源与plan，不生成ISO；命令及未确认语义见 [名称资源](docs/NAME_SLOTS.md)。不能把输出单独替入原字库镜像。
+
+## 单姓名候选的一键构建
+
+现有build_poc_pipeline.py使用--locale locales/zh-CN/poc-name-01.json，输出新目录，即可增加一个显式CHA字段。独立验证器从原输入重新推导同一字段/缓存和完整AFS；旧poc-text.json不含此配置，保持原ISO内容。构建身份和测试步骤见 [名称候选](docs/QA_NAME_POC.md)。

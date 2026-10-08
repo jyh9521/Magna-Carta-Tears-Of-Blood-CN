@@ -9,6 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
 import font_poc as core
 from verify_expanded_locale import fresh_output
+from name_slot_overlay import name_cases
 
 ENVIRONMENT=('pcsx2_version','bios_identifier','renderer')
 RUNTIME_CASES=('cold-boot','two-font-paths','normal-save-load','scene-transition','battle','linked-character-name')
@@ -20,7 +21,10 @@ def validate_receipt(receipt: dict, config: dict, candidate_sha256: str, receipt
     core.require(isinstance(candidate_sha256,str) and re.fullmatch(r'[0-9a-f]{64}',candidate_sha256) is not None,'invalid candidate hash')
     core.require(receipt.get('candidate_sha256')==candidate_sha256,'QA candidate hash mismatch')
     expected={entry['id']:entry for entry in config['entries']}
-    core.require(len(expected)==len(config['entries']) and not set(expected).intersection(RUNTIME_CASES),'duplicate configured case ID')
+    added=name_cases(config)
+    core.require(not set(expected).intersection(c['id'] for c in added),'duplicate configured name case ID')
+    expected.update({c['id']:dict(kind=c['kind'],target=c['expected']) for c in added})
+    core.require(len(expected)==len(config['entries'])+len(added) and not set(expected).intersection(RUNTIME_CASES),'duplicate configured case ID')
     expected.update({name:None for name in RUNTIME_CASES})
     cases=receipt.get('cases')
     core.require(isinstance(cases,list) and all(isinstance(c,dict) and isinstance(c.get('id'),str) for c in cases),'invalid QA cases')
