@@ -95,3 +95,15 @@ glyph317在Normal serial+33315，105 B；Katakana serial+28560，90 B。仅bitma
 00001944.fpb pool offset0/26各写B0A1，seq0/seq2及所有header/table字节不变，文件530 B。
 FILE slot0只改变celfid compressed size；SHIP索引仍保留所有external stub sizes。
 ISO本次2 in-place，FILE目录LE/BE length同步，无relocation；ignored DIFF_FILE.json记录精确差分。
+
+## 韩版00001240.tui固定记录 (Verified bytes; limited to this file)
+文件125396 B；u32 count243 @0、u32观察值2 @4（含义未定）。其后243项516 B记录，u32 id+512 B NUL填充字段。
+record index127的id176 @65540，text @65544；原有效字节18 B，其后全0直至下一id175。
+本次只开放该显示字段；不能凭这个文件推断所有.tui或其他slot扩展名布局相同。
+celfid解压buffer内完整125396 B资源唯一出现于3929716，字段绝对位置3995260；副本同长同步，资源ID和记录布局不变。
+固定容量包含末尾NUL，本测试写入16 B，剩余496 B零填充；文件整体长度不变。
+
+## FPB增长实验
+00001944 seq0 20→30 B；seq2 offset26→36、length80→118；文件530→578 B，pool414→462 B。
+连续partition重新布局后后续窗口重定位；未编辑各窗口的bytes与控制标记保持。slot0 manifest记录实际578 B。
+src/localization当前backend遇overlap/gap/duplicate seq拒绝，未假设所有FPB是partition。

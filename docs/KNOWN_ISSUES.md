@@ -7,7 +7,8 @@
 | 中文显示/无乱码/不崩溃 | Partial observation | 读档UI截图显示“测”；完整字集、冷启动与长期稳定性待测 |
 | 共享字形槽副作用 | Expected in PoC | 原“가”对应B0A1均显示“测”，不是正式译文；下一阶段需稳定locale mapping |
 | 字宽/自动换行/标点/两font切换 | Open | bitmap/width候选已定位，runtime trace pending |
-| mapping稳定/容量扩展 | Open |现有2667 glyphs，2350韩文槽，扩容未知 |
+| mapping稳定/容量扩展 | Static PoC | 33字显式map重排不重分配；运行时全范围、跨场景稳定与扩容未知 |
+| 小字集实验text-poc-02 | Runtime pending | 3个测试目标静态通过，新版本中文/标点/长句/固定UI槽尚无运行时截图 |
 |存档/切场景/战斗回归|Open|未做中文PCSX2测试，不宣称兼容|
 |完整韩文资源/linked dependency mapping|Investigating|FPB/slots/region/celfid数据性质分别见研究报告|
 |USA/JP binary比较|Deferred|相应版本ISO未纳入研究输入，不作为KR PoC硬依赖；仅引用上游encoding choices|

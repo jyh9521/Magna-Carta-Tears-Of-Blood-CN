@@ -1,6 +1,6 @@
 # 第一阶段研究报告（2026-10-08）
 
-研究与设计交付后已实施单字“测”字体实验ISO；静态验证通过，截图确认读档UI显示该字。完整运行时验收待完成，不进入全文翻译。
+研究与设计交付后已实施单字和33字小字集实验ISO；静态验证通过，旧单字版截图确认读档UI显示“测”。小字集运行时验收待完成，详见 [小字集QA](QA_TEXT_POC.md)，不进入全文翻译。
 本文早期Verified为代码/字节/静态实验；新增局部截图观察见 [QA](QA_GLYPH_POC.md)，不外推完整PCSX2验收。
 
 ## 1. 输入、上游与审计范围
@@ -181,4 +181,4 @@ locale validator 要覆盖 token Counter 等值与必要顺序、placeholder、m
 
 **Unverified hypothesis**：实际 MIPS decoder/自动 wrap/kerning/baseline、字库扩容、所有姓名及 linked 依赖、韩版 celfid 完整可见文本量、JP CP932/USA 全字体范围、FILE stale 的运行时影响、SFD 播放同步、中文运行时与存档。
 
-当前扩展至单字实验构建及有限UI截图观察；不启动批量翻译，不发布正式中文补丁，不声称第一阶段全部验收完成。当前进展统一见 [STATUS](STATUS.md)。
+当前扩展至小字集实验构建及旧单字版有限UI截图观察；不启动批量翻译，不发布正式中文补丁，不声称第一阶段全部验收完成。当前进展统一见 [STATUS](STATUS.md)。

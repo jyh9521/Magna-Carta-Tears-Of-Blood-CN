@@ -1,8 +1,8 @@
 # Technical Notes — Magna Carta localization
 
-## Research status: KR_SINGLE_GLYPH_UI_OBSERVED
+## Research status: KR_SMALL_CHARSET_STATIC_VERIFIED
 
-截至2026-10-08：仅韩版输入；单字PoC完成静态验证，截图确认读档UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，当前运行时证据边界见 [PoC QA](docs/QA_GLYPH_POC.md)。
+截至2026-10-08：仅韩版输入；33字小字集PoC完成静态验证，旧单字版截图确认UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，新版本验收边界见 [小字集QA](docs/QA_TEXT_POC.md)。
 
 ### Evidence vocabulary
 - Verified：直接代码/字节/静态实验或明确截图观察；必须说明具体证据，局部截图不意味着完整运行时验收。
@@ -62,9 +62,9 @@ A（USA runtime 扩中文）当前没有 binary comparison 输入，且修改面
 2350 Hangul 槽的最终容量是否够用需完整字集统计；扩容是后续独立课题。
 
 ## Tests and stopping point
-24 tests passed；707 FPB byte-identical roundtrips；SFD单片重建/ADX一致，但时长差0.103944 s与DTS warnings未消除。
+46 tests passed；707 FPB byte-identical roundtrips；SFD单片重建/ADX一致，但时长差0.103944 s与DTS warnings未消除。
 截图确认UI单字显示；完整mapping、width/wrap、存档/切场景仍pending。详见docs/KNOWN_ISSUES.md。
-进入单字实验，不进入全文翻译。
+只进行小字集实验，不进入全文翻译。
 
 ## Single-glyph PoC (Verified static; limited UI screenshot observation)
 tools/font_poc.py使用locales/zh-CN/poc.json。B0A1/原“가”/候选glyph317置换为“测”，并非CP949直接编码中文。
@@ -77,3 +77,13 @@ FILE.AFS 21716992→21579776 B；SHIP仍45686784 B；ISO仍3210412032 B。
 ELF/LINEAR/MUSIC/SFD原字节保持。静态字形可读不等于runtime解码/advance/wrap/save通过。
 实验环境PCSX2 exe版本metadata2.8.2.0；读档UI截图，四处空槽提示显示“测”。截图Vulkan/640×447（1x）；BIOS、实际载入ISO hash、冷启动流程与版本没有出现在图内。
 该观察支持B0A1/index317候选映射路径（High-confidence deduction），没有证明两font加载优先级或所有双字节范围。
+
+## Small charset PoC (Verified static; runtime unverified)
+游戏profile与locale数据分离；33字符明确分配B0A1..B0C1/glyph317..349，每项对照两font的range/base。该范围全体运行时lookup尚未实测。
+两font selected bitmap与advance候选byte统一19，其余字节不变；按共同参考baseline定位标点，不逐字垂直居中。
+00001944.fpb seq0由20→30 B、seq2由80→118 B；seq2仍保留一个$n。隐式长度、显式offset/length与总池重建，530→578 B。
+韩版00001240.tui实测125396 B=8+243*516；header第二u32为2，语义未知。243个record IDs唯一；每项u32 id+512 B字段。
+record index127/id176位于65540，文本65544，原串18 B且余槽零填充；对应读档空提示的语义为高置信推断。
+该完整tui在celfid解压buffer中唯一出现于3929716，不能仅替换SHIP文本；本次同步整个同长资源副本。
+FILE/SHIP slot0只更新目标size、保留外部stub size；AFS条目顺序和metadata不变。ISO仅FILE/SHIP extent及FILE目录size字段改变。
+当前文本层保护控制token数量/顺序/值并拒绝未知结构；已有46项自动测试。完整UI长度/自动wrap、linked names、字库扩容与存档仍待验收。

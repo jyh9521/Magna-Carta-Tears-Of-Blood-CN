@@ -1,12 +1,12 @@
 # Building and Research
 
-目前提供可复现研究工具与单字字体实验ISO builder；游戏内验收待完成。没有batch translation。
+目前提供研究工具、单字及小字集实验ISO builder；完整游戏内验收待完成。没有batch translation。
 
 ## Inputs
 研究输入仅包含韩版SCKA-20043 ISO；保持原位，不复制进跟踪目录。
 已研究hash `6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`，3210412032 B。
 其它版本只能重新研究，不允许以此hash的结论无条件patch。
-上游USA-base undub CLI仍保留，但依赖USA ISO；本项目推荐的KR-only build profile尚为设计。
+上游USA-base undub CLI仍保留，但依赖USA ISO；KR-only实验profile已实施，完整locale生产流程仍待完善。
 
 ## Dependencies
 Windows本次Python3.14.2，pinned requirements-research.txt：cri-afs0.1.1、sfd-muxer0.1.1、pycdlib1.21.0、Pillow12.3.0、fonttools4.66.1。
@@ -19,7 +19,7 @@ iso.py优先使用isoinfo；缺少该程序时用pycdlib读取ISO9660 metadata�
 python -m venv work/venv
 work/venv/Scripts/python.exe -m pip install -r requirements-research.txt
 work/venv/Scripts/python.exe -X utf8 tools/research_inventory.py --iso "<original-KR-ISO-path>" --out work/research
-work/venv/Scripts/python.exe -X utf8 -m unittest discover -s tests -p test_research.py -v
+work/venv/Scripts/python.exe -X utf8 -m unittest discover -s tests -p "test_*.py" -v
 work/venv/Scripts/python.exe -X utf8 tools/research_media.py --iso "<original-KR-ISO-path>" 2> work/media-stderr.log
 ```
 
@@ -28,7 +28,7 @@ Media wrapper只抽单片180216，直接调用upstream build_cutscene，不新�
 所有游戏数据/实验副本仅work/build；生成catalog也不跟踪。工具不输出可玩中文补丁。
 
 ## Results and acceptance
-24 tests passed（原14项及PoC新增10项，包括真实pycdlib metadata的relocation测试）；707 KR FPB无编辑byte-identical。
+46 tests passed（原14项、单字PoC10项、小字集22项，包含真实pycdlib metadata的relocation测试）；707 KR FPB无编辑byte-identical。
 SFD一片静态demux/hardsub/mux成功且ADX相同；duration drift与warning见KNOWN_ISSUES。
 Font bitmap可读是static evidence；截图另已确认读档UI单字显示，wrap/save/scene等门禁仍待完成，见docs/QA_GLYPH_POC.md。
 
@@ -56,3 +56,20 @@ work/venv/Scripts/python.exe -X utf8 tools/font_poc.py verify --iso build/poc/MO
 本次ISO为2 in-place、0 relocation；原版不变，无ELF修改。
 PCSX2目录已忽略且未跟踪。原版先冷启动，再启动实验ISO并开始新游戏；开场喘息对白与后续含$n对白首字应出现“测”。
 不要从旧savestate验收。截图、日志、BIOS、memory cards与savestates仅放ignored目录。
+
+## 小字集PoC — text-poc-02
+
+版本指纹在profiles/scka-20043.json；三个测试目标及33字显式mapping在locales/zh-CN。tools/build_locale.py复用上游AFS/FPB/压缩/ISO，src/localization/text.py负责编码与受控字段编辑。
+从原ISO直接构建，不依赖旧提取目录；字体仍使用上述锁定hash的外部SimHei。旧build/poc不覆盖，输出目录不得与其他实验混用。
+
+```powershell
+work/venv/Scripts/python.exe -X utf8 tools/build_locale.py verify --iso "<original-KR-ISO-path>" --locale locales/zh-CN/poc-text.json --out build/text-poc-02 --state baseline
+work/venv/Scripts/python.exe -X utf8 tools/build_locale.py build --iso "<original-KR-ISO-path>" --locale locales/zh-CN/poc-text.json --out build/text-poc-02 --font C:/Windows/Fonts/simhei.ttf
+work/venv/Scripts/python.exe -X utf8 tools/build_locale.py verify --iso build/text-poc-02/MODIFIED_FILE.iso --locale locales/zh-CN/poc-text.json --out build/text-poc-02 --state modified
+Copy-Item -LiteralPath build/text-poc-02/MODIFIED_FILE.iso -Destination build/text-poc-02/ROLLBACK_COPY.iso
+work/venv/Scripts/python.exe -X utf8 tools/build_locale.py rollback --iso build/text-poc-02/ROLLBACK_COPY.iso --locale locales/zh-CN/poc-text.json --out build/text-poc-02
+```
+
+modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些由同一次构建自动产生，不是未记录的外部依赖。
+回滚仅覆盖指定独立ROLLBACK_COPY，保留修改ISO。精确日志、差分、preview及事务记录均在ignored build/text-poc-02。
+46项自动测试通过；此构建未获PCSX2验收。短串、长句、槽位与测试顺序见 [QA_TEXT_POC](docs/QA_TEXT_POC.md)。

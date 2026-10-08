@@ -1,0 +1,26 @@
+{
+  "expected_iso_sha256": "6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45",
+  "expected_fpb_sha256": "77b8d80bb0989adfe2b7b73b4a06831f00774e036b5128db69b6fc35b097ca94",
+  "expected_engine_sha256": "81c25a54174d0fe7736d324a29862a7b0302df9c03ef54cd5f97bcbc2360d9c1",
+  "fonts": {
+    "NormalFont": "3c8e9490b387b7bf23263bc55660417fcf58c9889dfb4213f82ec1c6b5b5c26c",
+    "KatakanaFont": "a62075c2c73eebd38f286029891ddd8956aa0eae7286068915a21def80637b47"
+  },
+  "region": "kr",
+  "boot": "SCKA_200.43",
+  "fpb_resource": "00001944.fpb",
+  "expected_bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "ui_resource": "00001240.tui",
+  "expected_ui_sha256": "e51d42d096a485949f27d23b8549eb0f56049099214ad688cb225590662e7a83",
+  "ui": {
+    "header_size": 8,
+    "record_size": 516,
+    "text_offset": 4,
+    "text_bytes": 512,
+    "record_index": 127,
+    "record_id": 176,
+    "record_count": 243,
+    "kind": 2,
+    "expected_slot_sha256": "9a003748acd8d337036476cb0ca31961bfb560525ba56c787f08c2a0990238fd"
+  }
+}

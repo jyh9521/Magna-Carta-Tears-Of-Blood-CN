@@ -16,7 +16,7 @@
 ```
 示例为独立测试数据，不含完整原版游戏文本，不是现有patch.py可读取的catalog。
 结构字段source hash、byte cap、保护类别、link group由extractor生成，不手填offset。
-未来glyph-map将Unicode映射到稳定byte-pair/glyph index；runtime编码尚未实现，不选择GBK/UTF-8作为未经验证默认。
+小字集PoC已有显式Unicode→byte-pair/glyph index编码；生产编码与容量扩展未完成，不选择GBK/UTF-8作为运行时默认。
 
 ## Protected tokens
 $n是ASCII换行token；$D04/$D06/$D08/$D20等全部保留。具体portrait/speaker含义未验证。
@@ -43,3 +43,12 @@ PCSX2显示/无乱码/字宽/wrap/稳定mapping/存档/切场景验收前不扩�
 
 已实施单字实验：locales/zh-CN/poc.json保存原创“测”及B0A1候选mapping，不在en字段填中文。
 00001944.fpb seq0/seq2各改一个双字节字符，其余韩文及控制符保留；不是正式catalog，不做批量译入。
+
+## 小字集测试数据
+
+locales/zh-CN/poc-text.json使用target字段，显式引用game profile和poc-map.json；不写入en。map重排不改变既有字符的编码，新增字符不得自动重分配旧槽。
+src/localization/text.py严格保护已识别$n/$DNN、printf placeholders、数字占位符及ASCII标签的数量、值、顺序；未知$/%/尖括号/花括号结构报错，不按普通文字编码。
+空目标、NUL/原始换行控制字节、缺映射、重复char/code/glyph、固定槽缺NUL容量均拒绝；换行通过$n。
+UI测试条目配置max_estimated_pixels192，两font的候选字宽均须通过预算；尚未测得runtime宽度，不能用此估算替代游戏内排版验收。宽度估算只解析$n，其他placeholder宽度未定时拒绝估算。
+仅两个FPB窗口与一个已确认几何的UI字段开放测试，原标识符与其他记录不改。当前FPB backend只接受连续不重叠pool partition，重叠格式拒绝，不静默串接。
+UI副本同步不是完整linked name group校验；角色名、其他固定slot与全局catalog仍未开放。完整门禁和状态见docs/QA_TEXT_POC.md。

@@ -53,3 +53,11 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 修复为class==Font且name匹配，再验证serial hash；保留初次失败日志于build/poc。
 单槽“가”→“测”影响所有B0A1，不能作为正式中文编码；需游戏验收后建立稳定locale mapping。
 保持原width byte仅证明字段一致，不证明中文advance/wrap。SimHei hash锁定，发布级开放字体仍待选择。
+
+## UI资源副本与小字集实验
+00001240.tui完整资源同时位于SHIP和celfid，显示字段只改SHIP可能仍显示旧文本；加载优先级未证明，实验同步两份。
+原.tui 512 B字段布局不等于上游ASCII heuristic容量，必须按header/count/record id/source slot hash定位并保留NUL。
+逐字按自身bbox垂直居中会改变标点位置；小字集按共同参考baseline渲染，仍需游戏验收。
+小字集虽有稳定map，仍占用原韩文字形槽；保留的韩文会受影响，不能当完整生产编码。
+控制符测试最初将%unknown误判为未知结构，但其前缀%u是合法printf token；未知符测试改用%q，保留合法token规则。初始测试日志在ignored build/text-poc-02。
+初始UI全标点候选串估算297/306宽，超过实验静态预算192，未进行游戏验收；UI改用短串估算164/173，完整标点留在FPB。这个差值来自候选metrics，不是实测UI像素宽度，也不作为已复现裁切证据。

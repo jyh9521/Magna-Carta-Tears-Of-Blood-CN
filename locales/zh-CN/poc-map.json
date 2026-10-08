@@ -1,0 +1,171 @@
+{
+  "encoding": "mapped-double-byte",
+  "status": "poc-collides-with-original-Korean-slots",
+  "entries": [
+    {
+      "character": "测",
+      "bytes": "b0a1",
+      "glyph": 317
+    },
+    {
+      "character": "试",
+      "bytes": "b0a2",
+      "glyph": 318
+    },
+    {
+      "character": "中",
+      "bytes": "b0a3",
+      "glyph": 319
+    },
+    {
+      "character": "文",
+      "bytes": "b0a4",
+      "glyph": 320
+    },
+    {
+      "character": "，",
+      "bytes": "b0a5",
+      "glyph": 321
+    },
+    {
+      "character": "。",
+      "bytes": "b0a6",
+      "glyph": 322
+    },
+    {
+      "character": "！",
+      "bytes": "b0a7",
+      "glyph": 323
+    },
+    {
+      "character": "？",
+      "bytes": "b0a8",
+      "glyph": 324
+    },
+    {
+      "character": "“",
+      "bytes": "b0a9",
+      "glyph": 325
+    },
+    {
+      "character": "”",
+      "bytes": "b0aa",
+      "glyph": 326
+    },
+    {
+      "character": "《",
+      "bytes": "b0ab",
+      "glyph": 327
+    },
+    {
+      "character": "》",
+      "bytes": "b0ac",
+      "glyph": 328
+    },
+    {
+      "character": "这",
+      "bytes": "b0ad",
+      "glyph": 329
+    },
+    {
+      "character": "是",
+      "bytes": "b0ae",
+      "glyph": 330
+    },
+    {
+      "character": "一",
+      "bytes": "b0af",
+      "glyph": 331
+    },
+    {
+      "character": "段",
+      "bytes": "b0b0",
+      "glyph": 332
+    },
+    {
+      "character": "较",
+      "bytes": "b0b1",
+      "glyph": 333
+    },
+    {
+      "character": "长",
+      "bytes": "b0b2",
+      "glyph": 334
+    },
+    {
+      "character": "的",
+      "bytes": "b0b3",
+      "glyph": 335
+    },
+    {
+      "character": "句",
+      "bytes": "b0b4",
+      "glyph": 336
+    },
+    {
+      "character": "子",
+      "bytes": "b0b5",
+      "glyph": 337
+    },
+    {
+      "character": "用",
+      "bytes": "b0b6",
+      "glyph": 338
+    },
+    {
+      "character": "于",
+      "bytes": "b0b7",
+      "glyph": 339
+    },
+    {
+      "character": "检",
+      "bytes": "b0b8",
+      "glyph": 340
+    },
+    {
+      "character": "查",
+      "bytes": "b0b9",
+      "glyph": 341
+    },
+    {
+      "character": "字",
+      "bytes": "b0ba",
+      "glyph": 342
+    },
+    {
+      "character": "宽",
+      "bytes": "b0bb",
+      "glyph": 343
+    },
+    {
+      "character": "、",
+      "bytes": "b0bc",
+      "glyph": 344
+    },
+    {
+      "character": "标",
+      "bytes": "b0bd",
+      "glyph": 345
+    },
+    {
+      "character": "点",
+      "bytes": "b0be",
+      "glyph": 346
+    },
+    {
+      "character": "和",
+      "bytes": "b0bf",
+      "glyph": 347
+    },
+    {
+      "character": "换",
+      "bytes": "b0c0",
+      "glyph": 348
+    },
+    {
+      "character": "行",
+      "bytes": "b0c1",
+      "glyph": 349
+    }
+  ]
+}

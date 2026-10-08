@@ -1,0 +1,34 @@
+{
+  "locale": "zh-CN",
+  "milestone": "text-poc-02",
+  "game_profile": "profiles/scka-20043.json",
+  "glyph_map": "locales/zh-CN/poc-map.json",
+  "font_input": {
+    "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+    "family": "SimHei",
+    "license": "local Windows font experiment; not redistributed"
+  },
+  "alignment_reference": "测",
+  "advance": 19,
+  "entries": [
+    {
+      "id": "SHIP/00001944.fpb/seq/0",
+      "kind": "fpb",
+      "seq": 0,
+      "target": "测试中文，。！？“”《》123ABC"
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/2",
+      "kind": "fpb",
+      "seq": 2,
+      "target": "测试中文$n这是一段较长的中文测试句子，用于检查字宽、标点和换行。这是一段较长的中文测试句子，用于检查字宽、标点和换行。"
+    },
+    {
+      "id": "SHIP/00001240.tui/record/176",
+      "kind": "fixed-display-slot",
+      "target": "测试中文。123ABC",
+      "max_estimated_pixels": 192
+    }
+  ],
+  "require_fpb_growth": true
+}

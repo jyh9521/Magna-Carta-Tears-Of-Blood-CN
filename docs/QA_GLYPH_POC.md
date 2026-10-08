@@ -43,6 +43,6 @@
 1. 记录实际载入ISO路径与hash、PCSX2版本、BIOS标识及renderer；原版与实验版使用同设置冷启动，不依赖旧savestate。
 2. 开始新游戏并推进至00001944开场喘息对白和含$n后续对白；保存首字“测”、换行及紧邻标点截图。
 3. 进入可存档位置，写入测试存档再重新启动载入；用独立memory card，记录切场景/战斗结果。
-4. 这些门禁通过后，再实施稳定多字符映射与小字集PoC，不开始全文翻译。共享槽副作用见 [KNOWN_ISSUES](KNOWN_ISSUES.md)。
+4. 小字集离线构建可作为下一轮验收素材，但不表示上述运行时门禁通过；扩大文本开放范围仍需完成对应验收，不开始全文翻译。共享槽副作用见 [KNOWN_ISSUES](KNOWN_ISSUES.md)，新素材见 [小字集QA](QA_TEXT_POC.md)。
 
 重建命令见 [BUILDING.md](../BUILDING.md)；baseline/modified/rollback命令及literal输出见本地ignored `build/poc/VERIFICATION.txt`。
