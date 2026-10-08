@@ -4,7 +4,8 @@
 
 | 项目 | 状态 | 证据/下一步 |
 |---|---|---|
-| 中文显示/无乱码/不崩溃 | Runtime pending | 单字glyph替换ISO已生成，用户准备BIOS，PCSX2验收待完成 |
+| 中文显示/无乱码/不崩溃 | Partial observation | 用户截图读档UI显示“测”；完整字集、冷启动与长期稳定性待测 |
+| 共享字形槽副作用 | Expected in PoC | 原“가”对应B0A1均显示“测”，不是正式译文；下一阶段需稳定locale mapping |
 | 字宽/自动换行/标点/两font切换 | Open | bitmap/width候选已定位，runtime trace pending |
 | mapping稳定/容量扩展 | Open |现有2667 glyphs，2350韩文槽，扩容未知 |
 |存档/切场景/战斗回归|Open|未做中文PCSX2测试，不宣称兼容|

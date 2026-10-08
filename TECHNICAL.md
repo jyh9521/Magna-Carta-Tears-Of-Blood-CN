@@ -1,11 +1,11 @@
 # Technical Notes — Magna Carta localization
 
-## Research status: KR_BASE_DESIGN
+## Research status: KR_SINGLE_GLYPH_UI_OBSERVED
 
-截至 2026-10-08：仅韩版输入，研究/设计，不是可玩中文补丁。完整证据、复用矩阵、19 类资源数量、三路线比较、locale 方案和 PoC 计划见 [第一阶段报告](docs/PHASE1_RESEARCH.md)。
+截至2026-10-08：仅韩版输入；单字PoC完成静态验证，用户截图确认读档UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，当前运行时证据边界见 [PoC QA](docs/QA_GLYPH_POC.md)。
 
 ### Evidence vocabulary
-- Verified：本次代码/字节/静态实验确认；不意味着运行时验收。
+- Verified：直接代码/字节/静态实验或明确截图观察；必须说明具体证据，局部截图不意味着完整运行时验收。
 - High-confidence deduction：有多项证据，仍需 runtime trace。
 - Unverified hypothesis：没有直接实测支持。
 - Upstream-reported：来自 soyjxck 的旧实验，不作为本次独立确认。
@@ -62,11 +62,11 @@ A（USA runtime 扩中文）当前没有 binary comparison 输入，且修改面
 2350 Hangul 槽的最终容量是否够用需完整字集统计；扩容是后续独立课题。
 
 ## Tests and stopping point
-14 synthetic tests passed；707 FPB byte-identical roundtrips；SFD 单片重建/ADX 一致，但时长差 0.103944 s 与 DTS warnings 未消除。
-中文 PCSX2 显示、字符映射、width/wrap、存档/切场景均 pending。详见 docs/KNOWN_ISSUES.md。
+24 tests passed；707 FPB byte-identical roundtrips；SFD单片重建/ADX一致，但时长差0.103944 s与DTS warnings未消除。
+用户截图确认UI单字显示；完整mapping、width/wrap、存档/切场景仍pending。详见docs/KNOWN_ISSUES.md。
 进入单字实验，不进入全文翻译。
 
-## Single-glyph PoC (Verified static; runtime pending)
+## Single-glyph PoC (Verified static; limited UI screenshot observation)
 tools/font_poc.py使用locales/zh-CN/poc.json。B0A1/原“가”/候选glyph317换成“测”，并非CP949直接编码中文。
 两Font只改glyph317 bitmap；serial长度、其余glyph、全部metrics/range/base/tail保持原字节。
 MrtsEngine.u及celfid内两font精确副本同步；压缩复用上游24576 B chunks/zlib9。
@@ -75,4 +75,5 @@ MrtsEngine.u及celfid内两font精确副本同步；压缩复用上游24576 B ch
 FILE.AFS 21716992→21579776 B；SHIP仍45686784 B；ISO仍3210412032 B。
 重解析验证AFS顺序/metadata、无关entry、两font副本、manifest与FPB；全ISO对照只允许两AFS extent及FILE目录length字段变化。
 ELF/LINEAR/MUSIC/SFD原字节保持。静态字形可读不等于runtime解码/advance/wrap/save通过。
-PCSX2 exe版本metadata2.8.2.0；用户准备BIOS，本次尚无中文游戏截图验收。
+本机PCSX2 exe版本metadata2.8.2.0；用户已提供读档UI截图，四处空槽提示显示“测”。截图Vulkan/640×447（1x）；BIOS、实际载入ISO hash、冷启动流程与版本没有出现在图内。
+该观察支持B0A1/index317候选映射路径（High-confidence deduction），没有证明两font加载优先级或所有双字节范围。
