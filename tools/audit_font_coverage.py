@@ -135,21 +135,67 @@ def inspect_tui(blob: bytes) -> tuple[dict, list[tuple[int, bytes]]]:
     return {**report, "status": "geometry-verified", "fields": fields}, decoded
 
 
+def inspect_tui_pairs(blob: bytes) -> tuple[dict, list[tuple[int, int, bytes]]]:
+    """Audit both 256-byte halves; layout evidence is not edit permission."""
+    geometry, _ = inspect_tui(blob)
+    if geometry["status"] != "geometry-verified":
+        return geometry, []
+    report = {k: v for k, v in geometry.items() if k != "fields"}
+    fields, decoded = [], []
+    for record in geometry["fields"]:
+        for half in range(2):
+            offset = record["offset"] + half * 256
+            slot = blob[offset:offset + 256]
+            field = {"index": record["index"], "id": record["id"], "half": half,
+                     "offset": offset, "span_bytes": 256, "sha256": core.digest(slot)}
+            nul = slot.find(b"\0")
+            if nul < 0:
+                field["status"] = "missing-nul"
+            elif any(slot[nul:]):
+                field["status"] = "nonzero-padding"
+            elif nul == 0:
+                field["status"] = "empty"
+            else:
+                raw = slot[:nul]
+                try:
+                    text = raw.decode("cp949", errors="strict")
+                    core.require(text.encode("cp949") == raw, "noncanonical TUI half bytes")
+                except UnicodeDecodeError:
+                    field["status"] = "decode-failed"
+                else:
+                    field.update(status="decoded", encoded_bytes=nul)
+                    try:
+                        protected_tokens(text)
+                    except ValueError:
+                        field["protected_structures_known"] = False
+                    else:
+                        field["protected_structures_known"] = True
+                    field["has_raw_control"] = any(ord(c) < 32 for c in text)
+                    decoded.append((record["id"], half, raw))
+            fields.append(field)
+    return {**report, "fields": fields}, decoded
+
+
 def scan_tuis(entries: list[tuple[str, bytes]], slots: dict[bytes, int],
-              excluded_records: dict[str, set[int]], bundle: bytes) -> dict:
+              excluded_records: dict[str, set[int]], bundle: bytes, *, paired: bool = False) -> dict:
     usage, remaining = Counter(), Counter()
     refs, remaining_refs, statuses, resources = defaultdict(set), defaultdict(set), Counter(), {}
     for name, blob in entries:
         if not name.lower().endswith(".tui"):
             continue
-        report, fields = inspect_tui(blob)
+        if paired:
+            report, fields = inspect_tui_pairs(blob)
+        else:
+            report, flat_fields = inspect_tui(blob)
+            fields = [(record_id, 0, raw) for record_id, raw in flat_fields]
         report["exact_bundle_copy_count"] = bundle.count(blob)
         statuses["file/" + report["status"]] += 1
         for field in report.get("fields", []):
-            statuses["field/" + field["status"]] += 1
+            prefix = f"half{field['half']}" if paired else "field"
+            statuses[prefix + "/" + field["status"]] += 1
         excluded = excluded_records.get(name, set())
-        core.require(excluded.issubset({record_id for record_id, _ in fields}), "excluded TUI record not decoded")
-        for record_id, raw in fields:
+        core.require(excluded.issubset({record_id for record_id, half, _ in fields if half == 0}), "excluded TUI record not decoded")
+        for record_id, half, raw in fields:
             for char in raw.decode("cp949"):
                 code = char.encode("cp949")
                 if code not in slots:
@@ -157,7 +203,7 @@ def scan_tuis(entries: list[tuple[str, bytes]], slots: dict[bytes, int],
                 key = code.hex()
                 usage[key] += 1
                 refs[key].add(name)
-                if record_id not in excluded:
+                if half != 0 or record_id not in excluded:
                     remaining[key] += 1
                     remaining_refs[key].add(name)
         resources[name] = report
@@ -228,15 +274,20 @@ def main() -> None:
     tui_inventory = scan_tuis(archives["SHIP.AFS"], slots, {game["ui_resource"]: {game["ui"]["record_id"]}}, bundle)
     tui_summary = capacity_summary(tui_inventory, encoder.entries, scope="decoded_tui_fields")
     combined_summary = capacity_summary(combine_inventories(inventory, tui_inventory), encoder.entries, scope="decoded_fpb_and_tui")
+    pair_inventory = scan_tuis(archives["SHIP.AFS"], slots, {game["ui_resource"]: {game["ui"]["record_id"]}}, bundle, paired=True)
+    pair_summary = capacity_summary(combine_inventories(inventory, pair_inventory), encoder.entries, scope="decoded_fpb_and_tui_halves")
     core.require(core.file_digest(args.iso) == before, "original ISO hash changed")
-    report = {"schema": 2, "input_sha256": before, "locale": locale["locale"],
+    report = {"schema": 3, "input_sha256": before, "locale": locale["locale"],
               "fonts": fonts, "inventory": inventory, "summary": summary,
               "tui_inventory": tui_inventory, "tui_summary": tui_summary, "combined_summary": combined_summary,
+              "tui_pair_inventory": pair_inventory, "combined_pair_summary": pair_summary,
               "evidence": "static only; decoded FPB and clean TUI fields, not all visible text, a free-slot allocator or runtime proof"}
     (out / "font-coverage.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf8")
     print("FONT COVERAGE PASS " + json.dumps({k: v for k, v in summary.items() if k != "mapping_collisions"}, sort_keys=True))
     print("TUI COVERAGE PASS " + json.dumps(tui_inventory["statuses"], sort_keys=True))
     print("COMBINED COVERAGE PASS " + json.dumps({k: v for k, v in combined_summary.items() if k != "mapping_collisions"}, sort_keys=True))
+    print("TUI PAIR PASS " + json.dumps(pair_inventory["statuses"], sort_keys=True))
+    print("PAIRED COVERAGE PASS " + json.dumps({k: v for k, v in pair_summary.items() if k != "mapping_collisions"}, sort_keys=True))
 
 
 if __name__ == "__main__":

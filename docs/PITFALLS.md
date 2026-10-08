@@ -60,6 +60,8 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 
 ## UI资源副本与小字集实验
 
+29个TUI非零尾部全部始于载荷+256且独立CP949/NUL通过，后续双区段审计已消除“任意残留”假设；两段用途仍未知。按首NUL后第一个非零位置计算整记录可写容量，会把第二段空位或间隙当容量；未来显式采用256 B段范围并保留另一半。旧PoC的512 B span仅限定id176空次段，不作为生产定义。见 [TUI字段](TUI_FIELDS.md)。
+
 全部16个TUI几何一致仍不等于所有512 B字段都是单一纯文本槽：29个字段在首NUL后有非零数据，当前只读审计排除这些字段，不能清零尾部。10个资源存在完整celfid副本，副本不应重复累计使用次数。见 [TUI审计](TUI_AUDIT.md)。
 
 全量FPB审计发现显式seq0和header implicit前缀同时存在的六个资源。不能把synthesize_implicit_seq0返回的views当作所有文件的完整pool partition，不能丢弃未覆盖前缀。另有20个pool含当前未识别百分号，2个pool含NUL；普通对话规则不能无条件套用。详见 [FPB审计](FPB_AUDIT.md)。

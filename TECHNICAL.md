@@ -51,6 +51,8 @@ ISO原地缩小/relocation合成测试通过；新增pycdlib只读metadata fallb
 
 ## Text and linked resources
 
+TUI schema3只读审计确认两个256 B区段的全量字节布局，892非空区段CP949严格往返；段用途仍为待验证。通用fixed-slot函数的显式256 B合成测试已确认另一半/metadata保留和NUL溢出门禁，未对原版写回。旧PoC profile及ISO保留；详见 [TUI字段](docs/TUI_FIELDS.md)。
+
 全部16个KR TUI记录几何已核对，共863项；834字段满足严格CP949和clean NUL padding，29项存在非零尾部。10个资源有一个完整celfid副本。限定FPB+TUI语料使用1084槽，当前map冲突17槽/5406次/629资源；不作为全游戏空闲或运行时证明。见 [TUI审计](docs/TUI_AUDIT.md)。
 
 全量KR FPB离线审计：707个解析资源无编辑回写一致；701个符合当前连续partition条件，667个同时符合严格解码与控制结构前置条件。六个显式seq0资源存在合成views未覆盖的前缀，不能通过简单串接丢弃。详见 [FPB审计](docs/FPB_AUDIT.md)；仅静态证据，不改变运行时验收状态。

@@ -1,13 +1,15 @@
 """Synthetic coverage and collision accounting without original game assets."""
 from pathlib import Path
 import struct
+import hashlib
 import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "tools"), str(ROOT / "lib")]
-from audit_font_coverage import observed_slots, scan_fpbs, capacity_summary, inspect_tui, scan_tuis, combine_inventories
+from audit_font_coverage import observed_slots, scan_fpbs, capacity_summary, inspect_tui, inspect_tui_pairs, scan_tuis, combine_inventories
 from translate.fpb import build_fpb
+from localization.text import MappedEncoder, rewrite_fixed_slot
 
 
 class FontCoverageTests(unittest.TestCase):
@@ -126,6 +128,82 @@ class FontCoverageTests(unittest.TestCase):
     def test_tui_report_does_not_export_text(self):
         report, _ = inspect_tui(self.tui([(1, b'INTERNAL_KEY')]))
         self.assertNotIn('INTERNAL_KEY', str(report))
+
+    def pair(self, first, second):
+        return self.tui([(176, first.ljust(256, b'\0') + second.ljust(256, b'\0'))])
+
+    def test_pair_offsets_and_both_text_fields(self):
+        blob = self.pair(bytes.fromhex('b0a1'), bytes.fromhex('b0a2'))
+        report, decoded = inspect_tui_pairs(blob)
+        self.assertEqual([f['offset'] for f in report['fields']], [12, 268])
+        self.assertEqual([f['span_bytes'] for f in report['fields']], [256, 256])
+        self.assertEqual(decoded, [(176, 0, bytes.fromhex('b0a1')), (176, 1, bytes.fromhex('b0a2'))])
+
+    def test_pair_empty_secondary(self):
+        report, decoded = inspect_tui_pairs(self.pair(b'A', b''))
+        self.assertEqual(report['fields'][1]['status'], 'empty')
+        self.assertEqual(decoded, [(176, 0, b'A')])
+
+    def test_pair_no_cross_half_terminator(self):
+        report, decoded = inspect_tui_pairs(self.pair(b'A' * 256, b'B'))
+        self.assertEqual(report['fields'][0]['status'], 'missing-nul')
+        self.assertEqual(decoded, [(176, 1, b'B')])
+
+    def test_pair_dirty_padding_retained_as_exception(self):
+        report, decoded = inspect_tui_pairs(self.pair(b'A\0B', b'C'))
+        self.assertEqual(report['fields'][0]['status'], 'nonzero-padding')
+        self.assertEqual(decoded, [(176, 1, b'C')])
+
+    def test_pair_decode_error_not_replaced(self):
+        report, _ = inspect_tui_pairs(self.pair(b'A', b'\xff'))
+        self.assertEqual(report['fields'][1]['status'], 'decode-failed')
+
+    def test_pair_unknown_control_protected(self):
+        report, _ = inspect_tui_pairs(self.pair(b'A', b'%q'))
+        self.assertFalse(report['fields'][1]['protected_structures_known'])
+
+    def test_pair_exclusion_only_primary(self):
+        blob = self.pair(bytes.fromhex('b0a1'), bytes.fromhex('b0a1'))
+        r = scan_tuis([('a.tui', blob)], self.slots, {'a.tui': {176}}, blob, paired=True)
+        self.assertEqual(r['slots']['b0a1']['original_occurrences'], 2)
+        self.assertEqual(r['slots']['b0a1']['outside_target_windows_occurrences'], 1)
+        self.assertEqual(r['statuses']['half1/decoded'], 1)
+
+    def test_pair_geometry_rejection(self):
+        report, decoded = inspect_tui_pairs(b'X')
+        self.assertEqual(report['status'], 'header-truncated')
+        self.assertEqual(decoded, [])
+
+    def half_profile(self, blob, half):
+        start = 12 + half * 256
+        return {'record_count': 1, 'kind': 2, 'header_size': 8, 'record_size': 516,
+                'record_index': 0, 'record_id': 176, 'text_offset': 4 + half * 256,
+                'text_bytes': 256, 'expected_slot_sha256': hashlib.sha256(blob[start:start + 256]).hexdigest()}
+
+    def test_explicit_half_write_preserves_sibling_and_metadata(self):
+        blob = self.pair(b'A', b'B')
+        encoder = MappedEncoder([{'character': '测', 'bytes': 'b0a1', 'glyph': 317}])
+        for half in (0, 1):
+            after, _ = rewrite_fixed_slot(blob, self.half_profile(blob, half), '测', encoder)
+            start = 12 + half * 256
+            self.assertEqual(after[:start], blob[:start])
+            self.assertEqual(after[start + 256:], blob[start + 256:])
+            self.assertEqual(after[start:start + 2], bytes.fromhex('b0a1'))
+
+    def test_half_capacity_includes_terminator(self):
+        blob = self.pair(b'A', b'B')
+        encoder = MappedEncoder([{'character': '测', 'bytes': 'b0a1', 'glyph': 317}])
+        profile = self.half_profile(blob, 0)
+        rewrite_fixed_slot(blob, profile, '测' * 127, encoder)
+        with self.assertRaisesRegex(ValueError, 'overflow'):
+            rewrite_fixed_slot(blob, profile, '测' * 128, encoder)
+
+    def test_half_source_identity_rejects_wrong_half(self):
+        blob = self.pair(b'A', b'B')
+        encoder = MappedEncoder([{'character': '测', 'bytes': 'b0a1', 'glyph': 317}])
+        wrong = {**self.half_profile(blob, 0), 'text_offset': 260}
+        with self.assertRaisesRegex(ValueError, 'source slot mismatch'):
+            rewrite_fixed_slot(blob, wrong, '测', encoder)
 
 
 if __name__ == '__main__':

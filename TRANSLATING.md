@@ -26,6 +26,8 @@ $n是ASCII换行token；$D04/$D06/$D08/$D20等全部保留。具体portrait/spea
 
 ## Length and linked text
 
+TUI新研究确认两个256 B区段，未来显式字段profile保守保留每段NUL和另一半内容，不以512 B载荷当作单段容量。旧PoC不迁移profile；字段用途和新的构建身份须独立验收。详见 [TUI字段](docs/TUI_FIELDS.md)。
+
 TUI记录结构与可编辑文本属性分开判断；29个非零尾部字段不开放写回，另外834个可解码字段仍需确认显示文本/identifier用途。当前仍只开放PoC的id176，详见 [TUI审计](docs/TUI_AUDIT.md)。
 按编码后bytes检查fixed slot/region/celfid，保留NUL和trailer；FPB可增长但UI有pixel width门禁。
 韩版实际record结构须确认后才开放target编辑，不拿ASCII heuristic输出当全部display fields。

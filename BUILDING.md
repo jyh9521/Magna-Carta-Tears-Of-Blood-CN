@@ -87,3 +87,5 @@ modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些�
 当前总测试数65（此前57项加8项字体审计测试）；各历史里程碑的测试数量保持。
 
 schema2同一命令可指定`--out work/font-tui-coverage`，增加TUI字段分类、完整celfid副本计数和FPB+TUI合并使用统计。输出不开放新字段写回。当前工程75项测试通过（65+10）；范围与例外见 [TUI审计](docs/TUI_AUDIT.md)。
+
+schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两个256 B区段分类及完整TUI使用计数。当前86项测试通过（75+11）；重现和旧PoC profile兼容性见 [TUI字段](docs/TUI_FIELDS.md)。

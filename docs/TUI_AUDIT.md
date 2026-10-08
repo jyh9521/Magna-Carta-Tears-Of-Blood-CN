@@ -53,6 +53,8 @@ SHIP全部16个`.tui`均满足：8 B头部，u32 count @0、观察值2 @4，随�
 
 ## High-confidence deduction / Unverified hypothesis
 
+后续schema3全量字节检查已将29个尾部例外定位为载荷+256起始的独立区段，全部有独立NUL并严格CP949往返一致。双区段结果及保守字段边界见 [TUI双区段](TUI_FIELDS.md)；原schema2排除结果保留为历史，段用途仍待确认。
+
 **High-confidence deduction**：有完整celfid副本的显示字段修改需要显式同步考虑，不能仅根据SHIP替换结果推断运行时会加载新文本。
 **Unverified hypothesis**：29个字段的非零尾部是否属于多段文本、其他结构或填充残留；记录id与显示功能的关系；10个副本的加载优先级；非FPB范围外字符使用与真正可用容量。
 当前builder仍只开放已验证的00001240 id176；本次不扩大写回范围。

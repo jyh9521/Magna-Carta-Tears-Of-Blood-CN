@@ -10,7 +10,7 @@
 | mapping稳定/容量扩展 | Static PoC | 33字显式map重排不重分配；运行时全范围、跨场景稳定与扩容未知 |
 | 小字集实验text-poc-02 | Runtime pending | 3个测试目标静态通过，新版本中文/标点/长句/固定UI槽尚无运行时截图 |
 | 全量FPB编辑例外 | Verified static / semantics pending | 六个显式seq0前缀不满足partition；12个池严格CP949失败；百分号和NUL结构待研究；见FPB_AUDIT.md |
-| TUI结构与共享槽范围 | Verified static / semantics pending | 16个TUI共863字段，29个非零尾部未纳入；FPB+TUI冲突17槽/5406次/629资源，不代表全游戏完整统计；见TUI_AUDIT.md |
+| TUI双区段与共享槽范围 | Verified static / semantics pending | 863首段+29非空次段，256 B边界已核对，用途和旧profile迁移待验收；完整区段语料冲突17槽/5420次/629资源，非全游戏总量；见TUI_FIELDS.md |
 |存档/切场景/战斗回归|Open|未做中文PCSX2测试，不宣称兼容|
 |完整韩文资源/linked dependency mapping|Investigating|FPB/slots/region/celfid数据性质分别见研究报告|
 |USA/JP binary比较|Deferred|相应版本ISO未纳入研究输入，不作为KR PoC硬依赖；仅引用上游encoding choices|
