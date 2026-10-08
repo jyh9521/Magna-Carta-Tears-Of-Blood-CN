@@ -79,3 +79,9 @@ modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些�
 `tools/audit_text_resources.py --iso "<original-KR-ISO-path>" --out work/fpb-audit`校验版本完整hash并复用上游parser/builder，输出资源级前置条件与控制符统计，不写回游戏文件。
 通过`work/venv/Scripts/python.exe -X utf8`运行；不依赖先前提取目录。完整资源和JSON只写入ignored输出。
 当前工程测试总数57（此前46项加11项审计测试）；历史测试数量保持原里程碑记录。结果与例外见 [FPB审计](docs/FPB_AUDIT.md)。
+
+## 字体槽位与冲突只读审计
+
+`work/venv/Scripts/python.exe -X utf8 tools/audit_font_coverage.py --iso "<original-KR-ISO-path>" --locale locales/zh-CN/poc-text.json --out work/font-coverage`
+从原ISO提取已知两Font和SHIP，无需先前审计输出；输出仅在ignored目录，不调整map或生成ISO。统计范围与容量限制见 [字体容量审计](docs/FONT_CAPACITY.md)。
+当前总测试数65（此前57项加8项字体审计测试）；各历史里程碑的测试数量保持。

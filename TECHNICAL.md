@@ -30,6 +30,8 @@ AFS/ISO/FPB/SFD沿用上游生产实现；Git历史保留，研究和PoC提交�
 ELF 中 UFontObj/Canvas/UnicodeStringConst 名称为追踪线索；native 解码/宽度/换行尚未定位验证。
 
 ## Font system (Verified bytes)
+
+字体容量/冲突离线审计确认2350个候选韩文槽，695个严格解码FPB池使用1064个槽；1286个未在该语料观察到，不能当全游戏空闲槽。当前33字map中16槽仍与目标窗口之外原文重合5140次、涉及615个FPB资源。两字体2350槽bitmap均非全零。范围、计数和证据边界见 [字体容量审计](docs/FONT_CAPACITY.md)。
 FILE/MrtsEngine.u (UE2 v118) Font exports 735 NormalFont、736 KatakanaFont、739 NumberFont。
 Normal: offset 129483, size 282852, 2667 glyphs, 19x21, row stride 5, bitmap 280035 B。
 Katakana: offset 412335, size 242847, 2667 glyphs, 19x18, row stride 5, bitmap 240030 B。

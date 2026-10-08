@@ -42,6 +42,8 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 单片重建有DTS/PTS warning、ASS缺PlayRes、约104ms duration差；exit0并非A/V sync或游戏播放验收。
 
 ## 字体定位与双副本（Verified）
+
+未在695个严格CP949 FPB中出现的1286个韩文槽不等于全游戏空闲；两Font这些槽仍有bitmap，其他资源及12个失败池未纳入。当前33字稳定map仍有16槽与原文发生大量字节重合；稳定映射不能消除共享槽副作用。不得依据单一语料统计自动换槽或扩容。见 [字体容量审计](FONT_CAPACITY.md)。
 主Custom Fonts位于MrtsEngine.u且复制进celfid，不是temple.utx Font export。
 错误bitmap方向/packing初次预览倾斜/旋转；row stride5、2bpp LSB-first解码已得到正向ASCII/韩文。
 仍未验证baseline、advance计算、runtime cache；不要从可读PNG推断可玩中文。

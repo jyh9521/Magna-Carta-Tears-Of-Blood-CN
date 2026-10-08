@@ -5,7 +5,7 @@
 | 项目 | 状态 | 证据/下一步 |
 |---|---|---|
 | 中文显示/无乱码/不崩溃 | Partial observation | 读档UI截图显示“测”；完整字集、冷启动与长期稳定性待测 |
-| 共享字形槽副作用 | Expected in PoC | 原“가”对应B0A1均显示“测”，不是正式译文；下一阶段需稳定locale mapping |
+| 共享字形槽副作用 | Screenshot + static inventory | 当前33字map的16槽与目标窗口外原文重合5140次/615个FPB；稳定map不能消除冲突，完整原文范围和容量方案待研究 |
 | 字宽/自动换行/标点/两font切换 | Open | bitmap/width候选已定位，runtime trace pending |
 | mapping稳定/容量扩展 | Static PoC | 33字显式map重排不重分配；运行时全范围、跨场景稳定与扩容未知 |
 | 小字集实验text-poc-02 | Runtime pending | 3个测试目标静态通过，新版本中文/标点/长句/固定UI槽尚无运行时截图 |

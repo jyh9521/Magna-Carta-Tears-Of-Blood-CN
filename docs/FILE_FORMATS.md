@@ -66,6 +66,8 @@ UE2 header name/export/import counts+offsets；tables 有 signed compact integer
 Celfid 是多资源启动包，不假定一个 UE2 package；韩版解压4195112 B，包含主字体的精确副本。
 
 ## Custom KR Font serial (Verified layout/bitmap; runtime semantics incomplete)
+
+完整27项range/base数组已加入只读审计门禁；B0A1..C8FE静态组合共2350，对应317..2666。该计数不包含其它区段容量，也不证明native支持任意扩容；语料使用和未观察槽的区别见 [字体容量审计](FONT_CAPACITY.md)。
 独立 MrtsEngine.u NormalFont/KatakanaFont serial 起点见 TECHNICAL.md。
 前三 bytes 00 00 00 为未知/待确认 serializer prefix，不直接当作三种 flag。
 serial+3 六个 u32 LE：观察值1,1,glyph_count,height,width,row_stride。

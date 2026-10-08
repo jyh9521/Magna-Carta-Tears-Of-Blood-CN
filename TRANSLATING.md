@@ -46,6 +46,8 @@ PCSX2显示/无乱码/字宽/wrap/稳定mapping/存档/切场景验收前不扩�
 
 ## 小字集测试数据
 
+稳定map与原文保留兼容性分别验证；不得把某一FPB语料中未出现的槽直接分配为全游戏空闲槽。当前容量与冲突数据见 [字体审计](docs/FONT_CAPACITY.md)，生产字库扩容未实施。
+
 locales/zh-CN/poc-text.json使用target字段，显式引用game profile和poc-map.json；不写入en。map重排不改变既有字符的编码，新增字符不得自动重分配旧槽。
 src/localization/text.py严格保护已识别$n/$DNN、printf placeholders、数字占位符及ASCII标签的数量、值、顺序；未知$/%/尖括号/花括号结构报错，不按普通文字编码。
 空目标、NUL/原始换行控制字节、缺映射、重复char/code/glyph、固定槽缺NUL容量均拒绝；换行通过$n。
