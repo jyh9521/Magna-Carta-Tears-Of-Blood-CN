@@ -4,6 +4,12 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — 保留原韩文字形的资源扩容
+
+新增append-only Font builder和显式Font表编码校验，两Font各追加33个真实字形，2667→2700；原bitmap、metrics和映射保持。原指令模型核对新增编码与原成员，201项测试通过。增长资源仅为独立Font，UE2/celfid/ISO接入待完成，不宣称运行时扩容成功。见 [扩容实验与试译门禁](FONT_EXPANSION.md)。
+干净源码构建复现相同资源hash，独立源码回滚恢复179项基线，两Font资源另在独立副本回滚；原ISO、ELF、小字集PoC和locale不改。事务保存在ignored `build/font-expansion-13/VERIFICATION.txt`。
+后续优先增长资源的包与镜像接入，不继续无关只读审计；正式试译在最小PoC门禁通过后分批启动，不等待穷尽全部逆向。
+
 ## 2026-10-09 — FontObj bitmap消费者与page候选
 
 定位FontObj候选的16位glyph、源bitmap、尺寸和动态page分配邻域；只读标量模型新增SRAV并核对1024组转换，原两Font完整19列投影一致。format分支、64边界用途与实际cache容量保持分级，未生成runtime page或修改ISO。详见 [bitmap研究](FONT_BITMAP.md)。

@@ -137,3 +137,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### FontObj bitmap与page候选
 
 原Font packed数据在0x333C30邻域存在+0x60源pointer消费者；index为16位，+0x54/+0x5C的height/stride解释属于High-confidence deduction。0x333D64局部2bpp标量操作产生0/60/120/180，与乘85的离线灰阶预览不同；另有+0x94选择的bit-mask分支，实际格式未确认。动态page数组不等于全字库容量已验证。见 [bitmap研究](FONT_BITMAP.md)。
+
+### Font序列化append-only builder
+
+27 B头保留除glyph count @11的字段；重建compact bitmap长度、bitmap、compact metrics长度、metrics、compact range/base count与u16表，未知tail原样透传。新增glyph与metric追加在各数组尾部，旧C8FF sentinel保留，追加新范围与结束sentinel。独立资源增长还需要UE2 export offset/size更新，当前未写回包。见 [扩容实验](FONT_EXPANSION.md)。

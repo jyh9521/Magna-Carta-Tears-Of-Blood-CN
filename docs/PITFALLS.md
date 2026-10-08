@@ -97,3 +97,7 @@ JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏000
 ## Bitmap投影不等于缓存纹理
 
 原2bpp源的完整19列投影不包含实际metric/spacing裁剪、page定位、allocator、SB写入和GS上传；不能将投影hash视为PCSX2纹理验收。局部65比较不代表字库只支持64字符，也不证明总page数量无上限。format selector仍有替代分支，源几何不能替代运行时分派证据。见 [bitmap研究](FONT_BITMAP.md)。
+
+## 新增字库不能复用等长Font替换
+
+Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长slice路径不支持该长度变化；直接赋值会移动后续bytes却不修复export metadata。首次D0实验被旧MappedEncoder按预期拒绝；新增显式Font表校验而非删除旧几何门禁。见 [扩容实验](FONT_EXPANSION.md)。

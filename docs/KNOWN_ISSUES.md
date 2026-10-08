@@ -31,3 +31,5 @@
 2026-10-09：Font双字节候选metric读取与原两Font各2667项离线相容，模式分支及有限加载参数已定位；实际bitmap加载、cache容量、浮点宽度/换行仍待验证。163项测试不替代PCSX2验收。见 [metric研究](FONT_METRICS.md)。
 
 2026-10-09：FontObj bitmap消费者与动态page候选已定位，1024组标量转换及两Font全宽投影通过；format selector、page创建、总容量和真实渲染仍待验证。179项测试不改变当前PoC游戏内验收状态。见 [bitmap研究](FONT_BITMAP.md)。
+
+2026-10-09：两套独立Font已追加33个中文glyph并保留原glyph；201项测试通过。增长资源尚未集成UE2/celfid/ISO，runtime显示及容量未验证，不能作为新可玩版本或正式试译启动证据。见 [扩容实验](FONT_EXPANSION.md)。

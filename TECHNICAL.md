@@ -117,3 +117,7 @@ Verified static：0x272734按Font候选+0x4C选择传统page与双字节路径�
 ## FontObj bitmap/cache候选（2026-10-09）
 
 Verified static：0x333A4C查表后保留16位glyph，0x333C30邻域从Font候选+0x60取源bitmap；page邻域有65比较和动态pointer/count/capacity分配。Verified offline projection：五条标量操作对1024组输入产生0/60/120/180，原两Font完整19列投影一致。High-confidence deduction：+0x54/+0x5C为height/stride，page采用64边界；实际format selector、texture/cache容量与运行路径仍未验证。见 [bitmap研究](docs/FONT_BITMAP.md)。
+
+## 真实Font资源追加（2026-10-09，Verified static）
+
+两Font2667→2700 glyph，真实新增bitmap/metrics与D0A1–D0C1表；原glyph、metric、geometry及未知tail保持。原指令查表模型核对每Font2411个原双字节成员、128个ASCII和33个新增编码。未知runtime容量不作已验证上限；下一步UE2 export重定位与celfid增长副本同步，随后新增槽ISO验收。见 [扩容实验](docs/FONT_EXPANSION.md)。

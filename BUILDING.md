@@ -117,3 +117,8 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 
 `work/venv/Scripts/python.exe -X utf8 tools/research_font_bitmap.py --iso "<original-KR-ISO-path>" --out work/font-bitmap`
 版本锁定bitmap/cache候选邻域，执行1024组标量转换并对照原两Font完整19列投影；JSON不含原bitmap或纹理。179项测试通过，不生成实际cache或ISO。见 [bitmap研究](docs/FONT_BITMAP.md)。
+
+## 独立Font资源扩容实验
+
+`work/venv/Scripts/python.exe -X utf8 tools/build_font_expansion.py --iso "<original-KR-ISO-path>" --font C:/Windows/Fonts/simhei.ttf --out work/font-expansion`
+两Font追加33 glyph，原bitmap/metrics保持；输出仅为ignored独立资源和实验map，不生成包或ISO。201项测试通过；UE2 export增长及celfid同步尚未接入，不能直接沿用等长slice替换。见 [扩容实验](docs/FONT_EXPANSION.md)。

@@ -31,7 +31,17 @@ def validate_target(source: str, target: str) -> None:
 
 
 class MappedEncoder:
-    def __init__(self, entries: list[dict]):
+    def __init__(self, entries: list[dict], *, font_tables: dict | None = None):
+        # Explicit serialized Font tables are required outside the legacy PoC.
+        if font_tables is not None:
+            ranges, bases, count = font_tables['ranges'], font_tables['bases'], font_tables['glyphs']
+            if (len(ranges) < 2 or len(ranges) != len(bases)
+                    or not all(isinstance(v, int) and 0 <= v <= 65535 for v in ranges + bases)
+                    or not isinstance(count, int) or not 0 < count <= 65535
+                    or ranges != sorted(set(ranges)) or bases != sorted(bases) or bases[-1] != count
+                    or any(ranges[row] + bases[row + 1] - bases[row] > ranges[row + 1]
+                           for row in range(len(ranges) - 1))):
+                raise ValueError("invalid explicit font mapping tables")
         self.entries = entries
         self.table = {}
         used_bytes, used_glyphs = set(), set()
@@ -41,10 +51,21 @@ class MappedEncoder:
                 raise ValueError("map requires one non-ASCII character and one byte pair")
             if char in self.table or code in used_bytes or glyph in used_glyphs:
                 raise ValueError("duplicate character/code/glyph in mapping")
-            if not (0xB0 <= code[0] <= 0xC8 and 0xA1 <= code[1] <= 0xFE):
-                raise ValueError("byte pair outside observed KR Hangul ranges")
-            expected = 317 + (code[0] - 0xB0) * 94 + code[1] - 0xA1
-            if not isinstance(glyph, int) or glyph != expected or glyph >= 2667:
+            if font_tables is None:
+                if not (0xB0 <= code[0] <= 0xC8 and 0xA1 <= code[1] <= 0xFE):
+                    raise ValueError("byte pair outside observed KR Hangul ranges")
+                expected = 317 + (code[0] - 0xB0) * 94 + code[1] - 0xA1
+                limit = 2667
+            else:
+                if code[0] < 128 or code[1] == 0:
+                    raise ValueError("invalid multibyte code")
+                numeric = int.from_bytes(code, 'big')
+                matches = [bases[row] + numeric - ranges[row] for row in range(len(ranges) - 1)
+                           if ranges[row] <= numeric < ranges[row] + bases[row + 1] - bases[row]]
+                if len(matches) != 1:
+                    raise ValueError("byte pair outside explicit Font ranges")
+                expected, limit = matches[0], count
+            if not isinstance(glyph, int) or glyph != expected or glyph >= limit:
                 raise ValueError("byte pair and glyph index disagree")
             self.table[char] = code
             used_bytes.add(code)
