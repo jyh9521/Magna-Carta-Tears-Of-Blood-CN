@@ -4,6 +4,12 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — 字符→glyph离线执行与合成扩展
+
+从DrawText候选定位到双字节拼合/范围查表片段，新增只读低32位模型并锁定212 B指令hash；复用上游AFS/UE2读取与既有Font解析。两Font各2411个双字节成员、128个ASCII、29个fallback样本和33个PoC编码全部通过。合成追加两个表条目后94个编码返回glyph2667–2760；真实Font资源及glyph数量不改。详见 [查表模型](GLYPH_LOOKUP.md)。
+新增17项合成测试，工程148项通过；干净源码复现同一报告，独立源码回滚恢复131项基线测试。原ISO、ELF、PoC ISO、profile及locale数据保持，无新增运行时验收或批量翻译。
+事务命令、literal输出与hash保存于ignored `build/glyph-lookup-10/VERIFICATION.txt`。下一步核对Font加载、metrics/page与缓存容量，不将离线返回值等同于扩容完成。
+
 ## 2026-10-09 — GP可变槽与reader包装层候选
 
 只读工具schema3新增GP metadata、可选双64 B表扫描、常量store候选和GP槽load/store候选。确认TUI相关GP槽有覆盖写入，文件初值不能解析为运行时对象。候选表0x4FE270的+0x0C路径含Linear分配和替代后端；Linear表0x4FE390的+0x14指向具有转发/累计字段形状的邻域。结论分级与重现见 [native研究](NATIVE_RESEARCH.md)。

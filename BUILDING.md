@@ -102,3 +102,8 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 ### 候选表与GP槽审计（schema3）
 
 `tools/research_native.py`新增可重复`--table-va`和`--gp-displacement`选项，每张表仅16个u32；选择地址仍受版本/映射边界校验。131项测试通过，完整命令与结果见 [native研究](docs/NATIVE_RESEARCH.md)。报告区分文件初值和可变运行时指针，不生成新ISO。
+
+## 字符→glyph离线模型
+
+`work/venv/Scripts/python.exe -X utf8 tools/research_glyph_lookup.py --iso "<original-KR-ISO-path>" --out work/glyph-lookup`
+版本锁定212 B指令片段；从原ISO读取两Font并在合成对象中核对范围、ASCII、gap及现有locale映射，额外执行metadata-only扩展实验。148项测试通过；不是实际字库扩容或新ISO构建。见 [查表模型](docs/GLYPH_LOOKUP.md)。

@@ -125,3 +125,7 @@ src/localization当前backend遇overlap/gap/duplicate seq拒绝，未假设所�
 ### 韩版ELF `.reginfo`与候选表
 
 Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向文件背书槽0x53BA28，其初值0x53C210本身不在文件背书范围，且有store候选。默认不递归解引用原文件中的pointer。表0x4FE270/0x4FE390仅作为bounded u32候选表分析，不作为完整容器parser或可patch函数表。结构与路径证据见 [native研究](NATIVE_RESEARCH.md)。
+
+### range/base的离线执行证据
+
+原ELF片段0x20EE80的只读模型使用u16 range/base与动态count；原版27条表包含61个首段成员及2350个韩文成员，命中index256–2666。区段长度为相邻base差值，gap返回63，命中结果低16位。这里只确认模型与原表相容，未证明UE2加载器将序列化字段写入哪一运行时实例；合成29条表不写回资源。见 [查表模型](GLYPH_LOOKUP.md)。

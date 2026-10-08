@@ -148,3 +148,7 @@ work/venv/Scripts/python.exe -X utf8 tools/research_native.py --iso "<original-K
 23个标识、13个地址构造、9个pointer词及276条局部参数候选保持schema2结果；新表/槽审计独立记录。
 新增15项合成测试，当前131项通过，覆盖reginfo、完整word边界、内存尾部分类、常量store屏障与地址转换、GP带符号位移、可变槽和选择上限。
 原ISO、ELF、PoC ISO、映射与译文保持；无新增PCSX2验收。
+
+## 2026-10-09 — 字符查表片段的离线执行
+
+DrawText候选路径静态调用到0x20EE80双字节/范围片段；新的只读模型从已知ISO读取212 B原指令，使用原两Font表和合成对象核对2411个成员、ASCII、fallback、现有33字map及94个metadata-only扩展编码。工程148项测试通过。完整字段、输入hash、指令语义范围与未验证边界见 [查表模型](GLYPH_LOOKUP.md)。GP/reader的schema3数据和工具保持不变。

@@ -105,3 +105,7 @@ FILE/SHIP slot0只更新目标size、保留外部stub size；AFS条目顺序和m
 ## GP初始化与reader包装层候选（2026-10-09）
 
 Verified static：`.reginfo`声明GP=0x5437F0；TUI相关gp-32200槽VA0x53BA28，文件初值指向memory-only区域且存在SW覆盖候选，不能据初值解析运行时vtable。候选0x4FE270的+0x0C值为0x1E4A10；其条件性分配路径使用Linear标识并写入表0x4FE390，该表+0x14值为0x1E59E0，邻域具有底层转发和对象+0x44累计形状。包装层解释为High-confidence deduction；实际分支、底层reader和运行时状态未验证。schema3与131项测试见 [native研究](docs/NATIVE_RESEARCH.md)。
+
+## 字符→glyph片段（2026-10-09，Verified offline model）
+
+VA0x20EE80的212 B版本锁定片段含双字节组合与动态范围查表。合成对象字段+0x4C/+0x74/+0x80/+0x84分别控制分支、range pointer、base pointer与条目数。原两Font各2411个双字节成员、128个ASCII、29个fallback边界以及33个PoC映射均通过；94个合成扩展编码能返回2667–2760，但真实Font数量、bitmap和metric未扩展。字节表模型为Verified offline；实际Font实例、缓存容量、宽度与换行仍待验证。见 [查表模型](docs/GLYPH_LOOKUP.md)。

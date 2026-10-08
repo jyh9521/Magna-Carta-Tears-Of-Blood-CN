@@ -81,3 +81,11 @@ JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏000
 ## GP槽初值不等于运行时对象
 
 韩版TUI相关gp-32200槽的原文件word指向memory-only区域，初始化邻域又存在SW覆盖；盲目从文件初值追踪vtable会选错对象或读到非文件区域。GP-29528写入还位于调用delay slot，源值在调用返回前已构造，不能按返回值解释。Linear候选路径带条件分支且有对象+4后端转发，不能把一张表的+0x14当成所有TUI的唯一reader。
+
+## 返回glyph index不等于成功扩容
+
+原查表片段在合成29条表下能返回2667–2760，真实Font仍只有2667个glyph。只有返回值正确而没有同步bitmap/metrics/page/cache会产生未验证的越界风险；不能把metadata-only模型称为可玩扩容。双字节拼合也不等于完整CP949/GBK/UTF-8解码，+0x4C为零时高字节还返回LB低32位结果。详见 [查表模型](GLYPH_LOOKUP.md)。
+
+## Git archive与Windows工作区换行
+
+查表模型的首次事务验证中，测试和JSON复现通过，但既有native工具的原始字节比较失败：工作区CRLF与Git archive的LF不同。未修改该工具；改用带路径过滤的Git blob身份核对，同时保留工作区原始hash与失败日志。不将换行归一化差异误判为代码回归，也不放宽ISO/ELF/font二进制hash门禁。
