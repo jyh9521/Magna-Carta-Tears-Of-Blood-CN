@@ -1,6 +1,6 @@
 # 第一阶段研究报告（2026-10-08）
 
-研究与设计交付后已实施单字“测”字体实验ISO；静态验证通过，用户截图确认读档UI显示该字。完整运行时验收待完成，不进入全文翻译。
+研究与设计交付后已实施单字“测”字体实验ISO；静态验证通过，截图确认读档UI显示该字。完整运行时验收待完成，不进入全文翻译。
 本文早期Verified为代码/字节/静态实验；新增局部截图观察见 [QA](QA_GLYPH_POC.md)，不外推完整PCSX2验收。
 
 ## 1. 输入、上游与审计范围
@@ -8,10 +8,10 @@
 - 上游作者 soyjxck：<https://github.com/soyjxck/magna-carta-tears-of-blood-undub>。
 - 审计版本 `0e8de85bffbbd392fb43ef7608df097a0fb829b6`。
 - 项目远端原有 HEAD `a7af4fd75574ba65f9e2db038b1270157e5b235a`，是该上游版本的祖先。
-- 初始本地只有模板，无 `.git`、`lib/`、`patch.py`；本次从 origin 恢复历史和工具，保留模板备份于忽略的 `work/audit/templates/`。未提交或推送。
+- 初始本地只有模板，无 `.git`、`lib/`、`patch.py`；本次从 origin 恢复历史和工具，保留模板备份于忽略的 `work/audit/templates/`。历史恢复阶段没有生成新提交；后续研究与PoC提交已推送origin/main。
 - 上游最新 SFD 实现/字幕修订已恢复到工作区；文本与容器模块未重写。
 - 已实际阅读 README、TRANSLATING、TECHNICAL、patch.py、lib 全部生产模块与 lib/translate 全部模块；`lib/experiments/` 未随上游提交，不能依赖其中旧诊断脚本。
-- 用户仅提供韩版 ISO，并确认没有 USA/JP ISO。没有下载、移动、改名或改写原始 ISO。
+- 研究输入仅包含韩版ISO，USA/JP ISO未纳入研究输入。原始ISO没有下载、移动、改名或改写。
 - 本地输入：SCKA-20043，SYSTEM.CNF `VER = 1.00`、NTSC；ISO 3,210,412,032 B。
 - ISO SHA-256：`6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`。
 - ELF `SCKA_200.43`：4,439,344 B；SHIP 45,686,784 B；LINEAR 370,548,736 B；FILE 21,716,992 B。
@@ -171,7 +171,7 @@ locale validator 要覆盖 token Counter 等值与必要顺序、placeholder、m
 9. 逐项验收：正确字形无乱码；ASCII 混排/标点宽度；两套字体切换；显式 `$n` 与无空格长中文自动 wrap；边界槽无溢出；反复切场景/战斗/菜单；正常存档新建、载入与原版对照。保存截图/录像/日志、每一项 pass/fail。
 10. 若 2350 槽不足，先统计完整 zh-CN 唯一字集，再决定扩容数组/映射/显存，必要时 ELF renderer patch。不得通过删正文、重用不明 key 或改系统地区来隐藏问题。
 
-后续用户截图已确认读档UI单字显示；无崩溃、字宽、自动换行、跨场景映射稳定与正常存档/载入仍属后续验收，见 [QA](QA_GLYPH_POC.md)。
+后续截图已确认读档UI单字显示；无崩溃、字宽、自动换行、跨场景映射稳定与正常存档/载入仍属后续验收，见 [QA](QA_GLYPH_POC.md)。
 
 ## 11. 证据分级与停止点
 

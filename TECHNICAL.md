@@ -2,7 +2,7 @@
 
 ## Research status: KR_SINGLE_GLYPH_UI_OBSERVED
 
-截至2026-10-08：仅韩版输入；单字PoC完成静态验证，用户截图确认读档UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，当前运行时证据边界见 [PoC QA](docs/QA_GLYPH_POC.md)。
+截至2026-10-08：仅韩版输入；单字PoC完成静态验证，截图确认读档UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，当前运行时证据边界见 [PoC QA](docs/QA_GLYPH_POC.md)。
 
 ### Evidence vocabulary
 - Verified：直接代码/字节/静态实验或明确截图观察；必须说明具体证据，局部截图不意味着完整运行时验收。
@@ -19,7 +19,7 @@ SHIP 13862 entries / FILE 53 / LINEAR 4099。
 
 ## Attribution and actual implementation
 soyjxck upstream audit commit `0e8de85bffbbd392fb43ef7608df097a0fb829b6`。
-AFS/ISO/FPB/SFD 原有生产实现不重写；origin 历史保留在本地 main，未提交/推送。
+AFS/ISO/FPB/SFD沿用上游生产实现；Git历史保留，研究和PoC提交已推送origin/main，技术里程碑标签为glyph-poc-01。
 上游 manifest/voice-graph/SFD 研究属于上游贡献。
 库版本与重现命令见 BUILDING.md。
 
@@ -63,11 +63,11 @@ A（USA runtime 扩中文）当前没有 binary comparison 输入，且修改面
 
 ## Tests and stopping point
 24 tests passed；707 FPB byte-identical roundtrips；SFD单片重建/ADX一致，但时长差0.103944 s与DTS warnings未消除。
-用户截图确认UI单字显示；完整mapping、width/wrap、存档/切场景仍pending。详见docs/KNOWN_ISSUES.md。
+截图确认UI单字显示；完整mapping、width/wrap、存档/切场景仍pending。详见docs/KNOWN_ISSUES.md。
 进入单字实验，不进入全文翻译。
 
 ## Single-glyph PoC (Verified static; limited UI screenshot observation)
-tools/font_poc.py使用locales/zh-CN/poc.json。B0A1/原“가”/候选glyph317换成“测”，并非CP949直接编码中文。
+tools/font_poc.py使用locales/zh-CN/poc.json。B0A1/原“가”/候选glyph317置换为“测”，并非CP949直接编码中文。
 两Font只改glyph317 bitmap；serial长度、其余glyph、全部metrics/range/base/tail保持原字节。
 MrtsEngine.u及celfid内两font精确副本同步；压缩复用上游24576 B chunks/zlib9。
 00001944.fpb seq0/seq2首个双字节字符写B0A1，530 B长度、windows、$n及其它tokens保持。
@@ -75,5 +75,5 @@ MrtsEngine.u及celfid内两font精确副本同步；压缩复用上游24576 B ch
 FILE.AFS 21716992→21579776 B；SHIP仍45686784 B；ISO仍3210412032 B。
 重解析验证AFS顺序/metadata、无关entry、两font副本、manifest与FPB；全ISO对照只允许两AFS extent及FILE目录length字段变化。
 ELF/LINEAR/MUSIC/SFD原字节保持。静态字形可读不等于runtime解码/advance/wrap/save通过。
-本机PCSX2 exe版本metadata2.8.2.0；用户已提供读档UI截图，四处空槽提示显示“测”。截图Vulkan/640×447（1x）；BIOS、实际载入ISO hash、冷启动流程与版本没有出现在图内。
+实验环境PCSX2 exe版本metadata2.8.2.0；读档UI截图，四处空槽提示显示“测”。截图Vulkan/640×447（1x）；BIOS、实际载入ISO hash、冷启动流程与版本没有出现在图内。
 该观察支持B0A1/index317候选映射路径（High-confidence deduction），没有证明两font加载优先级或所有双字节范围。

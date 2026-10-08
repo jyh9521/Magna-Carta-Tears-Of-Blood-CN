@@ -35,8 +35,8 @@ It does not automatically apply to:
 - third-party tools
 - material governed by another license or EULA
 
-Those materials remain subject to their respective copyright, license, or other
-legal terms.
+The copyright, license, and other legal terms governing those materials remain
+applicable.
 
 ---
 
@@ -64,9 +64,9 @@ CC BY-SA 4.0 are satisfied.
 
 ## ShareAlike
 
-If you adapt or redistribute project-owned translation text, derivative
-translation content must be distributed under CC BY-SA 4.0 or a compatible
-license where permitted by the license terms.
+Adaptation or redistribution of project-owned translation text requires
+derivative translation content to be distributed under CC BY-SA 4.0 or a
+compatible license where permitted by the license terms.
 
 Examples may include:
 
@@ -115,12 +115,11 @@ The CC BY-SA 4.0 license does not grant rights over the original game content.
 
 ## Contributor Agreement
 
-By contributing original translation text to the project, contributors agree
-that their contribution may be distributed under CC BY-SA 4.0 unless another
-license is explicitly agreed upon before contribution.
+Original translation contributions may be distributed under CC BY-SA 4.0
+unless another license is explicitly agreed upon before contribution.
+Submission of original translation text constitutes agreement to these terms.
 
-Contributors should not submit translation text that they do not have the right
-to contribute.
+Submission of translation text requires the corresponding contribution rights.
 
 ---
 
@@ -143,4 +142,4 @@ This project is an independent localization effort unless explicitly stated
 otherwise.
 
 The original game, trademarks, characters, source text, media, and proprietary
-assets remain the property of their respective rights holders.
+assets remain the property of the respective rights holders.

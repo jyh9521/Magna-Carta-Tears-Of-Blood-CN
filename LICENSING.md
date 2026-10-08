@@ -15,6 +15,6 @@ FFmpeg/libass/pycdlib/Pillow与未来外部字体遵守各自许可证；工具�
 
 ## Fonts and game resources
 不得跟踪/提交ISO、原始ELF、完整AFS/SFD/ADX/UE2包、原版font bitmap或系统字体。
-发布级glyph generator需开放许可字体并记录来源/版本/hash/license。本次SimHei仅本机实验，profile锁定hash且不打包系统字体或生成bitmap。
+发布级glyph generator需开放许可字体并记录来源/版本/hash/license。SimHei仅用于本地实验，profile锁定hash且不打包系统字体或生成bitmap。
 生成edited texture/font/video/archive仍含原版资产，继续放ignored output；优先发行差分/脚本而非完整游戏文件。
 AGENTS.md和docs/LOCALIZATION_STANDARD.md仅local instructions，保持ignored不提交。

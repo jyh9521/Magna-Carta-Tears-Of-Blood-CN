@@ -34,7 +34,7 @@ region cap允许写满无NUL。中文profile要保留终止符且按bytes拒绝�
 
 ## Windows stdout/ASS/FFmpeg（Verified）
 宿主默认CP932：打印韩文会UnicodeEncodeError，上游ASS.read_text遇UTF-8 BOM会UnicodeDecodeError。
-复现命令使用python -X utf8（stdout按需要设置PYTHONIOENCODING=utf-8），不改用户系统locale。
+复现命令使用python -X utf8（stdout按需要设置PYTHONIOENCODING=utf-8），不改变系统locale。
 上游ass filter直接插入Path，Windows绝对drive colon/反斜线需要escaping；本次仅wrapper切到ignored output cwd并传relative sample.ass。
 FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 单片重建有DTS/PTS warning、ASS缺PlayRes、约104ms duration差；exit0并非A/V sync或游戏播放验收。

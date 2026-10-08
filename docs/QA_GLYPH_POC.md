@@ -9,15 +9,15 @@
 - B0A1原“가”候选glyph317：NormalFont/KatakanaFont bitmap置换，所有原metrics/range/base保留，celfid副本同步。
 - 00001944.fpb seq0/seq2首个双字节写B0A1；530 B长度与$n保持，FILE slot0同步压缩长度。
 - NormalFont原advance候选byte16、Katakana19保持；不把字段一致当作中文实际字宽验收。
-- 本机exe FileVersion/ProductVersion为2.8.2.0，截图未显示版本；不把本机metadata当作截图中版本的独立证据。
+- 实验环境exe FileVersion/ProductVersion为2.8.2.0，截图未显示版本；不将该metadata作为截图中版本的独立证据。
 
-## 用户截图（Verified observation）
+## 读档界面截图（Verified observation）
 
-用户作为本次PoC测试结果提供读档界面截图。四个空存档提示中清晰可见“测”，其余文字为韩文；替换槽在这张截图内重复显示一致。
+本次PoC的截图证据为读档界面。四个空存档提示中清晰可见“测”，其余文字为韩文；替换槽在这张截图内重复显示一致。
 状态栏可读：Vulkan、640×447（1x）、FPS30、VPS60、速度100%；这些是截图瞬时状态，不是长期性能测试。
 截图原始尺寸3992×2312，SHA-256 `44277e01f806d9961b313f5d638720a601957fc1e7f8b78fa0f52d2d87d6f4eb`。
 原截图本地保存在ignored `work/audit/user-qa-20261008/load-menu.png`，不随源码发布；公开文档保留观察、hash与结果，不依赖该图才能构建。
-截图不是启动录像；ISO路径/hash、BIOS身份、完整按键流程均未显示。测试结果由用户提供，未把助手静态检查描述成助手实机运行。
+截图不是启动录像；ISO路径/hash、BIOS身份、完整按键流程均未显示。证据类型为截图观察，静态检查和运行时观察分别记录。
 
 ## 证据分级
 

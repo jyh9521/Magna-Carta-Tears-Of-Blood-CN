@@ -3,7 +3,7 @@
 目前提供可复现研究工具与单字字体实验ISO builder；游戏内验收待完成。没有batch translation。
 
 ## Inputs
-仅用户提供韩版SCKA-20043 ISO；保持原位，不复制进跟踪目录。
+研究输入仅包含韩版SCKA-20043 ISO；保持原位，不复制进跟踪目录。
 已研究hash `6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`，3210412032 B。
 其它版本只能重新研究，不允许以此hash的结论无条件patch。
 上游USA-base undub CLI仍保留，但依赖USA ISO；本项目推荐的KR-only build profile尚为设计。
@@ -30,7 +30,7 @@ Media wrapper只抽单片180216，直接调用upstream build_cutscene，不新�
 ## Results and acceptance
 24 tests passed（原14项及PoC新增10项，包括真实pycdlib metadata的relocation测试）；707 KR FPB无编辑byte-identical。
 SFD一片静态demux/hardsub/mux成功且ADX相同；duration drift与warning见KNOWN_ISSUES。
-Font bitmap可读是static evidence；用户截图另已确认读档UI单字显示，wrap/save/scene等门禁仍待完成，见docs/QA_GLYPH_POC.md。
+Font bitmap可读是static evidence；截图另已确认读档UI单字显示，wrap/save/scene等门禁仍待完成，见docs/QA_GLYPH_POC.md。
 
 ## Planned KR-only locale build (not implemented)
 只读原版/verify hash → KR资源提取 → locales/<locale> target validation → stable glyph/code map →两font+bundle同步 → sparse text replacement →AFS manifest/TOC同步 →复用ISO patcher →outputs重新解析 →PCSX2验收。
@@ -40,7 +40,7 @@ source data UTF-8，runtime encoding由locale backend决定，不把中文写入
 
 ## 单字字体PoC（已实现；UI单字显示已观察）
 `tools/font_poc.py`从已知hash原ISO直接提取，不依赖work/kr或研究中间文件。
-配置在`locales/zh-CN/poc.json`，不改上游en catalog。本机Windows SimHei仅本地实验；profile锁定字体hash，不提交字体或bitmap。
+配置在`locales/zh-CN/poc.json`，不改上游en catalog。Windows SimHei仅用于本地实验；profile锁定字体hash，不提交字体或bitmap。
 fonttools检查cmap含“测”，Pillow生成两种高度的2bpp字形；不同字体版本需显式增加并验证profile。
 发布级开放许可字体/获取机制仍待选择；当前不是最终发布构建方案。
 
