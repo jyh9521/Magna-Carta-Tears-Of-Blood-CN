@@ -107,3 +107,8 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 
 `work/venv/Scripts/python.exe -X utf8 tools/research_glyph_lookup.py --iso "<original-KR-ISO-path>" --out work/glyph-lookup`
 版本锁定212 B指令片段；从原ISO读取两Font并在合成对象中核对范围、ASCII、gap及现有locale映射，额外执行metadata-only扩展实验。148项测试通过；不是实际字库扩容或新ISO构建。见 [查表模型](docs/GLYPH_LOOKUP.md)。
+
+## Font metric与加载候选只读审计
+
+`work/venv/Scripts/python.exe -X utf8 tools/research_font_metrics.py --iso "<original-KR-ISO-path>" --out work/font-metrics`
+版本锁定原ELF片段和两Font，从原ISO独立复现metric逐项读取及有限加载调用参数。163项测试通过；不生成ISO或扩容字库。见 [metric研究](docs/FONT_METRICS.md)。

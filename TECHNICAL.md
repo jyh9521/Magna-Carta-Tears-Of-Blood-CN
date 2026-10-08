@@ -109,3 +109,7 @@ Verified static：`.reginfo`声明GP=0x5437F0；TUI相关gp-32200槽VA0x53BA28�
 ## 字符→glyph片段（2026-10-09，Verified offline model）
 
 VA0x20EE80的212 B版本锁定片段含双字节组合与动态范围查表。合成对象字段+0x4C/+0x74/+0x80/+0x84分别控制分支、range pointer、base pointer与条目数。原两Font各2411个双字节成员、128个ASCII、29个fallback边界以及33个PoC映射均通过；94个合成扩展编码能返回2667–2760，但真实Font数量、bitmap和metric未扩展。字节表模型为Verified offline；实际Font实例、缓存容量、宽度与换行仍待验证。见 [查表模型](docs/GLYPH_LOOKUP.md)。
+
+## Font metric消费者（2026-10-09）
+
+Verified static：0x272734按Font候选+0x4C选择传统page与双字节路径；非零路径使用16位glyph index从+0x68单字节数组读取。Verified offline model：原两Font各2667项metric逐项读取通过，范围0–19；模型拒绝越界不等于引擎具有检查。+0x68/+0x74/+0x80加载调用参数相容但真实对象布局仍待验证。High-confidence deduction：metric参与宽度累加。详见 [metric研究](docs/FONT_METRICS.md)。

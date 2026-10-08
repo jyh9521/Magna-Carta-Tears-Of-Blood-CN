@@ -129,3 +129,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### range/base的离线执行证据
 
 原ELF片段0x20EE80的只读模型使用u16 range/base与动态count；原版27条表包含61个首段成员及2350个韩文成员，命中index256–2666。区段长度为相邻base差值，gap返回63，命中结果低16位。这里只确认模型与原表相容，未证明UE2加载器将序列化字段写入哪一运行时实例；合成29条表不写回资源。见 [查表模型](GLYPH_LOOKUP.md)。
+
+### Font metric native消费者
+
+0x2727C4候选通过+0x68 pointer与16位glyph index执行LBU；两原Font各2667 B metric可在合成对象内逐项读出。+0x54辅助word语义未定，不能按序列化字段排列强行标为runtime height。数组加载参数与+0x68/+0x74/+0x80相容，不构成完整native layout证明。见 [metric研究](FONT_METRICS.md)。

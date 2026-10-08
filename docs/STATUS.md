@@ -4,6 +4,11 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — Font metric消费者与加载候选
+
+新增只读Font metric审计，确认候选+0x4C非零分支使用16位index和+0x68字节数组；原两Font各2667项逐项模型读取通过。加载邻域的+0x68/+0x74/+0x80参数相容，真实对象/版本分支与bitmap/cache仍待验证。详见 [metric研究](FONT_METRICS.md)。
+新增15项合成测试，工程163项通过；独立源码回滚恢复148项基线，干净源码报告复现。原ISO、ELF、PoC及locale保持，无新增运行时验收或批量译文。事务保存在ignored `build/font-metrics-11/VERIFICATION.txt`。
+
 ## 2026-10-09 — 字符→glyph离线执行与合成扩展
 
 从DrawText候选定位到双字节拼合/范围查表片段，新增只读低32位模型并锁定212 B指令hash；复用上游AFS/UE2读取与既有Font解析。两Font各2411个双字节成员、128个ASCII、29个fallback样本和33个PoC编码全部通过。合成追加两个表条目后94个编码返回glyph2667–2760；真实Font资源及glyph数量不改。详见 [查表模型](GLYPH_LOOKUP.md)。

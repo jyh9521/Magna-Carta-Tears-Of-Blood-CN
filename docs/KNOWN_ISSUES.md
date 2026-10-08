@@ -27,3 +27,5 @@
 2026-10-09：GP可变槽与Linear包装层候选已静态定位；包装层条件分支、底层+0x38对象及替代后端未解析，TUI实际reader仍未完全确认。131项测试通过，仍无新PCSX2验收或新增翻译。
 
 2026-10-09：字符→glyph片段与两Font原表的离线模型通过，合成范围扩展能返回超出原glyph数量的index；实际字体加载、bitmap/metrics扩容、atlas/cache和PCSX2仍未验证。148项测试不改变当前PoC验收状态。见 [查表模型](GLYPH_LOOKUP.md)。
+
+2026-10-09：Font双字节候选metric读取与原两Font各2667项离线相容，模式分支及有限加载参数已定位；实际bitmap加载、cache容量、浮点宽度/换行仍待验证。163项测试不替代PCSX2验收。见 [metric研究](FONT_METRICS.md)。

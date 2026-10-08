@@ -89,3 +89,7 @@ JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏000
 ## Git archive与Windows工作区换行
 
 查表模型的首次事务验证中，测试和JSON复现通过，但既有native工具的原始字节比较失败：工作区CRLF与Git archive的LF不同。未修改该工具；改用带路径过滤的Git blob身份核对，同时保留工作区原始hash与失败日志。不将换行归一化差异误判为代码回归，也不放宽ISO/ELF/font二进制hash门禁。
+
+## 局部掩码与无边界metric读取
+
+0x271584路径存在0xFF掩码，但0x2727BC双字节分支使用0xFFFF；不能按单处掩码判定所有中文glyph截断或直接patch。合成扩range/base后返回新index而metrics未扩会访问原数组之外；模型的拒绝是审计工具边界，不是游戏fallback。加载helper带版本/状态分支，不能把文件字段顺序直接当native对象布局。见 [metric研究](FONT_METRICS.md)。
