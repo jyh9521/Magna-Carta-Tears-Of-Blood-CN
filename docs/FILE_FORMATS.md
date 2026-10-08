@@ -145,3 +145,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### UE2 export追加替换（Verified static，2026-10-09）
 
 当前MrtsEngine.u header @20为export count、@24为export offset；每项为compact class/super、i32 outer、compact name、u32 flags、compact serial size和非零size时的compact serial offset。index为1-based。新builder锁定hash、version118/licensee15、flags1，保留原表及payload，追加目标payload与新表，更新@24；目标字段compact编码长度可变化。零size项不写offset。真实7668项回读及无关7666项bytes保持通过，不等于运行时包加载成功；celfid不是完整engine package副本。见 [包级构建](FONT_PACKAGE.md)。
+
+### celfid缓存片段与混合ISO（2026-10-09）
+
+原bundle唯一匹配64 B engine header、123318 B export表及两个Font；两条路径记录是128 B NUL填充ASCII名称加u32实际包长度。字体增长时同步这些六段，其余bytes按新位置保持；不是完整bundle parser。韩版含ISO9660/UDF双文件树，原UDF anchors在LBA256/1567583；FILE增长relocation须同步UDF分配/文件长度/anchor及descriptor校验，不只改ISO9660。见 [缓存与镜像门禁](FONT_BUNDLE.md)。

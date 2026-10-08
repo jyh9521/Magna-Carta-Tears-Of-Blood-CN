@@ -105,3 +105,7 @@ Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长s
 ## celfid不能按完整MrtsEngine包替换
 
 原celfid解压buffer中没有完整MrtsEngine.u副本；仅匹配到Font serial不证明周边资源记录可增长。新增包export offset/size修复不会自动同步bundle索引。必须验证bundle边界与长度metadata后再接入，禁止直接增长serial slice或盲目替换整包。追加新export表避免原compact字段长度变化移动原包，但保留旧资源会增加包大小；实际loader兼容性另行验收。见 [包级接入](FONT_PACKAGE.md)。
+
+## ISO9660 relocation不能直接用于当前混合UDF镜像
+
+增长FILE.AFS触发1 in-place/1 relocation，ISO9660目录/PVD已更新，但pycdlib回读报`Expected at least 2 UDF Anchors`。旧末尾anchor位置随镜像增长失效，UDF File.afs也仍引用原slot；仅补一个anchor或绕过UDF parser不会修复双视图不一致。失败ISO标记REJECTED并保持ignored，新增预检阻止重复生成同类输出。合成ISO9660 relocation成功不代表韩版混合镜像成功。见 [实际失败及下一步](FONT_BUNDLE.md)。

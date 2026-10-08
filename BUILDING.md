@@ -128,3 +128,8 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 先生成上述Font扩容产物，再运行：
 `work/venv/Scripts/python.exe -X utf8 tools/build_font_package.py --iso "<original-KR-ISO-path>" --expansion-dir work/font-expansion --out work/font-package`
 真实包7668 export回读通过，替换两Font并保持7666个无关export；218项测试通过。输出为独立UE2包，不生成celfid/AFS/ISO。原包hash、大小及后续门禁见 [包级接入](docs/FONT_PACKAGE.md)。
+
+## 启动缓存候选与增长镜像预检
+
+`work/venv/Scripts/python.exe -X utf8 tools/build_font_bundle.py --iso "<original-KR-ISO-path>" --package-dir work/font-package --out work/font-bundle`
+复用上游压缩并核对六个缓存片段，输出仅在ignored目录。集成命令及当前UDF负向预检结果见 [启动缓存与ISO门禁](docs/FONT_BUNDLE.md)。242项测试通过；当前新增槽ISO构建因混合UDF元数据同步缺口在写入前停止，旧小字集ISO不变。

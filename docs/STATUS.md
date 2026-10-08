@@ -4,6 +4,11 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — celfid增长候选与UDF预检
+
+缓存中engine header/table/两Font和两处文件大小共六段同步，压缩往返与其他bytes保持通过；242项测试通过，干净源码复现相同celfid，源码回滚恢复218项，独立资源回滚恢复原压缩bytes。复用上游AFS和manifest集成后FILE增长到22239232 B；ISO relocation实测导致UDF anchor回读错误，失败样本标记REJECTED，未作为可验收ISO。
+新增混合镜像预检在写ISO前拦截size变化，负向实测退出1且ISO不存在。下一步补齐UDF文件视图/分配/anchor及校验同步，不绕过回读错误；旧PoC、原ISO/ELF、locale和tag不改，无新增运行时验收或译文。见 [缓存、失败证据与门禁](FONT_BUNDLE.md)。事务位于ignored `build/bundle-font-16/VERIFICATION.txt`。
+
 ## 2026-10-09 — 增长Font接入独立UE2包
 
 新增有hash/version门禁的append-only export builder，实际MrtsEngine.u的7668项回读通过；两增长Font追加并更新size/offset，7666个无关export及原包数据保持。包2058129→2713665 B；干净源码复现同一包hash，218项测试通过，独立源码回滚恢复201项基线，独立包副本恢复原包hash。见 [包级构建与证据](FONT_PACKAGE.md)。

@@ -35,3 +35,5 @@
 2026-10-09：两套独立Font已追加33个中文glyph并保留原glyph；201项测试通过。增长资源尚未集成UE2/celfid/ISO，runtime显示及容量未验证，不能作为新可玩版本或正式试译启动证据。见 [扩容实验](FONT_EXPANSION.md)。
 
 2026-10-09：独立UE2包已静态接入两增长Font，218项测试通过，7666个无关export保持；celfid副本、ISO和运行时加载仍未接入/验收，不替代新增槽游戏显示测试。见 [包级构建](FONT_PACKAGE.md)。
+
+2026-10-09：增长Font的celfid六段候选同步及压缩往返通过，242项测试通过；真实增长FILE触发ISO/UDF不一致，回读失败，失败镜像不作测试版。新增预检在写ISO前阻止UDF size变化；UDF metadata同步是当前新镜像阻碍，缓存加载语义仍需运行时验收。见 [缓存与镜像门禁](FONT_BUNDLE.md)。

@@ -129,3 +129,7 @@ Verified screenshot observation：短UI中的中文、句号和ASCII可读；实
 ## 增长Font的UE2 export接入（2026-10-09，Verified static）
 
 原MrtsEngine.u为version118/licensee15、flags1，共7668个export。新增append-only包builder，仅改变header @24表偏移，追加两Font和新表；size/offset采用compact index，目标entry身份前缀保持。原包数据区、name/import及7666个无关export保持。2058129→2713665 B，真实包回读及干净源码复现通过；runtime/celfid/ISO尚未验证。celfid解压buffer不存在完整原engine副本，整包替换路线不适用。详见 [包级接入](docs/FONT_PACKAGE.md)。
+
+## celfid增长片段与混合镜像失败（2026-10-09）
+
+Verified static：celfid包含唯一engine header、export table、两Font serial与两条132 B文件路径/大小记录；六段同步及其他区间保持通过，4195112→4201631 B。完整缓存语义仍未验证。AFS集成FILE增长到22239232 B，触发上游ISO relocation；真实混合ISO/UDF回读报缺少anchor。原尾部anchor不再位于新末尾，UDF File.afs引用还指向旧区域，单补anchor不足。新增预检在ISO写入前阻止UDF size变化；242项测试不代表UDF修复或runtime扩容完成。见 [缓存证据与失败记录](docs/FONT_BUNDLE.md)。
