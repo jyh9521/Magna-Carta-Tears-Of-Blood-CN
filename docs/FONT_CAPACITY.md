@@ -53,6 +53,8 @@ UI及其他资源未计入，因此不能据此宣称完整副作用总量。
 
 ## 重现
 
+后续schema2审计加入834个严格解码TUI字段，合并使用1084个槽，当前map冲突17槽/5406次/629个资源。原仅FPB数据保留为范围明确的历史基线；详情与29个例外字段见 [TUI审计](TUI_AUDIT.md)。
+
 ```powershell
 work/venv/Scripts/python.exe -X utf8 tools/audit_font_coverage.py --iso "<original-KR-ISO-path>" --locale locales/zh-CN/poc-text.json --out work/font-coverage
 ```

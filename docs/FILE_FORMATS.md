@@ -99,6 +99,8 @@ FILE slot0只改变celfid compressed size；SHIP索引仍保留所有external st
 ISO本次2 in-place，FILE目录LE/BE length同步，无relocation；ignored DIFF_FILE.json记录精确差分。
 
 ## 韩版00001240.tui固定记录 (Verified bytes; limited to this file)
+
+后续全量审计确认该韩版全部16个TUI同样满足8+count*516及文件内唯一id，共863个记录；834个字段为严格CP949+clean NUL padding，29个字段首NUL后仍有非零字节，不能直接套用纯文本slot writer。完整文件表及celfid副本见 [TUI审计](TUI_AUDIT.md)。该结构验证不等于所有字段均可翻译。
 文件125396 B；u32 count243 @0、u32观察值2 @4（含义未定）。其后243项516 B记录，u32 id+512 B NUL填充字段。
 record index127的id176 @65540，text @65544；原有效字节18 B，其后全0直至下一id175。
 本次只开放该显示字段；不能凭这个文件推断所有.tui或其他slot扩展名布局相同。

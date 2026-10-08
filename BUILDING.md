@@ -85,3 +85,5 @@ modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些�
 `work/venv/Scripts/python.exe -X utf8 tools/audit_font_coverage.py --iso "<original-KR-ISO-path>" --locale locales/zh-CN/poc-text.json --out work/font-coverage`
 从原ISO提取已知两Font和SHIP，无需先前审计输出；输出仅在ignored目录，不调整map或生成ISO。统计范围与容量限制见 [字体容量审计](docs/FONT_CAPACITY.md)。
 当前总测试数65（此前57项加8项字体审计测试）；各历史里程碑的测试数量保持。
+
+schema2同一命令可指定`--out work/font-tui-coverage`，增加TUI字段分类、完整celfid副本计数和FPB+TUI合并使用统计。输出不开放新字段写回。当前工程75项测试通过（65+10）；范围与例外见 [TUI审计](docs/TUI_AUDIT.md)。

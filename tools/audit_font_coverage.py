@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter, defaultdict
 import json
+import struct
 from pathlib import Path
 import sys
 
@@ -12,6 +13,7 @@ import font_poc as core
 from build_locale import load_config
 from research_inventory import font_data, package_tables
 from translate.fpb import parse_fpb_raw, build_fpb, synthesize_implicit_seq0
+from localization.text import protected_tokens
 
 
 def observed_slots(info: dict) -> dict[bytes, int]:
@@ -67,7 +69,7 @@ def scan_fpbs(entries: list[tuple[str, bytes]], slots: dict[bytes, int],
                       for code, glyph in slots.items()}}
 
 
-def capacity_summary(inventory: dict, mapping: list[dict]) -> dict:
+def capacity_summary(inventory: dict, mapping: list[dict], *, scope: str = "decoded_fpb") -> dict:
     rows = inventory["slots"]
     collisions = []
     for entry in mapping:
@@ -76,14 +78,110 @@ def capacity_summary(inventory: dict, mapping: list[dict]) -> dict:
         collisions.append({"target_codepoint": f"U+{ord(entry['character']):04X}", "bytes": code,
                            **rows[code]})
     return {"observed_hangul_slots": len(rows),
-            "used_slots_in_decoded_fpb": sum(r["original_occurrences"] > 0 for r in rows.values()),
-            "unobserved_slots_in_decoded_fpb": sum(r["original_occurrences"] == 0 for r in rows.values()),
+            f"used_slots_in_{scope}": sum(r["original_occurrences"] > 0 for r in rows.values()),
+            f"unobserved_slots_in_{scope}": sum(r["original_occurrences"] == 0 for r in rows.values()),
             "map_slots": len(mapping),
             "map_slots_with_original_occurrences": sum(r["original_occurrences"] > 0 for r in collisions),
             "map_slots_with_outside_target_occurrences": sum(r["outside_target_windows_occurrences"] > 0 for r in collisions),
             "outside_target_occurrences": sum(r["outside_target_windows_occurrences"] for r in collisions),
             "outside_target_resource_count": len({n for r in collisions for n in r["outside_target_windows_resources"]}),
             "mapping_collisions": collisions}
+
+
+def inspect_tui(blob: bytes) -> tuple[dict, list[tuple[int, bytes]]]:
+    """Observed KR 8 + count * 516 geometry, not a universal TUI schema."""
+    report = {"sha256": core.digest(blob), "size": len(blob)}
+    if len(blob) < 8:
+        return {**report, "status": "header-truncated"}, []
+    count, kind = struct.unpack_from("<II", blob)
+    report.update(count=count, kind=kind)
+    if kind != 2 or len(blob) != 8 + count * 516:
+        return {**report, "status": "geometry-unsupported"}, []
+    ids = [struct.unpack_from("<I", blob, 8 + i * 516)[0] for i in range(count)]
+    if len(set(ids)) != count:
+        return {**report, "status": "duplicate-record-id"}, []
+    fields, decoded = [], []
+    for i, record_id in enumerate(ids):
+        offset = 12 + i * 516
+        slot = blob[offset:offset + 512]
+        field = {"index": i, "id": record_id, "offset": offset, "slot_sha256": core.digest(slot)}
+        nul = slot.find(b"\0")
+        if nul < 0:
+            field["status"] = "missing-nul"
+        elif any(slot[nul:]):
+            field["status"] = "nonzero-padding"
+            field["nul_offset_in_slot"] = nul
+            field["next_nonzero_offset_in_slot"] = next(j for j in range(nul + 1, 512) if slot[j])
+        elif nul == 0:
+            field["status"] = "empty"
+        else:
+            raw = slot[:nul]
+            try:
+                text = raw.decode("cp949", errors="strict")
+                core.require(text.encode("cp949") == raw, "noncanonical TUI CP949 bytes")
+            except UnicodeDecodeError:
+                field["status"] = "decode-failed"
+            else:
+                field.update(status="decoded", encoded_bytes=nul)
+                try:
+                    protected_tokens(text)
+                except ValueError:
+                    field["protected_structures_known"] = False
+                else:
+                    field["protected_structures_known"] = True
+                field["has_raw_control"] = any(ord(c) < 32 for c in text)
+                decoded.append((record_id, raw))
+        fields.append(field)
+    return {**report, "status": "geometry-verified", "fields": fields}, decoded
+
+
+def scan_tuis(entries: list[tuple[str, bytes]], slots: dict[bytes, int],
+              excluded_records: dict[str, set[int]], bundle: bytes) -> dict:
+    usage, remaining = Counter(), Counter()
+    refs, remaining_refs, statuses, resources = defaultdict(set), defaultdict(set), Counter(), {}
+    for name, blob in entries:
+        if not name.lower().endswith(".tui"):
+            continue
+        report, fields = inspect_tui(blob)
+        report["exact_bundle_copy_count"] = bundle.count(blob)
+        statuses["file/" + report["status"]] += 1
+        for field in report.get("fields", []):
+            statuses["field/" + field["status"]] += 1
+        excluded = excluded_records.get(name, set())
+        core.require(excluded.issubset({record_id for record_id, _ in fields}), "excluded TUI record not decoded")
+        for record_id, raw in fields:
+            for char in raw.decode("cp949"):
+                code = char.encode("cp949")
+                if code not in slots:
+                    continue
+                key = code.hex()
+                usage[key] += 1
+                refs[key].add(name)
+                if record_id not in excluded:
+                    remaining[key] += 1
+                    remaining_refs[key].add(name)
+        resources[name] = report
+    return {"statuses": dict(sorted(statuses.items())), "resources": resources,
+            "slots": {code.hex(): {"glyph": glyph, "original_occurrences": usage[code.hex()],
+                       "outside_target_windows_occurrences": remaining[code.hex()],
+                       "resources": sorted(refs[code.hex()]),
+                       "outside_target_windows_resources": sorted(remaining_refs[code.hex()])}
+                      for code, glyph in slots.items()}}
+
+
+def combine_inventories(*inventories: dict) -> dict:
+    result = {}
+    core.require(bool(inventories), "at least one slot inventory required")
+    core.require(all(set(i["slots"]) == set(inventories[0]["slots"]) for i in inventories), "slot domains differ")
+    for code, row in inventories[0]["slots"].items():
+        rows = [i["slots"][code] for i in inventories]
+        core.require(all(r["glyph"] == row["glyph"] for r in rows), "slot glyph differs")
+        result[code] = {"glyph": row["glyph"]}
+        for key in ("original_occurrences", "outside_target_windows_occurrences"):
+            result[code][key] = sum(r[key] for r in rows)
+        for key in ("resources", "outside_target_windows_resources"):
+            result[code][key] = sorted({n for r in rows for n in r[key]})
+    return {"slots": result}
 
 
 def main() -> None:
@@ -125,12 +223,20 @@ def main() -> None:
     excluded = {game["fpb_resource"]: {r["seq"] for r in locale["entries"] if r["kind"] == "fpb"}}
     inventory = scan_fpbs(archives["SHIP.AFS"], slots, excluded)
     summary = capacity_summary(inventory, encoder.entries)
+    bundle = core.decompress_chunked(files["celfid.lix"])
+    core.require(core.digest(bundle) == game["expected_bundle_sha256"], "bundle fingerprint mismatch")
+    tui_inventory = scan_tuis(archives["SHIP.AFS"], slots, {game["ui_resource"]: {game["ui"]["record_id"]}}, bundle)
+    tui_summary = capacity_summary(tui_inventory, encoder.entries, scope="decoded_tui_fields")
+    combined_summary = capacity_summary(combine_inventories(inventory, tui_inventory), encoder.entries, scope="decoded_fpb_and_tui")
     core.require(core.file_digest(args.iso) == before, "original ISO hash changed")
-    report = {"schema": 1, "input_sha256": before, "locale": locale["locale"],
+    report = {"schema": 2, "input_sha256": before, "locale": locale["locale"],
               "fonts": fonts, "inventory": inventory, "summary": summary,
-              "evidence": "static byte layout; only strictly decoded FPB pools; not a free-slot allocator or runtime capacity proof"}
+              "tui_inventory": tui_inventory, "tui_summary": tui_summary, "combined_summary": combined_summary,
+              "evidence": "static only; decoded FPB and clean TUI fields, not all visible text, a free-slot allocator or runtime proof"}
     (out / "font-coverage.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf8")
     print("FONT COVERAGE PASS " + json.dumps({k: v for k, v in summary.items() if k != "mapping_collisions"}, sort_keys=True))
+    print("TUI COVERAGE PASS " + json.dumps(tui_inventory["statuses"], sort_keys=True))
+    print("COMBINED COVERAGE PASS " + json.dumps({k: v for k, v in combined_summary.items() if k != "mapping_collisions"}, sort_keys=True))
 
 
 if __name__ == "__main__":

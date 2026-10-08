@@ -60,6 +60,8 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 
 ## UI资源副本与小字集实验
 
+全部16个TUI几何一致仍不等于所有512 B字段都是单一纯文本槽：29个字段在首NUL后有非零数据，当前只读审计排除这些字段，不能清零尾部。10个资源存在完整celfid副本，副本不应重复累计使用次数。见 [TUI审计](TUI_AUDIT.md)。
+
 全量FPB审计发现显式seq0和header implicit前缀同时存在的六个资源。不能把synthesize_implicit_seq0返回的views当作所有文件的完整pool partition，不能丢弃未覆盖前缀。另有20个pool含当前未识别百分号，2个pool含NUL；普通对话规则不能无条件套用。详见 [FPB审计](FPB_AUDIT.md)。
 00001240.tui完整资源同时位于SHIP和celfid，显示字段只改SHIP可能仍显示旧文本；加载优先级未证明，实验同步两份。
 原.tui 512 B字段布局不等于上游ASCII heuristic容量，必须按header/count/record id/source slot hash定位并保留NUL。
