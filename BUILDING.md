@@ -145,3 +145,7 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 `work/venv/Scripts/python.exe -X utf8 tools/build_poc_pipeline.py --iso "<original-KR-ISO-path>" --font "<matching-font-path>" --locale locales/zh-CN/poc-text.json --out build/poc-pipeline`
 五步从原输入完成Font/package/bundle/ISO/独立verify，不依赖旧work中间文件。输出必须是新空ignored子目录；pipeline.json记录每步命令、退出状态和源码/输入hash，自动生成待测试QA清单。
 单独验证命令不信任构建报告，见 [完整构建、验证及证据边界](docs/POC_PIPELINE.md)。284项测试通过，输出ISO与上一候选相同；PCSX2验收仍待完成。
+
+## PoC验收记录校验
+
+一键生成的QA_CHECKLIST.json可复制到ignored测试目录，填写人工状态/环境/证据后使用tools/validate_poc_qa.py。命令、退出状态及人工证据边界见 [验收记录](docs/POC_QA_RECORDS.md)。有效pending记录退出0不代表游戏验收通过。

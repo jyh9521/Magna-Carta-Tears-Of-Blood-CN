@@ -51,3 +51,7 @@ work/venv/Scripts/python.exe -X utf8 tools/verify_expanded_locale.py --source "<
 
 仍可使用上轮build/expanded-text-poc-03-udf/MODIFIED_FILE.iso；它与一键产物bytes相同，不要求重复验收同hash副本。先冷启动、进入读档列表，确认“测试中文。123ABC”。短UI通过后再推进剧情；空槽列表不替代正常存读档，分页不替代切场景。
 保存截图或日志时记录ISOhash和PCSX2版本/backend，按QA_CHECKLIST逐项登记；系统字体、原资产、模拟器、BIOS和配置不进入Git。
+
+## 后续验收记录工具
+
+生成的九项untested记录可用 [记录校验](POC_QA_RECORDS.md)绑定候选hash、环境和证据。后续工程309项测试通过；本页284项为编排实现时的历史计数。校验不分析截图、不自动升级游戏验收。

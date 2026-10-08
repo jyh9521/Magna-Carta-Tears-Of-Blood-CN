@@ -157,3 +157,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### 构建receipt与QA数据
 
 pipeline.json schema1记录显式locale、原ISO/font/locale/tool SHA-256、range start、步骤command/exit/log、status/failed_step和candidate路径/hash；静态结果与runtime分开。QA_CHECKLIST.json的版本/BIOS/backend初始null，各case初始untested且evidence空。独立verification.json schema1不依赖构建receipt推导。UDF主备space bitmap/table/integrity引用需全部zero；不将非零空间管理描述符当未知padding透传。见 [构建与证据](POC_PIPELINE.md)。
+
+## qa-validation.json — 人工记录证据索引
+
+schema1保存candidate/receipt/locale SHA256、environment、cases的recorded_status及每项evidence路径/大小/hash。record_state为pending/recorded-complete/recorded-failure；runtime明确manual claims only/not independently verified。它不是ISO结构报告或游戏验收证明，详见 [记录格式](POC_QA_RECORDS.md)。

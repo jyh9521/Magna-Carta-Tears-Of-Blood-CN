@@ -118,3 +118,7 @@ Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长s
 
 仅按DIFF_FILE中的hash核对输出可能漏掉错误报告或中间资源传递；新增验证从原ISO/字体/locale重新推导，不读取构建报告，隔离ELF byte tamper已检测。二次推导仍复用同一parser/writer，不能代替独立格式审计或PCSX2运行测试。输出目录重复使用会混合历史产物，新编排/验证要求空子目录，不删除旧候选。见 [构建链](POC_PIPELINE.md)。
 UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足；当前overlay检查主备五组引用全部为空，未知布局拒绝。
+
+## 有效记录不等同游戏验收
+
+记录校验退出0包括pending；recorded-complete只表示全部人工pass。证据hash证明文件绑定，不证明截图来自候选ISO或画面符合预期。不能从文件存在、hash匹配或单幅截图推导存读档/场景/战斗通过，详见 [验收记录边界](POC_QA_RECORDS.md)。
