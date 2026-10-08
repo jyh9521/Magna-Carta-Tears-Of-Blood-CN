@@ -104,6 +104,8 @@ celfid解压buffer内完整125396 B资源唯一出现于3929716，字段绝对�
 固定容量包含末尾NUL，本测试写入16 B，剩余496 B零填充；文件整体长度不变。
 
 ## FPB增长实验
+
+全量韩版扫描另确认六个显式seq0资源的pool前缀不属于上游合成views；header +0x0C仍保存该前缀长度。文件列表和长度见 [FPB审计](FPB_AUDIT.md)。这些文件原版无编辑回写一致，但当前partition增长后端拒绝；gap不等于损坏或无用数据。
 00001944 seq0 20→30 B；seq2 offset26→36、length80→118；文件530→578 B，pool414→462 B。
 连续partition重新布局后后续窗口重定位；未编辑各窗口的bytes与控制标记保持。slot0 manifest记录实际578 B。
 src/localization当前backend遇overlap/gap/duplicate seq拒绝，未假设所有FPB是partition。

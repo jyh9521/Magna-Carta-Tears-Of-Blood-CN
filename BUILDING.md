@@ -73,3 +73,9 @@ work/venv/Scripts/python.exe -X utf8 tools/build_locale.py rollback --iso build/
 modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些由同一次构建自动产生，不是未记录的外部依赖。
 回滚仅覆盖指定独立ROLLBACK_COPY，保留修改ISO。精确日志、差分、preview及事务记录均在ignored build/text-poc-02。
 46项自动测试通过；此构建未获PCSX2验收。短串、长句、槽位与测试顺序见 [QA_TEXT_POC](docs/QA_TEXT_POC.md)。
+
+## 全量FPB只读审计
+
+`tools/audit_text_resources.py --iso "<original-KR-ISO-path>" --out work/fpb-audit`校验版本完整hash并复用上游parser/builder，输出资源级前置条件与控制符统计，不写回游戏文件。
+通过`work/venv/Scripts/python.exe -X utf8`运行；不依赖先前提取目录。完整资源和JSON只写入ignored输出。
+当前工程测试总数57（此前46项加11项审计测试）；历史测试数量保持原里程碑记录。结果与例外见 [FPB审计](docs/FPB_AUDIT.md)。

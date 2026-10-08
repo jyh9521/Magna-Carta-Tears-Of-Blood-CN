@@ -48,6 +48,8 @@ ISO原地缩小/relocation合成测试通过；新增pycdlib只读metadata fallb
 目前不存在ELF patch、生产中文encoding backend或完整中文翻译构建。
 
 ## Text and linked resources
+
+全量KR FPB离线审计：707个解析资源无编辑回写一致；701个符合当前连续partition条件，667个同时符合严格解码与控制结构前置条件。六个显式seq0资源存在合成views未覆盖的前缀，不能通过简单串接丢弃。详见 [FPB审计](docs/FPB_AUDIT.md)；仅静态证据，不改变运行时验收状态。
 FPB 真正字段 `(seq, offset, length)`，header+0x0C 是 implicit seq0 length。
 707 韩版 FPB 无编辑 parse/build byte-identical；8 B stub 单独跳过。
 Slot constants 是 USA 分段模型；韩版仍需定位实际 record/metadata/text 边界。

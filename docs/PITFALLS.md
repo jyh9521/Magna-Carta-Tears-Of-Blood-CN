@@ -33,6 +33,8 @@ Counter只检查$n/$DNN减少（warning）；增加/乱序/%/markup/glyph未完�
 region cap允许写满无NUL。中文profile要保留终止符且按bytes拒绝越界，语法风险升级error。
 
 ## Windows stdout/ASS/FFmpeg（Verified）
+
+干净源码测试fixture首次缺少work目录，四个测试的TemporaryDirectory(dir=ROOT/work)报FileNotFoundError。按构建流程建立work后，基线46项与新增版57项均通过；该失败属于fixture目录准备，不是游戏资源或审计算法失败。
 宿主默认CP932：打印韩文会UnicodeEncodeError，上游ASS.read_text遇UTF-8 BOM会UnicodeDecodeError。
 复现命令使用python -X utf8（stdout按需要设置PYTHONIOENCODING=utf-8），不改变系统locale。
 上游ass filter直接插入Path，Windows绝对drive colon/反斜线需要escaping；本次仅wrapper切到ignored output cwd并传relative sample.ass。
@@ -55,6 +57,8 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 保持原width byte仅证明字段一致，不证明中文advance/wrap。SimHei hash锁定，发布级开放字体仍待选择。
 
 ## UI资源副本与小字集实验
+
+全量FPB审计发现显式seq0和header implicit前缀同时存在的六个资源。不能把synthesize_implicit_seq0返回的views当作所有文件的完整pool partition，不能丢弃未覆盖前缀。另有20个pool含当前未识别百分号，2个pool含NUL；普通对话规则不能无条件套用。详见 [FPB审计](FPB_AUDIT.md)。
 00001240.tui完整资源同时位于SHIP和celfid，显示字段只改SHIP可能仍显示旧文本；加载优先级未证明，实验同步两份。
 原.tui 512 B字段布局不等于上游ASCII heuristic容量，必须按header/count/record id/source slot hash定位并保留NUL。
 逐字按自身bbox垂直居中会改变标点位置；小字集按共同参考baseline渲染，仍需游戏验收。
