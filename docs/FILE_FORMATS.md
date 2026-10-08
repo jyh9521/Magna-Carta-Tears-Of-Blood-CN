@@ -86,6 +86,8 @@ shared substring和duplicates形成linked groups，template.format(base=...) cas
 SHIP重复内容与bundle precedence仍未知。上游报告615slots/67groups，非韩版完整计数。
 
 ## ISO / SFD
+
+韩版ELF首PT_LOAD将offset0x80映射到VA0x100000，filesz0x43BB00、memsz0x4EC600；内存尾部不对应文件字节。字符串pointer、地址构造候选与函数入口分别标记，不混作binary patch offset。完整版本指纹与规则见 [native研究](NATIVE_RESEARCH.md)。
 ISO9660 sector2048；directory extent/length 双端序；append relocation 更新 PVD sector16+80 volume size。
 lib/iso.py 实际缩小也更新directory length（旧docstring未同步）；必须 src/out 分离。
 SFD复用upstream FFmpeg MPEG-1+ADX/libass/SofdecMuxer；无需重开发。

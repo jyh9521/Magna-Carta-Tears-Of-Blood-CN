@@ -8,6 +8,7 @@
 | 共享字形槽副作用 | Screenshot + static inventory | 当前33字map的16槽与目标窗口外原文重合5140次/615个FPB；稳定map不能消除冲突，完整原文范围和容量方案待研究 |
 | 字宽/自动换行/标点/两font切换 | Open | bitmap/width候选已定位，runtime trace pending |
 | mapping稳定/容量扩展 | Static PoC | 33字显式map重排不重分配；运行时全范围、跨场景稳定与扩容未知 |
+| native函数定位 | Static candidates only | ELF无有效符号；23个标识/13个有限地址构造候选已定位，字体查表和字宽算法未确认；见NATIVE_RESEARCH.md |
 | 小字集实验text-poc-02 | Runtime pending | 3个测试目标静态通过，新版本中文/标点/长句/固定UI槽尚无运行时截图 |
 | 全量FPB编辑例外 | Verified static / semantics pending | 六个显式seq0前缀不满足partition；12个池严格CP949失败；百分号和NUL结构待研究；见FPB_AUDIT.md |
 | TUI双区段与共享槽范围 | Verified static / semantics pending | 863首段+29非空次段，256 B边界已核对，用途和旧profile迁移待验收；完整区段语料冲突17槽/5420次/629资源，非全游戏总量；见TUI_FIELDS.md |

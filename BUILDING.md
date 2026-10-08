@@ -89,3 +89,8 @@ modified验证需要该build目录中的原AFS副本与DIFF_FILE.json；这些�
 schema2同一命令可指定`--out work/font-tui-coverage`，增加TUI字段分类、完整celfid副本计数和FPB+TUI合并使用统计。输出不开放新字段写回。当前工程75项测试通过（65+10）；范围与例外见 [TUI审计](docs/TUI_AUDIT.md)。
 
 schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两个256 B区段分类及完整TUI使用计数。当前86项测试通过（75+11）；重现和旧PoC profile兼容性见 [TUI字段](docs/TUI_FIELDS.md)。
+
+## Native只读研究
+
+`work/venv/Scripts/python.exe -X utf8 tools/research_native.py --iso "<original-KR-ISO-path>" --out work/native-research`
+直接从已知ISO验证ELF并分析，原ELF只在内存读取，JSON只写ignored目录；无需capstone或反汇编器依赖。不是ELF patcher。当前98项测试通过（86+12），见 [native研究](docs/NATIVE_RESEARCH.md)。

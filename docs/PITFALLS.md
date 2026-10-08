@@ -43,6 +43,8 @@ FFmpeg自动源码构建仅macOS；Windows采用已有带libass版本。
 
 ## 字体定位与双副本（Verified）
 
+ELF有.symtab section不等于保留函数符号，该版长度为0。合并RWX load段含数据；pointer词、指令形状及No font诊断引用不等于已确认函数边界。初始合成测试将0xFFFFFFFF误当未知操作，但其opcode0x3F匹配已支持的SD类；未知操作测试改用0xE8000000。详见 [native研究](NATIVE_RESEARCH.md)。
+
 未在695个严格CP949 FPB中出现的1286个韩文槽不等于全游戏空闲；两Font这些槽仍有bitmap，其他资源及12个失败池未纳入。当前33字稳定map仍有16槽与原文发生大量字节重合；稳定映射不能消除共享槽副作用。不得依据单一语料统计自动换槽或扩容。见 [字体容量审计](FONT_CAPACITY.md)。
 主Custom Fonts位于MrtsEngine.u且复制进celfid，不是temple.utx Font export。
 错误bitmap方向/packing初次预览倾斜/旋转；row stride5、2bpp LSB-first解码已得到正向ASCII/韩文。

@@ -24,6 +24,8 @@ AFS/ISO/FPB/SFD沿用上游生产实现；Git历史保留，研究和PoC提交�
 库版本与重现命令见 BUILDING.md。
 
 ## Encoding and rendering
+
+韩版ELF只读审计确认没有有效符号条目；native相关23个标识、13个有限地址构造候选和9个数据pointer词已定位。00001240路径候选邻域有两个256立即数，仅作双区段读取线索，尚未确认parser/字体查表函数。地址、输入hash和证据类型见 [native研究](docs/NATIVE_RESEARCH.md)。
 实现层 USA latin-1，KR cp949，JP shift_jis。后两版差异仅代码/上游证据；无 USA/JP ISO。
 707 可解析韩版 FPB 池中 695 严格 CP949 成功，12 失败（疑似残留日文）；不采用 errors=replace 隐藏问题。
 主韩文字体含 KS X 1001 韩文范围，不能等同完整 UHC/GBK/Unicode 支持。
