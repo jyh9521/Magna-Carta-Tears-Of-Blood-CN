@@ -113,3 +113,7 @@ VA0x20EE80的212 B版本锁定片段含双字节组合与动态范围查表。�
 ## Font metric消费者（2026-10-09）
 
 Verified static：0x272734按Font候选+0x4C选择传统page与双字节路径；非零路径使用16位glyph index从+0x68单字节数组读取。Verified offline model：原两Font各2667项metric逐项读取通过，范围0–19；模型拒绝越界不等于引擎具有检查。+0x68/+0x74/+0x80加载调用参数相容但真实对象布局仍待验证。High-confidence deduction：metric参与宽度累加。详见 [metric研究](docs/FONT_METRICS.md)。
+
+## FontObj bitmap/cache候选（2026-10-09）
+
+Verified static：0x333A4C查表后保留16位glyph，0x333C30邻域从Font候选+0x60取源bitmap；page邻域有65比较和动态pointer/count/capacity分配。Verified offline projection：五条标量操作对1024组输入产生0/60/120/180，原两Font完整19列投影一致。High-confidence deduction：+0x54/+0x5C为height/stride，page采用64边界；实际format selector、texture/cache容量与运行路径仍未验证。见 [bitmap研究](docs/FONT_BITMAP.md)。

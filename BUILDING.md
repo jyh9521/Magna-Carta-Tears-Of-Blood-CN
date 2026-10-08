@@ -112,3 +112,8 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 
 `work/venv/Scripts/python.exe -X utf8 tools/research_font_metrics.py --iso "<original-KR-ISO-path>" --out work/font-metrics`
 版本锁定原ELF片段和两Font，从原ISO独立复现metric逐项读取及有限加载调用参数。163项测试通过；不生成ISO或扩容字库。见 [metric研究](docs/FONT_METRICS.md)。
+
+## FontObj bitmap离线投影
+
+`work/venv/Scripts/python.exe -X utf8 tools/research_font_bitmap.py --iso "<original-KR-ISO-path>" --out work/font-bitmap`
+版本锁定bitmap/cache候选邻域，执行1024组标量转换并对照原两Font完整19列投影；JSON不含原bitmap或纹理。179项测试通过，不生成实际cache或ISO。见 [bitmap研究](docs/FONT_BITMAP.md)。

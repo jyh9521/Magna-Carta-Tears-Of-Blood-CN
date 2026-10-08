@@ -133,3 +133,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### Font metric native消费者
 
 0x2727C4候选通过+0x68 pointer与16位glyph index执行LBU；两原Font各2667 B metric可在合成对象内逐项读出。+0x54辅助word语义未定，不能按序列化字段排列强行标为runtime height。数组加载参数与+0x68/+0x74/+0x80相容，不构成完整native layout证明。见 [metric研究](FONT_METRICS.md)。
+
+### FontObj bitmap与page候选
+
+原Font packed数据在0x333C30邻域存在+0x60源pointer消费者；index为16位，+0x54/+0x5C的height/stride解释属于High-confidence deduction。0x333D64局部2bpp标量操作产生0/60/120/180，与乘85的离线灰阶预览不同；另有+0x94选择的bit-mask分支，实际格式未确认。动态page数组不等于全字库容量已验证。见 [bitmap研究](FONT_BITMAP.md)。

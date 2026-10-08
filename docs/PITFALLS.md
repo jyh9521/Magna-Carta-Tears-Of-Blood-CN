@@ -93,3 +93,7 @@ JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏000
 ## 局部掩码与无边界metric读取
 
 0x271584路径存在0xFF掩码，但0x2727BC双字节分支使用0xFFFF；不能按单处掩码判定所有中文glyph截断或直接patch。合成扩range/base后返回新index而metrics未扩会访问原数组之外；模型的拒绝是审计工具边界，不是游戏fallback。加载helper带版本/状态分支，不能把文件字段顺序直接当native对象布局。见 [metric研究](FONT_METRICS.md)。
+
+## Bitmap投影不等于缓存纹理
+
+原2bpp源的完整19列投影不包含实际metric/spacing裁剪、page定位、allocator、SB写入和GS上传；不能将投影hash视为PCSX2纹理验收。局部65比较不代表字库只支持64字符，也不证明总page数量无上限。format selector仍有替代分支，源几何不能替代运行时分派证据。见 [bitmap研究](FONT_BITMAP.md)。

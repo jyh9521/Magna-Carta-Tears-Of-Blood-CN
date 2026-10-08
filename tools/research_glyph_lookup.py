@@ -65,10 +65,11 @@ class ReadOnlyMips:
         elif op in (32, 35, 36, 37):
             width = {32: 1, 35: 4, 36: 1, 37: 2}[op]
             result = self.read((r[rs] + imm) & 0xffffffff, width, signed_load=op == 32)
-        elif op == 0 and fn in (0, 0x21, 0x23, 0x25, 0x2a):
+        elif op == 0 and fn in (0, 7, 0x21, 0x23, 0x25, 0x2a):
             dest = rd
             core.require(rs == 0 if fn == 0 else shift == 0, 'noncanonical scalar operation')
             if fn == 0: result = r[rt] << shift
+            elif fn == 7: result = signed(r[rt]) >> (r[rs] & 31)
             elif fn == 0x21: result = r[rs] + r[rt]
             elif fn == 0x23: result = r[rs] - r[rt]
             elif fn == 0x25: result = r[rs] | r[rt]

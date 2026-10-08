@@ -4,6 +4,11 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — FontObj bitmap消费者与page候选
+
+定位FontObj候选的16位glyph、源bitmap、尺寸和动态page分配邻域；只读标量模型新增SRAV并核对1024组转换，原两Font完整19列投影一致。format分支、64边界用途与实际cache容量保持分级，未生成runtime page或修改ISO。详见 [bitmap研究](FONT_BITMAP.md)。
+新增16项合成测试，工程179项通过；干净源码复现同一报告，独立源码回滚恢复163项基线。原ISO、ELF、PoC与locale保持，无新增运行时验收或批量译文。事务保存于ignored `build/font-bitmap-12/VERIFICATION.txt`。
+
 ## 2026-10-09 — Font metric消费者与加载候选
 
 新增只读Font metric审计，确认候选+0x4C非零分支使用16位index和+0x68字节数组；原两Font各2667项逐项模型读取通过。加载邻域的+0x68/+0x74/+0x80参数相容，真实对象/版本分支与bitmap/cache仍待验证。详见 [metric研究](FONT_METRICS.md)。
