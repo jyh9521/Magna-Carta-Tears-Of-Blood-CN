@@ -121,4 +121,10 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 ## 独立Font资源扩容实验
 
 `work/venv/Scripts/python.exe -X utf8 tools/build_font_expansion.py --iso "<original-KR-ISO-path>" --font C:/Windows/Fonts/simhei.ttf --out work/font-expansion`
-两Font追加33 glyph，原bitmap/metrics保持；输出仅为ignored独立资源和实验map，不生成包或ISO。201项测试通过；UE2 export增长及celfid同步尚未接入，不能直接沿用等长slice替换。见 [扩容实验](docs/FONT_EXPANSION.md)。
+两Font追加33 glyph，原bitmap/metrics保持；输出仅为ignored独立资源和实验map，不生成包或ISO。独立Font阶段201项测试通过；UE2 export增长已完成独立包接入，celfid同步尚未接入，不能直接沿用等长slice替换。见 [扩容实验](docs/FONT_EXPANSION.md)。
+
+## 增长Font包级构建
+
+先生成上述Font扩容产物，再运行：
+`work/venv/Scripts/python.exe -X utf8 tools/build_font_package.py --iso "<original-KR-ISO-path>" --expansion-dir work/font-expansion --out work/font-package`
+真实包7668 export回读通过，替换两Font并保持7666个无关export；218项测试通过。输出为独立UE2包，不生成celfid/AFS/ISO。原包hash、大小及后续门禁见 [包级接入](docs/FONT_PACKAGE.md)。

@@ -13,7 +13,7 @@
 
 两Font扩容后的真实range/base分别接受33个新增编码，并在原212 B指令模型中核对2411个原双字节成员和128个ASCII，原index不变。cmap、共同基线bounds、非空字形及新metric19全部验证，preview已检查；不等于游戏显示验收。
 
-当前只生成独立Font序列化资源，没有重建MrtsEngine.u、celfid副本或ISO，没有执行runtime loader/cache。增长资源不能塞入现有等长slice替换流程，否则会破坏UE2 export offset/size与包布局。原小字集PoC继续使用旧B0映射，原locale文件与实验ISO不改。
+独立Font阶段仅生成序列化资源；2026-10-09新增独立MrtsEngine.u包接入，见 [包级构建](FONT_PACKAGE.md)。celfid副本与ISO尚未重建，没有执行runtime loader/cache。增长资源不能塞入现有等长slice替换流程，否则会破坏UE2 export offset/size与包布局。原小字集PoC继续使用旧B0映射，原locale文件与实验ISO不改。
 
 ## 数据层与门禁
 
@@ -35,7 +35,7 @@ work/venv/Scripts/python.exe -X utf8 tools/build_font_expansion.py --iso "<origi
 
 ## 从实验转入汉化的最短路径
 
-1. **包与镜像接入**：实现增长Font的UE2 export重定位，核对offset/size与无关export保持；同步celfid资源副本，复用上游AFS/manifest/ISO构建，生成独立新增槽PoC ISO。
+1. **包与镜像接入**：增长Font的UE2 export重定位已静态核对，独立包回读通过；继续同步celfid资源副本，复用上游AFS/manifest/ISO构建，生成独立新增槽PoC ISO。
 2. **最小游戏验收**：冷启动测试新增槽中文、ASCII混排、标点、普通剧情、$n、长句、固定槽与可增长FPB；补齐角色显示名/linked资源同步实验，检查字宽、自动换行、存读档与切场景。
 3. **受控试译**：上述门禁通过后，优先对已验证parser覆盖的少量UI/剧情进行正式试译，继续显式locale层、术语与控制符校验；其他未知资源保持只读。
 4. **扩大文本规模**：试译构建和字库覆盖/容量通过后再扩大批次，不要求先穷尽全部引擎逆向；未知格式与不同渲染路径单独设门禁。

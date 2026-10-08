@@ -4,6 +4,11 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — 增长Font接入独立UE2包
+
+新增有hash/version门禁的append-only export builder，实际MrtsEngine.u的7668项回读通过；两增长Font追加并更新size/offset，7666个无关export及原包数据保持。包2058129→2713665 B；干净源码复现同一包hash，218项测试通过，独立源码回滚恢复201项基线，独立包副本恢复原包hash。见 [包级构建与证据](FONT_PACKAGE.md)。
+未修改原ISO/ELF/旧PoC/locale，未新增译文。celfid不是完整engine副本，增长副本及新ISO尚未接入，运行时扩容仍未验证。事务位于ignored `build/package-font-15/VERIFICATION.txt`；后续优先bundle记录重建和上游AFS/ISO接入。
+
 ## 2026-10-09 — 小字集PoC运行截图与分页反馈
 
 三张截图分别显示短UI、中文标点/ASCII混排和开场长句折行；长句末尾下一页显示有反馈确认，未附该页截图，不记录为丢字或裁切。截图目标与text-poc-02相容，但没有镜像路径/hash、PCSX2版本或BIOS身份。正常存读档、切场景、战斗及长期稳定性未测试；分页不计作切场景。见 [逐项证据与截图hash](QA_TEXT_POC.md)。

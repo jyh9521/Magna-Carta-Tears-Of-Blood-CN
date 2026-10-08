@@ -101,3 +101,7 @@ JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏000
 ## 新增字库不能复用等长Font替换
 
 Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长slice路径不支持该长度变化；直接赋值会移动后续bytes却不修复export metadata。首次D0实验被旧MappedEncoder按预期拒绝；新增显式Font表校验而非删除旧几何门禁。见 [扩容实验](FONT_EXPANSION.md)。
+
+## celfid不能按完整MrtsEngine包替换
+
+原celfid解压buffer中没有完整MrtsEngine.u副本；仅匹配到Font serial不证明周边资源记录可增长。新增包export offset/size修复不会自动同步bundle索引。必须验证bundle边界与长度metadata后再接入，禁止直接增长serial slice或盲目替换整包。追加新export表避免原compact字段长度变化移动原包，但保留旧资源会增加包大小；实际loader兼容性另行验收。见 [包级接入](FONT_PACKAGE.md)。

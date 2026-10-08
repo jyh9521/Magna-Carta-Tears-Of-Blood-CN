@@ -125,3 +125,7 @@ Verified static：0x333A4C查表后保留16位glyph，0x333C30邻域从Font候�
 ## 小字集PoC运行时观察（2026-10-09）
 
 Verified screenshot observation：短UI中的中文、句号和ASCII可读；实时开场场景的标点混排样本与长句折行可见。Reported observation：长句末尾在下一页显示，未附该页截图；不作为丢字/裁切故障记录。High-confidence deduction：截图内容与text-poc-02三个目标相容，但没有载入ISO的独立hash证据。存读档、切场景及新增槽字库运行时容量仍未验证；分页不替代场景切换，实时场景字幕不替代SFD验证。详见 [证据记录](docs/QA_TEXT_POC.md)。
+
+## 增长Font的UE2 export接入（2026-10-09，Verified static）
+
+原MrtsEngine.u为version118/licensee15、flags1，共7668个export。新增append-only包builder，仅改变header @24表偏移，追加两Font和新表；size/offset采用compact index，目标entry身份前缀保持。原包数据区、name/import及7666个无关export保持。2058129→2713665 B，真实包回读及干净源码复现通过；runtime/celfid/ISO尚未验证。celfid解压buffer不存在完整原engine副本，整包替换路线不适用。详见 [包级接入](docs/FONT_PACKAGE.md)。

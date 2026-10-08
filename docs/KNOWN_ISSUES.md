@@ -33,3 +33,5 @@
 2026-10-09：FontObj bitmap消费者与动态page候选已定位，1024组标量转换及两Font全宽投影通过；format selector、page创建、总容量和真实渲染仍待验证。179项测试不改变当前PoC游戏内验收状态。见 [bitmap研究](FONT_BITMAP.md)。
 
 2026-10-09：两套独立Font已追加33个中文glyph并保留原glyph；201项测试通过。增长资源尚未集成UE2/celfid/ISO，runtime显示及容量未验证，不能作为新可玩版本或正式试译启动证据。见 [扩容实验](FONT_EXPANSION.md)。
+
+2026-10-09：独立UE2包已静态接入两增长Font，218项测试通过，7666个无关export保持；celfid副本、ISO和运行时加载仍未接入/验收，不替代新增槽游戏显示测试。见 [包级构建](FONT_PACKAGE.md)。

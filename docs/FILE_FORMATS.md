@@ -141,3 +141,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### Font序列化append-only builder
 
 27 B头保留除glyph count @11的字段；重建compact bitmap长度、bitmap、compact metrics长度、metrics、compact range/base count与u16表，未知tail原样透传。新增glyph与metric追加在各数组尾部，旧C8FF sentinel保留，追加新范围与结束sentinel。独立资源增长还需要UE2 export offset/size更新，当前未写回包。见 [扩容实验](FONT_EXPANSION.md)。
+
+### UE2 export追加替换（Verified static，2026-10-09）
+
+当前MrtsEngine.u header @20为export count、@24为export offset；每项为compact class/super、i32 outer、compact name、u32 flags、compact serial size和非零size时的compact serial offset。index为1-based。新builder锁定hash、version118/licensee15、flags1，保留原表及payload，追加目标payload与新表，更新@24；目标字段compact编码长度可变化。零size项不写offset。真实7668项回读及无关7666项bytes保持通过，不等于运行时包加载成功；celfid不是完整engine package副本。见 [包级构建](FONT_PACKAGE.md)。
