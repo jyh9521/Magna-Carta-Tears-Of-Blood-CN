@@ -1,6 +1,6 @@
 # 小字集文本PoC — text-poc-02
 
-日期：2026-10-08。状态：构建和静态验证通过；此构建的PCSX2验收尚未完成，不是正式中文补丁。
+构建日期：2026-10-08；证据更新：2026-10-09。状态：构建和静态验证通过，短UI、标点混排和长句有局部PCSX2截图证据；完整验收尚未完成，不是正式中文补丁。
 旧`glyph-poc-01`构建与标签保留，旧截图结论不自动转移到此版本。
 
 ## 构建身份
@@ -37,8 +37,32 @@ UI短串以候选width bytes估算NormalFont164、Katakana173；实验静态预�
 
 **Verified static**：源ISO及资源hash、33字cmap覆盖、编码与严格token顺序校验、FPB增长与无关记录透传、固定槽NUL和候选字宽预算、两字体及UI完整副本同步、AFS顺序/metadata/manifest、全ISO非目标bytes一致。
 FILE.AFS 21716992→21581824 B；celfid压缩1239770→1104201 B；SHIP仍45686784 B。ISO走2 in-place、0 relocation。
-**High-confidence deduction**：id176对应读档空槽提示；现有双字节映射可扩展到这33字。前者依据字段原文与旧截图，后者依据字节结构及旧单字观察，仍需此ISO实测。
-**Unverified hypothesis**：此版本所有字形显示、标点/ASCII混排、长句自动换行、advance与基线、剧情触发、跨场景稳定性、正常存档与读取。
+**High-confidence deduction**：三张截图的内容与本构建三个测试目标一致，支持id176空槽提示及FPB目标的对应关系；截图未显示载入ISO路径或完整hash，不能独立绑定镜像身份。
+**Unverified hypothesis**：完整字集覆盖、全部布局的advance与基线、两Font切换、跨场景稳定性、正常存档与读取；新增槽Font扩容未集成ISO，不能继承旧槽PoC截图结论。
+
+## 2026-10-09 — 局部运行时证据
+
+| 证据 | 观察与边界 |
+|---|---|
+| 截图1：读档列表 | 四个空槽提示显示“测试中文。123ABC”，中文、句号及ASCII可读；所示短串没有明显重叠或裁切。空槽列表不验证正常存读档。 |
+| 截图2：开场实时场景 | “测试中文，。！？“”《》123ABC”样本可读，未见明显缺字方框或乱码；标点间距较宽，完整字宽/基线及排版验收仍待完成。不是SFD字幕pipeline证据。 |
+| 截图3：开场长句 | “测试中文”单独成行，后续正文折行可见；与一个显式$n和后续自动折行相容，不扩展为全部控制符验收。 |
+| 下一页末尾：反馈证据 | 长句末尾在下一页显示，未附该页截图；不记录为已复现的丢字或裁切。分页推进不等于切场景。 |
+| 未测试项 | 正常存档、正常读取、切场景、战斗、长期稳定性及linked角色名称。 |
+
+**Verified screenshot observation**仅覆盖以上截图可见内容。**Reported observation**覆盖长句末尾下一页显示；该页内容、断点和完整排版未通过截图复核。
+三张截图均显示Vulkan、640×447 (1x)、FPS 30、VPS 60、速度100%；PCSX2版本、BIOS、冷启动过程、载入镜像路径及hash未包含在截图中。
+本地实验ISO身份见构建身份；截图与三个目标内容的关联属于High-confidence deduction，不作为独立镜像hash验证。
+
+原始截图均为3992×2312，原文件保持不变；副本仅保存于ignored `build/qa-text-14/evidence/`，不进入Git。
+
+| 原始截图文件名 | SHA-256 |
+|---|---|
+| codex-clipboard-2dd698e3-dd2a-48f2-b7bd-e0477ae9a155.png | `80a3ccd37ef5149f76c4627fdbb436928d7f296622ce12ac554af376f9240483` |
+| codex-clipboard-474e4140-b9c4-4d3f-b8f9-c809b1847b5f.png | `691fa5e9b00f13ea6615cd0eab2d429b64717ac79a67cd4165a42cfc3c451fdd` |
+| codex-clipboard-99b87aa5-697a-4dcc-a2a8-eda10a2e5e48.png | `28baa344e77dd6092acc1f4b77448aa66d9813c9c12a19716510ce42e32c33aa` |
+
+本轮无需重复完整开场；未测试项保留为后续独立验收。截图不改变共享韩文字形槽的副作用，也不验证独立Font追加后的运行时容量。
 
 ## PCSX2测试顺序
 

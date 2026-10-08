@@ -121,3 +121,7 @@ Verified static：0x333A4C查表后保留16位glyph，0x333C30邻域从Font候�
 ## 真实Font资源追加（2026-10-09，Verified static）
 
 两Font2667→2700 glyph，真实新增bitmap/metrics与D0A1–D0C1表；原glyph、metric、geometry及未知tail保持。原指令查表模型核对每Font2411个原双字节成员、128个ASCII和33个新增编码。未知runtime容量不作已验证上限；下一步UE2 export重定位与celfid增长副本同步，随后新增槽ISO验收。见 [扩容实验](docs/FONT_EXPANSION.md)。
+
+## 小字集PoC运行时观察（2026-10-09）
+
+Verified screenshot observation：短UI中的中文、句号和ASCII可读；实时开场场景的标点混排样本与长句折行可见。Reported observation：长句末尾在下一页显示，未附该页截图；不作为丢字/裁切故障记录。High-confidence deduction：截图内容与text-poc-02三个目标相容，但没有载入ISO的独立hash证据。存读档、切场景及新增槽字库运行时容量仍未验证；分页不替代场景切换，实时场景字幕不替代SFD验证。详见 [证据记录](docs/QA_TEXT_POC.md)。
