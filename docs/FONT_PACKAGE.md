@@ -44,3 +44,5 @@ work/venv/Scripts/python.exe -X utf8 tools/build_font_package.py --iso "<origina
 下一步定位celfid资源记录的边界与长度元数据，防御性更新Font副本，之后复用上游AFS slot0 manifest和ISO构建。当前没有生成新增槽ISO；旧text-poc-02继续保留，旧槽截图不验证本包或新增槽容量。
 
 2026-10-09更新：celfid六段增长候选已静态同步；AFS增长触发真实混合ISO/UDF relocation回读失败，预检现于写入前停止。详见 [缓存与ISO门禁](FONT_BUNDLE.md)，不作为运行时包加载验收。
+
+2026-10-09后续：增长package与celfid候选已接入带UDF同步的新ISO，两文件视图回读通过，runtime仍未验收。见 [新增槽镜像](QA_EXPANDED_POC.md)。

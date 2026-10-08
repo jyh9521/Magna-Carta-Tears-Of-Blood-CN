@@ -13,7 +13,8 @@ from localization.text import MappedEncoder,rewrite_fpb,rewrite_fixed_slot
 from research_inventory import package_tables,font_data
 from translate.celfid import decompress_chunked,recompress_chunked
 from iso import patch_iso
-from iso_validation import verify_iso_overlay,require_iso_overlay_layout
+from iso_validation import verify_iso_overlay
+from udf_overlay import plan_udf_overlay,apply_udf_overlay
 
 
 def main() -> None:
@@ -73,20 +74,22 @@ def main() -> None:
     for entries,overrides in [(fe,fover),(se,sover)]:overrides[entries[0][0].lower()]=core.manifest_overlay(entries[0][1],{n:len(b) for n,b in overrides.items()})
     changes={n:checked_archive(out/('original-'+n),out/n,overrides) for n,overrides in [('FILE.AFS',fover),('SHIP.AFS',sover)]}
     replacements={'/FILE.AFS':out/'FILE.AFS','/SHIP.AFS':out/'SHIP.AFS'}
-    require_iso_overlay_layout(args.iso,replacements)
+    udf_plan=plan_udf_overlay(args.iso,replacements)
     branches=patch_iso(args.iso,out/'MODIFIED_FILE.iso',replacements)
-    validation=verify_iso_overlay(args.iso,out/'MODIFIED_FILE.iso',replacements)
+    apply_udf_overlay(out/'MODIFIED_FILE.iso',udf_plan)
+    validation=verify_iso_overlay(args.iso,out/'MODIFIED_FILE.iso',replacements,udf_plan=udf_plan)
     core.require(branches==(validation['in_place'],validation['relocated']),'ISO branch mismatch')
     recovered=core.iso_files(out/'MODIFIED_FILE.iso',['FILE.AFS','SHIP.AFS'])
     for name,data in recovered.items():core.require(data==(out/name).read_bytes(),'ISO archive readback mismatch')
     counts={font_data(serial)['glyphs'] for serial in fonts.values()};core.require(len(counts)==1,'Font counts differ');count=counts.pop()
+    udf_records=[dict(label=x['label'],offset=x['offset'],bytes=len(x['modified']),sha256=core.digest(x['modified'])) for x in udf_plan['patches']]
     report=dict(milestone='expanded-text-poc',source_sha256=game['expected_iso_sha256'],modified_sha256=core.file_digest(out/'MODIFIED_FILE.iso'),
                 iso=validation,afs_changes=changes,package_sha256=core.digest(engine),bundle_sha256=core.digest(new_bundle),
                 fpb_records=fpb_info,ui=ui_info,ui_segments=ui_segments,candidate_ui_widths=widths,map=mapping['entries'],
-                glyphs_per_font=count,records=3,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
+                glyphs_per_font=count,records=3,udf_records=udf_records,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
     (out/'DIFF_FILE.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     core.require(core.file_digest(args.iso)==game['expected_iso_sha256'],'original ISO changed')
-    print(f"EXPANDED LOCALE STATIC PASS fonts=2 records=3 glyphs={count} in_place={branches[0]} relocated={branches[1]} iso_readback=true runtime=unverified")
+    print(f"EXPANDED LOCALE STATIC PASS fonts=2 records=3 glyphs={count} in_place={branches[0]} relocated={branches[1]} iso_readback=true udf_synced={str(validation['udf_synced']).lower()} runtime=unverified")
 
 
 if __name__=='__main__':main()

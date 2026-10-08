@@ -18,7 +18,7 @@ def require_iso_overlay_layout(source: Path, replacements: dict[str, Path]) -> N
                 'UDF size/relocation metadata synchronization required before ISO build')
 
 
-def verify_iso_overlay(source: Path, modified: Path, replacements: dict[str, Path]) -> dict:
+def verify_iso_overlay(source: Path, modified: Path, replacements: dict[str, Path], *, udf_plan: dict | None = None) -> dict:
     old, directories = _portable_metadata(source); new, new_directories = _portable_metadata(modified)
     require(old.keys() == new.keys() and directories == new_directories, 'ISO file/directory inventory changed')
     require(replacements and set(replacements) <= old.keys(), 'unknown ISO replacement')
@@ -53,6 +53,11 @@ def verify_iso_overlay(source: Path, modified: Path, replacements: dict[str, Pat
                     allowed.append((directory[0]*SECTOR+pos+2,directory[0]*SECTOR+pos+18));found=True
                 pos+=count
             require(found,'replacement directory record missing')
+        if udf_plan:
+            for patch in udf_plan['patches']:
+                after.seek(patch['offset']);require(after.read(len(patch['modified']))==patch['modified'],'UDF overlay bytes mismatch')
+                if patch['original']:allowed.append((patch['offset'],patch['offset']+len(patch['modified'])))
+            append+=udf_plan['extra_sectors']*SECTOR
         require(modified.stat().st_size==append,'unexpected ISO output length')
         if relocated:
             position=16*SECTOR+80;allowed.append((position,position+8));after.seek(position)
@@ -64,5 +69,8 @@ def verify_iso_overlay(source: Path, modified: Path, replacements: dict[str, Pat
                 lo=max(start,offset)-offset;hi=min(end,offset+len(chunk))-offset
                 if lo<hi:current[lo:hi]=chunk[lo:hi]
             require(current==chunk,'untargeted ISO bytes changed at '+str(offset));offset+=len(chunk)
+    if udf_plan:
+        from udf_overlay import verify_udf_files
+        verify_udf_files(modified,replacements,udf_plan)
     return dict(in_place=len(replacements)-relocated,relocated=relocated,original_bytes=source.stat().st_size,
-                modified_bytes=append,untargeted_bytes_preserved=True)
+                modified_bytes=append,untargeted_bytes_preserved=True,udf_synced=bool(udf_plan and udf_plan['has_udf']))

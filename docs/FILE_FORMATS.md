@@ -149,3 +149,7 @@ Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向
 ### celfid缓存片段与混合ISO（2026-10-09）
 
 原bundle唯一匹配64 B engine header、123318 B export表及两个Font；两条路径记录是128 B NUL填充ASCII名称加u32实际包长度。字体增长时同步这些六段，其余bytes按新位置保持；不是完整bundle parser。韩版含ISO9660/UDF双文件树，原UDF anchors在LBA256/1567583；FILE增长relocation须同步UDF分配/文件长度/anchor及descriptor校验，不只改ISO9660。见 [缓存与镜像门禁](FONT_BUNDLE.md)。
+
+### 有限布局UDF overlay（2026-10-09，Verified static）
+
+支持单只读物理partition、Type1 map、标准tag261 File Entry、单short AD。File Entry info length @56 u64、recorded blocks @64 u64，AD从176+extended_attr_length开始，u32长度及u32相对partition block；元数据位置由parser确定。Partition length @192、单partition integrity size table @84；descriptor tag CRC16 @8、CRC长度@10、location@12、checksum@4。原CRC长度保持，未知bytes保留。增长镜像新anchor追加一sector、partition不含尾anchor，PVD总sector数包含它。实际ISO/UDF双视图AFS回读通过，不等于runtime验收。见 [新候选](QA_EXPANDED_POC.md)。

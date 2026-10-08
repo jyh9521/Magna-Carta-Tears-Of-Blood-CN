@@ -1,8 +1,13 @@
 # 开发与测试进展
 
-当前里程碑：`text-poc-02`，小字集文本实验；构建与静态验证通过，短UI/标点/长句有局部运行时证据，完整游戏内验收待完成。`glyph-poc-01`保留为单字基线；不是发布版，不进入批量翻译。
+当前里程碑：`expanded-text-poc-03-udf`，新增槽字库实验ISO；ISO9660/UDF回读和静态验证通过，运行时验收待完成。旧`text-poc-02`的短UI/标点/长句已有局部证据，不自动转移到新版本。`glyph-poc-01`保留为单字基线；不是发布版，不进入批量翻译。
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
+
+## 2026-10-09 — UDF同步与新增槽候选ISO
+
+复用上游ISO relocation，新增有限布局UDF overlay，同步file entry/short AD、主备partition、integrity size table和新尾部anchor，重算CRC/checksum并更新PVD。真实韩版候选3232653312 B，两视图完整AFS回读一致，全镜像未修改区间验证通过，新增槽字库镜像首次完成结构验收。
+254项测试通过；干净源码复现ISOhash，独立源码回滚恢复242项基线，独立ISO副本回滚恢复原hash；原输入、旧PoC、locale和tag保持。新候选尚无PCSX2验收，没有批量译文。见 [构建身份与最短测试](QA_EXPANDED_POC.md)。事务位于ignored `build/udf-overlay-17/VERIFICATION.txt`。
 
 ## 2026-10-09 — celfid增长候选与UDF预检
 

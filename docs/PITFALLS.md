@@ -109,3 +109,7 @@ Font扩容同时增长bitmap、metrics与range/base，既有engine/bundle等长s
 ## ISO9660 relocation不能直接用于当前混合UDF镜像
 
 增长FILE.AFS触发1 in-place/1 relocation，ISO9660目录/PVD已更新，但pycdlib回读报`Expected at least 2 UDF Anchors`。旧末尾anchor位置随镜像增长失效，UDF File.afs也仍引用原slot；仅补一个anchor或绕过UDF parser不会修复双视图不一致。失败ISO标记REJECTED并保持ignored，新增预检阻止重复生成同类输出。合成ISO9660 relocation成功不代表韩版混合镜像成功。见 [实际失败及下一步](FONT_BUNDLE.md)。
+
+## 混合UDF修复不只移动anchor
+
+已复现的增长镜像错误通过同步标准File Entry/short AD、主备partition length、integrity size table、新尾anchor和PVD解决静态回读；未知descriptor bytes必须保留并重新计算原范围CRC/checksum。新anchor需要额外sector，不能写入新增AFS最后一sector。仅放宽旧预检或忽略UDF parser会留下错误文件视图。254项测试与真实双视图回读不替代PCSX2缓存/字库验收。见 [新候选验证](QA_EXPANDED_POC.md)。

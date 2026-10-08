@@ -133,3 +133,8 @@ Verified screenshot observation：短UI中的中文、句号和ASCII可读；实
 ## celfid增长片段与混合镜像失败（2026-10-09）
 
 Verified static：celfid包含唯一engine header、export table、两Font serial与两条132 B文件路径/大小记录；六段同步及其他区间保持通过，4195112→4201631 B。完整缓存语义仍未验证。AFS集成FILE增长到22239232 B，触发上游ISO relocation；真实混合ISO/UDF回读报缺少anchor。原尾部anchor不再位于新末尾，UDF File.afs引用还指向旧区域，单补anchor不足。新增预检在ISO写入前阻止UDF size变化；242项测试不代表UDF修复或runtime扩容完成。见 [缓存证据与失败记录](docs/FONT_BUNDLE.md)。
+
+## 韩版混合ISO/UDF同步（2026-10-09，Verified static）
+
+保留上游ISO9660 patcher，新增单物理partition/Type1 map/标准File Entry/单short AD的防御性overlay。FILE.AFS增长重定位后同步UDF info length、recorded blocks和AD；主备partition与integrity size table增长，新anchor追加到镜像末尾而非覆盖文件，tag location/CRC16/checksum和ISO PVD同步。未知descriptor fields、时间与扩展属性保持，原源bytes/两视图extent先验证；不套用固定韩版offset到未知布局。
+真实候选3232653312 B，ISO与UDF读回两AFS一致，全原区域未修改bytes通过；源ISO/ELF不改。运行时cache/显示未验收。字段、hash与测试见 [新增槽PoC](docs/QA_EXPANDED_POC.md)。

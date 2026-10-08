@@ -61,4 +61,4 @@ UI副本同步不是完整linked name group校验；角色名、其他固定slot
 
 ## 新增槽实验与正式试译门禁
 
-独立Font扩容实验使用实际Font range/base/count验证映射，旧PoC map不改。已进入独立package和celfid候选；增长ISO受UDF同步门禁阻止，D0实验map尚未作为可验收ISO编码。完成新增槽镜像、最小显示/换行/存读档/切场景与linked名称验证后，从已确认资源的小批量正式试译开始；不以穷尽全部引擎逆向作为前提，不越过未知格式门禁。具体顺序见 [扩容实验](docs/FONT_EXPANSION.md)。
+独立Font扩容实验使用实际Font range/base/count验证映射，旧PoC map不改。已进入独立package和celfid候选；带UDF同步的D0实验ISO已通过结构回读，游戏显示与缓存尚未验收。完成新增槽镜像、最小显示/换行/存读档/切场景与linked名称验证后，从已确认资源的小批量正式试译开始；不以穷尽全部引擎逆向作为前提，不越过未知格式门禁。具体顺序见 [扩容实验](docs/FONT_EXPANSION.md)。

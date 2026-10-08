@@ -1,6 +1,6 @@
 # 增长Font的启动缓存候选与ISO门禁
 
-日期：2026-10-09。状态：Verified static fragment overlay；缓存流语义与运行时加载未验证。ISO构建预检因UDF同步缺口停止，没有新的可验收ISO。
+日期：2026-10-09。状态：Verified static fragment overlay；缓存流语义与运行时加载未验证。本页保留UDF同步前的失败阶段；后续新增槽ISO已通过双视图回读，见 [当前验收](QA_EXPANDED_POC.md)。
 
 ## celfid片段证据
 
@@ -46,9 +46,9 @@ work/venv/Scripts/python.exe -X utf8 tools/build_font_bundle.py --iso "<original
 work/venv/Scripts/python.exe -X utf8 tools/build_expanded_locale.py --iso "<original-KR-ISO-path>" --expansion-dir work/font-expansion --package-dir work/font-package --bundle-dir work/font-bundle --out build/expanded-text-preflight
 ```
 
-当前韩版输入预期结果：`UDF size/relocation metadata synchronization required before ISO build`，退出1，不生成ISO；AFS候选用于静态检查，不能替代可用镜像。
+UDF同步前版本的韩版预期结果：`UDF size/relocation metadata synchronization required before ISO build`，退出1，不生成ISO；AFS候选用于静态检查，不能替代可用镜像。
 14项缓存合成测试和10项ISO测试新增后工程242项通过；干净源码复现缓存bytes/hash，源码回滚恢复218项基线，独立celfid副本恢复原压缩bytes/hash。事务位于ignored `build/bundle-font-16/VERIFICATION.txt`。
 
-## 下一步
+## UDF同步前的下一步（历史记录）
 
 保留上游AFS/ISO实现，针对混合镜像新增小范围UDF metadata同步：两套文件视图的extent/size、allocation descriptor、partition/integrity状态、尾部anchor和descriptor CRC/checksum分别核验。补齐合成混合镜像与真实韩版回读后，再生成新增槽测试ISO。原ISO、旧text-poc-02、ELF、locale文件和现有tag保持；没有新增运行时验收或批量翻译。

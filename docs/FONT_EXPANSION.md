@@ -13,7 +13,7 @@
 
 两Font扩容后的真实range/base分别接受33个新增编码，并在原212 B指令模型中核对2411个原双字节成员和128个ASCII，原index不变。cmap、共同基线bounds、非空字形及新metric19全部验证，preview已检查；不等于游戏显示验收。
 
-独立Font阶段仅生成序列化资源；2026-10-09新增独立MrtsEngine.u包接入，见 [包级构建](FONT_PACKAGE.md)。celfid六段增长候选已静态同步，见 [缓存与ISO门禁](FONT_BUNDLE.md)；增长ISO尝试遇到UDF回读失败，预检阻止不一致输出，没有执行runtime loader/cache。增长资源不能塞入现有等长slice替换流程，否则会破坏UE2 export offset/size与包布局。原小字集PoC继续使用旧B0映射，原locale文件与实验ISO不改。
+独立Font阶段仅生成序列化资源；2026-10-09新增独立MrtsEngine.u包接入，见 [包级构建](FONT_PACKAGE.md)。celfid六段增长候选已静态同步，见 [缓存与ISO门禁](FONT_BUNDLE.md)；首次增长ISO遇到UDF回读失败，后续有限布局同步已生成双视图回读通过的候选，见 [新增槽验收](QA_EXPANDED_POC.md)；runtime loader/cache尚未验收。增长资源不能塞入现有等长slice替换流程，否则会破坏UE2 export offset/size与包布局。原小字集PoC继续使用旧B0映射，原locale文件与实验ISO不改。
 
 ## 数据层与门禁
 
