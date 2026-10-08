@@ -1,40 +1,147 @@
-roms/
-work/
+# Local project instructions
+AGENTS.md
+docs/LOCALIZATION_STANDARD.md
+
+# Build output
 build/
-*.iso
-*.SFD
-*.AFS
-*.adx
-*.m1v
-*.elf
-*.bin
+dist/
+out/
+
+# Temporary and working directories
+tmp/
+temp/
+.cache/
+.cache-*/
+work/
+_work/
+scratch/
+
+# Local configuration
+*.local
+*.local.*
+config.local.*
+settings.local.*
+
+# Logs
+*.log
+logs/
+
+# Python
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .venv/
 venv/
-.claude/
+env/
 
-# Local-only archives — kept on disk for reference but never published.
-# The D-build trail and per-extension SHIP.AFS analyses lived here during
-# investigation; the canonical pipeline lives in lib/{afs,iso,ship,cutscenes,ffmpeg}.py.
-lib/experiments/
-docs/
+# Node.js
+node_modules/
 
-# Translation catalogs are derived from a user's own ISOs by
-# `patch.py translate-extract`. Multiple side-by-side catalogs allowed
-# (e.g. translations-deepl, translations-experiment) — all gitignored.
-translations/
-translations-*/
+# C/C++ / Visual Studio
+.vs/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Local-only — incomplete notes / one-off rebuild backups.
-build_old/
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
 
-# Transient build logs + scratch.
-*.log
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and release packages
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Disc images and large game images
+*.iso
+*.bin
+*.cue
+*.img
+*.mdf
+*.mds
+
+# Common game binaries / proprietary outputs
+*.elf
+*.xbe
+*.xex
+
+# Backups
+*.bak
+*.backup
+*.orig
+*.old
+*.prepatch
+*.pre-patch
+
+# Patch/build intermediates
+*.tmp
+*.temp
+
+# Optional local original-game input directories
+original/
+original_game/
+game_original/
+game-files/
+game_files/
+
+# Optional extracted proprietary resource directories
+extracted/
+unpacked/
+decompiled/
+
+# Keep intentionally tracked placeholders if used
+!.gitkeep
+
+# Upstream local extraction/catalog inputs
+roms/
+translations*/
 .tmp/
 
-# Local-only analysis notes — kept on disk for reference, not published.
-TRANSLATION-REVIEW.md
-FAITHFUL-VS-BASE.md
-FAITHFUL-VS-BASE.csv
+# Proprietary PS2 assets: defense against accidentally placing them outside work/
+*.[aA][fF][sS]
+*.[sS][fF][dD]
+*.[aA][dD][xX]
+*.lin
+*.lix
+*.utx
+*.uax
+*.unr
+*.usx
+*.ukx
+*.u
+SCKA_*
+SLUS_*
+SLPM_*
+
+# Local emulator installation (not localization source)
+pcsx2/

@@ -1,0 +1,18 @@
+# Known Issues
+
+研究状态：尚无可玩zh-CN构建。以下是验收缺口，不声称是已复现的中文游戏崩溃。
+
+| 项目 | 状态 | 证据/下一步 |
+|---|---|---|
+| 中文显示/无乱码/不崩溃 | Runtime pending | 单字glyph替换ISO已生成，用户准备BIOS，PCSX2验收待完成 |
+| 字宽/自动换行/标点/两font切换 | Open | bitmap/width候选已定位，runtime trace pending |
+| mapping稳定/容量扩展 | Open |现有2667 glyphs，2350韩文槽，扩容未知 |
+|存档/切场景/战斗回归|Open|未做中文PCSX2测试，不宣称兼容|
+|完整韩文资源/linked dependency mapping|Investigating|FPB/slots/region/celfid数据性质分别见研究报告|
+|USA/JP binary比较|Deferred|用户无相应ISO，不作为KR PoC硬依赖；仅引用上游encoding choices|
+|生产ISO命令Windows路径|Verified static|pycdlib metadata fallback与实际KR ISO两处in-place已通过；runtime仍待测|
+|FILE manifest stale|Fixed in PoC static|PoC同步celfid压缩长度，保留其他manifest记录；runtime影响待测|
+|SFD时长/时间戳/中文字幕|Investigating|180216静态音频一致，0.103944s drift与warning；中文ASS/游戏同步未验收|
+|大规模翻译/Release|Not started|必须先完成PoC门禁并向用户汇报|
+
+测试须记录PCSX2版本/backend/BIOS、原版与测试版hash、冷启动、截图和每个验收项；不能只用savestate或静态测试代替。

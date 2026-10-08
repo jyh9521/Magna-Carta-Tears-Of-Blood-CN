@@ -34,9 +34,31 @@ from pathlib import Path
 SECTOR = 0x800
 
 
+def _portable_metadata(iso: Path) -> tuple[dict[str, tuple[int, int]], dict[str, tuple[int, int]]]:
+    """Read ISO9660 extents with pycdlib when isoinfo is not installed."""
+    import pycdlib
+    cd = pycdlib.PyCdlib()
+    cd.open(str(iso))
+    files, directories = {}, {}
+    try:
+        for parent, _, names in cd.walk(iso_path="/"):
+            record = cd.get_record(iso_path=parent)
+            directories[parent.rstrip("/") + "/"] = (record.extent_location(), record.data_length)
+            for name in names:
+                path = parent.rstrip("/") + "/" + name
+                record = cd.get_record(iso_path=path)
+                files[path.removesuffix(";1")] = (record.extent_location(), record.data_length)
+    finally:
+        cd.close()
+    return files, directories
+
+
 def _read_iso_lbas(iso: Path) -> dict[str, tuple[int, int]]:
     """{full_iso_path: (lba, size_bytes)} for every regular file."""
-    out = subprocess.check_output(["isoinfo", "-l", "-i", str(iso)], stderr=subprocess.DEVNULL)
+    try:
+        out = subprocess.check_output(["isoinfo", "-l", "-i", str(iso)], stderr=subprocess.DEVNULL)
+    except FileNotFoundError:
+        return _portable_metadata(iso)[0]
     text = out.decode("latin-1")
     table: dict[str, tuple[int, int]] = {}
     cur_dir = "/"
@@ -71,7 +93,10 @@ def _dir_lba_size(iso: Path, dir_path: str) -> tuple[int, int]:
 
     `dir_path` should end in `/` and use ISO9660 paths (e.g. `/`, `/MOVIE18/`).
     """
-    out = subprocess.check_output(["isoinfo", "-l", "-i", str(iso)], stderr=subprocess.DEVNULL)
+    try:
+        out = subprocess.check_output(["isoinfo", "-l", "-i", str(iso)], stderr=subprocess.DEVNULL)
+    except FileNotFoundError:
+        return _portable_metadata(iso)[1][dir_path]
     text = out.decode("latin-1")
     cur = None
     for line in text.splitlines():
@@ -136,10 +161,17 @@ def patch_iso(src_iso: Path, out_iso: Path, replacements: dict[str, Path],
     `replacements` maps full ISO paths (like '/MOVIE18/180101.SFD') to local
     files containing the new bytes. Returns (in_place_count, relocated_count).
     """
+    if src_iso.resolve() == out_iso.resolve() or (out_iso.exists() and src_iso.samefile(out_iso)):
+        raise ValueError("source and output ISO must be different files")
+    lba_table = _read_iso_lbas(src_iso)
+    for iso_path, new_file in replacements.items():
+        if iso_path not in lba_table or not new_file.is_file():
+            raise ValueError(f"invalid ISO replacement: {iso_path}: {new_file}")
+        if new_file.resolve() in (src_iso.resolve(), out_iso.resolve()):
+            raise ValueError("replacement must not alias source/output ISO")
     if out_iso.exists():
         out_iso.unlink()
     shutil.copy2(src_iso, out_iso)
-    lba_table = _read_iso_lbas(src_iso)
 
     # Group replacements by parent directory so we batch-patch each directory
     # blob once (saves rewriting the dir for every relocation in it).

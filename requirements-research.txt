@@ -1,0 +1,6 @@
+# Versions exercised by the read-only research tools on Python 3.14.2 / Windows.
+cri-afs==0.1.1
+sfd-muxer==0.1.1
+pycdlib==1.21.0
+Pillow==12.3.0
+fonttools==4.66.1
