@@ -93,12 +93,92 @@ def pair_candidates(words: list[int], targets: set[int], max_gap: int = 8) -> li
     return hits
 
 
+def _transfer(word: int) -> bool:
+    return word >> 26 in (1, 2, 3, 4, 5, 6, 7, 20, 21, 22, 23) or (word >> 26 == 0 and word & 63 in (8, 9))
+
+
+def _supported_effect(word: int) -> bool:
+    op, rs, rt = word >> 26, (word >> 21) & 31, (word >> 16) & 31
+    return (word == 0 or op in (9, 13, 32, 33, 35, 36, 37, 40, 41, 43, 63) or (op == 15 and rs == 0)
+            or (op == 0 and (word >> 6) & 31 == 0 and (word & 63 == 0x21 or (word & 63 == 0x2d and (rs == 0 or rt == 0)))))
+
+
+def trace_call(image: ElfImage, call_va: int, max_back: int = 8) -> dict:
+    """Local low-32-bit symbolic state at JAL/JALR, including the delay slot.
+
+    No memory dereference, ABI preservation, path execution or function claim.
+    Unknown instructions and earlier transfers delimit the starting unknown state.
+    """
+    core.require(call_va % 4 == 0 and 1 <= max_back <= 32, "invalid call trace bound/alignment")
+    offset = image.to_offset(call_va)
+    image.to_offset(call_va + 7)  # complete instruction and complete delay slot
+    word, delay = struct.unpack_from("<II", image.blob, offset)
+    op, rs, rd = word >> 26, (word >> 21) & 31, (word >> 11) & 31
+    direct = op == 3
+    indirect = op == 0 and word & 63 == 9 and ((word >> 16) & 31) == 0 and ((word >> 6) & 31) == 0 and rd == 31 and rs not in (0, 31)
+    core.require(direct or indirect, "only direct JAL or canonical JALR ra supported")
+    segment = next(s for s in image.segments if s["type"] == 1 and s["offset"] <= offset < s["offset"] + s["filesz"])
+    core.require(offset + 8 <= segment["offset"] + segment["filesz"], "delay slot crosses load segment")
+    start, boundary, barrier_va = offset, "bounded_window", None
+    for pos in range(offset - 4, max(segment["offset"], offset - 4 * max_back) - 1, -4):
+        previous = struct.unpack_from("<I", image.blob, pos)[0]
+        if _transfer(previous):
+            start, boundary, barrier_va = min(offset, pos + 8), "earlier_transfer_and_delay_excluded", image.to_va(pos)
+            break
+        if not _supported_effect(previous):
+            start, boundary, barrier_va = pos + 4, "unsupported_instruction", image.to_va(pos)
+            break
+        start = pos
+    if start == segment["offset"] and barrier_va is None:
+        boundary = "segment_start"
+    def value(expression, constant=None, definitions=()):
+        return dict(expression=expression, known_u32=constant, definitions=list(definitions))
+    regs = {r: value(f"entry_r{r}") for r in range(32)}
+    regs[0] = value("0", 0)
+    def effect(w, va):
+        opcode, a, b, dest = w >> 26, (w >> 21) & 31, (w >> 16) & 31, (w >> 11) & 31
+        if w == 0 or opcode in (40, 41, 43, 63):
+            return
+        source = regs[a]
+        immediate = w & 65535
+        signed = immediate if immediate < 32768 else immediate - 65536
+        defs = sorted(set(source["definitions"] + [va]))
+        constant = source["known_u32"]
+        if opcode == 15:
+            result, b = value(hex(immediate << 16), immediate << 16, [va]), b
+        elif opcode in (9, 13):
+            n = ((constant + signed) & 0xffffffff if opcode == 9 else constant | immediate) if constant is not None else None
+            result = value(f"({source['expression']} {'+' if opcode == 9 else '|'} {signed if opcode == 9 else immediate})", n, defs)
+        elif opcode in (32, 33, 35, 36, 37):
+            label = {32: 'load8s', 33: 'load16s', 35: 'load32', 36: 'load8u', 37: 'load16u'}[opcode]
+            result = value(f"{label}({source['expression']} + {signed})", definitions=defs)
+        else:  # ADDU or DADDU move (only zero-source forms accepted for DADDU)
+            other, b = regs[b], dest
+            n = (constant + other['known_u32']) & 0xffffffff if constant is not None and other['known_u32'] is not None else None
+            expr = other['expression'] if a == 0 else source['expression'] if ((w >> 16) & 31) == 0 else f"({source['expression']} + {other['expression']})"
+            result = value(expr, n, sorted(set(defs + other['definitions'])))
+        if b:
+            regs[b] = result
+    for pos in range(start, offset, 4):
+        effect(struct.unpack_from("<I", image.blob, pos)[0], image.to_va(pos))
+    target = value(hex(((call_va + 4) & 0xf0000000) | ((word & 0x03ffffff) << 2)), ((call_va + 4) & 0xf0000000) | ((word & 0x03ffffff) << 2)) if direct else dict(regs[rs])
+    regs[31] = value(hex(call_va + 8), (call_va + 8) & 0xffffffff, [call_va])
+    supported_delay = _supported_effect(delay)
+    if supported_delay:
+        effect(delay, call_va + 4)
+    return dict(call_va=call_va, kind="JAL" if direct else "JALR", target_before_delay=target,
+                start_va=image.to_va(start), boundary=boundary, barrier_va=barrier_va,
+                delay_va=call_va + 4, delay_supported=supported_delay,
+                argument_registers={str(r): regs[r] for r in range(4, 8)} if supported_delay else {},
+                evidence="conditional straight-line low32 state; memory values, function boundaries and execution unverified")
+
+
 def local_window(image: ElfImage, start_va: int, size: int = 0x300) -> dict:
     """Bounded numeric scan, explicitly not a recovered function boundary."""
     start = image.to_offset(start_va)
     segment = next(s for s in image.segments if s["type"] == 1 and s["offset"] <= start < s["offset"] + s["filesz"])
     end = min(start + size, segment["offset"] + segment["filesz"])
-    calls, constants = [], []
+    calls, constants, traces = [], [], []
     for offset in range(start, end - 3, 4):
         word = struct.unpack_from("<I", image.blob, offset)[0]
         va = image.to_va(offset)
@@ -106,8 +186,10 @@ def local_window(image: ElfImage, start_va: int, size: int = 0x300) -> dict:
             calls.append(dict(va=va, target=((va + 4) & 0xf0000000) | ((word & 0x03ffffff) << 2)))
         elif word >> 26 == 9 and ((word >> 21) & 31) == 0 and word & 65535 in (256, 512, 516):
             constants.append(dict(va=va, destination_register=(word >> 16) & 31, immediate=word & 65535))
+        if offset + 8 <= end and (word >> 26 == 3 or (word >> 26 == 0 and word & 63 == 9 and (word >> 11) & 31 == 31 and (word >> 21) & 31 not in (0, 31) and (word >> 16) & 31 == 0 and (word >> 6) & 31 == 0)):
+            traces.append(trace_call(image, va))
     return dict(start_va=start_va, span_bytes=end - start, direct_jal_candidates=calls,
-                addiu_zero_size_candidates=constants, function_boundary_verified=False)
+                addiu_zero_size_candidates=constants, call_argument_candidates=traces, function_boundary_verified=False)
 
 
 def analyze(blob: bytes) -> dict:
@@ -155,11 +237,12 @@ def main() -> None:
     core.require(before == profile["expected_iso_sha256"], "unknown ISO version/hash")
     blob = core.iso_files(args.iso, [profile["boot"]])[profile["boot"]]
     core.require(core.digest(blob) == ELF_SHA256, "ELF fingerprint mismatch")
-    report = {"schema": 1, "iso_sha256": before, "elf_sha256": ELF_SHA256, **analyze(blob)}
+    report = {"schema": 2, "iso_sha256": before, "elf_sha256": ELF_SHA256, **analyze(blob)}
     core.require(core.file_digest(args.iso) == before, "original ISO hash changed")
     out = core.output_directory(args.out)
     (out / "native-research.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
-    print(f"NATIVE AUDIT PASS symbols={report['symbol_entries']} strings={len(report['strings'])} address_candidates={sum(len(s['address_candidates']) for s in report['strings'])} pointer_words={sum(len(s['pointer_words']) for s in report['strings'])}")
+    traces = sum(len(w['call_argument_candidates']) for s in report['strings'] for w in s.get('local_windows', []))
+    print(f"NATIVE AUDIT PASS symbols={report['symbol_entries']} strings={len(report['strings'])} address_candidates={sum(len(s['address_candidates']) for s in report['strings'])} pointer_words={sum(len(s['pointer_words']) for s in report['strings'])} call_traces={traces}")
 
 
 if __name__ == "__main__":

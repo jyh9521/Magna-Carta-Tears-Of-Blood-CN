@@ -117,3 +117,7 @@ celfid解压buffer内完整125396 B资源唯一出现于3929716，字段绝对�
 00001944 seq0 20→30 B；seq2 offset26→36、length80→118；文件530→578 B，pool414→462 B。
 连续partition重新布局后后续窗口重定位；未编辑各窗口的bytes与控制标记保持。slot0 manifest记录实际578 B。
 src/localization当前backend遇overlap/gap/duplicate seq拒绝，未假设所有FPB是partition。
+
+### TUI native参数线索（Verified static；读取语义未确认）
+
+00001240的局部ELF指令序列在JALR `0x30AD88`和`0x30AE1C`的delay slot分别设置a2=256，两者均构造对象+0x14间接目标并以sp+0x60作为a1；相邻调用a2=4。此证据加强双256 B字段读入假设，不扩大可写字段范围，不改变旧PoC profile。对象来源及间接槽实现待解析；见 [native研究](NATIVE_RESEARCH.md)。

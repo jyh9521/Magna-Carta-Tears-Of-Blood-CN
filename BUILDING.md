@@ -94,3 +94,7 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 
 `work/venv/Scripts/python.exe -X utf8 tools/research_native.py --iso "<original-KR-ISO-path>" --out work/native-research`
 直接从已知ISO验证ELF并分析，原ELF只在内存读取，JSON只写ignored目录；无需capstone或反汇编器依赖。不是ELF patcher。当前98项测试通过（86+12），见 [native研究](docs/NATIVE_RESEARCH.md)。
+
+### ELF局部调用参数审计（schema2）
+
+同一`tools/research_native.py --iso "<original-KR-ISO-path>" --out work/native-research`命令新增有限JAL/JALR参数报告，包含delay slot、屏障与未知值；仍只读原ISO并校验完整输入hash。当前116项自动测试通过。参数表达式不是运行时trace，复现规则见 [native研究](docs/NATIVE_RESEARCH.md)。

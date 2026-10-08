@@ -97,3 +97,7 @@ record index127/id176位于65540，文本65544，原串18 B且余槽零填充；
 该完整tui在celfid解压buffer中唯一出现于3929716，不能仅替换SHIP文本；本次同步整个同长资源副本。
 FILE/SHIP slot0只更新目标size、保留外部stub size；AFS条目顺序和metadata不变。ISO仅FILE/SHIP extent及FILE目录size字段改变。
 当前文本层保护控制token数量/顺序/值并拒绝未知结构；已有46项自动测试。完整UI长度/自动wrap、linked names、字库扩容与存档仍待验收。
+
+## ELF局部调用参数（Verified static / semantics pending）
+
+00001240候选的JALR `0x30AD88`与`0x30AE1C`，delay slot分别将a2设为256；a0为局部r20、a1为sp+0x60，间接目标形状为`load32(load32(r20)+0x14)`。相邻`0x30AD70`的a2为4，与id/双256 B资源几何一致。参数状态已由有限指令推演验证；读取语义、vtable目标和实际执行未验证。schema2报告276条窗口内调用候选，116项合成/工程测试通过。见 [native研究](docs/NATIVE_RESEARCH.md)。

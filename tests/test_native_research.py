@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from research_native import ElfImage, pair_candidates, analyze, local_window
+from research_native import ElfImage, pair_candidates, analyze, local_window, trace_call
 
 
 class NativeResearchTests(unittest.TestCase):
@@ -68,6 +68,97 @@ class NativeResearchTests(unittest.TestCase):
         self.assertEqual(result['direct_jal_candidates'][0]['target'], 0x100040)
         self.assertEqual(result['addiu_zero_size_candidates'][0]['immediate'], 256)
         self.assertFalse(result['function_boundary_verified'])
+
+    def trace(self, words, index, max_back=8):
+        body = struct.pack(f'<{len(words)}I', *words)
+        return trace_call(ElfImage(self.elf(body, max(64, len(body)))), 0x100000 + index * 4, max_back)
+
+    def test_indirect_delay_argument(self):
+        r = self.trace([0x8e990000, 0x0280202d, 0x27a50060, 0x8f390014, 0x0320f809, 0x24060100], 4)
+        self.assertEqual(r['kind'], 'JALR')
+        self.assertEqual(r['target_before_delay']['expression'], 'load32(load32(entry_r20 + 0) + 20)')
+        self.assertEqual(r['argument_registers']['4']['expression'], 'entry_r20')
+        self.assertEqual(r['argument_registers']['5']['expression'], '(entry_r29 + 96)')
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 256)
+        self.assertEqual(r['argument_registers']['6']['definitions'], [0x100014])
+
+    def test_direct_delay_argument(self):
+        r = self.trace([0x0c040010, 0x24060100], 0)
+        self.assertEqual(r['target_before_delay']['known_u32'], 0x100040)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 256)
+
+    def test_delay_clobbers_previous_argument(self):
+        r = self.trace([0x24060100, 0x0c040010, 0x24060004], 1)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 4)
+
+    def test_load_clobbers_constant(self):
+        r = self.trace([0x24060100, 0x8fa60000, 0x0c040010, 0], 2)
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_earlier_call_and_delay_not_inherited(self):
+        r = self.trace([0x0c040010, 0x24060100, 0x0c040020, 0], 2)
+        self.assertEqual(r['boundary'], 'earlier_transfer_and_delay_excluded')
+        self.assertEqual(r['start_va'], 0x100008)
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_earlier_branch_delay_not_inherited(self):
+        r = self.trace([0x10000001, 0x24060100, 0x0c040020, 0], 2)
+        self.assertEqual(r['start_va'], 0x100008)
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_unknown_barrier(self):
+        r = self.trace([0x24060100, 0xe8000000, 0x0c040020, 0], 2)
+        self.assertEqual(r['boundary'], 'unsupported_instruction')
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_unknown_delay_suppresses_arguments(self):
+        r = self.trace([0x0c040020, 0xe8000000], 0)
+        self.assertFalse(r['delay_supported'])
+        self.assertEqual(r['argument_registers'], {})
+
+    def test_store_keeps_argument(self):
+        r = self.trace([0x24060100, 0xffbf0050, 0x0c040020, 0], 2)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 256)
+
+    def test_zero_register_write_ignored(self):
+        r = self.trace([0x24000100, 0x0c040020, 0x24060004], 1)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 4)
+
+    def test_signed_immediate_low32(self):
+        r = self.trace([0x2406ffff, 0x0c040020, 0], 1)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 0xffffffff)
+
+    def test_link_visible_in_delay(self):
+        r = self.trace([0x0c040020, 0x27e40000], 0)
+        self.assertEqual(r['argument_registers']['4']['known_u32'], 0x100008)
+
+    def test_bound_excludes_old_definition(self):
+        r = self.trace([0x24060100, 0, 0x0c040020, 0], 2, 1)
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_invalid_trace_inputs(self):
+        for words, index, bound in [([0, 0], 0, 8), ([0x0c040020], 0, 8), ([0x0c040020, 0], 0, 0), ([0x0c040020, 0], 0, 33), ([0x03201009, 0], 0, 8)]:
+            with self.assertRaises(ValueError): self.trace(words, index, bound)
+
+    def test_window_includes_indirect_calls(self):
+        words = [0x0320f809, 0x24060100]
+        e = ElfImage(self.elf(struct.pack('<2I', *words)))
+        r = local_window(e, 0x100000)
+        self.assertEqual(len(r['call_argument_candidates']), 1)
+        self.assertEqual(r['call_argument_candidates'][0]['kind'], 'JALR')
+
+    def test_target_captured_before_delay_overwrite(self):
+        r = self.trace([0x24191234, 0x0320f809, 0x24195678], 1)
+        self.assertEqual(r['target_before_delay']['known_u32'], 0x1234)
+
+    def test_lui_ori_and_addu(self):
+        r = self.trace([0x3c05004b, 0x34a57990, 0x00a03021, 0x0c040020, 0], 3)
+        self.assertEqual(r['argument_registers']['6']['known_u32'], 0x4b7990)
+
+    def test_non_move_daddu_is_barrier(self):
+        r = self.trace([0x24060100, 0x00a6302d, 0x0c040020, 0], 2)
+        self.assertEqual(r['boundary'], 'unsupported_instruction')
+        self.assertIsNone(r['argument_registers']['6']['known_u32'])
 
 
 if __name__ == '__main__': unittest.main()

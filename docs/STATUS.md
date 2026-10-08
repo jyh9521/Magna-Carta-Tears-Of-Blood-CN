@@ -4,6 +4,12 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-08 — TUI间接调用参数与延迟槽审计
+
+只读ELF工具schema2新增有限局部JAL/JALR参数推演。00001240两处a2=256位于间接调用的delay slot，a1均为sp+0x60，目标形状为对象+0x14槽；相邻a2=4与id/双256 B布局一致。参数状态属于Verified static，读取语义属于High-confidence deduction，vtable目标、字段用途和可达路径仍未验证。详见 [native研究](NATIVE_RESEARCH.md)。
+新增18项合成测试，当前116项通过。原ISO、ELF、PoC ISO、profile、映射及译文保持；没有新增运行时验收，不扩大翻译或写回范围。
+干净源码副本复现116项测试及同一schema2 JSON，独立源码回滚恢复98项基线测试；事务命令、literal输出、hash及Git记录保留于ignored `build/native-calls-08/VERIFICATION.txt`。
+
 ## 2026-10-08 — ELF映射与native文本候选定位
 
 新增版本锁定的只读ELF工具，从原ISO直接分析；确认没有有效符号条目，定位23个文本相关标识、13个地址构造候选、9个数据pointer词。
