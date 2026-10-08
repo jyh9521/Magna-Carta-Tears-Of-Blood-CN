@@ -77,3 +77,7 @@ ELF有.symtab section不等于保留函数符号，该版长度为0。合并RWX 
 ## 有限调用数据流与delay slot
 
 JALR参数可能在紧随的delay slot才赋值；只扫描直接JAL会遗漏00001240两处a2=256的间接调用。不能将前一次调用的delay定义跨调用保留，也不能把未解析的vtable表达式当已定位reader。schema2从此前transfer之后、排除其delay的位置重新建立未知状态；未知指令停止回看，未知delay不输出参数。共享形状不证明跨窗口对象身份相同。
+
+## GP槽初值不等于运行时对象
+
+韩版TUI相关gp-32200槽的原文件word指向memory-only区域，初始化邻域又存在SW覆盖；盲目从文件初值追踪vtable会选错对象或读到非文件区域。GP-29528写入还位于调用delay slot，源值在调用返回前已构造，不能按返回值解释。Linear候选路径带条件分支且有对象+4后端转发，不能把一张表的+0x14当成所有TUI的唯一reader。

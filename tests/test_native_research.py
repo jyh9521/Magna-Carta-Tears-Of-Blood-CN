@@ -6,7 +6,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from research_native import ElfImage, pair_candidates, analyze, local_window, trace_call
+from research_native import (ElfImage, pair_candidates, analyze, local_window, trace_call,
+                             classify_va, read_u32, reginfo_gp, constant_store_candidates, table_audit)
 
 
 class NativeResearchTests(unittest.TestCase):
@@ -159,6 +160,96 @@ class NativeResearchTests(unittest.TestCase):
         r = self.trace([0x24060100, 0x00a6302d, 0x0c040020, 0], 2)
         self.assertEqual(r['boundary'], 'unsupported_instruction')
         self.assertIsNone(r['argument_registers']['6']['known_u32'])
+
+    def test_region_classification(self):
+        e = ElfImage(self.elf())
+        self.assertEqual(classify_va(e, 0x100000), 'file_backed')
+        self.assertEqual(classify_va(e, 0x100020), 'memory_only')
+        self.assertEqual(classify_va(e, 0x100040), 'unmapped_or_ambiguous')
+
+    def test_read_word_requires_complete_file_mapping(self):
+        e = ElfImage(self.elf(b'\x01\x02\x03\x04X'))
+        self.assertEqual(read_u32(e, 0x100000), 0x04030201)
+        for va in (0x100001, 0x100004, 0x100020):
+            with self.assertRaises(ValueError): read_u32(e, va)
+
+    def gp_image(self, body, gp=0x100000, memsize=128):
+        body += struct.pack('<6I', 0, 0, 0, 0, 0, gp)
+        e = ElfImage(self.elf(body, memsize))
+        e.sections = [dict(type=0x70000006, size=24, offset=len(e.blob) - 24)]
+        return e
+
+    def test_reginfo_declared_gp(self):
+        self.assertIsNone(reginfo_gp(ElfImage(self.elf())))
+        e = self.gp_image(bytes(64), 0x5437f0)
+        self.assertEqual(reginfo_gp(e), 0x5437f0)
+
+    def test_reginfo_size_and_duplicates_reject(self):
+        e = self.gp_image(bytes(64)); e.sections *= 2
+        with self.assertRaises(ValueError): reginfo_gp(e)
+        e.sections = e.sections[:1]; e.sections[0]['size'] = 20
+        with self.assertRaises(ValueError): reginfo_gp(e)
+
+    def test_constant_store_chain(self):
+        r = constant_store_candidates([0x3c030050, 0x2463e390, 0xac400004, 0xac430000], {0x4fe390})
+        self.assertEqual(len(r), 1)
+        self.assertEqual((r[0]['store_word'], r[0]['base_register'], r[0]['displacement']), (3, 2, 0))
+
+    def test_store_chain_clobber_and_unknown_reject(self):
+        for w in (0x24030001, 0x8fa30000, 0xe8000000, 0x10000001, 0x0c040020):
+            self.assertEqual(constant_store_candidates([0x3c030050, 0x2463e390, w, 0xac430000], {0x4fe390}), [])
+
+    def test_store_chain_bound(self):
+        words = [0x3c030050, 0x2463e390, 0, 0xac430000]
+        self.assertEqual(constant_store_candidates(words, {0x4fe390}, 1), [])
+        for bound in (0, 33):
+            with self.assertRaises(ValueError): constant_store_candidates(words, {0x4fe390}, bound)
+
+    def test_store_chain_call_delay_not_carried(self):
+        self.assertEqual(constant_store_candidates([0x3c030050, 0x0c040020, 0x2463e390, 0xac430000], {0x4fe390}), [])
+
+    def test_table_word_metadata_not_function_identity(self):
+        body = struct.pack('<16I', *([0x100060] + [0] * 15))
+        r = table_audit(ElfImage(self.elf(body, 128)), [0x100000], [])
+        self.assertEqual(r['tables'][0]['words'][0]['value_region'], 'memory_only')
+        self.assertEqual(len(r['tables'][0]['words']), 16)
+        self.assertIn('object identity', r['evidence'])
+
+    def test_table_alignment_and_span_reject(self):
+        for va in (0x100001, 0x100004):
+            with self.assertRaises(ValueError): table_audit(ElfImage(self.elf(bytes(64), 128)), [va], [])
+
+    def test_gp_slot_load_store_and_initial_pointer(self):
+        body = bytearray(64)
+        struct.pack_into('<3I', body, 0, 0x100060, 0x8f840000, 0xaf8a0000)
+        r = table_audit(self.gp_image(bytes(body)), [], [0])['gp_slots'][0]
+        self.assertEqual(r['initial_file_word'], 0x100060)
+        self.assertEqual(r['initial_word_region'], 'memory_only')
+        self.assertEqual(r['load_candidates'], [dict(va=0x100004, register=4)])
+        self.assertEqual(r['store_candidates'], [dict(va=0x100008, register=10)])
+
+    def test_gp_memory_only_slot_never_synthesizes_zero(self):
+        r = table_audit(self.gp_image(bytes(64)), [], [96])['gp_slots'][0]
+        self.assertEqual(r['region'], 'memory_only')
+        self.assertIsNone(r['initial_file_word'])
+
+    def test_gp_signed_displacement(self):
+        e = self.gp_image(struct.pack('<I', 0x8f84fff0) + bytes(60), 0x100010)
+        r = table_audit(e, [], [-16])['gp_slots'][0]
+        self.assertEqual(r['slot_va'], 0x100000)
+        self.assertEqual(r['load_candidates'][0]['va'], 0x100000)
+
+    def test_selection_validation(self):
+        e = self.gp_image(bytes(64))
+        for tables, disps in [([], [32768]), ([], [-32769]), ([0x100000]*17, []), ([], [0]*17)]:
+            with self.assertRaises(ValueError): table_audit(e, tables, disps)
+        with self.assertRaises(ValueError): table_audit(ElfImage(self.elf()), [], [0])
+
+    def test_table_store_report_va_mapping(self):
+        words = [0x3c030010, 0x24630040, 0xac430000] + [0]*29
+        r = table_audit(ElfImage(self.elf(struct.pack('<32I', *words), 128)), [0x100040], [])
+        c = r['tables'][0]['constant_store_candidates'][0]
+        self.assertEqual((c['upper_va'], c['lower_va'], c['store_va']), (0x100000, 0x100004, 0x100008))
 
 
 if __name__ == '__main__': unittest.main()

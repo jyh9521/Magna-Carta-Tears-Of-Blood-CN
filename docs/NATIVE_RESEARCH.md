@@ -100,3 +100,51 @@ AD70的有限回看在移位指令处停止，因此r25、r2和r3来源保持未
 11个UIText候选窗口生成276条局部调用参数候选记录，不作为276个已命名函数或实际执行事件。
 新增18项合成测试，工程116项通过；覆盖间接目标、delay参数覆盖、link寄存器时序、load覆盖、未知操作屏障、调用/分支delay排除、零寄存器和扫描边界。
 原ISO、原ELF、text-poc-02 ISO、locale映射与译文保持不变；没有新PCSX2测试或ELF patch。
+
+## 2026-10-09 — Verified static：GP槽与表指针构造
+
+schema3增加可选`--table-va`和`--gp-displacement`，每张表限定16个u32，只读文件背书字节；GP槽区分file-backed与memory-only，不对内存尾部虚构初始零值或递归解引用。
+MIPS ELF32 `.reginfo`为24 B，末尾`ri_gp_value`的结构依据 [LLVM ELFTypes定义](https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/Object/ELFTypes.h)。韩版声明值为`0x005437F0`。
+启动邻域`0x100148`/`0x10015C`构造该值至r4，`0x100170`的OR形状将r4复制到gp；这不是所有后续执行时gp值恒定的运行时证明。
+
+| GP相对位移 | 推导槽VA | 文件初值 | 有限LW候选 | 有限SW候选 |
+|---|---|---|---|---|
+| -32200 / 0x8238 | 0x0053BA28 | 0x0053C210，指向memory-only区域 | 90 | 0x001A4F34，源r10 |
+| -29528 / 0x8CA8 | 0x0053C498 | 不在文件背书范围 | 8 | 0x001DA3B4，源r2 |
+
+00001240的对象获取候选`0x30AC84`首先经第一槽的对象+0x0C间接调用，再将返回r2复制到r20；后续两个256调用基于该r20。
+第一槽有写入候选，文件初始pointer不是运行时对象身份。`0x1DB434`从第二槽加载r10，`0x1DB44C`直接调用`0x1A4F00`，该邻域在`0x1A4F34`将r10写入第一槽。
+`0x1DA3AC`构造r2=r30+0x1580，第二槽写入位于`0x1DA3B0`调用的delay slot；不能误归因于该调用的返回值。
+这些链路是版本锁定字节与局部指令关系，跨函数执行顺序和alias身份没有动态确认。
+
+## Verified static：候选vtable与转发邻域
+
+| 表VA | +0x0C初始word | +0x14初始word | 有限常量SW候选 |
+|---|---|---|---|
+| 0x004FE270 | 0x001E4A10 | 0x001E4FF0 | 21 |
+| 0x004FE390 | 0x0017EAE0 | 0x001E59E0 | 2 |
+
+表word是数字pointer候选，不直接当作已命名函数。工具只追踪有限LUI/lower/SW序列，遇调用、分支、未知指令或源寄存器覆盖停止；候选数量不是完整赋值总数。
+`0x1DA1E0`构造r17=r30+0x1580，`0x1DA200`/`0x1DA204`构造0x4FE270，`0x1DA208`写入r17+0。与上述GP槽初始化链一致，但不取代跨函数数据流证明。
+`0x1E4A10`邻域根据两个GP相关条件分支：部分路径从对象+4再次经+0x0C间接调用；另一路径在分配标识`FArchiveFileReaderLinear`后初始化返回对象。
+`0x1E4AB4`/`0x1E4ACC`构造0x4FE390，`0x1E4B10`写入返回对象+0；另一写入候选位于`0x1E58EC`，不将初始化和销毁邻域合并为同一执行事件。
+
+在0x4FE390表的+0x14目标邻域`0x1E59E0`，字节显示：从输入对象+0x38加载另一对象，经其+0x14间接调用；delay slot保存输入r6到r16；返回后加载原对象+0x44、加r16、再写回+0x44。
+这确认条件性静态转发与累计字段更新形状；目标实际读入字节数、错误处理和底层实现尚未恢复。
+
+## High-confidence deduction / Unverified hypothesis
+
+GP初始化链、0x4FE270的+0x0C候选以及带Linear标识的分配路径，支持文件管理器→归档reader包装层解释；0x4FE390的+0x14更像按请求长度转发并累计位置的接口。
+TUI两个256参数与该包装层相容，但尚未证明TUI实际进入Linear分支；对象+4后端可走其他分支。完整reader函数定位不能只选一张静态表。
+下一步追踪包装层+0x38的对象来源、替代后端以及字符渲染侧查表。保持TUI容量门禁和旧PoC范围，不依据这些候选直接patch ELF。
+
+## 重现（schema3）
+
+```powershell
+work/venv/Scripts/python.exe -X utf8 tools/research_native.py --iso "<original-KR-ISO-path>" --out work/native-tables --table-va 0x4fe270 --table-va 0x4fe390 --gp-displacement -32200 --gp-displacement -29528
+```
+
+输入仍执行完整ISO/ELF hash门禁和原ISO复核；没有导出完整ELF。默认不选任意table/GP槽，选项使用locale-neutral地址参数。
+23个标识、13个地址构造、9个pointer词及276条局部参数候选保持schema2结果；新表/槽审计独立记录。
+新增15项合成测试，当前131项通过，覆盖reginfo、完整word边界、内存尾部分类、常量store屏障与地址转换、GP带符号位移、可变槽和选择上限。
+原ISO、ELF、PoC ISO、映射与译文保持；无新增PCSX2验收。

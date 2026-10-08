@@ -98,3 +98,7 @@ schema3可指定`--out work/tui-pair-audit`，同时保留旧统计并增加两�
 ### ELF局部调用参数审计（schema2）
 
 同一`tools/research_native.py --iso "<original-KR-ISO-path>" --out work/native-research`命令新增有限JAL/JALR参数报告，包含delay slot、屏障与未知值；仍只读原ISO并校验完整输入hash。当前116项自动测试通过。参数表达式不是运行时trace，复现规则见 [native研究](docs/NATIVE_RESEARCH.md)。
+
+### 候选表与GP槽审计（schema3）
+
+`tools/research_native.py`新增可重复`--table-va`和`--gp-displacement`选项，每张表仅16个u32；选择地址仍受版本/映射边界校验。131项测试通过，完整命令与结果见 [native研究](docs/NATIVE_RESEARCH.md)。报告区分文件初值和可变运行时指针，不生成新ISO。

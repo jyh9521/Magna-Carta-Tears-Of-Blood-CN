@@ -121,3 +121,7 @@ src/localization当前backend遇overlap/gap/duplicate seq拒绝，未假设所�
 ### TUI native参数线索（Verified static；读取语义未确认）
 
 00001240的局部ELF指令序列在JALR `0x30AD88`和`0x30AE1C`的delay slot分别设置a2=256，两者均构造对象+0x14间接目标并以sp+0x60作为a1；相邻调用a2=4。此证据加强双256 B字段读入假设，不扩大可写字段范围，不改变旧PoC profile。对象来源及间接槽实现待解析；见 [native研究](NATIVE_RESEARCH.md)。
+
+### 韩版ELF `.reginfo`与候选表
+
+Verified static：ELF32 MIPS reginfo 24 B的GP声明为0x5437F0；gp-32200指向文件背书槽0x53BA28，其初值0x53C210本身不在文件背书范围，且有store候选。默认不递归解引用原文件中的pointer。表0x4FE270/0x4FE390仅作为bounded u32候选表分析，不作为完整容器parser或可patch函数表。结构与路径证据见 [native研究](NATIVE_RESEARCH.md)。

@@ -4,6 +4,12 @@
 README只保留当前摘要；后续阶段、构建身份、测试结果与失败记录统一登记在本文件，并链接专项文档。
 历史测试数对应各自构建，静态通过、截图与完整游戏验收分别记录。
 
+## 2026-10-09 — GP可变槽与reader包装层候选
+
+只读工具schema3新增GP metadata、可选双64 B表扫描、常量store候选和GP槽load/store候选。确认TUI相关GP槽有覆盖写入，文件初值不能解析为运行时对象。候选表0x4FE270的+0x0C路径含Linear分配和替代后端；Linear表0x4FE390的+0x14指向具有转发/累计字段形状的邻域。结论分级与重现见 [native研究](NATIVE_RESEARCH.md)。
+新增15项合成测试，工程131项通过；schema2全部既有数据区段保持。原ISO、ELF、PoC ISO、locale数据不改，没有新运行时验收。
+干净源码复现131项测试与同一JSON，独立副本回滚恢复116项基线测试；事务证据保存于ignored `build/native-tables-09/VERIFICATION.txt`。
+
 ## 2026-10-08 — TUI间接调用参数与延迟槽审计
 
 只读ELF工具schema2新增有限局部JAL/JALR参数推演。00001240两处a2=256位于间接调用的delay slot，a1均为sp+0x60，目标形状为对象+0x14槽；相邻a2=4与id/双256 B布局一致。参数状态属于Verified static，读取语义属于High-confidence deduction，vtable目标、字段用途和可达路径仍未验证。详见 [native研究](NATIVE_RESEARCH.md)。

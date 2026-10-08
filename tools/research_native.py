@@ -192,7 +192,99 @@ def local_window(image: ElfImage, start_va: int, size: int = 0x300) -> dict:
                 addiu_zero_size_candidates=constants, call_argument_candidates=traces, function_boundary_verified=False)
 
 
-def analyze(blob: bytes) -> dict:
+def classify_va(image: ElfImage, va: int) -> str:
+    found = [s for s in image.segments if s['type'] == 1 and s['va'] <= va < s['va'] + s['memsz']]
+    if len(found) != 1:
+        return 'unmapped_or_ambiguous'
+    s = found[0]
+    return 'file_backed' if va < s['va'] + s['filesz'] else 'memory_only'
+
+
+def read_u32(image: ElfImage, va: int) -> int:
+    core.require(va % 4 == 0, 'unaligned table word')
+    off = image.to_offset(va)
+    core.require(image.to_offset(va + 3) == off + 3, 'table word crosses file mapping')
+    return struct.unpack_from('<I', image.blob, off)[0]
+
+
+def reginfo_gp(image: ElfImage) -> int | None:
+    sections = [s for s in image.sections if s['type'] == 0x70000006]
+    core.require(len(sections) <= 1, 'ambiguous MIPS reginfo')
+    if not sections:
+        return None
+    s = sections[0]
+    core.require(s['size'] == 24, 'unsupported MIPS reginfo size')
+    return struct.unpack_from('<6I', image.blob, s['offset'])[5]
+
+
+def constant_store_candidates(words: list[int], targets: set[int], max_gap: int = 32) -> list[dict]:
+    """Numeric LUI/lower/SW chains only; no object identity or path assertion."""
+    core.require(1 <= max_gap <= 32, 'invalid store scan bound')
+    result = []
+    for pair in pair_candidates(words, targets):
+        if pair['delay_slot']:
+            continue  # never carry a constructed value across a call
+        lower = pair['lower_word']
+        reg = (words[lower] >> 16) & 31
+        if reg == 0:
+            continue
+        for i in range(lower + 1, min(len(words), lower + max_gap + 1)):
+            w = words[i]
+            op, rs, rt, rd = w >> 26, (w >> 21) & 31, (w >> 16) & 31, (w >> 11) & 31
+            if _transfer(w) or not _supported_effect(w):
+                break
+            if op == 43 and rt == reg:
+                displacement = w & 65535
+                result.append(dict(**pair, store_word=i, base_register=rs, value_register=rt,
+                                   displacement=displacement if displacement < 32768 else displacement - 65536))
+            if w == 0 or op in (40, 41, 43, 63):
+                continue
+            destination = rd if op == 0 else rt
+            if destination == reg:
+                break
+    return result
+
+
+def table_audit(image: ElfImage, tables: list[int], displacements: list[int]) -> dict:
+    core.require(len(tables) <= 16 and len(displacements) <= 16, 'too many research selections')
+    core.require(all(-32768 <= d <= 32767 for d in displacements), 'GP displacement outside signed16')
+    gp = reginfo_gp(image)
+    core.require(gp is not None or not displacements, 'GP metadata required for selected slots')
+    reports = [{ 'base_va': va, 'words': [dict(offset=i * 4, value=read_u32(image, va + i * 4),
+                  value_region=classify_va(image, read_u32(image, va + i * 4))) for i in range(16)],
+                  'constant_store_candidates': []} for va in sorted(set(tables))]
+    slots = [dict(displacement=d, slot_va=(gp + d) & 0xffffffff,
+                  region=classify_va(image, (gp + d) & 0xffffffff), load_candidates=[], store_candidates=[])
+             for d in sorted(set(displacements))]
+    for slot in slots:
+        if slot['region'] == 'file_backed':
+            slot['initial_file_word'] = read_u32(image, slot['slot_va'])
+            slot['initial_word_region'] = classify_va(image, slot['initial_file_word'])
+        else:
+            slot['initial_file_word'] = None  # no synthetic zero or implicit dereference
+    for segment in image.segments:
+        if segment['type'] != 1 or not segment['flags'] & 1:
+            continue
+        start, size = segment['offset'], segment['filesz']
+        core.require(start % 4 == 0, 'unaligned scan segment')
+        words = list(struct.unpack_from(f'<{size // 4}I', image.blob, start))
+        for h in constant_store_candidates(words, set(tables)):
+            record = {k.replace('_word', '_va'): image.to_va(start + v * 4) if k.endswith('_word') else v for k, v in h.items()}
+            next(t for t in reports if t['base_va'] == h['address'])['constant_store_candidates'].append(record)
+        for i, word in enumerate(words):
+            if (word >> 21) & 31 != 28 or word >> 26 not in (35, 43):
+                continue
+            low = word & 65535
+            d = low if low < 32768 else low - 65536
+            for slot in slots:
+                if slot['displacement'] == d:
+                    key = 'load_candidates' if word >> 26 == 35 else 'store_candidates'
+                    slot[key].append(dict(va=image.to_va(start + 4 * i), register=(word >> 16) & 31))
+    return dict(declared_gp=gp, tables=reports, gp_slots=slots,
+                evidence='initial file words and numeric candidates only; GP runtime value, mutable pointers, object identity and execution unverified')
+
+
+def analyze(blob: bytes, tables: list[int] | None = None, displacements: list[int] | None = None) -> dict:
     image = ElfImage(blob)
     strings = []
     for match in re.finditer(rb"[ -~]{4,128}\x00", blob):
@@ -223,7 +315,7 @@ def analyze(blob: bytes) -> dict:
             s["local_windows"] = [local_window(image, h["upper_va"]) for h in s["address_candidates"]]
     return {"entry": image.entry, "flags": image.flags, "segments": image.segments,
             "sections": image.sections, "symbol_entries": sum(s["size"] // s["entsize"] for s in image.sections if s["type"] in (2, 11) and s["entsize"]),
-            "strings": strings,
+            "strings": strings, "table_audit": table_audit(image, tables or [], displacements or []),
             "evidence": "file-backed addresses and numeric candidates only; merged executable segment may contain data; no function boundaries or runtime execution proven"}
 
 
@@ -231,18 +323,20 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--iso", type=Path, required=True)
     parser.add_argument("--out", type=Path, default=ROOT / "work/native-research")
+    parser.add_argument("--table-va", type=lambda x: int(x, 0), action='append', default=[], help='bounded 16-word table candidate (repeatable)')
+    parser.add_argument("--gp-displacement", type=lambda x: int(x, 0), action='append', default=[], help='signed16 GP-relative slot candidate (repeatable)')
     args = parser.parse_args()
     profile = json.loads((ROOT / "profiles/scka-20043.json").read_text("utf8"))
     before = core.file_digest(args.iso)
     core.require(before == profile["expected_iso_sha256"], "unknown ISO version/hash")
     blob = core.iso_files(args.iso, [profile["boot"]])[profile["boot"]]
     core.require(core.digest(blob) == ELF_SHA256, "ELF fingerprint mismatch")
-    report = {"schema": 2, "iso_sha256": before, "elf_sha256": ELF_SHA256, **analyze(blob)}
+    report = {"schema": 3, "iso_sha256": before, "elf_sha256": ELF_SHA256, **analyze(blob, args.table_va, args.gp_displacement)}
     core.require(core.file_digest(args.iso) == before, "original ISO hash changed")
     out = core.output_directory(args.out)
     (out / "native-research.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     traces = sum(len(w['call_argument_candidates']) for s in report['strings'] for w in s.get('local_windows', []))
-    print(f"NATIVE AUDIT PASS symbols={report['symbol_entries']} strings={len(report['strings'])} address_candidates={sum(len(s['address_candidates']) for s in report['strings'])} pointer_words={sum(len(s['pointer_words']) for s in report['strings'])} call_traces={traces}")
+    print(f"NATIVE AUDIT PASS symbols={report['symbol_entries']} strings={len(report['strings'])} address_candidates={sum(len(s['address_candidates']) for s in report['strings'])} pointer_words={sum(len(s['pointer_words']) for s in report['strings'])} call_traces={traces} tables={len(report['table_audit']['tables'])} gp_slots={len(report['table_audit']['gp_slots'])}")
 
 
 if __name__ == "__main__":
