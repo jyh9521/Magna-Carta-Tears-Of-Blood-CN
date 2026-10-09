@@ -1,0 +1,14 @@
+{
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "candidates": 35048,
+  "counts": {
+    "other-payload": 15686,
+    "stream-package-tables": 16767,
+    "exact-resource-mirror": 2595
+  },
+  "exact_mirror_occurrences": 21,
+  "stream_package_table_occurrences": 9,
+  "complete_game_text": false,
+  "celfid_semantics_complete": false,
+  "linked_groups_verified": false
+}

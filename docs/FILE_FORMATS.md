@@ -235,3 +235,8 @@ ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synth
 ### LINEAR 未解释尾部与有效前缀
 
 详见 `docs/STREAM_TAIL_AUDIT.md`。全部 4,098 项 manifest/TOC 尺寸一致；12 个尾部疑问仍未解决，有效前缀追加 57 次包表及 87 次 Texture export。部分载荷仍保持未闭合状态，不截尾或扩大可重建保证。
+
+
+### celfid 候选字节上下文
+
+详见 `docs/BUNDLE_CONTEXT_AUDIT.md`。35,048 条候选全部校验片段身份；2,595 条位于完整 SHIP 镜像，16,767 条位于流式包表，15,686 条仍处于其他载荷。分类不推断可见文本或 linked group。
