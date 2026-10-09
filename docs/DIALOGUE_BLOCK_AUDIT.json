@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "3e92c5dcb2dcb5fe9ca2d513dcadf15bf37886e8eb0c080d9047a0265e6b816c",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "resources": 148,
+  "text_fields": 3552,
+  "nonempty_fields": 333,
+  "empty_fields": 3219,
+  "decode_failures": 2,
+  "cp932_roundtrip_failed_fields": 2,
+  "previous_fields": 340,
+  "previous_contexts": {
+    "exact-text-field": 330,
+    "text-subspan": 10
+  },
+  "nonempty_without_previous_exact_view": 3,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}
