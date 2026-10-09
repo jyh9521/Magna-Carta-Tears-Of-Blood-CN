@@ -914,6 +914,66 @@
       "source_sha256": "a916e5bafceb9aa7bcc2fbfd2bbdda86edbf20e36880aa01aaa568d1d5582a03",
       "status": "needs-source-review",
       "reason": "Hangul phonetic reading of the unresolved Latin-script incantation; source correspondence retained pending interpretation, not fabricated translation."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/18",
+      "source_sha256": "9ae9f54d824125b766be71b0ccc29d8d640e13be5a2644c1f5cbc22f6f305a6a",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/15",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/18",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/19",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/22",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/24",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/25",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/12",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/13",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/20",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated zero / zero-value marker among story windows; runtime purpose unresolved. Source retained, not translated as a spoken line."
     }
   ]
 }

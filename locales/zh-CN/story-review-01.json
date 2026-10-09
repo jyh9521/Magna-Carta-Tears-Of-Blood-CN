@@ -22235,6 +22235,1315 @@
       "target": "玛诺，走吧。$n继续留着，就危险了。",
       "status": "draft",
       "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008088.fpb/seq/0",
+      "source_sha256": "1a5b5120adf52e962738e672c2e940e50874f634551f3f48a0e0a6fb59153ef0",
+      "target": "怎么了？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008088.fpb/seq/1",
+      "source_sha256": "12d76eaae8ebbe091f0fc9eb4e71ce90ee72b39b579104787336749d406c408d",
+      "target": "你先走。$n我要回去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008088.fpb/seq/2",
+      "source_sha256": "e071f45ab44facad57f322a212b9e022e25f6895be30aed899d7f31664786989",
+      "target": "想死吗？$n回去，又能怎样？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008088.fpb/seq/3",
+      "source_sha256": "fa983dd78be7a07f6da0d0f09a90e91387799d051f2e0d43969b2650507f181d",
+      "target": "都是因为我，一切都是因为我……$n就这样逃走，太卑鄙了！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008088.fpb/seq/4",
+      "source_sha256": "a6de40c399497a748bc9b46a46e2b7e6da22d4187b42e9205594d837043175d2",
+      "target": "玛诺！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/0",
+      "source_sha256": "ade9dfa2991e8719b28afaad9c6fd584752ddc8baf0cb2ffb52e46a7f2613c01",
+      "target": "卡琳兹？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/1",
+      "source_sha256": "8b68f82e3aa5d36e8e7ccfcf0bc6bacfea7469312dd8b117fec1d29569c345a8",
+      "target": "因为劳尔吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/2",
+      "source_sha256": "9accfa8bba9f0330d4dc2258888a99bde4e8635efb9cc849bdeee9089f7549ae",
+      "target": "呼……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/3",
+      "source_sha256": "d379650d31e2d48ba1a08dec21148092ae82e67685fb372d59144f9f585cb62b",
+      "target": "这种时候，姐姐会对卡琳兹，说什么？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/4",
+      "source_sha256": "624f808dc9889ed5698179eaf3c826937630e2bcd46906b305aa84b68a7e7127",
+      "target": "为什么提起莉丝？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/5",
+      "source_sha256": "16adf392062391a7562b30317c0803aae58d2cbc74ef3f80b4c0b455e71052db",
+      "target": "我不会安慰人。要是姐姐，一定很擅长吧，你们那么要好。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/6",
+      "source_sha256": "f7808cd8de875f50b1d6913891b411ccf54b3387fe968d25f3ec40807b8f62fa",
+      "target": "在和她，比较吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/7",
+      "source_sha256": "dd3dc4c9ff2175f77cb5b50b5217f33a8d26cf677d33e604c930cb32569e267e",
+      "target": "也没办法。这十年来，能说话的人，只有姐姐。没有朋友，也不知道，应该怎么做。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/8",
+      "source_sha256": "0287afce6efa9650147aae38ea8a76ac0defe094e3ff531b25b5d1fad5fa7a5c",
+      "target": "不用这样，关心我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/9",
+      "source_sha256": "e19a5a1dc389b652fe802b8933d89ef2bfc12a103d6a41d5d91f1b8ca32dc3d9",
+      "target": "那就别露出，那种表情。看起来，很痛苦。平时，都是一副可怕的表情。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/10",
+      "source_sha256": "baef9d9d9603ebcf5a461e954f50e290fa1c8a5a6dc594b2ba703f579a49d2d3",
+      "target": "我？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/11",
+      "source_sha256": "9690d3b98ecd268fd1cc6308c77426e9220a3a0383d58473370931bdf58ff371",
+      "target": "嗯，和我模仿姐姐时，你露出的表情，一模一样。所以，立刻就能看出，$n你在逞强。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/12",
+      "source_sha256": "c26c4a4c7b465568a609c485ca14fa61da42b330764be2e759ca55f124958b4a",
+      "target": "是吗。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/13",
+      "source_sha256": "329281b92fd7287bc3ee068d5811687aa9afe6bde25eeec7b1a15fadc4f0078b",
+      "target": "总之，不太会说话……但振作起来吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/14",
+      "source_sha256": "81ddcfe1f9e51846869deb5e93304c232c7d9e924395fba8a2696c98ae18837a",
+      "target": "谢谢。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/15",
+      "source_sha256": "90d791411eede2604f0667fd72d87a7398c2ba7a52f82dc842ee5397b9a4fd59",
+      "target": "本就知道，赢不了。可没想到，劳尔会代替我，牺牲。$n正如休戈所说，都是因为，我的莽勇。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008210.fpb/seq/16",
+      "source_sha256": "49b22e8d978396213ce5c21876de3d535d9f66a9a2deba1c171fcc40403ea608",
+      "target": "可是，这次就是结束。我与休戈那家伙的，$n孽缘，到此为止。下次，绝不，$n再让事情这样收场。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/0",
+      "source_sha256": "afefc5ec3923fe89047fe3e642f7a962be788bdeff320c9aa1ee6c2eefdf5823",
+      "target": "住手！！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/1",
+      "source_sha256": "3866883194b470bf29f59871eb44ac6e07926f0f7e8f5cfcc771825401ce7a8b",
+      "target": "好久不见，过得如何？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/2",
+      "source_sha256": "cf5e318e5d4afdd67c4815d51a85893918dabc64f2ae4a3248395faa441b40a1",
+      "target": "当然很好，一直满怀期待，等着把你这家伙，打飞。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/3",
+      "source_sha256": "4870c45e384e0ea11e6d14180b97b46fab8bf9777dac16c7c541b4c1a02a000d",
+      "target": "看来，她不在。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/4",
+      "source_sha256": "8c15c2f8068dcd08317351e30a3d79f082656c91c30ed7ac7bd9fa6e245f6815",
+      "target": "敢动莉丝一根手指，就让你见识，什么叫地狱。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/5",
+      "source_sha256": "a26974e2d9d23add497f1ee23c76054608f1b28e6b896048756f755137a2e511",
+      "target": "想警告的，是我。看见那个，还能说出这种话？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/6",
+      "source_sha256": "88cf749b9908f763fb4b7c6f8a959fcf2b474dbf0d419fad82071cf79ff79ed2",
+      "target": "卑鄙的家伙！！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/7",
+      "source_sha256": "2ae9fbf113977995b71d6e1cad471c38a27c8d3e74e29e7506cc5b92c7202d96",
+      "target": "只要你跟我走，其他所有人，$n都会平安无事。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/8",
+      "source_sha256": "4300ab16bca79bfe570af294e1762547717651cf30fc7cf1f121c29bf3a6b21d",
+      "target": "哼，凭什么相信？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/9",
+      "source_sha256": "1670945f6568feb1276c870036eca81041e41283d4358059484d82579d43d650",
+      "target": "信不信，是你的自由。但你，没有选择的余地。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/10",
+      "source_sha256": "cac2aa1c47492fe234d0b3fa3c2b90e7f2e6d037bfcb67a665d3dfaab4981788",
+      "target": "但你，没有选择的余地。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/11",
+      "source_sha256": "33b258d59aee1fb78a37fc78718c85efa1bfb43ae3896e352c160655f4c01d35",
+      "target": "卑鄙的混蛋！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/12",
+      "source_sha256": "292a39f741cda699cb7d1540c3f4b97715c94fb20592ff8a9b59efb695686147",
+      "target": "拒绝我的提议，就一次杀一$n人。你们血泪攻击我们，$n他们也会死。但只要卡琳兹，跟我们，$n一起走，其他人，都能活下来。哪个选择，更合理，不用想也知道吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/13",
+      "source_sha256": "115222b8743ba27e4d028fc546b17889a08f5d46454e5e65e13d3a1d55392ed2",
+      "target": "好，我投降。作为交换，遵守约定。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/14",
+      "source_sha256": "12816433c2046051bb17396451601eb07342ea0c9547b96fcaa4a779d913e4fb",
+      "target": "当然。我不能久留，亚逊罗文的位置，不能一直空着。全员，返回！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/16",
+      "source_sha256": "617d47253098509fd8b8d5fb2563d9c45f5c58542e02333403ff70be04bac540",
+      "target": "拒绝我的提议，就一次杀一$n人。你们血泪攻击我们，$n他们也会死。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/17",
+      "source_sha256": "27e387c8cd00dcbf61114c0dc99523ed423d855a7815de6e968782d13eddac81",
+      "target": "但只要卡琳兹，跟我们，$n一起走，其他人，都能活下来。哪个选择，更合理，不用想也知道吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/20",
+      "source_sha256": "80055d1e3e9bd3305c6b514c760d372fe7a6dce0847f734cb30af57726b4f9b8",
+      "target": "血泪解散，别勉强自己。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/21",
+      "source_sha256": "c857b464a5275f0a1d8505374b61a8c13a35d71ba8a8c14f1738c7dd0d80455f",
+      "target": "什么，你说什么？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008213.fpb/seq/23",
+      "source_sha256": "c8268f8003c585861ae9120d74b271057eae4c9ce08c53513c7be6c1001f3552",
+      "target": "还有事，找那个叫莉丝的女人。将莉丝送到亚逊罗文，就能保证，莉丝与卡琳兹两人的安全。当然，信不信这个提议，由你们自己决定。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/0",
+      "source_sha256": "31e478458f58c7200f1f716ceebf75de718943aa126dcdf38f5ebc7c45495b98",
+      "target": "莉丝……？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/1",
+      "source_sha256": "2f57b65f9af583dee79cac5307ca8a707ca866f2782740f90279a7935138f395",
+      "target": "人类，是我们亚逊的敌人。为什么，竟然完全忘了，犯下与你相遇的错误？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/2",
+      "source_sha256": "3afb61477b4d08fbd9d4c539b865c836cf9c134d048c78d782311e7d1162349d",
+      "target": "抱歉，没能保护你。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/3",
+      "source_sha256": "a881b860ebb341d460bf811cdf3ad3c90fc01469fc6bbe88fa0d8faed004773c",
+      "target": "没错，你没有保护我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/4",
+      "source_sha256": "ec392719d0f54d26e3dc81d19bfa20ae78627809bb4d1d2041362406a97b9957",
+      "target": "因为你，我这一生，都要遭受子民的指责。所有人，都会指责我是，爱上区区人类，抛弃国家的女人。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/5",
+      "source_sha256": "15751d55869e55d6dd48bf1d77527b5de8b5cf43d3ed5dc43928e63a06f1c265",
+      "target": "你是企图毁灭，我的亚逊罗文的敌人。为什么，会为了你这样的人类，牺牲？那不是我做的，而是不完整的我，名叫莉丝的那个人，犯下的错误。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/6",
+      "source_sha256": "490bfdfbe1972771b0d56b21cd541b58dde04c3fde5aeb9af88cde5b02fd9092",
+      "target": "否则，我怎么可能，为了你这样的人，牺牲。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/7",
+      "source_sha256": "d77f3d26ca691c6c98c4163d81a40b4b23debbac9f8bdf08cea5222cdf47e013",
+      "target": "真的，没有话能对你说。我该怎么，$n做？什么都可以，告诉我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/8",
+      "source_sha256": "55a0d94535ceec98fb59e697d773d73216770868049d033f5f82a0cf74eb8eee",
+      "target": "什么都会为我做？那么，这次，你会为我，流血吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/9",
+      "source_sha256": "2e760efbdcaa635b55d76d52762ab5f98c91b4b457870dc02d4a6bb60dbb0309",
+      "target": "……会。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008214.fpb/seq/10",
+      "source_sha256": "3fbd65b1b7455c006e75c617218f9354761f2cf0143cff0be684ed7ea8917863",
+      "target": "呵呵，果然，还是我爱过的卡琳兹。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/0",
+      "source_sha256": "6221b532a8686d4bbdb46d87f09e2ed29ca94e9b9cc4c1900b2f0f627cc13c7b",
+      "target": "没有人，比我更了解，自己是怎样的人。正如大家所说，我很愚蠢，愚蠢至极。如果希望，这样的我消失……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/1",
+      "source_sha256": "cb1350426d2a8343623d44d52a0e763827498b166b9553e4ad65b8db511a25ba",
+      "target": "卡琳兹。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/2",
+      "source_sha256": "d667c81884c68fc3196f18563773906a336213c1812f30a7375afe67ecd11d71",
+      "target": "莉丝？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/3",
+      "source_sha256": "0e142377f947014810c545393b1b01ee5f9b28a780f81642d959552d5bf7a905",
+      "target": "就知道，会这样。卡琳兹，真让人放心不下。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/4",
+      "source_sha256": "927d0c2dbcd0565dfa159029ce6b40e313d9e1716eb607b3ab3a20c84096d447",
+      "target": "放空内心时，要小心，别把自身的存在，也一起抹去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/5",
+      "source_sha256": "0b9969a9425203a3451ccf3c0e31f7b21319ab33f356993866ec33b3716113e7",
+      "target": "我就只有，这点程度吗？没有怨恨，甚至连自身的存在，都无法，$n维持……？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/6",
+      "source_sha256": "b93127086ca08d03e316d4d55d0a4292e12e066d821b593c16cee92d5ce8833c",
+      "target": "至今为止，你都没有，为自己而活。$n所以，现在害怕承认，纯粹为了自己，而存在的事实。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/7",
+      "source_sha256": "f17e7c8e89bad830e2101846595510d9aa57f230e72a5a41b436c61c51d2b845",
+      "target": "那不是自私。不为自己着想，又能为谁着想？所有伤痛，已经抛开了。过去，再也不会，扼住你的脖子。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/8",
+      "source_sha256": "323f6096ad4401a569a756f5418cd77a311d45840a79ac3dbc9846c2e08bfe6c",
+      "target": "可以毫无负担，$n从零，重新开始。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/9",
+      "source_sha256": "60fb99aaf46fae98eef0b38226b970881a096f30e7a215b04d3d25402bbf4880",
+      "target": "可是……我……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008215.fpb/seq/10",
+      "source_sha256": "d2824e823bf829ec1df6c57bb6a4efbe5e787aa35c17cdf6099c20dba13f5dfb",
+      "target": "果然，还是需要，理由吗？$n卡琳兹，真是的……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008216.fpb/seq/0",
+      "source_sha256": "060da772525ab6b6a1080fa1a7e0bd86ae6e67cd4150d4420bbcde9bc761db3a",
+      "target": "卡琳兹……救救我。我……是莉丝啊。要杀了我？我可是，为了你，牺牲的啊？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008216.fpb/seq/1",
+      "source_sha256": "a6f6da5ccc624996972ff9aa4a35379f0c1d17b520c3e1a90b0731997a97ab52",
+      "target": "已经好了，师父。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008216.fpb/seq/2",
+      "source_sha256": "8dc88fc64befd6171ac283a4d782deae641ff7d8cdddc1480cc1a73cf1510781",
+      "target": "睁开眼了？看得到，卡恩的流动吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008216.fpb/seq/3",
+      "source_sha256": "fc4bced6c0a0afff3b2c182b78b2c13d534b39d38202c60cc3ce01058bc7a766",
+      "target": "是，看得见。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/0",
+      "source_sha256": "83e53aea1431ca5e6794036f5ab16b529d05b21994f59eea386f9213021e3f68",
+      "target": "还要这样，待到什么时候？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/1",
+      "source_sha256": "ad109e46e217c075fb149dba45841135321298a49b22c079a036c9c9b7de266f",
+      "target": "啊……被发现了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/2",
+      "source_sha256": "451a59eb8146dec09e25a0bc5405605fdb6ad398c028bc5f41c9976028ccffc9",
+      "target": "那个，就是……抱歉，这就走。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/3",
+      "source_sha256": "3c4acf35d66ba370c2fac6a97e8b4f9967cad0a81a3f5dae47dc7a6548ba00e8",
+      "target": "没关系，莉丝。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/4",
+      "source_sha256": "f220821cec78b9ddb122062838fa93ea457707675d97b9ca347a70174b2eaed5",
+      "target": "待在身边，也没关系。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/5",
+      "source_sha256": "b826f6a2d71d3b92afcd01fa2ed62cdf2ab1792084bca5aa26816447935d7b90",
+      "target": "卡琳兹……很痛苦吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/6",
+      "source_sha256": "465dce401101e3ca06265d9dba766e26945abb610223f5439ae3eb4078f7a9c6",
+      "target": "不知道……说不清。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/7",
+      "source_sha256": "4d44603d07546a23cb4b55099a53c1e3e4df77172219dddd43c7eb11ac14f0d7",
+      "target": "如果仇人，是自己或他人，最珍贵的，$n存在，你会复仇吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/8",
+      "source_sha256": "ee233f9b8e9871de27a0a8b035b510e6b9da3b305f88cfd865e566275f1a138d",
+      "target": "如果有无法抹去的怨恨，即使仇人……$n呼，即使是他人，最珍贵的人，也要，$n复仇吗？应该这样吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/9",
+      "source_sha256": "e95df4a303aca5dd64ab00d230ad3710b44119be775be3132466549450252eb8",
+      "target": "那是……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/10",
+      "source_sha256": "d0ec1e9080486e89b65a10774a3d0a763a8eb5bc0fc5ae35474bbc281d66c549",
+      "target": "留下珍贵的人们，最后，独自，$n逃走了。如果，想不顾一切，抹去这段，$n过去……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/11",
+      "source_sha256": "af32e88b38fe346f70f78217af7c105689ba7040c6549668e8b2646847c4eddd",
+      "target": "复仇心和羞耻心，究竟，有什么区别？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/12",
+      "source_sha256": "c15ae277d533e58433b60656da03729391393c171edd8841e29378ecf1634fef",
+      "target": "可是，都过去了。而且，多亏如此，现在，才能活着。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/13",
+      "source_sha256": "400d9dcc29305d0048b11dfca520a645757b58710bfeaf607338c32ec1caf9db",
+      "target": "死亡，不能结束一切。可是……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/14",
+      "source_sha256": "4870df82ab139352b739d0ac4aa860889d43e1624c088a0875ddc959130d4321",
+      "target": "活着，也不能为一切开脱。$n不这么觉得吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/15",
+      "source_sha256": "698ced6d3e1dda622d89904d0c8214628792b9f73bd4c1fd0a0fdfae912f5be9",
+      "target": "不是。如果没有卡琳兹，我也不会，在这里，$n血泪，也不会存在。$n没有卡琳兹，就没有，如今的我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/16",
+      "source_sha256": "501c96b2a67efa3f90ca0f17c0a30a1ba96f46a7fa0eab9a965206b18f4a26dc",
+      "target": "没有卡琳兹，就没有，如今的我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/17",
+      "source_sha256": "3af55bd7e70301ea680538d570e1dc90ab9f913fc1bc05fb2605f2c8fdac9d79",
+      "target": "呵呵……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/18",
+      "source_sha256": "973591ca706be788f91507816afca32d4a9785e4aa5587d165ea07c5c08595a4",
+      "target": "呼，为什么，反倒是你，要哭了？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/19",
+      "source_sha256": "d7403b831819dbe25c54ca3044378a6ae977ed00bce65293b2545fac99bdc1f1",
+      "target": "因为，卡琳兹装作，若无其事。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008230.fpb/seq/21",
+      "source_sha256": "d3811dc9cbb6a97069498ba8db53bb264680a2143a8573194830c6aaa189efc8",
+      "target": "我没事。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008249.fpb/seq/0",
+      "source_sha256": "cb73107cd3a702ef09100b25f11fa1606dc3de67edcc4e4ea2e2ce318f09308f",
+      "target": "“卡琳兹队伍”与“莉丝队伍”，$n选择哪一方，继续游戏？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008249.fpb/seq/1",
+      "source_sha256": "a9f07c25ad3e5ae97afbcada84e1110499a6fdc8066cf31692bfda1d39b7f99d",
+      "target": "卡琳兹队伍",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008249.fpb/seq/2",
+      "source_sha256": "ef401d5bc3d96cc778d50a62757325d558b7c4f35ee631d4f694b3757e6313ac",
+      "target": "莉丝队伍",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/0",
+      "source_sha256": "9646aef543128a356f52a8d507eccf22b5773435b59b20d868d5669b4d7e0f53",
+      "target": "卡琳兹，母亲有件事想拜托你，能答应吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/1",
+      "source_sha256": "8c6a4e2701c1b4c3b06232338cd48789abdd6c14958adcd4e77ca99222c541d4",
+      "target": "什么事？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/2",
+      "source_sha256": "c1d1858a734b955398a47bc3a60481039a7a5a5e9fd81bef6dcc8da86aa98fe8",
+      "target": "诺提亚的阿伦大人，打算来阿玛巴德，$n拜见母亲。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/3",
+      "source_sha256": "8444901f6dbd2c8efc26027659274651196e9d3e2a550f29d3e0299fb61db714",
+      "target": "阿伦大人有恐高症，似乎很难乘坐阿泽翼。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/4",
+      "source_sha256": "5b385793793e4cd0cda9db4cdbc32368b8545fc782859e6ebfd73f448ae876b0",
+      "target": "请护送阿伦大人，从诺提亚，$n来到阿玛巴德。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/5",
+      "source_sha256": "4155e3e563022817a5e10fb641fd83229ff9a71cc13edfaa55a044f857da4a30",
+      "target": "嗯，如果莉丝她们在，拉德琳娜大人应该，$n会把这件事交给她们。现在，$n莉丝她们，不在阿玛巴德吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/6",
+      "source_sha256": "a90ead2505592760f771c7751e49ddbc246c4353715ed88cec9c485fc552f8ab",
+      "target": "啊，莉丝她们收到某人的信，去了别的地方。别担心，听巫师们说，她们是去找人的。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/7",
+      "source_sha256": "698d4d8e72a6e4f26fbb0b52e28cb6dee1120a7329d2d129658dc60072458680",
+      "target": "会把阿泽翼派到血泪总部，搭它去诺提亚吧。在诺提亚接到阿伦大人后，请来阿玛巴德大神殿。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/8",
+      "source_sha256": "ecfbd075caecab0fdd69f31c0b6522db3bbeede2c1b6b3f397fd0c622fd48aa6",
+      "target": "知道了，阿格雷安。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/9",
+      "source_sha256": "762de35443dbb4711ba246c632f2d5f38e1c2ef657ef0b2f0a0c882710eb52e0",
+      "target": "每次都麻烦你，谢谢。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008270.fpb/seq/10",
+      "source_sha256": "be8ed72cd7143d11f19608b4cd278a18df4dd2567abb482ad236c384b0950f22",
+      "target": "客气什么。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/0",
+      "source_sha256": "6c83d9b02bdfb735df216ac8eb50dfe63ca9c8c8cee793675f76c77b66b71a03",
+      "target": "好了，飞行结束，去接阿伦大人，$n吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/1",
+      "source_sha256": "6222daf1b526119608cd40ae8331a43642d4238dc0c80140f97ab0925c7de005",
+      "target": "哈哈，怎么被哈伦这么一说，感觉像是，去找阿伦大人讨债呢。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/2",
+      "source_sha256": "0a1a7e489ea1df66d010e4feb5c652ee6d34d62539a595763fe3f396138b52d0",
+      "target": "你这混蛋。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/3",
+      "source_sha256": "87c9d51536acaa38869cd5e2512f3f7b6dac6ae9e1c7065d51273c92ec210340",
+      "target": "哈哈，开玩笑，别生气嘛。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/4",
+      "source_sha256": "01671bf79c2127771fa3061c15ad0da863667ce386e6e369af083b64d1290905",
+      "target": "臭小子，你给我等着。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/5",
+      "source_sha256": "e302c5c4ff91adf34eb74c032f00b0bb534bad06f365b0b37d7c3cb8c893d38a",
+      "target": "好了，别吵。我们的任务，是把阿伦大人，平安送到阿玛巴德，不是来诺提亚打架。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008272.fpb/seq/6",
+      "source_sha256": "9fe5e62ccfb4b2c298fe4dcf5a9a2f6d37557ef5ba01d72d8792c83d21102edf",
+      "target": "快去阿伦大人家吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008273.fpb/seq/0",
+      "source_sha256": "c0c6d4325f9579a8174551af8ce8bdda08f0e57157c6d85d7ac9fd8113390184",
+      "target": "哦，来了，卡琳兹。要麻烦你了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008273.fpb/seq/1",
+      "source_sha256": "ac45f6907d8d0f0884a733315cc53cba28551c9cfe54f12918396e28bd5dfb41",
+      "target": "到阿玛巴德，就拜托你了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008273.fpb/seq/2",
+      "source_sha256": "168daa0e2fb1e2e79e08025488ce527a901099f3b6665353b73fdf25312069ce",
+      "target": "是，明白，阿伦大人。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008299.fpb/seq/0",
+      "source_sha256": "bc5ed79978098a961c3fe3e73951aabafbe9a36227cbe54c5f28370381051428",
+      "target": "看那边，是紧急信号弹。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008299.fpb/seq/1",
+      "source_sha256": "02e73a7f8c8e811b4e51afd96e3b36f5dd6ee163e433f6fb44b138e8203488e4",
+      "target": "不是卡琳兹的信号弹，那不是血泪总部的吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008299.fpb/seq/2",
+      "source_sha256": "55b58d0c7a3a7d30590d694cf3903f2b557ea5a5a0af331cf41826c6dade51a7",
+      "target": "啧，紧急情况？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008299.fpb/seq/3",
+      "source_sha256": "71bb5a7be85f31434bd2b48b2d3b7c2c95ceb56e1c1be35fe630041e1fa5c102",
+      "target": "大家，回总部！也许，那里正需要我们的力量！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008299.fpb/seq/4",
+      "source_sha256": "f71d0b4a1b8fd9cc0eafcb173a132b4f56840d4d1404a18fefdd6eb36ce1c4a0",
+      "target": "卡琳兹……别勉强自己。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/0",
+      "source_sha256": "533c952845df99ac36dfa840fc0ce8233dc6a3bf025649741458f7023bc4497d",
+      "target": "看见信号弹，赶来了，出了什么，$n事？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/1",
+      "source_sha256": "47f981030b05a680f55562d59a640c690bef120786cfc1124b90acc38d747ec4",
+      "target": "卡琳兹，被奥尔哈带走了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/2",
+      "source_sha256": "9e02cbaced29d20e19c59328953aa374969c36a7db572964b4668061f7269f95",
+      "target": "卡琳兹？为什么？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/3",
+      "source_sha256": "0bf47cb4c2b8c11284d54b5ddfb1ef1b4bdf5b6c514a4dc285daa9d7c5b0c891",
+      "target": "其他血泪成员，被挟持为人质，所以，没法出手。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/4",
+      "source_sha256": "d09812cb673b9c102392f7f7388621b139e944e5b8b0a594f35504e598486a5c",
+      "target": "偏偏，是卡琳兹！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/5",
+      "source_sha256": "5422d483a3df8b4d156c8ca22a469bd5be9a1068cfe7e917972f8f8fbe750830",
+      "target": "他说，带来莉丝，就放卡琳兹回来。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/6",
+      "source_sha256": "73948fd1fbef181c5b0e3f3d7ff79439b8374f6c762b2b6108e382118a3b9ef6",
+      "target": "我？那么，因为我，卡琳兹才……？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/7",
+      "source_sha256": "e907293d4017a4160673e5cedbea49d3c1b561e33354a30dd678d68848edf642",
+      "target": "不会又要说，送莉丝过去吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/8",
+      "source_sha256": "58b45362be76ddbdcc1049e0929476b42ea3118f4ee26b4e8c8529c79c8e6b97",
+      "target": "那样，卡琳兹可不会原谅我。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/9",
+      "source_sha256": "0eeca1dc66c8677822e9385f5c267e5fbe59871af1f6254d2599f457e3e6c1a8",
+      "target": "我过去，卡琳兹就能回来吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/10",
+      "source_sha256": "51a4b212a84ceca10d1375c156e17dbe3fb5f87b7d47e4037c9eff4ade9175f6",
+      "target": "别说了！如果一开始，就打算出卖你，卡琳兹也不会被带走！以为他为什么，$n跟过去？！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/11",
+      "source_sha256": "aa997bc224c13e615f2905b3e229f7f1227e5308068cc6f47646bc1cfe620ece",
+      "target": "没错，没错！卡琳兹队长受的苦，就白费，$n了。所以，莉丝不能去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/12",
+      "source_sha256": "dd69b426bc8f4355426ffa812e153384d486489ece95da50cde6e03e116dfce7",
+      "target": "可是，奥尔哈说，只要我去……！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/13",
+      "source_sha256": "424ea97b2265a136310e053597e52b57b3389517d292152eb59ff1612a57d127",
+      "target": "奥尔哈是我们的敌人，别搞错！相信敌人的笨蛋，没有在战场上活下来，$n的资格！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/14",
+      "source_sha256": "67a6d6420544881105dd5a74258d18d4a99bbd97131a167f926877e8370ce30f",
+      "target": "发脾气倒没关系……不过，客人来了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/15",
+      "source_sha256": "411768f3f24711fb3c71bc47382ea5ae7b817a6447ac6c8d7ef1de1c8215f3ae",
+      "target": "连些小苍蝇，都来烦人！血泪，从今天起解散！各自，凭自己的力量逃出去！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/16",
+      "source_sha256": "c46330a3bff29ff8cc94e83efff58267d8ac1ce02ed002cd4b7bc86fb3d38a02",
+      "target": "别想其他的，只管跟着我！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008306.fpb/seq/17",
+      "source_sha256": "fbf5f3b684444bca88826295b8ccab6f6bec6d142f1fd328c1e6b5a2708d1836",
+      "target": "血泪，前进！！脱离战场！！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008332.fpb/seq/0",
+      "source_sha256": "fc8048f96560fe10d2b5b7ee5f8a9574330b6f1e3e58bf854224ee5e92fcd9d9",
+      "target": "奉阿格雷安将军之命，$n前来迎接血泪各位，送往诺提亚，$n请随行。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00008332.fpb/seq/1",
+      "source_sha256": "3f009e67c09be630acce7bb7b99882edae1efe16fe0a129aba3e316f01621bbd",
+      "target": "请登上阿泽翼。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/0",
+      "source_sha256": "5b71e7b21d591285f4f96ff5dbcd20845d4fb746c834126a0fc9d80d56185978",
+      "target": "终于到了，阿伦大人。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/1",
+      "source_sha256": "4a710605a7430f5a6f72c6742bd5a74c9b96ffd2f32bbc3c262e0fb781009c15",
+      "target": "哦，谢谢。多亏你们，才能平安来到这里。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/2",
+      "source_sha256": "331fcdb4748837e4685d062fd9ea05d41aead67af0fc1c09ba2b718e6f025351",
+      "target": "来，这是谢意。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/3",
+      "source_sha256": "88d7eda238a854e19f27a93f094439d8a4e34b612d48d2c86a3ba0a87c946718",
+      "target": "不用，阿伦大人。我们只是，$n遵从阿格雷安将军的命令。$n这笔钱，不能收。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/4",
+      "source_sha256": "8276c20b8ee011ab63011e12ec5ccfb80d9063c7edc982b124cafb5d8d2a31b8",
+      "target": "也不是什么大钱，怎么样？$n希望，你们收下。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/5",
+      "source_sha256": "05b246b41ce0fb76440743a9728c4c4292c7ac83919efe7d89b945530c81f1c8",
+      "target": "这是阿伦大人的心意，拒绝也不礼貌吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/6",
+      "source_sha256": "e2a153cda70014ba7424ecba93ceb8c29b238c4a36b41f399d67aa28e0864c9b",
+      "target": "那么，恭敬不如从命。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/7",
+      "source_sha256": "9baeb3acfb90b7e800a4365b2ffbfb44396ee583abe2d2a6a6f12ef74b25b47d",
+      "target": "好了，去见阿格雷安吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009933.fpb/seq/10",
+      "source_sha256": "05cff41f96fe091cc5d9864478633ce4b96326da39545cdf5cdd9851762e6246",
+      "target": "那么，下次再见，保重身体。$n我要去拜见拉德琳娜大人。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/0",
+      "source_sha256": "10f06f2c0ce0728117169aa97c10851fcf06418f79f1436c4f0e8515599e462e",
+      "target": "一般的事，很难吓到我，可这次，真的吃了一惊。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/1",
+      "source_sha256": "cfc0c4f9db16fc706115e99ef798e6249c640fa8361f8e9cbc85319130c6807b",
+      "target": "可恶，那么多秘密结社成员，究竟，$n从哪里冒出来的？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/2",
+      "source_sha256": "83ebe5762ff4b688a2c068912a8a2dd0dcea4297ba4cc12ae2c1c44ea9dc8993",
+      "target": "准备不足，太小看敌人了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/3",
+      "source_sha256": "b06a8e39176edac1b804c977376ab81bbc2acd1d628ff087eff1eadc7dbfc6a4",
+      "target": "队长！信号弹！$n啊……血泪总部，似乎遭到突袭？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/4",
+      "source_sha256": "9dd621666c3589d135bef9a692f602d6b2ecedfd7fb294c7c85d582d58374bf3",
+      "target": "怎么会。$n还是第一次，看见总部的紧急信号弹。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009934.fpb/seq/5",
+      "source_sha256": "755a2e7c88d0a522a5a2764280581e8cfc43ea44e58dccf08c498a94e38a55a9",
+      "target": "以最快速度，返回。走！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009954.fpb/seq/0",
+      "source_sha256": "5dac1d1fa82c2a81e478931885dc552e8fa6791bf78dcd1f85211f97e9008b0f",
+      "target": "正在执行，护送阿伦先生到阿玛巴德的，$n任务。$n当然，应该去阿玛巴德吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009954.fpb/seq/1",
+      "source_sha256": "610d00f621008f83ed0320b616f12dbfe7b9339d44e89e91cbda2632cf9ed026",
+      "target": "把阿伦先生，平安送到阿玛巴德，$n以后，再去米雷娜，怎么样？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009954.fpb/seq/2",
+      "source_sha256": "5d2fa51576e7434ff810e3ca86455a81005abc48769a406bd6d36f4305f54ab4",
+      "target": "还没见到阿伦先生啊。$n去阿玛巴德之前，先去找阿伦先生，$n吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/0",
+      "source_sha256": "1c3a01eb4b8dce6f9091940ad56bf06c98fb8a385a20301e5cb0c582dac13c35",
+      "target": "玛诺，快走！！往北！！快！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/1",
+      "source_sha256": "25908221af121056a8f003cb8065872d4a62ff83b7aa58449d69f525c3a41115",
+      "target": "不要！做不到！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/2",
+      "source_sha256": "b0e46b1a0fffa0781034b637dceb0d345018d7926aec1ceac59f86ddff303bcd",
+      "target": "玛诺……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/3",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/4",
+      "source_sha256": "b49030826daa79bffb7fa21b2d55924c627dc00d4f9074254bc3cf012c7d8912",
+      "target": "快走，玛诺。谁也帮不了你。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/5",
+      "source_sha256": "ff604e06da59c301d94264c06181d6cd9981637993506bce1066c7d51412810e",
+      "target": "相信自己的力量。鸟儿，凭自己的翅膀，飞向天空。去吧，玛诺。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009965.fpb/seq/6",
+      "source_sha256": "c62227ab9ca83d328e8b6d715dde7ac650b731fff2e4013ebceb84f8578eec23",
+      "target": "啊！！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/0",
+      "source_sha256": "d47756022c68fa06f9e5e7ad3f7948bb340bac080c1194964270c65ba9537315",
+      "target": "从这里起，我独自过去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/1",
+      "source_sha256": "6a72ce71fa41b5e61cf10d7b720015d04b7cf66a867e13d33b3235f18f70df26",
+      "target": "什么，你在说什么？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/2",
+      "source_sha256": "25742cfa4d61d5fa7a450492c8749e988ed8e17eccf3d888ce3727c25962884e",
+      "target": "不知道前面是什么情况。如果有危险，会发出信号。$n但若一个小时内，没有回来，就去和劳尔他们，会合。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/3",
+      "source_sha256": "c7e494e7e6703743ba1e6cc2eb1c98985aaf3a81dbda618354461e796355ac1d",
+      "target": "劳尔他们，不清楚这边的情况，$n如果全被抓住，连他们也会有危险。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/4",
+      "source_sha256": "bf607146590ea7d0857335c63fbfad16323a3823d7b64ada2d331aabc0bf6c84",
+      "target": "知道了，队长。可是……有危险，一定要发信号。会做好准备，随时冲出去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/5",
+      "source_sha256": "81ddcfe1f9e51846869deb5e93304c232c7d9e924395fba8a2696c98ae18837a",
+      "target": "谢谢。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009968.fpb/seq/6",
+      "source_sha256": "e1026862bf8a10e784e0221de254a73cb59b00f637976062fe13d57eabf5786e",
+      "target": "抱歉。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009971.fpb/seq/0",
+      "source_sha256": "a948ac64cfb21677cdf98709cc4e1792b2e90329f3910263bba93190086bacb5",
+      "target": "阿格雷安，出了什么事？$n能去看看情况吗？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009971.fpb/seq/1",
+      "source_sha256": "d58f0b4b5f85004b0c15f1e53383c4b0e5ab098ff9a90a6d55c06df884a41ead",
+      "target": "刚才，从阿格雷安将军房间里，$n传来了吼声……$n出了什么事？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009971.fpb/seq/2",
+      "source_sha256": "1a19c0e7c13216299fb04a41f5ec96948c1ece21c5aa86b03283727245dc486f",
+      "target": "迟迟未能道谢，感谢你把阿伦先生，$n平安带来，卡琳兹。$n$n另外，实在抱歉……$n能否逮捕，企图暗杀阿格雷安的，$n凶手？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009971.fpb/seq/3",
+      "source_sha256": "d098ed79bb56e759d446d3259169e9b38a417975d61b6a16bc2a330c96a143e6",
+      "target": "幸好，阿格雷安将军平安无事。$n拉德琳娜大人，似乎很担心。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009971.fpb/seq/4",
+      "source_sha256": "20e4a07bf0f728f2f9797684ff073362dcd48be89a4fbcd129b3aaa6a9211087",
+      "target": "能逮捕，袭击我的那些人吗？$n不过，不要勉强自己。$n你是我，无可替代的珍贵朋友。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009972.fpb/seq/0",
+      "source_sha256": "4b89bed43bf750f9fc847ba81a4d75bf67ce4a21b7be745db15a669a43e44b9c",
+      "target": "阿玛巴德大神殿里，还有事没办吧，卡琳兹？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009972.fpb/seq/1",
+      "source_sha256": "2d290925440e4a82b0291442f3b48fc08d7384ad7d27732b402da704fea858f0",
+      "target": "为什么，要去诺提亚？$n应该先寻找，策划暗杀将军的，$n家伙吧？",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009972.fpb/seq/2",
+      "source_sha256": "37d6dcfd97fc086e1efd0e10aa7df703582895b8aa15cac310335ca04553a0ca",
+      "target": "不是要寻找，莉安娜丈夫的，$n踪迹吗？$n走这边，到不了拉埃杜山区。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009972.fpb/seq/3",
+      "source_sha256": "efefcbabca184663ff60aa49894f6b14fb661b0fd4120a0f42e65fc4546e05dc",
+      "target": "快去见莉安娜的丈夫吧。$n真好奇，他长什么样。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/0",
+      "source_sha256": "4c9be034caa9dcaaed3a1979f69f68e31b9c8bbcc980f84163d2012683b87311",
+      "target": "现在，正要去抓，企图暗杀将军的，$n那些家伙吧？$n$n必须往亚逊罗文走。$n快往南去。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/1",
+      "source_sha256": "d3937b0654c0bbc48d6b209883aea93252db567fe2640b03a1bfdd727e65ca13",
+      "target": "不会是忘了，现在的任务吧？$n赶快去抓，企图暗杀将军的，$n那些家伙。$n他们似乎，往南逃了。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/2",
+      "source_sha256": "f6fe0c0ed8811567d200a5bf152b2d7773d158767ea464b5d0e59600d66e5bf0",
+      "target": "说好去斯蒂兰的啊。$n那边，不是斯蒂兰。$n往北，往北！",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/3",
+      "source_sha256": "8372eb345add46516cf5225a4f0e4188c159bc6f96f62fe6692e2dd9c377d061",
+      "target": "雷米耶靠近阿玛巴德，$n巫师和巫女，很多。$n现在去，也许会被抓住。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/4",
+      "source_sha256": "fc5eac55bca4b08b148e1e20a1c185eee3d49e7b5f2bb6e5b55a6724cedb9681",
+      "target": "走这边，是斯蒂兰。$n虽然听说，莉安娜曾住在那里，$n$n可不觉得，莉丝她们会冒险，$n去那里。$n快去埃蒙吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/5",
+      "source_sha256": "f00ebbe226a9467b9d9da27c59fb33d131d65c50a6396f6ae0a21e9a292623cf",
+      "target": "队长，应该没必要，$n往雷米耶方向去。$n快去见莉丝小姐吧。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/6",
+      "source_sha256": "5f2f4ec7f5d59eaec46e189c56105eb666f9e4a7d640f92d2f512a2fef505311",
+      "target": "唔……这边，以后再去。$n现在去，有点……$n而且，应该先去阿斯蒂内湖。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009975.fpb/seq/7",
+      "source_sha256": "9d329b4f2df209ac4a69003ce072ef77dd2e4b9b984a90ae048edcb9444ecb88",
+      "target": "莉丝……现在，必须赶快去阿斯蒂内湖，$n才行。$n没有时间，去那么远的地方。$n要遵守，与莉安娜的约定啊。",
+      "status": "draft",
+      "context": "Story/NPC draft; sequence IDs explicitly bound; source chronology and speaker require proofreading; not imported."
     }
   ]
 }
