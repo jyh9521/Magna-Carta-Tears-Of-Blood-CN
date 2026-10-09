@@ -896,6 +896,24 @@
       "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
       "status": "needs-source-review",
       "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007597.fpb/seq/2",
+      "source_sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9",
+      "status": "needs-source-review",
+      "reason": "Isolated lowercase n marker; runtime purpose unresolved, not spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007682.fpb/seq/0",
+      "source_sha256": "00933c592401e9bfc888134754a54ef6a8cf135668821ae0f26023ff03c10391",
+      "status": "needs-source-review",
+      "reason": "Latin-script incantation of unresolved language/meaning; protected verbatim pending source interpretation, not fabricated as a Chinese sentence."
+    },
+    {
+      "id": "SHIP/00007682.fpb/seq/1",
+      "source_sha256": "a916e5bafceb9aa7bcc2fbfd2bbdda86edbf20e36880aa01aaa568d1d5582a03",
+      "status": "needs-source-review",
+      "reason": "Hangul phonetic reading of the unresolved Latin-script incantation; source correspondence retained pending interpretation, not fabricated translation."
     }
   ]
 }
