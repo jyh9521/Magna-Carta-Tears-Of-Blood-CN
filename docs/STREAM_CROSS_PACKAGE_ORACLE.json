@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "start": 262948,
+  "stop_offset": 487115,
+  "continuous_oracle_bytes": 224167,
+  "root_requests": 97,
+  "completed_piece_sets": 5248,
+  "piece_observations": 6496,
+  "embedded_spans": [
+    {
+      "kind": "source-identical-ini",
+      "name": "psx2user.ini",
+      "start": 347159,
+      "end": 353432,
+      "bytes": 6009,
+      "sha256": "dfd842d9a78058dbbeb6f9993483ba669532e9d36291f0470a33fe03f0558c9a"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        85
+      ],
+      "start": 429023,
+      "end": 430514,
+      "mips": 4,
+      "source_sha256": "819cabc0a6a0477cd2eeda649733f0499412189a0ca4130692ba50bf70e45a28",
+      "stream_sha256": "5a8858b92e14e078c1264fd5e2b0476727d30c904c351f0585f31c1287dc2c1e"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object": [
+        "Engine.u",
+        144
+      ],
+      "start": 450211,
+      "end": 452814,
+      "bytes": 2603,
+      "sha256": "8384f39991f2e27fcdb44beb86acbbbe97e674d7a8fed4cb64f3841838416eb1"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        200
+      ],
+      "start": 468103,
+      "end": 484572,
+      "mips": 1,
+      "source_sha256": "f96342566a689ba18366ccbec150c42da2f66ff39c68afaf640433617e3e048b",
+      "stream_sha256": "f96342566a689ba18366ccbec150c42da2f66ff39c68afaf640433617e3e048b"
+    }
+  ],
+  "first_mismatch": null,
+  "stop_reason": "next-span-unresolved",
+  "full_stream_mapping_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}
