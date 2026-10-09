@@ -10209,6 +10209,1630 @@
       "target": "可若落回亚逊手里，人类必定会再度遭受屈辱的$n败北，屈服于那股力量。无论是为了结束战争，还是为了不让亚逊再与我们抗衡，都必须守住救赎之光……（此处中断）",
       "status": "draft",
       "context": "Story/NPC/book draft; full resource ID retained; intact Japanese-reference rows translated as Japanese; damaged reference rows withheld; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/1",
+      "source_sha256": "2d88ed4c4307031d4420d2d82213b7334643a9a5c2028a96c9aa52b517a8f4b1",
+      "target": "可是，他的儿子艾斯坦在$n飞空艇坠毁事故中丧生，$n从那以后，他就沉溺于酒精了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/3",
+      "source_sha256": "0a33baacad89fb02ca6586e0e1b9dcf2d8a2b6d6481fee9e1e6392cd7e1a77f7",
+      "target": "你们不是本地人吧？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/4",
+      "source_sha256": "8ef67c7791db468de4946381818aed19465697c91d706485a42d369b018646dd",
+      "target": "该不会是亚逊的间谍吧？$n外来的人可不值得信任。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/10",
+      "source_sha256": "281f08282e55e94e10e915ed6e4c63c2b1b82f76c6cc66858f53c8712974b842",
+      "target": "他们说光之园埃蒙派来了$n间谍，一个个都紧张兮兮的。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/11",
+      "source_sha256": "0475440ca9e6b7470ec51db0aa6d1ff4fae62ea1c54ebd7801986fd73b435cd6",
+      "target": "弄不好，他们也会吵着说你们是亚逊间谍，$n或者光之园埃蒙的投机分子，$n没完没了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/13",
+      "source_sha256": "814736caa5c3c605f3fe997d188a757b33e21b6ebc5f47c93563026cdb0608c3",
+      "target": "马拉卡特的领土被亚逊占领后，$n整个马拉卡特就分崩离析了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/21",
+      "source_sha256": "ab32862ca726e7489191349e3b0959c1b633a32d40f9d5217d0222ab950003bc",
+      "target": "杂货店",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/22",
+      "source_sha256": "bbe1694981b742fe0bcae4ab6aa8bb8107ddae7852da9da45192debdcb7c8c29",
+      "target": "道具店",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/23",
+      "source_sha256": "82672f441d0800880ccd6050909fc8f9df54af19e1973d454bb7a679bb43fbcb",
+      "target": "欢迎光临！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/24",
+      "source_sha256": "eba10b4b4b62b63a6aee46892c5e6a322c566ee3940048589492a85f25e1cc63",
+      "target": "请再光临。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/27",
+      "source_sha256": "f6133ea0a4dfeb1b0eeba1e1b0e0bb8039d08904e01de2824dfdb832ac0a02f3",
+      "target": "占卜屋",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/28",
+      "source_sha256": "a1ddcc72a79f1752d8740c40eb7c7ddacea985bf118e2241138c5145efb72976",
+      "target": "商人",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/29",
+      "source_sha256": "1ab246902736bb18780b56fe71a49f529309dac01bf216d8a9989ed601d09017",
+      "target": "工房主人",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/30",
+      "source_sha256": "b4f230ff8234ba22c3b3bf58635ae72fc153e85ac824e8e489313d92f87c4137",
+      "target": "去过阿斯蒂内湖吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/31",
+      "source_sha256": "ac8d73b4757b2d550eae8aa2b713207408e9d5a618ad68376f1bc5ef63c2b76b",
+      "target": "那地方真的很美。$n我和女朋友一起去过，$n实在太漂亮了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/32",
+      "source_sha256": "778baa41e577e0d804a8554fb5340dcc070b3ee898819e193d18f316c5815295",
+      "target": "有空的话，以后去看看吧。$n啊，从这条路出去，穿过阿斯蒂内沼泽，$n就能到阿斯蒂内湖。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/33",
+      "source_sha256": "f649b2a2423298ee8fd6dd1cf739c9ceabaa3c4ce02c2059325dfae6b70fb6ac",
+      "target": "前面是亚逊的领地。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/34",
+      "source_sha256": "70580485aae9db69b67a343eb4e612f4241b3f435ae3d55fc87903c7a9ce344b",
+      "target": "没有许可，任何人都不得通过。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/0",
+      "source_sha256": "a1ddcc72a79f1752d8740c40eb7c7ddacea985bf118e2241138c5145efb72976",
+      "target": "商人",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/1",
+      "source_sha256": "a259344e5ad13443e3b7d2d020dd7ec0170af6bf5e723b9e065687a9e778daa2",
+      "target": "欢迎光临！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/2",
+      "source_sha256": "5a4b3e60476fc2e1eba8108af41a016ecc60586218151906f523a75005b85d5e",
+      "target": "谢谢惠顾。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/3",
+      "source_sha256": "1daca9def98c8f85ec8dfe13b89f34623dbf2f58224f8d4429c0e9a1c9fbcaf6",
+      "target": "要是毫无准备就进了恩特雷斯沙漠，可就再也出不来了。据说那里的沙漠延伸到无边无际。$n不过，听说只要带着某种东西就能穿过去……到底是什么来着？顺带一提，那东西本店没有出售。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/4",
+      "source_sha256": "2924178bce1d9ec19cf566504ad7ec2a5b737dfd4bc8a3ce44c82ebf7988f52a",
+      "target": "好了，先不说这个，也请看看$n店里的商品吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005140.fpb/seq/5",
+      "source_sha256": "09b8674d9d096c3b13f36cfbe8161ee882aa781c1679f89b406f03fa563c06e9",
+      "target": "哦哦！就是这个东西。$n真亏你们能找到。$n有了它，应该就能走出沙漠了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/0",
+      "source_sha256": "b0528d7f9fa4a518458db6415862879bcee6d619ec3a88b3fadb61a85379d2da",
+      "target": "可恶，难道我们就摆脱不了迫降的命运吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/18",
+      "source_sha256": "34c7b7f27fbcfa7f3b1b10d0c335862133a4e9673c66d8e2ac9005adcd873ae8",
+      "target": "怎么了？不是也挺刺激的吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/19",
+      "source_sha256": "448f54110c7ee6a08ff963969e3251be029fbd3e14671753df000d842b683440",
+      "target": "真热啊。看来靠步行去普诺森图书馆，确实不现实。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/20",
+      "source_sha256": "7f80649ec52f6c7493f4d8fbe874c91ac0c57e074e5a34b057e7296baf0e832c",
+      "target": "先离开这里吧。饮用水也不够了，再待$n下去就危险了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/21",
+      "source_sha256": "000d3b93d887a71a74c7ce7da6f107a3cd0e113056ead1f97471443f8d454f98",
+      "target": "唉，我早就觉得会变成这样。$n要穿过沙暴的话……看来也只有$n那个办法了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/22",
+      "source_sha256": "4d4fb5550ee34d6148436085a3a770453e2441fca6dab0b543049f56d5c1a540",
+      "target": "什么意思？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/23",
+      "source_sha256": "5f0f88e7c30d6305906c3cfe93458b70810e9f2376d45ebaa40453c5c3410087",
+      "target": "唉，虽然不太情愿，但要不要去埃丰索？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005166.fpb/seq/24",
+      "source_sha256": "8cf5c72cc70dbfb6c915dfc23e5a3af54a665cb33a748331e8bcc55d1d27cfe6",
+      "target": "说不定能找到去普诺森图书馆的$n办法。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/0",
+      "source_sha256": "c84fa5a9f094c012768e838cd2c8c1130d7e02cf7e1eb01bc37c7eec6ff514a9",
+      "target": "欢迎光临。想找些什么？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/1",
+      "source_sha256": "48e405963abd2cc60bb20a148eaf88e84b4d52f5df737c1bc6972e1523a69be3",
+      "target": "啊，有件事想请教。以前我有$n一只手镯，上面刻着这里的格兰朱纹章。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/2",
+      "source_sha256": "4ca5d3c68867a142599b3484d3d92d0a29096f3996c8da6df05fe6e8e32f39a8",
+      "target": "啊，出了什么问题吗？比如损坏了？$n无论什么问题，都可以修理。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/3",
+      "source_sha256": "e8ed8361ac478edeb9926a057e537f77613ccdcdb130eb7bb8c7f6df39b60234",
+      "target": "啊，不是这样。其实……我不知道自己的身世。那只手镯是从最初起就一直随身带着的唯一物品。现在送给了一位重要的朋友，不在手上了。不过，既然是在这里制作的……就想问问，能不能查出当初订做手镯的人。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/4",
+      "source_sha256": "f0d720d2a0bfbf1dc3a0e16c9fef74f9e6a821bbb65c212f3f367eaa3cb98e96",
+      "target": "啊，原来如此。那么，能不能更$n详细地描述一下手镯的外形？同一种设计，我们原则上只制作一件或一对。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/5",
+      "source_sha256": "c76f168f84206fe4b6312fbd00f3b92c458ffb81526005c2b7b4529ef327906c",
+      "target": "只要知道外形，订做的客人和制作$n日期，应该很快就能查出来。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/6",
+      "source_sha256": "d3cd9464144d62344d096653e20ebeaa1514865ced92c1175dc606e06ae00da3",
+      "target": "嗯，不用翻资料，我也知道了。那只$n手镯是家父制作的。它很特别，所以一直记得。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/7",
+      "source_sha256": "b283147c6d803aaccb83490b2e161f0625accb938bb16eac82cd8ba2d3e83a9d",
+      "target": "什么？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/8",
+      "source_sha256": "58e1266670fce0f1044f033b59da0ffe085d0cf2f6150f563310645f5d078171",
+      "target": "那是席多·艾斯塔罗特将军，为了送给恋人而订做的一对手镯。将军是家父的朋友，所以$n我记得，父亲当时格外用心。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/9",
+      "source_sha256": "610899e3dc7f7132efdac5bf2c754ee088eb4b6d64ab7405bf582a85c835aecb",
+      "target": "席多·艾斯塔罗特将军？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/10",
+      "source_sha256": "fc05b9f24e3d343ca1e79ad6e9ea3617e6f55692a2dc155017d719439b4089d0",
+      "target": "是的。如果那只手镯在你手里，$n说不定你就是他的儿子。将军不顾家族反对，坚持要和在吉拉特的恋人结婚，最后舍弃艾斯塔罗特这个姓氏，离开了家。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/11",
+      "source_sha256": "5bc2d9efd36c400b519564f202dbc530a6b068666f82d3256cef9db8fa229a37",
+      "target": "马拉卡特有名的武士家族，绝不允许与他国的人通婚。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/12",
+      "source_sha256": "144e0b8f85ce8fd4be2af5a259cd81b208bd3626850a0b93e3f5324cdb5536b7",
+      "target": "那么，艾斯塔罗特家族……？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/13",
+      "source_sha256": "b78648d808fd22c6ca2f8929d3f02ef0a29fc0eb7a1ba6b669497e74cfeb9b7c",
+      "target": "那些有名的武士家族，大多在与亚逊的战争中$n灭门了。而且，艾斯塔罗特家族的领地，早已成为亚逊罗文的领土。虽然令人遗憾，但他们恐怕是最早被灭门的家族。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/14",
+      "source_sha256": "39c002930efee8282e76475c9244e027c2336cfd6af48c0ac6a405d38f9645d2",
+      "target": "……原来如此。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/15",
+      "source_sha256": "52acf17cf7055477c2536de4898e1f89115d6814d1dd6ccd845e2a826c89159f",
+      "target": "不管怎样，居然会在这里遇到你，真是感慨万$n千。将军来取手镯之后，我就再也没见过他了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/16",
+      "source_sha256": "0bee5650e2360dbd8e321b3e7a791bdf0a9270566ace18948e3f56efd8a1e8fe",
+      "target": "那么，您对将军的恋人一无所知吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/17",
+      "source_sha256": "ea40e54446407f5b594ae948834d76664c1ad64884b3558977a5b32fe0919193",
+      "target": "是的，很遗憾。我当时也还小，只是偶尔$n听到过这些事。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005167.fpb/seq/18",
+      "source_sha256": "5f60e1804aedf3cf4a97788211a547bc02bbdcda2d60043cf4d8cd952b1f1280",
+      "target": "原来如此。谢谢。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/0",
+      "source_sha256": "3a4b2f932e372a5c818ce34f2aefa27b4f0e8a6c1842c9010173c7192f969e21",
+      "target": "关于救赎之光的事，都弄清楚了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/1",
+      "source_sha256": "8ca758baeea056af0b19ddc19926f63928551dba31f7ba72c7df0de6269ea802",
+      "target": "虽然有些直接，但可以问问你的答复吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/2",
+      "source_sha256": "50b3e5fcb4525a730016a3ba72f219cbe752cf78996b0b42bbbc898e0bef57b8",
+      "target": "结论是，正如你说的，最好尽快$n结束战争。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/3",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/4",
+      "source_sha256": "390ce620643e7bac89f4cfd35c01227dc13838f253547b80a737f25faef95370",
+      "target": "可是，集齐救赎之光，真的只是为了结束战争吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/5",
+      "source_sha256": "32e9a33c85c5c022f4bf8094a565b64dde5e833cebb852ca9281ceb0c7356d2d",
+      "target": "为什么这么问？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/6",
+      "source_sha256": "504f0033c37a153a9022da25ca907537cde3cd8eb66835ee3019057c8c5e9d6c",
+      "target": "至少，我以前认识的休戈，虽然不表现出来，却是个好胜心很强的人。如今，大家都称阿格雷安为正义的将军，但不管什么事，你从来都不会敷衍了事。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/7",
+      "source_sha256": "b3afe93d31accf7422fb8250f15d86e519b631066fecbf17134ba505f65212d3",
+      "target": "你记得很清楚。我打算发动真名法典，用它彻底结束与亚逊的战争。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/8",
+      "source_sha256": "51ccd777ca946934f58d832b8cf424aab609834cdd43818162834972255119e1",
+      "target": "打算让传说成真吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/9",
+      "source_sha256": "738b1707c1da22e71274e543f7b6204dadc70d0791ffe65277215afb5e345344",
+      "target": "有不少证据表明，真名法典确实存在。虽然此前的行动不断失败，但这次一定要$n成功。战争不能再拖下去了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/10",
+      "source_sha256": "4be4143187901b7cc76ecae0ba5c991c6ed15ef39a7aa3750fb6fa553c2d5da5",
+      "target": "给亚逊罗文一次再也无力恢复的沉重打击，迫使他们投降。瞒着母亲，也是这个原因。她一定会反对的。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/11",
+      "source_sha256": "703f63420c35d36f883c29ad9b48eb63ac4854e7330ad5e1a16d47edfea354a3",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/12",
+      "source_sha256": "e1d4b217c0a8076646c1f67315196e32540dc491d5c525718d638b07408ba3f3",
+      "target": "所以，你们也要小心，别随便透露出去。也不要把这件事告诉蕾哈丝。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/13",
+      "source_sha256": "f03e2d395779c9d7ecb569b9876f785ef6a074fc6fbec6f7323d1faddbd57821",
+      "target": "知道了。反正这也是我希望的。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/14",
+      "source_sha256": "90922b976ce41d1af268e00fc19d12431e762bcbeca7a4dcd50764d524071827",
+      "target": "偶然听到一件事，听说你在找一个左臂上有黑色蝴蝶$n形宾迪的亚逊？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/15",
+      "source_sha256": "b4a7757cde8ba889809162e860e81a97ae86b30e1882357ad67b330ee38fe372",
+      "target": "你知道这件事？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005169.fpb/seq/16",
+      "source_sha256": "6348c0f44f7b5a421f962ce2b09fce8cc0570b096b682e87734620c04c4164de",
+      "target": "一定能为师父报仇的。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005173.fpb/seq/1",
+      "source_sha256": "1376c2e2fa59ad0d6ad6703f706d3f4ec0490cd51c04e860e43610547e4d8a2c",
+      "target": "大概是特意照顾，免得被拉埃尔将军$n看见吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005173.fpb/seq/4",
+      "source_sha256": "45b323d3950fb8bd1091afe6c604c1e0e842c5ff026b864c03964dc75c6f8c29",
+      "target": "别吵了。$n蕾哈丝小姐和哈伦先生，总是这样。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/3",
+      "source_sha256": "243000b388624211cb673bfbed04e3023fc6fd62f28bc14951ebf7bdc9faa913",
+      "target": "这是从一个认识的人那里$n听来的……那个人，$n对卡恩和魔法挺了解。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/4",
+      "source_sha256": "7ee2992d7b7af0f34f6cb960284f1d4a9f325ab80f13684b5d974293de0e0a12",
+      "target": "听他说，最近$n卡恩的流动异常猛烈。$n就像置身暴风雨中一样。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/6",
+      "source_sha256": "2eb5683e1239364b6519ab17a523037a3b4334337b443a39406aa14feba2a0e4",
+      "target": "在这样的世道里，光之园埃蒙的存在，$n你怎么看？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/10",
+      "source_sha256": "25e60584dd2198371f4f6e50c5f6909095605a7d7bdb46edb756dd74fd970cb5",
+      "target": "不过，据说八英雄中有几位$n至今还活着。$n他们已经变成了不老不死之身。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/11",
+      "source_sha256": "e308bc063cd0dd2a875d1521d717fc3d0f28704e051b22de6377886645613082",
+      "target": "世上应该没人知道$n八英雄长什么样……说不定，$n就是这个村里的某个人呢。哈哈哈。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/14",
+      "source_sha256": "5a74f2f80c3f2a07ff97baeb05adf7c15ab6ecd5c5ae248f3746a5bf0c9f5464",
+      "target": "明明人类齐心协力，$n都不是亚逊的对手，$n大家却只顾自己的利益。$n啊，又发牢骚了……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/15",
+      "source_sha256": "915397abb7f9c237639a6b0fbefd5027376893d5f4a4c97de6a23fa3b5dbe218",
+      "target": "赤色旋风啊，$n真是一群难以相处的麻烦家伙。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/20",
+      "source_sha256": "4f043faab71b5e90b5fd42902129e725dbb32da1a22b131f97200b18b4d7aab1",
+      "target": "道具店",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/21",
+      "source_sha256": "868776e55df919d156026cf1b119a8ecc69274ce8d78dc60414cbefaee15bbd3",
+      "target": "欢迎光临！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/22",
+      "source_sha256": "94e3e6624a02052f340b41e39913f3876c6b8918c4f010ac690ff9f621702786",
+      "target": "谢谢惠顾。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/25",
+      "source_sha256": "6e768fcd7a26bc30f2da38f72c9432a8f52a1d47a20c5b44869ed1c486f6a985",
+      "target": "占卜屋",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/26",
+      "source_sha256": "2a70337b83dbeeb4b024b690a6520fd68154e90e2e3fe6a5c84bdc328db0f0e3",
+      "target": "商人",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/27",
+      "source_sha256": "350d4fa5f0ad4a043de2328b238c42ac99c06e24e657953e04c82d25d9c19230",
+      "target": "工房主人",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/31",
+      "source_sha256": "5047eb1d7f8d3f04b51cc743a4f2d2bfaa2ae7ee9680be994cf7ff214fcb95d0",
+      "target": "你知道米尔娜街道吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005187.fpb/seq/0",
+      "source_sha256": "92f89df5c28c8b1337216167ffbb0d41f0331cbd76a31d21f1b2c17f779c7a58",
+      "target": "莉丝！$n趁我挡住这家伙，快逃！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005187.fpb/seq/1",
+      "source_sha256": "af0693d0c55bcd06725758078ef03e9bf9ae89097e6636c56866e3ebe46565cf",
+      "target": "嗯，卡琳兹！……呃……就是……$n朝没有敌人的方向跑，对吧……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005187.fpb/seq/2",
+      "source_sha256": "3c13959c11adfdc2ff096933fbd9a82cbe9261c8c927fe24992c21d834e5fd1f",
+      "target": "这边安全，卡琳兹！快过来！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005187.fpb/seq/3",
+      "source_sha256": "c45fb11be5dd32ce800bf4c1a0c4222c0de251297038a4d413fde695987a1237",
+      "target": "知道了！从这里逃出去！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/0",
+      "source_sha256": "c1b2bf33fc188bbd1d1d5dd64e733ea748a19a6b8e12c34eec0072bc0a938179",
+      "target": "咦……那个奇怪的东西是什么？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/1",
+      "source_sha256": "a05e31e3666687addef4963495fb07981621421770d8d518cbd65127c790b90a",
+      "target": "那叫精灵石，你不知道吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/2",
+      "source_sha256": "318c561670e8609872d2e796ac0374409c159e6aabf49a96ed0fd842f7a1f619",
+      "target": "那东西就像卡恩的结晶，$n充满了周围的卡恩能量。$n$n这一带的山之卡恩很强，$n大概是山属性的精灵石吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/3",
+      "source_sha256": "8808e82e02ec2a518929a7531228b19aa2a8f5ad0b46b8e095d55c0dd78a3283",
+      "target": "哦……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/4",
+      "source_sha256": "59d223d3026cf804ecbf561c4cb9855db637aac9ef6f01c3cd854cf1ba61cf5a",
+      "target": "这种精灵石，可以用符咒$n改变属性。$n$n不过，用了相反属性的符咒，$n就会爆炸，要小心！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/5",
+      "source_sha256": "fd17fa9c9d697e312af315fb57025c065ee1d71c854f43393f053b7871eb1486",
+      "target": "把精灵石的属性改成我擅长的火属性，$n我就能变强了。$n一举两得。$n啊，不过要是改成与怪物相同的属性，怪物也会变强，得小心。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005197.fpb/seq/7",
+      "source_sha256": "4c9cfc1e7afa424c423027850ef7242663099f150fdf61c3d318fcf93f65e743",
+      "target": "也就是说，想让我的风月流更强，就把精灵石改成风属性。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/0",
+      "source_sha256": "54b608a80cd163d28b5442cc7beb52611bd6201be8a93850c5a77edced2c409b",
+      "target": "我好想好想吃星星糖！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/1",
+      "source_sha256": "2adfcecb675695fcbd7aa199b7aa1e4acf11a0dd8d945f3aec174074af7dc3ee",
+      "target": "有星星糖的话，能给我吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/2",
+      "source_sha256": "75779ba1080e01390c38f6753bd459636c0e09e07168d063baeef4d34ef684af",
+      "target": "啊，给你。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/3",
+      "source_sha256": "69f2fadac73e463b04c356d6ec69981cfc9d9b4361ef19a419f64c18507b75c6",
+      "target": "不行，不能给你。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/4",
+      "source_sha256": "471175a4b6da81740fbe0de6991c6b9580020c7838f2b4cdd8469f7dfe3eae5b",
+      "target": "你根本没有星星糖吧？骗子！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/5",
+      "source_sha256": "02ea6f03b4899c7c2ac191ec6500de5759dc71f19841d2aba89f334cdd7378f0",
+      "target": "哼，小气大叔！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/6",
+      "source_sha256": "b05b4fb3f50ab2e22018ca0152c5ceb821f709c1f46290b4e9c0ebe21ae56536",
+      "target": "哇，谢谢！这个送给你，当作回礼！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/7",
+      "source_sha256": "29e2cb3d0ac55c387a77b65d7fb61ece514befc6ea85e76f8a6b5dffc5739354",
+      "target": "要买星星糖吗？$n一个300Sid。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/8",
+      "source_sha256": "e0c47ed7ebdfacc414f8c4ea6dbeca5a27393f6cfe4eadae26b662616b1decd7",
+      "target": "哦，看起来挺好吃。买吧！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/9",
+      "source_sha256": "3bccfda9e351e01310a364be819efc60a479187993802f37a4584c41e1ae60fe",
+      "target": "不，不想吃。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/10",
+      "source_sha256": "453db93da3bfc7c2458e422618122e81af2e50097aeb25f93d2bbe7b0dba93ee",
+      "target": "以后需要的话，欢迎再来买。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/11",
+      "source_sha256": "5a4b3e60476fc2e1eba8108af41a016ecc60586218151906f523a75005b85d5e",
+      "target": "谢谢惠顾。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/12",
+      "source_sha256": "46679625af2a59b9aa1e67bad056295468ce988830792e16e0c4bb1df65f9d62",
+      "target": "星星糖真好吃！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/13",
+      "source_sha256": "e94913b259c43a4578bdb289841666308657421dfac7c5dca7212457bd235d57",
+      "target": "用300Sid买什么好呢？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005206.fpb/seq/14",
+      "source_sha256": "ccae28ffc4e5245c23661d452504746386e2ce45bdb5717faf395a81676bfc0d",
+      "target": "钱不够呢。下次再来买吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/0",
+      "source_sha256": "c008539b91e47bbd2e2311594ca605684582d34f712506b83b5c41094963d0c4",
+      "target": "哈伦先生，了解流派吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/1",
+      "source_sha256": "29ab9bc9c6d33077659c5526e184b9226752f78d9a5e7aff415c4b4ef69aa03c",
+      "target": "把我当傻子吗！$n不就是战斗时使用的招式！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/2",
+      "source_sha256": "30079546e67e6d3a0602fd56a7fdbec78d00ff2eea22a6fb200c8b90ec9bbce1",
+      "target": "不同流派需要的卡恩不同，所以选择适合周围环境，也就是战场卡恩的流派，会更有利。这点知道吧？$n想查看周围的卡恩信息，$n就按SELECT按钮。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/3",
+      "source_sha256": "a5293b0e2f6004c3d6160e7893ab19a312a4d0cb9223b2283360aefd5dc14872",
+      "target": "每个流派可以使用三到七种卡恩，$n不过一开始，只能使用$n一种招式。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/4",
+      "source_sha256": "2b977ee4ebcfba578db587e152133ba8c1ebcbef89b3cf54fa1325d31ee661fd",
+      "target": "流派的高阶招式，会在战斗过程中领悟。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/5",
+      "source_sha256": "483634b7a66f1acc964b82376a70de203719ba30cfac67417480ed7974c918cb",
+      "target": "领悟了某个流派的全部招式，就算精通这个流派了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/6",
+      "source_sha256": "8952a3a760ca275074584f13c8cc48e94783f5bf103f104a0f2863bb0f4b1493",
+      "target": "精通流派后，还能根据流派使用其他模式。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/7",
+      "source_sha256": "c234d97de354956db8008f9ff823f5a832216cc9a2a8a3ae84118987e403c628",
+      "target": "一开始就能选择的“修罗”，每次$n使用一个招式，是防护盾$n有效的攻防一体模式。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/8",
+      "source_sha256": "257f043b2eeb719fa99838c005f3f7d309156450353143c30a78c2b0ca178805",
+      "target": "每个流派都有五级防护盾。$n成功防御时，受到的伤害会根据自身防御力（DEF）相应减少。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/9",
+      "source_sha256": "14a3fae64d3c8483a81836a9295bbbe85e7d647a3883a9dce25abc33970c2a58",
+      "target": "精通流派后才能使用的$n“罗刹”，可以把全部招式连成连击，一次$n使出，但防护盾无效，是优先攻击的模式。这种事，我当然也知道！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/10",
+      "source_sha256": "0e995da6ce37c5ecdd45541b2e5c03518447ac0cf896f274a5f301a78b9c3418",
+      "target": "敌人有护盾时，普通攻击造成的伤害不大。但选择“罗刹”后，就能连续攻击，一口气击破护盾，造成伤害。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/11",
+      "source_sha256": "6650d34fae905f8684ca91287ec3c2175f867057adc67fc808351c8a091f24c9",
+      "target": "另一种模式“夜叉”，可以预测敌人的招式并反击。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005213.fpb/seq/12",
+      "source_sha256": "a84d06b2b6758532dc74c41dcc4fe0d18ea0d5df4e63bd74939feb3d540b392f",
+      "target": "不过，魔法类流派即使精通，也没有“罗刹”和“夜叉”。别忘了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005216.fpb/seq/1",
+      "source_sha256": "57262c78d370f2427d28f77373641255205d111186263c53c09c15d33aca91d6",
+      "target": "下次再来吧。希望下次能再练强一些。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005295.fpb/seq/0",
+      "source_sha256": "e6af0eef5d3afc95018c509f91bb9450174466cdfdc6910a19594844141f26a8",
+      "target": "这条路通往风月林。$n不过，现在没必要去……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005295.fpb/seq/1",
+      "source_sha256": "8af44526100873d7a83932fd80f785f87fd3b8c73513d5f12dc0f45a6a8e1b0b",
+      "target": "现在去那边……也没事可做。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005295.fpb/seq/3",
+      "source_sha256": "123054a207cf0421a92a51a55bc63cb82d75d11012c5253db58aee1ac8b7c6f0",
+      "target": "还没收到将军的联络。$n再等一会儿吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005295.fpb/seq/4",
+      "source_sha256": "55bd0ca7e690fca719ee33ec1161c7f378fee50b4561958dc6856f8419efeec9",
+      "target": "喂，刚回到血泪总部，又要出去了？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005296.fpb/seq/0",
+      "source_sha256": "137c6e6fada508175de08b67b0846b9bab18b0b352ae70c13f19798e1ac58ccf",
+      "target": "这不是去诺提亚的路吗！$n先处理眼前的急事吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005297.fpb/seq/0",
+      "source_sha256": "19d9facae3317eec340823e2456925a803c25aac1023bb1833f4c0719d2aa1d8",
+      "target": "得赶快去救莉丝。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005297.fpb/seq/1",
+      "source_sha256": "c1763822385ee73a3e3d33fdb4e52a46c97f5510d5145b06eec9a88864d94b13",
+      "target": "唔……真是受够雷电了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005298.fpb/seq/0",
+      "source_sha256": "d06b9ac45ba2c2ee9abb908e6d79051e8a7dd5c36fe72a0360b323db82f10c1b",
+      "target": "听阿玛巴德大神殿的人说……往这边走，好像有个传送点。通过它，可以到达高得看不见尽头的$n地方……我讨厌高处。$n倒也不是从一开始就讨厌……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005298.fpb/seq/1",
+      "source_sha256": "fa3d3593d866ce6f7ca045711a87ff69d4caa47e9e2aaa7d1194fba8ca2864e2",
+      "target": "喂，现在没打算去$n马拉卡特那边。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005299.fpb/seq/0",
+      "source_sha256": "1f3cc52b890c0fe12fb7d69eee10fc9cde1c9d2cdce8889ad09cd70e6e322b87",
+      "target": "这边是迷宫。$n能不去的话，真不想去。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005299.fpb/seq/1",
+      "source_sha256": "64bbaf868120b84d8df367e653e24fc3ede401ab122d31a155bf838c33c024c2",
+      "target": "啊，真累。$n任务也完成了，去雷米耶向将军报告后，就悠闲地休息一天吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005300.fpb/seq/0",
+      "source_sha256": "18de051f2aa36f47fb3935da30a0f643a2a68e38d833b946874cb2dde7ad857e",
+      "target": "不会真打算去恩特雷斯沙漠$n吧？去了也没意义。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005300.fpb/seq/1",
+      "source_sha256": "7339d9e2521f5633ff994315f7b81155840f0650bdf745af375a4fb486a7284c",
+      "target": "快去诺提亚吧！$n没时间逛其他地方了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005300.fpb/seq/2",
+      "source_sha256": "e546054bb81be63dd4bbd39b0db8e776b77991aad06bcd94b3ae016783dfdf28",
+      "target": "得赶快告诉莉丝！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005300.fpb/seq/3",
+      "source_sha256": "2023ab6a38c696d9a978c01304e35b1aaa6c50abf73280321f4612df21aa97c3",
+      "target": "喂，这里好像还有事情$n没做完吧？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005300.fpb/seq/4",
+      "source_sha256": "a245a40bc35a7c29eec88e54df32b995298363ba012c00270c89087fa434890b",
+      "target": "布兰先生家兼营旅店和医馆。$n就在雷米耶的东南边。$n快去看看吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005301.fpb/seq/0",
+      "source_sha256": "b280cc42bbc4a11ff8c9dc1b8e812101db6322ca74b86f6c7aaeab3ec35f04e7",
+      "target": "这边没什么事。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005302.fpb/seq/0",
+      "source_sha256": "c54b5a9cd7e3caeb733e8315f5ac9a47a92d3d4ba8f63c6f37d992608b857275",
+      "target": "真想马上回血泪总部……$n不过，现在不行吧？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005302.fpb/seq/1",
+      "source_sha256": "25cabd71f05329285a5f8ff68441f8ddc9a3fa603d65e2e3f31d3078fec50b12",
+      "target": "还没接受阿伦先生的治疗呢。$n要去哪儿？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005302.fpb/seq/2",
+      "source_sha256": "2f3549efe89edeef0dd5155c5cf58ac98a8d63d850d6781ed03d631bce2c644f",
+      "target": "现在好像没必要去$n马拉卡特那边吧？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005303.fpb/seq/0",
+      "source_sha256": "58fbe7c27e9bd809aa62718d07570f806c56ddf295e0a7a11d75e97050f06ad6",
+      "target": "米雷娜大道……以后再去看看吧。$n现在去了也没用。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005303.fpb/seq/1",
+      "source_sha256": "2e240d691593b3dd57f301787210957457893249076389f62cb6dd4098dcbf87",
+      "target": "最近米雷娜有魔物出没……$n好像禁止普通人进入了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005304.fpb/seq/0",
+      "source_sha256": "be09856e4ab8700f622834e7b9d4bbaca30b86a0ce3fdd12024b56a3abf2c256",
+      "target": "不想进入亚逊的领地。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005304.fpb/seq/1",
+      "source_sha256": "e0a7358557c995ce773706d0114fc7c62ef9e93bf350052f47d204d41bab64f7",
+      "target": "是阿斯蒂内沼泽。以后再去看看吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005304.fpb/seq/3",
+      "source_sha256": "afd412e5a9c13840e7e515fb8a4b8852ced58bdb82465564b0ed189817e6c99c",
+      "target": "这里禁止进入，回去！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005350.fpb/seq/0",
+      "source_sha256": "ce7b3f1a600b027e0f0165b9358c6f70531c8946301f3c8d458e620e37668d11",
+      "target": "站住，人类！$n你们究竟从哪里来的？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005350.fpb/seq/1",
+      "source_sha256": "c8afb6b7865c61c1440699599559431c5969b010417d5d3f404939300a300fc7",
+      "target": "糟了，看来追上来了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005351.fpb/seq/0",
+      "source_sha256": "1566edb9011e19a749e7b34abfe9ab601b01df5b4d02475665955ca4edc30cda",
+      "target": "终于找到了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005351.fpb/seq/1",
+      "source_sha256": "f26532196a355d89246ebbd29ec716b5f8df46a24550af3a36575fc5ad3c267f",
+      "target": "可是，气氛已经很不对劲了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005351.fpb/seq/2",
+      "source_sha256": "3a5d933997f713ce4c8437e3700814b856d3ddbc8d7bc31dce213f9684994afd",
+      "target": "哼，果然不出所料。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005352.fpb/seq/0",
+      "source_sha256": "98b32e03bbbf0b71faf5994969f0045b964343d8446b0dcd51f9f829da2a8867",
+      "target": "任务完成了？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005352.fpb/seq/1",
+      "source_sha256": "cfa5777b097a29192847825f2ab19d9ed81fad0849a8eff45f178496e4fa73ab",
+      "target": "还没，还没有安全逃出去呢。$n亚逊已经发现了我们，要回去$n可没那么容易。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005372.fpb/seq/0",
+      "source_sha256": "65bab47fce11cd47f5e9302db3649bd77e3b11b569f0596dc3a586ae600a9acd",
+      "target": "啊，真是没完没了，又来了。又来$n做什么？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005372.fpb/seq/2",
+      "source_sha256": "e196d55a0cb60a4caf82984ee3155e3c984422e5ab23d977e38e0bbff1b5c17c",
+      "target": "那又怎样？现在这是我的家。以为这里是$n旅游景点吗？谁都要进进出出，$n吵死了！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005372.fpb/seq/3",
+      "source_sha256": "a060c3904a8633bc16a4f74f8e59b0e34fec12b1da61539b236ac894ab3d817a",
+      "target": "哈哈，只是稍微看看，马上就走。别那么生气，这个就当是一点$n心意吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/0",
+      "source_sha256": "a6a228e7ae64d3533142c5c95d2420c1b7dd36f9deabd4ba415acbd6ccaf1e6e",
+      "target": "救赎之光……竟然隐藏着这样的秘密？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/1",
+      "source_sha256": "dd71406434f1f40cd929abe702bfbd99206d5dfb26f57f785618fddf14dcb826",
+      "target": "一定很吃惊吧。可以的话，我也不想给你们弗罗斯特·沃姆增添这样的负担。毕竟，你们肩负着战争的使命。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/2",
+      "source_sha256": "f1a7a5b47634572e6edc3c38cf98908596f108fa26bc5a27eca40a4edbef9bd4",
+      "target": "可不巧的是，我如今变成了这副模样。不便像以前那样亲赴前线，寻找救赎之光也因此变得困难。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/3",
+      "source_sha256": "d8c1955ba8b15f6de3f390a8e331185509c7c24ae5e29415426c01aed194629a",
+      "target": "各位族长也持相同意见，我认为，把寻找救赎之光的$n任务交给四天王，是最好的选择。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/4",
+      "source_sha256": "78e7eb353ca4ba5704a460464b70700560a734815e4a08fb6e1a4bc26a235581",
+      "target": "找到救赎之光，阿缪特病就会消失吧？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/5",
+      "source_sha256": "4ba2e3d75f49c47d2736e241ec431947fba095c6a8d8ba30e410581a8297e010",
+      "target": "正是。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/6",
+      "source_sha256": "75aa25d29484d6e592fd10f973e5cfade7493a8e4810cb39cef2519a290fccf7",
+      "target": "恕臣冒昧，阿缪特病一旦治愈，亚逊就会重新争夺势力范围，弗罗斯特·沃姆可能会再次像过去那样受到$n压迫。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/7",
+      "source_sha256": "cc37466fc1a893e755c06c619b2b633d2dcb022430fa0693553b7295148e2acb",
+      "target": "现在是计较这些私事的时候吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/8",
+      "source_sha256": "d8c0929645d628223fea82daad870894582a352e7fefcb9bb81966ecaa4e5801",
+      "target": "不，我理解你们的心情。光之树复活后，功劳都会归于弗罗斯特·沃姆。绝不会让弗罗斯特·沃姆受到冷落。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/9",
+      "source_sha256": "398d4e1429eee60b38e384572baab6249522e46e320a600f9d0f29bf184f4017",
+      "target": "这种心情，我比任何人都明白。你认为，我为什么要建立弗罗斯特·沃姆？不必担忧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005373.fpb/seq/10",
+      "source_sha256": "6368cb982c971ba753aa04cb3435a9e893fa872319bca239705c11bbd1b103d1",
+      "target": "谢陛下恩典。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/0",
+      "source_sha256": "455ea1bd6ba1d330dca4b891287edcc6ce9a715e8f09a48491c0d0b33f0eec4d",
+      "target": "血泪侵入费森火山的原因尚未查明。不过，应该是在执行联合军的秘密任务。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/1",
+      "source_sha256": "e51cead091e7a0190a79325f560ddd1d81f8787d477294c958ad9e8d3099e2dc",
+      "target": "血泪，早就听说过这个名字，却接连让人心烦。奥尔哈，你还打算放任那些人多久？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/2",
+      "source_sha256": "63cc81637bcfe6e4b4390ea512ab086333138695ee6223490fc60a42f7ba1441",
+      "target": "臣惶恐，陛下。一定尽快处理。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/3",
+      "source_sha256": "fb01dd5977c40be3053a76e51c79577d5abda1e7a005a178bef0e49145d10cf9",
+      "target": "先不说这个，既然已经查明水之碎片的下落，$n就先加紧处理这件事。罗茜，别忘了，亚逊的$n命运就系于此事。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/4",
+      "source_sha256": "57fba193d72e52af8d1bb7af0a8dd27992eb43202d58a3245ac600dcd5cdc87f",
+      "target": "臣铭记于心，陛下。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/5",
+      "source_sha256": "75fb30b806f54d529946f7232822b175985f109f6da001781d522a220d6118b3",
+      "target": "让光之树复苏，才是为了我的子民应走的道路。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005374.fpb/seq/6",
+      "source_sha256": "8195968b4ddad451dbb484d7532dfb62f4ef97c503d7d24b043a016c4bd015da",
+      "target": "（呵，希望一切如愿吧，女王陛下。）",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/0",
+      "source_sha256": "5aa114089e530d7a1ccdb504432fbf6ff997a93c1e70ae96a83e32f4783a4810",
+      "target": "打扰了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/1",
+      "source_sha256": "1624bc7a8cf7a9c454cd575e8a947dfaf91dfecfc2a011bf8fa31f815a86fa3b",
+      "target": "布兰先生？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/2",
+      "source_sha256": "db3c5a002978e23b08c4816bca3b7e13b6b4ddfa2ec3aa5aa212e8fe02db2758",
+      "target": "啊，认识布兰吗？我是布兰的哥哥，$n阿伦。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/3",
+      "source_sha256": "afdc87e4b16e8e295073821fc784cf9d9de717c428e0305f03944c0977b5286d",
+      "target": "长得一模一样，真吓了一跳。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/4",
+      "source_sha256": "119e641a87b8e4f05b6a7ceb1f83748b9314bde78afca77efabf5602651991d2",
+      "target": "大家都会吃惊。我们是双胞胎。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/5",
+      "source_sha256": "4d9b3684ce330b16261b3a7f44c3775dd41f22c112c8be9fef91e6980ffada2a",
+      "target": "经布兰先生介绍而来。我是巫女朱丝蒂娜。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005375.fpb/seq/6",
+      "source_sha256": "f63ad16e0e1866052e97339bca4745d261020ceb037f4aa3a31d36c0909c24ce",
+      "target": "已经收到信了。欢迎。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/0",
+      "source_sha256": "f6dc722756e94efa8656297c89181d5f7e0201d5e252b13ec25314b2ee844d33",
+      "target": "果然和布兰说的一样。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/1",
+      "source_sha256": "d2d19b273b94a3559975a4cdcc9e6382cb7cf26f66eb3d3c0e9b562b03fabfa0",
+      "target": "是说，构成她的卡恩不足吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/2",
+      "source_sha256": "cd425d8dbfdd678702b81458077c5e609cda25fc0d385e988aa5b5275da3d2d7",
+      "target": "没错。只能说，这是非常罕见的情况。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/3",
+      "source_sha256": "286813670d936b38bcab1e15b22f6e63ed7ab756476a351ccdc372aed548f39d",
+      "target": "可以治疗吗？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/4",
+      "source_sha256": "cca2e412d549753d0e8130b649b8ddf55ee5097947281dc7752f48e5470a5e61",
+      "target": "如果是失忆，只要把混乱的卡恩环重新理顺就行。那样治疗后，$n通常一两个月就能恢复记忆。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/5",
+      "source_sha256": "bdf25b869713d5756abcbb2d35cc79d1d9883a6a602097e0e536504089a5e853",
+      "target": "但卡恩不足的情况，连缺少的$n究竟是哪一种卡恩都不知道，也就没法$n补充。$n最好还是期待自然恢复。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/6",
+      "source_sha256": "9ee62245f9fd17b412708e0d64c52dc0504d1f3b4a7f464031f7aac4fdec222c",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005377.fpb/seq/7",
+      "source_sha256": "fc86d84da8baa2b3d762a6555a5d4ea3b3834675bda9c844fe8892317cbbf470",
+      "target": "现在正利用剩下的卡恩，试着唤回她体内的一部分记忆。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/0",
+      "source_sha256": "117cdc0425146541b81560631817177227a752e3461061cbfd516473f4814be8",
+      "target": "我是血泪的蕾哈丝。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/1",
+      "source_sha256": "964f1ff5a58adc6e110be3ebdc6d5067da777abea3204cfc71771c9e0af3ca60",
+      "target": "……蕾哈丝？啊，很高兴见到你。$n我是……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/2",
+      "source_sha256": "d667c81884c68fc3196f18563773906a336213c1812f30a7375afe67ecd11d71",
+      "target": "莉丝？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/3",
+      "source_sha256": "83e1bd0a1f6c206cedb91c43cc19cec0359e88756d1c28c8108f667ea6cc5eef",
+      "target": "咦，你知道？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/4",
+      "source_sha256": "a2b2d86d02ea755701015cbf75d1f4c0e1fc801e931a170c6722d5132d55993e",
+      "target": "已经听说了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/5",
+      "source_sha256": "7b4746a7ecbecf95fe5ac5254a398f68d703859430f51bf51e509059527ca350",
+      "target": "我也是。蕾哈丝真是个美人。$n好漂亮，真的。吓了我一跳。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/6",
+      "source_sha256": "f132effe92bca0377a1902b81b4e24946f13f25d75ee91624c19e395c510b485",
+      "target": "啊……你、你也一样。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/7",
+      "source_sha256": "c8cc1f3f3fe26b9a30743ffd2ff14e1d6f0682e1f451bead4f595fc09e2bd8f3",
+      "target": "真的吗？还是第一次有人这么说！",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/8",
+      "source_sha256": "7d2d2ca17cc0e218feb7367b34d6224802432bf2e8261be098575ade8226f4b6",
+      "target": "嗯……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/9",
+      "source_sha256": "afea52a6a33b3fbaefdf393cd7bd178cc6ec5a5e9b0fe841d4750730d7fca375",
+      "target": "谢谢，真的。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005378.fpb/seq/10",
+      "source_sha256": "48e01a2f8823de6c8a46c6208486aeb7809bfaa6d62ec03c7375cf18b61dee14",
+      "target": "嗯，那以后就不用这么客气了，毕竟都是血泪的同伴。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/0",
+      "source_sha256": "fc3027f19a2a2892c0395a92b10254c63365006f1fa2a74f61b364c915c722aa",
+      "target": "救赎之光，你早就知道？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/1",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/2",
+      "source_sha256": "e6fa145632d713d6e59f67d6cec4d1598a5dec3d04f9e80effa15ed3ab640dd5",
+      "target": "那你又是怎么知道的？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/3",
+      "source_sha256": "095a3e32f2239e579df5fc641e994cc09d528003da2e2df0c146a8b342abf069",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/4",
+      "source_sha256": "264c739adbb79086b5621a9815365a1ca794b947a0bb7cf6a4eb27a086002ea6",
+      "target": "如果救赎之光回归，光之树$n复活，亚逊又会冒出来。那些把弗罗斯特·沃姆称作“畸形”，说应该把我们塞进收容所的$n家伙，就会再次得势。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/5",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/6",
+      "source_sha256": "418c3ba31bad4d55fd09c69909f7e4b7563bb3b286662ae3aeae4170214d7b10",
+      "target": "即使没有光之树，亚逊也能生存。我们弗罗斯特·沃姆出生的人逐渐增多，$n就是证明。$n亚逊已经在逐步克服阿缪特病了。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/7",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/8",
+      "source_sha256": "d9497bb5c58d852e35a9958965eab302e1c89f6a39fe82319dd4cdfa7528aea6",
+      "target": "救赎之光，不过也就是与我们驱使的使魔同等级的兵器。没必要特意再把那种$n东西找回来吧。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/9",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/10",
+      "source_sha256": "d0875093a62d5a693e65bb64315ab8ca646d50ca70e3a2512446d66073f93a78",
+      "target": "人类也盯上了救赎之光？是联合军那些家伙？呵，连怎么用都不知道的人，$n拿到了又能改变什么？",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/11",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005390.fpb/seq/12",
+      "source_sha256": "62e27313821125e8f1ed04af8fd10163baa3f31ce605696b54a96457d50e046a",
+      "target": "只要别让阿蜜拉得到就行。",
+      "status": "draft",
+      "context": "Story/NPC/tutorial draft; stable source identity retained; intact Japanese reference translated as Japanese; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/0",
+      "source_sha256": "84458d06fd5d9ae3fb62176b4364cdfa90f8528bdc3cb8f308e0c98db354cf5b",
+      "target": "救赎之光拥有改变周围地形的力量。拉埃杜山的气候，也因此发生了变化。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/1",
+      "source_sha256": "f038edb680355d1041b18be6314ebee298ee7311da2301f9495cb7b26e93a5f1",
+      "target": "看来，有必要尽快收集这种地方的情报。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/3",
+      "source_sha256": "6f6965ceb83979217ab1abb0ab6c2c64efb3c85486cb4c60b7ca204489a645f6",
+      "target": "嗯，队长。前几天，血泪工房的史密斯大叔说，这几年亚逊那边出现了一座火山。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/4",
+      "source_sha256": "5630222bdbfef39392728b26570fe25015662c5aef60ab76a2cbddad0b5e9492",
+      "target": "哦，听起来有些可疑。不过，为什么亚逊那边会出现火山？",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/5",
+      "source_sha256": "2603feccc6cb7da864b5cbc08e255d3a39c41bef3b219893b92ebcbd74a32286",
+      "target": "先回血泪总部，问问史密斯先生吧。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/6",
+      "source_sha256": "7d0b1d25bdb13dfe27b1c01e957d75ebe4255e838267ed7e6dae576369f5e323",
+      "target": "乔舒亚回忆录二：……封印之后，我们放下了心。可是，后来才明白，我们的想法有多么天真。碧流说感到不安时，我们就该尽早意识到救赎之光的危险。然而，如今已经太迟了。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/15",
+      "source_sha256": "3e79c904dd25ffe0bfd25db63ecd40383230b78dce8418fda4988cc24ac6e865",
+      "target": "阿莉安封印雷之碎片后，被那些平日与她势如水火的反对派佣兵暗杀。但在调查事件时，我发现，杀害她的佣兵，其实是伪装成人类的黑色亚逊。他们杀害碧流后，又追查身为他恋人的阿莉安的下落，企图找到雷之碎片。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/14",
+      "source_sha256": "e70edd763607a1a5cd5325b8db1c81491378092694514c8ab4c5db09234a3045",
+      "target": "恐怕只要再晚一点，连雷之碎片都会落入亚逊手中。然而，各块碎片陆续封印，三十多年过去后，又出现了问题。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/13",
+      "source_sha256": "5b5bfc91ce96cb8a5cfe2989ac9ee41240e3d63ba752273cd5a9ebbd9462fb68",
+      "target": "首先，封印雷之碎片的地方，突然变成了一年中有十个月以上笼罩着乌云和浓雾、雷电不断的区域。其他地方也是一样。原本几乎是平地的地方，突然隆起丘陵，渐渐变成山地。最显眼的变化，大概就是因火之碎片而由休眠火山变成活火山的地区。这完全超出了我们的预料。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/12",
+      "source_sha256": "2adfbc0b5afb23a9c3281385dad2d34dfb821446161e8008d03211f1a4ad8257",
+      "target": "救赎之光竟然强大到能够把自身的属性扩散到周围，这是从未想过的事。它们以这样的方式，无论如何都要向外宣告自身的存在，并强烈渴望恢复原本的样子，也就是合而为一，重新成为救赎之光。此外，救赎之光还拥有种种神秘力量，有的能让人看见并不存在的幻象，或拥有者渴望的虚幻景象，也有的具备治疗伤口或治愈疾病的能力。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/11",
+      "source_sha256": "6238e62e1c708376f371b85cc77edca5a400c664504f65f2369cbf90a725aba5",
+      "target": "气候急剧变化，各地流传起种种谣言。这与真名法典发动后的“卡恩风暴”现象也有相似之处，因此，最常听到的说法，就是有人发动了真名法典。我反倒认为，这样的谣言更好，甚至有意推动它们传播。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/10",
+      "source_sha256": "efeda2647aa1d59100f844516c33c9d1fd3a9d0e325eff5ba0f731cde1dd67cf",
+      "target": "当时，只有我、伊蕾因、杰卡尔特和莉洁特保持着密切联络。伊夏下落不明，我想他大概也遭到了黑色亚逊的毒手。兰索尼认为，救赎之光由自己保管最安全，早早便独自在外漂泊，只是偶尔到大神殿报个平安。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/9",
+      "source_sha256": "ee9c2bd00e9828f23621478e3d8691951bbd7c4f6874dd3f1ebcb35cd414b02f",
+      "target": "兰索尼认为，救赎之光由自己保管最安全，早早便独自在外漂泊，只是偶尔到大神殿报个平安。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/8",
+      "source_sha256": "8cc8a5ed09624035fb5084aa8f5058ede94831b54b85300ff5bfd95882284f39",
+      "target": "随着岁月流逝，我们又明白了一件事。把救赎之光留在身边的我、伊蕾因和杰卡尔特，竟然不会衰老。我们意识到，从救赎之光中涌出的庞大卡恩，正在赋予我们青春。救赎之光，似乎把我们视作某种守护者。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/7",
+      "source_sha256": "86fe373275eb99e90668a1435fe95dade4cd1e750d018f43f3aa7647c9f0b2ad",
+      "target": "所以，它们时常在梦中，强烈要求我们让它们重新合而为一。不知从什么时候起，我、伊蕾因和杰卡尔特，也开始频繁梦见光之树。有时，甚至会被一种奇怪的恐惧折磨，仿佛救赎之光正在威胁我们。",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
+    },
+    {
+      "id": "SHIP/00005389.fpb/seq/16",
+      "source_sha256": "218794eb6340bef158dae326c8e33cda0ac6fe701aa6fa7cdbe75476a0686a3c",
+      "target": "三十年来，我们还明白了另一件事。救赎之光似乎认可了我们作为守护者的身份，把碎片中溢出的庞大卡恩赋予我们。还有超越常识的力量，以及强烈的噩梦。它们逐渐侵蚀着我们的心……",
+      "status": "draft",
+      "context": "Memoir/NPC draft; source view and sequence retained independently; not imported."
     }
   ]
 }

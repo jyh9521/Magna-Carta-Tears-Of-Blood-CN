@@ -410,6 +410,336 @@
       "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
       "status": "needs-source-review",
       "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/0",
+      "source_sha256": "dccb4d61e5838ac5a0e9098976d55b0558cf3ac8015d6fe01dd001a1cb0bf032",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/2",
+      "source_sha256": "85d15a87adc1a6771b35e61e879634eecf604253def0001e42a30d391d69148a",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/5",
+      "source_sha256": "97adfb16c8742b92735e4d7afa1f12fb85dd69d386e57b0f9bd3444870825f59",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/6",
+      "source_sha256": "8288f608fde08002ee5879bb011cd12d241497538a0cd0a0f3ecc44de5a5ee9c",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/7",
+      "source_sha256": "27f39de9d714d01c1ab4c885854b3985b08651694f5b7777782dfcf33cd72f55",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/8",
+      "source_sha256": "872e91dba77658e0387534f9a5e5af3216f8b8aa9d8ab2fbc2b53fd975ef178d",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/9",
+      "source_sha256": "bc0506b2faa0a4deb9a4829f775c7e0d06ef1ad4009d58cfd1678f69c5ab8fa7",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/12",
+      "source_sha256": "8bff3b88b6ca9b91c059c14a80dcee30132fedffd12077b45fcf35d90e8397c0",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/14",
+      "source_sha256": "95b3beeb0969327cde52a16fa31ae99926da7eda9472031c5055de6707e47167",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/15",
+      "source_sha256": "b4198f362a87bb7274d11ede2bc8dfed6da74ef3ff527c8ee70b1d2f19760f6d",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/16",
+      "source_sha256": "7634aff6b8bdce247f725c5c1c27eb973a1716e7cf8e24022858e96bb33beef3",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/17",
+      "source_sha256": "5921c9064fab7448599fbb3b423ada9ee9943cfe00b42ae7da627ac792062d56",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/18",
+      "source_sha256": "c2f6a65e1f67d14dac9d0962d59392b0f76b35574366bc74faf23b5152736dbc",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/19",
+      "source_sha256": "d48619cf9d4f6ea66a0dd1151d48180211f1ea61135c653850a9f15bc3cd0bea",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005065.fpb/seq/20",
+      "source_sha256": "b625f837dc014af21d195091fe936b2a41bbbf9967b92e5bbe9772dfb5df13c7",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/0",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/1",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/2",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/3",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/4",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/5",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/6",
+      "source_sha256": "e4d6c52f9afe86678dac0161bc0011050384dbf7122f309488dfdbe004a52db3",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/7",
+      "source_sha256": "e4d6c52f9afe86678dac0161bc0011050384dbf7122f309488dfdbe004a52db3",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/8",
+      "source_sha256": "e4d6c52f9afe86678dac0161bc0011050384dbf7122f309488dfdbe004a52db3",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/9",
+      "source_sha256": "0a95128a9e2a9ccf2bd5ac06821f8eaaee5415e747588d4ff03ad808c99cde57",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/10",
+      "source_sha256": "0a95128a9e2a9ccf2bd5ac06821f8eaaee5415e747588d4ff03ad808c99cde57",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/11",
+      "source_sha256": "0a95128a9e2a9ccf2bd5ac06821f8eaaee5415e747588d4ff03ad808c99cde57",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/12",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/13",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/14",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/15",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/16",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/17",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/18",
+      "source_sha256": "2a9a32aca8fdddb2ce9cf8e2068809086752e328b154a29494da444ca04349c4",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/19",
+      "source_sha256": "2a9a32aca8fdddb2ce9cf8e2068809086752e328b154a29494da444ca04349c4",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/20",
+      "source_sha256": "2a9a32aca8fdddb2ce9cf8e2068809086752e328b154a29494da444ca04349c4",
+      "status": "needs-source-review",
+      "reason": "Numbered NPC-role label; display-vs-internal purpose unresolved. Kept for source-context review, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/0",
+      "source_sha256": "7faa4703fe14c2379cf98da34523891762116b9bfed6321d8f8dcd1fe190fcea",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/1",
+      "source_sha256": "49485f58937113a8f89a4e53428038a4b6ac00c78156f488fd84529c6cfc5147",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/2",
+      "source_sha256": "c40c3d87d66d082d0dcf54f98818a9281304879bb0048e44ae1ecf5a028d35dd",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/5",
+      "source_sha256": "9f0ab5803c9fccd7acb4d70c3caedc2b0371df005490bb48fdba5cc5efee88aa",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/7",
+      "source_sha256": "87efc232e72ccd6653a432c3e8bd607be61298e03abbf3a90d809a7d63f2204d",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/8",
+      "source_sha256": "59260b565c5cf073b8dcd4b26911d8e40b440743d696151254baf6ba32d665e9",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/9",
+      "source_sha256": "57ab7ddb74ce837ecc855062ca5f55ce46aff44eb930e3da559d24bc003cd63e",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/12",
+      "source_sha256": "3d332b48a7cd6db5b9d651062fb089ce9c667e33ccba88e83444ac26fdc31b20",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/13",
+      "source_sha256": "719bc4771954915f6b7b3f5bd54cb89a004745be055e8632c7abc397d3fedb02",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/16",
+      "source_sha256": "3b8d8e3a007067f603a9780747036242370c22f36b4a452225b0f3bf9cc8b0a5",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/17",
+      "source_sha256": "e1de05ff4ea0f907e403cae942058bba9bb74574129b1dd6febce354dbe39fdf",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/19",
+      "source_sha256": "ab9920769bae25b77fb0002963a18ba4437c6ab2b1665bea1bc08b35bfadf436",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/23",
+      "source_sha256": "b1e085182ee4275572ec75b4fe8a51e1080245f2e9621e70b1661143fa792b7b",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/24",
+      "source_sha256": "eee5cb4f2f327d39ca72d017f43293db43c344830310a256c487b3c6089eeb1c",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/28",
+      "source_sha256": "f8f49b7e0bdeaaa89524d2faaabb19c461b44e1e654dc5bbdb1801b60b4f7689",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/29",
+      "source_sha256": "e29034c8f9fb16c51d715241e835eedd3152f4b6db4d9758a13dba3935b617de",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/30",
+      "source_sha256": "d5c2722dcff2ac342851c8bcf58425112441d5ba7e992249a9a907065ff8f9b1",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/32",
+      "source_sha256": "d94d5e482e2d125e266286cbc3612e2ff6b0c3859c31eded068174f628eec25e",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005182.fpb/seq/33",
+      "source_sha256": "7628430a0df527489693b6eb784e77c1b691cf3eb6f96caac3d8ef96dd57de7f",
+      "status": "needs-source-review",
+      "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
     }
   ]
 }
