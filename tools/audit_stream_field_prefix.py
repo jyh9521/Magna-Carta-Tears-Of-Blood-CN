@@ -30,7 +30,20 @@ def compare_piece(bundle,pos,raw):
         expected_sha256=core.digest(raw),observed_sha256=core.digest(actual),expected_byte=raw[delta],observed_byte=actual[delta])
 
 
-def probe(bundle,original,stream_table,root_index=4):
+def property_target(raw,names):
+    block=property_block(raw,names);r=Reader(raw,block['end'])
+    r.index();r.index();r.take(8);r.index();target=r.index()
+    core.require(r.pos==len(raw),'property dependency tail mismatch')
+    core.require(target>0,'property dependency target bounds')
+    return target
+
+
+# One byte-different script is retained as opaque; never normalized or executed.
+RAND_RANGE_SOURCE='1e870621ba87f3a9d39a57913163eed12663a1a674f4242575fb8963455e5ddd'
+RAND_RANGE_STREAM=bytes.fromhex('04ae474b07abaf476b0b474b0716c3c3161616161604040b')
+
+
+def probe(bundle,original,stream_table,root_index=4,extended=False):
     tables=package_tables(original);exports=ordinary_exports(original,tables)
     core.require(stream_table['wrapper_path']=='../System/UFile/Core.u','unsupported oracle package')
     core.require(tables['names']==stream_table['names'] and len(exports)==len(stream_table['exports']),'oracle table inventory mismatch')
@@ -38,7 +51,7 @@ def probe(bundle,original,stream_table,root_index=4):
         core.require(all(e[k]==se[k] for k in ['index','name','class_index','outer','super_index','flags']),'stream/original export metadata mismatch')
         core.require((e['offset'],e['size'])==(se['declared_offset'],se['declared_size']),'stream original coordinates differ')
     core.require(1<=root_index<=len(exports),'root index bounds')
-    pos=stream_table['table_end'];seen=set();chunks=[];edges=[];completed=[];question=None
+    pos=stream_table['table_end'];seen=set();followed=set();chunks=[];edges=[];completed=[];opaque=[];question=None
     def piece(raw,index,part,source_offset):
         nonlocal pos
         result=compare_piece(bundle,pos,raw)
@@ -46,42 +59,61 @@ def probe(bundle,original,stream_table,root_index=4):
         if raw:chunks.append(dict(export=index,name=exports[index-1]['name'],part=part,source_offset=source_offset,**result))
         pos+=len(raw)
     def obj(index,depth=0,follow_next=True):
-        if not index or index in seen:return
+        nonlocal pos
+        if not index:return
+        if index in seen:
+            if extended and follow_next and index not in followed:
+                followed.add(index);e=exports[index-1];raw=original[e['offset']:e['offset']+e['size']]
+                r=Reader(raw,0 if e['class_index']==0 else property_block(raw,tables['names'])['end']);r.index();nxt=r.index()
+                if nxt:edges.append(dict(parent=index,child=nxt,kind='previously-loaded-next-chain'));obj(nxt,depth)
+            return
         core.require(index>0 and index<=len(exports),'external dependency unresolved')
         core.require(depth<512,'field chain depth limit');seen.add(index);e=exports[index-1]
         raw=original[e['offset']:e['offset']+e['size']]
+        if extended and e['super_index']>0:
+            edges.append(dict(parent=index,child=e['super_index'],kind='super-before-body'));obj(e['super_index'],depth+1,False)
         if e['class_index']==0:
             p=class_body(raw,tables,e,compiled_script);split=p['script']['end'] if p['script'] else p['header']['script_start'];nxt=p['header']['next_reference'];child=p['header']['children_reference']
         elif e['class'] in ('Function','NativeFunction','Struct','State'):
             p=body(raw,tables,e);split=p['script']['end'];nxt=p['header']['next_reference'];child=p['header']['children_reference']
         else:
             p=property_block(raw,tables['names']);r=Reader(raw,p['end']);r.index();nxt=r.index();split=len(raw);child=0
-        piece(raw[:split],index,'prefix',e['offset'])
+        if extended and index==115:
+            core.require(e['name']=='RandRange' and p['script']['sha256']==RAND_RANGE_SOURCE,'variant oracle identity mismatch')
+            boundary=p['script']['start'];piece(raw[:boundary],index,'header',e['offset'])
+            checked=compare_piece(bundle,pos,RAND_RANGE_STREAM);core.require(checked['matched'],'variant oracle bytes mismatch')
+            opaque.append(dict(export=index,name=e['name'],offset=pos,bytes=len(RAND_RANGE_STREAM),sha256=core.digest(RAND_RANGE_STREAM),
+                original_script_bytes=p['script']['disk_bytes'],original_script_sha256=RAND_RANGE_SOURCE,
+                semantic='opaque-byte-different-script',editable=False,execution_verified=False))
+            pos+=len(RAND_RANGE_STREAM)
+        else:piece(raw[:split],index,'prefix',e['offset'])
         if child:edges.append(dict(parent=index,child=child,kind='children-chain'));obj(child,depth+1)
         piece(raw[split:],index,'tail',e['offset']+split)
         completed.append(index)
-        if e['class']=='StructProperty':
-            # Only single-byte terminal target references observed in this prefix.
-            target=Reader(raw,len(raw)-1).index();core.require(0<target<64,'unsupported struct target encoding')
-            edges.append(dict(parent=index,child=target,kind='struct-target-without-next-chain'));obj(target,depth+1,False)
-        if follow_next and nxt:edges.append(dict(parent=index,child=nxt,kind='next-field-chain'));obj(nxt,depth+1)
+        if e['class']=='StructProperty' or extended and e['class']=='ArrayProperty':
+            target=property_target(raw,tables['names'])
+            edges.append(dict(parent=index,child=target,kind='property-target-without-next-chain'));obj(target,depth+1,False)
+        if follow_next:
+            followed.add(index)
+            if nxt:edges.append(dict(parent=index,child=nxt,kind='next-field-chain'));obj(nxt,depth)
     try:obj(root_index)
     except ValueError as error:question=str(error)
-    return dict(chunks=chunks,edges=edges,completed_piece_sets=sorted(completed),visited_objects=len(seen),
+    return dict(chunks=chunks,edges=edges,opaque=opaque,completed_piece_sets=sorted(completed),visited_objects=len(seen),
         matched_prefix_bytes=pos-stream_table['table_end'],stop_offset=pos,question=question,
         root_complete=root_index in completed,full_stream_mapping_verified=False)
 
 
-def audit(archive,out):
+def audit(archive,out,extended=False):
     core.require(core.file_digest(archive)==FILE_HASH,'FILE identity mismatch')
     a=Afs.open(archive);names=filename_toc(a)
     with archive.open('rb') as stream:
         bundle,_=unpack_chunks(a.read_entry(names.index('celfid.lix'),stream));original=a.read_entry(names.index('Core.u'),stream)
     core.require(core.digest(bundle)==BUNDLE_HASH,'bundle identity mismatch')
     table=next(t for t in probe_all_packages(bundle) if t['wrapper_path']=='../System/UFile/Core.u')
-    result=probe(bundle,original,table)
+    result=probe(bundle,original,table,extended=extended)
     core.require(core.file_digest(archive)==FILE_HASH,'FILE changed')
     summary=dict(schema=1,source_sha256=FILE_HASH,bundle_sha256=BUNDLE_HASH,ordinary_package_sha256=core.digest(original),
+        extended_oracle=extended,opaque_scripts=len(result['opaque']),opaque_bytes=sum(row['bytes'] for row in result['opaque']),
         stream_table_end=table['table_end'],visited_objects=result['visited_objects'],matched_chunks=len(result['chunks']),
         completed_piece_sets=len(result['completed_piece_sets']),matched_prefix_bytes=result['matched_prefix_bytes'],
         stop_offset=result['stop_offset'],first_mismatch=result['question'],root_complete=result['root_complete'],
@@ -93,4 +125,6 @@ def audit(archive,out):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--archive',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
-    a=p.parse_args();print(json.dumps(audit(a.archive,a.out),sort_keys=True))
+    p.add_argument('--extended-oracle',action='store_true');a=p.parse_args();print(json.dumps(audit(a.archive,a.out,a.extended_oracle),sort_keys=True))
+
+

@@ -303,3 +303,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### celfid 流式字段前缀对照
 
 Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观察到 Children／Next 参数链及 Struct 依赖内嵌。RandRange 脚本首次差异处严格停止，根 Object 和完整流未闭合；不能按 declared_size 连续切片或删重复 opcode。详见 [流式前缀](docs/STREAM_FIELD_PREFIX.md)。
+
+
+### Core Object 依赖树对照
+
+源包 oracle 对应连续 27922 B／1715 个字段对象自身片段；27898 B 原字节相同，24 B RandRange 差异脚本保留 opaque。局部根树闭合不代表跨包或全流覆盖，默认严格模式仍在差异处停止。详见 [依赖树对照](docs/STREAM_DEPENDENCY_ORACLE.md)。

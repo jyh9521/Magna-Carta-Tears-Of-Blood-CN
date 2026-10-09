@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "ordinary_package_sha256": "358ac0e8be6837ac418e43f30071d50085bdf7c9d59c9a8db5d4c9d1c2d45f60",
+  "extended_oracle": true,
+  "opaque_scripts": 1,
+  "opaque_bytes": 24,
+  "stream_table_end": 235026,
+  "visited_objects": 1715,
+  "matched_chunks": 1924,
+  "completed_piece_sets": 1715,
+  "matched_prefix_bytes": 27922,
+  "stop_offset": 262948,
+  "first_mismatch": null,
+  "root_complete": true,
+  "full_stream_mapping_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending",
+  "ordinary_byte_identical_bytes": 27898
+}
