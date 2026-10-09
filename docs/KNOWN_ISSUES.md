@@ -223,3 +223,8 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### celfid 尾部资源链补核
 
 37 个单 132 B wrapper 与 SHIP 正文连续闭合 966382 B；780 个候选补充明确字节上下文，未闭合数降至 192。单记录资源 wrapper 与双记录包 wrapper 必须区分；字节镜像不代表可见正文或可编辑许可。详见 [资源链核查](STREAM_RESOURCE_CHAIN.md)。
+
+
+### celfid 原生尾部纹理补核
+
+新增一个有界 P8 纹理／Palette 与 4 mip 全部检查；8×64 等细长 mip 先读 dimensions，再读 pixel count，不能沿用此前宽高同时不超过 8 的观察作为全局规则。图像未发现完整正文，StaticMesh 与全文门禁仍未闭合。详见 [尾部纹理核查](STREAM_TEXTURE_TAIL.md)。

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "texture_start": 3214774,
+  "texture_end": 3217619,
+  "texture_bytes": 2845,
+  "texture_sha256": "43616edb910ae5c939c635f15b9c3f9c3d25b2b9f17adc2a3508513daebf27a9",
+  "palette_start": 3217619,
+  "palette_end": 3218646,
+  "palette_sha256": "7c7b9978dcdd80cb8ac55d1b12f93effdf246f33c8ffa0a24c47bf0be4efa9e0",
+  "mips": [
+    {
+      "index": 0,
+      "width": 16,
+      "height": 128,
+      "bytes": 2048,
+      "pixel_offset": 68,
+      "end": 2126,
+      "order": "pixels-before-dimensions",
+      "lazy_end": 2519,
+      "sha256": "2484b82c3910bcdd97b0311967e681f2e99f7139c5bd2a59ded58769a88b0398"
+    },
+    {
+      "index": 1,
+      "width": 8,
+      "height": 64,
+      "bytes": 512,
+      "pixel_offset": 2142,
+      "end": 2654,
+      "order": "dimensions-before-pixels",
+      "lazy_end": 3047,
+      "sha256": "7a4277e2ddbc7015eb0e98f709537f67c52a435efb7663b0c0af834199b286c9"
+    },
+    {
+      "index": 2,
+      "width": 4,
+      "height": 32,
+      "bytes": 128,
+      "pixel_offset": 2670,
+      "end": 2798,
+      "order": "dimensions-before-pixels",
+      "lazy_end": 3191,
+      "sha256": "8dddf88cd75d3e72c01292604f70ce35fb8aaefb52c586f398f67a961c1157cb"
+    },
+    {
+      "index": 3,
+      "width": 2,
+      "height": 16,
+      "bytes": 32,
+      "pixel_offset": 2813,
+      "end": 2845,
+      "order": "dimensions-before-pixels",
+      "lazy_end": 3238,
+      "sha256": "47aad854ee91be7cfa1675d8d81b4230ee033fec2af9df54be7326fe5ce8c7a9"
+    }
+  ],
+  "geometry_verified": true,
+  "table_identity_unique": true,
+  "serial_identity_runtime_verified": false,
+  "full_native_tail_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}
