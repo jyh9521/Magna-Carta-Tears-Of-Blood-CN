@@ -746,6 +746,24 @@
       "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
       "status": "needs-source-review",
       "reason": "Isolated literal 0 between story windows; dialogue-vs-marker meaning unresolved. Kept as source-context candidate, not translated as a spoken line."
+    },
+    {
+      "id": "SHIP/00005666.fpb/seq/7",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard/old-do-not-use marker in story window; runtime purpose unresolved. Retained as source audit record, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00005686.fpb/seq/8",
+      "source_sha256": "8b65710fbb18bf5e6dc8f3ab35818de4570f991be251cf175b7fafc473c28291",
+      "status": "needs-source-review",
+      "reason": "Literal discard/old-do-not-use marker in story window; runtime purpose unresolved. Retained as source audit record, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00005686.fpb/seq/9",
+      "source_sha256": "8b65710fbb18bf5e6dc8f3ab35818de4570f991be251cf175b7fafc473c28291",
+      "status": "needs-source-review",
+      "reason": "Literal discard/old-do-not-use marker in story window; runtime purpose unresolved. Retained as source audit record, not translated as spoken dialogue."
     }
   ]
 }
