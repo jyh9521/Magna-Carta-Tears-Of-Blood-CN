@@ -1,6 +1,6 @@
 # Translation data design
 
-目标zh-CN；当前已进入全文提取与分批翻译阶段。5546个字段已有草稿，全文未完成；历史PoC门禁与旧里程碑记录保留。
+目标zh-CN；当前已进入全文提取与分批翻译阶段。5661个字段已有草稿，全文未完成；历史PoC门禁与旧里程碑记录保留。
 最终目标数据放locales/<locale>/，UTF-8，target字段明确表示译文，不塞进上游en。
 原版reference catalog由ISO提取进入ignored work，en-US/ko-KR/ja-JP仅作为可选reference。
 
@@ -86,7 +86,7 @@ locales/zh-CN/opening-trial-01.json保存91个target及原资源/窗口hash，�
 
 当前顺序：全部现有结构字段导出 → 统一术语 → 分批形成全文初稿 → 人工校对 → 确认后导入。旧章节的小字集门禁描述属于历史阶段，不再限制原文导出和全文初稿；未知格式的写回门禁、存读档回归和发布验收继续保留。
 
-当前 5546 条初稿未自动升级为 reviewed；260 词条均为暂定统一。译文集合显式包含 `opening-review-01.json`、`menu-review-01.json`、`interface-review-02.json`、`character-commentary-review-01.json` 和 `story-review-01.json`，保存 target、稳定 ID、source_sha256 与状态。`review-exclusions.json` 是源字段待核对清单，不是译文批次，不参与初稿统计；批次枚举不使用 `*review*.json` 通配。原文对照仅导出到 ignored work，不提交 Git。独立资源中的相同原文不自动合并 ID，也不证明 linked group。
+当前 5661 条初稿未自动升级为 reviewed；260 词条均为暂定统一。译文集合显式包含 `opening-review-01.json`、`menu-review-01.json`、`interface-review-02.json`、`character-commentary-review-01.json` 和 `story-review-01.json`，保存 target、稳定 ID、source_sha256 与状态。`review-exclusions.json` 是源字段待核对清单，不是译文批次，不参与初稿统计；批次枚举不使用 `*review*.json` 通配。原文对照仅导出到 ignored work，不提交 Git。独立资源中的相同原文不自动合并 ID，也不证明 linked group。
 
 校对入口为本地 HTML 目录，页面只读；原始 `review.jsonl` 每行含 source、source_text、target、translation_status。校对修改 target，必要时补充独立备注；source、ID、hash、原始控制符保持不变。确认译义后才标记 reviewed。导出工具不执行导入，校对稿也不直接作为二进制补丁输入。
 
