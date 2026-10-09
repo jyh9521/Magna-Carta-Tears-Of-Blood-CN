@@ -73,3 +73,7 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_candidate_spans.py --catalog wo
 ## 韩版多字段补充层
 
 FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1065非空；旧689个扫描候选全部覆盖，关闭该候选集合的字节缺口，语义与混合编码审核仍待完成。此前“638片段”统计属于旧leading-only视图，不作为新字段条数；CHA／MDG短候选尚未关闭。补充数据独立保存，不覆写旧主catalog或新增译文。见 [RECORD_FIELDS.md](RECORD_FIELDS.md)。
+
+## 统一集合修订
+
+新只读集合保留998资源，活动字段15121；六资源旧1682条槽视图完整保存在superseded层，以1168个实际字段替代。61个精确字节alias形成，6334初稿源ID全部保持。补充字段有5个CP949假名读法和55个非空ASCII，语义尚未全部确认，全文覆盖门禁不变。见 SOURCE_CORPUS.md。

@@ -183,3 +183,7 @@ Source Han Sans SC Regular 2.005R替换新增glyph输入，NormalFont 19px/Katak
 ## 韩版多字段记录（Verified static）
 
 FDS 两文件为 8 B 头及 2052 B 记录，四个 512 B 字段；GFT 两文件分别为 822／10307 B 记录、11 个字段；ODD 正文为 560 B 记录、80／240／200 B 三字段，小变体保留 20 B 元数据。六文件集中补充导出 1168 字段，旧 689 个扫描候选全部被新字段覆盖。只读补充层不替换上游 USA parser/writer，不扩大翻译或导入；详细边界与证据见 docs/RECORD_FIELDS.md。
+
+## 只读 source-corpus 修订层
+
+六资源的新结构字段按完整资源hash替代活动视图，旧资源metadata/entries保留superseded层。alias要求资源、offset、length、字段SHA256完全相同；相同文字、不同位置或部分重叠不自动关联。6334既有初稿ID/hash保持；CP949解码可含日文，不能凭语义改成CP932。机器聚合见 docs/SOURCE_CORPUS.json，流程见 docs/SOURCE_CORPUS.md。

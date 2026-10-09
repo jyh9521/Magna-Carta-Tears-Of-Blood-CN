@@ -375,3 +375,7 @@ SFD 对照补充：韩文与日文 ASS 各 25 文件，分别 238／272 个 Dial
 ## 韩版多字段集中补提取
 
 六个 FDS／GFT／ODD 资源完成版本锁定的记录分区导出，共130记录、1168字段，其中1065非空；严格CP949均成功但语种和显示用途未自动确认。旧689个扫描候选均被新字段覆盖，仍不证明全文已提取。旧主目录、6334条初稿和术语保持。新增十项测试，基线423、修改版433、隔离回滚423项通过；不生成或删除ISO。证据见 RECORD_FIELDS.md 与 ignored work/extraction-coverage-47/VERIFICATION.txt。
+
+## 统一源集合与既有初稿关联
+
+998资源的记录补充修订集合已集中输出，15121活动字段及完整superseded层保留；不以新旧字段数差异推定删除对白。6334初稿逐条原ID/hash关联通过，未迁移或新增译文。补充字段的5个CP949假名与55个非空ASCII单列审核。新增九项测试，基线433、修改版442、隔离回滚433项通过；没有新ISO。证据见 SOURCE_CORPUS.md 及 ignored work/extraction-coverage-48/VERIFICATION.txt。

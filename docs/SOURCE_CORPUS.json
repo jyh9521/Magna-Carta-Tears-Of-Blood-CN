@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_catalog_sha256": "de8c9e8d76a06ad52c80db5ac7e313b8a8377258c0815e6f683cfea4fe7ac0a9",
+  "original_fields": 15635,
+  "superseded_fields": 1682,
+  "supplementary_fields": 1168,
+  "active_fields": 15121,
+  "active_resources": 998,
+  "exact_source_aliases": 61,
+  "draft_links": {
+    "retained-id": 6334
+  },
+  "drafts_preserved": 6334,
+  "supplement_cp949_kana_fields": 5,
+  "supplement_ascii_fields": 55,
+  "supplement_cp932_candidates": 0,
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-not-complete",
+  "result": "known-format corpus assembled; remaining coverage and semantics unresolved"
+}
