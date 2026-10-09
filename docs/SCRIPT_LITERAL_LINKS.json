@@ -1,0 +1,15 @@
+{
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "literal_candidates": 2993,
+  "linked_variants": 1193,
+  "hit_occurrences": 51765,
+  "counts": {
+    "canonical-cp949": 961,
+    "escaped_reference_not_interpreted": 14,
+    "canonical-utf16le": 227,
+    "packed-cp949-reading": 5
+  },
+  "complete_game_text": false,
+  "bytecode_decoder_complete": false,
+  "execution_verified": false
+}
