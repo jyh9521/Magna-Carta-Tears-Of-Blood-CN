@@ -179,3 +179,9 @@ name-slot-poc-01只修改slot0及完整缓存副本；编成、道具与角色�
 试译配置text_resources列表按resource/kind/expected_sha256/cached_copies/targets定位。FPB targets含seq/source_sha256/target；TUI targets含record profile/target/估算像素预算，profile固定8 B头、516 B记录、+4起点/256 B跨度。自动生成QA id为SHIP/resource/seq/N或SHIP/resource/record/ID/field/0。
 
 font_characters引用UTF-8 JSON唯一非ASCII字符列表，不含运行时编码；构建时在原Font尾部追加，字节值与glyph由同一分段规则推导。区段内trail byte A1–FE，当前D0至D3使用4段，跨段留gap和sentinel。33字旧批次的序列化结果保持兼容；具体2984 glyph资源尚无运行验收。
+
+## source-catalog与target批次（schema1）
+
+source-catalog记录source_locale、严格encoding、输入hash、resource hash、稳定id、source bytes/hash、references及隔离原因。FPB窗口offset相对pool，slot/TUI/candidate offset相对resource。完整FPB pool另存reference，celfid位置相对解压buffer；这些坐标不能互换。
+
+目标批次保存locale、id、source_sha256、target、draft/reviewed状态；不将译文放入en。自动模板不等于reinsertion plan，read-only候选不开放盲写。raster_size可由font_raster_sizes按原export名指定，不修改几何/metrics或跳过bbox校验。详见 [目录](TEXT_CATALOG.md)及 [字体](SOURCE_HAN_FONT.md)。

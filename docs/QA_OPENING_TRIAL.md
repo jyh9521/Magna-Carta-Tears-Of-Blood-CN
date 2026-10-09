@@ -63,3 +63,7 @@ QA_CHECKLIST.json初始98项untested（91正文＋1姓名＋6运行项目），�
 ## 验证记录
 
 369项自动测试和干净索引源码369项通过；干净源码独立复核同一新ISOhash，未重建第二份ISO。旧名称候选在新工具下保持a47d5b…hash并通过独立验证。独立源码回归恢复353项基线，Font工具在独立副本恢复原字节，修改源码保留；未执行整盘回滚。直接回读确认243个TUI id/第二字段及6个暂缓页签记录保持。实际98项QA记录校验为pending，不是运行通过。精确命令、literal输出、退出状态及四个小型事务文件位于ignored build/opening-trial-01/VERIFICATION.txt。
+
+## 新增局部画面观察（2026-10-09）
+
+10张截图可见空存档提示、读取标题/操作短词、开场多句中文、长句下一页末尾以及“卡琳兹”菜单姓名；状态栏显示Vulkan、640×447（1x）。这是Verified observation，不代表全部317字形覆盖或全部69个UI字段验收。截图未显示ISO hash或冷启动过程，候选关联来自交付上下文；正常存读档、实际切场景和战斗保持未验收。本地证据文件和hash索引保存于ignored work/catalog-stage-24/opening-observations/。思源黑体新版须单独验收，见 [字体对照](SOURCE_HAN_FONT.md)。

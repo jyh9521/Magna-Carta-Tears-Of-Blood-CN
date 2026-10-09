@@ -52,11 +52,13 @@ def load_config(path: Path) -> tuple[dict, dict, MappedEncoder]:
     return locale, game, encoder
 
 
-def patch_font(serial: bytes, encoder: MappedEncoder, font_path: Path, reference: str, advance: int) -> bytes:
+def patch_font(serial: bytes, encoder: MappedEncoder, font_path: Path, reference: str, advance: int, raster_size: int | None = None) -> bytes:
     from PIL import Image, ImageDraw, ImageFont
     info = font_data(serial)
     core.require(0 < advance <= info["width"], "advance outside glyph geometry")
-    font = ImageFont.truetype(str(font_path), info["height"] - 2)
+    size = info["height"] - 2 if raster_size is None else raster_size
+    core.require(type(size) is int and 4 <= size <= info["height"], "raster size outside glyph geometry")
+    font = ImageFont.truetype(str(font_path), size)
     ref = font.getbbox(reference)
     origin = ((info["width"] - (ref[2] - ref[0])) // 2 - ref[0],
               (info["height"] - (ref[3] - ref[1])) // 2 - ref[1])
@@ -178,7 +180,7 @@ def build(source: Path, out: Path, font: Path, locale: dict, game: dict, encoder
         name, offset, size = export["name"], export["offset"], export["size"]
         serial = engine[offset:offset + size]
         core.require(core.digest(serial) == game["fonts"][name] and bundle.count(serial) == 1, "font source identity mismatch")
-        new_serial = patch_font(serial, encoder, font, locale["alignment_reference"], locale["advance"])
+        new_serial = patch_font(serial, encoder, font, locale["alignment_reference"], locale["advance"], locale.get("font_raster_sizes", {}).get(name))
         start = bundle.index(serial)
         new_engine[offset:offset + size] = new_serial
         new_bundle[start:start + size] = new_serial

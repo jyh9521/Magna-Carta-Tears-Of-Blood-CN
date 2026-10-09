@@ -165,3 +165,7 @@ tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原
 ## 有界开场与存档UI试译
 
 使用--locale locales/zh-CN/opening-trial-01.json运行现有五阶段pipeline；覆盖91正文字段及1个姓名。text_resources显式列出资源hash、FPB seq/source窗口hash或TUI单256 B profile，不再要求恰好三条测试文本。font_characters为字符库存，不拿旧韩文字节槽作为新字库映射。实际范围、候选hash和步骤见 [开场试译QA](docs/QA_OPENING_TRIAL.md)。仅新增一份测试ISO；完整存读档回归仍待完成。
+
+## 思源黑体与全量目录
+
+当前开放字体配置为opening-trial-02.json，固定Adobe Source Han Sans SC Regular 2.005R与完整SHA-256，下载与五阶段命令见 [思源字体](docs/SOURCE_HAN_FONT.md)。旧SimHei配置仅保留历史复现。全量catalog和新菜单批次校验命令见 [文本目录](docs/TEXT_CATALOG.md)；提取不修改原ISO，输出目录须为空，完整原文仅在ignored work。

@@ -1,0 +1,816 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "menu-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001240.tui/record/131/field/0/index/7",
+      "source_sha256": "7cd9a2b3bfc85469f506c90b68725c03f3a51e5cacce3b474390ada18f1293c3",
+      "target": "自动排序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 131
+    },
+    {
+      "id": "SHIP/00001240.tui/record/132/field/0/index/8",
+      "source_sha256": "2e0f1b6875520f7f18c05f325c90249e7711d5b92dadbbaca5539c225d085ea4",
+      "target": "按获得顺序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 132
+    },
+    {
+      "id": "SHIP/00001240.tui/record/8/field/0/index/10",
+      "source_sha256": "70a1deef8dbdb571e6d81c87cc7fed0015b6d68ff064e8410ccf47bcad01e2cb",
+      "target": "已装备的装备",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 8
+    },
+    {
+      "id": "SHIP/00001240.tui/record/7/field/0/index/11",
+      "source_sha256": "a8966d99f2266bf1c9ac7ff7d3dfe2847f7bdb7ecfcb4ae65ca7495287636ad5",
+      "target": "装备列表",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 7
+    },
+    {
+      "id": "SHIP/00001240.tui/record/6/field/0/index/12",
+      "source_sha256": "e251405878b04d6892552816f0fe7ddfcdd91de73288c34e105cdf1b38228dd4",
+      "target": "当前流派",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 6
+    },
+    {
+      "id": "SHIP/00001240.tui/record/5/field/0/index/13",
+      "source_sha256": "a9af8c2983ffc1eabd46c72e7b98aeacd6425c6b417c86550cf1f3b11d9d1f16",
+      "target": "流派列表",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 5
+    },
+    {
+      "id": "SHIP/00001240.tui/record/4/field/0/index/14",
+      "source_sha256": "33df0b6ed258f9831979a346771624dfd88a617b31495813be3b682d24b435f5",
+      "target": "状态",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 4
+    },
+    {
+      "id": "SHIP/00001240.tui/record/28/field/0/index/15",
+      "source_sha256": "403a4ec334f20c9deb837c24ed2572a6e7c2c3e6256d513baee1051e6fd6dcdb",
+      "target": "位置信息",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 28
+    },
+    {
+      "id": "SHIP/00001240.tui/record/193/field/0/index/16",
+      "source_sha256": "dd7c9585e6c3f8ebbcb9188a0b3eaf88e651b537a0688efa1ba6d13049102039",
+      "target": "符咒信息",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 193
+    },
+    {
+      "id": "SHIP/00001240.tui/record/1/field/0/index/17",
+      "source_sha256": "e85506fd765826376e1e04403e0d6026f063c927ce1d55e247548ef8baa2178f",
+      "target": "流派信息",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 1
+    },
+    {
+      "id": "SHIP/00001240.tui/record/2/field/0/index/18",
+      "source_sha256": "994191994f89ed00e3ceceda829f767ac7549d19acec0d53acfe8d0e765c500e",
+      "target": "怪物信息",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 2
+    },
+    {
+      "id": "SHIP/00001240.tui/record/10/field/0/index/19",
+      "source_sha256": "2ebc502712697a0e429e19f5ad497ebfa1d4213a2a8d23a1e90318729409d7d1",
+      "target": "查看符咒信息吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 10
+    },
+    {
+      "id": "SHIP/00001240.tui/record/11/field/0/index/20",
+      "source_sha256": "2b2edaed9e8e0381dd1f4c9d3694e53f4c5bc02e986c59d435178b82654de5fc",
+      "target": "查看怪物信息吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 11
+    },
+    {
+      "id": "SHIP/00001240.tui/record/12/field/0/index/21",
+      "source_sha256": "93377dde899c3ae7e76514bc9a9312b1b551e77f581186e5ae4106c5d19fe3b3",
+      "target": "风月林",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 12
+    },
+    {
+      "id": "SHIP/00001240.tui/record/38/field/0/index/32",
+      "source_sha256": "7cd9a2b3bfc85469f506c90b68725c03f3a51e5cacce3b474390ada18f1293c3",
+      "target": "自动排序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 38
+    },
+    {
+      "id": "SHIP/00001240.tui/record/39/field/0/index/33",
+      "source_sha256": "2e0f1b6875520f7f18c05f325c90249e7711d5b92dadbbaca5539c225d085ea4",
+      "target": "按获得顺序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 39
+    },
+    {
+      "id": "SHIP/00001240.tui/record/40/field/0/index/34",
+      "source_sha256": "f82763022444a226c7cab923571d5350c8e939a07e3658f82a4f5db68554fa49",
+      "target": "按名称排序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 40
+    },
+    {
+      "id": "SHIP/00001240.tui/record/46/field/0/index/40",
+      "source_sha256": "0df3f284641e102169aac359997149009d9b31fdb7d9632a313cd4c28aeb5849",
+      "target": "排序",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 46
+    },
+    {
+      "id": "SHIP/00001240.tui/record/54/field/0/index/48",
+      "source_sha256": "e7b999fc6156e72617c23e03a429d251dae3dc11aefed43b5a3390ffe28e0527",
+      "target": "这是对话窗口的示例。修改后的效果会显示在这里。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 54
+    },
+    {
+      "id": "SHIP/00001240.tui/record/55/field/0/index/49",
+      "source_sha256": "ecc8f7202d357d4709e1030d13880eca485fde0a1c51f68a081a0547fafedc32",
+      "target": "上一页/下一页",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 55
+    },
+    {
+      "id": "SHIP/00001240.tui/record/56/field/0/index/50",
+      "source_sha256": "fdce02e5240d81d5b5e69d0c16cedf0b1c0c330a3f8439e09bf3e3102a378fcb",
+      "target": "设置对话速度。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 56
+    },
+    {
+      "id": "SHIP/00001240.tui/record/57/field/0/index/51",
+      "source_sha256": "ba780cf5d7d869fa4ca848e02d8738465fa249e7d49482523b1075daef64c060",
+      "target": "设置是否跳过对话。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 57
+    },
+    {
+      "id": "SHIP/00001240.tui/record/58/field/0/index/52",
+      "source_sha256": "817f061d3c9b1edfa55c58d870fcef5149f600af0d54156aed0142cc93af703a",
+      "target": "设置是否启用控制器振动。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 58
+    },
+    {
+      "id": "SHIP/00001240.tui/record/59/field/0/index/53",
+      "source_sha256": "506bb1ba1942facb235e984036b61fd3a10e78a9e14bd1ca053c9c819e57cf8a",
+      "target": "设置声音。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 59
+    },
+    {
+      "id": "SHIP/00001240.tui/record/60/field/0/index/54",
+      "source_sha256": "fb74f52c12ba905172d7701ea69af395314a45e806a954c4014ca36d6ccd37e1",
+      "target": "设置战斗时是否显示帮助窗口。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 60
+    },
+    {
+      "id": "SHIP/00001240.tui/record/61/field/0/index/55",
+      "source_sha256": "417af7170dc0c33cd7f381b897bccc3b6d88b40ac26c76c2056fc697aec22dd5",
+      "target": "设置是否显示对话字幕。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 61
+    },
+    {
+      "id": "SHIP/00001240.tui/record/62/field/0/index/56",
+      "source_sha256": "6767b501e49876b099a732861a6d5494014890255a5353f3b7941225e2b62bf1",
+      "target": "查看地图信息吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 62
+    },
+    {
+      "id": "SHIP/00001240.tui/record/63/field/0/index/57",
+      "source_sha256": "3e06e371678acacca95723d478adaadd2bb979dd9efc9398947103f5946138c2",
+      "target": "友好度",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 63
+    },
+    {
+      "id": "SHIP/00001240.tui/record/64/field/0/index/58",
+      "source_sha256": "407344e30cf55f4b34bd32db5f136348236ae60851b0fa0eafaa29b9d5a19e51",
+      "target": "尊敬",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 64
+    },
+    {
+      "id": "SHIP/00001240.tui/record/65/field/0/index/59",
+      "source_sha256": "861c02473e8ff33231ab8cc8be034490674c78ac8eecf5bcfeb82490e20b1922",
+      "target": "友好",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 65
+    },
+    {
+      "id": "SHIP/00001240.tui/record/66/field/0/index/60",
+      "source_sha256": "0a69fd4955c00866e0da3ddee1763b6de09b2ab87300a257ac23590eae524c9e",
+      "target": "一般",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 66
+    },
+    {
+      "id": "SHIP/00001240.tui/record/67/field/0/index/61",
+      "source_sha256": "f1032ff99412491da09841f899ecf6dd972a155d6a618bec6a30e004bced6ac4",
+      "target": "疏远",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 67
+    },
+    {
+      "id": "SHIP/00001240.tui/record/68/field/0/index/62",
+      "source_sha256": "a45ee19ff254eb5f45dbd501ebadd8c554da9c7ffe9e2c5efdf28f2696193532",
+      "target": "轻蔑",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 68
+    },
+    {
+      "id": "SHIP/00001240.tui/record/69/field/0/index/63",
+      "source_sha256": "fbaa277859415c3c70bee0ad93e5b56990d61097e506eb5463a8c926b6f38428",
+      "target": "赠送礼物，还是交谈？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 69
+    },
+    {
+      "id": "SHIP/00001240.tui/record/70/field/0/index/64",
+      "source_sha256": "2a896dcaadd264126db73a0dc480be4e34a3a6544c27dfe3d597128c78dafcac",
+      "target": "赠送礼物",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 70
+    },
+    {
+      "id": "SHIP/00001240.tui/record/71/field/0/index/65",
+      "source_sha256": "ae597062737c2ce329d5f7ddf68afdd032d88fd6949a1601f1b104dc005dfe0d",
+      "target": "交谈",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 71
+    },
+    {
+      "id": "SHIP/00001240.tui/record/72/field/0/index/66",
+      "source_sha256": "1867bf8aaf96522a0f707de88741a9729cc73a4f258e9cade019af4929aad996",
+      "target": "没有可赠送的道具。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 72
+    },
+    {
+      "id": "SHIP/00001240.tui/record/76/field/0/index/70",
+      "source_sha256": "0a6e1b4775fc93340ba9d54a12fef23de58cb623efb6cba74d0db0c9ee3acefd",
+      "target": "赠送这件道具吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 76
+    },
+    {
+      "id": "SHIP/00001240.tui/record/77/field/0/index/71",
+      "source_sha256": "b32c3574ee75bcaf3bb1235f39fde213810c0a6d9a6dfb36ad047b968d7f3d47",
+      "target": "切换目标",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 77
+    },
+    {
+      "id": "SHIP/00001240.tui/record/78/field/0/index/72",
+      "source_sha256": "66d3349d3009615882e226dd12faae2e652c9f6bf00eaa69e9268df8835e17ea",
+      "target": "请选择要使用的符咒。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 78
+    },
+    {
+      "id": "SHIP/00001240.tui/record/89/field/0/index/83",
+      "source_sha256": "63854db2c9f10ea4f28177915d044e66b2d74278bc7649dca9f7db963a91bb8c",
+      "target": "没有发生变化。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 89
+    },
+    {
+      "id": "SHIP/00001240.tui/record/90/field/0/index/84",
+      "source_sha256": "24d4e9b387b17136de0bd4f672c8cbe7d417948c9a12f84ec03c15e825ccf727",
+      "target": "精灵石被破坏了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 90
+    },
+    {
+      "id": "SHIP/00001240.tui/record/91/field/0/index/85",
+      "source_sha256": "eb4f4848c3e3f213e78d3b01943e7d6f78daf3b59dfc272ca1c15ab461865c66",
+      "target": "不再产生反应。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 91
+    },
+    {
+      "id": "SHIP/00001240.tui/record/167/field/0/index/142",
+      "source_sha256": "46935fffe9259e2c679cbbe2c79d0f110334bec30c195e5b20f8f395c043340e",
+      "target": "分离队伍",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 167
+    },
+    {
+      "id": "SHIP/00001240.tui/record/183/field/0/index/143",
+      "source_sha256": "21b229ffe3e3e146349ed3d6de63e0af641dd1246977424263b38b9c71adc28a",
+      "target": "结束吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 183
+    },
+    {
+      "id": "SHIP/00001240.tui/record/182/field/0/index/144",
+      "source_sha256": "68189bc2595e0882acd84f58e18b6184c09e1cabd1c35c342e2d28fd3aca7416",
+      "target": "请确认加入队伍的成员。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 182
+    },
+    {
+      "id": "SHIP/00001240.tui/record/207/field/0/index/145",
+      "source_sha256": "b3768a69ff87cecc23c5df5dca8fdd98a2a2bdbc01ccd08033435079173cf316",
+      "target": "没有可更换队伍的角色。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 207
+    },
+    {
+      "id": "SHIP/00001240.tui/record/209/field/0/index/147",
+      "source_sha256": "e89c1519e4de7580a2ac6e3a55ed03b52d97c9f71d0875ab379f2a55c0c281f1",
+      "target": "卸下装备",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 209
+    },
+    {
+      "id": "SHIP/00001240.tui/record/210/field/0/index/148",
+      "source_sha256": "2a7b23b75041bd581d4ed8b40cb6e90a7727b6ec42e39702f1afd74efc774491",
+      "target": "没有选中的流派。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 210
+    },
+    {
+      "id": "SHIP/00001240.tui/record/211/field/0/index/149",
+      "source_sha256": "fde6f8ac74cd42652783da53d71d49a3510bcf74f0aa27959dba09242797e687",
+      "target": "更换队伍吗？",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 211
+    },
+    {
+      "id": "SHIP/00001240.tui/record/212/field/0/index/150",
+      "source_sha256": "7b8d741adf070b8539eacac68374ee5b227c20f34549eb710118a77555ac0738",
+      "target": "没有可交谈的对象。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 212
+    },
+    {
+      "id": "SHIP/00001240.tui/record/213/field/0/index/151",
+      "source_sha256": "a6a709af4f6335103566a646e07d708298b8f91a900679becbda71a142232a05",
+      "target": "战斗成员",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 213
+    },
+    {
+      "id": "SHIP/00001240.tui/record/214/field/0/index/152",
+      "source_sha256": "97e31292633d488f7d9477bb99eed896d517288ad8de42a6add994a6b60dffdb",
+      "target": "待命成员",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 214
+    },
+    {
+      "id": "SHIP/00001240.tui/record/215/field/0/index/153",
+      "source_sha256": "8107d6b049d0925e13640ddeed72256a7b94556027a51ffa4cc255e022b66ed4",
+      "target": "物攻",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 215
+    },
+    {
+      "id": "SHIP/00001240.tui/record/216/field/0/index/154",
+      "source_sha256": "13cc5bd2902fd8526a02fcf6ecc61e71a03fb68fb339642c1fda509c669ed91c",
+      "target": "物防",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 216
+    },
+    {
+      "id": "SHIP/00001240.tui/record/217/field/0/index/155",
+      "source_sha256": "03bfea004878f28dcde3a59a0e6b8798b8abe3157fb3a3c1b3034c0aeaaba0d7",
+      "target": "魔攻",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 217
+    },
+    {
+      "id": "SHIP/00001240.tui/record/218/field/0/index/156",
+      "source_sha256": "6306294247a176efad7fc5483173d8442f30f453e5583488066b20435f88ea8d",
+      "target": "魔防",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 218
+    },
+    {
+      "id": "SHIP/00001240.tui/record/220/field/0/index/158",
+      "source_sha256": "4de3484a4d2633d5c09b386dc2491068aab2bd4dceeabec614ca2173a08f4028",
+      "target": "道具列表",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 220
+    },
+    {
+      "id": "SHIP/00001240.tui/record/221/field/0/index/159",
+      "source_sha256": "91e1fd44e7616ae9a6f4de445455eea68b1dc9e1dc3d657cee9aafdfa68f053b",
+      "target": "武器",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 221
+    },
+    {
+      "id": "SHIP/00001240.tui/record/222/field/0/index/160",
+      "source_sha256": "46fc387b4448d91d6ca42803ab6ab8afccc31710aaeae012198f722d3c1a7773",
+      "target": "防具",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 222
+    },
+    {
+      "id": "SHIP/00001240.tui/record/223/field/0/index/161",
+      "source_sha256": "42ec3d41b347a6ff7111a4fc601f0af6f656efd8cbbd2b7a13343f9a2a2cb709",
+      "target": "饰品",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 223
+    },
+    {
+      "id": "SHIP/00001240.tui/record/224/field/0/index/162",
+      "source_sha256": "ce739b18cd0df2780ca0797d727ac3092bebc19ea9ea55ce9c05283f7b91a43d",
+      "target": "这是一句用于测试对话窗口的文本。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 224
+    },
+    {
+      "id": "SHIP/00001240.tui/record/231/field/0/index/169",
+      "source_sha256": "565e1464e009bc3c8b2ce4dc700529edb673cb37303061cdad018c1240c2a54c",
+      "target": "礼物列表",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 231
+    },
+    {
+      "id": "SHIP/00001240.tui/record/233/field/0/index/171",
+      "source_sha256": "768f6d5ddde19417940a55b4055924933265a436ba7cb94a7cb83fa55a72557e",
+      "target": "怪物列表",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 233
+    },
+    {
+      "id": "SHIP/00001240.tui/record/252/field/0/index/190",
+      "source_sha256": "895faf02be2065fa46f2ecd8cafbc151118ea33c1da418dfbdac5349564734a7",
+      "target": "背景音乐音量",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 252
+    },
+    {
+      "id": "SHIP/00001240.tui/record/253/field/0/index/191",
+      "source_sha256": "b724773e32d10f68287c4dc8ddbfe96d99553a0c54b8f110ff45b7d265f18560",
+      "target": "音效/语音音量",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 253
+    },
+    {
+      "id": "SHIP/00001240.tui/record/254/field/0/index/192",
+      "source_sha256": "70fc6565469941c3831ed9f503ec43d91e4cf3a403f21a8330a0c7a86b1290c8",
+      "target": "语音音量",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 254
+    },
+    {
+      "id": "SHIP/00001240.tui/record/255/field/0/index/193",
+      "source_sha256": "3d0f05378002841151f022490ec70931af914e59b3ee615dbf4b678537edad7c",
+      "target": "慢",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 255
+    },
+    {
+      "id": "SHIP/00001240.tui/record/256/field/0/index/194",
+      "source_sha256": "db2cb3fe28e2c54fce50bd9c03fd2b131091229c0ceda79289527aaba47226ad",
+      "target": "标准",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 256
+    },
+    {
+      "id": "SHIP/00001240.tui/record/257/field/0/index/195",
+      "source_sha256": "8d5ebd1c930faf660cac2ac3f0db91c40eb9e17f68ab667fe75823cfc1a24599",
+      "target": "快",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 257
+    },
+    {
+      "id": "SHIP/00001240.tui/record/258/field/0/index/196",
+      "source_sha256": "e8a01133b1351e5fa434167135400d1998d3daa8ce74e3dd9bb57582fa4d7b97",
+      "target": "开启",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 258
+    },
+    {
+      "id": "SHIP/00001240.tui/record/259/field/0/index/197",
+      "source_sha256": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+      "target": "关闭",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 259
+    },
+    {
+      "id": "SHIP/00001240.tui/record/261/field/0/index/199",
+      "source_sha256": "983a92ab9e065070d3c3336c123df8581273a9353c52195e7adb6430aa8759d6",
+      "target": "移出战斗队伍",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 261
+    },
+    {
+      "id": "SHIP/00001240.tui/record/262/field/0/index/200",
+      "source_sha256": "78bed095da73c98334bede051a71f24a8e5e1f660e01fefcf841d90ce1d95557",
+      "target": "结束休息",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 262
+    },
+    {
+      "id": "SHIP/00001240.tui/record/263/field/0/index/201",
+      "source_sha256": "0dadac999ad1f74bdd49388830397bed8f7c3ba39b00765b48135ab103198706",
+      "target": "没有符咒。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 263
+    },
+    {
+      "id": "SHIP/00001240.tui/record/267/field/0/index/205",
+      "source_sha256": "c4c25839033f83e04eb6b03ba14dc8c8d32a04acc5facd44d5bf207c0499ca0d",
+      "target": "最高伤害纪录刷新！",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 267
+    },
+    {
+      "id": "SHIP/00001240.tui/record/268/field/0/index/206",
+      "source_sha256": "2fd625eb9876a069ee2906b43322a23850db3ef829728f46df83d308bcc7df99",
+      "target": "持有金钱",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 268
+    },
+    {
+      "id": "SHIP/00001240.tui/record/269/field/0/index/207",
+      "source_sha256": "4d64bc8cab31e45ef8ba47271e7357243daef0bed6389d4bc240559785a7cd9a",
+      "target": "没有装备武器。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 269
+    },
+    {
+      "id": "SHIP/00001240.tui/record/270/field/0/index/208",
+      "source_sha256": "b9f20739a9cea430be21546dc1491a207c215449a4b8366e8ac189ce55e5ef67",
+      "target": "最大HP",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 270
+    },
+    {
+      "id": "SHIP/00001240.tui/record/271/field/0/index/209",
+      "source_sha256": "950a9eaade58c7fe5b3b128e5ec580e5198d9c5ee7f193c6be8a5a9d61ff606f",
+      "target": "魅力",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 271
+    },
+    {
+      "id": "SHIP/00001240.tui/record/272/field/0/index/210",
+      "source_sha256": "1bde2ffe5f20dae070f7e424789da5f469ba1539d6a80d8d0281f403a43914c5",
+      "target": "未确认",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 272
+    },
+    {
+      "id": "SHIP/00001240.tui/record/273/field/0/index/211",
+      "source_sha256": "133155f54ba24fed5d0a85fa0a22bdf8106b32b90743ab9fe62deafccd792be8",
+      "target": "请选择战斗成员。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 273
+    },
+    {
+      "id": "SHIP/00001240.tui/record/274/field/0/index/212",
+      "source_sha256": "5f11fed6f7a3c274155f8a8d75bfc9836a7a15ba14eab64ee6663a7191df05ef",
+      "target": "请选择要替换的成员。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 274
+    },
+    {
+      "id": "SHIP/00001240.tui/record/275/field/0/index/213",
+      "source_sha256": "30bd30eb0ddded40a8832282dcd523c92092fa54661de36dd700bc0a683138ca",
+      "target": "请选择要更换装备的成员。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 275
+    },
+    {
+      "id": "SHIP/00001240.tui/record/276/field/0/index/214",
+      "source_sha256": "99eb39267ecf0f96855e63acee45cf28e549f68cf72f2c78d01bc965eeb00e8f",
+      "target": "请选择要更换流派的成员。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 276
+    },
+    {
+      "id": "SHIP/00001240.tui/record/277/field/0/index/215",
+      "source_sha256": "6e8fe5603baf850d97057aedb8e99f605bf4900010dc788064ba8843c1da5432",
+      "target": "目前没有可使用的道具。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 277
+    },
+    {
+      "id": "SHIP/00001240.tui/record/278/field/0/index/216",
+      "source_sha256": "9ac6bccb5c8c1d68a04b056b8dae506254e1222d44bcf9be17094f7414e5bf8e",
+      "target": "取消选择",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 278
+    },
+    {
+      "id": "SHIP/00001240.tui/record/279/field/0/index/217",
+      "source_sha256": "4b161bedc3b94e84c68feca17c9e64b387c646aadb6dedfe3ecf8d754db1a79c",
+      "target": "最多可以装备3个流派。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 279
+    },
+    {
+      "id": "SHIP/00001240.tui/record/280/field/0/index/218",
+      "source_sha256": "badf8f6c81cbcbb2822d2e39bdf93585045c79075e935a1c18491546fdce3772",
+      "target": "物理攻击力提升了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 280
+    },
+    {
+      "id": "SHIP/00001240.tui/record/281/field/0/index/219",
+      "source_sha256": "1f91e05ad2a17881b99f457cfb81b123be586fd1aaa10d568df6b9e11dd81d92",
+      "target": "物理防御力降低了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 281
+    },
+    {
+      "id": "SHIP/00001240.tui/record/282/field/0/index/220",
+      "source_sha256": "b0099f5537a7ed2a7bcdecab9bd8e260f5323b03449e8ad7f28bc0e2abf57288",
+      "target": "魔法攻击力提升了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 282
+    },
+    {
+      "id": "SHIP/00001240.tui/record/283/field/0/index/221",
+      "source_sha256": "e3adc4cafbcf30ad80ee7db2b8aa2bb683cc3a1b32d523cbef05430f0fba9410",
+      "target": "魔法防御力降低了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 283
+    },
+    {
+      "id": "SHIP/00001240.tui/record/292/field/0/index/230",
+      "source_sha256": "5cd6a0af9dfe577180872b4d693ac50a6da4824467009f20b38f8e309113a13a",
+      "target": "所有属性的格数增加了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 292
+    },
+    {
+      "id": "SHIP/00001240.tui/record/293/field/0/index/231",
+      "source_sha256": "bcc73efe0e30f57ad542692f7d1fe033f4b3ee705796c0faf41e82e8215fc135",
+      "target": "所有属性的格数已满。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 293
+    },
+    {
+      "id": "SHIP/00001240.tui/record/294/field/0/index/232",
+      "source_sha256": "285df699983a47fbf493f54529ae9cef48370606261d9ec05f341350102af569",
+      "target": "异常状态已治愈。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 294
+    },
+    {
+      "id": "SHIP/00001240.tui/record/295/field/0/index/233",
+      "source_sha256": "af7585e9f4b1d2aaf7e8bf18badae783c47ace421c6ffc69ae088ad76a5939ce",
+      "target": "经验值略有增加。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 295
+    },
+    {
+      "id": "SHIP/00001240.tui/record/296/field/0/index/234",
+      "source_sha256": "f81cc399dd5d5962729874cd6dc03b65960b6bdf1809c5a424e5c9dacda48e93",
+      "target": "获得的经验值提升至1.25倍。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 296
+    },
+    {
+      "id": "SHIP/00001240.tui/record/297/field/0/index/235",
+      "source_sha256": "c707f89c8fb70bc97af64ef612ffe35122dea5a5de0fe4e1394871dcb50a4b89",
+      "target": "获得的经验值提升至1.5倍。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 297
+    },
+    {
+      "id": "SHIP/00001240.tui/record/298/field/0/index/236",
+      "source_sha256": "1637ecddbefd406ea2a3c174846fd388f36b3202fec2e0efd29bd5fb88a6ed23",
+      "target": "统率力提升了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 298
+    },
+    {
+      "id": "SHIP/00001240.tui/record/299/field/0/index/237",
+      "source_sha256": "9624e1e034615adaff8c025fec3befee427b9ea32f446d85a8a83b637cbaac0e",
+      "target": "统率力降低了。",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 299
+    },
+    {
+      "id": "SHIP/00001240.tui/record/304/field/0/index/242",
+      "source_sha256": "3962a58457b388997c1623748fcba20c6004ee6ad39d02a0548fe83690f08d78",
+      "target": "返回标题画面",
+      "status": "draft",
+      "context": "menu UI review; not applied to ISO",
+      "record_id": 304
+    }
+  ]
+}

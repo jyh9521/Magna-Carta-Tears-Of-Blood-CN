@@ -2,10 +2,16 @@
   "schema": 1,
   "protected": [
     {
+      "path": "opening-trial-02-source-han/image/MODIFIED_FILE.iso",
+      "size": 3232737280,
+      "sha256": "0c2d8ebf005fb3a9bfbe12f19525594834c9e3b7c094cb9b6d749d20c910dcb2",
+      "role": "source-han-font-comparison-pending-runtime"
+    },
+    {
       "path": "opening-trial-01/runnable/image/MODIFIED_FILE.iso",
       "size": 3232739328,
       "sha256": "ebb3a71de5b90d1f446fe7628283eef1dded6c111d77f9ffc474624b5f9c6ff3",
-      "role": "opening-trial-01-pending-runtime"
+      "role": "opening-trial-01-partial-opening-menu-observation"
     },
     {
       "path": "name-slot-poc-01/image/MODIFIED_FILE.iso",

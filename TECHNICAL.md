@@ -161,3 +161,9 @@ Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FP
 font_resource新增append_slots/verify_slots，将字形追加拆成非零trail-byte区段，各段含独立sentinel/base。317字库存使用D0/D1/D2三组94字符和D3组35字符；两Font2984 glyph，原2667 glyph与原映射保持。多段字库的完整原映射及317个新增码离线模型通过；最大游戏缓存容量仍未验证。
 
 display_resources按显式资源hash/窗口hash应用既有rewrite_fpb和rewrite_fixed_slot，固定字段限TUI首256 B。cached_copies必须显式为0/1并与原buffer匹配；若有完整副本则同步，不修改substring或推定linked group。AFS/ISO/SFD工具未重写。见 [有界试译QA](docs/QA_OPENING_TRIAL.md)。
+
+## 全量目录和外部字体参数（2026-10-09）
+
+Verified static：19类SHIP资源998文件导出15635字段/候选，FPB窗口7998、TUI两字段1726；解码失败及未知token隔离，candidate不等于display text。celfid完整镜像21资源，独立候选35048，不推断linked group。数量及覆盖缺口见 [文本目录](docs/TEXT_CATALOG.md)。
+
+Source Han Sans SC Regular 2.005R替换新增glyph输入，NormalFont 19px/KatakanaFont 15px，原字形及字宽保持，317追加映射不变；共同baseline裁切门禁保持。五阶段/独立回读通过，运行外观待验收，见 [字体对照](docs/SOURCE_HAN_FONT.md)。

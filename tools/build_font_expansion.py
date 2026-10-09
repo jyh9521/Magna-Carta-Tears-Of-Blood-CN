@@ -60,7 +60,7 @@ def main() -> None:
         expanded = append_slots(serial, count, args.range_start,
                                expected_sha256=game['fonts'][name])
         encoder = MappedEncoder(entries, font_tables=font_data(expanded))
-        modified = patch_font(expanded, encoder, args.font, locale['alignment_reference'], locale['advance'])
+        modified = patch_font(expanded, encoder, args.font, locale['alignment_reference'], locale['advance'], locale.get('font_raster_sizes', {}).get(name))
         result = verify_slots(serial, modified, count, args.range_start)
         new_info, _, metrics, _ = parts(modified)
         for item in entries:

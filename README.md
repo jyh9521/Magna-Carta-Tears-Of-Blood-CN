@@ -2,8 +2,9 @@
 
 Magna Carta: Tears of Blood / 마그나카르타 진홍의 성흔，PS2，目标简体中文 zh-CN。
 
-当前：已生成首段开场/露营教程/存档相关UI的有界试译测试ISO，91正文字段及1姓名；静态独立验证通过，新版本运行时待测。此前名称和小字集已有局部截图，存读档/切场景回归仍待验收；未开始全文翻译。
+当前：开场与存档提示已有局部中文显示截图；思源黑体对照 ISO 已独立静态验证，待运行验收。韩版已扫描 19 类格式、998 个资源，建立全量结构目录与统一术语表；累计 193 个译文草稿，全文翻译尚未完成。存读档/切场景回归仍待验收。
 
+- [文本目录与数量](docs/TEXT_CATALOG.md) · [统一术语表](GLOSSARY.md) · [思源黑体与测试镜像](docs/SOURCE_HAN_FONT.md)
 - [开场与存档UI试译](docs/QA_OPENING_TRIAL.md)
 - [第一阶段研究与证据](docs/PHASE1_RESEARCH.md)
 - [开发与测试进展](docs/STATUS.md) · [单字PoC验收](docs/QA_GLYPH_POC.md) · [版本管理](docs/VERSIONING.md)

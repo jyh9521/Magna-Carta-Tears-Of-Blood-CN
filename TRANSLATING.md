@@ -1,6 +1,6 @@
 # Translation data design
 
-目标zh-CN；目前研究与PoC设计，未启动batch translation。
+目标zh-CN；当前已进入全文提取与分批翻译阶段。193个字段已有草稿，全文未完成；历史PoC门禁与旧里程碑记录保留。
 最终目标数据放locales/<locale>/，UTF-8，target字段明确表示译文，不塞进上游en。
 原版reference catalog由ISO提取进入ignored work，en-US/ko-KR/ja-JP仅作为可选reference。
 
@@ -74,3 +74,9 @@ poc-name-01.json复用现有PoC字符，只增加CHA slot0目标“测试中文�
 locales/zh-CN/opening-trial-01.json保存91个target及原资源/窗口hash，不提交原文catalog；完整对照正文仅保留在ignored source-review.json。TUI仅选择69个首256 B字段，174条其他记录和第二字段保持。暂定术语：칼린츠→卡琳兹、풍월림→风月林、캠프 모드/캠핑모드→露营模式；人名为试译，未定稿，不自动cascade到其他资源。
 
 正文条目的translation_status=trial-draft；需实际上下文/画面校对。保留全部$n，○键符号、80KB、PS2等成分按原功能保留。字库从字符库存生成，原33字符顺序保留后追加所需字符，避免在新批次中重排旧测试编码。
+
+## 全量目录与术语基准（2026-10-09）
+
+翻译范围已扩展为全部已确认文本的分批处理；未知字段不随范围扩大而自动开放。`GLOSSARY.md` 是唯一术语基准，21词条暂定统一。source catalog 本地忽略，原创 target 批次跟踪；source hash、ID、控制符按原输入匹配。`menu-review-01.json` 新增101菜单草稿，未写回镜像；既有92草稿保留。完整数量和候选/正文区别见 [文本目录](docs/TEXT_CATALOG.md)。
+
+无需等全文翻译完成才生成字库；每批从目标字符集合检查 cmap、收集新增字符、追加编码和 glyph，不能重排历史映射。最终发布库存再从全部经审核译文汇总。当前合并译文398个非ASCII字符，相对317库存新增89个，保留旧库存需要406槽；容量/布局和联动仍须实际验证。思源黑体版只覆盖原317库存，不包含101新菜单草稿。

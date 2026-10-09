@@ -1,0 +1,11 @@
+{
+  "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "family": "Source Han Sans SC Regular",
+  "version": "2.005R",
+  "license": "SIL Open Font License 1.1",
+  "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+  "filename": "SourceHanSansSC-Regular.otf",
+  "license_file": "assets/fonts/SourceHanSans-LICENSE.txt",
+  "license_source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/LICENSE.txt",
+  "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+}

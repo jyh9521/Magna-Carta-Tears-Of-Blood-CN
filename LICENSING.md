@@ -18,3 +18,7 @@ FFmpeg/libass/pycdlib/Pillow与未来外部字体遵守各自许可证；工具�
 发布级glyph generator需开放许可字体并记录来源/版本/hash/license。SimHei仅用于本地实验，profile锁定hash且不打包系统字体或生成bitmap。
 生成edited texture/font/video/archive仍含原版资产，继续放ignored output；优先发行差分/脚本而非完整游戏文件。
 AGENTS.md和docs/LOCALIZATION_STANDARD.md仅local instructions，保持ignored不提交。
+
+## Source Han Sans SC Regular 2.005R
+
+新增开放字体配置取代当前试译的系统字体输入，原SimHei配置保留历史身份。Adobe固定2.005R，OTF hash与官方来源在assets/fonts/source-han-sans.json，完整版权/OFL 1.1在assets/fonts/SourceHanSans-LICENSE.txt。开放字体文件不跟踪，派生字形仍受OFL；发行差分须附相应声明与许可，派生字体主要名称不采用保留名Source。此许可不覆盖原游戏glyph、完整包、ISO或上游代码。细节见 [字体来源](docs/SOURCE_HAN_FONT.md)。
