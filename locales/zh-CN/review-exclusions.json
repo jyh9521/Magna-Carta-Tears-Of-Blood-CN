@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "description": "Unresolved source/visibility candidates; retained in full review export, not counted as translated.",
+  "entries": [
+    {
+      "id": "SHIP/00002137.fpb/seq/7",
+      "source_sha256": "1caf86d0c8ba83cec63abd6962e59df6a12e1e556f41052061987893009e3cab",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002137.fpb/seq/8",
+      "source_sha256": "1caf86d0c8ba83cec63abd6962e59df6a12e1e556f41052061987893009e3cab",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002149.fpb/seq/4",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002174.fpb/seq/5",
+      "source_sha256": "1caf86d0c8ba83cec63abd6962e59df6a12e1e556f41052061987893009e3cab",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002174.fpb/seq/6",
+      "source_sha256": "1caf86d0c8ba83cec63abd6962e59df6a12e1e556f41052061987893009e3cab",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002175.fpb/seq/22",
+      "source_sha256": "47a2eaaab49ac3ba85806ff39d6898c307f54a89c446118a9d8c55bfda1cd6b0",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002176.fpb/seq/6",
+      "source_sha256": "d69a88a7d6c04426884ea5b323353063a21b66a34d88c85da94de8dfc87b4df7",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002196.fpb/seq/0",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002199.fpb/seq/0",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002201.fpb/seq/5",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Non-prose marker or editor-label candidate; runtime meaning not confirmed; not counted as translated."
+    },
+    {
+      "id": "SHIP/00002271.fpb/seq/0",
+      "source_sha256": "1860bf33c2adacfb6b336efc9b26657c6f3f66714c38324961a65170768f70ab",
+      "status": "needs-source-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00002271.fpb/seq/1",
+      "source_sha256": "103f4c98fc1a76ab3d4e034ee7f445b68d526e4be6e06771d50bbb2a6bcc102d",
+      "status": "needs-source-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00003572.fpb/seq/41",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00003572.fpb/seq/8",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/0",
+      "source_sha256": "b7630de5dcb3cd866086a7297330dc75624ad76eee991c43cc228931ab4d8db8",
+      "status": "needs-source-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/1",
+      "source_sha256": "8742fd199fc858f1214bb22294fc11fe7b78720fb734811f312f21f3fdce17ba",
+      "status": "needs-source-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004668.fpb/seq/14",
+      "source_sha256": "cc2904b77153c3d8b4135fe31a2241522fc761f88c899f3bb78a3a77e2684983",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004668.fpb/seq/15",
+      "source_sha256": "ba9dd445060db388e091f362cdef3d550df6c0c8b558f66f9fb3d1de7c8006a4",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004668.fpb/seq/23",
+      "source_sha256": "cc2904b77153c3d8b4135fe31a2241522fc761f88c899f3bb78a3a77e2684983",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004668.fpb/seq/24",
+      "source_sha256": "cc2904b77153c3d8b4135fe31a2241522fc761f88c899f3bb78a3a77e2684983",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004668.fpb/seq/25",
+      "source_sha256": "cc2904b77153c3d8b4135fe31a2241522fc761f88c899f3bb78a3a77e2684983",
+      "status": "needs-source-review",
+      "reason": "Non-prose numeric/editor-label candidate; runtime visibility unconfirmed."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/0",
+      "source_sha256": "ab9920769bae25b77fb0002963a18ba4437c6ab2b1665bea1bc08b35bfadf436",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/10",
+      "source_sha256": "dd31a1b327564419a0d7a1d8ae3fc37f23cf05e344caf6fb179d6e248e581f95",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/11",
+      "source_sha256": "5094ee443db05dca6cc9168d2db5a66f5bc5dea232810f4c73fe03684bb7b8bd",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/12",
+      "source_sha256": "37315e4009d49d542a76bae038fb6d353e5939a81216575a83c0d8a7e229d74d",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/13",
+      "source_sha256": "cfc3b426131a8afc95d52dab2b97af99aef2bfbc1b31f3dc36ce50eb89c614d5",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/14",
+      "source_sha256": "49463eee8f80ad9f94e89b118835803144b71c273a49515f955a38d48bafe7a2",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/15",
+      "source_sha256": "4056250d0b85e3089fafb18e2dcfe8c4ecf53027d8d70772c42c581de19d3958",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/19",
+      "source_sha256": "b1e085182ee4275572ec75b4fe8a51e1080245f2e9621e70b1661143fa792b7b",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/20",
+      "source_sha256": "eee5cb4f2f327d39ca72d017f43293db43c344830310a256c487b3c6089eeb1c",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/24",
+      "source_sha256": "289896aed2826b8672c1aa534885fe575f3a052831ca7b6f0dd7f3f4d157efc4",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/25",
+      "source_sha256": "70f9c7b54a9efb6eb25357138fd6b6bb095a09ff1950da1d3508aa00e0640fee",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/26",
+      "source_sha256": "8062f596c8bb56e30336895b7c163ec0e15507a5008d3bc691fb1df28ee7afe3",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/5",
+      "source_sha256": "47a655c5cea86cd4d67a0cec7cf998e84e920342be3a80ef680c730f155b609c",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/6",
+      "source_sha256": "05cff6e68d71d7a355c61d3a1f70e7c10077db72115e71e241b1fad542f291cd",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/7",
+      "source_sha256": "c81c6664a3d378eb53db9747511ea6c608f9669df790977dfd81b83b2f09c4f5",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004698.fpb/seq/8",
+      "source_sha256": "966b981b0aa30634b8d913db0657d415e5104a51c0a7f0eeed0ab0dbd1a9e578",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/0",
+      "source_sha256": "cd615d2d0329aa8541fe7551817d7a12e2cf06afc9414c88538f31b01788f924",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/14",
+      "source_sha256": "ab30aa3ab11e9f27c3f84f8e16d145aca9dcd4eca0a9f11b730859242a1f4fe7",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/17",
+      "source_sha256": "ab9920769bae25b77fb0002963a18ba4437c6ab2b1665bea1bc08b35bfadf436",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/2",
+      "source_sha256": "a4f7afaa539dc800eaeb125d03de9a67e523bfc7495478780f8c5b04f57e368b",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/21",
+      "source_sha256": "b1e085182ee4275572ec75b4fe8a51e1080245f2e9621e70b1661143fa792b7b",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/22",
+      "source_sha256": "eee5cb4f2f327d39ca72d017f43293db43c344830310a256c487b3c6089eeb1c",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/26",
+      "source_sha256": "b52f982bbcc94c97c1f4a83e59032ccfdedc75b9e09812edf1560b35a1b08a49",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/27",
+      "source_sha256": "ee2e9f9373eb622691368641f0803467019b30ab1b091b5a8a563a115d32cf44",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/3",
+      "source_sha256": "0cbfe8b4373f3db5179ee871311aaa238bb92daca12cdd5e5b7e18369d903283",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/4",
+      "source_sha256": "e65cc60db76eac29a6b066db7e9537f10b654a7725a2004b4cc58dd9e6cc1424",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/5",
+      "source_sha256": "39d91cae22e31759edfef9f43010c81a137f7f5014276c0508bc9e533cd9710f",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/7",
+      "source_sha256": "918db830ebb844f1560d53e083a2ac4bae37fb0ea41b9afc90bb45e5f1529402",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/8",
+      "source_sha256": "22bf5fef903fb6d3f2d164fcf6536cf2256583a94999b7bc9ac1d92057ea8762",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004800.fpb/seq/9",
+      "source_sha256": "128142c9f876714ed892cd960c7344227a0a4e3e469e30f73d0dbd871f9afa7e",
+      "status": "needs-source-review",
+      "reason": "Japanese source candidate contains literal question marks in incomplete words; original wording requires verification, no missing-word reconstruction."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/0",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/1",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/10",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/11",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/12",
+      "source_sha256": "41d54ef37b0171b95233474c4a330c167b34120c115868010a77a273aef11e7f",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/13",
+      "source_sha256": "41d54ef37b0171b95233474c4a330c167b34120c115868010a77a273aef11e7f",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/14",
+      "source_sha256": "89d6092c2c0684f415d45d122b13f9f65cf05c4af9826a26131262915f626ba0",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/15",
+      "source_sha256": "89d6092c2c0684f415d45d122b13f9f65cf05c4af9826a26131262915f626ba0",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/16",
+      "source_sha256": "89d6092c2c0684f415d45d122b13f9f65cf05c4af9826a26131262915f626ba0",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/2",
+      "source_sha256": "f042a5c18e368e6fff145312b39d79bceb629ec35e9f4726f3513a68d3c8eb8f",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/3",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/4",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/5",
+      "source_sha256": "d06f690bf158e1f7f2166cb1777be6b7052344558776a1295970a81df2d21882",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/6",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/7",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/8",
+      "source_sha256": "b6d180977c88bd543218351c420b866f13867940d4260c26402397ee178d2738",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/9",
+      "source_sha256": "a0e1e8ccfa28ed956c0cc939226cadbf452516f79727bf4daae35545902d366a",
+      "status": "needs-source-review",
+      "reason": "Repeated numbered NPC-role label, not confirmed player-visible dialogue."
+    }
+  ]
+}
