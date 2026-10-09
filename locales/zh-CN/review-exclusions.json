@@ -764,6 +764,138 @@
       "source_sha256": "8b65710fbb18bf5e6dc8f3ab35818de4570f991be251cf175b7fafc473c28291",
       "status": "needs-source-review",
       "reason": "Literal discard/old-do-not-use marker in story window; runtime purpose unresolved. Retained as source audit record, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00006280.fpb/seq/14",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard or isolated zero marker in story window; runtime purpose unresolved. Source record retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006280.fpb/seq/22",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard or isolated zero marker in story window; runtime purpose unresolved. Source record retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006280.fpb/seq/24",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard or isolated zero marker in story window; runtime purpose unresolved. Source record retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006514.fpb/seq/6",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Literal discard or isolated zero marker in story window; runtime purpose unresolved. Source record retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/1",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/7",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/8",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/17",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/18",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/22",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/23",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00006555.fpb/seq/26",
+      "source_sha256": "46764119198c7de9e101f0a15cb3c1c7821ccf6298d89a1442a9b764bfeeade9",
+      "status": "needs-source-review",
+      "reason": "Literal discard marker in story window; runtime purpose unresolved. Source retained, not translated as dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/1",
+      "source_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/5",
+      "source_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/15",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/19",
+      "source_sha256": "54c305521ca0cccc81f40ef622b673ef1cdbbb899f11bf5a8cc941f7854f9f57",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/23",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/24",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/27",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/29",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/32",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
+    },
+    {
+      "id": "SHIP/00007360.fpb/seq/34",
+      "source_sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b",
+      "status": "needs-source-review",
+      "reason": "Whitespace-only window, literal N marker or chat-event transition label; runtime semantics unresolved. Source retained, not translated as spoken dialogue."
     }
   ]
 }

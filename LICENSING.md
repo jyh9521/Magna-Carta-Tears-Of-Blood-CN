@@ -3,7 +3,7 @@
 ## Project-owned material
 LICENSE的MIT声明适用于jyh9521及贡献者自己的新增code/docs，不能自动覆盖其它作者的代码或游戏资源。
 LICENSE-translations.md约定本项目原创译文许可；原版source text和game assets的权利不随翻译许可转移。
-本阶段没有大量译文或字体包；glyph preview/压缩资源仅本地ignored work/build。
+原创全文初稿保存在 locales/zh-CN，适用 LICENSE-translations.md；完整原文、glyph preview 和生成的游戏资源仅存于 ignored work/build。思源黑体来源及 OFL 许可记录见 assets/fonts/ 与 docs/SOURCE_HAN_FONT.md。
 
 ## Upstream
 soyjxck：magna-carta-tears-of-blood-undub，审计commit0e8de85bffbbd392fb43ef7608df097a0fb829b6。
