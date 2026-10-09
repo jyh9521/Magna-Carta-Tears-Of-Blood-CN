@@ -298,3 +298,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### 普通编译字符串上下文核查
 
 1207 字符串的祖先表达式及调用符号已完整核对；1025 有调用祖先，474 有赋值祖先，133 显示符号候选保留只读。英文 UI 候选不能因韩版来源排除；运行可见性与动态文本流未证明。详见 [字符串上下文](docs/LITERAL_CONTEXT_AUDIT.md)。
+
+
+### celfid 流式字段前缀对照
+
+Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观察到 Children／Next 参数链及 Struct 依赖内嵌。RandRange 脚本首次差异处严格停止，根 Object 和完整流未闭合；不能按 declared_size 连续切片或删重复 opcode。详见 [流式前缀](docs/STREAM_FIELD_PREFIX.md)。

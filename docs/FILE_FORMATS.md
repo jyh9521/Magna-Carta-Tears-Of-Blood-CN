@@ -285,3 +285,8 @@ FPB 窗口 offset/length 使用字节坐标；00000106 的完整 CP949 pool 成�
 ### 普通编译脚本完整结构核查
 
 8032 个 Function／NativeFunction／State／Struct 全部 serial 闭合，1207 个字符串常量、5 个含韩文、0 解码失败；运行可见性与流式脚本未完成。详见 [编译脚本核查](COMPILED_SCRIPT_AUDIT.md)。
+
+
+### celfid 流式字段前缀对照
+
+Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观察到 Children／Next 参数链及 Struct 依赖内嵌。RandRange 脚本首次差异处严格停止，根 Object 和完整流未闭合；不能按 declared_size 连续切片或删重复 opcode。详见 [流式前缀](STREAM_FIELD_PREFIX.md)。

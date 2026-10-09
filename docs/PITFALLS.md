@@ -258,3 +258,8 @@ Editor Bad 的首级包含烧录 `BAD SIZE`；Texture0 是 NumberFont 字形表�
 ### 直接父 token 不能代替最终调用上下文
 
 434 个字符串直接位于 Concat_StrStr 内，更外层可能为日志或显示接口。韩版包中的英文 UI 常量也应保留；SetText 等名称只能支持候选判定，不能证明运行可见性。详见 LITERAL_CONTEXT_AUDIT.md。
+
+
+### celfid 流式字段前缀对照
+
+Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观察到 Children／Next 参数链及 Struct 依赖内嵌。RandRange 脚本首次差异处严格停止，根 Object 和完整流未闭合；不能按 declared_size 连续切片或删重复 opcode。详见 [流式前缀](STREAM_FIELD_PREFIX.md)。
