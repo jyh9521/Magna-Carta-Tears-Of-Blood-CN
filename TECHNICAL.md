@@ -187,3 +187,7 @@ FDS 两文件为 8 B 头及 2052 B 记录，四个 512 B 字段；GFT 两文件�
 ## 只读 source-corpus 修订层
 
 六资源的新结构字段按完整资源hash替代活动视图，旧资源metadata/entries保留superseded层。alias要求资源、offset、length、字段SHA256完全相同；相同文字、不同位置或部分重叠不自动关联。6334既有初稿ID/hash保持；CP949解码可含日文，不能凭语义改成CP932。机器聚合见 docs/SOURCE_CORPUS.json，流程见 docs/SOURCE_CORPUS.md。
+
+## 全容器载荷核查
+
+Verified static：三个本地归档逐项读取18,014项；4,058项包表接受、12项分帧差异保留。LINEAR嵌入包的声明offset不是解压流实际offset；顺序表读取与serial解码分开，详见 [容器核查](docs/CONTAINER_PAYLOADS.md)。全文覆盖尚未完成。

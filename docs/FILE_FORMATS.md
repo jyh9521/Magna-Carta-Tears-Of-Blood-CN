@@ -204,3 +204,7 @@ split_slot 的 trailer 起点为首 NUL 后首个非零字节，不是语义类�
 ## 韩版 FDS／GFT／ODD 记录布局
 
 Verified static：六资源总长均为 8+count*stride，ID 不保证连续。FDS stride2052；GFT stride822或10307，不能套用单一74 B槽视图；ODD正文stride560，三个字段与数值尾部分离。各记录分区、字段容量及元数据位置见 [RECORD_FIELDS.md](RECORD_FIELDS.md)，运行读取语义仍未验证。
+
+## LINEAR／FILE 流式包表
+
+Verified static：路径256 B + 保留u32 + 原包长度u32，随后UE2 version118摘要，name offset64。流式names/imports/exports顺序相邻，原头io/eo仍为原包坐标。declared export offset/size仅作原包边界检查，不对应流式serial；7,830次包表通过。详细统计及12项压缩差异见 [CONTAINER_PAYLOADS.md](CONTAINER_PAYLOADS.md)。
