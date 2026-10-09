@@ -95,3 +95,8 @@ locales/zh-CN/opening-trial-01.json保存91个target及原资源/窗口hash，�
 旧试译 record242 的“返回标题画面”与源字段 `리스_스테이터스설명` 不对应，已从校对 seed 中排除；历史测试镜像未修改。源 hash 验证只检查身份，不能替代译义审核。
 
 混入日文的字段须依据原 pool 切片/hash 和严格 codec 往返确认源读法，不能仅凭 `source_locale=ko-KR` 决定语言。31 个已核对字段的编码身份记录在 `source-interpretations.json`；日中补充校对页见 [文本目录](docs/TEXT_CATALOG.md)。词内问号缺损与 CP949/CP932 误解码是不同问题，缺损处仍保留待核对状态。
+
+
+### 活跃源异常字节核查
+
+新增 157 个 CP932 替代阅读只进入本地核查输出，尚未并入校对译文；现有 101 个 source-interpretations 再核对通过，与本轮失败字段不重叠。混合编码应绑定原始字节及整个 pool，不能直接改源 locale 或窗口。详见 [异常字节核查](docs/DECODE_QUARANTINE_AUDIT.md)。

@@ -255,3 +255,8 @@ version118 普通 Class 序列包含观测额外 u32，再读虚拟 ScriptSize�
 ### 复制脚本虚拟／落盘长度
 
 13 Class 复制脚本 1860 B 落盘对应 2228 B 虚拟长度；compact 对象引用展开计 4 B。未知 opcode 拒绝，不以声明长度盲跳。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。
+
+
+### 活跃源异常字节核查
+
+FPB 窗口 offset/length 使用字节坐标；00000106 的完整 CP949 pool 成功不保证每个窗口落在字符边界。12 个其他 pool 存在完整 CP932 往返阅读，CHT 38 字段同样存在 CP932 阅读。详见 [异常字节核查](DECODE_QUARANTINE_AUDIT.md)。

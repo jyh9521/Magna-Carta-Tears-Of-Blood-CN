@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "3e92c5dcb2dcb5fe9ca2d513dcadf15bf37886e8eb0c080d9047a0265e6b816c",
+  "old_catalog_sha256": "de8c9e8d76a06ad52c80db5ac7e313b8a8377258c0815e6f683cfea4fe7ac0a9",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "resources": 998,
+  "active_fields": 15121,
+  "active_decode_failures": 165,
+  "failure_formats": {
+    ".cht": 38,
+    ".fpb": 127
+  },
+  "classifications": {
+    "alternate-cp932-field-reading": 38,
+    "alternate-cp932-pool-reading": 119,
+    "cp949-pool-window-splits-character": 8
+  },
+  "old_decode_failures": 236,
+  "old_failures_retained": 165,
+  "old_failures_superseded": 71,
+  "affected_fpb_pools": 13,
+  "cp932_roundtrip_fpb_pools": 12,
+  "existing_interpretations_verified": 101,
+  "failed_fields_with_prior_interpretation": 0,
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-pending",
+  "source_modified": false
+}

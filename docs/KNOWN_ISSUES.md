@@ -110,3 +110,8 @@
 ### 普通 Class 默认属性更新
 
 此前 13 个非零脚本 Class 默认属性未解析为历史状态；本轮有界读取全部闭合。132 个 Str 仍属参考，Function 字节码与流式 serial 尚未穷尽。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。
+
+
+### 活跃源异常字节核查
+
+165 个活跃 CP949 失败已按替代阅读或字符边界分类，运行时 codec、引用关系与导入尚未确认。全文门禁保持关闭。详见 [异常字节核查](DECODE_QUARANTINE_AUDIT.md)。

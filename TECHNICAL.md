@@ -243,3 +243,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### 普通 Class 默认属性闭合
 
 13 个复制脚本边界已核查，全部 568 个 Class 默认属性读取至精确 serial 末尾；1634 tag／132 Str。通用 Function 字节码与流式正文仍未闭合。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。
+
+
+### 活跃源异常字节核查
+
+活跃 CP949 失败为 165，而非旧视图 236；12 个完整 FPB pool 和 38 个 CHT 字段存在严格 CP932 往返阅读，另 8 个 FPB 窗口切断 CP949 字符。替代阅读不改 canonical 编码或导入许可。详见 [异常字节核查](docs/DECODE_QUARANTINE_AUDIT.md)。

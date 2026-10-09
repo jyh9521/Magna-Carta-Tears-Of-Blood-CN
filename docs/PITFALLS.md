@@ -218,3 +218,8 @@ Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证�
 ### native 阈值错读
 
 把 0x72／0x77 作为双字节 native 会吞掉首参数并破坏边界；本轮直接参数读取与虚拟长度／后续 Class 默认属性闭合同时校验。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。
+
+
+### 活跃源异常字节核查
+
+旧前导字段视图被完整记录替代后不能重复计入活跃失败；局部 CP932 可解码不能证明整池 CP932。完整 pool 解码通过也不能掩盖窗口切断双字节。详见 [异常字节核查](DECODE_QUARANTINE_AUDIT.md)。
