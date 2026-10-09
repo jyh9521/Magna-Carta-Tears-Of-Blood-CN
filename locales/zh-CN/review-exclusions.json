@@ -1058,6 +1058,96 @@
       "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
       "status": "needs-source-review",
       "reason": "Isolated numeric marker; runtime meaning and visibility unconfirmed; not translated."
+    },
+    {
+      "id": "SHIP/00000358.fpb/seq/10",
+      "source_sha256": "7a7f9bcab3097b6b458e001c487035ab8c4d5d9a79fc5bcfa19331e2e5f9a576",
+      "status": "needs-source-review",
+      "reason": "Developer/debug-style aside with emoticon and KIN marker; runtime visibility and intent unconfirmed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/1",
+      "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "needs-source-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/2",
+      "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "needs-source-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/3",
+      "source_sha256": "7a0e30c23077bc4d3a36c2fb95d1f3cb5c75171dee2eaafb578cdd6929d6dd6a",
+      "status": "needs-source-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/4",
+      "source_sha256": "504948a89d23bbeee61a36569f622210faa0706a0eefbd104f95ec6f7fcbf859",
+      "status": "needs-source-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/18",
+      "source_sha256": "68904f253e1f7eacd9cad6e1035029a8f590a6e845e61392ac8199b94dac914f",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/19",
+      "source_sha256": "2a6ecdd501ac51fa43620f650d8eaa796966bd551e72bb6d07fd7fa264f7e70d",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/20",
+      "source_sha256": "e270aeb347f2165574c3a5c5bf11d038bcd3acd5abfdb5ae8a1b52d91cb842f0",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/21",
+      "source_sha256": "705229cd8dd1ca3330bece3578d95ff52ed24496ef4334a5a888957e519a82a5",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/22",
+      "source_sha256": "db7af911da6f0177236b880ed5c5373b10bc7b739f07bc1dda1e15f8b393ba55",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/23",
+      "source_sha256": "86b870c36a2523a0518027d1eee19d7737a7a29e29e3b8bb648b78d674dcdfce",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/24",
+      "source_sha256": "02b3239bbd45e9d941bf149571e4277b3561219ed79915d6bd43315f9582cbc4",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/25",
+      "source_sha256": "0a559198b41d79f80d654ba20326f05910112f59b3ed6298ab8a7f1e53e28e5b",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/26",
+      "source_sha256": "db53f30242c708b2c97220b9258110e335e3647af6346d1b236972a2b74cc55c",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/27",
+      "source_sha256": "abc4cdc2593291e8a7ae8285f65687a404efe2359d8dcefa3867581de38e51fc",
+      "status": "needs-source-review",
+      "reason": "Question-mark-only source; original wording lost or unknown; no invented translation."
     }
   ]
 }

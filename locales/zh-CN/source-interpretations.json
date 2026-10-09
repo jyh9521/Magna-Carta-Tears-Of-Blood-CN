@@ -449,6 +449,366 @@
       "status": "verified-static-roundtrip",
       "catalog_reference_preserved": true,
       "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/0",
+      "source_sha256": "33426ba4774cb5fd754ccfc7970a2edc73014257fb6c92e634b4b3d002b36adc",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/1",
+      "source_sha256": "9b500402d4b7f35186a73ed3ff3f7e1966d8ec9948e11905775135e8115d6a6e",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/3",
+      "source_sha256": "02aec5eb38d0f6b306d430698d450d24dd820baa57976188010d8bab5e698d77",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/4",
+      "source_sha256": "9507f62e8d6486acf8073af62cc25bce81f2eda453611336823d3e2389137a67",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/5",
+      "source_sha256": "d816f3fed51fd9d6a17412162d173ddb1b247528cf9422323d2e2eb353e39d9d",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/6",
+      "source_sha256": "e4d977188104d34cad42a1ade9082674a5c6a245417ea854447b82ccd3e9c035",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/7",
+      "source_sha256": "60fefbfbf33e5f5adda092bcda299e6424abf9df18d2f89b29c80f6b0496a83e",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/8",
+      "source_sha256": "e325b0fb24ddb42b8aade52da8d7a9f22b3e9491978f4ff8e4fa0807bbbb51e1",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/9",
+      "source_sha256": "b39bb037707450aaf8fc423c78dc51b164fcae97c39548d408d71046f5772839",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/10",
+      "source_sha256": "6e2527e1f14d684351a09c3615597c326ce8e46ca992b8c2993ee04a2c49a752",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/11",
+      "source_sha256": "6d2c36596380b5890cd4cbbde9fd4599c9f2693c8fe7041beb23bd02b10e3e65",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/13",
+      "source_sha256": "d8b38d54eb0d216dbed53cdaa2876264f0261ea2311454d10e0c08a809f3eb74",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/14",
+      "source_sha256": "ad7b2122c5d735f58791f30900e030bb9c3893522a80498bb6a370c19636b1d8",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/24",
+      "source_sha256": "e9bc029e77ac73eef5ffce502c8e9d9ce5fbf6e520e8592adeb2a4ca6316b9bd",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/26",
+      "source_sha256": "ffc3fb72797b9e5437cfa16d7fd3d02b0df9a1527d386c3ae345d623bf8564dd",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/27",
+      "source_sha256": "d8a9ee1c111a4f2dcd5632d1c78b7aa9e5153d613ee2bd3755c86fd699cfc444",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/28",
+      "source_sha256": "2494ef65276e632afe80a64c0338e07f5efa67efbd2b21e18365ffc74abc5504",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/29",
+      "source_sha256": "6d9a2d9292d0d23c9540bd09f77362df66a19f0acacbf88951e99b45f61b4f61",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/30",
+      "source_sha256": "2bb8c62b04a4b49503a01836addde5b732f682ed5ca29934e2f4f27d0a36a1ba",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/31",
+      "source_sha256": "9766228789e033eccbb593f69acc57cdaa2649055d17fc45702f47fcfe1ebad5",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/6",
+      "source_sha256": "10992b8f5c040f3496c74cc4e874c872e3df7e09f2335441ba001ccbb8852b1f",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/7",
+      "source_sha256": "62263a9060328ce1fc8dc2b8365a3e8d03449f559a79f1bbcb4437ae36d9e836",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/9",
+      "source_sha256": "1fdadf485bc23f2baccb1c3909ccd2176c3d583fc67afa877e7c794c8ef2697e",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/10",
+      "source_sha256": "fb584f2e505d220a02c07a143f2a71ba0eb6117abfca4ce772e39ce7886e5b8f",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/11",
+      "source_sha256": "d92e7f8d761147033110785fa38b03395e16dfe98a4563f86c83074744c7663b",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/12",
+      "source_sha256": "1140c76b99a8f7f5f9171a3fbd77b3fb368c79254298d96b1f1562e1cb86806d",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/17",
+      "source_sha256": "01d96b19f0275f43e1649ea6a10aa404c4439fddcad042d0c07b226d0938cbd3",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/18",
+      "source_sha256": "50e05c0225aecfb1dbab9b87492fa3dd342213ce8ed5022d38ca71577cc9c5f0",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/19",
+      "source_sha256": "e41c570ed56f75fe3713494ea71a6d6dd5d874a46704b23c38bc839c327f23f5",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/21",
+      "source_sha256": "74794bbe458ef5d7b0c0565f132a9486f6b7f96dbcf1b8accf612443a36a84ed",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/22",
+      "source_sha256": "5f650ec88a53f2f83fe30b27d159b2f5236dcc2d881d9734bc5692fe231e7733",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/23",
+      "source_sha256": "fade959cc28150f963acf09e2093dceed844a1af7c9c380a5898ce5a86085cc5",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/0",
+      "source_sha256": "d5be13a031f251c84b633eafb0734e9b32f0249d760b0abee7fb7cdba2711fae",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/1",
+      "source_sha256": "d0e1c4b000556c1c19e0debd4b010615b2c6ea5a63471c25862a3a91bd838ecd",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/2",
+      "source_sha256": "3bd22bab58649fa3b9ca082592e2a4282b247cf034c3a24b794b9837833cdd7a",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/3",
+      "source_sha256": "6d20120c806584a101053b2f9cebf26875848298259c38cf3320a900b7fefdf9",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/6",
+      "source_sha256": "a2437edb3e4ff25637762fb70a2d62ece78136e307e3194c2cda8dd1f3633165",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/8",
+      "source_sha256": "037a395029fa4cc8238bcc38d5c9dbe9ec343f86479581a584d96ffbc44d7536",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/9",
+      "source_sha256": "799424669c9f71a047719f25fc33847f79e03cd2d4c0db25240cd55bc9922f87",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/11",
+      "source_sha256": "25015d9932aa84867200b45ec40fc84702b5c86f10392c85f6e126f41f0115f9",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/12",
+      "source_sha256": "a0c547ad670bde95a097c5ea13062dfa63c7560daa26fdd5f63ba5abd6733902",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/13",
+      "source_sha256": "35c7871e62f51039138b92ab513440e8dfb87319c9dd7380d5e5f37da993302d",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/15",
+      "source_sha256": "4196bdd11b843d0942000b7cf562d131da797f27a20baceee336ba3ba2cdea9a",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/16",
+      "source_sha256": "d8dc958542cc6be7ed7563ea3ba5a10fc65b7ca229efbd5eb0a25cceb3c60c02",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/17",
+      "source_sha256": "6164a539121ca037753dbc7c82a9677699b2b26d1516caa03d92325e9525e505",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
     }
   ]
 }

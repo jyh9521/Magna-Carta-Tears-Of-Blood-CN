@@ -49,7 +49,7 @@
 
 ## 翻译状态
 
-当前校对集合为 5780 个互不重叠的初稿字段：
+当前校对集合为 5838 个互不重叠的初稿字段：
 
 | 批次 | 字段数 | 范围 |
 |---|---:|---|
@@ -57,15 +57,15 @@
 | menu-review-01.json | 101 | 菜单和属性提示 |
 | interface-review-02.json | 235 | 人物姓名、目的地、占卜、商店、道场与战斗菜单 |
 | character-commentary-review-01.json | 97 | 不同剧情进度的角色自述 / 评论 |
-| story-review-01.json | 5256 | 561 个 FPB 的剧情、NPC 对话与书籍初稿 |
+| story-review-01.json | 5314 | 566 个 FPB 的剧情、NPC 对话与书籍初稿 |
 
 既有 92 条 seed 中，00001240.tui record242 的源文是 `리스_스테이터스설명`，试译值为“返回标题画面”，源文与译意不对应。该条不进入正文校对集合，历史试验配置和测试 ISO 保持不变。不能因源 hash 匹配就确认译义正确。
 
 术语表累计 260 词条，人物音译、地名、势力和载具名称均标记暂定统一，非官方译名或已校对结果。最长词条匹配区分 `리스`、`크리스 아크웨이` 和 `리스트`；未收录的复合词仍可能触发术语误报，须结合原文处理。
 
-当前初稿合计 2012 个非 ASCII 字符，思源 cmap 检查无缺字；保留旧 317 字符库存需追加 1698 个，总计 2015 槽。该数量不表示新字库已生成或容量 / 运行验证通过。
+当前初稿合计 2013 个非 ASCII 字符，思源 cmap 检查无缺字；保留旧 317 字符库存需追加 1699 个，总计 2016 槽。该数量不表示新字库已生成或容量 / 运行验证通过。
 
-本地校对目录 `work/proofreading-stage-25/` 导出全部 15,635 条记录，含 5780 条初稿与 9,855 条未译记录。未译数包括空字段、候选标识符和异常字节，不作为可见正文翻译率分母。998 个逐资源 HTML 页面可浏览原文 / 初稿；`review.jsonl` 保留源元数据和校对字段；`resource-metadata.jsonl` 保留完整 FPB pool、结构审计和资源 hash；celfid 候选另存，不并入正文。
+本地校对目录 `work/proofreading-stage-25/` 导出全部 15,635 条记录，含 5838 条初稿与 9,797 条未译记录。未译数包括空字段、候选标识符和异常字节，不作为可见正文翻译率分母。998 个逐资源 HTML 页面可浏览原文 / 初稿；`review.jsonl` 保留源元数据和校对字段；`resource-metadata.jsonl` 保留完整 FPB pool、结构审计和资源 hash；celfid 候选另存，不并入正文。
 
 原文完整导出限定于现有 catalog；UE2 图片、硬编码、未解析资源和 SFD 文本仍是明确缺口，未声称全游戏穷尽。全文初稿正在进行，尚未完成。
 
@@ -78,7 +78,7 @@ work/venv/Scripts/python.exe -X utf8 tools/validate_translation_batch.py --catal
 
 输出目录须为空；已有 catalog 不覆盖。验证通过不等于 glyph 容量、固定 slot 写回、linked group 或游戏运行通过。
 
-源语境待核对清单见 `locales/zh-CN/review-exclusions.json`，保存 176 条稳定 ID/hash 和原因，不包含原文。清单不删除校对包中的源记录，也不代表全部异常候选已完成审计。
+源语境待核对清单见 `locales/zh-CN/review-exclusions.json`，保存 191 条稳定 ID/hash 和原因，不包含原文。清单不删除校对包中的源记录，也不代表全部异常候选已完成审计。
 
 ## 混入日文的原字节回读（Verified static）
 
@@ -89,3 +89,5 @@ work/venv/Scripts/python.exe -X utf8 tools/validate_translation_batch.py --catal
 新增 12 个 CP932 字段为商店名称及招呼语；静态字节解释已验证，实际游戏可见性仍待确认，不据此开放写回。此前 31 字段补充校对输出保留在 `work/translation-stage-30/`。
 
 `00011739.fpb` 新增 13 条 CP932 回读对白；同样核对源切片 hash、原 CP949 reference 与逐字节往返。累计 56 条补充校对记录，之前的 31 条及 43 条补充页保持。
+
+CP932 补充解释当前累计 101 条；00000357、00000432、00000453 新增 45 条，严格解码及原字节往返验证通过。新增日中校对补充见 ignored `work/translation-stage-42/source-readings.jsonl` 与 `source-readings.html`。旧 56 条补充文件保持；原 CP949 catalog 不替换，残缺语句保留，不补造内容，未批准导入。
