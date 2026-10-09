@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "ordinary_script_objects": 8032,
+  "statuses": {
+    "correspondence-fit": 7983,
+    "header-unmatched": 49
+  },
+  "packages": {
+    "Core.u": {
+      "correspondence-fit": 291,
+      "header-unmatched": 3
+    },
+    "Editor.u": {
+      "header-unmatched": 39
+    },
+    "Engine.u": {
+      "correspondence-fit": 1244
+    },
+    "Gameplay.u": {
+      "correspondence-fit": 5
+    },
+    "MrtsEngine.u": {
+      "correspondence-fit": 1986
+    },
+    "MrtsGame.u": {
+      "correspondence-fit": 3977
+    },
+    "UnrealEd.u": {
+      "header-unmatched": 7
+    },
+    "UWindow.u": {
+      "correspondence-fit": 480
+    }
+  },
+  "header_occurrences": 7987,
+  "ambiguous_header_objects": 4,
+  "candidate_alignments": 7987,
+  "matched_candidate_alignments": 7987,
+  "multiple_end_candidates": 0,
+  "ambiguous_path_candidates": 1501,
+  "matched_source_script_bytes": 720142,
+  "literal_constants_in_fitting_source_objects": 1193,
+  "all_ordinary_scripts_inspected": true,
+  "full_stream_mapping_verified": false,
+  "full_vm_semantics_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}
