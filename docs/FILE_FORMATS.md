@@ -196,3 +196,7 @@ resource-metadata.jsonl 每行保存一个资源的非 entries 元数据，包�
 ## FPB 源字段混合编码观察（Verified static）
 
 00005420.fpb 的 24 个及 00005421.fpb 的 7 个严格 CP949 窗口可按 pool offset/source_bytes 切出并核对字段 SHA-256；相同原字节以 CP932 严格回读得到日文，编码往返不改变任何字节。有效 CP949 不意味着文本为韩文。该观察不改变 FPB 指针/长度结构，不自动赋予写回权限。原窗口/完整 pool 仍保留，补充源读法用于翻译与校对。
+
+## slot trailer 与主字段覆盖（Verified static）
+
+split_slot 的 trailer 起点为首 NUL 后首个非零字节，不是语义类型。韩版 FDS／GFT／ODD 的该区域内存在可读完整句子；主字段 leading-only 之外另保留 638 个候选片段，未确认全部可见。原完整候选与片段分别保存，避免区间切分后误判双字节失败。详情与各扩展名统计见 EXTRACTION_COVERAGE.md／CANDIDATE_SPANS.json。

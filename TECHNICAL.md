@@ -175,3 +175,7 @@ Source Han Sans SC Regular 2.005R替换新增glyph输入，NormalFont 19px/Katak
 ## 集中提取覆盖证据
 
 只读审计工具 audit_extraction_coverage.py 复用上游 AFS reader 与现有 extract_resource；ISO 三个 AFS 流式 hash 对照后，998 个已支持资源重提取与原 catalog 完全一致。库目录一致性不等于语义覆盖，候选、包、ELF、SFD 和图片文字仍分层审计。具体数量与门禁见 docs/EXTRACTION_COVERAGE.md。
+
+## slot 候选字段外字节（Verified static）
+
+3,162 个候选按主字段有效字节并集分类：2,302 完全同区间、222 完全覆盖、527 字段外、111 部分重叠。638 个未覆盖片段均位于当前上游 slot profile 的 observed-trailer；抽查 FDS／GFT／ODD 存在完整韩文句子，leading-only 导出不能代表该区间全部内容。韩版字段结构、显示用途仍待确认；不改变 writer 或启用盲写。详见 docs/EXTRACTION_COVERAGE.md。

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "source_catalog_sha256": "de8c9e8d76a06ad52c80db5ac7e313b8a8377258c0815e6f683cfea4fe7ac0a9",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "candidates": 3162,
+  "relations": {
+    "contained-in-primary-union": 222,
+    "exact-primary-span": 2302,
+    "outside-primary": 527,
+    "partially-overlaps-primary": 111
+  },
+  "by_extension": {
+    ".cdg": {
+      "contained-in-primary-union": 10,
+      "exact-primary-span": 144
+    },
+    ".cha": {
+      "exact-primary-span": 287,
+      "outside-primary": 5
+    },
+    ".cht": {
+      "contained-in-primary-union": 183,
+      "exact-primary-span": 1643
+    },
+    ".ecd": {
+      "contained-in-primary-union": 15,
+      "exact-primary-span": 97
+    },
+    ".fds": {
+      "exact-primary-span": 7,
+      "outside-primary": 44
+    },
+    ".gft": {
+      "contained-in-primary-union": 6,
+      "exact-primary-span": 20,
+      "outside-primary": 442,
+      "partially-overlaps-primary": 103
+    },
+    ".mdg": {
+      "exact-primary-span": 88,
+      "outside-primary": 1
+    },
+    ".odd": {
+      "contained-in-primary-union": 8,
+      "exact-primary-span": 16,
+      "outside-primary": 35,
+      "partially-overlaps-primary": 8
+    }
+  },
+  "candidates_with_uncovered_bytes": 638,
+  "unique_uncovered_intervals": 638,
+  "fragment_decode": {
+    "failed": 38,
+    "strict": 600
+  },
+  "fragment_placements": {
+    "observed-trailer": 638
+  },
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-not-complete",
+  "result": "byte-coverage-classified; visible-text semantics unresolved"
+}
