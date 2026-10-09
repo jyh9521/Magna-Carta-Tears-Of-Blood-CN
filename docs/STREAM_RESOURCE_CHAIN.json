@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "previous_context_sha256": "2854119fbeafeede363009ec7af8d8662ea549f13aec78eb8db80384e09414c4",
+  "chain_start": 3218646,
+  "chain_end": 4185028,
+  "chain_bytes": 966382,
+  "resources": 37,
+  "body_bytes": 961498,
+  "wrapper_bytes": 4884,
+  "candidates": 35048,
+  "counts": {
+    "bounded-script-prefix": 10219,
+    "resource-mirror": 2595,
+    "source-identical-config-body": 250,
+    "source-identical-field": 2232,
+    "source-identical-ini": 209,
+    "source-identical-native-object": 1410,
+    "source-identical-resource-body": 740,
+    "source-resource-wrapper": 40,
+    "source-wrapper-record": 11,
+    "stream-package-table": 5776,
+    "stream-package-tables": 11005,
+    "texture-mip-order-projection": 369,
+    "unresolved-byte-context": 192
+  },
+  "recontextualized": 780,
+  "source_modified": false,
+  "semantic_review_complete": false,
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-pending"
+}
