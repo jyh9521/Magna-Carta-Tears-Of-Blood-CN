@@ -126,5 +126,3 @@ def audit(archive,out,extended=False):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--archive',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
     p.add_argument('--extended-oracle',action='store_true');a=p.parse_args();print(json.dumps(audit(a.archive,a.out,a.extended_oracle),sort_keys=True))
-
-

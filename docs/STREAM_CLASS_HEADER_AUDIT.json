@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "bundle_bytes": 4195112,
+  "ordinary_packages": 10,
+  "ordinary_classes": 568,
+  "statuses": {
+    "unique-anchor": 534,
+    "unmatched": 34
+  },
+  "header_occurrences": 534,
+  "matched_header_bytes": 13152,
+  "source_tables_verified": 6,
+  "all_ordinary_class_headers_inspected": true,
+  "full_stream_mapping_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}
