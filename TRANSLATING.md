@@ -1,6 +1,6 @@
 # Translation data design
 
-目标zh-CN；当前已进入全文提取与分批翻译阶段。6334个字段已有草稿，全文未完成；历史PoC门禁与旧里程碑记录保留。
+目标zh-CN；6334个字段已有草稿，全文未完成。新增翻译暂停，先完成集中提取覆盖审计与源集合冻结，再统一扩大翻译范围；见 [覆盖审计门禁](docs/EXTRACTION_COVERAGE.md)。历史PoC门禁与旧里程碑记录保留。
 最终目标数据放locales/<locale>/，UTF-8，target字段明确表示译文，不塞进上游en。
 原版reference catalog由ISO提取进入ignored work，en-US/ko-KR/ja-JP仅作为可选reference。
 
