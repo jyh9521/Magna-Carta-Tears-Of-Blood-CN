@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "source_iso_sha256": "6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45",
+  "movies": 46,
+  "sheets": 47,
+  "sampled_text_observed": 25,
+  "exhaustive_visual_coverage": false,
+  "exhaustive_spoken_coverage": false,
+  "complete_game_text": false,
+  "reference_files": 50,
+  "reference_cues": 510,
+  "reference_counts": {
+    "korean": 238,
+    "japanese": 272
+  },
+  "sampling_interval_seconds": 8,
+  "visual_review": [
+    {
+      "movie": "180101",
+      "source_sha256": "97e2d82c849cf7d982b5c96ed78236fe1156a83fca94a5ef0a549a1210ea9d32",
+      "sheet_sha256": [
+        "53ec5cb713b7a8f43f30534c5c4c2a8add409eda6f471423900bbae3e0ea3f8e"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean scrolling prologue baked into sampled frames; transcription pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180111",
+      "source_sha256": "5d50f34c0b157f017874c9e9f127bfd9a1ebd86bb122bddb734384f1a39e8606",
+      "sheet_sha256": [
+        "33cf4eca2ad8714bcd8496aa3224ead9977cea4b4262320993be4b70f1d89252"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180115",
+      "source_sha256": "8ce72d9dcd8802a3ceed7bd206abeed32cbcf4352bbb7e43a9094b286a0efbee",
+      "sheet_sha256": [
+        "8bd3488222fe067eaed45a0f0fa1a790048743f5f8c3dc0821abe042c85275f3"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180216",
+      "source_sha256": "fdcf7fa2b531fc6a5bd492e7a773bc31973780adb6af2915aaaa724c4867e63a",
+      "sheet_sha256": [
+        "877d75c2727dc07c0981da53f530ef8fe1a44ded78b74e52a3704e421d407a8e"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180217",
+      "source_sha256": "cbbfc796dbcbb61462f711a63c000cdda0967a8254cfef155b76cbdd58e71539",
+      "sheet_sha256": [
+        "b048ce76f018e5aaf573cf8a48718af519b15542062fd5857629892b032991c2"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1802171",
+      "source_sha256": "e5c98a79bccaa3e0f6b9883d9f8a008d935f085e12d41b581177b15e9f74d115",
+      "sheet_sha256": [
+        "5e64bb4c26b2c69db7cd4d6a8ccfc84f8c267c5b91ac4ca61079667c672511da"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180233",
+      "source_sha256": "14c595bee532d8ebdace1a9839a9618912e946c01d269c693c57d04ed813e660",
+      "sheet_sha256": [
+        "a14285cc91159e65f9e1bc06ade62b92cbc4ac952733f9d9f0ee5f0eaa98c817"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180291",
+      "source_sha256": "22f94185fc8ebd856ab18d77278b2f5fe492a9007373fe1fa92cbc32c8ab1276",
+      "sheet_sha256": [
+        "15737470d400a4667386d44feef4e7e29ed86d36dd23646303fa53f9333753e0"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180292",
+      "source_sha256": "f4e6cb42d182e32d4aab34b35dd58fb9239898dc6dee55c20c65cd4ee56f0ce0",
+      "sheet_sha256": [
+        "8e79a1ff52284a5465aeb1d391fa883e2820a3d5e6b97da1a572a391e09765c4"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180293",
+      "source_sha256": "c682be503528b062736b950e063845fb9b7ff79d158d35ffdbdf3ba38f074151",
+      "sheet_sha256": [
+        "ea2c1c69676d290f385a8df077805cb08d70cf2336fa334472c3c95792587f16"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180294",
+      "source_sha256": "cb805679afe4a023d7f5cc9db8e6ed82a751508af0c910eab26436576c0a4ad2",
+      "sheet_sha256": [
+        "aaa2cfdc1cae8cd50ef6fdb8089f064f0e784140ff4ef88c6af3ae0b0ccc061e"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180295",
+      "source_sha256": "3d20e298a61c083b8d1b06d3d9382fc4e93148a56abb109983863fdf461e02f7",
+      "sheet_sha256": [
+        "ebea9e47fae4e51d42082cff602b6fadf59c89fab23005667e77520f294fc2e1"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180296",
+      "source_sha256": "1ac063ad2e75f653cba0281e3ff1e8b91168e99975a25118298eebae45ccdc1a",
+      "sheet_sha256": [
+        "8c1c6d83b783bb38d08e4da0dffc12e52cbf73ca6e0fefa579bfd011c6aa1e30"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180328",
+      "source_sha256": "660702ec6bd64cc858f45600868854ea4e58dd074e01b130f557e7887cc5f5db",
+      "sheet_sha256": [
+        "76c2ecb07c67c37eb9e9a2d20292604b099defa34906947811d9d5f5f91bbb1e"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180407",
+      "source_sha256": "d686c5624dce3d6d4f9e8b82f426a9294b0100842eeda4028a3460c8c02f2b34",
+      "sheet_sha256": [
+        "d41948941073241bf24a41cd49af885938cdc7011ecd194569c4dc9d9a3322b9"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180709",
+      "source_sha256": "f7105f39f8a166f1c069a7ea58223bd7a02a4a4f13202dfcff8a5e89ed3f1a59",
+      "sheet_sha256": [
+        "851ec7e2938fcf5c5160a5f2927bf1eb03273deb0a6e8d379e63dda06ad21516"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "180820",
+      "source_sha256": "60d4e0f6a0ae9e0d2846994a7df3aa34b50856bc8c9da7493044015e0f6e6873",
+      "sheet_sha256": [
+        "0cc7fed19996fdb43be9d8c10ba67428a2216bdfc1e00e6b61081fb5ab25c347"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181207",
+      "source_sha256": "3c3ead4414c6c5f4c61d5e2eed1923aa49a27138bb0d80a198e5de96f1511312",
+      "sheet_sha256": [
+        "a9c392d91f397b97763bb9a1a8aaa4be400af169bf221901a1a77eb4876fb271"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1812072",
+      "source_sha256": "e9b499a1ae5be3209d2e0fa95dd6d770d3f2649b2ed64853d65aa3a9ee13430b",
+      "sheet_sha256": [
+        "26d0f504a9c7f003172c1586394a641f97ed195cb8e16531181f0899349598dd"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1812073",
+      "source_sha256": "630639a1a64c7bcb07f1178621c8fc7fa15e305c8014a590462ffb039dcce0e1",
+      "sheet_sha256": [
+        "c645ba390c5161c616b0510fa4432c4ad4798b7eee9db508d3e2e3b13a916a13"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181306",
+      "source_sha256": "e432272bf74a721289ae9ad0df0edafa42113d49ec96c3b259d0c5d38eab4fba",
+      "sheet_sha256": [
+        "e4c337ab76088ca553f33ec59d4329209ad099e265107e4de03b7eabf0cd5ebc"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181307",
+      "source_sha256": "d817a33a8eb8640985789aad784961add4f4d6833af8e9ff77f535eb1a8fa7dc",
+      "sheet_sha256": [
+        "92be44f2b3456a4f5ea1076714abf56ae6657fb4ad5d1953f7ce4356e6f9fc9b"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181310",
+      "source_sha256": "68b40b3096fa3256497c0056c19e1eeb5da2a3d0dd096f4bad30f69a709d34ac",
+      "sheet_sha256": [
+        "752cb702fd34fee56c558cf2c7ed0bdc8778dd004cd95ec4cf977e3987e148eb"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1813102",
+      "source_sha256": "667f03bedf5fbfb76dae4cdc5b95c96f2bcc5ed8cc4029917bb3a4aa8d8168b5",
+      "sheet_sha256": [
+        "0424adb37090b5f3dd30432c77c9cc2ea9216759752f974af9c0d185b8650abe"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181406",
+      "source_sha256": "fd42e38d44e729eaae1dfc2244ff4becc5eb1da9dfae84944e4d1989cad79d44",
+      "sheet_sha256": [
+        "bc8df19d5a93b0258c931a41a57e33c8961e5a17b382f43fd0cf69c83c0aadfd"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "181818",
+      "source_sha256": "5bd87f2a938c65b7be1264d9ca8de8e74abb84f8e959a55e1a599370586a146c",
+      "sheet_sha256": [
+        "cda4996011bae9a35a9d88ec1e96359fe3e97bc5a5f0b82d644deca28f4719c0"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1821101",
+      "source_sha256": "1f562ddc69a99cf6ca1560fd44c090d7d09f965cf98ada74b1e4ee127aaee607",
+      "sheet_sha256": [
+        "df5ee9a7d4c04bca660658b4d1776f1f4a9c699c6b93d65fe44ae5e83b62b01f"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1821102",
+      "source_sha256": "948f37abc6fdc1b71af2ffd3df063621ef377738ed3366d9655b041364a7b33e",
+      "sheet_sha256": [
+        "6670a05fbbd32a194515093f4b8eea9d800de4ce1abf7c65b17b3e2d12286294"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1821103",
+      "source_sha256": "6ffbd0d306ac4657c3b906cac556796af2920b3b0b3858c5daa1bf5163c8f514",
+      "sheet_sha256": [
+        "2372fb44a3bf6e5ed03dc816fddbaa425eefd05ebc6dff10f93ecc8554b26f4a"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "182216",
+      "source_sha256": "c280677b48dbd689efee585c04e4a5ec09c26204831187cfee66c5cb01f2db9e",
+      "sheet_sha256": [
+        "bd5224463cb215dd95d4756e75726b3a7d3a985bfc26226afd4da60b77b8c752"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "182223",
+      "source_sha256": "41d6d8e9a4bcfd8f68284f55f16439f37eed098beaa6794f5f79d876e364bc49",
+      "sheet_sha256": [
+        "9f5e96cfc1f3c9827be90cce0775c301ddbfff6894af989658ef9b885949921f"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "1825381",
+      "source_sha256": "6a1adbc8f28b390fa7bba514f2897c843d2384c332c9c9928aa55f0202caad0b",
+      "sheet_sha256": [
+        "ebeb3c7fcbd3cd8cbbfa74209f9e84feb96c26a4e6f3a36c680984c49ad3b088"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "189991",
+      "source_sha256": "2d38dc1925bdd34f5096894585a9354fd8e975f80b19b1e5589c5bced341096c",
+      "sheet_sha256": [
+        "f48284d6c4b112eb5727e6980ed69742b651eb4adfea1bcf075cc7df25b9ba61"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "189992",
+      "source_sha256": "4587413f234c7919db15963f43a1dde46bc1561c07b8279b60db282fd9c4dd40",
+      "sheet_sha256": [
+        "f4dc47f828abbddb2879ad093f251cdd2e52eed8e30ca0b7f3912c36108b63bd"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean staff credits, names, roles and title graphic baked into sampled frames; transcription pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "189993",
+      "source_sha256": "4e003cb90670f067bccac2248f7048c9c1029636734ff9169733e8fdd8c4953a",
+      "sheet_sha256": [
+        "5be25b551f761463ddb53d33b45b03448db8daef3b8afd3a19033ebe90a3bb48"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "990108",
+      "source_sha256": "75c296077a5b1b9fdc753b04632e1a86d4b8a02424a0b4297ac6b3e51b194d08",
+      "sheet_sha256": [
+        "79c7c4215a4e35933fcc0f5fc591396d198c387adccdd4663dc24b46fdb73903"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "991801",
+      "source_sha256": "4da72b4579bc479044d2c809efdf17cc9a99281b074ace77961917a4a1f6a90a",
+      "sheet_sha256": [
+        "df20baf517e7df2a096dc2579601db369b03b12d2506a722d11c91f3051573f1"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "991802",
+      "source_sha256": "ee1d9618353261c29141fa359e1eb05459181db295a85634a68c48ed53627c8c",
+      "sheet_sha256": [
+        "8790d8902be2f7ea49d7244eceb591154684f96e00330ef9ed65780c59f6e34d"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "991803",
+      "source_sha256": "f4371bf7783d1c4076551020ff2a39aa5b336306e6581399e66e65e43b2545e5",
+      "sheet_sha256": [
+        "94bffabad409a2499316e5bd296b96edd94832f2d643846feab4941d47f88a88"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean dialogue subtitles baked into sampled frames; full source transcription and cue comparison pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "991804",
+      "source_sha256": "2f8e29ef32a50c6206a054afefc77a4d5bab252acb70dfd4fbd751dc9f9acd0d",
+      "sheet_sha256": [
+        "bb07591984cf2e6c2c4b081213bb320ea06371e08225ff331456cd15fbad4476"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Korean scrolling epilogue baked into sampled frames; transcription pending.",
+      "exhaustive": false
+    },
+    {
+      "movie": "992222",
+      "source_sha256": "341bf919d19c6bf56d828e751127401fbae281e14b8913c06a7f2dacfb270fc7",
+      "sheet_sha256": [
+        "092df79c9126d2f217b884817436fc34c369b812cac880937f29a264430e7fbc"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "993333",
+      "source_sha256": "54240e78fdaae14d6d90fd776abea3fed05d0d3ffa0446ac3a82ccd564e237f9",
+      "sheet_sha256": [
+        "e8acc92f527d6791ce0797a6941f549bccbe3a2de7788b2d7f40fbb585ebfe1b"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "994444",
+      "source_sha256": "3c2fdd258dbe203f272f199f586715e61ea251a320bff1e0fc09fb0181fe7a33",
+      "sheet_sha256": [
+        "131a131f60e997f0176431b8ffab9b7455e904453cb6edebf8b7d4b6d5377436"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "995555",
+      "source_sha256": "f8231979e80bd904156864ac3d2563b03fb91ffe935f60edca97b4beafb3b37c",
+      "sheet_sha256": [
+        "1e1a803ec9c783974d3bc603a4f8a17316e6c2db374c86c6da097f235791ce38"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "996666",
+      "source_sha256": "ac52ac79cbe675d9872ac41f7c74a4e327c3a5ce556170eaefc590d2e85737b2",
+      "sheet_sha256": [
+        "04e3675dda1c0ababf5f7bdd1e64d693cb15f1615425eb1618a9e4bda42ab9ff"
+      ],
+      "text_observed_in_samples": false,
+      "observation": "No legible prose or UI text observed in sampled frames; does not exclude text between samples.",
+      "exhaustive": false
+    },
+    {
+      "movie": "997777",
+      "source_sha256": "bb4e4d6eec10f33e01aa40f7a055656a084d6f6619528eeb6c2ce53b607a6a4b",
+      "sheet_sha256": [
+        "8acb0b31e968b5cccf5d27b7e6721470fec8b8fb63406798c7efd374b6b8afe1",
+        "e42a5dd55addd419ae393cbe9b8b24e6d19c705f503eec4a48df56978e443efa"
+      ],
+      "text_observed_in_samples": true,
+      "observation": "Japanese staff credits and roles, romanized names and The End graphic baked into both sampled sheets; transcription pending.",
+      "exhaustive": false
+    }
+  ]
+}

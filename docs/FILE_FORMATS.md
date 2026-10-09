@@ -216,3 +216,7 @@ Verified static：MUSIC filename TOC stride48、3646项，头界限及全部entr
 ## FPB pool-gap 字段视图
 
 ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synthesize_implicit_seq0不会补开头，韩版6文件因此有802 B未索引前缀；完整pool原文仍保留。补充视图不改变windows、count或运行结构，详见FPB_POOL_GAPS.md。
+
+## SFD 画面文字与 ASS 参照
+
+46 个原版影片完整解码为 47 张接触表并逐表审查，8 秒抽样中 25 个影片观察到文字。新增确认韩文序章／尾声、韩文及日文制作名单；现有两地区 ASS 共 510 条是上游参照行，不等于韩文原文提取。抽样间隙、完整转写及语音内容仍待核查，全文覆盖门禁保持关闭。详情见 `docs/MOVIE_TEXT_AUDIT.md`。
