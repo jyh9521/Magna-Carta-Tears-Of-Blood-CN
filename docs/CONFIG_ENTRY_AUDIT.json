@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "resources": 29,
+  "ini_resources": 2,
+  "int_resources": 27,
+  "entries": 1008,
+  "nonempty_values": 918,
+  "empty_values": 90,
+  "all_bytes_accounted_for": true,
+  "all_ascii": true,
+  "decode_failures": 0,
+  "bundle_body_mirrors": 3,
+  "runtime_visibility_verified": false,
+  "semantic_review_complete": false,
+  "translation_backend": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b"
+}
