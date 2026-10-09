@@ -1,0 +1,17 @@
+{
+  "source_sha256": "35cc6048f0e1f68d06bf3e515b99de3263e5092be62d6215cff5e74aa0ea15f0",
+  "source_bytes": 4439344,
+  "scan_scope": "whole file; maximal NUL spans; UTF16 both byte alignments",
+  "candidates": 192781,
+  "counts": {
+    "cp949": 65764,
+    "utf-16-le": 54038,
+    "utf-16-be": 72979
+  },
+  "referenced_candidates": 14061,
+  "referenced_hangul_candidates": 653,
+  "complete_game_text": false,
+  "exhaustive_elf_text": false,
+  "reachability_verified": false,
+  "original_modified": false
+}
