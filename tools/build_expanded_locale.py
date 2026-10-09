@@ -16,6 +16,7 @@ from iso import patch_iso
 from iso_validation import verify_iso_overlay
 from udf_overlay import plan_udf_overlay,apply_udf_overlay
 from name_slot_overlay import apply_name_slots
+from display_resources import apply_display_resources, display_cases
 
 
 def main() -> None:
@@ -45,34 +46,40 @@ def main() -> None:
     for name,serial in fonts.items():
         core.require(core.digest(serial)==expansion['fonts'][name]['modified_sha256'] and bundle.count(serial)==1,'expanded Font copy mismatch')
         encoder=MappedEncoder(mapping['entries'],font_tables=font_data(serial))
-    core.require(len(locale['entries'])==3 and sorted(r['kind'] for r in locale['entries'])==['fixed-display-slot','fpb','fpb'],'unsupported PoC targets')
-    core.require(len({r['id'] for r in locale['entries']})==3,'duplicate target IDs')
-    for record in locale['entries']:
-        expected=(f"SHIP/{game['fpb_resource']}/seq/{record['seq']}" if record['kind']=='fpb'
-                  else f"SHIP/{game['ui_resource']}/record/{game['ui']['record_id']}")
-        core.require(record['id']==expected,'target ID/profile mismatch')
-    encoder.validate_coverage([r['target'] for r in locale['entries']])
+    if 'text_resources' not in locale:
+        core.require(len(locale['entries'])==3 and sorted(r['kind'] for r in locale['entries'])==['fixed-display-slot','fpb','fpb'],'unsupported PoC targets')
+        core.require(len({r['id'] for r in locale['entries']})==3,'duplicate target IDs')
+        for record in locale['entries']:
+            expected=(f"SHIP/{game['fpb_resource']}/seq/{record['seq']}" if record['kind']=='fpb'
+                      else f"SHIP/{game['ui_resource']}/record/{game['ui']['record_id']}")
+            core.require(record['id']==expected,'target ID/profile mismatch')
+        encoder.validate_coverage([r['target'] for r in locale['entries']])
     original=core.iso_files(args.iso,['FILE.AFS','SHIP.AFS'])
     for name,data in original.items():(out/('original-'+name)).write_bytes(data)
     _,fe=core.archive_entries(out/'original-FILE.AFS');_,se=core.archive_entries(out/'original-SHIP.AFS')
     files,ship=dict(fe),dict(se)
     core.require(core.digest(files['MrtsEngine.u'])==game['expected_engine_sha256'],'original engine mismatch')
-    fpb,ui=ship[game['fpb_resource']],ship[game['ui_resource']]
-    core.require(core.digest(fpb)==game['expected_fpb_sha256'] and core.digest(ui)==game['expected_ui_sha256'],'original text mismatch')
-    targets={r['seq']:r['target'] for r in locale['entries'] if r['kind']=='fpb'}
-    core.require(set(targets)=={0,2},'unexpected FPB target windows')
-    new_fpb,fpb_info=rewrite_fpb(fpb,targets,encoder)
-    core.require(len(new_fpb)>len(fpb),'FPB growth missing')
-    ui_target=next(r['target'] for r in locale['entries'] if r['kind']=='fixed-display-slot')
-    new_ui,ui_info=rewrite_fixed_slot(ui,game['ui'],ui_target,encoder)
-    widths={name:estimate_widths(ui_target,encoder,serial) for name,serial in fonts.items()}
-    budget=next(r['max_estimated_pixels'] for r in locale['entries'] if r['kind']=='fixed-display-slot')
-    core.require(all(max(values)<=budget for values in widths.values()),'UI width budget exceeded')
-    core.require(bundle.count(ui)==1,'UI bundle copy not unique')
-    new_bundle,ui_segments=overlay_segments(bundle,[dict(label='ui',offset=bundle.index(ui),original=ui,modified=new_ui)],expected_sha256=bundle_report['modified_sha256'])
+    if 'text_resources' in locale:
+        sover,new_bundle,text_info=apply_display_resources(ship,bundle,encoder,locale['text_resources'],fonts,estimate_widths)
+        fpb_info,ui_info,ui_segments,widths=[],{},[],{}
+    else:
+        fpb,ui=ship[game['fpb_resource']],ship[game['ui_resource']]
+        core.require(core.digest(fpb)==game['expected_fpb_sha256'] and core.digest(ui)==game['expected_ui_sha256'],'original text mismatch')
+        targets={r['seq']:r['target'] for r in locale['entries'] if r['kind']=='fpb'}
+        core.require(set(targets)=={0,2},'unexpected FPB target windows')
+        new_fpb,fpb_info=rewrite_fpb(fpb,targets,encoder)
+        core.require(len(new_fpb)>len(fpb),'FPB growth missing')
+        ui_target=next(r['target'] for r in locale['entries'] if r['kind']=='fixed-display-slot')
+        new_ui,ui_info=rewrite_fixed_slot(ui,game['ui'],ui_target,encoder)
+        widths={name:estimate_widths(ui_target,encoder,serial) for name,serial in fonts.items()}
+        budget=next(r['max_estimated_pixels'] for r in locale['entries'] if r['kind']=='fixed-display-slot')
+        core.require(all(max(values)<=budget for values in widths.values()),'UI width budget exceeded')
+        core.require(bundle.count(ui)==1,'UI bundle copy not unique')
+        new_bundle,ui_segments=overlay_segments(bundle,[dict(label='ui',offset=bundle.index(ui),original=ui,modified=new_ui)],expected_sha256=bundle_report['modified_sha256'])
+        sover={game['fpb_resource'].lower():new_fpb,game['ui_resource'].lower():new_ui};text_info=[]
     name_overrides,new_bundle,name_info=apply_name_slots(ship,new_bundle,encoder,locale.get('name_slot_overlays',[]))
     compressed=recompress_chunked(new_bundle);core.require(decompress_chunked(compressed)==new_bundle,'compression round trip mismatch')
-    fover={'mrtsengine.u':engine,'celfid.lix':compressed};sover={game['fpb_resource'].lower():new_fpb,game['ui_resource'].lower():new_ui}
+    fover={'mrtsengine.u':engine,'celfid.lix':compressed}
     core.require(not set(sover).intersection(name_overrides),'name overlay collides with text target')
     sover.update(name_overrides)
     for entries,overrides in [(fe,fover),(se,sover)]:overrides[entries[0][0].lower()]=core.manifest_overlay(entries[0][1],{n:len(b) for n,b in overrides.items()})
@@ -87,13 +94,14 @@ def main() -> None:
     for name,data in recovered.items():core.require(data==(out/name).read_bytes(),'ISO archive readback mismatch')
     counts={font_data(serial)['glyphs'] for serial in fonts.values()};core.require(len(counts)==1,'Font counts differ');count=counts.pop()
     udf_records=[dict(label=x['label'],offset=x['offset'],bytes=len(x['modified']),sha256=core.digest(x['modified'])) for x in udf_plan['patches']]
-    report=dict(milestone='expanded-text-poc',source_sha256=game['expected_iso_sha256'],modified_sha256=core.file_digest(out/'MODIFIED_FILE.iso'),
+    record_count=len(display_cases(locale)) if 'text_resources' in locale else 3
+    report=dict(milestone=locale['milestone'],source_sha256=game['expected_iso_sha256'],modified_sha256=core.file_digest(out/'MODIFIED_FILE.iso'),
                 iso=validation,afs_changes=changes,package_sha256=core.digest(engine),bundle_sha256=core.digest(new_bundle),
                 fpb_records=fpb_info,ui=ui_info,ui_segments=ui_segments,candidate_ui_widths=widths,map=mapping['entries'],
-                glyphs_per_font=count,records=3,name_slots=name_info,udf_records=udf_records,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
+                glyphs_per_font=count,records=record_count,name_slots=name_info,text_resources=text_info,udf_records=udf_records,runtime='unverified; cached-stream growth candidate',source_iso=str(args.iso.resolve()))
     (out/'DIFF_FILE.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     core.require(core.file_digest(args.iso)==game['expected_iso_sha256'],'original ISO changed')
-    print(f"EXPANDED LOCALE STATIC PASS fonts=2 records=3 glyphs={count} in_place={branches[0]} relocated={branches[1]} iso_readback=true udf_synced={str(validation['udf_synced']).lower()} runtime=unverified")
+    print(f"EXPANDED LOCALE STATIC PASS fonts=2 records={record_count} glyphs={count} in_place={branches[0]} relocated={branches[1]} iso_readback=true udf_synced={str(validation['udf_synced']).lower()} runtime=unverified")
 
 
 if __name__=='__main__':main()

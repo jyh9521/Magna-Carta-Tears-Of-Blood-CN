@@ -2,10 +2,16 @@
   "schema": 1,
   "protected": [
     {
+      "path": "opening-trial-01/runnable/image/MODIFIED_FILE.iso",
+      "size": 3232739328,
+      "sha256": "ebb3a71de5b90d1f446fe7628283eef1dded6c111d77f9ffc474624b5f9c6ff3",
+      "role": "opening-trial-01-pending-runtime"
+    },
+    {
       "path": "name-slot-poc-01/image/MODIFIED_FILE.iso",
       "size": 3232653312,
       "sha256": "a47d5bdbe0c903a351f7d8f716f118994dfe4627aadefdd8e8c1b5dff4d8ef46",
-      "role": "current-name-candidate-partial-menu-observation"
+      "role": "name-baseline-partial-menu-observation"
     },
     {
       "path": "expanded-text-poc-03-udf/MODIFIED_FILE.iso",

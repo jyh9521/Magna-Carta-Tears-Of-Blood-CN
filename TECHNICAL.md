@@ -155,3 +155,9 @@ Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FP
 ## 姓名字段的局部运行观察（2026-10-09）
 
 单独修改CHA slot0及缓存副本的候选在编成、道具和角色详情页均显示“测试中文”。截图中的显示为Verified observation；资源到菜单的关联为High-confidence deduction，不能区分SHIP与缓存加载优先级，不证明其他四个同名slot用途或lookup安全性。详见 [姓名QA](docs/QA_NAME_POC.md)。
+
+## 多编码段与有界显示资源（2026-10-09）
+
+font_resource新增append_slots/verify_slots，将字形追加拆成非零trail-byte区段，各段含独立sentinel/base。317字库存使用D0/D1/D2三组94字符和D3组35字符；两Font2984 glyph，原2667 glyph与原映射保持。多段字库的完整原映射及317个新增码离线模型通过；最大游戏缓存容量仍未验证。
+
+display_resources按显式资源hash/窗口hash应用既有rewrite_fpb和rewrite_fixed_slot，固定字段限TUI首256 B。cached_copies必须显式为0/1并与原buffer匹配；若有完整副本则同步，不修改substring或推定linked group。AFS/ISO/SFD工具未重写。见 [有界试译QA](docs/QA_OPENING_TRIAL.md)。

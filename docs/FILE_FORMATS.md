@@ -173,3 +173,9 @@ locale可选数组，每条resource/expected_sha256/source_text/source_encoding/
 ### CHA slot0显示观察（2026-10-09）
 
 name-slot-poc-01只修改slot0及完整缓存副本；编成、道具与角色详情菜单已有中文姓名截图。显示已观察，不将同文slot4/8/169/229自动认定为linked group，亦不推定未知trailer字段语义。见 [姓名QA](QA_NAME_POC.md)。
+
+## text_resources与font_characters
+
+试译配置text_resources列表按resource/kind/expected_sha256/cached_copies/targets定位。FPB targets含seq/source_sha256/target；TUI targets含record profile/target/估算像素预算，profile固定8 B头、516 B记录、+4起点/256 B跨度。自动生成QA id为SHIP/resource/seq/N或SHIP/resource/record/ID/field/0。
+
+font_characters引用UTF-8 JSON唯一非ASCII字符列表，不含运行时编码；构建时在原Font尾部追加，字节值与glyph由同一分段规则推导。区段内trail byte A1–FE，当前D0至D3使用4段，跨段留gap和sentinel。33字旧批次的序列化结果保持兼容；具体2984 glyph资源尚无运行验收。

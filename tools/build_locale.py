@@ -29,6 +29,13 @@ def project_json(path: str) -> dict:
 def load_config(path: Path) -> tuple[dict, dict, MappedEncoder]:
     locale = json.loads(path.read_text(encoding="utf8"))
     game = project_json(locale["game_profile"])
+    if "text_resources" in locale:
+        from display_resources import character_entries, display_cases
+        chars = character_entries(locale, ROOT)
+        cases = display_cases(locale)
+        core.require(cases and len({r['id'] for r in cases}) == len(cases), 'duplicate or empty display cases')
+        core.require(set(c for r in cases for c in r['target'] if ord(c) > 127) <= {r['character'] for r in chars}, 'missing trial character')
+        return locale, game, None
     mapping = project_json(locale["glyph_map"])
     core.require(mapping["encoding"] == "mapped-double-byte", "unsupported map backend")
     encoder = MappedEncoder(mapping["entries"])

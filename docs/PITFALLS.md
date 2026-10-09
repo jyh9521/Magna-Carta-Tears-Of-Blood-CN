@@ -134,3 +134,9 @@ UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足
 ## 构建目录不等于可删除副本（2026-10-09）
 
 name-iso-21在名称测试尚未完成时被列为可删除事务；其镜像与保留候选同hash，但未完成测试状态应在清理建议前明确核对。目录名称、可重建性和实验用途不构成删除依据。当前保留清单与只读盘点见 [存储规则](BUILD_STORAGE.md)。
+
+## 有界试译字库超过单段（2026-10-09）
+
+317字符不能从D0A1连续递增而越过trail-byte=00。新builder按非零区段追加并保留sentinel。第一次试译pipeline在package阶段仍调用单段verify_append，报expanded mapping changed，未生成ISO；改为多段verify_slots后五阶段独立验证通过，失败receipt/log保留。不能为了继续构建删去原映射校验。
+
+原文TUI中的菜单标题可能不是实际像素标签来源；编辑同文TUI不保证LINEAR纹理标题变为中文。开场9句不等于后续所有剧情；00004060教程出现时机未确认。新试译只作为可玩回归辅助，不声称全UI或存档流程已验证。

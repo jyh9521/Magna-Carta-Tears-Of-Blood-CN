@@ -1,0 +1,1328 @@
+{
+  "locale": "zh-CN",
+  "game_profile": "profiles/scka-20043.json",
+  "font_input": {
+    "sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+    "family": "SimHei",
+    "license": "local Windows font experiment; not redistributed"
+  },
+  "alignment_reference": "测",
+  "advance": 19,
+  "milestone": "opening-trial-01",
+  "font_characters": "locales/zh-CN/opening-characters.json",
+  "text_resources": [
+    {
+      "resource": "00001944.fpb",
+      "kind": "fpb",
+      "expected_sha256": "77b8d80bb0989adfe2b7b73b4a06831f00774e036b5128db69b6fc35b097ca94",
+      "cached_copies": 0,
+      "targets": [
+        {
+          "seq": 0,
+          "target": "哈……哈……哈……哈……",
+          "source_sha256": "f25daef2220bfab791e1ef330d9dd8d3da02aad88339090320feba9e35058a04",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 1,
+          "target": "啊……！",
+          "source_sha256": "d4a5af9f669bd16359b6e303b34a338d549174af010e2fd58b51ff56b96dfde6",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 2,
+          "target": "再往前走一点，就到村子了。$n应该能找到照顾你的人。",
+          "source_sha256": "7abd3c298a3190f3ec2c73c5306a137687f6aff330e2c8179017545370e89fc2",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 3,
+          "target": "呜……可是……都是因为我……$n风月林才……",
+          "source_sha256": "36c1a6837d2a86fb4f00d902f2dbc42b78043d52d3d7e20ba7a1e7012cc1dda5",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 4,
+          "target": "风月林不是因为你才毁灭的。$n那些家伙只是来夺回东西。",
+          "source_sha256": "576da8a61e0ed27c0392a2fa61562301dc02eb8e9c2ce1e84303c75f9a8d3bd2",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 5,
+          "target": "什么？",
+          "source_sha256": "b283147c6d803aaccb83490b2e161f0625accb938bb16eac82cd8ba2d3e83a9d",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 6,
+          "target": "你渴望力量吗？即使双手染上鲜血，$n你也想守护自己珍视的东西吗？",
+          "source_sha256": "a93e65a4fb730e23752365161086fb8b867f4367d73414e8a3c5a87bd76f73ec",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 7,
+          "target": "那就跟我来。",
+          "source_sha256": "06a3b0f40b5969a02625b4cda7977ad0a29abdf42a20ab47fc6f8be9e1795399",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 8,
+          "target": "我想变得强大。$n但那时，我想要的$n并不是守护什么的力量。$n我想要的是……摧毁什么的力量。",
+          "source_sha256": "71f98b373fbca385f0f15bdd5d3fe17db981af2113c0ca807c0b13ac4ae02545",
+          "translation_status": "trial-draft"
+        }
+      ]
+    },
+    {
+      "resource": "00004060.fpb",
+      "kind": "fpb",
+      "expected_sha256": "27c2d9802b11ab4c7617a4cc47e9af5381e827b34f1a729757c836b29aeb183a",
+      "cached_copies": 0,
+      "targets": [
+        {
+          "seq": 0,
+          "target": "同伴对队长的友好度$n可以在露营模式中调整。$n靠近存档点，按○键，$n就能进入露营模式。",
+          "source_sha256": "c0c5fc491c0408f79972afd78b66c8f16e0b70c1fba6beba44470fb462a1b6fc",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 1,
+          "target": "进入露营模式后，可以选择一名同伴，与其交谈或赠送礼物。",
+          "source_sha256": "7165ec0f26fae647e4b6ad02475cbf621c22dd4621c87ddc7e7f6062f11df9d9",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 2,
+          "target": "交谈时选择的回答，以及赠送的礼物，都会改变同伴对队长的友好度。",
+          "source_sha256": "7f05bd014d734b406295a266c2be46fa30856f01ac7c0790fb82d805e19eb046",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 3,
+          "target": "不同的选择可能提高友好度，也可能降低友好度。",
+          "source_sha256": "67e68fb783b8a665dc0954d880838cd2e5a8195398185ee9471b11833917d680",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 4,
+          "target": "友好度会影响统率力，而统率力决定战斗中的行动次数。例如，统率力相同时，友好度越高，能进行的行动就越多。",
+          "source_sha256": "2cfe825d3a39c51bd805a485a5ff71800b5d9623dfeb5191c4b6df0e4ad57666",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 5,
+          "target": "礼物带来的友好度变化只是暂时的，过一段时间便会逐渐恢复。交谈带来的变化$n则会保留一部分。因此，交谈时需要更慎重。",
+          "source_sha256": "6cbb04b5f6b2646c185b6ef1e369e02d0d2ef033d1de4a082eccfcc2102447e3",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 6,
+          "target": "还有一点需要注意：$n想靠送礼提高友好度时，$n反复给同一名同伴送相同的礼物，$n效果并不会一直增加。",
+          "source_sha256": "f75842aff76d262b97d0056da82be1c2159ea2afdd185c876a72df6a19c6b1f9",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 7,
+          "target": "就像再美味的食物，吃得太多也会腻一样。",
+          "source_sha256": "aff2cf1f28076de6464cf96e48c2f81b47c443578fdafc84b69cb27909515e44",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 8,
+          "target": "通过交谈模式，可以了解同伴的心情和各种信息，记得经常查看。",
+          "source_sha256": "af3eab1bd56bc4d00e4d2b2d51f7ab731bbc63627deeef9a50716cb466dfb1bf",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 9,
+          "target": "队长，你知道露营模式怎么使用吗？",
+          "source_sha256": "9e8045e68bc6543dc19c0abc80ddc647d77ef03731c0aa50570f1390d7c57767",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 10,
+          "target": "不，还不太清楚。",
+          "source_sha256": "ab9d85a4d5e169121fee11a2b045ae8e9a79fc197c3a62da2aeaab9ffd35525d",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 11,
+          "target": "嗯，我知道。",
+          "source_sha256": "bffd2d2d92cbb5dc2b408a35f40f77f47fc2889ebe9e6988856e8d7a0cc28d03",
+          "translation_status": "trial-draft"
+        },
+        {
+          "seq": 12,
+          "target": "不愧是队长！那就出发吧？",
+          "source_sha256": "811fdf3f23394a69e9e87e7dda534a3f07f06d9b552ac3c4adf93a0f86e7375f",
+          "translation_status": "trial-draft"
+        }
+      ]
+    },
+    {
+      "resource": "00001240.tui",
+      "kind": "fixed-display-slot",
+      "expected_sha256": "e51d42d096a485949f27d23b8549eb0f56049099214ad688cb225590662e7a83",
+      "cached_copies": 1,
+      "targets": [
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 35,
+            "record_id": 41,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "0a37af8005ce3e6265d0e033f52c517b7315ba9c5671cdf2424b6ac376396b3f"
+          },
+          "target": "上一页/下一页",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 36,
+            "record_id": 42,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "e5495dab6e32d2cf8289126d1c22c11e58ca519f84477135a5a3aa170b15c463"
+          },
+          "target": "取消",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 37,
+            "record_id": 43,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "e5c4583cbf1ad9a166295fc4c22e9f5b2d4d5c48642e8e64afbf323e332e9a3e"
+          },
+          "target": "确定",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 38,
+            "record_id": 44,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "00dedf6d6785c6c1b53167ed38bc931a647ca7de94fd5e92db61e6916c0d9365"
+          },
+          "target": "切换角色",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 39,
+            "record_id": 45,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "e3b783a0f725c5464de8e11414b63a26113f386a21163a57dc856dba1da4c0f2"
+          },
+          "target": "移动光标",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 41,
+            "record_id": 47,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "f52137407d8d99521efc20341551aa0ccb9b425dcbd43f800478b747d72715a3"
+          },
+          "target": "对话窗口",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 42,
+            "record_id": 48,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "9131475ea50a1a1323d9df21aa66b6f0df2b2a8b9264d1d457d7af689fc92d5b"
+          },
+          "target": "对话速度",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 43,
+            "record_id": 49,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "8bf8fbad25ce82385b7876d720e1323d791edd6a96ac3b643b388905f96be541"
+          },
+          "target": "跳过对话",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 44,
+            "record_id": 50,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "6c35ea78436e4f19223c7406ac67ae0260c13aa34555efa68ad2696d69ddce0c"
+          },
+          "target": "震动",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 45,
+            "record_id": 51,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "d2423bdc84f7b23504b92ff93f76abe4cabd680960247fc7b1c91affd7ce8efd"
+          },
+          "target": "字幕",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 46,
+            "record_id": 52,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "537b89d58666d176b4142b24e20072a517d77feda34e8d17195d688077d99c1f"
+          },
+          "target": "声音",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 47,
+            "record_id": 53,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "1d956683995e9ff0e2d0581e54bce811f42db3d177777bf1c6bf2cb0b17c502d"
+          },
+          "target": "战斗帮助",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 88,
+            "record_id": 94,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "36bd7200f5a412b57541ec2eba374128e387bbc7f4f8a85c7cbbf3bd0984cb39"
+          },
+          "target": "要在旅馆住宿吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 89,
+            "record_id": 95,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "35103aeebb50d7071133ce10bb0b9c589d314acf8237531bbaa6f2c5ada55592"
+          },
+          "target": "要保存游戏吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 90,
+            "record_id": 106,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "8a955fd270f68d5f12b9d38131aeb10265d58b2b4fa08cdf3e02b5f186e68861"
+          },
+          "target": "要读取存档吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 91,
+            "record_id": 96,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "7826ebe8d8ef97e713b5392af54a9e83066d95f39656bc4cc938f9f0dc634c6a"
+          },
+          "target": "正在检查插槽1中的",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 92,
+            "record_id": 166,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "7fc56c8be0b41747d078183dc0e39ca7cc13ffdb88c7531411446edf0ebb2689"
+          },
+          "target": "记忆卡(PS2)。请勿关闭电源，",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 93,
+            "record_id": 165,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "a56aa68850096bf37a641fe0ae54166e42568f4b2c067e02c2b7ba2d6b22d519"
+          },
+          "target": "也勿拔出记忆卡(PS2)。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 94,
+            "record_id": 164,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "c6a516be3537ae65ca29493188ecfd1fe209ae0c4195812a10c5534781707ccd"
+          },
+          "target": "记忆卡插槽1中",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 95,
+            "record_id": 194,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "660b9d208c15e17cfa53852f63fea516efdafc9f2a389958350ff95ccea09605"
+          },
+          "target": "没有记忆卡(PS2)。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 96,
+            "record_id": 163,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "0282398c0b1952a38dbf2ae706bb834e416e90f497ae65c3ad96a52f8458c58f"
+          },
+          "target": "保存新的游戏数据需要",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 97,
+            "record_id": 162,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "df3d5909a3f1afb0d0a85ef2a60f73fdcb2f42a6c69e2760258a0849825ba754"
+          },
+          "target": "至少80KB的可用空间。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 98,
+            "record_id": 195,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "180400b11adfa83d02df9b8e38d50c4bb079102236016eb8e3ede9096999606d"
+          },
+          "target": "要继续开始游戏吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 99,
+            "record_id": 161,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "c67cc11a4f35d8795050a7910953e3a86b3a8343f06dc1c53b949f27eacc5a94"
+          },
+          "target": "记忆卡插槽1中的",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 100,
+            "record_id": 196,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "8dc4ecd1c94c32222cb2007549d6109c35c20478da12091e665745785c1253bd"
+          },
+          "target": "记忆卡(PS2)可用空间不足。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 101,
+            "record_id": 160,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "3519f05db13dfc5b0562f1a336167a9bceebedf800b826f37f2996c5d932e7b8"
+          },
+          "target": "保存新的游戏数据需要",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 102,
+            "record_id": 159,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "946a30c592a2f5aa6a38c8a3851f7d5ef1cb066d0e0817f787c24d0369786a82"
+          },
+          "target": "要继续开始游戏吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 103,
+            "record_id": 158,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "77a55dd4eef4a3011271d7aa0d42b66cfc4a7ae9a08702a9768da8fa0f67a57b"
+          },
+          "target": "记忆卡插槽1中",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 104,
+            "record_id": 197,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "b335e25a6b0250c2de3de7bd4f397cb5b013af75f2c15d4846c5ad72e08437c3"
+          },
+          "target": "没有记忆卡(PS2)。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 105,
+            "record_id": 157,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "4da1ed6c364c773090d77117b292e3dcc543ff283215a2379c3bf06b24b0b39f"
+          },
+          "target": "要继续保存吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 106,
+            "record_id": 198,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "5fe70cca80564ff8e0117eae50619f08611fd401c842114bf820b49123831f0c"
+          },
+          "target": "要继续读取吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 107,
+            "record_id": 156,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "9cce2a150c9ee5c3d6cb115e13bed6ae9e57b3fde7b116df2a73ff20b1774465"
+          },
+          "target": "格式化失败。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 109,
+            "record_id": 154,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "196a8372f352c27c0e00af4ecc5466848350eaa84e92b9a07f5a41ee7f6ccf08"
+          },
+          "target": "是",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 110,
+            "record_id": 153,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "425821a4e014b1f8ff1bfae9e2620d2ab1ad587886ce65deb69ec0f6d54ba650"
+          },
+          "target": "否",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 112,
+            "record_id": 151,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "df3d5909a3f1afb0d0a85ef2a60f73fdcb2f42a6c69e2760258a0849825ba754"
+          },
+          "target": "至少80KB的可用空间。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 114,
+            "record_id": 149,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "812dda0b86654b83d4c86380d2870a9593392d62410cd91995e9754e62206f31"
+          },
+          "target": "请选择要保存的存档位置。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 116,
+            "record_id": 147,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "5b0e92ae8248200c7c28652f9f5dd3648b664f84db17c46f9b15e7d5c68ce880"
+          },
+          "target": "请选择要读取的存档。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 117,
+            "record_id": 146,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "a12a70da31274d56ad86bec0ab5ef4884df3aa22bbe0074fabd908f663158eb3"
+          },
+          "target": "要保存到这里吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 118,
+            "record_id": 145,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "48c7d0d8d1ec23216665458c1dc8389a0ec90395c789e4cb92ac316b6033b373"
+          },
+          "target": "要读取这个存档吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 119,
+            "record_id": 144,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "b787c26db8494daaf08f0cc8bb974947d9f89672598fa68a088824c3d523439f"
+          },
+          "target": "已有存档。要覆盖吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 120,
+            "record_id": 143,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "12ee90ef2a66632af186b96a2566100780ffe43312da10ad61413249ef4bee5f"
+          },
+          "target": "正在保存。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 121,
+            "record_id": 199,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "668cbca1809e685dcb90f4c5aed277a754418fb2eb854542214d85c281ddad73"
+          },
+          "target": "请勿关闭电源，也勿拔出",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 122,
+            "record_id": 142,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "a2560e02aee552cdecebbf3a88586e175360c2a2a45fbb7b0290cd4b7de8c690"
+          },
+          "target": "记忆卡(PS2)。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 123,
+            "record_id": 180,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "8dc4ecd1c94c32222cb2007549d6109c35c20478da12091e665745785c1253bd"
+          },
+          "target": "记忆卡(PS2)可用空间不足。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 124,
+            "record_id": 179,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "cc562f79cc21a91f44a922a7f7e2017c8bf21fe046a0a6436fd42b3cffc02f35"
+          },
+          "target": "保存新存档需要80KB可用空间。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 125,
+            "record_id": 178,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "1b0f340e0385f17f37513ba312f8c74f2d4126cc3a2dfac6cf63af604633a257"
+          },
+          "target": "保存完成。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 126,
+            "record_id": 177,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "4d66093b77e5bf740b2ca10b8e1e08e07c6915d559c638d357ca0be4c5008cf4"
+          },
+          "target": "读取完成。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 127,
+            "record_id": 176,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "0796855b7280043dcc7015ac77807726e3abd35452ac39f70b633ea29559f934"
+          },
+          "target": "没有存档。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 128,
+            "record_id": 175,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "a4e3b7245de5b0dc52303169372e700edb104fe14dae9440f418b952c9bf720d"
+          },
+          "target": "正在读取。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 129,
+            "record_id": 200,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "668cbca1809e685dcb90f4c5aed277a754418fb2eb854542214d85c281ddad73"
+          },
+          "target": "请勿关闭电源，也勿拔出",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 130,
+            "record_id": 174,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "a2560e02aee552cdecebbf3a88586e175360c2a2a45fbb7b0290cd4b7de8c690"
+          },
+          "target": "记忆卡(PS2)。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 131,
+            "record_id": 186,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "6a9ed83509f99f07f2a8d26bb3be5e49ed883d49be687c09d89076a06ce91740"
+          },
+          "target": "记忆卡插槽1中的",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 132,
+            "record_id": 201,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "fe053f2a76c3ad4df0887bcd4f2e9abd41235315dd1897b19fa54076bf625772"
+          },
+          "target": "记忆卡(PS2)尚未格式化。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 133,
+            "record_id": 172,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "de66f4d28aaf72645aa5e356cbc278c4b234363a2e36e7d5105c0dff7758bda9"
+          },
+          "target": "要格式化吗？",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 134,
+            "record_id": 171,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "1e773684cfca3c984dba60dbc20402c4ff8f5c31e68702933c50a394be3f4fce"
+          },
+          "target": "记忆卡(PS2)",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 135,
+            "record_id": 202,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "bcdcb599f1ddc983c4e96efa7124c938e6049aa6b247fc36c0d5c29ade725435"
+          },
+          "target": "不在记忆卡插槽1中。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 136,
+            "record_id": 170,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "b5f569d0585c080c7959dc9df12c510f7a91f640d509bedb057da18cb7734199"
+          },
+          "target": "未能正确保存数据。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 137,
+            "record_id": 169,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "2012053277390ef10b73a6418550920feae439c3ddb8fec970f2f746da579776"
+          },
+          "target": "存档已损坏。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 138,
+            "record_id": 205,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "6189bae522efc83a36a3de20b973fe6e8feeadc2b94ccb5f426717caf9bd04c5"
+          },
+          "target": "记忆卡(PS2)已格式化。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 139,
+            "record_id": 204,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "7f9cf585bdb97d3bfdba86f7e3db01e0dc4dab2a6561ec2d374e6bce59d8b1f3"
+          },
+          "target": "正在格式化。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 140,
+            "record_id": 206,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "9b836a8d75217401ef69aef8586ff107dd699e13b5458aad1aa19b3a962fc371"
+          },
+          "target": "读取存档失败。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 163,
+            "record_id": 225,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "83bcd8e787feac255a655c5718b6fbfcaa0af31211ae415c843cc2d625d3a758"
+          },
+          "target": "按下按钮可跳过事件。",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 164,
+            "record_id": 226,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "e753ec07c7991e7473f1c73a2aa6bdfe5c667cffd0edecf62593e8e7803fa24f"
+          },
+          "target": "露营模式",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 165,
+            "record_id": 227,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "7bc419145afb3d544b4fed7fe19ef162a4cb23a9c0fcd2e6b983e7a20c6a4a37"
+          },
+          "target": "休息",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 166,
+            "record_id": 228,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "999e8779135b8e2fcebb64feda443003a2c0ab95e4c89f91142cb599ad3017af"
+          },
+          "target": "交谈",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 167,
+            "record_id": 229,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "d85d2e87243d9a00a3b8ab37115b73c14c24009274d2ccaa61ccbd088c634210"
+          },
+          "target": "送礼",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 168,
+            "record_id": 230,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "4470741a46cab29ab8da4295d324e2c56ce0cce8165f1b1190d7a5a4467d2154"
+          },
+          "target": "保存",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 170,
+            "record_id": 232,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "7667feada5ed6941ec31d4cb14ad4e2009ea7fa0733a910b270d27a3e047c27e"
+          },
+          "target": "读取",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        },
+        {
+          "profile": {
+            "header_size": 8,
+            "record_size": 516,
+            "text_offset": 4,
+            "text_bytes": 256,
+            "record_index": 180,
+            "record_id": 242,
+            "record_count": 243,
+            "kind": 2,
+            "expected_slot_sha256": "5360cf795ec545d6a9bdea4ceb4ba344af9112ac98b8bf661b07d3f36aeb7f31"
+          },
+          "target": "返回标题画面",
+          "max_estimated_pixels": 440,
+          "translation_status": "trial-draft"
+        }
+      ]
+    }
+  ],
+  "name_slot_overlays": [
+    {
+      "resource": "00000460.cha",
+      "expected_sha256": "bf86e54bcbb7c0fa9698a63be5ee41a7e6d05b43c9ecb23793441ccbfc079ef1",
+      "source_text": "칼린츠",
+      "source_encoding": "cp949",
+      "expected_slots": [
+        0,
+        4,
+        8,
+        169,
+        229
+      ],
+      "targets": [
+        {
+          "slot": 0,
+          "target": "卡琳兹"
+        }
+      ]
+    }
+  ],
+  "deferred_texture_labels": [
+    {
+      "record_id": 0,
+      "draft": "编成",
+      "status": "not-applied; display versus texture lookup unverified"
+    },
+    {
+      "record_id": 190,
+      "draft": "道具",
+      "status": "not-applied; display versus texture lookup unverified"
+    },
+    {
+      "record_id": 138,
+      "draft": "装备",
+      "status": "not-applied; display versus texture lookup unverified"
+    },
+    {
+      "record_id": 141,
+      "draft": "流派",
+      "status": "not-applied; display versus texture lookup unverified"
+    },
+    {
+      "record_id": 140,
+      "draft": "信息",
+      "status": "not-applied; display versus texture lookup unverified"
+    },
+    {
+      "record_id": 191,
+      "draft": "设置",
+      "status": "not-applied; display versus texture lookup unverified"
+    }
+  ]
+}

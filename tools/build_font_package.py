@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / 'tools'), str(ROOT / 'src')]
 import font_poc as core
 from research_inventory import package_tables
-from font_resource import verify_append
+from font_resource import verify_slots
 from package_resource import replace_exports
 
 
@@ -37,7 +37,7 @@ def main() -> None:
         item = expansion['fonts'][name]
         core.require(core.digest(old) == game['fonts'][name] == item['original_sha256'], 'original Font mismatch')
         core.require(core.digest(new) == item['modified_sha256'], 'expanded Font mismatch')
-        verify_append(old, new, item['new_mapping_cases'], int(expansion['code_start'], 16))
+        verify_slots(old, new, item['new_mapping_cases'], int(expansion['code_start'], 16))
         replacements[entry['index']] = new
     core.require(len(replacements) == len(game['fonts']) == 2, 'expected two expanded Fonts')
     modified, report = replace_exports(engine, replacements, expected_sha256=game['expected_engine_sha256'], expected_version=(118, 15))

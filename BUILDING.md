@@ -161,3 +161,7 @@ tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原
 ## 构建存储
 
 只保留明确登记的当前候选与基线；未登记产物不自动判为可删除。只读盘点、hash核对及清单规则见 [构建存储](docs/BUILD_STORAGE.md)。日常合成测试和源码回滚不复制完整ISO。
+
+## 有界开场与存档UI试译
+
+使用--locale locales/zh-CN/opening-trial-01.json运行现有五阶段pipeline；覆盖91正文字段及1个姓名。text_resources显式列出资源hash、FPB seq/source窗口hash或TUI单256 B profile，不再要求恰好三条测试文本。font_characters为字符库存，不拿旧韩文字节槽作为新字库映射。实际范围、候选hash和步骤见 [开场试译QA](docs/QA_OPENING_TRIAL.md)。仅新增一份测试ISO；完整存读档回归仍待完成。

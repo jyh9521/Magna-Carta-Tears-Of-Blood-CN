@@ -20,3 +20,7 @@ schema1报告mode=read-only、deletion_authorized=false；它不生成删除命�
 ## 2026-10-09 实测
 
 两份保留ISO各3232653312 B；hash与清单一致。只读盘点确认iso_count=2、protected_count=2，没有新ISO副本。本地报告位于build/name-qa-22/storage.json，文件只包含路径与hash，不包含游戏资源。
+
+## 有界试译新增候选
+
+opening-trial-01新增一份待测ISO并登记为protected；此前两份镜像暂时保留，未执行清理。当前清单共3份ISO，不能把新候选pending-runtime状态误判为可删除；后续保留数量按实际验收与明确清理清单调整。源码测试/回滚和独立复核只生成小型源码与资源，不创建第二份试译ISO。

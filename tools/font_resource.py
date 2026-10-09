@@ -72,3 +72,47 @@ def verify_append(original: bytes, modified: bytes, added: int, start_code: int)
             and after['bases'] == before['bases'] + [before['glyphs'], after['glyphs']], 'expanded mapping changed')
     return dict(original_glyphs=before['glyphs'], expanded_glyphs=after['glyphs'], added_glyphs=added,
                 original_bitmap_preserved=True, original_metrics_preserved=True, unknown_tail_preserved=True)
+
+
+def code_chunks(count: int, start: int) -> list[tuple[int, int]]:
+    """Use bounded nonzero trail-byte bands, with a sentinel between bands."""
+    require(type(count) is int and count > 0 and type(start) is int, 'invalid expansion count/start')
+    chunks = []
+    while count:
+        require(0x8000 <= start <= 0xFFFE and 1 <= (start & 255) <= 254, 'invalid expansion code band')
+        size = min(count, 255 - (start & 255))
+        chunks.append((start, size)); count -= size
+        start = (((start >> 8) + 1) << 8) | 0xA1
+    return chunks
+
+
+def expanded_entries(characters: list[dict], first: int, start: int) -> list[dict]:
+    result = []
+    for code, count in code_chunks(len(characters), start):
+        for value in range(code, code + count):
+            result.append(dict(character=characters[len(result)]['character'], bytes=f'{value:04X}', glyph=first + len(result)))
+    return result
+
+
+def append_slots(serial: bytes, count: int, start: int, *, expected_sha256: str) -> bytes:
+    require(hashlib.sha256(serial).hexdigest() == expected_sha256, 'source Font fingerprint mismatch')
+    result = serial
+    for code, size in code_chunks(count, start):
+        info = font_data(result)
+        result = append_font(result, bytes(size * info['height'] * info['row_stride']), bytes(size), code,
+                             expected_sha256=hashlib.sha256(result).hexdigest())
+    return result
+
+
+def verify_slots(original: bytes, modified: bytes, count: int, start: int) -> dict:
+    before, bitmap, metrics, tail = parts(original)
+    after, new_bitmap, new_metrics, new_tail = parts(modified)
+    ranges, bases, total = list(before['ranges']), list(before['bases']), before['glyphs']
+    for code, size in code_chunks(count, start):
+        ranges.extend([code, code + size]); bases.extend([total, total + size]); total += size
+    require(after['glyphs'] == total and after['ranges'] == ranges and after['bases'] == bases, 'expanded slot mapping mismatch')
+    require(modified[:11] == original[:11] and modified[15:27] == original[15:27], 'header geometry changed')
+    require(new_bitmap[:len(bitmap)] == bitmap and new_metrics[:len(metrics)] == metrics and new_tail == tail,
+            'original Font data changed')
+    return dict(original_glyphs=before['glyphs'], expanded_glyphs=total, added_glyphs=count,
+                original_bitmap_preserved=True, original_metrics_preserved=True, unknown_tail_preserved=True)
