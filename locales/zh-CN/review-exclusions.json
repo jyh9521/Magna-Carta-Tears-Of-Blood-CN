@@ -1040,6 +1040,18 @@
       "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
       "status": "needs-source-review",
       "reason": "Isolated numeric or letter marker; runtime meaning and text visibility not confirmed; retained in source review, not translated."
+    },
+    {
+      "id": "SHIP/00011449.fpb/seq/3",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated numeric marker; runtime meaning and visibility unconfirmed; not translated."
+    },
+    {
+      "id": "SHIP/00011943.fpb/seq/18",
+      "source_sha256": "8261ba8afbceb2a9151714bdc444127b76556fc9fea922bbaab04716a7feb9dc",
+      "status": "needs-source-review",
+      "reason": "Audio/editor silence label candidate; context and runtime visibility unconfirmed; not translated as dialogue."
     }
   ]
 }

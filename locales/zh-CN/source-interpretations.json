@@ -345,6 +345,110 @@
       "status": "verified-static-roundtrip",
       "catalog_reference_preserved": true,
       "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/2",
+      "source_sha256": "262052d3c28c34b95df5ed9083c3fe211bbd259470ff9b56a30c73f69de4e3cd",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/5",
+      "source_sha256": "eb932174d381fb95ef11cd63704ab0ef67a87a98009dbadeb0a4a2d9b23ac4dd",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/7",
+      "source_sha256": "d9778a61bc8f7adbb633e0e37837a736c82d528100beaa5fa633d9165c346d76",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/8",
+      "source_sha256": "1f97643721411404f2dadf5eef87b008cd25f8aecf0e0d392bd947194e397b48",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/10",
+      "source_sha256": "c3dd9a756a919c4fe6e97294e6a70bad1e30253c09deabf3f92232d813796776",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/11",
+      "source_sha256": "a4c8689bdb2420fce6b976123492cb0832674d588c49e198db3946fa445f52f8",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/15",
+      "source_sha256": "de033afd8c9b0b1e981c0c540d2e3429c9b21c1ad5b356d4a4f81d8ec426bb87",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/21",
+      "source_sha256": "cb8b920239f2687632c6e63b3f3e06f316b417e4a01b9ea8fb5e5500ab72b0ff",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/22",
+      "source_sha256": "ad4b85f448fb00ffaf53cfe9877553d59118e4a4089264b9663daa1147e38995",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/24",
+      "source_sha256": "ec9d2c860bd3f4de5df1d1740a0b855d5a5835e9b174fafe80a57d85cc4bfb2d",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/25",
+      "source_sha256": "ef0d406dbb26eff88e939950458cc1074dc03b69785d8efd7767984a330c264c",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/29",
+      "source_sha256": "8f3259a8edbf0241d4d924ed2971b059e26c775bcb0b796ca1988da293931b71",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/30",
+      "source_sha256": "92e169aa30c27fc9f0e5d38446b21c60f1e8fd2229785c7f3ac2205c6be059cc",
+      "source_encoding": "cp932",
+      "status": "verified-static-roundtrip",
+      "catalog_reference_preserved": true,
+      "reinsertion_approved": false
     }
   ]
 }
