@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "source_iso_sha256": "6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45",
+  "movies": 46,
+  "decoded_frames": 72696,
+  "video_timeline_seconds": 2425.6232,
+  "full_source_hash_matches": 46,
+  "decode_exit_zero": 46,
+  "decoder_errors": 0,
+  "frame_sampling": false,
+  "exhaustive_visual_transcription": false,
+  "exhaustive_spoken_transcription": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending",
+  "framehash_output_bytes": 8152394
+}

@@ -321,3 +321,8 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### celfid 原生尾部纹理补核
 
 新增一个有界 P8 纹理／Palette 与 4 mip 全部检查；8×64 等细长 mip 先读 dimensions，再读 pixel count，不能沿用此前宽高同时不超过 8 的观察作为全局规则。图像未发现完整正文，StaticMesh 与全文门禁仍未闭合。详见 [尾部纹理核查](STREAM_TEXTURE_TAIL.md)。
+
+
+### SFD 全帧解码补核
+
+46 个影片全量解码 72696 帧，全部输入 hash／退出码通过，error 日志为空；实际视频时轴合计 2425.6232 秒。逐帧 hash 不等于逐帧文字转写，抽样视觉结论未升级，全文门禁仍为 false。详见 [全帧解码核查](MOVIE_FULL_DECODE.md)。
