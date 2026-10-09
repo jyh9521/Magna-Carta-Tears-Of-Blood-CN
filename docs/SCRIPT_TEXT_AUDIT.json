@@ -1,0 +1,14 @@
+{
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "counts": {
+    "ordinary_packages": 10,
+    "text_buffers": 568,
+    "cp949": 394,
+    "utf-16-le": 174
+  },
+  "literal_candidates": 2993,
+  "parse_questions": 0,
+  "complete_game_text": false,
+  "exhaustive_script_semantics": false,
+  "streamed_serial_mapping": "unresolved"
+}
