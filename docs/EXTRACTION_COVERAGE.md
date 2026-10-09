@@ -102,3 +102,8 @@ FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1
 ### 普通编译脚本完整结构核查
 
 8032 个 Function／NativeFunction／State／Struct 全部 serial 闭合，1207 个字符串常量、5 个含韩文、0 解码失败；运行可见性与流式脚本未完成。详见 [编译脚本核查](COMPILED_SCRIPT_AUDIT.md)。
+
+
+### FPB 池余段纳入统一源引用
+
+当前统一集合为 998 资源／19143 字段（14634 非空），6 段／802 B 非索引池余段已保留，6334 初稿关联不变。167 活跃解码失败重新核验；非索引片段不伪造 sequence ID 或导入。详见 [池余段统一集合](POOL_REFERENCE_CORPUS.md)。

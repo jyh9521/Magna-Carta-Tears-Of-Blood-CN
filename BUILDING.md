@@ -185,3 +185,8 @@ work/venv/Scripts/python.exe -X utf8 tools/export_review.py --catalog work/catal
 ### 统一源集合更新
 
 已核查布局重组为 998 资源／19137 字段（14628 非空），6334 草稿全部保留精确关联；167 CP949 失败／101 控制结构隔离。旧 15121 字段为前一版集合，非全游戏无遗漏结论。详见 [统一集合](docs/AUDITED_CORPUS.md)。
+
+
+### FPB 池余段纳入统一源引用
+
+当前统一集合为 998 资源／19143 字段（14634 非空），6 段／802 B 非索引池余段已保留，6334 初稿关联不变。167 活跃解码失败重新核验；非索引片段不伪造 sequence ID 或导入。详见 [池余段统一集合](docs/POOL_REFERENCE_CORPUS.md)。
