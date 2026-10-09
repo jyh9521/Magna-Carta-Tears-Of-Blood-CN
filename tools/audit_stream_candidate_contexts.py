@@ -5,7 +5,7 @@ Containment is byte context, never visible-text classification or edit permissio
 from pathlib import Path
 from bisect import bisect_right
 from collections import Counter
-import argparse,json,sys
+import argparse,json,sys,struct
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT/'tools'),str(ROOT/'lib')]
 import font_poc as core
@@ -59,11 +59,42 @@ def build_spans(bundle,core_map,dependency_map,tables):
     core.require(core_map['stop_offset']==dependency_map['start'] and dependency_map['end']==3201448,'oracle boundary identity')
     return index
 
+def wrapper_record(bundle,start,name,size):
+    core.require(type(start) is int and 0<=start and start+132<=len(bundle),'wrapper record bounds')
+    encoded=name.encode('ascii');core.require(0<len(encoded)<128 and type(size) is int and 0<size<=0xffffffff,'wrapper record identity')
+    wanted=encoded+bytes(128-len(encoded))+struct.pack('<I',size)
+    core.require(bundle[start:start+132]==wanted,'wrapper record mismatch')
+    return dict(start=start,end=start+132,kind='source-wrapper-record')
+
+
+def supplementary_spans(bundle,tables,configs):
+    rows=[]
+    for table in tables:
+        start=table['package_offset']-264
+        for offset in [start,start+132]:rows.append(wrapper_record(bundle,offset,table['wrapper_path'],table['original_package_size']))
+    for name,raw in configs.items():
+        core.require(bool(raw),'empty config mirror')
+        start=0
+        while True:
+            offset=bundle.find(raw,start)
+            if offset<0:break
+            start=offset+1
+            rows.append(wrapper_record(bundle,offset-264,name,len(raw)))
+            rows.append(wrapper_record(bundle,offset-132,name,len(raw)))
+            rows.append(dict(start=offset,end=offset+len(raw),kind='source-identical-config-body',resource='FILE/'+name,sha256=core.digest(raw)))
+    for offset,name in [(0,'psx2game.ini'),(132,'psx2user.ini')]:
+        core.require(name in configs,'missing initial manifest source')
+        rows.append(wrapper_record(bundle,offset,name,len(configs[name])))
+    return SpanIndex(rows)
+
+
 def audit(archive,corpus_path,core_path,dependency_path,out):
     for path,wanted in [(archive,FILE_HASH),(corpus_path,CORPUS_HASH),(core_path,CORE_MAP_HASH),(dependency_path,DEPENDENCY_MAP_HASH)]:
         core.require(core.file_digest(path)==wanted,'input identity mismatch: '+str(path))
     afs=Afs.open(archive);names=filename_toc(afs)
-    with archive.open('rb') as f:bundle,_=unpack_chunks(afs.read_entry(names.index('celfid.lix'),f))
+    with archive.open('rb') as f:
+        bundle,_=unpack_chunks(afs.read_entry(names.index('celfid.lix'),f))
+        configs={name:afs.read_entry(i,f) for i,name in enumerate(names) if name.lower().endswith(('.ini','.int'))}
     core.require(core.digest(bundle)==BUNDLE_HASH,'bundle mismatch')
     corpus=json.loads(corpus_path.read_text('utf8'));tables=probe_all_packages(bundle)
     index=build_spans(bundle,json.loads(core_path.read_text('utf8')),json.loads(dependency_path.read_text('utf8')),tables)
@@ -75,15 +106,16 @@ def audit(archive,corpus_path,core_path,dependency_path,out):
             end=start+resource['size'];core.require(core.digest(bundle[start:end])==mirror['sha256'],'mirror mismatch')
             mirrors.append(dict(start=start,end=end,kind='resource-mirror',resource=mirror['resource']))
     mirror_index=SpanIndex(mirrors)
+    extra_index=supplementary_spans(bundle,tables,configs)
     rows=[];counts=Counter();ids=set()
     for candidate in corpus['celfid_candidates']:
         ident=candidate['id'];core.require(ident not in ids,'duplicate candidate');ids.add(ident)
         start,size=candidate['offset'],candidate['source_bytes'];core.require(0<=start<start+size<=len(bundle),'candidate bounds')
         core.require(core.digest(bundle[start:start+size])==candidate['source_sha256'],'candidate hash')
-        found=index.containing(start,size) or table_index.containing(start,size) or mirror_index.containing(start,size)
+        found=index.containing(start,size) or table_index.containing(start,size) or mirror_index.containing(start,size) or extra_index.containing(start,size)
         category=found['kind'] if found else 'unresolved-byte-context';counts[category]+=1
         rows.append(dict(id=ident,offset=start,bytes=size,source_sha256=candidate['source_sha256'],category=category,context=found,semantic_review='pending',editable=False))
-    summary=dict(schema=1,candidates=len(rows),counts=dict(sorted(counts.items())),oracle_spans=len(index.rows),oracle_stop=3201448,all_candidate_hashes_checked=True,semantic_review_complete=False,complete_game_text=False,source_modified=False,translation_gate='coverage-audit-pending',corpus_sha256=CORPUS_HASH,core_map_sha256=CORE_MAP_HASH,dependency_map_sha256=DEPENDENCY_MAP_HASH)
+    summary=dict(schema=1,candidates=len(rows),counts=dict(sorted(counts.items())),oracle_spans=len(index.rows),supplementary_spans=len(extra_index.rows),oracle_stop=3201448,all_candidate_hashes_checked=True,semantic_review_complete=False,complete_game_text=False,source_modified=False,translation_gate='coverage-audit-pending',corpus_sha256=CORPUS_HASH,core_map_sha256=CORE_MAP_HASH,dependency_map_sha256=DEPENDENCY_MAP_HASH)
     out=core.output_directory(out);core.require(not any(out.iterdir()),'output must be empty')
     for name,value in [('contexts.json',rows),('summary.json',summary)]:
         p=out/name;p.write_text(json.dumps(value,indent=2)+'\n','utf8');core.require(json.loads(p.read_text('utf8'))==value,'JSON reopen')

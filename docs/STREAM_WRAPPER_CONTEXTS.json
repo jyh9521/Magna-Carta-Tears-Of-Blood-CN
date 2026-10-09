@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "candidates": 35048,
+  "counts": {
+    "bounded-script-prefix": 10219,
+    "resource-mirror": 2595,
+    "source-identical-config-body": 250,
+    "source-identical-field": 2232,
+    "source-identical-ini": 209,
+    "source-identical-native-object": 1410,
+    "source-wrapper-record": 11,
+    "stream-package-table": 5776,
+    "stream-package-tables": 11005,
+    "texture-mip-order-projection": 369,
+    "unresolved-byte-context": 972
+  },
+  "oracle_spans": 38499,
+  "supplementary_spans": 29,
+  "oracle_stop": 3201448,
+  "all_candidate_hashes_checked": true,
+  "semantic_review_complete": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending",
+  "corpus_sha256": "a9c7a9b0344cfebeda01014ffab83c00dd94e7e4b5de4d286eedc3447d031c18",
+  "core_map_sha256": "67be6726e872ed6952648c040467597cafa0f5cfc64edc51060db391d4b03f2a",
+  "dependency_map_sha256": "2ced391d961ce51fc6ed97073b316f35aab3f94948d1f28e5c8ff8b2e49313de"
+}
