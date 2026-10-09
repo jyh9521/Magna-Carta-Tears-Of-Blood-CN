@@ -1,0 +1,520 @@
+{
+  "schema": 2,
+  "equivalent_native_enabled": true,
+  "native_ambiguous_spans": 7,
+  "parsed_table_only_spans": 2,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "bundle_sha256": "04ed29c9c4e65b1f14c4c2ae4b8578ad147af42b7dbaecdc62f57a3af56e3536",
+  "start": 262948,
+  "stop_offset": 3201448,
+  "continuous_diagnostic_bytes": 2938500,
+  "root_requests": 532,
+  "completed_piece_sets": 28441,
+  "piece_observations": 36536,
+  "embedded_spans": [
+    {
+      "kind": "source-identical-ini",
+      "name": "psx2user.ini",
+      "start": 347159,
+      "end": 353432,
+      "bytes": 6009,
+      "sha256": "dfd842d9a78058dbbeb6f9993483ba669532e9d36291f0470a33fe03f0558c9a"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        85
+      ],
+      "start": 429023,
+      "end": 430514,
+      "mips": 4,
+      "source_sha256": "819cabc0a6a0477cd2eeda649733f0499412189a0ca4130692ba50bf70e45a28",
+      "stream_sha256": "5a8858b92e14e078c1264fd5e2b0476727d30c904c351f0585f31c1287dc2c1e"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          144
+        ]
+      ],
+      "identity_unique": true,
+      "start": 450211,
+      "end": 452814,
+      "bytes": 2603,
+      "sha256": "8384f39991f2e27fcdb44beb86acbbbe97e674d7a8fed4cb64f3841838416eb1"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        200
+      ],
+      "start": 468103,
+      "end": 484572,
+      "mips": 1,
+      "source_sha256": "f96342566a689ba18366ccbec150c42da2f66ff39c68afaf640433617e3e048b",
+      "stream_sha256": "f96342566a689ba18366ccbec150c42da2f66ff39c68afaf640433617e3e048b"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          239
+        ],
+        [
+          "UWindow.u",
+          180
+        ]
+      ],
+      "identity_unique": false,
+      "start": 487115,
+      "end": 488142,
+      "bytes": 1027,
+      "sha256": "94fbba8cea927fe2cba928dd1f4349a1187c25cb784dbf92b7baa3eebd377c32"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          362
+        ]
+      ],
+      "identity_unique": true,
+      "start": 499442,
+      "end": 500469,
+      "bytes": 1027,
+      "sha256": "b114d6a5e12a439f41a57be635747e16c9d3d905f3bd03707505c4a6b95e17c0"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        416
+      ],
+      "start": 503770,
+      "end": 505269,
+      "mips": 4,
+      "source_sha256": "92777a381be9db094ca00bc4b91dfeb846fdc3eabc9391f5dd9cc8923488e3b8",
+      "stream_sha256": "85ef74e8694474adad1ec230d5b0b68305e90144827774206d16edd270c01f4d"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          463
+        ]
+      ],
+      "identity_unique": true,
+      "start": 507485,
+      "end": 510088,
+      "bytes": 2603,
+      "sha256": "fe81057e9461cbdbd66defff89097e31984a0a94867d3d10615a78f9fb74b008"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          446
+        ],
+        [
+          "Engine.u",
+          542
+        ],
+        [
+          "MrtsEngine.u",
+          738
+        ]
+      ],
+      "identity_unique": false,
+      "start": 510088,
+      "end": 511115,
+      "bytes": 1027,
+      "sha256": "28598fb7ca869143824efee6a6f2a959cb5d6ef96fb6b7fa43d64bb43b917b78"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          447
+        ],
+        [
+          "UWindow.u",
+          179
+        ]
+      ],
+      "identity_unique": false,
+      "start": 511115,
+      "end": 512142,
+      "bytes": 1027,
+      "sha256": "a7175c59de7a280ecbf671ec6179755b43f1bdf106ec9221914f45612ff72e9f"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        458
+      ],
+      "start": 512535,
+      "end": 514022,
+      "mips": 4,
+      "source_sha256": "c8b73259647a401eb69a685fe27f6a93eee7aa468c798f55fa17501fd4aa4383",
+      "stream_sha256": "d8e1628f74525d93d8db130e2210b2a7f8c4714242d6c8d5c97fc64ac456fb93"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        459
+      ],
+      "start": 514022,
+      "end": 515517,
+      "mips": 4,
+      "source_sha256": "43549681d68d575e4cc3db1357401897a05a7426a858f5dd4da06593cdec0904",
+      "stream_sha256": "9ce3df1ec765e50c9dd320d1bba3918637a8b49a99aa08abdcc1460ebdf165aa"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        519
+      ],
+      "start": 517527,
+      "end": 518131,
+      "mips": 1,
+      "source_sha256": "25fc6bb5bb35a320fd5530632195f297dbac23f8f9d864e23b980b9c5b150039",
+      "stream_sha256": "25fc6bb5bb35a320fd5530632195f297dbac23f8f9d864e23b980b9c5b150039"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          570
+        ]
+      ],
+      "identity_unique": true,
+      "start": 519714,
+      "end": 522317,
+      "bytes": 2603,
+      "sha256": "9ba2982442f045a78b1016c8b7365a63074421dc017a15bf5ec49ad9a5e2d49b"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          446
+        ],
+        [
+          "Engine.u",
+          542
+        ],
+        [
+          "MrtsEngine.u",
+          738
+        ]
+      ],
+      "identity_unique": false,
+      "start": 522317,
+      "end": 523344,
+      "bytes": 1027,
+      "sha256": "28598fb7ca869143824efee6a6f2a959cb5d6ef96fb6b7fa43d64bb43b917b78"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          543
+        ]
+      ],
+      "identity_unique": true,
+      "start": 523344,
+      "end": 524371,
+      "bytes": 1027,
+      "sha256": "847f7cf2f3b541d7ab741e9e6413d446d3a1519fbf6a63e9a31b56a2be7f2344"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          559
+        ]
+      ],
+      "identity_unique": true,
+      "start": 527016,
+      "end": 528043,
+      "bytes": 1027,
+      "sha256": "0d8e97c80a714e7725059deb7765e021003744526902d9c950dfefbc76993c1c"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          565
+        ]
+      ],
+      "identity_unique": true,
+      "start": 528135,
+      "end": 529162,
+      "bytes": 1027,
+      "sha256": "a95b009abce482d5748ab7a95ee43cab07f7b8362f4a37a932a3a8d869390f94"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        4034
+      ],
+      "start": 530018,
+      "end": 546483,
+      "mips": 1,
+      "source_sha256": "e4aa1034b8c1b3430f7bdfe3d8b83977a211236c433d3805d87940522e8d01d0",
+      "stream_sha256": "e4aa1034b8c1b3430f7bdfe3d8b83977a211236c433d3805d87940522e8d01d0"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        4035
+      ],
+      "start": 546483,
+      "end": 579332,
+      "mips": 1,
+      "source_sha256": "ce100729d92add6d8a771228430e528fbfd7b1511b84f6ff765228a6014c2456",
+      "stream_sha256": "ce100729d92add6d8a771228430e528fbfd7b1511b84f6ff765228a6014c2456"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "Engine.u",
+        5482
+      ],
+      "start": 579332,
+      "end": 595793,
+      "mips": 1,
+      "source_sha256": "b94f12ed6aeb0558d343b9520535d55cf32b96a4143a9d9f72d3060d69b6f84d",
+      "stream_sha256": "b94f12ed6aeb0558d343b9520535d55cf32b96a4143a9d9f72d3060d69b6f84d"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 595793,
+      "end": 650555,
+      "path": "../System/UFile/UWindow.u",
+      "evidence": "ordinary-table-identity"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "UWindow.u",
+        113
+      ],
+      "start": 728448,
+      "end": 729937,
+      "mips": 4,
+      "source_sha256": "fe29e8743af28bd33013b5a8eef238e1ab5840eb8dd1b7e342f84727ff4dd9a1",
+      "stream_sha256": "9df4be7d7a37614f06c1165411152db299bd0b984a9427941c3b241971adc9f7"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          447
+        ],
+        [
+          "UWindow.u",
+          179
+        ]
+      ],
+      "identity_unique": false,
+      "start": 738916,
+      "end": 739943,
+      "bytes": 1027,
+      "sha256": "a7175c59de7a280ecbf671ec6179755b43f1bdf106ec9221914f45612ff72e9f"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          239
+        ],
+        [
+          "UWindow.u",
+          180
+        ]
+      ],
+      "identity_unique": false,
+      "start": 739943,
+      "end": 740970,
+      "bytes": 1027,
+      "sha256": "94fbba8cea927fe2cba928dd1f4349a1187c25cb784dbf92b7baa3eebd377c32"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "UWindow.u",
+        181
+      ],
+      "start": 740970,
+      "end": 742467,
+      "mips": 4,
+      "source_sha256": "280a543aa6a7c8e6fbe7987014f424e1f1d851f6b3bda3675f27de7f3e6d77a2",
+      "stream_sha256": "9d67b736f3da32f87b0d269d86c9007f79ffc7ed2876f77b1cc168fe544b48db"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 746782,
+      "end": 749439,
+      "path": "../System/UFile/Gameplay.u",
+      "evidence": "ordinary-table-identity"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 751265,
+      "end": 958319,
+      "path": "../System/UFile/MrtsEngine.u",
+      "evidence": "ordinary-table-identity"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "MrtsEngine.u",
+        492
+      ],
+      "start": 1209790,
+      "end": 1210900,
+      "mips": 1,
+      "source_sha256": "0fce6d2b0b4ce226774f617f7295982e6d677ef2a91022b7afd71e887ed95d29",
+      "stream_sha256": "0fce6d2b0b4ce226774f617f7295982e6d677ef2a91022b7afd71e887ed95d29"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "MrtsEngine.u",
+          522
+        ]
+      ],
+      "identity_unique": true,
+      "start": 1210900,
+      "end": 1211927,
+      "bytes": 1027,
+      "sha256": "39249990cbc4bf16d5afe9a01709145fa1445ff10c15ef407d653c5c942ee4e3"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "MrtsEngine.u",
+          735
+        ]
+      ],
+      "identity_unique": true,
+      "start": 1212059,
+      "end": 1494911,
+      "bytes": 282852,
+      "sha256": "3c8e9490b387b7bf23263bc55660417fcf58c9889dfb4213f82ec1c6b5b5c26c"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "MrtsEngine.u",
+          736
+        ]
+      ],
+      "identity_unique": true,
+      "start": 1494911,
+      "end": 1737758,
+      "bytes": 242847,
+      "sha256": "a62075c2c73eebd38f286029891ddd8956aa0eae7286068915a21def80637b47"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "MrtsEngine.u",
+          739
+        ]
+      ],
+      "identity_unique": true,
+      "start": 1737758,
+      "end": 1740361,
+      "bytes": 2603,
+      "sha256": "edafa8933b46a021cc9a9aa7a8a871fefb5b5026963987727a89fcb7520f92a1"
+    },
+    {
+      "kind": "source-identical-native-object",
+      "object_candidates": [
+        [
+          "Engine.u",
+          446
+        ],
+        [
+          "Engine.u",
+          542
+        ],
+        [
+          "MrtsEngine.u",
+          738
+        ]
+      ],
+      "identity_unique": false,
+      "start": 1740361,
+      "end": 1741388,
+      "bytes": 1027,
+      "sha256": "28598fb7ca869143824efee6a6f2a959cb5d6ef96fb6b7fa43d64bb43b917b78"
+    },
+    {
+      "kind": "texture-mip-order-projection",
+      "object": [
+        "MrtsEngine.u",
+        7239
+      ],
+      "start": 1751512,
+      "end": 1817127,
+      "mips": 1,
+      "source_sha256": "5bba0ed4f3d91f801e09937a922c9799f66f9a31b40db431c0727af3b1273457",
+      "stream_sha256": "5bba0ed4f3d91f801e09937a922c9799f66f9a31b40db431c0727af3b1273457"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 1817127,
+      "end": 2153327,
+      "path": "../System/UFile/MrtsGame.u",
+      "evidence": "ordinary-table-identity"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 2153327,
+      "end": 2153885,
+      "path": "../StaticMeshes/00014365.usx",
+      "evidence": "parsed-table-only"
+    },
+    {
+      "kind": "stream-package-tables",
+      "start": 2153885,
+      "end": 2154652,
+      "path": "../Textures/00014366.utx",
+      "evidence": "parsed-table-only"
+    }
+  ],
+  "first_mismatch": null,
+  "stop_reason": "next-span-unresolved",
+  "full_stream_mapping_verified": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending"
+}

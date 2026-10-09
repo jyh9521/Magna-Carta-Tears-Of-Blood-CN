@@ -60,7 +60,21 @@ def resolve_reference(packs, pkg, index):
     core.require(len(matches) == 1, 'import identity ambiguous or absent')
     return (target, matches[0])
 
-def audit(archive, out):
+def equivalent_native_span(candidates):
+    """Return common exact bytes without selecting an ambiguous object identity."""
+    if not candidates:
+        return None
+    values = {raw for _, raw in candidates}
+    if len(values) != 1:
+        return None
+    raw = next(iter(values))
+    core.require(len(raw) >= 16, 'native span too short')
+    identities = [key for key, _ in candidates]
+    core.require(len(set(identities)) == len(identities), 'duplicate candidate identity')
+    return identities, raw
+
+
+def audit(archive, out, equivalent_native=False):
     core.require(core.file_digest(archive) == FILE_HASH, 'FILE identity mismatch')
     a = Afs.open(archive)
     names = filename_toc(a)
@@ -204,7 +218,7 @@ def audit(archive, out):
     from audit_texture_mips import mips
     for pkg, (original, ts, ex) in packs.items():
         for e in ex:
-            if e['class_index'] > 0 and ex[e['class_index'] - 1]['name'] == 'Texture':
+            if (equivalent_native and e['class'] == 'Texture') or (e['class_index'] > 0 and ex[e['class_index'] - 1]['name'] == 'Texture'):
                 instances.append((pkg, e['index']))
     roots = []
     embedded = []
@@ -218,7 +232,7 @@ def audit(archive, out):
                 continue
             if pos in stream_tables:
                 t = stream_tables[pos]
-                embedded.append(dict(kind='stream-package-tables', start=pos, end=t['table_end'], path=t['wrapper_path']))
+                embedded.append(dict(kind='stream-package-tables', start=pos, end=t['table_end'], path=t['wrapper_path'], evidence='ordinary-table-identity' if Path(t['wrapper_path']).name in packs else 'parsed-table-only'))
                 pos = t['table_end']
                 continue
             import struct
@@ -267,18 +281,20 @@ def audit(archive, out):
                     raw = original[e['offset']:e['offset'] + e['size']]
                     if b[pos:pos + len(raw)] == raw:
                         native_candidates.append(((pkg, e['index']), raw))
-            if len(native_candidates) == 1:
-                key, raw = native_candidates[0]
-                embedded.append(dict(kind='source-identical-native-object', object=key, start=pos, end=pos + len(raw), bytes=len(raw), sha256=core.digest(raw)))
+            span = equivalent_native_span(native_candidates) if equivalent_native else (equivalent_native_span(native_candidates) if len(native_candidates) == 1 else None)
+            if span:
+                identities, raw = span
+                embedded.append(dict(kind='source-identical-native-object', object_candidates=identities, identity_unique=len(identities) == 1, start=pos, end=pos + len(raw), bytes=len(raw), sha256=core.digest(raw)))
                 pos += len(raw)
-                seen.add(key)
+                if len(identities) == 1:
+                    seen.add(identities[0])
                 continue
             break
     except (AssertionError, ValueError, KeyError) as error:
         question = str(error)
     result = dict(start=initial_pos, end=pos, bytes=pos - initial_pos, roots=roots, embedded=embedded, completed=completed, chunks=chunks, edges=edges, question=question, seen=len(seen))
     core.require(core.file_digest(archive) == FILE_HASH, 'FILE changed')
-    summary = dict(schema=1, source_sha256=FILE_HASH, bundle_sha256=BUNDLE_HASH, start=result['start'], stop_offset=result['end'], continuous_oracle_bytes=result['bytes'], root_requests=len(roots), completed_piece_sets=len(completed), piece_observations=len(chunks), embedded_spans=embedded, first_mismatch=question, stop_reason='source-oracle-mismatch' if question else 'next-span-unresolved', full_stream_mapping_verified=False, complete_game_text=False, source_modified=False, translation_gate='coverage-audit-pending')
+    summary = dict(schema=2, equivalent_native_enabled=equivalent_native, native_ambiguous_spans=sum(not x.get('identity_unique', True) for x in embedded), parsed_table_only_spans=sum(x.get('evidence')=='parsed-table-only' for x in embedded), source_sha256=FILE_HASH, bundle_sha256=BUNDLE_HASH, start=result['start'], stop_offset=result['end'], continuous_diagnostic_bytes=result['bytes'], root_requests=len(roots), completed_piece_sets=len(completed), piece_observations=len(chunks), embedded_spans=embedded, first_mismatch=question, stop_reason='source-oracle-mismatch' if question else 'next-span-unresolved', full_stream_mapping_verified=False, complete_game_text=False, source_modified=False, translation_gate='coverage-audit-pending')
     out = core.output_directory(out)
     core.require(not any(out.iterdir()), 'output must be empty')
     for name, value in [('dependency-map.json', result), ('summary.json', summary)]:
@@ -291,5 +307,6 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--archive', type=Path, required=True)
     p.add_argument('--out', type=Path, required=True)
+    p.add_argument('--equivalent-native', action='store_true', help='Retain all exact-byte equivalent native identities; include imported Texture candidates')
     args = p.parse_args()
-    print(json.dumps(audit(args.archive, args.out), sort_keys=True))
+    print(json.dumps(audit(args.archive, args.out, args.equivalent_native), sort_keys=True))

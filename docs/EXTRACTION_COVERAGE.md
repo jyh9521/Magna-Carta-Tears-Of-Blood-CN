@@ -140,3 +140,8 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### celfid 跨包依赖连续对照
 
 源包 oracle 在 Core 根树后连续对应 224167 B／5248 个新增对象片段集合；INI 与 SmallFont 精确匹配，两个 Texture 完成限定 mip 顺序投影。负引用按完整外层身份解析，487115 的多义 Palette 候选未放行。后验对照不等于独立流解析或全文覆盖，门禁保持 false。详见 [跨包连续对照](STREAM_CROSS_PACKAGE_ORACLE.md)。
+
+
+### celfid 原生字节等价候选扩展
+
+显式模式保留全部同字节身份，连续诊断 2938500 B／532 次 Class 根请求；7 个身份歧义和 2 个 parsed-table-only 区段未伪装为完整资源映射。下一处原生数据在 3201448 停止，全文门禁仍为 false。详见 [原生字节等价对照](STREAM_NATIVE_EQUIVALENCE.md)。
