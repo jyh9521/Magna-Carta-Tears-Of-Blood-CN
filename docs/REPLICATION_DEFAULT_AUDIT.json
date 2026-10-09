@@ -1,0 +1,22 @@
+{
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "counts": {
+    "zero-bytecode-defaults-read": 555,
+    "default_tags": 1634,
+    "bounded-bytecode-defaults-read": 13
+  },
+  "classes": 568,
+  "string_properties": 132,
+  "parse_questions": 0,
+  "complete_game_text": false,
+  "class_defaults_complete": true,
+  "bytecode_decoder_complete": false,
+  "bounded_replication_scripts": {
+    "classes": 13,
+    "disk_bytes": 1860,
+    "virtual_bytes": 2228,
+    "tokens": 1181,
+    "references": 181,
+    "execution_verified": false
+  }
+}

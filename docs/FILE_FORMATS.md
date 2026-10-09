@@ -250,3 +250,8 @@ ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synth
 ### 零脚本 Class serial
 
 version118 普通 Class 序列包含观测额外 u32，再读虚拟 ScriptSize；零 ScriptSize 后逐项解析 State／Class metadata，再读取默认属性至原 serial 末尾。详见 `docs/CLASS_DEFAULT_AUDIT.md`。
+
+
+### 复制脚本虚拟／落盘长度
+
+13 Class 复制脚本 1860 B 落盘对应 2228 B 虚拟长度；compact 对象引用展开计 4 B。未知 opcode 拒绝，不以声明长度盲跳。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。

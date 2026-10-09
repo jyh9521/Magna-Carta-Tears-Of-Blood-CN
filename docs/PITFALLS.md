@@ -213,3 +213,8 @@ name-iso-21在名称测试尚未完成时被列为可删除事务；其镜像与
 ### 虚拟脚本长度不能直接跳过
 
 Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证磁盘字节数相等。13 个疑问类保持未解析，不能以猜测跳过编译脚本。详见 `docs/CLASS_DEFAULT_AUDIT.md`。
+
+
+### native 阈值错读
+
+把 0x72／0x77 作为双字节 native 会吞掉首参数并破坏边界；本轮直接参数读取与虚拟长度／后续 Class 默认属性闭合同时校验。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。

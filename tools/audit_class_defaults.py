@@ -19,7 +19,7 @@ from extract_script_buffers import FILE_HASH
 from audit_object_properties import Reader,ordinary_exports,property_block
 
 
-def class_body(serial,tables,export):
+def class_body(serial,tables,export,bytecode_reader=None):
     core.require(tables['version']==118,'unsupported class version')
     names=tables['names'];r=Reader(serial)
     def reference():
@@ -39,9 +39,12 @@ def class_body(serial,tables,export):
         children_reference=children_ref,friendly_name=names[friendly],line=line,text_position=text_pos,
         observed_pre_script_word=observed_word,observed_pre_script_word_semantic='unverified',
         virtual_script_bytes=script_size,script_start=r.pos)
-    if script_size:
+    if script_size and bytecode_reader is None:
         return dict(status='nonzero-bytecode-pending',header=header,defaults_complete=False,
             remaining_bytes=len(serial)-r.pos,remaining_sha256=core.digest(serial[r.pos:]))
+    script=None
+    if script_size:
+        script=bytecode_reader(r,script_size,tables)
     probe=r.integer('Q');ignore=r.integer('Q');labels=r.integer('H');state_flags=r.integer('I')
     class_flags=r.integer('I');guid=r.take(16).hex()
     dependencies=[]
@@ -53,14 +56,15 @@ def class_body(serial,tables,export):
     for row in block['properties']:
         row['tag_offset']+=start;row['value_offset']+=start
     block['start']+=start;block['end']+=start
-    return dict(status='zero-bytecode-defaults-read',header=header,
+    return dict(status='bounded-bytecode-defaults-read' if script_size else 'zero-bytecode-defaults-read',header=header,
+        script=script,
         state=dict(probe_mask=probe,ignore_mask=ignore,label_table_offset=labels,flags=state_flags),
         class_flags=class_flags,guid=guid,dependencies=dependencies,package_import_names=imports,
         within_reference=within,config_name=names[config],hide_categories=[names[n] for n in hide],
         defaults_complete=True,property_block=block,runtime_visibility_verified=False)
 
 
-def audit(path,out):
+def audit(path,out,bytecode_reader=None):
     core.require(core.file_digest(path)==FILE_HASH,'FILE identity mismatch')
     a=Afs.open(path);names=filename_toc(a);out=core.output_directory(out)
     counts=Counter();classes=[];strings=[];questions=[]
@@ -75,7 +79,7 @@ def audit(path,out):
                 serial=blob[export['offset']:export['offset']+export['size']]
                 common=dict(id=ident,package=name,package_sha256=package_hash,export=export,
                     serial_sha256=core.digest(serial),editable=False)
-                try:body=class_body(serial,tables,export)
+                try:body=class_body(serial,tables,export,bytecode_reader)
                 except (ValueError,UnicodeError) as error:
                     questions.append(dict(id=ident,error=str(error)));continue
                 classes.append(dict(common,**body));counts[body['status']]+=1
@@ -89,7 +93,8 @@ def audit(path,out):
     core.require(core.file_digest(path)==FILE_HASH,'FILE changed')
     summary=dict(source_sha256=FILE_HASH,counts=dict(counts),classes=len(classes),
         string_properties=len(strings),parse_questions=len(questions),complete_game_text=False,
-        class_defaults_complete=False,bytecode_decoder_complete=False)
+        class_defaults_complete=bool(classes) and not questions and all(c['defaults_complete'] for c in classes),
+        bytecode_decoder_complete=False)
     for filename,value in [('classes.json',classes),('strings.json',strings),('questions.json',questions),('summary.json',summary)]:
         p=out/filename;p.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
         core.require(json.loads(p.read_text('utf8'))==value,'output reopen mismatch')

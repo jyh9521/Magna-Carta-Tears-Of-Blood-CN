@@ -238,3 +238,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### Class 默认属性
 
 568 个 Class 中 555 个零脚本类默认属性精确闭合，1473 tag／119 Str；13 个非零脚本类默认属性仍待核查。详见 `docs/CLASS_DEFAULT_AUDIT.md`。
+
+
+### 普通 Class 默认属性闭合
+
+13 个复制脚本边界已核查，全部 568 个 Class 默认属性读取至精确 serial 末尾；1634 tag／132 Str。通用 Function 字节码与流式正文仍未闭合。详见 `docs/REPLICATION_DEFAULT_AUDIT.md`。
