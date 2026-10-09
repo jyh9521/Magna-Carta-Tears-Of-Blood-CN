@@ -167,3 +167,7 @@ display_resources按显式资源hash/窗口hash应用既有rewrite_fpb和rewrite
 Verified static：19类SHIP资源998文件导出15635字段/候选，FPB窗口7998、TUI两字段1726；解码失败及未知token隔离，candidate不等于display text。celfid完整镜像21资源，独立候选35048，不推断linked group。数量及覆盖缺口见 [文本目录](docs/TEXT_CATALOG.md)。
 
 Source Han Sans SC Regular 2.005R替换新增glyph输入，NormalFont 19px/KatakanaFont 15px，原字形及字宽保持，317追加映射不变；共同baseline裁切门禁保持。五阶段/独立回读通过，运行外观待验收，见 [字体对照](docs/SOURCE_HAN_FONT.md)。
+
+## 混入日文的局部源解码（Verified static，2026-10-09）
+
+00005420/00005421.fpb 共 31 个 CP949 严格解码字段实际呈现日文乱码。完整 pool 切片 SHA-256 与字段 source_sha256 相同；CP932 严格解码与重新编码逐字节往返成功。此结果属于源字段解释，不是游戏解码器改造结论。原 catalog 不改写，译文通过相同 ID/hash 关联，局部编码清单见 `locales/zh-CN/source-interpretations.json`；补充校对文件见 [文本目录](docs/TEXT_CATALOG.md)。其他资源的 CP932 解释、CP949 失败字段、引擎运行编码仍逐项待核对。

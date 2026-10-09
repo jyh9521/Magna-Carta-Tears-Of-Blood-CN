@@ -740,6 +740,12 @@
       "source_sha256": "7628430a0df527489693b6eb784e77c1b691cf3eb6f96caac3d8ef96dd57de7f",
       "status": "needs-source-review",
       "reason": "Japanese-reference field contains literal ? inside words; damaged source reading requires byte-level/source-version confirmation; missing characters not reconstructed."
+    },
+    {
+      "id": "SHIP/00005557.fpb/seq/6",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "needs-source-review",
+      "reason": "Isolated literal 0 between story windows; dialogue-vs-marker meaning unresolved. Kept as source-context candidate, not translated as a spoken line."
     }
   ]
 }

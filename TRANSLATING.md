@@ -86,10 +86,12 @@ locales/zh-CN/opening-trial-01.json保存91个target及原资源/窗口hash，�
 
 当前顺序：全部现有结构字段导出 → 统一术语 → 分批形成全文初稿 → 人工校对 → 确认后导入。旧章节的小字集门禁描述属于历史阶段，不再限制原文导出和全文初稿；未知格式的写回门禁、存读档回归和发布验收继续保留。
 
-当前 2214 条初稿未自动升级为 reviewed；197 词条均为暂定统一。译文集合显式包含 `opening-review-01.json`、`menu-review-01.json`、`interface-review-02.json`、`character-commentary-review-01.json` 和 `story-review-01.json`，保存 target、稳定 ID、source_sha256 与状态。`review-exclusions.json` 是源字段待核对清单，不是译文批次，不参与初稿统计；批次枚举不使用 `*review*.json` 通配。原文对照仅导出到 ignored work，不提交 Git。独立资源中的相同原文不自动合并 ID，也不证明 linked group。
+当前 2570 条初稿未自动升级为 reviewed；202 词条均为暂定统一。译文集合显式包含 `opening-review-01.json`、`menu-review-01.json`、`interface-review-02.json`、`character-commentary-review-01.json` 和 `story-review-01.json`，保存 target、稳定 ID、source_sha256 与状态。`review-exclusions.json` 是源字段待核对清单，不是译文批次，不参与初稿统计；批次枚举不使用 `*review*.json` 通配。原文对照仅导出到 ignored work，不提交 Git。独立资源中的相同原文不自动合并 ID，也不证明 linked group。
 
 校对入口为本地 HTML 目录，页面只读；原始 `review.jsonl` 每行含 source、source_text、target、translation_status。校对修改 target，必要时补充独立备注；source、ID、hash、原始控制符保持不变。确认译义后才标记 reviewed。导出工具不执行导入，校对稿也不直接作为二进制补丁输入。
 
 单片段 UI（货币、人物名、格数等拼接）须检查组合后的语序；人物评论的说话者不按 record 编号推断。流派同音汉字不凭韩文读音定稿。含未知尖括号、百分号或原始制表符的字段仍隔离，不能删除标记以获得验证通过。
 
 旧试译 record242 的“返回标题画面”与源字段 `리스_스테이터스설명` 不对应，已从校对 seed 中排除；历史测试镜像未修改。源 hash 验证只检查身份，不能替代译义审核。
+
+混入日文的字段须依据原 pool 切片/hash 和严格 codec 往返确认源读法，不能仅凭 `source_locale=ko-KR` 决定语言。31 个已核对字段的编码身份记录在 `source-interpretations.json`；日中补充校对页见 [文本目录](docs/TEXT_CATALOG.md)。词内问号缺损与 CP949/CP932 误解码是不同问题，缺损处仍保留待核对状态。

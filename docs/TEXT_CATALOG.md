@@ -49,7 +49,7 @@
 
 ## 翻译状态
 
-当前校对集合为 2214 个互不重叠的初稿字段：
+当前校对集合为 2570 个互不重叠的初稿字段：
 
 | 批次 | 字段数 | 范围 |
 |---|---:|---|
@@ -57,15 +57,15 @@
 | menu-review-01.json | 101 | 菜单和属性提示 |
 | interface-review-02.json | 235 | 人物姓名、目的地、占卜、商店、道场与战斗菜单 |
 | character-commentary-review-01.json | 97 | 不同剧情进度的角色自述 / 评论 |
-| story-review-01.json | 1690 | 188 个 FPB 的剧情、NPC 对话与书籍初稿 |
+| story-review-01.json | 2046 | 227 个 FPB 的剧情、NPC 对话与书籍初稿 |
 
 既有 92 条 seed 中，00001240.tui record242 的源文是 `리스_스테이터스설명`，试译值为“返回标题画面”，源文与译意不对应。该条不进入正文校对集合，历史试验配置和测试 ISO 保持不变。不能因源 hash 匹配就确认译义正确。
 
-术语表累计 197 词条，人物音译、地名、势力和载具名称均标记暂定统一，非官方译名或已校对结果。最长词条匹配区分 `리스`、`크리스 아크웨이` 和 `리스트`；未收录的复合词仍可能触发术语误报，须结合原文处理。
+术语表累计 202 词条，人物音译、地名、势力和载具名称均标记暂定统一，非官方译名或已校对结果。最长词条匹配区分 `리스`、`크리스 아크웨이` 和 `리스트`；未收录的复合词仍可能触发术语误报，须结合原文处理。
 
-当前初稿合计 1611 个非 ASCII 字符，思源 cmap 检查无缺字；保留旧 317 字符库存需追加 1297 个，总计 1614 槽。该数量不表示新字库已生成或容量 / 运行验证通过。
+当前初稿合计 1667 个非 ASCII 字符，思源 cmap 检查无缺字；保留旧 317 字符库存需追加 1353 个，总计 1670 槽。该数量不表示新字库已生成或容量 / 运行验证通过。
 
-本地校对目录 `work/proofreading-stage-25/` 导出全部 15,635 条记录，含 2214 条初稿与 13,421 条未译记录。未译数包括空字段、候选标识符和异常字节，不作为可见正文翻译率分母。998 个逐资源 HTML 页面可浏览原文 / 初稿；`review.jsonl` 保留源元数据和校对字段；`resource-metadata.jsonl` 保留完整 FPB pool、结构审计和资源 hash；celfid 候选另存，不并入正文。
+本地校对目录 `work/proofreading-stage-25/` 导出全部 15,635 条记录，含 2570 条初稿与 13,065 条未译记录。未译数包括空字段、候选标识符和异常字节，不作为可见正文翻译率分母。998 个逐资源 HTML 页面可浏览原文 / 初稿；`review.jsonl` 保留源元数据和校对字段；`resource-metadata.jsonl` 保留完整 FPB pool、结构审计和资源 hash；celfid 候选另存，不并入正文。
 
 原文完整导出限定于现有 catalog；UE2 图片、硬编码、未解析资源和 SFD 文本仍是明确缺口，未声称全游戏穷尽。全文初稿正在进行，尚未完成。
 
@@ -78,4 +78,10 @@ work/venv/Scripts/python.exe -X utf8 tools/validate_translation_batch.py --catal
 
 输出目录须为空；已有 catalog 不覆盖。验证通过不等于 glyph 容量、固定 slot 写回、linked group 或游戏运行通过。
 
-源语境待核对清单见 `locales/zh-CN/review-exclusions.json`，保存 123 条稳定 ID/hash 和原因，不包含原文。清单不删除校对包中的源记录，也不代表全部异常候选已完成审计。
+源语境待核对清单见 `locales/zh-CN/review-exclusions.json`，保存 124 条稳定 ID/hash 和原因，不包含原文。清单不删除校对包中的源记录，也不代表全部异常候选已完成审计。
+
+## 混入日文的原字节回读（Verified static）
+
+`00005420.fpb` 的 24 个、`00005421.fpb` 的 7 个严格 CP949 字段显示日文乱码。按完整 pool 的 offset/source_bytes 切片核对 SHA-256，再以 CP932 严格解码并逐字节往返，得到完整日文；31 条对应译文保留原 catalog ID/hash。编码证据清单见 `locales/zh-CN/source-interpretations.json`，不包含原文。该证据只确认这些字段的字节解释，不确认韩版引擎使用 CP932，不将全部资源改为日文，也不自动放行 CP949 解码失败字段。
+
+原 catalog 与主校对包的 source 字段未改写；补充日中校对页位于 ignored `work/translation-stage-30/source-readings.html`，附带 hash 对照的 `source-readings.jsonl`。主校对页面仍显示原 CP949 reference，不能将其乱码误当成韩文。

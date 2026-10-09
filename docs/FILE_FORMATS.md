@@ -192,3 +192,7 @@ source-catalog记录source_locale、严格encoding、输入hash、resource hash�
 review.jsonl 每行包含 source（完整 catalog 字段元数据）、source_text（严格解码原文或 null）、target、translation_status、reinsertion_authorized=false。空字段和 decode failed 均保留；失败字节位于 source.raw_hex。target 空表示未译，不复制原文填充。
 
 resource-metadata.jsonl 每行保存一个资源的非 entries 元数据，包括 hash、大小、FPB 完整 pool 和 audit；celfid-candidates.json 独立保存扫描候选和完整资源镜像。HTML 经转义，只读展示。summary.json 分开统计资源 / 结构记录 / 初稿 / 未译 / 坏字节，不把候选数当可见文本数。该格式不是游戏导入格式。
+
+## FPB 源字段混合编码观察（Verified static）
+
+00005420.fpb 的 24 个及 00005421.fpb 的 7 个严格 CP949 窗口可按 pool offset/source_bytes 切出并核对字段 SHA-256；相同原字节以 CP932 严格回读得到日文，编码往返不改变任何字节。有效 CP949 不意味着文本为韩文。该观察不改变 FPB 指针/长度结构，不自动赋予写回权限。原窗口/完整 pool 仍保留，补充源读法用于翻译与校对。
