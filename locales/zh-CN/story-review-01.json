@@ -899,6 +899,1791 @@
       "target": "……",
       "status": "draft",
       "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001969.fpb/seq/0",
+      "source_sha256": "76dabbafeb447bf4b8fae187d8a74b7582c03f71c4dffef597ea94ee4a2275b8",
+      "target": "我不会让你们逃走。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001969.fpb/seq/1",
+      "source_sha256": "0a6dbc105765fc80403deabddb4cec545aea265ac4af437bb125f4cd16904d59",
+      "target": "是四天王……！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001969.fpb/seq/2",
+      "source_sha256": "b960281f64a5c5d084317c18736535c04169d51cd945289902d3a52b77f8c0e9",
+      "target": "钢铁之心……！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001969.fpb/seq/3",
+      "source_sha256": "163d5bf9ef4375f0ce955b22c4675945e2610a8cdebdae508c71497a1392d0f6",
+      "target": "（那家伙的重量，让桥正在$n坍塌……！）",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/0",
+      "source_sha256": "a864058744e6ce8c954c31b6214f691f0e2c203ed245731571f4ccfc9bde0df1",
+      "target": "我不知道……还有这样的东西……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/1",
+      "source_sha256": "369a8dd38660fef62373d205711b1fd292a5f58546824ddaea1c29097c4cbc20",
+      "target": "为什么……哭？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/2",
+      "source_sha256": "c4dafff3731743451e15d77bfbbf87bd7db3ab4edc201e8ae215e652cf376c5a",
+      "target": "他一定很想把这件衣服送出去。$n可我却擅自穿上了……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/3",
+      "source_sha256": "76a3c3aed017adf5da64f605d948840e372d9d727a67250cf8d5a76c809a284a",
+      "target": "不用在意。他应该是因为某些缘故，才没能送出去。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/4",
+      "source_sha256": "e3b4bcc60b2107f17d065d191cd515c13f06291a06a3ebf9230553b57a36ebf2",
+      "target": "可是，他一定……很想送出去。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/5",
+      "source_sha256": "b6855d43a1a9f73021537fbeaa9b965cfc6e20e7678973f27fa1346632f180ab",
+      "target": "真天真。这本日记已经很旧了。$n写日记的人和要收下衣服的人，应该都已经不在人世了。$n你代她穿着，就已经足够了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/6",
+      "source_sha256": "817ecb647bbff238db7bb8d7f25505691b1f708e372281d5a0fc2aac7edb76f5",
+      "target": "真的……没关系吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/7",
+      "source_sha256": "cf8cd1ce05d735d8b1b2509288aadfc5eb79823852b5b8d8fcbeb0145db52f10",
+      "target": "我保证。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/8",
+      "source_sha256": "57c78155d1ce36cf22ca7ba1ed10e9f1e11e576ae4f94722649caccc15776e54",
+      "target": "那就暂时借我穿一下吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/9",
+      "source_sha256": "8bcd2eecd6824ca604b1e38af7a04d8d5b35b2e7dbef250ec56253ff0d632d9b",
+      "target": "XX月XX日。$n致亲爱的阿莉安：$n这本日记，原本想等与你结婚后$n……送给你……对不起……$n我背叛了唯一理解我的朋友……$n让那位朋友承受了无法挽回的痛苦……$n仅仅因为他是黑色亚逊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/11",
+      "source_sha256": "db8780b23ab1b0e64b2b03eaab8dee6650a0de0eab151689e47f96a981037b1c",
+      "target": "如果他来找我复仇……除了心甘情愿死在他手上，我别无选择……我爱你……$n作为伙伴，一同度过危机……$n你曾救过我……我也衷心感谢，你曾在这座洞窟里陪伴过我。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/12",
+      "source_sha256": "b1c50477589a949092fb61a2dcae3abacfa09d0e0bec6ad3e01cb1f64c196e81",
+      "target": "和你……共同的回忆，已经多得无法用双臂拥住……远远超过我所配拥有的……把它当作最后的礼物……$n觉得它一定很适合你……你曾经$n喜欢黄色。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001970.fpb/seq/13",
+      "source_sha256": "4d917949789f1c3f223837b0a2c0ac9caf162692aa5169ad8a3f6fb71d663c0d",
+      "target": "你总是穿着像男人一样的衣服……$n明明是个女人……却仿佛在否认自己……愿意收下吗？$n$n               碧流·艾斯克拉诺",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/0",
+      "source_sha256": "b3c0ee427243018611924fc8e26010c0997f4bbce25e7f0f2b43e8122c18bd60",
+      "target": "你们这些家伙……！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/1",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "target": "……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/2",
+      "source_sha256": "ffc81e17d77b4ea0a177bba26be4d0f76d8cf1dec82ecb421c7d30460e6b5fd6",
+      "target": "啊，你们也被困在这里了吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/3",
+      "source_sha256": "4412fbc37036f0fce277a9782b57f2f45b279be48d32c15ad258603dd8f74047",
+      "target": "不会错，是人类。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/4",
+      "source_sha256": "0987cc2d92a1887909680781529ca1f739f6ebb2e64f6a00b1b97b0a4f62f21e",
+      "target": "那个……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/5",
+      "source_sha256": "560accb526f041c0ffa4ff85fc2ee7a17d6c59f487b1d4b00c84846d185b6ca6",
+      "target": "别说了，莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/6",
+      "source_sha256": "b2d4df671def7a5a38757c2bfed3e6acfab1139d4896918acb1d48bf22a119d8",
+      "target": "……为什么？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001972.fpb/seq/7",
+      "source_sha256": "364b10937e2992c60de59bbfa34d6650aed90343716546a7a730273a39ab063b",
+      "target": "他们在打我们的主意。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/0",
+      "source_sha256": "b5b082813cf4e114033a9ae652b7cdf4081ce854e92c9fd0abcca52d8a49c8c1",
+      "target": "果然和传闻一样……很强。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/1",
+      "source_sha256": "60a226e90809d7cf1007c88a1261803d026540d4cae4bb2e593a580a648dd1f7",
+      "target": "等一下。我来治疗……！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/2",
+      "source_sha256": "db041a96bec70aa62c291e0a8ee3852fc990df674c1968fe8bf7be945ecf1c88",
+      "target": "住手。那家伙是我们的敌人。你以为我们刚才为什么要战斗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/3",
+      "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
+      "target": "卡琳兹……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/4",
+      "source_sha256": "5467c6402b96ca3d63cb3c429d0ebe8b7dee62c28b34df0b6d1faa0f25a2cfbf",
+      "target": "你会失去记忆，恐怕也是因为遭到了亚逊的袭击。$n这样还不明白吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/5",
+      "source_sha256": "8a423040bdb58a7980de93e8110adb8accd7ea26cbac5bcfccbd7d4079021823",
+      "target": "可是……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/6",
+      "source_sha256": "62d8e20d8ab9af57b7f41ed46d7592841989edbd9e9dcd49f79917938e2cebf4",
+      "target": "哼……肮脏人类的帮助……$n我不需要……呃……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/7",
+      "source_sha256": "bedb1262f449725c30f1ab1a0668ed2c03b5c2c577821444427435c3885b7c5d",
+      "target": "看，他们自己也不愿意。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/8",
+      "source_sha256": "fc2f71e5ab9446b81dbb5a774a3e14f8e1d074ece366b6841c112b39e9779477",
+      "target": "……对不起。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/9",
+      "source_sha256": "7cf4234d9e072ef5972f908c60a6804ebdf33b1cb408c33369e5c379f4b9f913",
+      "target": "失去记忆也许让你很困惑，$n但绝不能相信亚逊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/10",
+      "source_sha256": "fd61c773c0730cc2584c225339806fcb74225120271b37db3f8e0ee2b409df24",
+      "target": "因为我就为此吃过大亏。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/11",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001973.fpb/seq/12",
+      "source_sha256": "49011a136eb79d24c98e580587686cefd19d14784fb356d6f77485d54330720a",
+      "target": "你现在或许还不理解，但很快就会明白了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001977.fpb/seq/0",
+      "source_sha256": "7924a9d56c3f9d542b625f8c30e1a7c09db9c3c58669ec0c217d70f95393e075",
+      "target": "曾经有人住在这里吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001977.fpb/seq/1",
+      "source_sha256": "e533d69f6ef0445d443e8ea4efa4722c2de98daf755c7f4f38276e4365b94882",
+      "target": "我就是从这里拿的衣服。最开始穿的那件破了……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/0",
+      "source_sha256": "624abe8b722f83dfc46f3b9dafd39bf552c9399ff432f3ababbc38eec6cec2b3",
+      "target": "叫莉丝，对吧？虽然知道你是去送她治疗，但回来得比想象中晚啊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/1",
+      "source_sha256": "8b31ff21b9a39c1550ebd2553d52e8123839eb445682a1937b385be8f46e0eb2",
+      "target": "而且，将军那边送来了些报酬。这是什么任务的报酬？我完全不记得有这回事。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/2",
+      "source_sha256": "37f1d15ec57e285a3aa5c3e8832fc653a3f6117e0e80f815489ecb6dfc4d0c78",
+      "target": "……关于将军那边的钱怎么来的，希望你暂时别问。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/3",
+      "source_sha256": "78c3c32e0d65d23c8346113bd27cdec3e537b29f4f15b49baaaeafef0219af40",
+      "target": "什么意思？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/4",
+      "source_sha256": "f7c0d0b18c787a1388e1235357b6b145d4961762bd250e5decb4de4c356407dc",
+      "target": "啊，这个嘛，实在不方便说明，你就当是秘密任务吧。因为既重要又危险，$n我可不想把美丽的蕾哈丝也牵扯进来。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/5",
+      "source_sha256": "56592e001f75a5c42a55fae0e78233f096b9ca0c430fcd8e6ece90ee050dbd6e",
+      "target": "我一直以为自己也是血泪的一员。连我都不能知道吗？果然，不能战斗的人就没有插手的余地？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/6",
+      "source_sha256": "bef8939c7d93c5b3d9b9e2b85bfbf092127220a06d94e33d7a3bf3fe394b62ed",
+      "target": "哎呀，哎呀，你明知道不是那样。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/7",
+      "source_sha256": "fbec4a9956bbdf067248dece2aadef0b8e54db184890db0e003956c2b328b4f6",
+      "target": "对不起，蕾哈丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001983.fpb/seq/8",
+      "source_sha256": "dab91093dfc0c41093eaf1f37d041f674467b44789e8b6cb449fe3b2af5f037d",
+      "target": "好，我知道了。我也没必要连外面的事都操心。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/0",
+      "source_sha256": "6343fa6e6327b9222ed5867852e69449a9f27e6d4e31428f9c20135718fb4df1",
+      "target": "看来莉丝小时候曾住在风月林附近。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/1",
+      "source_sha256": "0d61346cacb5c4ef5ca82d8d7e2f9e9eb78ccd2a669051566e8e80c1800002a1",
+      "target": "风月林可是卡琳兹的故乡。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/2",
+      "source_sha256": "0e2326c956e494cd8d15d4b7eb9ac575f38dd2d6b145d10c1c49d5441692c92f",
+      "target": "有没有想起其他记忆？$n比如，为什么会被四天王追杀……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/3",
+      "source_sha256": "56ac800bcf86627923c75ed8cdd9d856b0364dde6b3e39ee0b3714b546a1fc08",
+      "target": "这个嘛，她看到风月林时，确实有些奇怪的反应，不过没说什么。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/4",
+      "source_sha256": "13f96114df9e131e9463a3ef8de99609164898d7ba7bd1bcf02bf5b281f787d0",
+      "target": "看来她最好尽快找回记忆。这次虽然没出什么事，可今后若一直这样被四天王追杀，$n不知道还会发生什么。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/5",
+      "source_sha256": "67a8a0f8455d69096747abaf286c5da9e670e5ec12a9030443ff07d5932438df",
+      "target": "要不，去问问那些四天王怎么样？那不是最快的吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/6",
+      "source_sha256": "0ed74104b21ee01e1d8ca14486a48298e1232847474b76ecb8408bb72c392f43",
+      "target": "那当然好，可他们也得肯开口才行。话说，我刚才就想问了，这位小姐$n是谁？新加入的伙伴吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/7",
+      "source_sha256": "fdfe679191d06a6118ffe9f4f818518199f1bbdc26a7f0a6a5ee5652e1dd68a7",
+      "target": "不是。只是偶然认识，就一起行动了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/8",
+      "source_sha256": "4f9454385f7ba6dfa494dae8076011a29930b912c2dd0eabcadecd86f14651ac",
+      "target": "你管这叫介绍？我叫莉安娜，当过一阵子佣兵，现在正到处找丈夫。$n他是个特别喜欢四处漂泊的男人。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/9",
+      "source_sha256": "20aade1b76c87c940f3c14464b00ef38674f5211e49ee4e58df0d8bed520c5b4",
+      "target": "丈夫……是说，结婚了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/10",
+      "source_sha256": "2031866b84d910bb9691ad5fab68a6bc0af7330ce1f0189811005cc654599fb5",
+      "target": "嗯。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/11",
+      "source_sha256": "9607cacb5e62e6304e84fcb16256d8bccca1a6e9eed7a45018afa1e6a0a3fdd9",
+      "target": "……好女人总是名花有主啊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/12",
+      "source_sha256": "14bf8902bc004103355711d871c72a7d8b9f30cc5521122872409cea017b12bd",
+      "target": "结婚啊，正是幸福的时候呢。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/13",
+      "source_sha256": "7a1c935ac99aebb8dc3b1710df8565af3a8018a8b238527ea5de14c5bde93f4b",
+      "target": "都已经三年了。早就不是说什么幸福不幸福的时候了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/14",
+      "source_sha256": "733c339f38bb2def39f3b3dfeab256caff5a1b50f4e48ceb2cb5e8c707cff341",
+      "target": "你是个值得信任的家伙吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/15",
+      "source_sha256": "43d536c31c906f5148a0a248b358d150104e2951761c9b94d77f96daf09253f3",
+      "target": "又来了。怎么说呢，我在战斗上还是能帮上忙的。$n我在这方面有天分。这样还不够吗？$n佣兵之间不是不问过去的吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/16",
+      "source_sha256": "17a6dd42c2c0f42408037254fd1928ede30ffed7f050388813947cc2172d861f",
+      "target": "那当然。更何况是女人，就更不需要其他理由了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001984.fpb/seq/17",
+      "source_sha256": "eae196345613d5e58eb9256e255e86ec7f8ea6312a2c2e66c7d6e265ea07f9c7",
+      "target": "这个笨蛋……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/0",
+      "source_sha256": "2b6dfc78087abf694c695a381d8b657ed046a45ca502277625d6c418e90c2660",
+      "target": "为什么突然把我们派去米雷娜$n那种边境地方？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/1",
+      "source_sha256": "d69b3486c7e1748d371845ff8bab27e81f8d7f1db66ba23e070df18bf6430454",
+      "target": "应该是为了避免让拉埃尔将军看到我们，$n特意照顾吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/2",
+      "source_sha256": "e6a69ec786b536bca326d5cc012bdefd26cf49eb6b8c7ec76f1f4fa597e8f868",
+      "target": "你们到底惹了多少事？$n血泪可不只是你们的。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/3",
+      "source_sha256": "1e989aff407ca34e3c3ebefcfe01c44831d9006d8b74334befb67fcb5d0e32dc",
+      "target": "你在这种地方安安稳稳地待着，$n恐怕没资格说这种话。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/4",
+      "source_sha256": "14b513979a99f8b3ef99884186033e288fa6b95124d04027b6a379b144aeef14",
+      "target": "别吵了。蕾哈丝小姐和哈伦先生总是这样。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/5",
+      "source_sha256": "cb93de6a0bd6faf2f918b5c606b38f8f8b305c1e0791a0f37083533ba79dac65",
+      "target": "总之，接下来一阵子会经常去米雷娜巡逻。觉得应该先告诉你。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001985.fpb/seq/6",
+      "source_sha256": "8fbca2c439b100a53ca88fc2db01df2e452e45b18e8543a7ebf31a9fb81444de",
+      "target": "是啊，你们一直都是这样。$n事到如今，我不管再说什么，$n你们也不会听吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/0",
+      "source_sha256": "8c6a4e2701c1b4c3b06232338cd48789abdd6c14958adcd4e77ca99222c541d4",
+      "target": "发生了什么事？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/1",
+      "source_sha256": "9e34da6ec29bbf0cf5912fe4c1a99611cf9e0014e2c0d39226fb56017230f31a",
+      "target": "喂，你没事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/2",
+      "source_sha256": "9d6b981a528f29ba2fe1f1d81882b3beec6579053d0e65e0ac93d438692e85ed",
+      "target": "救、救命……莉、莉丝大人……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/3",
+      "source_sha256": "af6b7a4aa3a0418dc40747931a57c0855f8ffad3188528cc4bad1d725d7599b9",
+      "target": "莉丝？莉丝出什么事了！？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/4",
+      "source_sha256": "b79f86953c576b8a0c43f45fa8b6d2019f93f65f6e85aa47d22cd601f7000b4d",
+      "target": "遭到亚逊……袭击了……$n往拉埃杜山……莉丝大人……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/5",
+      "source_sha256": "0156a46bb4b012cf7ed7939e1a72e8df04d70c76b3f70af611a920365f474ad6",
+      "target": "喂，振作点。喂！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/6",
+      "source_sha256": "e0434f5f6030866f56e6d35f632afadc8b22fb776eee78a017714ed95091235a",
+      "target": "卡琳兹？出什么事了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/7",
+      "source_sha256": "ae6e4c0c25d311406a986e3cdb0e21036ab524b419ddcbb77fdd21afad9a0529",
+      "target": "莉丝好像被亚逊抓走了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/8",
+      "source_sha256": "bf1c2f3bccf2ac38792e28420f6f849e529a9931e380ebad49a1b0f4620d2f83",
+      "target": "他说是拉埃杜山。$n现在就出发的话……！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/9",
+      "source_sha256": "feb6de2661ed9c18f2fb8ba69d48abcb007e26ee9f47dfa2531c9a2a9e1e29ca",
+      "target": "你要去救莉丝吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/10",
+      "source_sha256": "06df8b2c52323225834371e86d6e34e68612a22b19f0d4cad0d3202c7401db4c",
+      "target": "这个人拼了命赶来报信。我要去拉埃杜山。米雷娜如果出了什么事，就拜托你了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/11",
+      "source_sha256": "5fbbd177fd7479d7c24225fdc8a0b3f5e038e222b4a6f2060d48767174eb510d",
+      "target": "卡琳兹！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/12",
+      "source_sha256": "8c6a4e2701c1b4c3b06232338cd48789abdd6c14958adcd4e77ca99222c541d4",
+      "target": "出什么事了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/13",
+      "source_sha256": "e98256a406277f3502f7b6d866a701cebadaf8249a99f56bf9ebec214610dda1",
+      "target": "卡琳兹竟然慌成那样。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/14",
+      "source_sha256": "657cb30d3f99a27258d1546f802e3da1b30929ddbd783c3532dac09eae384b06",
+      "target": "看来不像是要去米雷娜。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/15",
+      "source_sha256": "c357fdd8017f803c6e3389fac74540e5effb30a388c1c716bd22e2f70448667a",
+      "target": "嗯……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/16",
+      "source_sha256": "a3730fc791ed30a3fe707ea216ea25f914a4f25652ad006876efbcf38649ba18",
+      "target": "这个笨蛋。又打算惹事了。喂！都出来！我们追上队长！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/17",
+      "source_sha256": "faca0f795a4d22e6f01f95e988096391929638929db873c21838b4681610f65b",
+      "target": "又是这样。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/18",
+      "source_sha256": "f5b6a045295c87bd7cee7d5b35061fc846963e64882f62fab23db29c668f58e7",
+      "target": "对不起。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/19",
+      "source_sha256": "0a15914161865b06f94b9d73d44ef1e1459be9752bf878e6eec638e664d47941",
+      "target": "快去，你也去吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/20",
+      "source_sha256": "f5cfd4b12c29486a34aea907ee87dded952bb3acb966bfcf8fa70a6771385f27",
+      "target": "可是，米雷娜要是出了什么事……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/21",
+      "source_sha256": "d9f9a903704a3c6960268b10ab3fe9570910040839cec21528b4a2f4123d38b1",
+      "target": "留下来的血泪成员就足够了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001986.fpb/seq/22",
+      "source_sha256": "58cbf3c16605d6e3f574e8392097874243202c315afc23ae3c6852e349f9302e",
+      "target": "明白了。拜托你了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/0",
+      "source_sha256": "534601269e37598fb7227786ee512c7bd76f66936ba2a25c15cf860d4e8e2cd8",
+      "target": "我也去。$n光靠你们，我实在放心不下。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/20",
+      "source_sha256": "71f65a9d9f480cc4b86cc35cd07cea59e48637937973629f4c24b313c754294f",
+      "target": "米雷娜那边呢？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/21",
+      "source_sha256": "46edc574cc624ab162b8add49277914e3925fcb3accf251386f8e3e90eecc826",
+      "target": "哎呀，你倒还多少惦记着啊？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/22",
+      "source_sha256": "8c536e1dea4118a8613ed65a7b1d1bd340068fb35589e5e1258568d586be2c37",
+      "target": "其实是蕾哈丝把我赶来的。$n这样一来，就成了我单方面把米雷娜的事扔给她了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/23",
+      "source_sha256": "bac5e8612b86b53ba1d2e8d1cb35a624c128156d3f7b939f557ad5b2a1110a80",
+      "target": "没关系。与其操心不知道什么时候才会出事的米雷娜，现在出现了亚逊的拉埃杜山，显然更紧急。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/24",
+      "source_sha256": "8ae8842c33ec4eac3fe2b90b54cafb5d0991ace48e4754e466ba92552b66a0d9",
+      "target": "那么，去救那位小姐吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/26",
+      "source_sha256": "66195c7fed153e4dbc05616477ed28f75020f15449f216cccca832092e513391",
+      "target": "对了，把玛雅也带上怎么样？那么可怕的蕾哈丝还在血泪据点，我可不想只把玛雅留下。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/27",
+      "source_sha256": "8fc977cd1508c76e5a742e86e5fc294fc74396f74d0564f762e587d1cf119256",
+      "target": "克里斯！蕾哈丝没那么冷酷。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/28",
+      "source_sha256": "1fef739605c8b4f691c796bf53c3f31c7874ac62dfcb186a8ab13f61bc57f0e7",
+      "target": "哈哈，开玩笑的，开玩笑的。不过，只把玛雅一个人$n留在血泪据点，实在有点可怜。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/29",
+      "source_sha256": "a75b3689de3210234ca2324cbd682031a8bf927868aa1f55163f4f7bd5eea0f3",
+      "target": "那就把玛雅也带上吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/30",
+      "source_sha256": "dee1a0faae5f1853132579b9b32d2fb45bd8b489b41a4cd7286222bc19ee4328",
+      "target": "谢谢你，卡琳兹。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001987.fpb/seq/31",
+      "source_sha256": "79cfb5ded2c8742fe3cb0b34da03f1c5b1830b50aab5ac3e9d0af2f35644d6ca",
+      "target": "……（很高兴能一起去。）",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001988.fpb/seq/0",
+      "source_sha256": "9495de835219b7f2b63a78760204cb2d5dbcb01ff08c970e29e8d39658158d98",
+      "target": "已经死了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001988.fpb/seq/5",
+      "source_sha256": "b208273c23c946e3533ee5f60f74511993fa79e46ee65fe5492c4caab33422e1",
+      "target": "我们不会来晚了吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001988.fpb/seq/6",
+      "source_sha256": "b583d6fa2588c9150b53dcd342d15c052eae50a6f11ece93ecd249e8582ea1a6",
+      "target": "他说是拉埃杜山。$n应该是遭到追赶后，逃向那边了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/0",
+      "source_sha256": "0ddb6cf63c79fc3b5eacd395d081dda097648a538244b825bfb876f4ecae9479",
+      "target": "紧急消息。马拉卡特解放阵线请求协助。他们一直在追踪亚逊间谍，$n但似乎在吉拉特边境附近跟丢了，所以想请血泪帮忙。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/1",
+      "source_sha256": "bb3e458399de6087b3266cb261f069d4aa72516fc34c0d9bd1bb043f3ef087b9",
+      "target": "啊，现在有点不方便。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/2",
+      "source_sha256": "db75a09b17b196f7f92703afea099e5b54a05d377925a0f1a0b346e21e3e9c81",
+      "target": "不方便？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/3",
+      "source_sha256": "d023908d9f23632c0a95713bcc08111716a68276a3372a671d6b21188ab4af16",
+      "target": "啊，这个……我们正在执行之前说的那个秘密任务。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/4",
+      "source_sha256": "e5d06e5c8878d9460d36443afa9dd74ae15696913f0e7175c40eb5169f63b4b4",
+      "target": "是吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/5",
+      "source_sha256": "c015f4dd4c0030e207d505e13f6f79c24fc771117db02dc60f0ee3b4f3ccc3f0",
+      "target": "啊，别失望。下次我一定接蕾哈丝安排的任务，到时候一起喝喝茶，再好好聊聊任务……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/6",
+      "source_sha256": "c3dc1efe6c4706ff4c526f8d9dd95e01419ec29f7183ed52043a2528595df825",
+      "target": "一路小心。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/7",
+      "source_sha256": "900b14c50c725eff7f8a3a59e3a6ac1900bba78093405e5899d97309221306ad",
+      "target": "生气了吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/8",
+      "source_sha256": "ae6923337e8382f16555e6b40a41d87f0297816091ce6fa110de0952fa286bb5",
+      "target": "大概吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/9",
+      "source_sha256": "11aea142570178fc761e60bb707dc1f73642a1d19a613aa22d5b4c8f1e40e3f1",
+      "target": "干脆直接说清楚，不是更好吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/10",
+      "source_sha256": "966cb5d663e0c77fa03101f180cfa4fd8215ea9cb84ed44512cbebcf16516c7f",
+      "target": "现在还不是告诉她的时候。出发吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001989.fpb/seq/13",
+      "source_sha256": "5fbbd177fd7479d7c24225fdc8a0b3f5e038e222b4a6f2060d48767174eb510d",
+      "target": "卡琳兹！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/0",
+      "source_sha256": "e6c14413043674437e119f5519fa412e197461a6adc29ca265a3a1d350ee8e41",
+      "target": "出来透透气？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/1",
+      "source_sha256": "973f47700028a614ab5c466d58703570725b048dab80f5676977d08870fda731",
+      "target": "嗯。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/2",
+      "source_sha256": "0503458c408748e8d9c04b7c9c5ed8b92f312034068a968fd9e2a380840a1c64",
+      "target": "找回些记忆了吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/3",
+      "source_sha256": "db1706552ce334ab2eab45829c4f352e3a193a9f8ff6c7ce0fe678408153dcbe",
+      "target": "还差得远呢。其实，我想早日找回记忆，好告诉哈伦，我是个值得信任的人。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/4",
+      "source_sha256": "d63a008bc6bf5dee9df55224a70f3617ff192ab188d6d68473b4aad12a90fd1e",
+      "target": "哈伦那家伙本来就嘴上不饶人。不必在意，挖苦人是他的爱好。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/5",
+      "source_sha256": "34a5c5069abaeb8d4cfd13d3444fcf1b7208b12b7c66691110e83eac5c2adecc",
+      "target": "我觉得也不完全是这样。哈伦既强大又勇敢。而且，他的恋人被亚逊杀害了，我能理解。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/6",
+      "source_sha256": "e0c043f8b5860025032c24837c32e9cb4b80ab75b7ce15922718249213b6b5f7",
+      "target": "大家都一样。我也在哈贡之战中失去了队长。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/7",
+      "source_sha256": "d95f09c0087c5692614b505ad51268147a1834d74cb99a7fde69ecd3a1c22525",
+      "target": "这样啊。他一定是蕾哈丝很重要的人吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/8",
+      "source_sha256": "d4a07ebf61dd5936a8b5ad88cd4dad86ff01e6c2ad9c7a9bfe60aa4971a12ef8",
+      "target": "……算是吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/9",
+      "source_sha256": "e3950b940ed6aaf86d6fff1dec7ab60890e45233a8ad98028d3fa53c74298768",
+      "target": "我……还不了解亚逊。所以，总是没办法轻易产生仇恨。可大家都希望我也去和亚逊战斗。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/10",
+      "source_sha256": "4e6f108679af462b43eba6e232b0eb30b63f25b586e9d9db69c293954670c480",
+      "target": "不是所有亚逊都很坏。其中也有讨厌战争的人，也有像你这样纯真的人吧。$n但就算这样的人再多，战争也还是会发生。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/11",
+      "source_sha256": "3611722381bb2e5208abd847932b638b9c87ae1eaa881db750eb27c9f744d132",
+      "target": "发动战争的，永远只是少数权贵。$n其他人都不过是随着他们的乐曲起舞的小丑。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/12",
+      "source_sha256": "bd1b9dd63fb86b35a3e7f0bf0d4372ea6bf2143756ebb60da74310ee95afebbd",
+      "target": "能不和亚逊战斗，当然最好。但如果他们威胁到你的生命，你就得战斗。不是所有亚逊都很坏，$n可也不是所有亚逊都善良。为了保护自己而战斗，$n不必为此烦恼。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/13",
+      "source_sha256": "6bde62ea07aa9b4478d3224c16c7d0a4219348dc496858e34b17b1b6b6afae0d",
+      "target": "……蕾哈丝真温柔。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/14",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/15",
+      "source_sha256": "324963f80ffa9fffe620e45b96f34497b76eedacd112e722ff5e5fcd8e2916b5",
+      "target": "我一直希望……能有人对我说这些话。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/16",
+      "source_sha256": "ea04cb4c88227032eaf8d0d114f8cce0b611e9dda65d6e2ff67437c3f394bfb8",
+      "target": "没什么……只是多余的忠告。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/17",
+      "source_sha256": "358ab91e001ae9a58fc06029cb7ebf108b588077bb87605b382a899f94d1851d",
+      "target": "不是的。真的帮了我很多。谢谢。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001990.fpb/seq/18",
+      "source_sha256": "8862c767aef7646d36af1b16188bb7d41fdc44a23f833e088a6a06570b8a2040",
+      "target": "没什么……我只是……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/0",
+      "source_sha256": "2b4bb46c941b1741bd7ce47f229863da751f7450ce662a078c8820629cd4fdd1",
+      "target": "听说风月林十年前遭到亚逊袭击，毁灭了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/1",
+      "source_sha256": "bbcd64584e1785598d8ef21e65df245961d214cd5f4b50337be7caebca7bf94b",
+      "target": "爸爸，我想住在那里。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/2",
+      "source_sha256": "73af1a2fad74261b82249b37a99c2c725a45ede3430a5d95f39e3460f00c69da",
+      "target": "不行吗？我也想和那些孩子一起玩。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/3",
+      "source_sha256": "65c098a4404c407b443adc48b14c3c6b9da00df5e9d6f8a44989d0c238b1dd22",
+      "target": "莉丝，你没事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/4",
+      "source_sha256": "7d2d2ca17cc0e218feb7367b34d6224802432bf2e8261be098575ade8226f4b6",
+      "target": "嗯……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/5",
+      "source_sha256": "ab0a6b58bd79df0ab359c20e58183cd697485c2714f94da85efbf16a80dda7f8",
+      "target": "看来这里也没有他来过的痕迹。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/6",
+      "source_sha256": "2441e0d9e1f8ea9a00ecb04e6adc3bcd717bec53a4e58c4a2dd726445913cf89",
+      "target": "你丈夫？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002102.fpb/seq/7",
+      "source_sha256": "a9227da9ce6ea68a5ac7384eb14c1f53e417c2b90e02c38752380c294aaf34c4",
+      "target": "嗯。虽然想靠偶然碰见他，大概是不可能的。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/0",
+      "source_sha256": "1c51bda50cf4760bab36bdc3cda20900b9eac61f532c1de47b3abcfd925568a6",
+      "target": "接下来去哪里？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/1",
+      "source_sha256": "e1bc2e822cf41a48330b2e781eaa149ca5d3c0558f979051261da663eb36ebec",
+      "target": "该回吉拉特了。$n如果不想被亚逊追杀的话。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/2",
+      "source_sha256": "883ee39ea203957da2322a080350fc128e93ae79e274a73375cd35b3d2e5b1ea",
+      "target": "我……也可以一起去吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/3",
+      "source_sha256": "eba1c570744534aeff1d6837ee74ee0af43d73ce63351a30093806648524357f",
+      "target": "为什么这么问？难道你觉得我们会在这时候丢下你？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/4",
+      "source_sha256": "06f7ed40071e988bcedd5dc4e0c5079018e36185172a3b0d77bfccccc6f33894",
+      "target": "可是……刚才卡琳兹生气了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/5",
+      "source_sha256": "caf8124171742a4dca9a0218faf3cd4df7321a7ac07b53d34ea516e2021bf37b",
+      "target": "我没有生气。况且，我已经答应要把你送到阿玛巴德。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/6",
+      "source_sha256": "b27a95f91c03d67d702ba6a924306222cf737b56e2f889fa20b77cbef3440df0",
+      "target": "亚逊真是那么坏的人吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/7",
+      "source_sha256": "0ef14fde092ad1f9f8f40593e3ed5ba67ce434ee1d0bba5dc2b30cee3eaf6aae",
+      "target": "如果还不明白，就尽快找回记忆。$n等知道自己是谁，你应该也能$n作出判断了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002118.fpb/seq/8",
+      "source_sha256": "ab469e6383c6bce0f70c83776ff3fe66058afd0a7ad8bfc67671f717237d6be2",
+      "target": "……嗯。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002119.fpb/seq/0",
+      "source_sha256": "77a9fb338b138f6a6d6e7286b0faf9853f25b6c2318c1bac401974a05bcd2dc7",
+      "target": "看来拉埃杜山上有我们在找的东西。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002119.fpb/seq/1",
+      "source_sha256": "8cc63b0912515422bea4181574345c58ed9d535f82d4e867391f420ef8eaffa3",
+      "target": "……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002119.fpb/seq/2",
+      "source_sha256": "248e1009e38d85239cbc8772c9f6138d05ec04c3fc7f8aa1fe6861844960f232",
+      "target": "不用担心会被抢走。放心吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002120.fpb/seq/0",
+      "source_sha256": "2f28e6b6dd7aaf17987d6a7bb26041425092794a52846153289da5b9297cb4a4",
+      "target": "我就知道会有你们这种逃跑的家伙。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002120.fpb/seq/1",
+      "source_sha256": "e06863f9a09138468be16cc23fdf6d8d87fc510687591b877a10f7b943131f94",
+      "target": "是乖乖投降，还是把你的脑袋交出来？那样的话，或许可以放其他人走。$n哈哈哈。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/0",
+      "source_sha256": "dbdf38e44a747594a011e642b4e7f910d0863915e18fe446b3b04deee7952459",
+      "target": "还活着啊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/1",
+      "source_sha256": "075682fdab510ba2792778d647e26aa5b7b9cff5f434e8bb9475610d88d8d26f",
+      "target": "那就好。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/2",
+      "source_sha256": "9b22d62bba3cc682d4e34b53975b5123acd6eaa9d52c84b5417fc86df1f28ff8",
+      "target": "因为唯独你，我想亲手解决。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/3",
+      "source_sha256": "659ac662b181065bc097b317a1cc40c156ebaa5c5073c69a8fd7e63a0eaeff2e",
+      "target": "莉丝，战斗开始后，什么也别想，只管向前跑。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/4",
+      "source_sha256": "0ea6603951d335038426c0a2a84f9beaaaadacf65a148e3c7dee059828cab40a",
+      "target": "为什么？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/5",
+      "source_sha256": "b2fda9471aa85541798f3cc8cf2158aa59db1af623688a3d549e063cd19a4117",
+      "target": "我们没有胜算。得尽快离开这里。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/6",
+      "source_sha256": "dc2ab42084eaceb63f4dfd8a8b5c970838d4a4397e0f95440a83bcae9301e775",
+      "target": "……我也不能留在这里吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/7",
+      "source_sha256": "cfc268d467b348f6d0bc7dbe4af3673e61f0b2e279b351ea453051eaae97a176",
+      "target": "别担心。我会跟上去。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/8",
+      "source_sha256": "b5bcbb320f6c1d1dd99ada8f3d2e3a3bdcb8832157307274910816af7c86ff79",
+      "target": "你一定、一定要来啊？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002122.fpb/seq/9",
+      "source_sha256": "be446dae1903b4950a68c0e122099d22003ceb68a3e9da8b853f8d2f978d48d9",
+      "target": "知道了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002123.fpb/seq/0",
+      "source_sha256": "becb09708af82cebf5e95c8db602397e38b5500d6fcd96bc92e039dc73bf52ba",
+      "target": "真遗憾。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002123.fpb/seq/1",
+      "source_sha256": "a6cb202d4ad17d1f39d739a616af519e68edc20bb759c6852946dcd5b2677a1a",
+      "target": "凡是拔剑面对我的人，我都不会轻易让他了结。我会把你们的脑袋送到雷斯蒂。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002123.fpb/seq/2",
+      "source_sha256": "83a56c25cea7b9d1ab19e5d0dc783a760d46f46fbda56704b0b943c59f98c33b",
+      "target": "难道……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002123.fpb/seq/3",
+      "source_sha256": "4ba4ec12185145fade05b033327206b1ff7cfce83ee38e82ecdfc4515d82aa29",
+      "target": "不可能。为什么会在这里……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/0",
+      "source_sha256": "1849398b963b8def1a7f821d524cdffeb1d49dc2fda486be109d5780324ba337",
+      "target": "哈哈哈，克里斯大帝二十二世$n成功了！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/1",
+      "source_sha256": "891f481690ea6728f7d6bb606a366c5c59c87fdf42cd2eddb16059b729f87c29",
+      "target": "队长，你没事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/2",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/3",
+      "source_sha256": "1fe4c06001f81587b9057e2caca1d68e545aaa41785a0105dabd74d64f784c4b",
+      "target": "太好了。你知道大家有多$n担心吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/4",
+      "source_sha256": "f89188d9ee0d4b6714dc453824614f55f29c76bf909a170515a98e48f61df00f",
+      "target": "看来大家都顺利逃出来了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/5",
+      "source_sha256": "20a587b50c80be8f56630b9988d380678fc251b2d3d94a0d81a1721f79cd684e",
+      "target": "逃是逃出来了，可旁边那位小姐是谁？$n难道你交了个女朋友……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/6",
+      "source_sha256": "1ff0bb05f2b2f273995264b567c64dcfa143c34276844f5ff824e964b5f3c26c",
+      "target": "我叫莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/7",
+      "source_sha256": "474f8d1450e22162cfa998701bae77b5fc607dde5f2f2fcff417157af97858a2",
+      "target": "咦？哦，好的。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/8",
+      "source_sha256": "b9d26589da52d8d9d73af1829155a755652dcf1f62a76157b49fceafc5ff19e1",
+      "target": "她是我的救命恩人。$n看来是个巫女，$n不过失去了记忆。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/9",
+      "source_sha256": "5189ef62b50717d79f08bbc58a6f57b80681254988f64ab77fa1b92f4cce9a7a",
+      "target": "啊，原来如此。你救了队长，真的$n太感谢了。我叫阿塞斯。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/10",
+      "source_sha256": "1ff0bb05f2b2f273995264b567c64dcfa143c34276844f5ff824e964b5f3c26c",
+      "target": "我叫莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/11",
+      "source_sha256": "d7aa03ba970323f02e9aa29258a779274f63d2346a6c8cce3fb8e4da93266c38",
+      "target": "总觉得……她的状态似乎有点奇怪。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/12",
+      "source_sha256": "a95e4658b0d3e08b6e9a5759fdf911f2f279296bd654bb1d8dd7943f80739511",
+      "target": "所以打算送她去阿玛巴德。她本来就是巫女，在那里接受治疗，应该会好起来。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/13",
+      "source_sha256": "2cc8e561fe3778cdc01bdcf42c04f1515135dbcda84bab32192d8f1553e56bca",
+      "target": "这样啊。既然这么漂亮，加入血泪也$n挺好……呜啊！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/14",
+      "source_sha256": "71db2b3a8e50f2329f6fa2dffa97f0119ade2ef1c2eb893bd2cb82ecfb7d2684",
+      "target": "啊！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/15",
+      "source_sha256": "4891e613728c0cf612bb2edd599f483d08daa56267169c8d370367ebe196515a",
+      "target": "出什么事了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/16",
+      "source_sha256": "54a4dd6f8faf5e94991b018a98fadcf0f37dbf7987ba9dab009fced3bde936ad",
+      "target": "唔，有种不祥的预感。又是失败作吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/17",
+      "source_sha256": "ee33c8d0db248f733472f9093549991e0fe5f661148e418a9fa6cb3c6732bd52",
+      "target": "什么？又失败了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002124.fpb/seq/18",
+      "source_sha256": "e8f1c67617a1da8414c481b2664c25dd70f3e5a400550b67a6caab4ffeabe7aa",
+      "target": "大家抓紧！凭我这惊人的技术，$n总能想办法降落的！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/0",
+      "source_sha256": "62f2bc408c8a4056bcb2ef509c70c0b85116e242f3a0b6a390af2ce8a3172180",
+      "target": "克里斯先生，又是失败作呢。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/1",
+      "source_sha256": "bfafaca997c722ce1d2e61443399d99fb7073341c46ddb5d6a26b562aacd0f78",
+      "target": "啊哈哈哈……$n看来加装推进器反而出了问题。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/2",
+      "source_sha256": "936213b249855b6741960fd029da8c4eed0a494183f6938bf81d839776b4021c",
+      "target": "不过，也多亏它才救回了队长。$n克里斯先生真厉害，$n既擅长射箭，还会搞发明。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/3",
+      "source_sha256": "643a6c9ca8e68b7c633177d745b6136b375ae37c2c9b860cac9e4abf4d983c5b",
+      "target": "啊哈哈哈，叫我天才也没关系。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/4",
+      "source_sha256": "b00d7432baacdaa12056106eab7b10ed164c281a73d1a3defd8bd359cbbdc19b",
+      "target": "可是，刚才差一点就把我们全都害死了呢。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/5",
+      "source_sha256": "3ae59c2a58afd6abcf3c56d2be55610bc001ff82b8f06c93f393c5fa78307120",
+      "target": "哈哈……哈哈哈……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/6",
+      "source_sha256": "9c6d89db5bcbe366213d20be333afa6e3ff7db34465acf843ec59172e148a537",
+      "target": "你没事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/7",
+      "source_sha256": "99af3890138d414f21885fc6546b4c906a4723144286b2873b05a97decd487af",
+      "target": "卡琳兹没受伤吗？$n要我帮你治疗吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/8",
+      "source_sha256": "c70fc277a7c4927928b4905c7558173f676e268a51cde92f325802cce6451c76",
+      "target": "不必。还没那么严重。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002125.fpb/seq/9",
+      "source_sha256": "52a0718323d40db2d0bdb7cc0e04718c675396969a905c61f284f404724aa859",
+      "target": "啊，虽然是迫降，$n不过从这里到雷斯蒂很近。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/0",
+      "source_sha256": "a8217c8afabc9c5d22785665ec88b22a5938396ff7edae123c4843084d12e13a",
+      "target": "呼，总算到了。快走吧。$n大家都在等队长。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/1",
+      "source_sha256": "9865d155005fce4aa25d5bfb06c2e3304f51cc0cae3f48d3bd4a20ef04d28fca",
+      "target": "你没事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/2",
+      "source_sha256": "bc4b63902c9bb968f27bb69b5c48addaa5a17ab1a79fc648a8fdac979fce1808",
+      "target": "你、你干什么！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/3",
+      "source_sha256": "9db7a13c3871dd1f492d025867223c52b5836176f8d46c139b0966c852994d0e",
+      "target": "啊，对不起，对不起。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/4",
+      "source_sha256": "8393cbd553ba4c5414bf52ef235434449defd35d7ebd20b9fbe6733c6381cb98",
+      "target": "恢复术？您是巫女吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/5",
+      "source_sha256": "14e929e110ea4ee54066da0ca48a11e77edc973a7008c94f22aaaf3f9674d30c",
+      "target": "……我……莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/6",
+      "source_sha256": "02990bd2da63f3b23ef2692d6c391aeb87e118e36d03a99d44c2907180144d52",
+      "target": "什么？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/7",
+      "source_sha256": "5100bf60d4ed9585b71e120d4043fe8b80d634bced77158cc697a443d912cbe7",
+      "target": "这个笨蛋。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/8",
+      "source_sha256": "2dede06978019fef5a0bb7a685f271e1bfb76f4d738b0f1310f20ff93dc900ee",
+      "target": "这位是阿玛巴德的巫女。$n她遭到弗罗斯特·沃姆袭击后，$n失去了记忆，希望你能谅解。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/9",
+      "source_sha256": "5cc16ea868b5abe5ca3641b2c82d442184d25e0a3c0d80ffeef836043e00a62a",
+      "target": "啊，明白了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/10",
+      "source_sha256": "468e06e67df6c656009bbc7edce7590c4cfec15ebda4b5c04a112ebf77351972",
+      "target": "哼，大魔法作战都失败了，竟然还敢$n昂首挺胸地回来。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/11",
+      "source_sha256": "aae80f64b64ca1da00edfb26df631ba96fdcfd59dd51fb686efc4f5a603b5fb7",
+      "target": "喂，住口。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/12",
+      "source_sha256": "7c9aee7aaef4c87a45c2366f905ffd7e021514e34d75cef942354d445220a563",
+      "target": "怎么？又想大闹一场吗？$n我劝你们还是适可而止。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/13",
+      "source_sha256": "96ec95a371ea05046e3d3f6d074702ce7ab582599e965036df22502a3f0f8a63",
+      "target": "血泪，你们上次说是和亚逊战斗，却把伊内德村夷为平地。$n那里可是我的故乡。你们知道吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/14",
+      "source_sha256": "f51e75379fea90eeb3293bbb46b0d93aecfc7f109a2f8d61a355386dc6ab6ac4",
+      "target": "没能守住村子，我很抱歉。$n但我们确实警告过村民，让他们避难。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/15",
+      "source_sha256": "fd162ec5226da3f04ebd11e132ac42b449eac4522f6d3826fdf1cda1387b3064",
+      "target": "是啊。放火烧村子的也是亚逊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/16",
+      "source_sha256": "fca86fce9cc1bdf7dcd3563fd509d781b1108ec3e9d33bf97cb478225250412f",
+      "target": "对不起……对不起……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/17",
+      "source_sha256": "8dc8f1e0d0365a2e5f9cf6e928b0d663e5d35afe6467cf71c2e6f8b7c6c7e945",
+      "target": "啊，那个……巫女大人……",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/26",
+      "source_sha256": "4303de72f1df3727ad15f39c8b16a61c374eaba21412224e45d13d3e042e1f69",
+      "target": "没关系，不是莉丝小姐的错。$n我们走吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002126.fpb/seq/27",
+      "source_sha256": "1d26d8289b29944586c51dcbe907f61b40da7a09e2f550920ddc3a57d576be0b",
+      "target": "队长，快去旅馆找艾欧妮丝小姐和哈伦先生吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/0",
+      "source_sha256": "066a901be7e01c01a2623904cb7bc362ffa0f7cdfaa97d266e016a18238f9688",
+      "target": "你真是总会吓人一跳啊，$n呵呵。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/1",
+      "source_sha256": "833ca22a2c8f1627ffadb83d0b441ba1a268b8d65dfa0b36ec004708537452b8",
+      "target": "抱歉。不过，大家都平安无事，不就行了吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/2",
+      "source_sha256": "89c53b7c5fc1f4f310ecce61d94fbbd696a54805efe7986ff26e98220d74f3aa",
+      "target": "你这混蛋！",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/3",
+      "source_sha256": "aa5a0a86d79053416742a3f14276742e2a200ae5b8348873bdad45fa059b68bc",
+      "target": "哎呀。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/4",
+      "source_sha256": "e5639c586d20f13259debc9f7e084305299186c122f18175c1fb0a2082ec2486",
+      "target": "我都平安回来了，应该没必要还挨你一拳吧。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/5",
+      "source_sha256": "a84e6a2cad4b2db827d898d80de6a4b7dc7b88f26f57762d9eafec24d43b6edb",
+      "target": "你能不能别再做蠢事了？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/6",
+      "source_sha256": "713f0775ea73817fcec4193f4d418b4bd6556af757ef4c1161027eeeffa97922",
+      "target": "当时的情况，别无他法。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/7",
+      "source_sha256": "c98c90e59be980efff4f25292dd493cde081aca4eccd219054c2efc6eacc3184",
+      "target": "你这家伙，真是的。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/8",
+      "source_sha256": "475def3cfbb78eddbe08ac491ee864b020cbf6cb2e58035f8221fb98b30e1cc4",
+      "target": "哎呀，还带回了个可爱的姑娘。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/9",
+      "source_sha256": "33ac9ab4991f41578d4f7b05f31fa74d026eb484a0234e4fa7e747a7a4c53443",
+      "target": "听说她是队长的救命恩人。$n是阿玛巴德的巫女，不过失忆了。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/10",
+      "source_sha256": "3171b5a02b7f3abc585c021fc26bf90755459184a1bc26bdd680ee739426004f",
+      "target": "我叫莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/11",
+      "source_sha256": "69e78ecb2d6dd8c4f2a1d5fb15c9bbd9ad6ec65aac70e2a60f9ee7f6109f139c",
+      "target": "我是艾欧妮丝。$n谢谢你救了卡琳兹。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/12",
+      "source_sha256": "3171b5a02b7f3abc585c021fc26bf90755459184a1bc26bdd680ee739426004f",
+      "target": "我叫莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/13",
+      "source_sha256": "ff6033043e332267fcfcc541cc7614025bf06daeb7d1beca2da1efa86f3d8136",
+      "target": "我是莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/14",
+      "source_sha256": "a016a28801645493e501965f6d1423bd44c99bc741f969d601e7eb98bfd63297",
+      "target": "这、这家伙到底是怎么回事？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/15",
+      "source_sha256": "3171b5a02b7f3abc585c021fc26bf90755459184a1bc26bdd680ee739426004f",
+      "target": "我叫莉丝。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/16",
+      "source_sha256": "a6591fd5b2dbfb2383708921baec71f69409db1f66d850e346ca6c10b1f5a620",
+      "target": "啊啊，知道了。我叫哈伦。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/17",
+      "source_sha256": "cb7bae2da790a834daa957f7549ec9a91645b1611bdc91d2938eb7c5c5e0e55b",
+      "target": "是因为失忆吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002127.fpb/seq/18",
+      "source_sha256": "53027b8aec1cfecd3dc4c6492c5b68e2009256e408eaeea4a880df5107a17ac2",
+      "target": "看来是这样。$n阿玛巴德说不定也在寻找$n失踪的巫女。$n还是把她送到阿玛巴德比较好。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/0",
+      "source_sha256": "dc09a71dbc281badc90bb0aaf3198f0adca70de0c75ef50b88f83ace1d2d582e",
+      "target": "卡琳兹……？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/1",
+      "source_sha256": "363dcb6d90ae6131971d4df2624a70e1f792476a62f646abaf656c004f551318",
+      "target": "将军，您平安无事啊。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/2",
+      "source_sha256": "f8e18dad9dc1e0fb5be3a3fa05a0b992b349d98adf3f2836d942e2ae97f6875c",
+      "target": "这话该我来说。$n突然消失，把人吓一跳，$n又突然出现。$n你是想让我心脏病发作吗？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/3",
+      "source_sha256": "6f0aea26fef9650c7a3cbcc1ca34b136cec0831da2777e9f05d6415a6559cf9d",
+      "target": "请原谅我擅自行动，将军。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/4",
+      "source_sha256": "d36963126bb89d2c3d08042cb362f9c8442a950a6ad1f35257e291cc82d08748",
+      "target": "我一直相信你肯定会回来，$n应该没出什么事吧？",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/5",
+      "source_sha256": "673fd71f57bb60debc6cc3930407f68938ca84d4eed1f2e4f658117cb72fa52a",
+      "target": "其实……发生了点事。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/6",
+      "source_sha256": "aa2d955b528211c4e70f6368baad59450c74b6c0dcfa603ef5d251b505558c8c",
+      "target": "那还是去阿玛巴德接受治疗比较好。$n而且，如果是巫女，母亲或许能$n认出她。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002128.fpb/seq/7",
+      "source_sha256": "84cd42ac89d719a2aeda584b80f147083d202a9354323d9e76631c233798e19a",
+      "target": "过些时候，我会派联合军$n护送她。",
+      "status": "draft",
+      "context": "FPB continuation draft; source window order and controls preserved; speaker and global chronology require proofreading; not imported."
     }
   ]
 }
