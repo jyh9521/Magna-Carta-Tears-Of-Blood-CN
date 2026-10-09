@@ -180,3 +180,8 @@ work/venv/Scripts/python.exe -X utf8 tools/export_review.py --catalog work/catal
 ```
 
 浏览输出 index.html，逐资源对照；review.jsonl 保存全部字段，未译目标为空。完整原文、celfid 候选和所有页面均只保留本地。重复 target ID、源 hash 不匹配、混合目标 locale、控制符或术语检查失败均拒绝导出。输出已存在时拒绝覆盖。
+
+
+### 统一源集合更新
+
+已核查布局重组为 998 资源／19137 字段（14628 非空），6334 草稿全部保留精确关联；167 CP949 失败／101 控制结构隔离。旧 15121 字段为前一版集合，非全游戏无遗漏结论。详见 [统一集合](docs/AUDITED_CORPUS.md)。
