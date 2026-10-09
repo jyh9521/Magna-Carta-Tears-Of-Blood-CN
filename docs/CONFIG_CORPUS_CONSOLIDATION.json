@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "previous_corpus_sha256": "a9c7a9b0344cfebeda01014ffab83c00dd94e7e4b5de4d286eedc3447d031c18",
+  "active_resources": 1027,
+  "active_fields": 20151,
+  "nonempty_fields": 15552,
+  "empty_fields": 4599,
+  "decode_failures": 167,
+  "quarantined_controls": 101,
+  "config_resources_added": 29,
+  "config_values_added": 1008,
+  "config_backend_enabled": false,
+  "drafts_preserved": 6334,
+  "draft_links": {
+    "exact-source-link": 6334
+  },
+  "old_resources_unchanged": true,
+  "old_candidates_unchanged": true,
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-pending",
+  "source_modified": false,
+  "source_corpus_sha256": "9f2a5445fe5b9e4c56f19df647a9e112d281bfe506549d4fe044fe498c77d1b7"
+}
