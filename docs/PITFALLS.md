@@ -248,3 +248,8 @@ Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证�
 ### Texture 图名与属性不足以排除图片文字
 
 Editor Bad 的首级包含烧录 `BAD SIZE`；Texture0 是 NumberFont 字形表。普通 mip 的 lazy end 是原包绝对位置，流式包不能盲目沿用该坐标。首级视觉检查与全部 mip 结构闭合是不同证据。详见 TEXTURE_MIP_AUDIT.md。
+
+
+### Function native 字段不能照搬 UE1
+
+实测 Function 为 u8 precedence＋u32 flags，NativeFunction 再附加 u16 native index。统一先读 u16 native 会错读标志。121 个 operator FriendlyName 与 export name 不同；virtual script size 也不等于磁盘长度。详见 COMPILED_SCRIPT_AUDIT.md。
