@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "manifest_sha256": "ce5b5dd387b43cb95a3360d3796fb0c8738bc564a5538bb7e6301a7b8613e8ff",
+  "textures": 28,
+  "smaller_mips": 163,
+  "contact_sheets": 7,
+  "all_images_native_size": true,
+  "visual_review_complete": true,
+  "streamed_textures_audited": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "all_ordinary_mips_reviewed": 191,
+  "additional_phrase_candidates": 0,
+  "observed_existing_label": "Editor.u/export/32: BAD SIZE",
+  "runtime_visibility_verified": false
+}

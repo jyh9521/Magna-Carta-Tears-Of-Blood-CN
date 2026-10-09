@@ -96,7 +96,7 @@ FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1
 
 ### 普通 Texture 载荷核查
 
-28 Texture／27 Palette／191 mip 全部结构闭合；28 首级图已检查，Editor Bad 含 `BAD SIZE`，NumberFont 为 glyph atlas。163 小 mip 尚未逐图检查，流式 Texture 未覆盖；全文门禁不变。详见 [普通纹理核查](TEXTURE_MIP_AUDIT.md)。
+28 Texture／27 Palette／191 mip 全部结构闭合；28 首级图已检查，Editor Bad 含 `BAD SIZE`，NumberFont 为 glyph atlas。163 小 mip 已完成原尺寸逐图检查（见 SMALLER_MIP_AUDIT.md），流式 Texture 未覆盖；全文门禁不变。详见 [普通纹理核查](TEXTURE_MIP_AUDIT.md)。
 
 
 ### 普通编译脚本完整结构核查
@@ -107,3 +107,8 @@ FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1
 ### FPB 池余段纳入统一源引用
 
 当前统一集合为 998 资源／19143 字段（14634 非空），6 段／802 B 非索引池余段已保留，6334 初稿关联不变。167 活跃解码失败重新核验；非索引片段不伪造 sequence ID 或导入。详见 [池余段统一集合](POOL_REFERENCE_CORPUS.md)。
+
+
+### 普通包全部 mip 视觉核查
+
+163 个非首级 mip 经 7 张原尺寸 contact sheet 全部检查；普通包 191 mip 视觉覆盖闭合，未观察到新增独立短语候选。流式 Texture／SFD 仍未覆盖，全文门禁不变。详见 [小 mip 核查](SMALLER_MIP_AUDIT.md)。

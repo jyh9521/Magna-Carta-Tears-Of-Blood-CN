@@ -29,3 +29,8 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_texture_mips.py --archive work/
 ```
 
 输出须为 ignored work/build 下空目录。完整纹理及 PNG 只保存于 ignored 输出，不进入 Git；仓库只保留只读工具、合成测试、聚合统计及事实记录。不修改原 AFS、原 ISO 或现有测试镜像。结构闭合结论来自韩版逐载荷验证，复用既有 AFS、package table、property reader；未复制第三方实现或声称上游为该布局提供独立运行验收。
+
+
+## 后续全部 mip 检查
+
+第 70 轮完成 163 小 mip 的原尺寸视觉检查；此前未逐图检查状态已更新。普通包全部 191 mip 已检查，流式包仍未覆盖。详见 [小 mip 核查](SMALLER_MIP_AUDIT.md)。
