@@ -1,0 +1,17 @@
+{
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "counts": {
+    "ordinary_packages": 10,
+    "instance_property_blocks": 30813,
+    "tags": 634,
+    "with_stack": 22,
+    "with_native_tail": 30788,
+    "class_defaults_pending": 568
+  },
+  "string_properties": 1,
+  "parse_questions": 0,
+  "complete_game_text": false,
+  "streamed_serial_mapping": "unresolved",
+  "class_defaults_complete": false,
+  "native_serial_semantics_complete": false
+}

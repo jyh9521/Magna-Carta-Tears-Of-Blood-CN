@@ -228,3 +228,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### celfid 候选字节上下文
 
 详见 `docs/BUNDLE_CONTEXT_AUDIT.md`。35,048 条候选全部校验片段身份；2,595 条位于完整 SHIP 镜像，16,767 条位于流式包表，15,686 条仍处于其他载荷。分类不推断可见文本或 linked group。
+
+
+### 普通 UE2 实例属性
+
+10 个普通包 30,813 个实例属性块、634 个 tag、22 个执行栈静态核查，零属性解析疑问；568 个 Class 与 30,788 个 native 尾部尚未解析。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。

@@ -203,3 +203,8 @@ name-iso-21在名称测试尚未完成时被列为可删除事务；其镜像与
 ### LINEAR 未解释尾部与有效前缀
 
 详见 `docs/STREAM_TAIL_AUDIT.md`。全部 4,098 项 manifest/TOC 尺寸一致；12 个尾部疑问仍未解决，有效前缀追加 57 次包表及 87 次 Texture export。部分载荷仍保持未闭合状态，不截尾或扩大可重建保证。
+
+
+### 执行栈与空属性误判
+
+采用 u16 LatentAction 会错位读取韩版 Entry.unr；应按已核对 u32 布局。Class 和 native 尾部不能因首个 None 自动判定无文本。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。

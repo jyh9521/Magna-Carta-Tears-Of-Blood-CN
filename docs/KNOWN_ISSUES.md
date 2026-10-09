@@ -95,3 +95,8 @@
 ### celfid 候选字节上下文
 
 详见 `docs/BUNDLE_CONTEXT_AUDIT.md`。35,048 条候选全部校验片段身份；2,595 条位于完整 SHIP 镜像，16,767 条位于流式包表，15,686 条仍处于其他载荷。分类不推断可见文本或 linked group。
+
+
+### 普通包 native 与默认属性
+
+实例 tag 读取已完成；Class 默认属性、30,788 个 native 尾部、编译字节码与流式 serial 尚待核查。全文门禁保持关闭。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。

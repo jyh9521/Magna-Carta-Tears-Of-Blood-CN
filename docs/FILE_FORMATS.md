@@ -240,3 +240,8 @@ ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synth
 ### celfid 候选字节上下文
 
 详见 `docs/BUNDLE_CONTEXT_AUDIT.md`。35,048 条候选全部校验片段身份；2,595 条位于完整 SHIP 镜像，16,767 条位于流式包表，15,686 条仍处于其他载荷。分类不推断可见文本或 linked group。
+
+
+### 实例属性与 HasStack
+
+普通实例以属性 None 终止；HasStack 0x02000000 头的 LatentAction 为 u32，非零 Node 带 compact Offset。Bool 无 payload，Struct 名先于尺寸；Str 类型 13 使用有符号 compact 数。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。
