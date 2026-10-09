@@ -208,3 +208,7 @@ Verified static：六资源总长均为 8+count*stride，ID 不保证连续。FD
 ## LINEAR／FILE 流式包表
 
 Verified static：路径256 B + 保留u32 + 原包长度u32，随后UE2 version118摘要，name offset64。流式names/imports/exports顺序相邻，原头io/eo仍为原包坐标。declared export offset/size仅作原包边界检查，不对应流式serial；7,830次包表通过。详细统计及12项压缩差异见 [CONTAINER_PAYLOADS.md](CONTAINER_PAYLOADS.md)。
+
+## MUSIC.AFS 与 SFD 的只读库存
+
+Verified static：MUSIC filename TOC stride48、3646项，头界限及全部entry范围在归档内；复用cri_afs读法。ADX观测头为大端长度／采样率／样本数，记录参数不擅自推定语言。46个SFD的MPEG-1视频与45个ADX音频流经完整pipe输入核对，详见 DISC_PAYLOADS.md。

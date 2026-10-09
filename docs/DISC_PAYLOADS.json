@@ -1,0 +1,36 @@
+{
+  "disc": {
+    "schema": 1,
+    "source_iso_sha256": "6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45",
+    "iso_files": 62,
+    "all_file_bytes_hashed": 3188718429,
+    "file_extensions": {
+      ".43": 1,
+      ".AFS": 4,
+      ".CNF": 1,
+      ".DIR": 1,
+      ".IMG": 1,
+      ".INI": 1,
+      ".IRX": 7,
+      ".SFD": 46
+    },
+    "music_entries": 3646,
+    "music_headers": {
+      "non-ADX-header": 1,
+      "ADX-header-observed": 3645
+    },
+    "complete_game_text": false,
+    "result": "all ISO files hashed; audio headers indexed; semantic review pending"
+  },
+  "movies": {
+    "schema": 1,
+    "source_iso_sha256": "6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45",
+    "sfd_files": 46,
+    "probe_exit_zero": 46,
+    "full_input_hash_matches": 46,
+    "video_streams": 46,
+    "audio_streams": 45,
+    "complete_game_text": false,
+    "result": "all SFD stream metadata inspected; visual and spoken text review pending"
+  }
+}
