@@ -208,3 +208,8 @@ name-iso-21在名称测试尚未完成时被列为可删除事务；其镜像与
 ### 执行栈与空属性误判
 
 采用 u16 LatentAction 会错位读取韩版 Entry.unr；应按已核对 u32 布局。Class 和 native 尾部不能因首个 None 自动判定无文本。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。
+
+
+### 虚拟脚本长度不能直接跳过
+
+Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证磁盘字节数相等。13 个疑问类保持未解析，不能以猜测跳过编译脚本。详见 `docs/CLASS_DEFAULT_AUDIT.md`。

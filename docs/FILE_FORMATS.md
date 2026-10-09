@@ -245,3 +245,8 @@ ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synth
 ### 实例属性与 HasStack
 
 普通实例以属性 None 终止；HasStack 0x02000000 头的 LatentAction 为 u32，非零 Node 带 compact Offset。Bool 无 payload，Struct 名先于尺寸；Str 类型 13 使用有符号 compact 数。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。
+
+
+### 零脚本 Class serial
+
+version118 普通 Class 序列包含观测额外 u32，再读虚拟 ScriptSize；零 ScriptSize 后逐项解析 State／Class metadata，再读取默认属性至原 serial 末尾。详见 `docs/CLASS_DEFAULT_AUDIT.md`。

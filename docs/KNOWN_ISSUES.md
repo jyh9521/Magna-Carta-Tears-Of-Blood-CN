@@ -100,3 +100,8 @@
 ### 普通包 native 与默认属性
 
 实例 tag 读取已完成；Class 默认属性、30,788 个 native 尾部、编译字节码与流式 serial 尚待核查。全文门禁保持关闭。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。
+
+
+### Class 默认属性余项
+
+555 个零脚本类已读，13 个非零脚本类边界未闭合；119 Str 仅参考属性，不自动确认游戏可见或升级为翻译正文。详见 `docs/CLASS_DEFAULT_AUDIT.md`。

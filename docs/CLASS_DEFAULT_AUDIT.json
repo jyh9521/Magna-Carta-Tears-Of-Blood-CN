@@ -1,0 +1,14 @@
+{
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "counts": {
+    "zero-bytecode-defaults-read": 555,
+    "default_tags": 1473,
+    "nonzero-bytecode-pending": 13
+  },
+  "classes": 568,
+  "string_properties": 119,
+  "parse_questions": 0,
+  "complete_game_text": false,
+  "class_defaults_complete": false,
+  "bytecode_decoder_complete": false
+}

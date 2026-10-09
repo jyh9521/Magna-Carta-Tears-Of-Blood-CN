@@ -233,3 +233,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### 普通 UE2 实例属性
 
 10 个普通包 30,813 个实例属性块、634 个 tag、22 个执行栈静态核查，零属性解析疑问；568 个 Class 与 30,788 个 native 尾部尚未解析。详见 `docs/OBJECT_PROPERTY_AUDIT.md`。
+
+
+### Class 默认属性
+
+568 个 Class 中 555 个零脚本类默认属性精确闭合，1473 tag／119 Str；13 个非零脚本类默认属性仍待核查。详见 `docs/CLASS_DEFAULT_AUDIT.md`。
