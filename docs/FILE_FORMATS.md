@@ -318,3 +318,8 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### 普通包本地 Class 纹理覆盖修正
 
 旧纹理计数只覆盖 import-class 子集。本地正 Class 引用补核后，总计 37 Texture／35 Palette／212 mip；新增 9 个 Engine 纹理的 21 个 mip 全部检查，其中 3 个 Latin／符号图集、无新增整句候选。全文门禁保持 false。详见 [本地 Class 纹理审计](LOCAL_CLASS_TEXTURE_AUDIT.md)。
+
+
+### celfid 全候选字节上下文复核
+
+35048 个启发式候选全部复核字节身份，38499 个区段索引提供只读上下文；1233 个仍为未闭合字节上下文。候选命中不等于可见正文，所有语义判定继续 pending，全文门禁保持 false。详见 [全候选上下文核查](STREAM_CANDIDATE_CONTEXTS.md)。
