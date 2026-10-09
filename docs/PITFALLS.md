@@ -238,3 +238,8 @@ Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证�
 ### POD 全区块字段核查
 
 148 POD 的 24 槽布局共 3552 字段（333 非空），补出 2 个 CP932 日文槽和 1 个问号槽。40 B metadata 的具体用途仍未验证；首 u32=31 不套用其他格式 count。详见 [POD 核查](DIALOGUE_BLOCK_AUDIT.md)。
+
+
+### 未知控制结构完整观察
+
+当前 101 个隔离字段全部遍历，共 225 个标记／控制字符观察；149 次尖括号内部文字与 ITM 名称精确关联。运行语义未确认，validator 保持不变，不移除标记或批量放行。详见 [控制观察](CONTROL_OBSERVATION_AUDIT.md)。

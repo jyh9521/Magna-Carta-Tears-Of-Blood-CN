@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "d1b84ed903f2ea18d3511d5c72760d3add24f22b8d5cea1b4efe7a8107d2117e",
+  "quarantined_fields": 101,
+  "observations": 225,
+  "classifications": {
+    "arrow-candidate": 1,
+    "closed-nonascii-angle-candidate": 153,
+    "control-character": 22,
+    "numeric-percent-candidate": 49
+  },
+  "angle_observations_with_exact_item_name": 149,
+  "fields_with_control_characters": 7,
+  "validator_modified": false,
+  "source_modified": false,
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-pending"
+}

@@ -100,3 +100,8 @@ locales/zh-CN/opening-trial-01.json保存91个target及原资源/窗口hash，�
 ### 活跃源异常字节核查
 
 新增 157 个 CP932 替代阅读只进入本地核查输出，尚未并入校对译文；现有 101 个 source-interpretations 再核对通过，与本轮失败字段不重叠。混合编码应绑定原始字节及整个 pool，不能直接改源 locale 或窗口。详见 [异常字节核查](docs/DECODE_QUARANTINE_AUDIT.md)。
+
+
+### 未知控制结构完整观察
+
+当前 101 个隔离字段全部遍历，共 225 个标记／控制字符观察；149 次尖括号内部文字与 ITM 名称精确关联。运行语义未确认，validator 保持不变，不移除标记或批量放行。详见 [控制观察](docs/CONTROL_OBSERVATION_AUDIT.md)。
