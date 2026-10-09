@@ -253,3 +253,8 @@ Editor Bad 的首级包含烧录 `BAD SIZE`；Texture0 是 NumberFont 字形表�
 ### Function native 字段不能照搬 UE1
 
 实测 Function 为 u8 precedence＋u32 flags，NativeFunction 再附加 u16 native index。统一先读 u16 native 会错读标志。121 个 operator FriendlyName 与 export name 不同；virtual script size 也不等于磁盘长度。详见 COMPILED_SCRIPT_AUDIT.md。
+
+
+### 直接父 token 不能代替最终调用上下文
+
+434 个字符串直接位于 Concat_StrStr 内，更外层可能为日志或显示接口。韩版包中的英文 UI 常量也应保留；SetText 等名称只能支持候选判定，不能证明运行可见性。详见 LITERAL_CONTEXT_AUDIT.md。

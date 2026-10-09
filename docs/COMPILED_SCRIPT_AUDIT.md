@@ -27,7 +27,7 @@ Function 在脚本之后为 u8 precedence 与 u32 flags，flags&0x40 时另有 u
 
 ## 尚未闭合
 
-全部普通编译脚本结构读取不代表全部 VM opcode 语义、跳转可达性、动态拼接文本或执行行为已验证。普通 Class 默认属性／复制脚本由 REPLICATION_DEFAULT_AUDIT.md 独立核查；流式 serial、celfid 其他载荷、SFD 字幕与小 mip 视觉检查仍未穷尽。全文门禁保持 `complete_game_text=false`。
+全部普通编译脚本结构读取不代表全部 VM opcode 语义、跳转可达性、动态拼接文本或执行行为已验证。普通 Class 默认属性／复制脚本由 REPLICATION_DEFAULT_AUDIT.md 独立核查；流式 serial、celfid 其他载荷、SFD 字幕仍未穷尽（普通小 mip 已由 SMALLER_MIP_AUDIT.md 完成检查）。全文门禁保持 `complete_game_text=false`。
 
 ## 复现
 
@@ -36,3 +36,8 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_compiled_scripts.py --archive w
 ```
 
 输出限 ignored work/build 下空目录；完整编译对象、正文片段与 token 位置信息不进入 Git。工具复用原有 AFS 与 package/property reader，不生成大型游戏资源副本。
+
+
+## 调用上下文补核查
+
+1207 字符串全部绑定祖先表达式和原表调用符号；133 显示符号候选仍为只读且可见性未验证。详见 [调用上下文](LITERAL_CONTEXT_AUDIT.md)。
