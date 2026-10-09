@@ -200,3 +200,7 @@ resource-metadata.jsonl 每行保存一个资源的非 entries 元数据，包�
 ## slot trailer 与主字段覆盖（Verified static）
 
 split_slot 的 trailer 起点为首 NUL 后首个非零字节，不是语义类型。韩版 FDS／GFT／ODD 的该区域内存在可读完整句子；主字段 leading-only 之外另保留 638 个候选片段，未确认全部可见。原完整候选与片段分别保存，避免区间切分后误判双字节失败。详情与各扩展名统计见 EXTRACTION_COVERAGE.md／CANDIDATE_SPANS.json。
+
+## 韩版 FDS／GFT／ODD 记录布局
+
+Verified static：六资源总长均为 8+count*stride，ID 不保证连续。FDS stride2052；GFT stride822或10307，不能套用单一74 B槽视图；ODD正文stride560，三个字段与数值尾部分离。各记录分区、字段容量及元数据位置见 [RECORD_FIELDS.md](RECORD_FIELDS.md)，运行读取语义仍未验证。

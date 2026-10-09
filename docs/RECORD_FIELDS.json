@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "source_catalog_sha256": "de8c9e8d76a06ad52c80db5ac7e313b8a8377258c0815e6f683cfea4fe7ac0a9",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "resources": 6,
+  "records": 130,
+  "fields": 1168,
+  "nonempty_fields": 1065,
+  "decode_failed": 0,
+  "quarantined_controls": 0,
+  "prior_primary_relations": {
+    "contained-in-primary-union": 12,
+    "empty": 103,
+    "exact-primary-span": 56,
+    "outside-primary": 821,
+    "partially-overlaps-primary": 176
+  },
+  "prior_candidate_relations": {
+    "contained-in-primary-union": 47,
+    "exact-primary-span": 642
+  },
+  "layouts": [
+    {
+      "resource": "SHIP/00001950.odd",
+      "layout": "metadata-only-observed-variant",
+      "records": 1,
+      "stride": 20,
+      "fields": 0,
+      "size": 28
+    },
+    {
+      "resource": "SHIP/00002106.odd",
+      "layout": "80-240-200-byte-fields",
+      "records": 20,
+      "stride": 560,
+      "fields": 60,
+      "size": 11208
+    },
+    {
+      "resource": "SHIP/00003591.fds",
+      "layout": "four-512-byte-fields",
+      "records": 11,
+      "stride": 2052,
+      "fields": 44,
+      "size": 22580
+    },
+    {
+      "resource": "SHIP/00003633.fds",
+      "layout": "four-512-byte-fields",
+      "records": 2,
+      "stride": 2052,
+      "fields": 8,
+      "size": 4112
+    },
+    {
+      "resource": "SHIP/00002778.gft",
+      "layout": "ten-1000-one-255-byte-fields",
+      "records": 4,
+      "stride": 10307,
+      "fields": 44,
+      "size": 41236
+    },
+    {
+      "resource": "SHIP/00003531.gft",
+      "layout": "eleven-70-byte-fields",
+      "records": 92,
+      "stride": 822,
+      "fields": 1012,
+      "size": 75632
+    }
+  ],
+  "complete_game_text": false,
+  "translation_gate": "coverage-audit-not-complete",
+  "result": "supplementary structured fields exported; visibility and encoding review pending"
+}

@@ -179,3 +179,7 @@ Source Han Sans SC Regular 2.005R替换新增glyph输入，NormalFont 19px/Katak
 ## slot 候选字段外字节（Verified static）
 
 3,162 个候选按主字段有效字节并集分类：2,302 完全同区间、222 完全覆盖、527 字段外、111 部分重叠。638 个未覆盖片段均位于当前上游 slot profile 的 observed-trailer；抽查 FDS／GFT／ODD 存在完整韩文句子，leading-only 导出不能代表该区间全部内容。韩版字段结构、显示用途仍待确认；不改变 writer 或启用盲写。详见 docs/EXTRACTION_COVERAGE.md。
+
+## 韩版多字段记录（Verified static）
+
+FDS 两文件为 8 B 头及 2052 B 记录，四个 512 B 字段；GFT 两文件分别为 822／10307 B 记录、11 个字段；ODD 正文为 560 B 记录、80／240／200 B 三字段，小变体保留 20 B 元数据。六文件集中补充导出 1168 字段，旧 689 个扫描候选全部被新字段覆盖。只读补充层不替换上游 USA parser/writer，不扩大翻译或导入；详细边界与证据见 docs/RECORD_FIELDS.md。

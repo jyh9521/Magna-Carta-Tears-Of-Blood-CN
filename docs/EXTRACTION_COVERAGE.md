@@ -69,3 +69,7 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_candidate_spans.py --catalog wo
 ```
 
 新增八项区间测试，基线 415 项、修改版 423 项、隔离回滚 415 项通过。静态区间覆盖不构成全文提取完成或游戏显示验收。
+
+## 韩版多字段补充层
+
+FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1065非空；旧689个扫描候选全部覆盖，关闭该候选集合的字节缺口，语义与混合编码审核仍待完成。此前“638片段”统计属于旧leading-only视图，不作为新字段条数；CHA／MDG短候选尚未关闭。补充数据独立保存，不覆写旧主catalog或新增译文。见 [RECORD_FIELDS.md](RECORD_FIELDS.md)。
