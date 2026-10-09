@@ -151,3 +151,7 @@ Verified static：原ISO+匹配字体+显式locale独立推导Font/UE2/celfid/FP
 ## 2026-10-09 单slot名称接入
 
 显式name_slot_overlays采用原资源hash及完整匹配库存门禁，仅按targets子集修改，复用slot_resource中的上游slot包装。slot0和新增Font缓存同步已接入AFS/ISO/UDF；旧三字段镜像在新工具下同hash验证通过。名称语义/运行时仍未验证，见 [候选身份](docs/QA_NAME_POC.md)。
+
+## 姓名字段的局部运行观察（2026-10-09）
+
+单独修改CHA slot0及缓存副本的候选在编成、道具和角色详情页均显示“测试中文”。截图中的显示为Verified observation；资源到菜单的关联为High-confidence deduction，不能区分SHIP与缓存加载优先级，不证明其他四个同名slot用途或lookup安全性。详见 [姓名QA](docs/QA_NAME_POC.md)。

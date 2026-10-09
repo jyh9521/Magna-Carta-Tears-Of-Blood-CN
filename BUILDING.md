@@ -157,3 +157,7 @@ tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原
 ## 单姓名候选的一键构建
 
 现有build_poc_pipeline.py使用--locale locales/zh-CN/poc-name-01.json，输出新目录，即可增加一个显式CHA字段。独立验证器从原输入重新推导同一字段/缓存和完整AFS；旧poc-text.json不含此配置，保持原ISO内容。构建身份和测试步骤见 [名称候选](docs/QA_NAME_POC.md)。
+
+## 构建存储
+
+只保留明确登记的当前候选与基线；未登记产物不自动判为可删除。只读盘点、hash核对及清单规则见 [构建存储](docs/BUILD_STORAGE.md)。日常合成测试和源码回滚不复制完整ISO。

@@ -130,3 +130,7 @@ UDF partition含非零空间bitmap/table/integrity-table时，单改长度不足
 ## 扩容后不能搬用原缓存绝对位置
 
 单姓名资源在原bundle起点3220278，新Font扩容后为3226797。名称overlay在版本/hash门禁后匹配完整唯一资源，不把旧offset盲写进新bundle；每次报告实际offset。只改slot0也可能触及lookup语义，运行时试验前不扩展其它字段，见 [单姓名候选](QA_NAME_POC.md)。
+
+## 构建目录不等于可删除副本（2026-10-09）
+
+name-iso-21在名称测试尚未完成时被列为可删除事务；其镜像与保留候选同hash，但未完成测试状态应在清理建议前明确核对。目录名称、可重建性和实验用途不构成删除依据。当前保留清单与只读盘点见 [存储规则](BUILD_STORAGE.md)。

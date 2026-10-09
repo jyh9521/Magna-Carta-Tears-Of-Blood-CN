@@ -169,3 +169,7 @@ schema1保存candidate/receipt/locale SHA256、environment、cases的recorded_st
 ## name_slot_overlays — 实验性显式字段层
 
 locale可选数组，每条resource/expected_sha256/source_text/source_encoding/expected_slots/targets明确源身份与选中slot。expected_slots为全体完全相同首字段库存，targets仅为显式子集；不自动将同文判断为linked group。每个target含slot/target，报告name_slots与原三条records分开，QA增加稳定SHIP/resource/slot/N id。见 [名称配置](QA_NAME_POC.md)。
+
+### CHA slot0显示观察（2026-10-09）
+
+name-slot-poc-01只修改slot0及完整缓存副本；编成、道具与角色详情菜单已有中文姓名截图。显示已观察，不将同文slot4/8/169/229自动认定为linked group，亦不推定未知trailer字段语义。见 [姓名QA](QA_NAME_POC.md)。
