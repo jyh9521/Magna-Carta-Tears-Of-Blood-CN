@@ -7,8 +7,8 @@ from PIL import Image,ImageDraw
 import font_poc as core
 from cri_afs import Afs
 from afs import filename_toc
-from audit_texture_mips import palette,mips,image_view,property_value
-from audit_object_properties import Reader,property_block
+from audit_texture_mips import palette,mips,image_view,property_value,native_class_name
+from audit_object_properties import Reader,property_block,ordinary_exports
 from research_inventory import package_tables
 from extract_script_buffers import FILE_HASH
 
@@ -40,13 +40,13 @@ def audit(archive,manifest,out):
             core.require(core.digest(blob)==texture['package_sha256'],'texture package hash')
             serial_start=texture['mips'][0]['lazy_end']-texture['mips'][0]['offset']-texture['mips'][0]['size']
             # lazy_end is the absolute end of pixels, not the complete mip record.
-            tables=package_tables(blob);export=tables['exports'][int(parts[3])-1]
-            core.require(export['index']==int(parts[3]) and export['class']=='Texture' and export['offset']==serial_start,'texture export coordinate')
+            tables=package_tables(blob);exports=ordinary_exports(blob,tables);export=exports[int(parts[3])-1]
+            core.require(export['index']==int(parts[3]) and native_class_name(export,exports)=='Texture' and export['offset']==serial_start,'texture export coordinate')
             serial=blob[export['offset']:export['offset']+export['size']]
             core.require(core.digest(serial)==texture['serial_sha256'],'texture serial hash')
             body=property_block(serial,tables['names']);ref=Reader(property_value(serial,body['properties'],'Palette',5));pal=ref.index()
             core.require(ref.pos==len(ref.data) and pal==texture['palette_export'],'palette link')
-            pe=tables['exports'][pal-1];core.require(pe['class']=='Palette','palette class')
+            pe=exports[pal-1];core.require(native_class_name(pe,exports)=='Palette','palette class')
             ps=blob[pe['offset']:pe['offset']+pe['size']];pb=property_block(ps,tables['names']);colors=palette(ps,pb['end'])
             core.require(core.digest(colors)==texture['palette_sha256'],'palette hash')
             parsed=mips(serial,body['end'],export['offset'])

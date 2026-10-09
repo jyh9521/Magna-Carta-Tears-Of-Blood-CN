@@ -58,6 +58,17 @@ def image_view(raw,width,height,colors):
     return im.convert('RGB')
 
 
+def native_class_name(export, exports):
+    """Resolve positive local class references without altering table identities."""
+    index=export['class_index']
+    if index<=0:
+        return export['class']
+    core.require(index<=len(exports), 'local class reference bounds')
+    target=exports[index-1]
+    core.require(target['index']==index and target['class_index']==0, 'local class target is not Class')
+    return target['name']
+
+
 def audit(path,out):
     core.require(core.file_digest(path)==FILE_HASH,'FILE identity mismatch')
     out=core.output_directory(out);core.require(not any(out.iterdir()),'output directory not empty')
@@ -69,13 +80,13 @@ def audit(path,out):
             t=package_tables(blob);exports=ordinary_exports(blob,t);by_index={e['index']:e for e in exports}
             colors={}
             for e in exports:
-                if e['class']!='Palette':continue
+                if native_class_name(e,exports)!='Palette':continue
                 serial=blob[e['offset']:e['offset']+e['size']];body=property_block(serial,t['names'],e['flags'])
                 raw=palette(serial,body['end']);colors[e['index']]=raw
                 palette_rows.append(dict(id=f'FILE/{name}/export/{e["index"]}',serial_sha256=core.digest(serial),
                     colors_sha256=core.digest(raw),colors_bytes=len(raw),colors_count=256))
             for e in exports:
-                if e['class']!='Texture':continue
+                if native_class_name(e,exports)!='Texture':continue
                 serial=blob[e['offset']:e['offset']+e['size']];body=property_block(serial,t['names'],e['flags']);props=body['properties']
                 ref=Reader(property_value(serial,props,'Palette',5));pal=ref.index()
                 core.require(ref.pos==len(ref.data) and pal in colors,'palette reference mismatch')

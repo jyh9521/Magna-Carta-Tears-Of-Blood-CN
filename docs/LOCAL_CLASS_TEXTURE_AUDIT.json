@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "textures": 37,
+  "palettes": 35,
+  "mip_levels": 212,
+  "packages": {
+    "temple.utx": 18,
+    "Editor.u": 6,
+    "Engine.u": 9,
+    "MrtsEngine.u": 2,
+    "UWindow.u": 2
+  },
+  "contact_sheets": 5,
+  "all_native_tails_closed": true,
+  "visual_review_complete": false,
+  "streamed_textures_audited": false,
+  "complete_game_text": false,
+  "source_modified": false,
+  "translation_gate": "coverage-audit-pending",
+  "new_local_class_textures": 9,
+  "new_palettes": 8,
+  "new_mip_levels": 21,
+  "new_smaller_mips": 12,
+  "new_images_reviewed": true,
+  "phrase_candidates_added": 0,
+  "additional_font_atlases": 3
+}
