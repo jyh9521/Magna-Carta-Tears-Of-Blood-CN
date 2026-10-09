@@ -248,3 +248,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### 活跃源异常字节核查
 
 活跃 CP949 失败为 165，而非旧视图 236；12 个完整 FPB pool 和 38 个 CHT 字段存在严格 CP932 往返阅读，另 8 个 FPB 窗口切断 CP949 字符。替代阅读不改 canonical 编码或导入许可。详见 [异常字节核查](docs/DECODE_QUARANTINE_AUDIT.md)。
+
+
+### CHA／MDG 怪字候选闭合
+
+实际 8 B 头与完整记录布局核对 346 记录／391 文本字段；381 候选中 375 正文、6 数值区，零未覆盖候选。6 个怪字不属于新增正文；具体 u32 用途未完成。详见 [记录核查](docs/NAME_RECORD_AUDIT.md)。

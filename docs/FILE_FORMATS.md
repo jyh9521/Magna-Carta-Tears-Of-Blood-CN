@@ -260,3 +260,8 @@ version118 普通 Class 序列包含观测额外 u32，再读虚拟 ScriptSize�
 ### 活跃源异常字节核查
 
 FPB 窗口 offset/length 使用字节坐标；00000106 的完整 CP949 pool 成功不保证每个窗口落在字符边界。12 个其他 pool 存在完整 CP932 往返阅读，CHT 38 字段同样存在 CP932 阅读。详见 [异常字节核查](DECODE_QUARANTINE_AUDIT.md)。
+
+
+### CHA／MDG 怪字候选闭合
+
+实际 8 B 头与完整记录布局核对 346 记录／391 文本字段；381 候选中 375 正文、6 数值区，零未覆盖候选。6 个怪字不属于新增正文；具体 u32 用途未完成。详见 [记录核查](NAME_RECORD_AUDIT.md)。
