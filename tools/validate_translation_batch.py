@@ -4,6 +4,7 @@ Passing checks authorizes neither unknown-format reinsertion nor runtime QA.
 """
 import argparse
 import json
+import re
 from pathlib import Path
 import sys
 ROOT=Path(__file__).resolve().parents[1]
@@ -41,9 +42,16 @@ def validate(catalog: dict,batch: dict,terms: list[tuple[str,str]],font_cmap=Non
         core.require(target.get('status') in ('draft','trial-draft','reviewed'),'invalid translation status')
         text=source['references'][catalog['source_locale']]
         validate_target(text,target['target'])
-        for original,canonical in terms:
-            if original in text:
-                core.require(canonical in target['target'],'glossary mismatch: '+original)
+        # Longest non-overlapping terms prevent a short name (e.g. 리스) from
+        # matching inside a longer registered name (e.g. 크리스 아크웨이).
+        canonical_by_source = dict(terms)
+        if terms:
+            pattern = '|'.join(re.escape(term) for term in
+                               sorted(canonical_by_source, key=len, reverse=True))
+            for match in re.finditer(pattern, text):
+                original = match.group()
+                core.require(canonical_by_source[original] in target['target'],
+                             'glossary mismatch: '+original)
         chars={ch for ch in target['target'] if ord(ch)>127};characters.update(chars)
         if font_cmap is not None:
             core.require(all(font_cmap.get(ord(ch)) not in (None,'.notdef') for ch in chars),'missing font glyph')

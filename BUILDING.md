@@ -169,3 +169,14 @@ tools/prepare_name_slots.py复用上游slot/AFS/zlib及现有D0 Font表，从原
 ## 思源黑体与全量目录
 
 当前开放字体配置为opening-trial-02.json，固定Adobe Source Han Sans SC Regular 2.005R与完整SHA-256，下载与五阶段命令见 [思源字体](docs/SOURCE_HAN_FONT.md)。旧SimHei配置仅保留历史复现。全量catalog和新菜单批次校验命令见 [文本目录](docs/TEXT_CATALOG.md)；提取不修改原ISO，输出目录须为空，完整原文仅在ignored work。
+
+
+## 全量本地校对导出（不生成 ISO）
+
+已有 source-catalog.json 可以直接复用，无需再次提取 AFS 或复制 ISO。输出路径须位于 ignored work/build，且须为空。
+
+```powershell
+work/venv/Scripts/python.exe -X utf8 tools/export_review.py --catalog work/catalog-stage-24/catalog-final/source-catalog.json --batch locales/zh-CN/opening-review-01.json --batch locales/zh-CN/menu-review-01.json --batch locales/zh-CN/interface-review-02.json --batch locales/zh-CN/character-commentary-review-01.json --batch locales/zh-CN/story-review-01.json --out work/proofreading-stage-25
+```
+
+浏览输出 index.html，逐资源对照；review.jsonl 保存全部字段，未译目标为空。完整原文、celfid 候选和所有页面均只保留本地。重复 target ID、源 hash 不匹配、混合目标 locale、控制符或术语检查失败均拒绝导出。输出已存在时拒绝覆盖。

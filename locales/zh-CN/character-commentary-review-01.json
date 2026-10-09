@@ -1,0 +1,687 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "character-commentary-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00014107.tui/record/0/field/0/index/0",
+      "source_sha256": "7b1f1c2acf9e933f559b4d7f2737f1fbc273c25ea0a6fbd272e8089c75a0f8de",
+      "target": "目前担任联合军特种部队$n“血泪”的指挥官。$n血泪如同联合军的影子。$n在不为人知的地方，$n也总有事件发生。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/1/field/0/index/1",
+      "source_sha256": "e4bb63a4972debb85e536aedaa30afccf96101174ce68a073d576415bfab75c3",
+      "target": "什么都想不起来。$n我究竟是谁？$n为什么会在这里？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/2/field/0/index/2",
+      "source_sha256": "f3f9c0df7001d4626b395f37846f64437f97afff9e164823b5d208b3f55cd5a8",
+      "target": "队长是我的救命恩人。$n为了结束这场战争，$n我会继续战斗。$n无论要付出怎样的牺牲。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/3/field/0/index/3",
+      "source_sha256": "8fbd08a1b7fb4f0d6245eb57005ffd9b19784fa8ff719f685fb2ac90d8531b86",
+      "target": "亚逊是人类的敌人。$n他们过去践踏过人类，$n今后也会如此。如今他们力量$n衰弱，正是消灭他们的机会。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/4/field/0/index/4",
+      "source_sha256": "6ff0b6aadbc759c7cce41ba2205f03dae78391284c4d309eb867bd60aa59f2f4",
+      "target": "血泪的伙伴们或许很擅长战斗，$n可平时连一件事都做不好。$n到头来，总得有人$n照顾他们。$n呵呵，真拿他们没办法。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/5/field/0/index/5",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "target": "……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/6/field/0/index/6",
+      "source_sha256": "2874a668cb008d72b661bc68e8585610c453163384772440bc545e8249bb5680",
+      "target": "为了多数人，少数人的牺牲$n也是无可奈何的。战争就是这样。$n总是不得不作出$n残酷的选择。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/7/field/0/index/7",
+      "source_sha256": "de2d5c1c495be8128971013b9fb06bf2589bb90cf65b63a8dfc17beba7dab0f6",
+      "target": "这场战争到底什么时候才能结束？$n真希望能早日和我家那位$n过上幸福的生活。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/8/field/0/index/8",
+      "source_sha256": "79d2396109ab483743143ef306315588e4387d1b857cdb9e39d39ae7dcd309b9",
+      "target": "虽说战争让人朝不保夕，$n但美丽的姑娘与山珍海味$n带来的幸福，总得$n享受一下吧？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/9/field/0/index/9",
+      "source_sha256": "06a9a5c78c974832a5ab23c54f9f40ac896e934009a4ea69249899f2b8db6b6f",
+      "target": "我不能成为姐姐的替代品。$n但我也想变得那么坚强。$n就像那位无论经历什么磨难，$n都信任你的姐姐一样。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/10/field/0/index/10",
+      "source_sha256": "37d8d0bffaa3c144f4be777f50849c477ba42071418f41980fb47fa8866958be",
+      "target": "走到哪里都在谈战争啊。$n不过也多亏如此，赚钱倒$n不算难。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/11/field/0/index/11",
+      "source_sha256": "14052dd8d22b23df7267224f9a2e759b200ae962e31f6d71c9d6c293fafcbabc",
+      "target": "真希望这场战争早日结束。$n想帮助亚逊的心意，$n难道是一种罪过吗？人类与亚逊，$n无法站在任何一方的我是伪善者吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/12/field/0/index/12",
+      "source_sha256": "a5629ac08add6c1c5cb9bb308561b40bd746ea18f9cade5dce262baa145fd79c",
+      "target": "以前总觉得亚逊必定是敌人。$n可是……$n现在我也说不清了。$n我开始理解莉丝的心情了。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/13/field/0/index/13",
+      "source_sha256": "86cf0e0da559edab220122ef1a5dfce32b27af2032709624e5e187e3c7bcdb6f",
+      "target": "必须让亚逊重获生存的机会。$n就算身处战争，$n我们也不可能有权利$n彻底灭绝一个种族。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/14/field/0/index/14",
+      "source_sha256": "92f088cadc893245ea10c5e466d866a0513b49b07dada29633096ddacb0d6efc",
+      "target": "大魔法作战竟然失败了……$n但对亚逊的复仇$n还没有结束。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/15/field/0/index/15",
+      "source_sha256": "43536fcec51e11ba92d26ddcb30892089d46f90233552aecc1a9b057b531d155",
+      "target": "战争还没有结束。$n在他们屈服之前，$n我绝不会退让。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/16/field/0/index/16",
+      "source_sha256": "01901aec8721f39cea8b252e00f5cef37006a0629cabcd6e36779703530b99ad",
+      "target": "呼，真是闹出了好大的乱子。$n幸好大家都平安无事。$n得造一个新的$n克里斯大帝了～",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/18/field/0/index/17",
+      "source_sha256": "0d380dc7a4e14588f02bc234bd361e131af568ca138d0891ec523f38c0ccc0d9",
+      "target": "真希望这场战争早日结束。$n想帮助亚逊的心意，$n难道是一种罪过吗？人类与亚逊，$n无法站在任何一方的我是伪善者吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/19/field/0/index/18",
+      "source_sha256": "9379673c038a533d4d3ffc09ef66d56f74028cb0689ce47982eef5ae8c103260",
+      "target": "对不起……我好像总在添麻烦。$n我会努力尽快找回记忆，$n争取帮上忙。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/20/field/0/index/19",
+      "source_sha256": "354bb17ee4b9100af5a698ae1d35f4e138acd6673a6453d96535a30280a3f65f",
+      "target": "为了多数人，少数人的牺牲$n也是无可奈何的。战争就是这样。$n总是不得不作出$n残酷的选择。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/21/field/0/index/20",
+      "source_sha256": "9948b2442f80b001ad89aa2eef8c0210815e709d509c9ac12de4b4148bace37a",
+      "target": "普诺森图书馆是我们拜耶尔$n魔法师都想去一次的地方。$n听说那里藏着$n许多魔法书。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/22/field/0/index/21",
+      "source_sha256": "38f0f79850f7c6ba13438f3ee4169835c9db313e58b2685d762dd461bd4df150",
+      "target": "别的都好说，$n只是千万别让我搭乘$n克里斯大帝。我宁可$n徒步穿越沙漠。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/23/field/0/index/22",
+      "source_sha256": "db83ae7b75953be12382a2a69efb83308e503e3c313dddcdbc5b4e165929ed8e",
+      "target": "救赎之光的强大力量。$n果然，想要结束战争，$n终究还是需要力量。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/24/field/0/index/23",
+      "source_sha256": "8f55e5c466447c10d3a3b4945d4f825d96b7e2e135d226fbfb44b42f637da3a8",
+      "target": "战争结束后，血泪会怎么样呢？$n大家会一起笑着，$n快乐地解散吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/25/field/0/index/24",
+      "source_sha256": "52db2366d62483daa8355842d04dffb253bfdf8f72b5167f54bc60548f72e9a9",
+      "target": "目标已经确定了。$n就是救赎之光。$n一定要让那些亚逊屈服。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/26/field/0/index/25",
+      "source_sha256": "d3e62d418308f4f28691984920d96038b30f7c59a9067dbd7e7bbdbaf5be43a1",
+      "target": "记忆正一点点恢复。$n我会再加把劲。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/27/field/0/index/26",
+      "source_sha256": "3b5cd4fc309cfba536cd9b54263cabc7038cdd0965c926901fdbb8ffda4b40f3",
+      "target": "虽然听说神力也能制造$n并看破幻术，$n但莉丝的能力还是远超想象。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/28/field/0/index/27",
+      "source_sha256": "de2d5c1c495be8128971013b9fb06bf2589bb90cf65b63a8dfc17beba7dab0f6",
+      "target": "这场战争到底什么时候才能结束？$n真希望能早日和我家那位$n过上幸福的生活。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/29/field/0/index/28",
+      "source_sha256": "2bfe56efe13537c082084d22581f28aa92083ea3c1d3016568c29e43b6777d7a",
+      "target": "找齐救赎之光后……$n战争真的会结束吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/30/field/0/index/29",
+      "source_sha256": "8f89ac3309e599a4b991f8a7fee8ba656b3a6e74b4b366e764e9a8815d6a4258",
+      "target": "我确实曾住在伊佩莉亚。$n那些想杀死父亲的人$n到底是谁？我不知道……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/31/field/0/index/30",
+      "source_sha256": "37d8d0bffaa3c144f4be777f50849c477ba42071418f41980fb47fa8866958be",
+      "target": "走到哪里都在谈战争啊。$n不过也多亏如此，赚钱倒$n不算难。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/32/field/0/index/31",
+      "source_sha256": "a262502dce924aab376d4c65535a33a269790230b71cc67edac281130fe678d0",
+      "target": "……（我是失语症，可大家都误以为是自闭症。算了，$n也无所谓……等我能再度开口，$n或许会把大家吓一跳……）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/33/field/0/index/32",
+      "source_sha256": "18d586db959f075cd70e37ce1944b1cc085ed10c99879bada3faec288af1f8c7",
+      "target": "听说四天王中的凯莉安是位非常性感的$n美女……果然和传闻一样～",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/34/field/0/index/33",
+      "source_sha256": "b085a900d3f9d992033d286d6384a3bcc85bcadb9022df7172e7746aec2c1a6f",
+      "target": "话说回来，完全没有$n那家伙的消息啊。$n也不知道还活着没有……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/35/field/0/index/34",
+      "source_sha256": "aa1045ed43007a748416a488dcbec74e10445049ca3077222b48662582bc2235",
+      "target": "……（只有蕾哈丝记得卡琳兹的生日。$n连我都忘了。$n果然是蕾哈丝……原来如此～）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/36/field/0/index/35",
+      "source_sha256": "a5af67a542192904e0d9605939bbc3b64d00709f3a5147175b5f59df99a8ab04",
+      "target": "每次找回记忆，总会看到某种$n幻象。等我回过神来，$n手中总是留着$n奇怪的碎片。里面莫非装着$n构成我记忆的卡恩？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/37/field/0/index/36",
+      "source_sha256": "5629b0a3bfba3ee5eea8ff40b9f6a3065d9c230d8faa90b83b56fbf03e40eb85",
+      "target": "莉丝竟然来过因比尔克城……$n真让人难以相信。莉丝$n究竟为什么会来这里……？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/38/field/0/index/37",
+      "source_sha256": "f74a765c8959809d892261766edce648a1d2e0c63d2f058ee2f435e0930a1f71",
+      "target": "幸好莉丝又恢复精神了。$n多亏神力，伤口也很快$n愈合了。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/39/field/0/index/38",
+      "source_sha256": "8b9f564b5eea5f4d74aa7e1820c7dc037a4654ea5811c5e6aaca59ebbdeb13e4",
+      "target": "遭到亚逊追杀……实在让人$n想不通。嗯，虽然目前还只是$n猜测……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/40/field/0/index/39",
+      "source_sha256": "935d31145cf6df44c6a8da446b6fe484396199807a51029a2810eca17898cafa",
+      "target": "对蕾哈丝，我只有歉意。$n但正因如此，我更要$n结束这场战争。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/41/field/0/index/40",
+      "source_sha256": "82e4301d616e4f9023aa67010c57fd02a3995506ec48e26d8e2b84ff6af63994",
+      "target": "蕾哈丝……愿你能$n去往美好的地方……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/42/field/0/index/41",
+      "source_sha256": "6d302716b61d1959d441f75cda8c6ed9feca0fb05254cfd520966c7c933c5465",
+      "target": "大家振作起来。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/43/field/0/index/42",
+      "source_sha256": "b12bb20e21d740986c0c106071b8b7e0f23164c41749b8338f3b24340e674398",
+      "target": "那些亚逊……绝不能掉以轻心。$n不知道什么时候就会在背后捅刀。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/44/field/0/index/43",
+      "source_sha256": "53973f5789b0c73bbfda94dd8ddfead020dd9c2ed7f5dfa5abf76261a7cffdd4",
+      "target": "看来我们太大意了。$n亚逊确实在针对$n血泪。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/45/field/0/index/44",
+      "source_sha256": "193497d81e20d2184ac48ea24d62fecc5f222e7982598afa4284f22abdae8f68",
+      "target": "……（蕾哈丝……曾对我那么好。我已经不想再让$n重要的人死去了……）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/46/field/0/index/45",
+      "source_sha256": "fc88cd1db72dfd8b31e2871319a0e3246da7646c494825e066ecb9960c56d66e",
+      "target": "黑色亚逊……我曾略有耳闻。$n据说他们和半亚逊$n相似……也就是说，$n有着人类一样的外貌。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/47/field/0/index/46",
+      "source_sha256": "c3df2377229976dbd8f8d0de527a23b459a445db79499d880393d4172c85c766",
+      "target": "我想变得和队长一样强。$n因为我才刚刚开始。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/48/field/0/index/47",
+      "source_sha256": "b887d07a5aeee691710d070f81a35b6ca0239c2e6bb34046592f3b0213a09e62",
+      "target": "幸好卡琳兹理解了我。$n记忆恢复得越多，我就越不安。$n找回记忆……不知为何让我害怕……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/49/field/0/index/48",
+      "source_sha256": "ab6a2e640de28438229b53ad856c1176ae8f239638887f21b78536bf1a978334",
+      "target": "卡琳兹到底在谋划什么？$n会不会也和阿格雷安将军$n有关？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/50/field/0/index/49",
+      "source_sha256": "ad3e9cf30422309b9dca8fa57e93d291e201642885c9fe009d60bc31cb5282b1",
+      "target": "丈夫有时也很冷淡。$n我也曾觉得，也许那才是$n他的真实面貌。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/51/field/0/index/50",
+      "source_sha256": "bd4ad11bdea6217b1e43b08eb3a40d01197aaa453d10c6f23a4f880a537405cc",
+      "target": "血泪……看来我们承担的$n事情实在太沉重了。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/52/field/0/index/51",
+      "source_sha256": "9697e7d5fcc6f9e98e437facde2c8d91e89147c17d9af830317bb2301399c7d3",
+      "target": "我的仇人，也是某人珍视的$n人。明知如此，我还是想复仇。$n难道……是我错了吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/53/field/0/index/52",
+      "source_sha256": "a769e3c4fa75ade2d259226c2c5e9b18a478ae26230a82459f53e8c816d31f7d",
+      "target": "黑色亚逊和四天王都在争夺救赎之光。$n虽然不清楚亚逊罗文的$n内部情况，但似乎$n有不少问题。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/54/field/0/index/53",
+      "source_sha256": "a107199c2ce7de08bbf0a0410991248a321ac3ef9f710aec0502e7799dac8572",
+      "target": "莉安娜一定很伤心吧？$n每到这种时候，就会觉得我们$n是不是犯下了某种大错……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/55/field/0/index/54",
+      "source_sha256": "dc4a518126e6ff4e5a0b66a2b6481d001bf4171548cc5433f5df704558f0f729",
+      "target": "希望莉安娜能早日振作起来。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/56/field/0/index/55",
+      "source_sha256": "7b4802ec7b387d716d79946fa60ef271ba26efda9f99d15c4918c0b949ce3241",
+      "target": "阿斯塔尔……看来我对你$n真的一无所知。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/57/field/0/index/56",
+      "source_sha256": "efbb078c9679d20b25fa19b7536e83c55d3d32f468d0a95a003979e481d17de4",
+      "target": "黑色亚逊……他们终于$n开始行动了吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/58/field/0/index/57",
+      "source_sha256": "4dc2a68f99969ce6d9449374c7c7002ed2e5b33a884ec2df2170bdc08dfb4b07",
+      "target": "……（我一直怀着对亚逊的$n模糊恨意活着。$n因为他们就是让我失去语言的罪魁祸首。）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/59/field/0/index/58",
+      "source_sha256": "c6962f4262b6c8d6dad5c6e10261bc00ff6f34fbeaacf5efe9b9a687b5e1438d",
+      "target": "塞伊顿族长竟然遭到暗杀……$n埃蒙明明和战争$n毫无关系……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/60/field/0/index/59",
+      "source_sha256": "c70de5ff897ae642bfb2cac83063832e472214e53b5882f6d1971849d2e2a98e",
+      "target": "似乎有人用看不见的丝线$n操纵着一切……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/61/field/0/index/60",
+      "source_sha256": "b6b354ab7aadffbfc7156f8e84d171433922c0afc514a0fc7306b64a2e4bda2a",
+      "target": "埃蒙族长遭到暗杀……$n这下竟为弗罗斯特·沃姆$n创造了把埃蒙用作基地的条件。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/62/field/0/index/61",
+      "source_sha256": "31c76711c681d4af8666709f577a85779d879e96e70c2ad67d296e881c5679ed",
+      "target": "真奇怪。黑色亚逊到底$n掌握着什么情报渠道？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/63/field/0/index/62",
+      "source_sha256": "246098b33418681cd1ca0f1878978932a809e40582e9a806040341b5b47ed242",
+      "target": "可恶……不管是黑色亚逊还是普通$n亚逊，我绝不会就此罢休！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/64/field/0/index/63",
+      "source_sha256": "77c702619e976b1af68c3c3e9c9dbe87f989334a9aecaacb64f32fa61b9f1221",
+      "target": "啊啊，总觉得不对劲。$n这天才般的直觉$n一直在发出警告。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/65/field/0/index/64",
+      "source_sha256": "a6a4ffc951682ebc69e38f29c358dcc1df2845e937cf11e2d647ffc4855fc999",
+      "target": "……（又是图尔博，又是黑色亚逊……$n感觉事情越来越复杂了。）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/66/field/0/index/65",
+      "source_sha256": "7ef657bb765e68c2d3dd837dfabb789f66d487ad639656a655f7b2a45f84813a",
+      "target": "亚逊的土地……$n无论如何都得逃出去！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/67/field/0/index/66",
+      "source_sha256": "19c331dbe520738da1001f28cba8f106114277bf540da063494b5417b2d802bb",
+      "target": "卡琳兹平安吗？$n一定要把他救出来。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/68/field/0/index/67",
+      "source_sha256": "6e29104e11a2c72bce3696d15b9f2eb1a452e8d6c832182612e3dac9e405fefa",
+      "target": "亚逊罗文啊……$n这可真是牵涉到$n大事了。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/69/field/0/index/68",
+      "source_sha256": "04472de49724a20332e7c22b0dcf769e44e7677bcf1f532a8edef86365fd98d4",
+      "target": "我要救出卡琳兹。$n就像他曾经救我那样……！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/70/field/0/index/69",
+      "source_sha256": "39172319d2ed984abf2efd8e68a51ccf2bec4a27d3239c0f43f4600d154ffbd9",
+      "target": "虽然早就料到血泪迟早$n会遭遇大事……$n看来差不多到了$n一决胜负的时候了。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/71/field/0/index/70",
+      "source_sha256": "02dcfc2d0ad12846da9f01d5240c628f6aa3d81fed06a964dc320473ff444f26",
+      "target": "……（卡琳兹，希望你平安无事。）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/72/field/0/index/71",
+      "source_sha256": "8c866c1b42598514577507b2ec41d6ab3732f546f4fbfc18241b0be835b7f1f4",
+      "target": "就算莉丝真是亚逊，$n也没关系。我一定会救出她。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/73/field/0/index/72",
+      "source_sha256": "702366dd987ba929f13d111c1b0fea22f75e48221a18e5dd89f3d5edb73d9ca0",
+      "target": "卡琳兹……脸色似乎也不好，$n真让人担心。其实这一次，$n我也很不安。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/74/field/0/index/73",
+      "source_sha256": "e826d45d71b5af6868eb75f4b98862586f05da677238fa5d0d13c29a6b803f44",
+      "target": "莉丝小姐会平安吧？$n虽然救回了队长，$n可莉丝小姐却被抓走了……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/75/field/0/index/74",
+      "source_sha256": "f03b073e09b4285f94d5c096b4bc5399a34b31aa29f9abbe0acfe3ff4cf8b7b6",
+      "target": "没想到会再次踏入$n亚逊罗文。这会成为$n一生中最大的冒险吗……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/76/field/0/index/75",
+      "source_sha256": "8d2cf3e5f66820e6a0750bbfe8f2a288634957ec75e64225e6f4ee96e171fea8",
+      "target": "莉丝可能是亚逊……$n确实，虽然曾听说半亚逊$n也拥有神力……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/77/field/0/index/76",
+      "source_sha256": "9be6c6b3bbae736d1322906e9b733d8077cb4a101aa657cd682c83b466a2ecc0",
+      "target": "莉丝，希望你平安无事。$n为什么偏偏是莉丝……！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/78/field/0/index/77",
+      "source_sha256": "aedbcd04a37ad661671b615a5211705496eebbf81c89f01f0b2cc77f863be482",
+      "target": "这一切都是我们的过错。$n当初绝不该去碰$n救赎之光。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/79/field/0/index/78",
+      "source_sha256": "c8dce4ec2b25a5700c5e7fb8bbfea19a7668f9581706070dc934a14ed62c8bdb",
+      "target": "……（莉丝，她还好吗？虽然她总把我$n当小孩子，但却是个善良的$n姐姐。）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/80/field/0/index/79",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/81/field/0/index/80",
+      "source_sha256": "32f64cf5979f8f5f6ee673a9eba9f5993c24d4bc3cb3df3b95ea18b9087e150b",
+      "target": "从头到尾都被骗了，$n可恶！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/82/field/0/index/81",
+      "source_sha256": "618e4fab236a517b4c2972b1f3dd82ce0b9d3bb80442734e968b5cb7fee924dd",
+      "target": "到现在为止，我们一直在玩$n傀儡戏啊。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/83/field/0/index/82",
+      "source_sha256": "1052b8bce76d51d56a1d34f7a15fac6174ab717b8c8568c0afa9a36fe26f18b4",
+      "target": "这实在出乎意料。$n连大巫女都倒下了，$n该怎么办才好……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/84/field/0/index/83",
+      "source_sha256": "b74b23eef1ccef75896f903870e15ac6c33140c18bc865267a9d7815a0e1e008",
+      "target": "莉丝……$n真让人难以相信。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/85/field/0/index/84",
+      "source_sha256": "0dff848e08f933696d4275fe62faef915cb995231a0634def4353687dd811b11",
+      "target": "到头来，一切都如黑色亚逊所愿。$n难道连上天也在$n帮助他们复仇吗？",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/86/field/0/index/85",
+      "source_sha256": "0f2b115bec57296aa40eca86ca6457ce32e979982ab5d1dbcab70e1b48983152",
+      "target": "……（太傻了。这、这究竟$n算什么啊！）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/87/field/0/index/86",
+      "source_sha256": "fd1b295d8d94a6f3530ee64cde71bdc02eb1d452055b4d42a40b0159f500759f",
+      "target": "莉丝……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/88/field/0/index/87",
+      "source_sha256": "6ddbb8e4af73248c79055d52b24f7eca102217a8bc98eb7345aa355326f76187",
+      "target": "我不能成为姐姐的替代品。$n但我也想变得那么坚强。$n就像那位无论经历什么磨难，$n都信任我的姐姐一样。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/89/field/0/index/88",
+      "source_sha256": "1eb09a3997a7e7a438a460760d16867adba80af0db9a6aa7cdd18b42cdd88b87",
+      "target": "从一开始就受骗，全都是$n我的错。不断循环的复仇……$n现在，我要为它画上句号。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/90/field/0/index/89",
+      "source_sha256": "26d68252b47e8839f8c429a1df148d4d75c7f68dc3320dbacb8b7509fa422005",
+      "target": "这将是我们的最后一战吧。$n一定要赢。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/91/field/0/index/90",
+      "source_sha256": "22fc3bbf897d2bede604bc4d002ed4e2cda19ec83c30a7ed61dff0c9b8232d1e",
+      "target": "为了伙伴们，我会战斗$n到最后。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/92/field/0/index/91",
+      "source_sha256": "fd916a55f166a07487d71ffa3a96f56315ec6b9ce1e34d6fc905eebb407c2a3a",
+      "target": "复仇只会滋生复仇，这样一个$n简单的事实……我似乎到现在$n才终于明白。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/93/field/0/index/92",
+      "source_sha256": "4d0d0d7f55747c5a1873720cea55e83db7e9a0216879874b150ae7b2f98945ca",
+      "target": "加油吧。$n我会凭这精湛的箭术，随时$n在后方支援！",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/94/field/0/index/93",
+      "source_sha256": "2d951a16886d36186d48492d10b205b7256a9020eaa53893ba85c041042a86e7",
+      "target": "大巫女，愿您平安无事……",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/95/field/0/index/94",
+      "source_sha256": "474fd9daeecdeca361c99625aac67176d916ab634b4fe089b7c3950eb6c3d497",
+      "target": "阿斯塔尔，我仍然无法$n理解你。但即便如此，我想自己$n也绝不会忘记你。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/96/field/0/index/95",
+      "source_sha256": "266b1e090c9f0fb1234c34b5e5a0ad2a9efe23e45262ba1d8f35400751c9ed70",
+      "target": "虽然留给我的时间已不多……$n我仍会努力弥补$n自己犯下的过错。",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    },
+    {
+      "id": "SHIP/00014107.tui/record/97/field/0/index/96",
+      "source_sha256": "a048480eb241a2af281742de8cb2144feccbee3f928efea9047ace3a62638c9a",
+      "target": "……（这场战斗结束后，我会努力$n重新开口。想对大家说的$n话实在太多了。）",
+      "status": "draft",
+      "context": "Character commentary across story progression; speaker identity not inferred from record index; not imported."
+    }
+  ]
+}

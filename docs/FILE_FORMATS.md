@@ -185,3 +185,10 @@ font_characters引用UTF-8 JSON唯一非ASCII字符列表，不含运行时编�
 source-catalog记录source_locale、严格encoding、输入hash、resource hash、稳定id、source bytes/hash、references及隔离原因。FPB窗口offset相对pool，slot/TUI/candidate offset相对resource。完整FPB pool另存reference，celfid位置相对解压buffer；这些坐标不能互换。
 
 目标批次保存locale、id、source_sha256、target、draft/reviewed状态；不将译文放入en。自动模板不等于reinsertion plan，read-only候选不开放盲写。raster_size可由font_raster_sizes按原export名指定，不修改几何/metrics或跳过bbox校验。详见 [目录](TEXT_CATALOG.md)及 [字体](SOURCE_HAN_FONT.md)。
+
+
+## 本地校对交换数据（Verified）
+
+review.jsonl 每行包含 source（完整 catalog 字段元数据）、source_text（严格解码原文或 null）、target、translation_status、reinsertion_authorized=false。空字段和 decode failed 均保留；失败字节位于 source.raw_hex。target 空表示未译，不复制原文填充。
+
+resource-metadata.jsonl 每行保存一个资源的非 entries 元数据，包括 hash、大小、FPB 完整 pool 和 audit；celfid-candidates.json 独立保存扫描候选和完整资源镜像。HTML 经转义，只读展示。summary.json 分开统计资源 / 结构记录 / 初稿 / 未译 / 坏字节，不把候选数当可见文本数。该格式不是游戏导入格式。

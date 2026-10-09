@@ -57,5 +57,25 @@ class TranslationBatchTests(unittest.TestCase):
             p.write_text(p.read_text('utf8')*2,'utf8')
             with self.assertRaisesRegex(ValueError,'duplicate'):glossary_terms(p)
 
+    def test_longest_name_wins(self):
+        source=field('test','크리스 아크웨이와 리스'.encode('cp949'),0)
+        self.catalog['resources'][0]['entries']=[source]
+        self.batch['entries'][0].update(source_sha256=source['source_sha256'],target='克里斯·阿克韦和莉丝')
+        terms=[('리스','莉丝'),('크리스 아크웨이','克里斯·阿克韦')]
+        self.assertEqual(validate(self.catalog,self.batch,terms)['entries'],1)
+
+    def test_list_not_short_name(self):
+        source=field('test','리스트'.encode('cp949'),0)
+        self.catalog['resources'][0]['entries']=[source]
+        self.batch['entries'][0].update(source_sha256=source['source_sha256'],target='列表')
+        self.assertEqual(validate(self.catalog,self.batch,[('리스','莉丝'),('리스트','列表')])['entries'],1)
+
+    def test_separate_short_name_still_checked(self):
+        source=field('test','크리스 아크웨이와 리스'.encode('cp949'),0)
+        self.catalog['resources'][0]['entries']=[source]
+        self.batch['entries'][0].update(source_sha256=source['source_sha256'],target='克里斯·阿克韦')
+        with self.assertRaisesRegex(ValueError,'리스'):
+            validate(self.catalog,self.batch,[('리스','莉丝'),('크리스 아크웨이','克里斯·阿克韦')])
+
 
 if __name__=='__main__':unittest.main()

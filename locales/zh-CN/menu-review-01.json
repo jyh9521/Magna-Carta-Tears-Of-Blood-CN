@@ -743,7 +743,7 @@
     {
       "id": "SHIP/00001240.tui/record/292/field/0/index/230",
       "source_sha256": "5cd6a0af9dfe577180872b4d693ac50a6da4824467009f20b38f8e309113a13a",
-      "target": "所有属性的格数增加了。",
+      "target": "所有属性的卡恩增加了。",
       "status": "draft",
       "context": "menu UI review; not applied to ISO",
       "record_id": 292
@@ -751,7 +751,7 @@
     {
       "id": "SHIP/00001240.tui/record/293/field/0/index/231",
       "source_sha256": "bcc73efe0e30f57ad542692f7d1fe033f4b3ee705796c0faf41e82e8215fc135",
-      "target": "所有属性的格数已满。",
+      "target": "所有属性的卡恩已满。",
       "status": "draft",
       "context": "menu UI review; not applied to ISO",
       "record_id": 293

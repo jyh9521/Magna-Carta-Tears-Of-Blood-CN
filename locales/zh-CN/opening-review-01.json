@@ -1,0 +1,645 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00001944.fpb/seq/0",
+      "source_sha256": "f25daef2220bfab791e1ef330d9dd8d3da02aad88339090320feba9e35058a04",
+      "target": "哈……哈……哈……哈……",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/1",
+      "source_sha256": "d4a5af9f669bd16359b6e303b34a338d549174af010e2fd58b51ff56b96dfde6",
+      "target": "啊……！",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/2",
+      "source_sha256": "7abd3c298a3190f3ec2c73c5306a137687f6aff330e2c8179017545370e89fc2",
+      "target": "再往前走一点，就到村子了。$n应该能找到照顾你的人。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/3",
+      "source_sha256": "36c1a6837d2a86fb4f00d902f2dbc42b78043d52d3d7e20ba7a1e7012cc1dda5",
+      "target": "呜……可是……都是因为我……$n风月林才……",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/4",
+      "source_sha256": "576da8a61e0ed27c0392a2fa61562301dc02eb8e9c2ce1e84303c75f9a8d3bd2",
+      "target": "风月林不是因为你才毁灭的。$n那些家伙只是来夺回东西。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/5",
+      "source_sha256": "b283147c6d803aaccb83490b2e161f0625accb938bb16eac82cd8ba2d3e83a9d",
+      "target": "什么？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/6",
+      "source_sha256": "a93e65a4fb730e23752365161086fb8b867f4367d73414e8a3c5a87bd76f73ec",
+      "target": "你渴望力量吗？即使双手染上鲜血，$n你也想守护自己珍视的东西吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/7",
+      "source_sha256": "06a3b0f40b5969a02625b4cda7977ad0a29abdf42a20ab47fc6f8be9e1795399",
+      "target": "那就跟我来。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001944.fpb/seq/8",
+      "source_sha256": "71f98b373fbca385f0f15bdd5d3fe17db981af2113c0ca807c0b13ac4ae02545",
+      "target": "我想变得强大。$n但那时，我想要的$n并不是守护什么的力量。$n我想要的是……摧毁什么的力量。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/0",
+      "source_sha256": "c0c5fc491c0408f79972afd78b66c8f16e0b70c1fba6beba44470fb462a1b6fc",
+      "target": "同伴对队长的友好度$n可以在露营模式中调整。$n靠近存档点，按○键，$n就能进入露营模式。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/1",
+      "source_sha256": "7165ec0f26fae647e4b6ad02475cbf621c22dd4621c87ddc7e7f6062f11df9d9",
+      "target": "进入露营模式后，可以选择一名同伴，与其交谈或赠送礼物。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/2",
+      "source_sha256": "7f05bd014d734b406295a266c2be46fa30856f01ac7c0790fb82d805e19eb046",
+      "target": "交谈时选择的回答，以及赠送的礼物，都会改变同伴对队长的友好度。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/3",
+      "source_sha256": "67e68fb783b8a665dc0954d880838cd2e5a8195398185ee9471b11833917d680",
+      "target": "不同的选择可能提高友好度，也可能降低友好度。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/4",
+      "source_sha256": "2cfe825d3a39c51bd805a485a5ff71800b5d9623dfeb5191c4b6df0e4ad57666",
+      "target": "友好度会影响统率力，而统率力决定战斗中的行动次数。例如，统率力相同时，友好度越高，能进行的行动就越多。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/5",
+      "source_sha256": "6cbb04b5f6b2646c185b6ef1e369e02d0d2ef033d1de4a082eccfcc2102447e3",
+      "target": "礼物带来的友好度变化只是暂时的，过一段时间便会逐渐恢复。交谈带来的变化$n则会保留一部分。因此，交谈时需要更慎重。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/6",
+      "source_sha256": "f75842aff76d262b97d0056da82be1c2159ea2afdd185c876a72df6a19c6b1f9",
+      "target": "还有一点需要注意：$n想靠送礼提高友好度时，$n反复给同一名同伴送相同的礼物，$n效果并不会一直增加。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/7",
+      "source_sha256": "aff2cf1f28076de6464cf96e48c2f81b47c443578fdafc84b69cb27909515e44",
+      "target": "就像再美味的食物，吃得太多也会腻一样。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/8",
+      "source_sha256": "af3eab1bd56bc4d00e4d2b2d51f7ab731bbc63627deeef9a50716cb466dfb1bf",
+      "target": "通过交谈模式，可以了解同伴的心情和各种信息，记得经常查看。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/9",
+      "source_sha256": "9e8045e68bc6543dc19c0abc80ddc647d77ef03731c0aa50570f1390d7c57767",
+      "target": "队长，你知道露营模式怎么使用吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/10",
+      "source_sha256": "ab9d85a4d5e169121fee11a2b045ae8e9a79fc197c3a62da2aeaab9ffd35525d",
+      "target": "不，还不太清楚。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/11",
+      "source_sha256": "bffd2d2d92cbb5dc2b408a35f40f77f47fc2889ebe9e6988856e8d7a0cc28d03",
+      "target": "嗯，我知道。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00004060.fpb/seq/12",
+      "source_sha256": "811fdf3f23394a69e9e87e7dda534a3f07f06d9b552ac3c4adf93a0f86e7375f",
+      "target": "不愧是队长！那就出发吧？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/41/field/0/index/35",
+      "source_sha256": "ecc8f7202d357d4709e1030d13880eca485fde0a1c51f68a081a0547fafedc32",
+      "target": "上一页/下一页",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/42/field/0/index/36",
+      "source_sha256": "e351cd11863a95091703fc920162b6cc31442458f39af65461a512a8e02915bd",
+      "target": "取消",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/43/field/0/index/37",
+      "source_sha256": "41bfa937e5d2f69a3bcdd884ddc0f0716fe804000c1a1c4f2995083927caf28c",
+      "target": "确定",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/44/field/0/index/38",
+      "source_sha256": "0b84f4321ccfbcf2a4efe4fe1e04eaad0dba9dd97cbbb31b85b3b53a1c0f10c5",
+      "target": "切换角色",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/45/field/0/index/39",
+      "source_sha256": "e7278b90183d442f1e91c46ca548f64743a9d9a08423195a90396f1d7e8e8770",
+      "target": "移动光标",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/47/field/0/index/41",
+      "source_sha256": "ff5010873fb2023f295ab712597f451758f7ebd9cdaba7ca74d717c3691e2614",
+      "target": "对话窗口",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/48/field/0/index/42",
+      "source_sha256": "c6109cbe044b5bf49b162e3d5b0c7eb14e2d100df0a53f2bff7b6e9e14f18989",
+      "target": "对话速度",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/49/field/0/index/43",
+      "source_sha256": "2a06ca299743c5d996100ed216ac338a1d1d7fd87e4bbc9653b7d35f9f790630",
+      "target": "跳过对话",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/50/field/0/index/44",
+      "source_sha256": "f31c0f884e5dd5bdcf8878f445315a2212eb52fd064ab43e1397233f4259280d",
+      "target": "震动",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/51/field/0/index/45",
+      "source_sha256": "1f8b95182528f554d44a6b8e286f03ea27224011dff9076821bc3054576f7250",
+      "target": "字幕",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/52/field/0/index/46",
+      "source_sha256": "2a33c42566202ef49b1f46a53116ce015329b94fecd8b13fa657541fa6f23376",
+      "target": "声音",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/53/field/0/index/47",
+      "source_sha256": "d8aeebc84ab549e8e1ac790d99b8be69e1a0d10a398b6da447c20dfa1fb05037",
+      "target": "战斗帮助",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/94/field/0/index/88",
+      "source_sha256": "408158a6ad92fa11e54f9c793ece0702cd4c4e93a63090ea19333f08d18e71bc",
+      "target": "要在旅馆住宿吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/95/field/0/index/89",
+      "source_sha256": "38307ccb143e1f63e58c64496d8b79f8c6b81b1871b99a97c2623010f2e91a33",
+      "target": "要保存游戏吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/106/field/0/index/90",
+      "source_sha256": "624a01407d4393748089d85ee633013f994732388275670b796cabaee68540a3",
+      "target": "要读取存档吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/96/field/0/index/91",
+      "source_sha256": "426c79b90a037624016d371767ef5dc2635d3601179ad8b0f8afccb630551a3e",
+      "target": "正在检查插槽1中的",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/166/field/0/index/92",
+      "source_sha256": "3edb3ddb7b4fa57a689abac4b4de260d68b2e9cc0d87f63fb368102686f02961",
+      "target": "记忆卡(PS2)。请勿关闭电源，",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/165/field/0/index/93",
+      "source_sha256": "3a6e68463c42c9d6a90c87fc05cf309ce3cac5e46cea7b8040d271e849170ab6",
+      "target": "也勿拔出记忆卡(PS2)。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/164/field/0/index/94",
+      "source_sha256": "242aa4f06161915a7a8fe1e8d13ec45a434dfac366ab0eb5b55ced6372604d38",
+      "target": "记忆卡插槽1中",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/194/field/0/index/95",
+      "source_sha256": "9913c51757f8450dd215c88bf457af3af6ae4e1689579a6df68c0695c99cf273",
+      "target": "没有记忆卡(PS2)。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/163/field/0/index/96",
+      "source_sha256": "90412db8cf3a698a1d85dbf16238ed5f2a5a06fb93d93dae4fc4ecda39eb4034",
+      "target": "保存新的游戏数据需要",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/162/field/0/index/97",
+      "source_sha256": "d6d226777950382a61ed030065c4902d590c34886a881c8b63ccc4569da2553e",
+      "target": "至少80KB的可用空间。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/195/field/0/index/98",
+      "source_sha256": "7dd93d5eb6c1f6cb2fa266a80e4e9db0c570bab033f3c0fb74a4fa5391698e09",
+      "target": "要继续开始游戏吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/161/field/0/index/99",
+      "source_sha256": "2b72a022cef4f323e3fcd81d827d71eed1a0c39fe655ba5cd457815682ad2afb",
+      "target": "记忆卡插槽1中的",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/196/field/0/index/100",
+      "source_sha256": "cdc7fe365b466c57c1d2833cd658c961c98420152963ef7c311248a927ff397f",
+      "target": "记忆卡(PS2)可用空间不足。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/160/field/0/index/101",
+      "source_sha256": "1ad79e030541b5d2d5aa20d567d21e41f3a94d87b9f82a2ce9de050e5d193411",
+      "target": "保存新的游戏数据需要",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/159/field/0/index/102",
+      "source_sha256": "b5b413793dff96f62b009731e23648c11a22d65ad123f5c6155018b25444e13b",
+      "target": "要继续开始游戏吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/158/field/0/index/103",
+      "source_sha256": "fe865925060869d6a680a50cbc552a49ff0fce8cf331da82a777fda536836f9d",
+      "target": "记忆卡插槽1中",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/197/field/0/index/104",
+      "source_sha256": "877a2163e567a7feca2828cc874cf795ed0943e88fedaedf3a1236206b4b9b75",
+      "target": "没有记忆卡(PS2)。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/157/field/0/index/105",
+      "source_sha256": "278efa5a0484171679fa2f720ec11b2481b9ac4260b7fdf69e9811b9495238c7",
+      "target": "要继续保存吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/198/field/0/index/106",
+      "source_sha256": "34a243f59fbee61adf52e5a81d734f99155cb04575efba8dafd4e5f69251fbe4",
+      "target": "要继续读取吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/156/field/0/index/107",
+      "source_sha256": "4a4a882ef636afd46382b0cfaee9ef358b2a824e116f696deff2e27536631c07",
+      "target": "格式化失败。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/154/field/0/index/109",
+      "source_sha256": "1e0ccaebcb678e0c7185595c478b85f294990eec66b50cc7fc1f4bdceee77ce6",
+      "target": "是",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/153/field/0/index/110",
+      "source_sha256": "ffac2038d3eda2ce8502838b8ffc78822990106505478e462f505e310312a229",
+      "target": "否",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/151/field/0/index/112",
+      "source_sha256": "d6d226777950382a61ed030065c4902d590c34886a881c8b63ccc4569da2553e",
+      "target": "至少80KB的可用空间。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/149/field/0/index/114",
+      "source_sha256": "9fafa6eb9daed069331cbe40a72a6a79f34e3e67e1a04db68667809704d9f183",
+      "target": "请选择要保存的存档位置。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/147/field/0/index/116",
+      "source_sha256": "85a8513cf5078dc674879c6535ea0cd8e788222fc1529d7471b7fbfdd73320b9",
+      "target": "请选择要读取的存档。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/146/field/0/index/117",
+      "source_sha256": "823a1b6eedcfe044252ec4bdacdcf0116e1cb2334576e6597437267ae7dfa1b4",
+      "target": "要保存到这里吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/145/field/0/index/118",
+      "source_sha256": "29e9e10c8f6246232f573e18748e6b8f3729a723f8402b669382542cd690f17a",
+      "target": "要读取这个存档吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/144/field/0/index/119",
+      "source_sha256": "02fad1284975081b6f4a7dd407035dc46b128fc858edabe0f406662c1875138a",
+      "target": "已有存档。要覆盖吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/143/field/0/index/120",
+      "source_sha256": "60977ab318a6fb5a05d63123171b36e13e55a1121200a294635461872157a596",
+      "target": "正在保存。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/199/field/0/index/121",
+      "source_sha256": "f9134f3814052436fba267575fb51885aeca8fa52bbe2156f41f1cc82b14d1ca",
+      "target": "请勿关闭电源，也勿拔出",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/142/field/0/index/122",
+      "source_sha256": "0d4cde7aa8739b6968266397e3ed702c975933caf61810c500c037aa010abac5",
+      "target": "记忆卡(PS2)。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/180/field/0/index/123",
+      "source_sha256": "cdc7fe365b466c57c1d2833cd658c961c98420152963ef7c311248a927ff397f",
+      "target": "记忆卡(PS2)可用空间不足。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/179/field/0/index/124",
+      "source_sha256": "6a9dc15411d8de62f7469544ff6e4a3bd339abcfd95d5fa9b30cafe6d0f6ccdd",
+      "target": "保存新存档需要80KB可用空间。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/178/field/0/index/125",
+      "source_sha256": "328995d828e1dab0406f12f151633dc2f2a0d674b559e1f53f77e0b1baa951e1",
+      "target": "保存完成。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/177/field/0/index/126",
+      "source_sha256": "f1b7130beb0d900278b054f70ec675c6d1c38ed85ca6c450a55d70a4b22219c9",
+      "target": "读取完成。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/176/field/0/index/127",
+      "source_sha256": "4db0fb7257a82e0fe8d09f12986890465ca4bf1521f635657409bff9af9c06d9",
+      "target": "没有存档。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/175/field/0/index/128",
+      "source_sha256": "b13b7c30258d2a4c1325573feb23b3cb147fb743d7b3114d01d13aadeefa1890",
+      "target": "正在读取。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/200/field/0/index/129",
+      "source_sha256": "f9134f3814052436fba267575fb51885aeca8fa52bbe2156f41f1cc82b14d1ca",
+      "target": "请勿关闭电源，也勿拔出",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/174/field/0/index/130",
+      "source_sha256": "0d4cde7aa8739b6968266397e3ed702c975933caf61810c500c037aa010abac5",
+      "target": "记忆卡(PS2)。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/186/field/0/index/131",
+      "source_sha256": "69972fc2d055f377341183be0243b7ab9039f4d8d2f761dd2148de35858acd38",
+      "target": "记忆卡插槽1中的",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/201/field/0/index/132",
+      "source_sha256": "3ea9b3a29282ab3494dd9d46cfe17b582b4305ca96ffc81fedc59cdb27e4d9da",
+      "target": "记忆卡(PS2)尚未格式化。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/172/field/0/index/133",
+      "source_sha256": "ed2087f36f945700de7b863567f176c4180bddd01e74c02572d2c06ee97eb959",
+      "target": "要格式化吗？",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/171/field/0/index/134",
+      "source_sha256": "6f386c4317dc3b10c4229e77880d4daf9b14c554d700c5013f0aafd65076dd70",
+      "target": "记忆卡(PS2)",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/202/field/0/index/135",
+      "source_sha256": "da728af03220e9e2902ce82d77fcb5957698324397b9ad84e8d80b08fd338ef9",
+      "target": "不在记忆卡插槽1中。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/170/field/0/index/136",
+      "source_sha256": "5133178eec6aa171e4aa05f7a48e170ab1fd822a6cd78d01cc9ad0c9583a3fe2",
+      "target": "未能正确保存数据。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/169/field/0/index/137",
+      "source_sha256": "056f31ec30585fa87107b31e997d824a662143981d506acfdb3d84ff444765aa",
+      "target": "存档已损坏。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/205/field/0/index/138",
+      "source_sha256": "ab4b2952db8c03129ad3641ed2654fcfe4568302613574d50407c0e46f835630",
+      "target": "记忆卡(PS2)已格式化。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/204/field/0/index/139",
+      "source_sha256": "1d07a13a3b8885a6f9e153b312bde5a7368fc3dc3ca0f42f639abc069bd3afd6",
+      "target": "正在格式化。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/206/field/0/index/140",
+      "source_sha256": "19d2bac70b89a8447be4da25a33cba316c0cefb861a68b5d2d9c47e196d014ad",
+      "target": "读取存档失败。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/225/field/0/index/163",
+      "source_sha256": "67e15ce8410cc0b7deee54ba9241fb771a350c837f02f7a9dc869f187e35c174",
+      "target": "按下按钮可跳过事件。",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/226/field/0/index/164",
+      "source_sha256": "0a999be7f331b078e102e58a110de97b8f3c5bbf5e119369938405fc4381ccd3",
+      "target": "露营模式",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/227/field/0/index/165",
+      "source_sha256": "c1bcbeee6a1c4f4e6f0f9453547dc3614f1b2afca08003af764d286d429705c9",
+      "target": "休息",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/228/field/0/index/166",
+      "source_sha256": "6af0c601c8c0e51ab2d49b503ccaf7eb51dbdc4001cdceae0ae5d7f9c4170f1e",
+      "target": "交谈",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/229/field/0/index/167",
+      "source_sha256": "aa0cfb30d7725aa4a856624b2ab02dd5d95ed72821f96cbba95bdd6cc4a0eed7",
+      "target": "送礼",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/230/field/0/index/168",
+      "source_sha256": "bd6754a71548edd3d0031b80b58e7246483739f4ecbdad02cae3059db31e7d2e",
+      "target": "保存",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/232/field/0/index/170",
+      "source_sha256": "67006722926d397478ff123ccfc6801506b5d71b72cab1fb101837466736b421",
+      "target": "读取",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    },
+    {
+      "id": "SHIP/00000460.cha/slot/0",
+      "source_sha256": "44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540",
+      "target": "卡琳兹",
+      "status": "draft",
+      "context": "Migrated trial wording; source identity preserved; proofreading required."
+    }
+  ],
+  "milestone": "opening-review-01",
+  "glossary": "GLOSSARY.md"
+}

@@ -1,0 +1,904 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "story-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001953.fpb/seq/0",
+      "source_sha256": "809709cbe6d0e880e3d72bba6a7bc4b7bc92601ec2a44128e01cd50524be2851",
+      "target": "再说明一次，$n这次的任务是护卫魔法师。$n$n他们开始准备大魔法后，$n就会毫无防备，$n所以要护卫到大魔法发动为止。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/1",
+      "source_sha256": "65af4aba5f137db673a940eb16734405d75757cdff6758cc287f81f8ed507e2c",
+      "target": "哈，看来我们就是挡箭牌啊。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/2",
+      "source_sha256": "f06ca80880d608e67d7b43103752410bab45657400d65d3d10010c28d56f29d9",
+      "target": "呵呵，就知道你会这么说。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/3",
+      "source_sha256": "98b85f8e4b4beb22a2e40a81c9b404dab10af06ccd5648e7bf5eedb32dbf5964",
+      "target": "不过，这是重要任务，报酬应该很丰厚。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/4",
+      "source_sha256": "fc6f41115083fe2b06c8304e07d4451b5a7b4f029cd89cabfc5cc9c3a3a8d30c",
+      "target": "没错。联合军是否认可血泪，$n根本无所谓。$n我们只需要完成交给我们的任务。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/5",
+      "source_sha256": "0b3e86c2fd3c7631813cc4a25d02fcac990d3bd9ffd5a61958ffa53529a7a5f9",
+      "target": "那倒也是。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/6",
+      "source_sha256": "6b9d5294d3146f7e59ce9d58eac53d1f4252e176120c2d2b955cde4cc3d88675",
+      "target": "大魔法将攻击埃彭塔德。$n以亚逊现在的力量，$n应该没有其他办法阻止它。$n但万一失败，$n我们的位置就会暴露，$n很可能被弗罗斯特·沃姆包围。$n到时候，立即撤退到$n吉拉特边境的雷斯蒂。$n以上。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/7",
+      "source_sha256": "5dca85744ef82adab93af33de5524459c52c8d7738587cb49acb9ab107595784",
+      "target": "是，队长。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/8",
+      "source_sha256": "b54711a69ba279df8004e02d1f2550f9e4798ab67ef4ab25fc471269ed6698a7",
+      "target": "那么出发吧。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/9",
+      "source_sha256": "2bab4d41f0bf137b09da9c788f3afa772e0cddd0e00550202290e606d04f32c8",
+      "target": "希望这次终于能找到了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001953.fpb/seq/10",
+      "source_sha256": "b45740ba1daab39ce30cc516fd6ba932e3b3c72b3578105f14ed0185e3c80c21",
+      "target": "是啊，我们两个都是。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/0",
+      "source_sha256": "2f6a2f7147b57326deb7dc8c3fc364c0c99f7cb7a3fff27de585b3bbd29a58f1",
+      "target": "也就是说，亚逊的外貌几乎和人类$n一样，不过耳朵长得很奇怪。$n皮肤也白得发虚。$n而且身上还有一种叫“宾迪”的$n奇怪纹身。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/1",
+      "source_sha256": "703f63420c35d36f883c29ad9b48eb63ac4854e7330ad5e1a16d47edfea354a3",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/2",
+      "source_sha256": "10e04ac1bf9abcb38f26af7d97212110236d1dbbd3bc5bbd3c070f9da5a4a9e5",
+      "target": "不过，宾迪可不是普通的纹身。$n他们的首都是埃彭塔德，$n那里有一棵被称为“光之树”的树。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/3",
+      "source_sha256": "f2b77147a4615fe2e3e72a8ba4f179026bf81ff29fb09a99140ea198ebbf79f8",
+      "target": "那棵树啊，$n会不断释放卡恩。$n$n而宾迪会吸收那些卡恩，$n再将它们均匀输送到亚逊全身。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/4",
+      "source_sha256": "e3e059f588b11810b205d0f18a2738e9b2e8c4fda6876e8c2b3f44e58fbe0cef",
+      "target": "所以亚逊就靠那股力量操纵怪物。和我们人类可真是大不相同。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/5",
+      "source_sha256": "88b65f0842a3d0ead77c62b405162ff27ab3d7a090fd36d432038087299fc73b",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/6",
+      "source_sha256": "f75808942efc483e6a2a616dcdc437962bec3f0a67f9efa69f2f8b234aff76aa",
+      "target": "所以五十年前，亚逊就是靠这股力量$n率领怪物，到处攻击我们。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/7",
+      "source_sha256": "1add81ab2c25785a225e03e26a3890c2931a6119ec0bf45e5707309312609863",
+      "target": "不过，自从伟大的八英雄封印了光之树，树就不再释放卡恩，$n那些家伙也就不能使用魔法了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/8",
+      "source_sha256": "88b65f0842a3d0ead77c62b405162ff27ab3d7a090fd36d432038087299fc73b",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/9",
+      "source_sha256": "d3c22babd0ad75147d7ebd65ea442474e71bc4e4c0cf20eae576299126640034",
+      "target": "可是，亚逊之中诞生了名为弗罗斯特·沃姆的突变体，最近又开始$n闹腾了，对吧？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/10",
+      "source_sha256": "c0f59e29791a999a8c88aa7fa4efbef21576a2b7a01060f4b64968b6756154e5",
+      "target": "所以拜耶尔那些伟大的魔法师，要轰的一声放出大魔法，$n把那些家伙的土地彻底炸个粉碎。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/11",
+      "source_sha256": "703f63420c35d36f883c29ad9b48eb63ac4854e7330ad5e1a16d47edfea354a3",
+      "target": "原来如此。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001954.fpb/seq/12",
+      "source_sha256": "031ab51bd295ba4f38e090a81dfc28430dd7131f30d605141f511680ce05576f",
+      "target": "你这家伙就只会说“原来如此”$n吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/0",
+      "source_sha256": "7954aec3cc9d0cacf3a40ac16393f64794d9c8621a0cc2c05763891be3a13074",
+      "target": "原来是血泪。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/1",
+      "source_sha256": "1ae0693a139ae50dd11a46f715fe414df371977a31284b1dfee857362f236a08",
+      "target": "好久不见。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/2",
+      "source_sha256": "30eadccb2ba6861d4abf38e995baeedd6ee62c7612f79af4d58e1cc39686792c",
+      "target": "我可没心情接受问候。$n上次的丑态究竟是怎么回事？难道忘了那是$n庆祝攻下索本的宴会吗？$n竟然把整支小队打得需要医治。$n当时盟主也在场。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/3",
+      "source_sha256": "b8bef170d5d20090e29afe296feb52afdf77d9c5610805db285f81f35d847fe6",
+      "target": "他们对长官毫无礼数，$n我只是让他们清醒一下。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/4",
+      "source_sha256": "fede7fb53e4499c6f46cb4b8f8a45543bf62553789e9875aa83ff9d8acc1ba77",
+      "target": "攻打索本时也是，不但不听命令，$n还擅自离队去攻击弗罗斯特·沃姆，不是吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/5",
+      "source_sha256": "3eb54b177e168d296e0df5383cc51ea84106abbe44c7fc3bc784f64a901230cf",
+      "target": "但盟主称赞过，正因为如此，才能在短时间内$n完成索本攻略。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/6",
+      "source_sha256": "914fcedaf260c81c8aeaf8f8b30fc285415ee2c1eec79f5e71ddfee526c1d240",
+      "target": "你现在是在嘲弄我吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/7",
+      "source_sha256": "a9f4081b85c0b3b2cf202c0a30910e6866b045b7197aaa7920a00f19972e2087",
+      "target": "不是，将军。$n如果听起来失礼，我向您道歉。$n那么，为了执行任务，先告辞了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001955.fpb/seq/8",
+      "source_sha256": "87bfc79330725f90014f7f13a396a8ec43ca57f2056c73491053897722cfb6bb",
+      "target": "狂妄的家伙。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/0",
+      "source_sha256": "0c992058bc5d7473ec012ec6b29b64b16517f6731358442b9fcf1da41ec62978",
+      "target": "来了啊。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/1",
+      "source_sha256": "a44b46c7baf4a3061631e288c29cd0c33c876e827fb4cbfdd83e34c93b47743e",
+      "target": "一切准备就绪，阿格雷安将军。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/2",
+      "source_sha256": "4573fae2acea6d9b83dd357271377ea864ad2549c05121b50e747251b608fa19",
+      "target": "马上就要开始了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/3",
+      "source_sha256": "48a6ad07bf5ea5d9c6c88a241c00c80b48c9c0e8e8092f16d6a184ec4d1b8fd9",
+      "target": "就算是你，这次也会紧张吧？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/4",
+      "source_sha256": "fa6d06cba226f99a5050759d5e5832b2e962dc531e04b2c78ca397c467aa8566",
+      "target": "您是在开玩笑吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/5",
+      "source_sha256": "558aedf02156c87f51e22c5f3b8f93c4451a51295daf40e08295a2c475252238",
+      "target": "呵呵，话说回来，你来的路上$n应该遇见了拉埃尔将军吧。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/6",
+      "source_sha256": "377820d21d3e91d3ccae6b3639f1b9a80671ce4a787e0b78350a90b58b412903",
+      "target": "您已经全都知道了啊。$n我已经挨过训了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/7",
+      "source_sha256": "52f620b2847913c0605c2d820f0ce8c84521092b269d76f0a9945b57e441ae31",
+      "target": "他深得吉拉特盟主的信任，$n年轻时也是在战场上被称为“黄金$n雄狮”的猛将。$n即使是我，也很难违抗他。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/8",
+      "source_sha256": "87e3de8a4ee95758447722b419ec4fb0c571bc005ecaa239be9709a178a28f06",
+      "target": "我明白。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/9",
+      "source_sha256": "ea60ce067730b1d32c1c9c54f0a8b65bc37bac98c6fb54ebcc20a7ce88e0cb1a",
+      "target": "如果这次作战失败，和弗罗斯特·沃姆$n一直维持的力量平衡就会崩溃。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/10",
+      "source_sha256": "bb0ff5a0253883aa65571245e52cd42b4263731f8fb4167a0a074e868d869437",
+      "target": "我一定会让作战成功。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/11",
+      "source_sha256": "6d72edf35e45aa324b22a3b1dd753af7cfadffbb030c17958274667fca640104",
+      "target": "当然，我相信你们。$n但一旦有危险，就立刻撤退。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/12",
+      "source_sha256": "efcbc03d13e8c3ea72a1cf90967b9df8f366e2b74531711159f767bb749ef29a",
+      "target": "也就是说，不要勉强。$n你可是难得的人才。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001956.fpb/seq/13",
+      "source_sha256": "5b6cea5f93156601e5c295b01fbc8d48e054a9df9d898268739381f6f5d7f031",
+      "target": "请放心。$n我还不打算死在这种地方。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001957.fpb/seq/0",
+      "source_sha256": "f91ff6c9c64e3a9fde24780516305cd389b6dae4639df243fc85cb5cbe3170b1",
+      "target": "恭候多时了。大魔法阵的护卫就拜托各位了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001957.fpb/seq/1",
+      "source_sha256": "5936eb6b6a9ab9ccc40835b3f2433bfe646fa07a516299d78ee1ce6edfc8f8aa",
+      "target": "明白。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/0",
+      "source_sha256": "645dadfd49c6cedca016a23873835a660e3900f88d473694f4b5a71fb1f2e27d",
+      "target": "你们来到这里了？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/1",
+      "source_sha256": "505125f0a4977635eb35b4ad8b801d2a6d73e667d350ae92c3b8890c61787c87",
+      "target": "你这家伙……是四天王。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/2",
+      "source_sha256": "0f165240421660f1409542427966db19469ecf5f986753abd9daeba42632c623",
+      "target": "这是第一次这样面对面吧。$n我听过不少血泪的传闻。到现在为止，$n你们可是给我们添了不少麻烦。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/3",
+      "source_sha256": "9e2cef849f1586e956e3fb6ddb4def2c442ae9d67dd6f9dff855bbe9f0591c7e",
+      "target": "彼此彼此吧。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/4",
+      "source_sha256": "65d0c6d44f612d390c2a2a3fb63bdbfa69a5648d20f915da957873dda447ab7e",
+      "target": "你们的作战失败了。女王陛下早已看穿你们的企图。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/5",
+      "source_sha256": "7310de4b3c62f9234c88eaa2ade782c1f5d95adf4192ab5e24faf8e4859fd6b8",
+      "target": "就算如此，她能阻止$n大魔法吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001958.fpb/seq/6",
+      "source_sha256": "530e5ae70e1445c22e05128cb02c952799eb1a7c9da17c074dcb27b6caafd30a",
+      "target": "她一定能阻止。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/0",
+      "source_sha256": "6c78e58f0b8f4b40dc6654b760a2bd0cb66755e21ad04ff64ee2e28cb1284f0d",
+      "target": "啊，究竟……发生了什么？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/1",
+      "source_sha256": "40a636b11d7dcb0c5d8f05d37ec2d21a8729fd9cd2d8003f05d836b34a52ffe7",
+      "target": "大魔法……大魔法……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/2",
+      "source_sha256": "4918ad83eee3727df8ac7cef8c188e8d5523d8789589e5e37bb7831bd77ff331",
+      "target": "您没事吧？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/3",
+      "source_sha256": "d8c4b4fd955414fa5e47275dd7edae780355287705e14ab1a5a393b94243c308",
+      "target": "大魔法失败了……不会错的。$n我们释放的力量有一部分反弹回来。$n是女王……挡住了它。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/4",
+      "source_sha256": "4111cefba92a2d62cf675ff9d2a2d3d886ed747f485112c35b4ea3d4b9a5d153",
+      "target": "阿蜜拉？不可能。她是怎么做到的！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/5",
+      "source_sha256": "f63c110a91a6eff25da2dd42056abd6d3e2a2600df634907e0f4f7989d9cc7d5",
+      "target": "能够阻止禁忌大魔法的力量……$n据说自古以来，只有真名法典……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/6",
+      "source_sha256": "cad1d653801d4313e19d09af91d44267f0e8d44a3be3b4825d3f8cb60ea216cc",
+      "target": "真名法典……？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/7",
+      "source_sha256": "2e6d0a0f79440889e12854b13fd074ef1e2355aa6595c74fb117fbe6c1e84688",
+      "target": "是弗罗斯特·沃姆！$n弗罗斯特·沃姆涌过来了！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/8",
+      "source_sha256": "0ef05bf118b1a5909186c6034ff30d69eb47099f4a31453fdf1814230a14743c",
+      "target": "卡琳兹，情况不妙啊。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001959.fpb/seq/9",
+      "source_sha256": "54fc6d334b2c44e0245f5524580d4926c7f204b3c99c169c9b4a187f3aa1369b",
+      "target": "先撤退到雷斯蒂。$n现在这副状态，没法战斗。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/0",
+      "source_sha256": "12bf798937b38d421c28fb2ec633b5ee094129b1ba35c5a95df400d6aff12e75",
+      "target": "真名法典是汇聚强大的神气而引发的力量，对吧？能引发地震，$n也能让天空降下雨水……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/1",
+      "source_sha256": "bcc248cc6657887a7da15a65753d9bb4198e5ce6991d0e17c2952ad833653939",
+      "target": "强大的神气越多，就能发挥越大的力量。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/2",
+      "source_sha256": "e5455cc9b6aa4c3a58369d8350a680318f158b576d1c1361e0d1e3779e8cf698",
+      "target": "如果能发动真名法典，就能向亚逊复仇了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/3",
+      "source_sha256": "ae9257f50eb7130cf51a4d37a9e1c7b1a3dab5cee203efb533bdbccd396e2481",
+      "target": "抱着这种心态，你永远也无法发动真名法典。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/4",
+      "source_sha256": "6e33f72148536f04c00fc0b2a7e33e0e18ad68478175352205103f99aa45bc70",
+      "target": "为什么？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/5",
+      "source_sha256": "605b394571fa8697946ce26878757d82ff067735f1215d1b78af8a41a07ebc0d",
+      "target": "真名法典确实是巨大的力量，但想自由运用它，就必须拥有与之相称的器量。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/6",
+      "source_sha256": "46a1584d815de8070111683edf8793e95e87ef62fa1b94803d70e4a0acf53b07",
+      "target": "我会变得更强。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001960.fpb/seq/7",
+      "source_sha256": "61285c61d356a0680b2561be915d252820fa9a7796ab15793132c5df984db9a9",
+      "target": "即使不强大，也能发动真名法典。$n只要能够理解这个世界。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/0",
+      "source_sha256": "c4187ee6dcdfd35a67b56a122b8412383f73d8daaca41c2b32f7cc076084a52c",
+      "target": "大家都说我太弱，谁也不愿意和我玩。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/1",
+      "source_sha256": "5af7faa39172f10b6c668458eeeeb5c2a8f7b5cb299edb8004c12792de5a8f0b",
+      "target": "玛诺，你没有看见自己的潜力。你明明还能变得更强。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/2",
+      "source_sha256": "4dc4a1b59fb49f929d26b968f0479e22b22b6780375fd1da9d2256a768353f57",
+      "target": "玛诺，来比试一场吧？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/3",
+      "source_sha256": "808010b61c74766a450dfad47e5a24963c50e01c0ee4146b6cd5bca2f86eee43",
+      "target": "好啊，休戈。这次我可不会输。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/4",
+      "source_sha256": "5a6bd2fd534bd1abef16ac6f96d31af252c01e41bacd40c31288bc9295a5e6a6",
+      "target": "连这种弱小的怪物都打不过。笨蛋。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/5",
+      "source_sha256": "9718fb9fb2190dc47751a4e9f95a3e35d5a84651aa37973c6c1ddc070f8b90b1",
+      "target": "吵、吵死了！这可是我第一次$n和怪物战斗！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/6",
+      "source_sha256": "0128176bc14d52a85737082417ad060c302c60a399266d457623b267d5cb4bb9",
+      "target": "上次你教我的招式真厉害。$n连休戈都吓了一跳。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/7",
+      "source_sha256": "d98dab8deb0952918d3b3e6af1387c9480c2b1fd103158027be027a940765797",
+      "target": "休戈……是谁？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/8",
+      "source_sha256": "73116c84ebedacdb6a44a15b8f482006b0cf23cce4c90820ce0baf667d2b15f1",
+      "target": "还能是谁？就是我的朋友兼对手啊。不是说过了吗？难道你忘了？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/9",
+      "source_sha256": "ab1aed9ca154a8ae226493009fb1e3584646a25d6d2730150367c0371f4a17d1",
+      "target": "回去！我不想和你说话！$n快点回去！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/10",
+      "source_sha256": "d4cfb42e06da38ec33d70e70ecf86cd9dd2e7c032d8d78ed510959ee0844a959",
+      "target": "为什么生气？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001963.fpb/seq/11",
+      "source_sha256": "82ab949832940049e38049b5aa8c1e61ca37ac455ae052d2ff54caabe38134c6",
+      "target": "我在找一个左臂有黑色蝴蝶状宾迪的亚逊。你见过吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/0",
+      "source_sha256": "e43c9a5869d80ebc0ed173e6b242237d60b539da1685f4a853595280720fb81c",
+      "target": "撤退。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/1",
+      "source_sha256": "1c2ac9c3bea149ba8dc393147f9b3c9eda6903bcea74a901d8a276d95d260706",
+      "target": "我不能走。就是那家伙。$n他就是我一直在找的仇人。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/2",
+      "source_sha256": "0725dc666c8b3ae8b95cdfb0395999ed645784d2396e54f9418dcb680fe6869a",
+      "target": "难道……是钢铁之心杀了菲莉丝？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/3",
+      "source_sha256": "2665d8010ca952368340348736afe65d2bf02a563b0f315e6c21f584d6b8c0af",
+      "target": "真可笑。竟然只是个小丫头操纵的$n使魔。菲莉丝竟被那种家伙……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/4",
+      "source_sha256": "25331c2a8990e38f2e830c4c1f6d0ea4dabc0dfd2fbcccb28eeb40fe1edb3a92",
+      "target": "我理解你的心情，但桥正在坍塌。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/5",
+      "source_sha256": "623320919c5a144828d8df9169b89cf9fcc2279861d63e1f3a48d328d1f703ac",
+      "target": "在打倒那家伙之前，我绝不回去！要走就你们自己走。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/6",
+      "source_sha256": "623320919c5a144828d8df9169b89cf9fcc2279861d63e1f3a48d328d1f703ac",
+      "target": "在打倒那家伙之前，我绝不回去！要走就你们自己走。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/7",
+      "source_sha256": "8ce9d189c4d43a3424dbc3bb780d1a2abf1a8c21f900913dc7b86da7b2fc2cf7",
+      "target": "你觉得我们做得到吗？我们宁可选择一起死。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/8",
+      "source_sha256": "0a00fa404a2e714fd8a0681a6e94c1997a395f099b7c9a524ed4d9af441259c3",
+      "target": "可恶……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/9",
+      "source_sha256": "86238f111b55be85ba13e6261714b32951e198b13705e9140e80f12d72c44fca",
+      "target": "既然已经知道对手是谁，只要等待，机会$n就一定会来。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/10",
+      "source_sha256": "e4964f8e0dd5ca0fc4713ce2b76b845d5f836da498f91e90e8ff36f9632c2e96",
+      "target": "队长，走吧。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/11",
+      "source_sha256": "1b620f4e9558292ec7cde32594025a20c085a213fdb2f7cc9b4ed92ff2083480",
+      "target": "行了，你们先走。快。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/12",
+      "source_sha256": "084669d324408c5c7a0dbc2a4bf91fe8d4b0fcb6393ae82494389d4cccd7bc45",
+      "target": "队长！快点过来！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/13",
+      "source_sha256": "f79285818cd1bf29fb037a8bfc87ac535afdae2248e71ea1d4595e0bb99c4f1e",
+      "target": "队长！？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/14",
+      "source_sha256": "c91da7abd96386ea17838285ff304d27caa7d7351ec8432f61d6bd727a1cda41",
+      "target": "如果顺利逃出去，就在雷斯蒂会合。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/15",
+      "source_sha256": "dca04de7e0d40eb6f78af8be7782d240d0b968c135a285813483a57facadeb7e",
+      "target": "队长！！",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001964.fpb/seq/18",
+      "source_sha256": "163d5bf9ef4375f0ce955b22c4675945e2610a8cdebdae508c71497a1392d0f6",
+      "target": "（那家伙的重量，让桥正在$n坍塌……！）",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/0",
+      "source_sha256": "b09e311c108269d6bd337746e58675c8a63a00b4144aed141cf50d387371a516",
+      "target": "不行……一直这样下去……$n得做点什么……做点什么……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/1",
+      "source_sha256": "1b76849a90d7dbab843aee8ecbe25357f005ddc6846173af0e4c39a0ea82e2da",
+      "target": "……是谁？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/2",
+      "source_sha256": "0c8e16eac76bc10903d1080fcdb42ffe82875d1d74789a89076f44f55ca62b2a",
+      "target": "啊……对、对不起。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/3",
+      "source_sha256": "fd0f17263d80c53709d016ef98b4420282d74a94631a8cdfc66a0da8bfa087a4",
+      "target": "看来不是亚逊。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/4",
+      "source_sha256": "7626f18652d34bd4a837063a715912155d23b0a2e817960a087669e407926097",
+      "target": "……对不起。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/5",
+      "source_sha256": "61972a2cadcfd3b1f2a0e8aefe5db81d031f83bb4b30edcad609f54f19993d88",
+      "target": "我以为你是亚逊，身体不由自主地动了。抱歉。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/6",
+      "source_sha256": "ff2ed28c221b684984f3cc9d726f6bb88f95602b75610a9524b724cbc3743621",
+      "target": "看来是你治好了我的伤。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/7",
+      "source_sha256": "8e1f95f7a2e7166bb621170d42f9bdee5f8c7d3c65c52b9ccc37d737200397c6",
+      "target": "如果吓到了你，我道歉。不知不觉间，我已经养成拔剑的习惯了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/8",
+      "source_sha256": "bc4f6c17471ff3dfedf123db22e2a021390df67c3b4ef88672f41db16c21d294",
+      "target": "有那么可怕吗？$n如果是能被派去参与大魔法作战的巫女，$n这点事应该算不了什么吧。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/9",
+      "source_sha256": "ad9ed2cac07aed1aa62fe1f4c88609673e4d6277f66daf557e9252b8d7f63e58",
+      "target": "咦？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/10",
+      "source_sha256": "ab2706fa4cfedd2f1b145c66493458588e4bc9caa135dda22f03ef24982067ef",
+      "target": "你不是巫女吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/11",
+      "source_sha256": "5aecce3d978de682473ff708189b4357d382aad88859bf7aed6b8db2c7a67b23",
+      "target": "我……抱歉，什么也想不起来。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/12",
+      "source_sha256": "c7796bc81fb4a35bf0a4beb6e6ef851cf29f0f33fea801c300ef06382ee76653",
+      "target": "唉，这下麻烦了。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/13",
+      "source_sha256": "6ab3e1a9f0258a506f45313f59ca1e27ed16c6efed7cda0938566dfd7a7ec8f4",
+      "target": "睁开眼睛时，我就在这里。$n走了好久才找到你，可无论怎么摇，你都不醒……$n所以我觉得，一定得做点什么……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/14",
+      "source_sha256": "35bf74559b8fde8e1051ea247fdf69c96fb506d56e91602fda3aca866686cd46",
+      "target": "你是在无意识中使用了恢复术？恢复术可是阿玛巴德巫女独有的本领。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/15",
+      "source_sha256": "0ebc3725f86d7ffc50da499292fcbf1f98284b1265315109daa2cf7a3da0d361",
+      "target": "阿玛巴德是什么？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/16",
+      "source_sha256": "dc80221bd8ee79fc8265a35910ad0bf6b9347426ad5c4d24fefef5cd5b0acce2",
+      "target": "看来你真的什么都想不起来。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/17",
+      "source_sha256": "b5e93c304d6a3dc8d9846c059455346abe5f4a572669c34be812768de6058c43",
+      "target": "还记得自己的名字吗？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/18",
+      "source_sha256": "6a2bfb3e9c3643079849b5eaad9f8e2d5346d068f6c7c937bacdf5ea5468270c",
+      "target": "呃……$n莉……丝？",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/19",
+      "source_sha256": "a94a641256b67ee48db55d7ac33370341b2c1fd51ada908534105aa8f6cbff7d",
+      "target": "好，莉丝。今后就这样叫你。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/20",
+      "source_sha256": "33e8164871e809656943ca7cf3e9000c9e3fe21349fb1217b1c5c7286dbd9d1f",
+      "target": "来，走吧。你救了我，$n虽然算不上报答，$n我会把你送到阿玛巴德。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/21",
+      "source_sha256": "dedaf03a86523c72fee0bb20724f41c4acb19e009a60653b8edc55c9254fa7e1",
+      "target": "嗯……那个……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/22",
+      "source_sha256": "d78a327eff717a36dcfdf4572d44e3cdaff1814bc0dab78a21cf566408967546",
+      "target": "我叫卡琳兹。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/23",
+      "source_sha256": "a4fe42455a95457f11529b770ff7eb17ee2989a628e35033cbbecc853cafb777",
+      "target": "嗯……卡琳兹。",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    },
+    {
+      "id": "SHIP/00001965.fpb/seq/24",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "target": "……",
+      "status": "draft",
+      "context": "FPB scene draft; dialogue order within resource preserved; global plot order and speaker labels not inferred; not imported."
+    }
+  ]
+}

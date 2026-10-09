@@ -1,0 +1,1653 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "interface-review-02",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000682.tui/record/0/field/0/index/0",
+      "source_sha256": "9c41361c30235fcc100a6965b757336e6023ce96e90f6d059679597fb197d4d6",
+      "target": "阿玛巴德占卜馆",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/1/field/0/index/1",
+      "source_sha256": "dc30935bebd3bb3d29c26cf79072d04f55fac1fa83687fb06177d1e736f759ba",
+      "target": "占卜",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/1/field/1/index/1",
+      "source_sha256": "64cc919f87127b902c877a5a3cd597ef3b4526e780c758fbcd78964dd4cbd331",
+      "target": "进行占卜。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/2/field/0/index/2",
+      "source_sha256": "d8f0f33be18010081943ce605d2e0e22bae1a7e9d15d0339d05d6f127e93741f",
+      "target": "消灾",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/2/field/1/index/2",
+      "source_sha256": "ff94d70b533c1daaa918cdf8b45e3fe868186f760ccbc9f460c04ade4e80d2b8",
+      "target": "进行消灾。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/3/field/0/index/3",
+      "source_sha256": "01bda97e3fa1f9d5c89d1c56134ca418370f9c9a9ed0ab4e945e1f8a8378645e",
+      "target": "合成",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/3/field/1/index/3",
+      "source_sha256": "ed3f6a86f18cbc0754608d1ccbcbc01a3e350bdf1b44d71ac9a9a9752f485122",
+      "target": "合成符咒。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/4/field/0/index/4",
+      "source_sha256": "36bf1d92ff5275da54d12d1e0e9d927b1ddcc883af529eb153954ee13d158387",
+      "target": "鉴定道具",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/4/field/1/index/4",
+      "source_sha256": "5cd36b9277e59298b360e01a4d103d9e4b3aeb9c068b34c45349710d9266c3ef",
+      "target": "鉴定尚未确认的道具。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/5/field/0/index/5",
+      "source_sha256": "29cc05f169e40d9f74f3a6e6a1bcc4985513032bbcea149adf6e5d6c4b329b84",
+      "target": "占卜师的建议",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/6/field/0/index/6",
+      "source_sha256": "722d73998665088ffcb3f61c45c9e4cb6ec50929fd3eabc23035bf68d6aa3fc5",
+      "target": "传闻",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/14/field/0/index/7",
+      "source_sha256": "e52c337588080d47d40fd84f162d030fb2b73a3cb0c19eec867039f86253b959",
+      "target": "需要花费Sid。是否占卜？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/13/field/0/index/8",
+      "source_sha256": "6a0e728956007f3bcbe5ebd13a1c3d48db0e31b1e659996995173c3248579d39",
+      "target": "要为谁占卜？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/8/field/0/index/9",
+      "source_sha256": "d9351d9be2c3668c3e6df55f41fbedde3da3079e13f15723efec4361c8950931",
+      "target": "你的守护星是流云星。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/19/field/0/index/10",
+      "source_sha256": "a10a465c23eba6c14e7ed3f177143aaede82f3dc7a264bf8c07b452c88550f03",
+      "target": "要为谁消灾？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/9/field/0/index/11",
+      "source_sha256": "6d4584969b1d6890015d4134d68529c031b1e1d5f962b5b24b9e096deb3b300d",
+      "target": "消灾需要花费Sid。是否消灾？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/18/field/0/index/12",
+      "source_sha256": "e1e1febc54d62609b3a2b7fbfa6aa17c679b58c90711ea1f9d67548f97bf8b9d",
+      "target": "已消灾。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/11/field/0/index/13",
+      "source_sha256": "73c6cc95406f13a3f9921d78c3e0d06d35046cb7a6786af4efb22cca973034e4",
+      "target": "因果之轮开始转动了。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/12/field/0/index/14",
+      "source_sha256": "ae457fc5a13bd5f658aba38281f937a1d7eba9a3bf86b73750a2b8ca1281a7e0",
+      "target": "最近怪物频繁出没，村民们都十分不安。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/16/field/0/index/15",
+      "source_sha256": "864280a59c5ed1d77cef412e64bf0ff73496beccbad5eada96007881bda90f43",
+      "target": "是否鉴定？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/20/field/0/index/17",
+      "source_sha256": "866a7e8f892a1f54d851206d52032e5dcee215d4e3d9d98b6ece210803a5a070",
+      "target": "天之云",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/21/field/0/index/18",
+      "source_sha256": "d7bdfa0848fea24e09cffec7b0392edd4cb777ee90fdcb927764a2d891dd42e8",
+      "target": "增加天属性的卡恩。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/22/field/0/index/19",
+      "source_sha256": "1c6fcd86f5b2b8144dc9728df0d6be6376a3bb4fe1466fde26e50939067a5788",
+      "target": "河之泛滥",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/23/field/0/index/20",
+      "source_sha256": "bed35054c781edd8e80a2a4f44f6419a05a1de6968766ca217eefebbed6a8a09",
+      "target": "增加河属性的卡恩。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/24/field/0/index/21",
+      "source_sha256": "647a905ba10f7751d6480160a54190e2cadb35f600e3ef3b5cdc0b2391dc0c80",
+      "target": "按方向键左右选择符咒。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/25/field/0/index/22",
+      "source_sha256": "eaad60631709944a602b252e9f210322c06885b475d0fa79e145229b21fe8c37",
+      "target": "离开占卜馆",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/25/field/1/index/22",
+      "source_sha256": "25cb915b392926902f939f47d83fc06bf05567477fed7a42cf691f5a0d9064aa",
+      "target": "离开占卜馆。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/26/field/0/index/23",
+      "source_sha256": "1f6db20deace8a136df4cb6b354b59f15e22eb17e6dcce0e1ffa359916fdf134",
+      "target": "今天是特别的一天。$n一切都会如你所愿。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/27/field/0/index/24",
+      "source_sha256": "2350c052c19be088e8be5bed5ce2c187cf357184ea32916be5268914cba36a35",
+      "target": "运势似乎很顺利。$n只要稍加留意，万事就都没问题。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/28/field/0/index/25",
+      "source_sha256": "59c2ccae4c4f9a457fa29c694f5beb2ab1391f773aac69a88f4ac8e1b7a6c2cc",
+      "target": "今天和平常一样。$n凡事照常就好。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/29/field/0/index/26",
+      "source_sha256": "65ba35f15c3fd26664dd97a5a70a558bb76440d197c55dcb9c79ec85dcf95bf6",
+      "target": "今天还是谨慎一些$n比较好。千万别勉强！",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/30/field/0/index/27",
+      "source_sha256": "f6a6f985eae066bea7de6da761859ef40acb47503d0bfec5403f6c09d0006662",
+      "target": "今天要特别小心！！$n危险就在你身边。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/31/field/0/index/28",
+      "source_sha256": "953e3ce8228ff098e78168c05716b5927bb7d470e39ec3be8a2ce38baa558ffb",
+      "target": "那么，来占卜吧。你的运势是……",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/32/field/0/index/29",
+      "source_sha256": "f85ca6a9ebdfea78d77f4f5af54a4f0e4eff4d9456ce871da45a2cdf5f7c3e97",
+      "target": "是否合成？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/33/field/0/index/30",
+      "source_sha256": "9ae004f28325a19c5ae53f2773d3dcd857725660e57f35477b005e42a5cce9cb",
+      "target": "合成失败。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/34/field/0/index/31",
+      "source_sha256": "6bf0c0751cd31fc15ad45590885eed3d4baa2fc2205f9076e0162d61c6b12c9d",
+      "target": "已鉴定道具列表",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/35/field/0/index/32",
+      "source_sha256": "9054d8edfb32dbf9ba7ed7980bb4329e7a89d9792d39b78b5d0be211eb67446f",
+      "target": "未鉴定道具列表",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00000682.tui/record/36/field/0/index/33",
+      "source_sha256": "d9ff4cc1a60a6813d7ce57d1b3d2a8f9add462a1b4268f176367a64c4164cb6f",
+      "target": "现在再占卜，也会得到相同的$n结果。命运可不是这么容易$n就能改变的。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/24/field/0/index/0",
+      "source_sha256": "e7278b90183d442f1e91c46ca548f64743a9d9a08423195a90396f1d7e8e8770",
+      "target": "移动光标",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/23/field/0/index/1",
+      "source_sha256": "e351cd11863a95091703fc920162b6cc31442458f39af65461a512a8e02915bd",
+      "target": "取消",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/22/field/0/index/2",
+      "source_sha256": "41bfa937e5d2f69a3bcdd884ddc0f0716fe804000c1a1c4f2995083927caf28c",
+      "target": "确定",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/21/field/0/index/3",
+      "source_sha256": "07b44ff5ed3ef721e2d2aef82057bb32082da99511bc0c0a7b58936b4a2d8d7a",
+      "target": "立即装备",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/25/field/0/index/4",
+      "source_sha256": "0b84f4321ccfbcf2a4efe4fe1e04eaad0dba9dd97cbbb31b85b3b53a1c0f10c5",
+      "target": "切换角色",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/0/field/0/index/5",
+      "source_sha256": "50bb4267cc323bf91bba2b0c0693302dce0890a5a37659dca76127dfa237f877",
+      "target": "吉拉特道具店",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/1/field/0/index/6",
+      "source_sha256": "36676660e12487bbd57e553eda469be385ccac55d7dc1e198b2c934cf3be1cd4",
+      "target": "购买道具",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/1/field/1/index/6",
+      "source_sha256": "0cd077f969cf381f49c0f94895d67c00652b9f08a990e9c6748a6c57e339b91f",
+      "target": "购买道具。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/2/field/0/index/7",
+      "source_sha256": "c88e4a46fb62876cc588a7b1e4457e74315c07f12bc446772aeedd154fc5dd1f",
+      "target": "出售持有物品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/2/field/1/index/7",
+      "source_sha256": "246ca6378d4bb99a5429a3ab73c017c624e7df15766fc3339f6ada562cb24d9f",
+      "target": "出售持有物品。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/3/field/0/index/8",
+      "source_sha256": "064de3d5c0f807dfef9d437e71ec4466272f80e73e831fb828ced4c54545e4d3",
+      "target": "离开商店",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/3/field/1/index/8",
+      "source_sha256": "018bddb44739c61e425ae446b18f54e2d3b5bfcc2857017af8fde6832eafb7f3",
+      "target": "离开商店。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/6/field/0/index/11",
+      "source_sha256": "062bf7819997758ecd6fc18012f998d08583ddc9944f1e7bdf0c61709d521d6b",
+      "target": "购买数量",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/7/field/0/index/12",
+      "source_sha256": "e1a935cad47203313b68dc36e3e003c8de8b7bd7a6db6a78864ffae5cad7e3a9",
+      "target": "需要花费Sid。是否购买？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/8/field/0/index/13",
+      "source_sha256": "d1740981cca7173830088beb0cbe7bda2bdb38953dddcee340c3bdafc64d2bf9",
+      "target": "是否购买？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/27/field/0/index/14",
+      "source_sha256": "6b96b506c70b5b9735bc70a9f5e446c4cc1557528fd3b30d2c9e3aeb163994ce",
+      "target": "金钱不足。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/9/field/0/index/15",
+      "source_sha256": "0ebc64ff5931985f32ecdfd95d7ee7503c448b2ab16927c60d3234a5825f8ae1",
+      "target": "吉拉特装备店",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/10/field/0/index/16",
+      "source_sha256": "78b0260d9b8ef92c37171f04ceeff9373da65e2601e4cbb22198d41618b13afd",
+      "target": "购买装备",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/10/field/1/index/16",
+      "source_sha256": "c5a29461ab270534d09ec7459b288cb45f21fd1396978b526c7d4869775fd153",
+      "target": "购买装备。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/11/field/0/index/17",
+      "source_sha256": "c88e4a46fb62876cc588a7b1e4457e74315c07f12bc446772aeedd154fc5dd1f",
+      "target": "出售持有物品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/11/field/1/index/17",
+      "source_sha256": "246ca6378d4bb99a5429a3ab73c017c624e7df15766fc3339f6ada562cb24d9f",
+      "target": "出售持有物品。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/28/field/0/index/19",
+      "source_sha256": "b7aad0bbb0df9fc20019ab6d02175bca0ee6187434c232a5462cc4fe92532ef2",
+      "target": "是否出售？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/29/field/0/index/20",
+      "source_sha256": "0e6bee23640157c9255e5432b8988db81f47a8a508e23f5a111352fa38d4e683",
+      "target": "角色比较",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/30/field/0/index/21",
+      "source_sha256": "1e0ccaebcb678e0c7185595c478b85f294990eec66b50cc7fc1f4bdceee77ce6",
+      "target": "是",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/31/field/0/index/22",
+      "source_sha256": "ffac2038d3eda2ce8502838b8ffc78822990106505478e462f505e310312a229",
+      "target": "否",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/32/field/0/index/23",
+      "source_sha256": "cd64535f5e4730c8dd1f06da41dc7b5c4ba8a780814fb6dfca1329d949002d58",
+      "target": "没有商品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/33/field/0/index/24",
+      "source_sha256": "908e37d1764b3d843b6be03313fc55bd2990b660e91aa315b82209765ad79599",
+      "target": "持有物品列表",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/34/field/0/index/25",
+      "source_sha256": "aca72f62b2ac11e8c7d194e660b1f7c9976f2f763c59cce38dce41233adfebd5",
+      "target": "购买商品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/34/field/1/index/25",
+      "source_sha256": "8c2080e871aa610b3c3cd45683587bef0292c8e97bfcb81789e97b3bc5f862ca",
+      "target": "购买商品。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/35/field/0/index/26",
+      "source_sha256": "c88e4a46fb62876cc588a7b1e4457e74315c07f12bc446772aeedd154fc5dd1f",
+      "target": "出售持有物品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/35/field/1/index/26",
+      "source_sha256": "246ca6378d4bb99a5429a3ab73c017c624e7df15766fc3339f6ada562cb24d9f",
+      "target": "出售持有物品。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/36/field/0/index/27",
+      "source_sha256": "0499fed47cbffe314047879ebfa3255cb1ea26f0efe655a1d3d61524df89d10c",
+      "target": "已不能继续购买。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/37/field/0/index/28",
+      "source_sha256": "c82eba83437dd749c87dd33d9a21ef316b17f6c3e5404120f7c45a4788c5832c",
+      "target": "以十件为单位增减",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/38/field/0/index/29",
+      "source_sha256": "3b8879c19578ba90a4ade57dbdb1593b285da2e7db509eb488def5f1cd63cdce",
+      "target": "出售数量",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/39/field/0/index/30",
+      "source_sha256": "c077ba7b2bbe0bc31f1c83a0f3307322a6d4c0afcce85c4f71e5f88f138b5e98",
+      "target": "当前持有数量",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/40/field/0/index/31",
+      "source_sha256": "b226e5034f76f45b131cf7b59edecf25bccfbd49617c7ae1dacbb6507b77225b",
+      "target": "滚动列表",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/41/field/0/index/32",
+      "source_sha256": "03f4601ed864f67112776652bc4325ed2e1de014456b044f5b2c68db7342ce64",
+      "target": "切换饰品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/42/field/0/index/33",
+      "source_sha256": "03f4601ed864f67112776652bc4325ed2e1de014456b044f5b2c68db7342ce64",
+      "target": "切换饰品",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/0/field/0/index/0",
+      "source_sha256": "64e92a4b3d48a11ef0e6df3da2b701b6aaa0330dc2512d5f734f776bc7a0a2ac",
+      "target": "修炼",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/0/field/1/index/0",
+      "source_sha256": "cc8fe1823b33f104cd1b64afdcf5f9603f9561845443e439bc63617db2fe78d3",
+      "target": "接受修炼。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/2/field/0/index/2",
+      "source_sha256": "8d45fecfc04de5f8324321fbb0bd67c1d542471234f15e9b428c74032a770cb0",
+      "target": "出售武器",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/3/field/0/index/3",
+      "source_sha256": "0ed58339d716eb995ec66025e4887abb7eeff21f6b60046043649cda39a27a13",
+      "target": "离开道场",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/3/field/1/index/3",
+      "source_sha256": "96cc5376597e9318b36e373b45cb38252717e677ab639d7bf6d89f37626e38b7",
+      "target": "离开道场。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/4/field/0/index/4",
+      "source_sha256": "e86e665ae248336ffa6ca5422b902ca63dd30fbec0c6c9d127f4b897d22766c1",
+      "target": "天道道场",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/5/field/0/index/5",
+      "source_sha256": "091a0a3cea926c9f3dcdd83887b2acd2832a0b15ee5c611509bbb6657a1e234d",
+      "target": "可习得流派",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/6/field/0/index/6",
+      "source_sha256": "b82a7897c84c270a0a5c730b7ef854415278772630310f0a3001560ff29b02f7",
+      "target": "梅",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/7/field/0/index/7",
+      "source_sha256": "8b2774320f6a213a53ffb845cac165abc6990b8d4b1be09b61cb31afd4570484",
+      "target": "兰",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/8/field/0/index/8",
+      "source_sha256": "0876ad9bfa0af917e179fae79b0a9dd0749f25aa1c221e7a3489528ca8ac0e26",
+      "target": "菊",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/9/field/0/index/9",
+      "source_sha256": "141ace52dcc3d98f55e4d0c348d43b97fe5ea1d35567d9c897a18cc4aa6e2479",
+      "target": "竹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/10/field/0/index/10",
+      "source_sha256": "f8c94f202d1fc919dce8b4e8a1e07999cf9103755c5b293b00bbada485948d6c",
+      "target": "请选择出战角色。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/11/field/0/index/11",
+      "source_sha256": "374a02cf2d4d6906e892b6511ab2371201d3c215c269df7cb04f57b516f72b56",
+      "target": "这样可以吗？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/17/field/0/index/12",
+      "source_sha256": "57480adf28fca28fbfe60ad7b86785d36239ff8d7e83a01b5e0b23d70352b6db",
+      "target": "修炼需要花费Sid。是否修炼？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/20/field/0/index/13",
+      "source_sha256": "a73fda17d06977241ac43e36648cc8d5bdc6e5bcc9442e5c8b0baaf78de9d0a3",
+      "target": "梅之修炼",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/21/field/0/index/14",
+      "source_sha256": "6abd8a9cb272fc575ff8dbad63e2a533ff85b771885e38ec06d2c10a47675e69",
+      "target": "兰之修炼",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/22/field/0/index/15",
+      "source_sha256": "fcb70c99967a6c223628a86f8a4bc00f7a967be79923ceea60c1677dc9e0c4ed",
+      "target": "菊之修炼",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/23/field/0/index/16",
+      "source_sha256": "e6df81c2e69cd38beb94fa0c874319c0aaec8882d1d98614f818f8830bfb6d2e",
+      "target": "竹之修炼",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/24/field/0/index/17",
+      "source_sha256": "38fc4b64917132c52ce3227e158293e6927845232097ab06461aff3e45c7adb5",
+      "target": "修炼失败",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/25/field/0/index/18",
+      "source_sha256": "01c14669c87eceb11816daaa6f30848e17409d320e8be60bcbe03f1050ea58d7",
+      "target": "开始挑战道场",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/27/field/0/index/19",
+      "source_sha256": "9655ede2e7d436338cfa6d9f2d37602e3a74866e089605a7d6b27abeb40cd1f2",
+      "target": "挑战道场失败",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/26/field/0/index/20",
+      "source_sha256": "f3f2e66e71ad45ef6da59bbff61ab95b8267c2380e01cc617e09eb219b3619f8",
+      "target": "挑战道场成功",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/28/field/0/index/21",
+      "source_sha256": "3f9877308133c47f016e6acd3f791b44f8084803b9e8e3b3f1d4eab0af6affc3",
+      "target": "是否挑战？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/29/field/0/index/22",
+      "source_sha256": "03462d2b5271e67950838ce4634465d9d40b439066878296dad0be020725e909",
+      "target": "修炼尚未结束。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/30/field/0/index/23",
+      "source_sha256": "5ae67061fbd9f1f8a6a75224c6aa9c91343e7a520566700a55e18aaaf0a806cf",
+      "target": "~习得了流派",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/31/field/0/index/24",
+      "source_sha256": "d0684874d75453d5f185b729f0384f8d5128e587f4e8d6e5ac45eeaa7d22679e",
+      "target": "~。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/32/field/0/index/25",
+      "source_sha256": "24afcf9aad4939fc5a5849f1db32b96e3708c3c66d01b68c37769b42986e4faf",
+      "target": "修炼内容",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/32/field/1/index/25",
+      "source_sha256": "56df6a31e83174a2ec651484e4fcaa52031ee90aa810c6864bbca685477bf4a1",
+      "target": "说明修炼内容。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/33/field/0/index/26",
+      "source_sha256": "ee82bec514f73e2cfe3108c000397fdae6d71fe109955da9661b4206f21dbf28",
+      "target": "没有能够修炼此流派的角色。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/0/field/0/index/0",
+      "source_sha256": "69f4684f1c2768a9c82f7dec13357975483dc48341e79a8d31a1001cc1b52ac0",
+      "target": "切换流派",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/0/field/1/index/0",
+      "source_sha256": "5f638b55385b6fdb11095124d3bdced20759099cd7faf16cf3e708e038a95be9",
+      "target": "切换流派。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/1/field/0/index/1",
+      "source_sha256": "567f9d55690a58d926b283ca6ae7227ed73b8b6116438f09a0545bd223d219bd",
+      "target": "使用道具",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/1/field/1/index/1",
+      "source_sha256": "fecc3370a8fd979117a6e8d5db8b26be9904cc82047cb0f0c3d4fe3e692b766f",
+      "target": "使用道具。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/2/field/0/index/2",
+      "source_sha256": "97ff96062a52b6d2d774300f0c9343e351dc9562224b1fa2b9278360005251ed",
+      "target": "切换角色",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/2/field/1/index/2",
+      "source_sha256": "22400d370c245380251324d4ee9a3eeb455bcaf65bf32cb9b0a4ace0cd2252c7",
+      "target": "切换角色。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/3/field/0/index/3",
+      "source_sha256": "1c6371cbebaac265b605d3165573e1c34b04f2386ed71e454cfd4fd8fb63c072",
+      "target": "逃跑",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/3/field/1/index/3",
+      "source_sha256": "c24e58b9391d471fb6b8cba0bd561cf02dfd95529664b32f1e043791ba9bd362",
+      "target": "从战斗中逃跑。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/4/field/0/index/4",
+      "source_sha256": "5f638b55385b6fdb11095124d3bdced20759099cd7faf16cf3e708e038a95be9",
+      "target": "切换流派。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/5/field/0/index/5",
+      "source_sha256": "fecc3370a8fd979117a6e8d5db8b26be9904cc82047cb0f0c3d4fe3e692b766f",
+      "target": "使用道具。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/6/field/0/index/6",
+      "source_sha256": "22400d370c245380251324d4ee9a3eeb455bcaf65bf32cb9b0a4ace0cd2252c7",
+      "target": "切换角色。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/7/field/0/index/7",
+      "source_sha256": "507ffb3876b04d2610a64e6890f8514e41b9d067ec961d7d63eddff7396d4dab",
+      "target": "逃跑。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/8/field/0/index/8",
+      "source_sha256": "aea8c93ce7636ca035694f43f6f0c2c9844e5f006f05569f99cf7632c2b3409d",
+      "target": "获得道具",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/9/field/0/index/9",
+      "source_sha256": "ebfaeeb0b3cbabe9eed50caf73d9af2af2f10e3f2c5454789aa68c384d00b49c",
+      "target": "菜单",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/10/field/0/index/10",
+      "source_sha256": "ac65a31176b70165a2d326cbda7b6deee2f309b73f2bf36578a6483a5bfa55ca",
+      "target": "招式将被重置。是否继续？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/11/field/0/index/11",
+      "source_sha256": "e48aee53aeb5149ebf9510decddb17f27a8ba5707a47dd39b6a3f2cdabd95943",
+      "target": "习得了新的招式",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/12/field/0/index/12",
+      "source_sha256": "8adea042566919d67d56a2fdcb086db752d4a071ed3217c518e17c1854594dc3",
+      "target": "现在可以选择罗刹和夜叉模式了。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/13/field/0/index/13",
+      "source_sha256": "dcd30b8375514c615c758c0e0fda3df38ab0e13b7e85029072429fd49e4f884d",
+      "target": "L2/R2 切换模式",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/13/field/1/index/13",
+      "source_sha256": "323e25f22416c25cff66ccee100be033b282e8bf0060409f2ac51d6a898419d1",
+      "target": "切换修罗、罗刹和夜叉模式。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/14/field/0/index/14",
+      "source_sha256": "b32c3574ee75bcaf3bb1235f39fde213810c0a6d9a6dfb36ad047b968d7f3d47",
+      "target": "切换目标",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/16/field/0/index/15",
+      "source_sha256": "aa92ad545383f7257f5d768a043164b53811bac4aa2cb64798d878ff130ac7a2",
+      "target": "先制攻击成功！！",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/17/field/0/index/16",
+      "source_sha256": "e13bcee80a9099554f028bdcaa3439cb4151184b156eea792f0282b7e4113817",
+      "target": "遭到了偷袭。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/18/field/0/index/17",
+      "source_sha256": "8dfe34672d648330cfafd32e95f2f41730528bf4598acabc3c95d1f82722bd4a",
+      "target": "领悟了新的招式。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/19/field/0/index/18",
+      "source_sha256": "5f2018ebd4bcf67480401e0e6ea8a3d0bb047ef36349be85dd372f0264329d64",
+      "target": "现在可以使用其他模式了。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/20/field/0/index/19",
+      "source_sha256": "0af4f89f438ac420c97794a602cb254b34cc805a928dd0a5492fe9bd4b9d41b7",
+      "target": "请选择使用对象。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/21/field/0/index/20",
+      "source_sha256": "0bec981339c213259fe9fd3bbabbbfb306d02a5d97b8f5da7b5b27d79fa24d9a",
+      "target": "已习得此流派的全部招式！",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/22/field/0/index/21",
+      "source_sha256": "127aefd06b41529c3835590e7adad57c8515e018d3e30b5b049a3b03d790d995",
+      "target": "逃跑失败。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/23/field/0/index/22",
+      "source_sha256": "d6d3edbd423a17f02ab84cda6375901fb5c13176b2f51946dbb7a0b5c62cc97d",
+      "target": "逃跑成功。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/24/field/0/index/23",
+      "source_sha256": "fba079256408033d8098c8b740effd2b90d834ecc11192e5299747cc6ad37a65",
+      "target": "没有卡恩，不能使用招式。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/25/field/0/index/24",
+      "source_sha256": "ffb9114121e7e9faa343c6f140fa9af1982808957b5880cead7133e6513ba664",
+      "target": "统率力不足。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002788.tui/record/26/field/0/index/25",
+      "source_sha256": "dab1c8c1472820d8d5babf13b407c5a992edb53081f6867b4f16b1625b473b35",
+      "target": "不能使用三位一体驱动。",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/0/field/0/index/0",
+      "source_sha256": "44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540",
+      "target": "卡琳兹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/1/field/0/index/1",
+      "source_sha256": "523c3ba59da27498e6978adc713102a81e261ddd7f0697d7bc291a4de32a0645",
+      "target": "莉丝",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/48/field/0/index/2",
+      "source_sha256": "6dfac9d5f5d553a967d1694c9f6d0bbf883552d6a2edee6026415cf49c038d63",
+      "target": "阿蜜拉·莉丝·莉艾因·杰斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/2/field/0/index/3",
+      "source_sha256": "bf1996952a555bf26bf6467e1024de551f8a4f12983777a6731c93b4a19c0d10",
+      "target": "塞莉娜",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/3/field/0/index/4",
+      "source_sha256": "285d98d3e87e86452a3f2a462c3f0c8e1bf6557c42b65c474b6c77391b82149a",
+      "target": "缪恩·塞莉娜·杰克兰·杰斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/4/field/0/index/5",
+      "source_sha256": "d3ffdda31413d88c67d12a1900c58a0d88c784d8a02f80a5316d46c1e636492b",
+      "target": "阿格雷安·杰伊·欧文",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/5/field/0/index/6",
+      "source_sha256": "f6df823fa3df40c700f388aba1f4938912bdad835e38f7199ab592f82ceebde6",
+      "target": "休戈",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/6/field/0/index/7",
+      "source_sha256": "1c913b1ee5b847847eba17fd303cae1398ea2d8afe761164f02a6b34ef6aaa89",
+      "target": "内坎",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/7/field/0/index/8",
+      "source_sha256": "256af71eb9404f67adafee61d950333d51c8e273e21547e60eb821b8376977a3",
+      "target": "哈伦",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/8/field/0/index/9",
+      "source_sha256": "6f23133a483c8fc9557cde9482f87effea0796dda54c1eec77259c5a6be0827e",
+      "target": "艾欧妮丝·米兰",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/9/field/0/index/10",
+      "source_sha256": "c41661109b5855d1adbd86539c07272c8e809bc067bdf1f3e2214ac6732b5b5f",
+      "target": "克里斯·阿克韦",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/10/field/0/index/11",
+      "source_sha256": "dba7b07078991dea47d29928d609d1b21dfcce934b7925113659607d0f818b7d",
+      "target": "阿泽尔",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/11/field/0/index/12",
+      "source_sha256": "897feb010f7845ac137607f3deab78234043af828f40d52eceab0acdfc9c4fa9",
+      "target": "贾丝蒂娜·伯恩",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/12/field/0/index/13",
+      "source_sha256": "80c573a8805e6ab26cc9f9f2d259418d5c45580250ef219d9310ba2aedb331f7",
+      "target": "莉安娜",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/13/field/0/index/14",
+      "source_sha256": "46c6c9bc3b6409435231fa33cbb12aa205b686270707c7adde7c4f5423ab94eb",
+      "target": "拉德琳娜·米莉娅·欧文",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/14/field/0/index/15",
+      "source_sha256": "b0659a039a96f4893466d8c24c831a284564037909cd46681b9f7388e1a1e6b9",
+      "target": "奥尔哈·杜兰",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/15/field/0/index/16",
+      "source_sha256": "2666d6087850e031efd9c6922dde47bbb5760caa4e37877f9630dcf83f08962d",
+      "target": "罗茜·米德卡",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/16/field/0/index/17",
+      "source_sha256": "904dcb33d9cc32759152084cf2b2e472d718d94d8dc4b543f2654a2702f8eda2",
+      "target": "凯莉安·萝拉",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/17/field/0/index/18",
+      "source_sha256": "548cf2e99b5493b9a9b55ca29f9e4944f8d257f671f5687533fbe55a8595c1ff",
+      "target": "阿萨德·佐伦",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/18/field/0/index/19",
+      "source_sha256": "9a6650fada64039212d0b8288f56ea883358370a6f22e4cd34d32378971a3eb5",
+      "target": "劳尔",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/19/field/0/index/20",
+      "source_sha256": "33e149f7413b95b0eb619c9087be299e1b77b4dc4efccb8a22a1932f9e31ff55",
+      "target": "兰索尼·阿贝尔",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/20/field/0/index/21",
+      "source_sha256": "ca758f3fabe98460ae0dae0f7466deaf5b8370d4388199fbcb4498e3372c35ab",
+      "target": "阿斯塔尔",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/21/field/0/index/22",
+      "source_sha256": "7feb8457797b20dfa46965ca2446093e008a576488e7948bd536e099c01f454a",
+      "target": "蕾哈丝",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/22/field/0/index/23",
+      "source_sha256": "5e6dcee761c396d51b3b2b967ac6d4db29dfba9b1a37cdb14237f137273496b3",
+      "target": "席德·艾斯塔罗特",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/23/field/0/index/24",
+      "source_sha256": "408c4316a3ebc5fbfd31f1224dec6bc78ac158d61d20b81740302ec35418539c",
+      "target": "伊蕾因·克雷因",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/24/field/0/index/25",
+      "source_sha256": "5078884792daf416458dad46658ca050bbda430f181206371a77ef4bb260d5c2",
+      "target": "杰卡尔特·索缪恩",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/25/field/0/index/26",
+      "source_sha256": "f83f947d8ee42330b4b202b19c7e19e02615b1db24e494d168c7748f626fdfad",
+      "target": "斯戴",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/26/field/0/index/27",
+      "source_sha256": "a48c66df3d61025473eb2307879ade9493b9dd5a81c7e6a18cbd7feb3b2c68cc",
+      "target": "玛诺",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/27/field/0/index/28",
+      "source_sha256": "4ddeac13a3431a20d45a79f1459f372baf0395ed997fbb5eccb493cca32dafdd",
+      "target": "塔兹玛",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/28/field/0/index/29",
+      "source_sha256": "4633ad83e024d22c698750125d4a7b6ba0d8bb4e2cec90d4286bfc060ed5055f",
+      "target": "罗斯坦",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/29/field/0/index/30",
+      "source_sha256": "16b75c83a7948baa879c2c865cf854c2243bd77ebf9289572fd3b936bf9c71a1",
+      "target": "芙蕾雅",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/30/field/0/index/31",
+      "source_sha256": "77264c788a6d0f6cda2ac9c78a803729d70b1b8f1f1c2f1466ad75e3efbd07d5",
+      "target": "莫莉娅",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/31/field/0/index/32",
+      "source_sha256": "28401755eda0502c3c4955869785c29bc66124166a119472f9d81f70c5455880",
+      "target": "阿蒙",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/32/field/0/index/33",
+      "source_sha256": "3fdf23814d2cf37327092ae824008291b9eb3d852ef9bf73316e1418a07b5617",
+      "target": "亚历克斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/33/field/0/index/34",
+      "source_sha256": "b98da45c3144008db7230de9d775d6e8c966ef2e2673909db18861a06a689462",
+      "target": "菲尼克斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/34/field/0/index/35",
+      "source_sha256": "73a61fcee2b0759f574a841f5b7bcdeb50e63b804990faf9f99e7648af68f017",
+      "target": "塞伊顿",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/35/field/0/index/36",
+      "source_sha256": "6954310d6232b06ce60a864ad3de24e73e44a7037d650faf5040fabbd4817164",
+      "target": "哈里斯顿·琼德·杰斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/36/field/0/index/37",
+      "source_sha256": "2c39f455fc5f4f97def15949cef5c221a2edba0c02142920214dd8c003f12855",
+      "target": "布朗克斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/37/field/0/index/38",
+      "source_sha256": "709ec73dc4c8927b620d1b6a7c09fdbf1e3ee06bc10af72d4b2a7ec59e0c3555",
+      "target": "乔舒亚·敏",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/38/field/0/index/39",
+      "source_sha256": "cb2ab931bdf507ada3048bf39d0781f3fc36e8fdc63801e24db14c81746c5568",
+      "target": "玛雅",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/39/field/0/index/40",
+      "source_sha256": "24129ce5c5ee7596c303a91064c95ee913c6dac703f0e7691defad6d3e970ef5",
+      "target": "艾斯坦",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/40/field/0/index/41",
+      "source_sha256": "2e1028d726a57234a226c383f38a1294e903f702f137eb4de1efba3900070390",
+      "target": "碧流·艾斯克拉诺",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/41/field/0/index/42",
+      "source_sha256": "d1d532a30c1c271a5be4ed0d7cc02136b68d1e8cf2c8e88962731ee89b9cece7",
+      "target": "阿莉安·露茜耶",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/42/field/0/index/43",
+      "source_sha256": "3dc48bf969d5156c86a2a6d86cce9a1be5989e169ef83a3f3af6c2fb43f6ef3f",
+      "target": "伊扎",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/43/field/0/index/44",
+      "source_sha256": "6132d416441281704f457b03f85ac58f4f44d83ad9fff28e65e95201cd783618",
+      "target": "莉洁特",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/44/field/0/index/45",
+      "source_sha256": "73a61fcee2b0759f574a841f5b7bcdeb50e63b804990faf9f99e7648af68f017",
+      "target": "塞伊顿",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/45/field/0/index/46",
+      "source_sha256": "05b68a2090498ab2fc6ac32ca801c2db1b9e9c9df9dc89d990b46a734f85d9d3",
+      "target": "西嫩族长",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/46/field/0/index/47",
+      "source_sha256": "ab3fbf33e8fa78eba57f1db3abee55348fb3c1a55bdbe2f811a95f95d1e7c60d",
+      "target": "拉库姆族长",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00002792.tui/record/47/field/0/index/48",
+      "source_sha256": "553fc22f035b0feaa80d01404b27da629af5f9732330d9d7396c5f18e3e0272e",
+      "target": "卡萨族长",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/0/field/0/index/0",
+      "source_sha256": "197757841e545072c49092c84497bced0820a38265dca6673a6608b7427bcc57",
+      "target": "前往杰卡尔特之家",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/1/field/0/index/1",
+      "source_sha256": "1953a8314fb473be25f5575d546a52c5f4ffd4068e3903302deed26bb88af827",
+      "target": "前往北冰原",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/2/field/0/index/2",
+      "source_sha256": "81009d1fbaefbbe600f7c713890e1392287086dab6a11285a545ae2b1b6149d9",
+      "target": "前往山之遗迹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/3/field/0/index/3",
+      "source_sha256": "056c61a3e338f645d1bc4a35fe54a119ce235cfe491b69d63b4b43d6e6c2d1d0",
+      "target": "前往浮游岛（水）",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/4/field/0/index/4",
+      "source_sha256": "21e23bd6d26b1787cb74f5ad71dde1528bacf4cf95d3364242449baf0819d0c1",
+      "target": "前往浮游岛（火）",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/5/field/0/index/5",
+      "source_sha256": "45266a452df9209a0fae61009f0e5d83b0d7823ff0280ee4a4814e7cfb74de4d",
+      "target": "前往浮游岛（异空间）",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/6/field/0/index/6",
+      "source_sha256": "24b45012b6a0f4caf31d026d57c19384c3364cfbebb5aefddee80944a9191de1",
+      "target": "前往拜鲁克斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/7/field/0/index/7",
+      "source_sha256": "fbbebda1b45a5f3dcbb7945238d01955d7f3fb21ff60467b2523d0270cd9778d",
+      "target": "前往阿玛巴德大神殿",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/8/field/0/index/8",
+      "source_sha256": "957dc1f3bf6599415500bf7b598180dc965a996dbfdeb05fe5830fa6de5d508b",
+      "target": "前往拉埃杜山区",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/9/field/0/index/9",
+      "source_sha256": "8f87032d0c6b33ee0814f8b4dde86a975701003149970ff444a7ec3746ffbd79",
+      "target": "前往雷之遗迹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/10/field/0/index/10",
+      "source_sha256": "43cda918548d7bf24aa9f3941d0261ad38a6831ad44050aaa0eb4cb68240f39b",
+      "target": "前往塞尔顿山脉",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/11/field/0/index/11",
+      "source_sha256": "eb5c7a9343f75598b90a244ca55f5551176a4c479900c9ca802bf77b9d48ceca",
+      "target": "前往天之遗迹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/12/field/0/index/12",
+      "source_sha256": "b8dce998d63d5d90500ab91f0b5c52350828faf5d87216bf544bb92a015223d5",
+      "target": "前往奥尔本森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/13/field/0/index/13",
+      "source_sha256": "9d5e0754c21f058cd07ba153bd9cfa90d30fdd5786bcd33041111ab6d75120b2",
+      "target": "前往斯蒂兰",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/14/field/0/index/14",
+      "source_sha256": "19948079b82a23921c2a2e0edfa63450352355766daf5b6986b2b1ed46e0794d",
+      "target": "前往斯蒂兰森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/15/field/0/index/15",
+      "source_sha256": "f40ddf91d5bf8d8fb51cf2f6af77b854c37520a3497a5088aec6814f6629af07",
+      "target": "前往雷米耶",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/16/field/0/index/16",
+      "source_sha256": "5a69b7dfb43d5f4d035c0e2bd7ef9e5f4dea676a7c6cf18a55a480aeff697ce9",
+      "target": "前往恩特雷斯沙漠",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/17/field/0/index/17",
+      "source_sha256": "2223b9adc7cedf8c376bb48c3b52aef4d6733c0dc8009cb79064962a4c0d4f22",
+      "target": "前往普诺森图书馆",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/18/field/0/index/18",
+      "source_sha256": "63ac94d8b779d2b7d1c0b2334f3ed46085afde94271736d9594bd1ee05281ca5",
+      "target": "前往阿斯蒂内沼泽",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/19/field/0/index/19",
+      "source_sha256": "9f3d8d30ab4e106bc429d879a5809e088ab9fdaceeae363e0beda1b4d2774635",
+      "target": "前往阿斯蒂内湖",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/20/field/0/index/20",
+      "source_sha256": "590d117e68765b103e3a2cc39c0c581e6e19e5534ec366e35868dc58feaa1acf",
+      "target": "前往埃丰索",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/21/field/0/index/21",
+      "source_sha256": "9838e30266b1c4267f23b1da06ab84cd58cdc9a80cd7b2dd2afdebdee5006513",
+      "target": "前往玛布雷斯",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/22/field/0/index/22",
+      "source_sha256": "1293abc8f03ac462a01ad6b42d69ddfa5d175ae3c8270f88ff67d110a5029cc2",
+      "target": "前往阿玛巴德大道",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/23/field/0/index/23",
+      "source_sha256": "0511061368a84e90657c4e512f15da3955c7905ff8f184e457750679ec4cf409",
+      "target": "前往诺提亚",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/24/field/0/index/24",
+      "source_sha256": "6319b4bd502a7510d18efa766daea240832f01e5b9eb4209e84fea395f7f83e4",
+      "target": "前往卡斯卡平原",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/25/field/0/index/25",
+      "source_sha256": "99cc20aa408d75742eb78ee1bc5d7378c55c80783bd70f9247d53d260e9a6b93",
+      "target": "前往多伦遗迹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/26/field/0/index/26",
+      "source_sha256": "8e76a2a17b7e7c735dce505bd63135fd902ce33bcc55bbfeee41d051e63c48cd",
+      "target": "前往埃雷斯廷",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/27/field/0/index/27",
+      "source_sha256": "a8476289420dcb6e729eb0b1e1a60638884d802779b6c1f9c05535ec7b1e535a",
+      "target": "前往里德森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/28/field/0/index/28",
+      "source_sha256": "67284dd4112004689c83f6aee5844c6fedbfb975e8d784a1b5f6918650274167",
+      "target": "前往兰卡山脉",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/29/field/0/index/29",
+      "source_sha256": "3919ff31cbc51b9fa829d6d53e6096d6c252e62de9781810b0d7dd39cb560428",
+      "target": "前往血泪总部",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/30/field/0/index/30",
+      "source_sha256": "67d306d9f3f431f3b16e3e1bc473a06e2c6be4ba602c5db7a5508a6ce154469c",
+      "target": "前往风月林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/31/field/0/index/31",
+      "source_sha256": "fe6127d09c54ac516ed056e2b305db287da0ea51fc4b8a4a55ed2e2ec297f69b",
+      "target": "前往佩尔布伦平原",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/32/field/0/index/32",
+      "source_sha256": "3465da0561007566d8090001a89ac74f21ae754c430930a54536ced99fd5b717",
+      "target": "前往米雷娜大道",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/33/field/0/index/33",
+      "source_sha256": "cab244d79b5bf83d139d23744118a11fb3c08aefdf1c899e42ae3f21b8b8e6f1",
+      "target": "前往雷斯蒂",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/34/field/0/index/34",
+      "source_sha256": "a1d2afcfb3412469805ff0f0ec0d23b4e74430280d05399628d647eb4efc9218",
+      "target": "前往雷斯蒂森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/35/field/0/index/35",
+      "source_sha256": "079186843e8ef83facb20529f760831353f24070cab9cb43721a0bfd46ce5be3",
+      "target": "前往雷斯蒂峡谷",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/36/field/0/index/36",
+      "source_sha256": "1a80627951978620aa40370c4e028aa16d8ad6a3bb015a9070ee0f38c0d5438e",
+      "target": "前往格雷顿山脉",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/37/field/0/index/37",
+      "source_sha256": "b8ab8028e56ffea4a56eb2d02f3071a5cad55d2ab59a1b4394de5e86abbde856",
+      "target": "前往神秘洞窟",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/38/field/0/index/38",
+      "source_sha256": "f8f2feec7b1e345a2e8cd0896cf088beeb4332f91f0fd4d1878be0925e83e59f",
+      "target": "前往阿姆隆德森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/39/field/0/index/39",
+      "source_sha256": "3c888c48eddd5b9f22190d82f5ba57fd7b3f7699185378f0a11308ab7a03dc11",
+      "target": "前往火山地带",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/40/field/0/index/40",
+      "source_sha256": "cd7c2183ef68dff4694b641a8f4cba8c8f066b07e272c600fcfe6288b10715bf",
+      "target": "前往火之遗迹",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/41/field/0/index/41",
+      "source_sha256": "43f1e6bf2f0e7f200d09cf166073dcb71d2de9fdb3891fae296f039aec3b5f7a",
+      "target": "前往阿雷莫里山",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/42/field/0/index/42",
+      "source_sha256": "ce4b6e3f6bc092059d948ffea563e3c2097a893333f26af43860d2025f021475",
+      "target": "前往大魔法阵",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/43/field/0/index/43",
+      "source_sha256": "67bec55ad23453df81d8ecee31dafa1f5ddfd919a5c3d30e6165dec10ba4e6be",
+      "target": "前往阿塞拉森林",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/44/field/0/index/44",
+      "source_sha256": "d59016a390de8acfa0f3a1d028b849ca8fb9d500c1023fb85a81a2cf19e18b34",
+      "target": "前往埃彭塔德",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/45/field/0/index/45",
+      "source_sha256": "977a09951b8963d23e9c0cf2d307dbe0384febd31e506795396f4b2a3a0be8d6",
+      "target": "前往埃蒙",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00009962.tui/record/46/field/0/index/46",
+      "source_sha256": "fa9b9ecb0f6fa6809681c60a23f72d4719745e60d0ab5e8cc6a3ff5e543129ab",
+      "target": "前往浮游城",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00011012.tui/record/0/field/0/index/0",
+      "source_sha256": "e7ce0e1ce9b15fcb306548aed05e251abdf9bcf78ccbe68ec8f05f8744a08451",
+      "target": "前往",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00011012.tui/record/1/field/0/index/1",
+      "source_sha256": "96e75ece468cbbfd4121c1eea4a7323a30fcaa7c963616ff7211d13669ce5347",
+      "target": "将消耗Sid。确定前往吗？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    },
+    {
+      "id": "SHIP/00011012.tui/record/2/field/0/index/2",
+      "source_sha256": "8e12013fe5da63c99a3c7a2e8af8a3e7fa30bbb9b127a245f9829b7545cecb76",
+      "target": "是否前往？",
+      "status": "draft",
+      "context": "Structural TUI translation draft; display semantics and composed fragments require proofreading; not imported."
+    }
+  ]
+}
