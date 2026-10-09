@@ -92,3 +92,8 @@ FDS／GFT／ODD六文件已按实际8 B头和记录分区补导出1168字段，1
 ### 统一源集合更新
 
 已核查布局重组为 998 资源／19137 字段（14628 非空），6334 草稿全部保留精确关联；167 CP949 失败／101 控制结构隔离。旧 15121 字段为前一版集合，非全游戏无遗漏结论。详见 [统一集合](AUDITED_CORPUS.md)。
+
+
+### 普通 Texture 载荷核查
+
+28 Texture／27 Palette／191 mip 全部结构闭合；28 首级图已检查，Editor Bad 含 `BAD SIZE`，NumberFont 为 glyph atlas。163 小 mip 尚未逐图检查，流式 Texture 未覆盖；全文门禁不变。详见 [普通纹理核查](TEXTURE_MIP_AUDIT.md)。

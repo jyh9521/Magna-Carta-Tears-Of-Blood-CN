@@ -275,3 +275,8 @@ FPB 窗口 offset/length 使用字节坐标；00000106 的完整 CP949 pool 成�
 ### POD 全区块字段核查
 
 148 POD 的 24 槽布局共 3552 字段（333 非空），补出 2 个 CP932 日文槽和 1 个问号槽。40 B metadata 的具体用途仍未验证；首 u32=31 不套用其他格式 count。详见 [POD 核查](DIALOGUE_BLOCK_AUDIT.md)。
+
+
+### 普通 Texture 载荷核查
+
+28 Texture／27 Palette／191 mip 全部结构闭合；28 首级图已检查，Editor Bad 含 `BAD SIZE`，NumberFont 为 glyph atlas。163 小 mip 尚未逐图检查，流式 Texture 未覆盖；全文门禁不变。详见 [普通纹理核查](TEXTURE_MIP_AUDIT.md)。

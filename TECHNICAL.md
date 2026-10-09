@@ -273,3 +273,8 @@ Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原�
 ### 未知控制结构完整观察
 
 当前 101 个隔离字段全部遍历，共 225 个标记／控制字符观察；149 次尖括号内部文字与 ITM 名称精确关联。运行语义未确认，validator 保持不变，不移除标记或批量放行。详见 [控制观察](docs/CONTROL_OBSERVATION_AUDIT.md)。
+
+
+### 普通 Texture 载荷核查
+
+28 Texture／27 Palette／191 mip 全部结构闭合；28 首级图已检查，Editor Bad 含 `BAD SIZE`，NumberFont 为 glyph atlas。163 小 mip 尚未逐图检查，流式 Texture 未覆盖；全文门禁不变。详见 [普通纹理核查](docs/TEXTURE_MIP_AUDIT.md)。

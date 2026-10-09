@@ -243,3 +243,8 @@ Class 的额外 u32 漏读会令 metadata 错位；非零 ScriptSize 不保证�
 ### 未知控制结构完整观察
 
 当前 101 个隔离字段全部遍历，共 225 个标记／控制字符观察；149 次尖括号内部文字与 ITM 名称精确关联。运行语义未确认，validator 保持不变，不移除标记或批量放行。详见 [控制观察](CONTROL_OBSERVATION_AUDIT.md)。
+
+
+### Texture 图名与属性不足以排除图片文字
+
+Editor Bad 的首级包含烧录 `BAD SIZE`；Texture0 是 NumberFont 字形表。普通 mip 的 lazy end 是原包绝对位置，流式包不能盲目沿用该坐标。首级视觉检查与全部 mip 结构闭合是不同证据。详见 TEXTURE_MIP_AUDIT.md。
