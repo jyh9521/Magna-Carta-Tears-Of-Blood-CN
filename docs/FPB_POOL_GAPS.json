@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "3e92c5dcb2dcb5fe9ca2d513dcadf15bf37886e8eb0c080d9047a0265e6b816c",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "fpb_resources": 708,
+  "pool_bytes": 433271,
+  "existing_field_union_bytes": 432469,
+  "gap_fields": 6,
+  "gap_bytes": 802,
+  "gap_decode_failures": 0,
+  "parse_exceptions": 1,
+  "complete_game_text": false,
+  "result": "FPB pool coverage complement exported; no fabricated sequence IDs or translation changes",
+  "observed_header_only_resources": {
+    "00001945.fpb": {
+      "size": 8,
+      "words": [
+        0,
+        0
+      ]
+    },
+    "00011170.ecd": {
+      "size": 8,
+      "words": [
+        0,
+        9
+      ]
+    },
+    "00011171.ecd": {
+      "size": 8,
+      "words": [
+        0,
+        9
+      ]
+    },
+    "00011181.ecd": {
+      "size": 8,
+      "words": [
+        0,
+        9
+      ]
+    }
+  }
+}

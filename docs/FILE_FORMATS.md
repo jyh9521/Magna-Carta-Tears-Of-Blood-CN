@@ -212,3 +212,7 @@ Verified static：路径256 B + 保留u32 + 原包长度u32，随后UE2 version1
 ## MUSIC.AFS 与 SFD 的只读库存
 
 Verified static：MUSIC filename TOC stride48、3646项，头界限及全部entry范围在归档内；复用cri_afs读法。ADX观测头为大端长度／采样率／样本数，记录参数不擅自推定语言。46个SFD的MPEG-1视频与45个ADX音频流经完整pipe输入核对，详见 DISC_PAYLOADS.md。
+
+## FPB pool-gap 字段视图
+
+ID使用pool offset/length，不使用推定seq。原窗包含seq0时上游synthesize_implicit_seq0不会补开头，韩版6文件因此有802 B未索引前缀；完整pool原文仍保留。补充视图不改变windows、count或运行结构，详见FPB_POOL_GAPS.md。

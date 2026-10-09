@@ -195,3 +195,7 @@ Verified static：三个本地归档逐项读取18,014项；4,058项包表接受
 ## 全盘与音视频流库存
 
 Verified static：62个ISO文件全部hash；MUSIC 3646项逐项读取，3645项ADX头、1项manifest。46个SFD完整输入ffprobe packet核查均exit0，46视频流／45音频流；不等于字幕／图片字覆盖完成。详见 [全盘核查](docs/DISC_PAYLOADS.md)。
+
+## FPB pool 补集
+
+Verified static：708项FPB逐项身份核对，707普通pool共433271 B；原字段并集之外6个前缀共802 B全部导出，未伪造seq0。8 B零FPB与三个[0,9]空ECD单独记录，详见 [补集核查](docs/FPB_POOL_GAPS.md)。
