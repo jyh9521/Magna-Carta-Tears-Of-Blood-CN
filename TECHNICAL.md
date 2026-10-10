@@ -366,3 +366,25 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### SFD 全帧解码补核
 
 46 个影片全量解码 72696 帧，全部输入 hash／退出码通过，error 日志为空；实际视频时轴合计 2425.6232 秒。逐帧 hash 不等于逐帧文字转写，抽样视觉结论未升级，全文门禁仍为 false。详见 [全帧解码核查](docs/MOVIE_FULL_DECODE.md)。
+
+
+### 集中提取语义补核
+
+配置1008项全分类、普通编译1207常量上下文分类、CLS/ATT/VAL的839记录完整word几何及尾部398 B地图属性均已补核；153个celfid候选上下文仍未闭合。原文与6334条译稿链接不变，完整覆盖门禁仍为false。详见 [语义补核](docs/COVERAGE_SEMANTIC_REVIEW.md)。
+
+## 流式网格 DMA／VIF 上下文
+
+见 `docs/STREAM_VIF_REVIEW.md`。13个包、320条命令及65个UNPACK输入段有界闭合，145个候选上下文补齐；剩余地图native候选8个。完整网格schema与运行时执行尚未验证，全量覆盖门禁保持待核查。
+
+## stage88 地图字符串／字段消费者
+
+见 `docs/NATIVE_STRING_FIELD_REVIEW.md`。地图compact-string记录补齐两个候选，上下文未闭合8→6；8032编译对象重新解析，77项取得同函数字段消费者证据，未确认320→243。新角色仍为只读候选，完整native序列化、reaching-definition及运行显示尚未证明，覆盖门禁保持待核查。
+
+
+## stage89 全帧文字候选与暂缓解码
+
+见 [全帧 OCR 候选核查](docs/MOVIE_OCR_REVIEW.md)。167 个真实 strict CP949 失败字段保持原字节及其他编码证据并暂缓；首片 1635 帧匹配通过。全片 OCR 不等于人工原文转写，覆盖门禁保持未完成。
+
+## stage90 解析器操作数
+
+见 [解析器核查](docs/PARSER_OPERAND_REVIEW.md)。全部8032对象/1207常量重解析；15项补充有界解析器操作数候选，最新待确认228项。101个隔离字段与validator保持不变；coverage_review_complete=false。

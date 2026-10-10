@@ -353,3 +353,16 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### SFD 全帧解码补核
 
 46 个影片全量解码 72696 帧，全部输入 hash／退出码通过，error 日志为空；实际视频时轴合计 2425.6232 秒。逐帧 hash 不等于逐帧文字转写，抽样视觉结论未升级，全文门禁仍为 false。详见 [全帧解码核查](MOVIE_FULL_DECODE.md)。
+
+
+### 有界数值及地图属性补核
+
+CLS count213/kind24/stride100，ATT count456/kind5/stride24，VAL count170/kind1/stride8，8 B头后全word区精确闭合；具体native字段语义仍未完整验证。地图尾部六属性记录共398 B边界已闭合，但不可按声明8165 B跳过未知流式载荷；MrtsPlayerStart.Char_ID的type7阅读是局部有界观察，不套全局Str规则。详见NUMERIC_RESOURCE_REVIEW.md与STREAM_TAIL_CONTEXT_REVIEW.md。
+
+## 流式 DMA_RET 与 VIF 输入长度
+
+见 `STREAM_VIF_REVIEW.md`。13个包、320条命令及65个UNPACK输入段有界闭合，145个候选上下文补齐；剩余地图native候选8个。完整网格schema与运行时执行尚未验证，全量覆盖门禁保持待核查。
+
+## stage88 地图字符串／字段消费者
+
+见 `NATIVE_STRING_FIELD_REVIEW.md`。地图compact-string记录补齐两个候选，上下文未闭合8→6；8032编译对象重新解析，77项取得同函数字段消费者证据，未确认320→243。新角色仍为只读候选，完整native序列化、reaching-definition及运行显示尚未证明，覆盖门禁保持待核查。

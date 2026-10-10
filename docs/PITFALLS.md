@@ -326,3 +326,29 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ### SFD 全帧解码补核
 
 46 个影片全量解码 72696 帧，全部输入 hash／退出码通过，error 日志为空；实际视频时轴合计 2425.6232 秒。逐帧 hash 不等于逐帧文字转写，抽样视觉结论未升级，全文门禁仍为 false。详见 [全帧解码核查](MOVIE_FULL_DECODE.md)。
+
+
+### 显示调用外层与内部参数不能混同
+
+Message(Localize(...))的字符串参数属于section/key/package查找标识，不直接是显示正文；同样，Preferences.Caption与Parent/Class不能整行翻译。DisplayDebug中的DrawText不当成普通流程UI。CLS三个怪字扫描命中同一个u32值16791，不由严格CP949解码成功升级为文本。详见COVERAGE_SEMANTIC_REVIEW.md。
+
+## DMA块长度与完整对象边界
+
+13200 B 长度须同时通过包数、13个QWC与逐条VIF输入长度验证；长度相等本身不构成schema证据。WL=0与NUM=0表示256，CL=0保持0。候选可能跨命令／payload边界，必须保存原完整候选与片段哈希。DMA_RET包排列不等于已验证运行执行链，块外前缀与对象依赖边界仍需独立核查。见 `STREAM_VIF_REVIEW.md`。
+
+## 字段引用与源码注释不等于动态传值
+
+stage88初次工具假设字段引用全部为本地正export，真实import引用使其失败。修订为校验import／export上下界，并保留import／null未知身份，不作本地StrProperty推断。赋值左值中的数组索引不是目标字符串；同字段跨函数读取不是reaching-definition证明。源码中被注释掉的SetText不能认定显示消费者，版本字符串TempB仍保留未确认；最近调用取自重新解析的编译token，不凭全文正则调用命中推广角色。见 `NATIVE_STRING_FIELD_REVIEW.md`。
+
+
+## stage89 全帧文字候选与暂缓解码
+
+见 [全帧 OCR 候选核查](MOVIE_OCR_REVIEW.md)。167 个真实 strict CP949 失败字段保持原字节及其他编码证据并暂缓；首片 1635 帧匹配通过。全片 OCR 不等于人工原文转写，覆盖门禁保持未完成。
+
+## stage91 停止全帧 OCR 并切换音频优先
+
+全帧 OCR 已主动停止；完成状态不由旧 progress.json 推断。清理2102张批量候选帧图，释放485360132字节，保留3张视觉校准图及JSON/JSONL、错误日志、哈希和删除清单。旧 evidence 图路径对应已清理图片，后续按源ISO定点重生成；不删除原ISO/AFS、译稿、framehash或测试镜像。
+
+189993的3777帧全部匹配既有framehash、退出0；日志仅为rawvideo muxer重复DTS，原失败事件和日志完整保留。reconcile_movie_ocr.py验证原source hash、帧记录和代表图（清理前执行）后生成独立纠正记录；这不是实际解码失败，不修改PTS。新decoder_outcome只接受精确已知rawvideo日志且全帧/退出0，其他日志继续隔离。
+
+后续采用本地多语言Whisper原语言转写、既有资源/ASS时轴比对、疑点定点OCR/听音复核。片尾名单、标题与无配音文字仍单列视觉核查。语音/视觉候选不自动升级原文或译稿；覆盖核查门禁继续关闭。

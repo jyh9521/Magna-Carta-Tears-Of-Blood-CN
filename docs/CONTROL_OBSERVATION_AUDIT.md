@@ -23,3 +23,7 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_control_observations.py --corpu
 ```
 
 输出仅进入 ignored 路径，源集合执行前后 hash 相同。旧目录 123／前版 105 个隔离字段属于历史视图，不沿用为当前集合数量。全文覆盖门禁继续关闭。
+
+## stage90 解析器操作数
+
+见 [解析器核查](PARSER_OPERAND_REVIEW.md)。全部8032对象/1207常量重解析；15项补充有界解析器操作数候选，最新待确认228项。101个隔离字段与validator保持不变；coverage_review_complete=false。

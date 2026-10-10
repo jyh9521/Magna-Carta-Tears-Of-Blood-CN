@@ -190,3 +190,21 @@ work/venv/Scripts/python.exe -X utf8 tools/export_review.py --catalog work/catal
 ### FPB 池余段纳入统一源引用
 
 当前统一集合为 998 资源／19143 字段（14634 非空），6 段／802 B 非索引池余段已保留，6334 初稿关联不变。167 活跃解码失败重新核验；非索引片段不伪造 sequence ID 或导入。详见 [池余段统一集合](docs/POOL_REFERENCE_CORPUS.md)。
+
+
+### 集中提取审核层重现
+
+`tools/audit_coverage_review.py`可一次重现配置、celfid尾部、数值资源、编译上下文、解码与控制结构补核，并输出只读审核快照及6334条精确译稿链接。完整参数、输入前序产物和核查边界见 [语义补核](docs/COVERAGE_SEMANTIC_REVIEW.md)。不生成或清理游戏镜像。
+
+## VIF 只读上下文核查
+
+见 `docs/STREAM_VIF_REVIEW.md`。13个包、320条命令及65个UNPACK输入段有界闭合，145个候选上下文补齐；剩余地图native候选8个。完整网格schema与运行时执行尚未验证，全量覆盖门禁保持待核查。
+
+## stage88 地图字符串／字段消费者
+
+见 `docs/NATIVE_STRING_FIELD_REVIEW.md`。地图compact-string记录补齐两个候选，上下文未闭合8→6；8032编译对象重新解析，77项取得同函数字段消费者证据，未确认320→243。新角色仍为只读候选，完整native序列化、reaching-definition及运行显示尚未证明，覆盖门禁保持待核查。
+
+
+## stage89 全帧文字候选与暂缓解码
+
+见 [全帧 OCR 候选核查](docs/MOVIE_OCR_REVIEW.md)。167 个真实 strict CP949 失败字段保持原字节及其他编码证据并暂缓；首片 1635 帧匹配通过。全片 OCR 不等于人工原文转写，覆盖门禁保持未完成。
