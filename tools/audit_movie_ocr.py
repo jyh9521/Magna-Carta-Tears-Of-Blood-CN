@@ -119,12 +119,12 @@ def consecutive_cues(rows, tb):
 
 
 class Backend:
-    def __init__(self, language, provider):
+    def __init__(self, language, provider, rec_version='PP-OCRv5'):
         from rapidocr import RapidOCR, OCRVersion, LangRec, ModelType
         self.language = language
         self.engine = RapidOCR(params={
             'Det.ocr_version': OCRVersion.PPOCRV4, 'Det.model_type': ModelType.MOBILE,
-            'Rec.ocr_version': OCRVersion.PPOCRV5, 'Rec.lang_type': LangRec(language),
+            'Rec.ocr_version': OCRVersion(rec_version), 'Rec.lang_type': LangRec(language),
             'Rec.model_type': ModelType.MOBILE, 'Global.text_score': 0.0,
             'Global.log_level': 'critical', 'EngineConfig.onnxruntime.intra_op_num_threads': 2,
             'EngineConfig.onnxruntime.inter_op_num_threads': 1,
@@ -133,7 +133,7 @@ class Backend:
                     self.engine.text_rec.session.session]
         if provider == 'directml':
             core.require(all(s.get_providers()[0] == 'DmlExecutionProvider' for s in sessions), 'DirectML provider not active')
-        self.metadata = dict(language=language, rapidocr=importlib.metadata.version('rapidocr'),
+        self.metadata = dict(language=language, recognition_version=rec_version, rapidocr=importlib.metadata.version('rapidocr'),
                              onnxruntime=__import__('onnxruntime').__version__, models=[])
         for role, session in zip(('det', 'cls', 'rec'), sessions):
             path = Path(session._model_path)

@@ -27,3 +27,7 @@ AGENTS.md和docs/LOCALIZATION_STANDARD.md仅local instructions，保持ignored�
 ## stage89 全帧文字候选与暂缓解码
 
 见 [全帧 OCR 候选核查](docs/MOVIE_OCR_REVIEW.md)。167 个真实 strict CP949 失败字段保持原字节及其他编码证据并暂缓；首片 1635 帧匹配通过。全片 OCR 不等于人工原文转写，覆盖门禁保持未完成。
+
+## stage92 音频优先接续
+
+见 [音频优先核查](docs/MOVIE_ASR_REVIEW.md)。全46影片库存：45音轨完成本地原语言候选转写，1片无音轨；283片段、174低置信度片段定点OCR队列，26个空白折叠源匹配不作exact去重。停止全帧OCR，批量清理有哈希清单；原资源/6334译稿不改。音频候选流程完成不等于全游戏覆盖完成，继续保留静默视觉文字与未知native语义。

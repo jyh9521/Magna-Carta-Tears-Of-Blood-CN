@@ -4,3 +4,14 @@ sfd-muxer==0.1.1
 pycdlib==1.21.0
 Pillow==12.3.0
 fonttools==4.66.1
+
+# Optional local movie ASR and targeted OCR; not needed by the base unit suite.
+# Use only one ONNX Runtime distribution; this profile selects CPU.
+faster-whisper==1.2.1
+ctranslate2==4.7.2
+av==19.0.1
+huggingface-hub==2.2.0
+numpy==2.5.3
+onnxruntime==1.31.0
+rapidocr==3.9.2
+opencv-python==5.0.0.93
