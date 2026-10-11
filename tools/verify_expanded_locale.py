@@ -56,7 +56,11 @@ def expected_fonts(engine: bytes, game: dict, locale: dict, old_entries: list[di
         expanded=append_slots(serial,count,start,
                              expected_sha256=game['fonts'][name])
         encoder=MappedEncoder(entries,font_tables=font_data(expanded))
-        fonts[name]=patch_font(expanded,encoder,font,locale['alignment_reference'],locale['advance'],locale.get('font_raster_sizes', {}).get(name))
+        if 'fonts' in locale:
+            from rebuild_mapped_font import rebuild
+            fonts[name],_=rebuild(expanded,dict(entries=entries),font,locale['fonts'][name])
+        else:
+            fonts[name]=patch_font(expanded,encoder,font,locale['alignment_reference'],locale['advance'],locale.get('font_raster_sizes', {}).get(name))
         replacements[index]=fonts[name]
     return fonts,replacements,encoder
 

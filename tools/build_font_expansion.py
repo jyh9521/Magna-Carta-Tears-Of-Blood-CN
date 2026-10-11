@@ -60,12 +60,18 @@ def main() -> None:
         expanded = append_slots(serial, count, args.range_start,
                                expected_sha256=game['fonts'][name])
         encoder = MappedEncoder(entries, font_tables=font_data(expanded))
-        modified = patch_font(expanded, encoder, args.font, locale['alignment_reference'], locale['advance'], locale.get('font_raster_sizes', {}).get(name))
+        if 'fonts' in locale:
+            from rebuild_mapped_font import rebuild
+            modified, raster_proof = rebuild(expanded, dict(entries=entries), args.font, locale['fonts'][name])
+        else:
+            modified = patch_font(expanded, encoder, args.font, locale['alignment_reference'], locale['advance'], locale.get('font_raster_sizes', {}).get(name))
         result = verify_slots(serial, modified, count, args.range_start)
         new_info, _, metrics, _ = parts(modified)
         for item in entries:
             core.require(lookup(code, new_info['ranges'], new_info['bases'], bytes.fromhex(item['bytes']))['return_u32'] == item['glyph'], 'new glyph lookup mismatch')
-            core.require(metrics[item['glyph']] == locale['advance'], 'new metric mismatch')
+            settings=locale.get('fonts',{}).get(name,{})
+            advance=settings.get('advance_overrides',{}).get(item['character'],settings.get('advance',locale['advance']))
+            core.require(metrics[item['glyph']] == advance, 'new metric mismatch')
         # Preserve lookup for every original code-range member, not merely the PoC.
         preserved = 0
         for row in range(len(info['ranges']) - 1):

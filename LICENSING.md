@@ -36,3 +36,13 @@ AGENTS.md和docs/LOCALIZATION_STANDARD.md仅local instructions，保持ignored�
 ## stage180 标题与 UI 反馈修正
 
 stage180仅新增项目生成的透明中文艺术PNG与指纹配方，不提交完整原版标题纹理、调色板、AFS或ISO。构建从用户提供的原版资产生成本地输出。
+
+
+## stage182 菜单与宋体修正
+
+宋体试用输入来自 Adobe Source Han Serif 2.003R，SIL OFL 1.1；许可全文见 assets/fonts/SourceHanSerif-LICENSE.txt。输入 OTF 与完整游戏图集不提交，仓库保留字体配置、文字矩形和可复现工具。
+
+
+## 当前默认 Medium 字体
+
+A-medium-mixed 使用 Adobe Source Han Sans SC Medium 2.005R，输入SHA-256 1df61d31687d04fd2f928a3bb6ca6cd61f0e988cc267cf317f32406edbb49f70，字体内嵌 SIL OFL 1.1。沿用 assets/fonts/SourceHanSans-LICENSE.txt；不提交OTF或完整游戏字库。Regular/Serif历史记录仍保留，各自许可继续适用。

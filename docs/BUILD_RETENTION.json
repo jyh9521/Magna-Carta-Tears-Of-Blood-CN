@@ -3,33 +3,43 @@
   "protected": [
     {
       "path": "test-iso/Magna-Carta-zh-CN-test.iso",
-      "size": 4250667008,
-      "sha256": "809b7565c982f691097a162f044a0c5aefebb3dc12b137f18943d92a2827f69d",
-      "role": "integrated-zh-CN-title-ui-revision-pending-runtime"
-    },
+      "size": 4250691584,
+      "sha256": "ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f",
+      "role": "integrated-zh-CN-medium-mixed-pending-visual-acceptance"
+    }
+  ],
+  "retired": [
     {
       "path": "opening-trial-02-source-han/image/MODIFIED_FILE.iso",
       "size": 3232737280,
       "sha256": "0c2d8ebf005fb3a9bfbe12f19525594834c9e3b7c094cb9b6d749d20c910dcb2",
-      "role": "source-han-font-comparison-pending-runtime"
+      "role": "source-han-font-comparison-pending-runtime",
+      "status": "superseded-output-removed",
+      "reason": "integrated test ISO supersedes bounded PoC; research/source/reports preserved"
     },
     {
       "path": "opening-trial-01/runnable/image/MODIFIED_FILE.iso",
       "size": 3232739328,
       "sha256": "ebb3a71de5b90d1f446fe7628283eef1dded6c111d77f9ffc474624b5f9c6ff3",
-      "role": "opening-trial-01-partial-opening-menu-observation"
+      "role": "opening-trial-01-partial-opening-menu-observation",
+      "status": "superseded-output-removed",
+      "reason": "integrated test ISO supersedes bounded PoC; research/source/reports preserved"
     },
     {
       "path": "name-slot-poc-01/image/MODIFIED_FILE.iso",
       "size": 3232653312,
       "sha256": "a47d5bdbe0c903a351f7d8f716f118994dfe4627aadefdd8e8c1b5dff4d8ef46",
-      "role": "name-baseline-partial-menu-observation"
+      "role": "name-baseline-partial-menu-observation",
+      "status": "superseded-output-removed",
+      "reason": "integrated test ISO supersedes bounded PoC; research/source/reports preserved"
     },
     {
       "path": "expanded-text-poc-03-udf/MODIFIED_FILE.iso",
       "size": 3232653312,
       "sha256": "e1cb3fb807fd9cf158bd3147b4ef3e6c2fabafcbc4224319f4a8a8c31445355f",
-      "role": "text-baseline-partial-visual-observation"
+      "role": "text-baseline-partial-visual-observation",
+      "status": "superseded-output-removed",
+      "reason": "integrated test ISO supersedes bounded PoC; research/source/reports preserved"
     }
   ]
 }

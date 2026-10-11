@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "font_input": {
+    "sha256": "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117",
+    "family": "Source Han Serif SC Regular",
+    "version": "2.003R",
+    "license": "SIL Open Font License 1.1",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/2.003R/OTF/SimplifiedChinese/SourceHanSerifSC-Regular.otf"
+  },
+  "fonts": {
+    "NormalFont": {
+      "base_sha256": "6430f37f19292b3e117f09d2138980d7a24871cf4add5749ecc469bfd9be21ef",
+      "raster_size": 18,
+      "reference": "测",
+      "body_top": 0,
+      "original_glyphs": 2667,
+      "advance": 18,
+      "advance_overrides": {
+        "，": 10,
+        "。": 10,
+        "！": 10,
+        "？": 10,
+        "：": 10,
+        "；": 10,
+        "、": 10
+      }
+    },
+    "KatakanaFont": {
+      "base_sha256": "f48124134651aed42436c30e4536641e44948c07160ccf15a2159aa5494d4a55",
+      "raster_size": 15,
+      "reference": "测",
+      "body_top": 0,
+      "original_glyphs": 2667,
+      "advance": 18,
+      "advance_overrides": {
+        "，": 10,
+        "。": 10,
+        "！": 10,
+        "？": 10,
+        "：": 10,
+        "；": 10,
+        "、": 10
+      }
+    }
+  }
+}

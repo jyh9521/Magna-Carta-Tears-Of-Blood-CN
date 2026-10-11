@@ -393,3 +393,18 @@ For a disposable rollback test use tools/rollback_test_iso_copy.py --report buil
 ## stage180 标题与 UI 反馈修正
 
 标题图与 UI 修正构建参见 docs/UI_TITLE_REVISION.md。新增 LINEAR.AFS 与 FILE/SHIP 一起整合；输入档案必须存在于原 ISO，不接受未知档案名。艺术 PNG 与哈希配方已保存，P8 工具从原 LINEAR 重建；不重新生成随机艺术图。
+
+
+## stage182 菜单与宋体修正
+
+宋体试用链：rebuild_mapped_font.py → build_text_texture_overlays.py → apply_ui_layout_copies.py → build_test_iso.py。版本、输入 hash、阶段依赖、备份与验证见 docs/UI_FONT_REVISION.md。新工具参数通过 --help 查看；宋体 profile 与黑体 full-font-profile 分开保留。
+
+
+## stage183 离线字形实验
+
+字形离线实验使用可选 raster_options；默认构建保持旧字节结果。12组方案、两套候选及输入/输出见 docs/FONT_RENDER_EXPERIMENT.md。本轮不替换稳定字体或ISO。
+
+
+## stage184 默认 A-medium-mixed
+
+现有 full-font-profile.json 已选定 Medium 混合栅格化。build_font_expansion.py 与 verify_expanded_locale.py 的 fonts 分支复用既有 rebuild_mapped_font；缺少该字段的历史 profile 行为不变。原2667字形和2466字符映射保留。仅字体升级使用 overlay_font_resources.py 更新两个Font与对应唯一celfid缓存，不重做译文/UI/影片。准确命令、输入hash、原子发布与宋体回退见 docs/DEFAULT_FONT_INTEGRATION.md。

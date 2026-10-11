@@ -26,12 +26,21 @@ ISO9660/UDF28个替换文件双视图回读一致；26个增长文件重定位�
 
 测试ISO：build/test-iso/Magna-Carta-zh-CN-test.iso
 
-大小：4250667008 B
+大小：4250691584 B
 
-SHA-256：`809b7565c982f691097a162f044a0c5aefebb3dc12b137f18943d92a2827f69d`
+SHA-256：`ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f`
 
 原ISO SHA-256：`6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`
 
 ## stage180 修正版
 
 标题五状态菜单及小标题中文图已整合LINEAR，636处UI句末标点修正，七组多句拼接保留；1943项测试通过，隔离回滚1913项通过。详情UI_TITLE_REVISION.md。同路径冷启动，不加载旧即时存档。
+
+## stage182 菜单与宋体试用版
+
+六标签、整理与魅力的图片汉化；宋体两套字库、正文标点宽度和墨迹基准调整；好感横向位置与两个描述换行修正。1955项测试及独立镜像回读通过，黑体资源和上一版镜像保留。详见 UI_FONT_REVISION.md；冷启动后复测菜单、好感框、符咒说明与角色评语。
+
+
+## stage184 A-medium-mixed 默认字体
+
+Medium18px/SS4与15px原生混合方案已整合并覆盖同名ISO，原字格、映射与步进保持。相对182宋体版，ISO62文件只FILE变化，只有Font序列和对应缓存的追加bitmap改变；译文/脚本/UI图片/动画保持。1972测试、1964源码回滚、独立ISO与字库比对通过；宋体备份保留。PCSX2隔离冷启动日志观察ELF执行；没有采集到渲染帧，正文/菜单视觉验收尚待冷启动测试。见 DEFAULT_FONT_INTEGRATION.md。

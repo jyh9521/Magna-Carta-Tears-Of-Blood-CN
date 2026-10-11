@@ -411,3 +411,18 @@ stage175：最后3个TUI模板采用显式typed MainText存储回填决断，不
 ## stage180 标题与 UI 反馈修正
 
 stage180已完成标题五状态菜单与小标题中文图、636处UI标点修正（三种后端），七组完整拼接提示保留，独立后缀显式清空。1943项测试与独立ISO回读通过，隔离源码回滚1913项通过。原测试路径覆盖同名新镜像，SHA-256 809b7565c982f691097a162f044a0c5aefebb3dc12b137f18943d92a2827f69d；三档案、25已验收影片，21原片不改。详见 UI_TITLE_REVISION.md 与 TEST_ISO.md；运行验收仍由用户冷启动测试。
+
+
+## stage182 菜单与宋体修正
+
+stage182 已生成宋体 UI 修正版并覆盖同名测试路径；六标签/整理/魅力图片、两处描述、好感横坐标与缓存同步，1955 测试通过。镜像 SHA dcf769e5d15ee3a548a48137e1ead344ffad2f0b1116f1891a83b28d7950b43e。黑体两字体与旧镜像在 work/ui-font-182/sans-backup。详情 UI_FONT_REVISION.md、TEST_ISO.md 与 work/ui-font-182/VERIFICATION.txt；运行验收未冒称完成。
+
+
+## stage184 A-medium-mixed 已集成
+
+用户选定方案，直接复制183/shortlist/A-medium-mixed/profile.json的fonts配置到现有full-font-profile；Medium OTF指纹锁定。两字库从原ISO生成，与实验逐字节一致，Normal18/SS4、Katakana15/native，2667+2466各5133、原字格/映射/步进不变。普通Font和启动缓存已同步；只有FILE变化，译文、脚本、UI、SHIP/LINEAR和影片保持182结果。1972测试、隔离源码回滚1964、独立ISO62文件比对通过；宋体备份在184/fallback，ROLLBACK.sh已在独立副本验证。当前同名ISO hash ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f，4250691584B。运行日志已观察新ISO冷启动执行SCKA-20043原ELF，但没有取得帧图，不将此标记为字体视觉通过。详细命令和边界见DEFAULT_FONT_INTEGRATION.md/184 VERIFICATION.txt；下一步为本ISO冷启动视觉验收。
+
+
+## stage185 存储清理与源码同步
+
+实际删除1084大输出文件/47.68GiB逻辑大小；保留当前184测试镜像、宋体回退、黑体字库备份、原版及25验收影片/当前预览。四PoC退役，删除完成的回滚副本与旧字幕中间资源；研究报告、配置和源数据保持。完整记录 LOCAL_STORAGE_MAINTENANCE.md；不把仍需游戏视觉验收的字体声明为通关验收。源码/docs基线隔离回滚与测试记录见185/VERIFICATION.txt；GitHub提交身份以本轮发布记录为准。

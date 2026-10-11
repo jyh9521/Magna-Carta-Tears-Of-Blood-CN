@@ -1,0 +1,365 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "base_archive_sha256": "a93a40f35a5d49553633331ad9c58657597553fbb048e1a1f5a5cc59a2396a3c",
+  "font_sha256": "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117",
+  "streams": {
+    "00001002.lin": {
+      "schema": 1,
+      "payload_sha256": "5945b6bf68476f94a18754ec12c8367f5ade93f9b03c86995de53d68fec22544",
+      "source_compressed_sha256": "a74989a2a216f3c0fc999071435346e12523d0bf12cf193e8acc79f30f7d62e7",
+      "textures": [
+        {
+          "package": "../Textures/00001002.utx",
+          "name": "field_part1",
+          "serial_offset": 1657,
+          "pixel_offset": 1722,
+          "pixel_sha256": "183c206fa7765a8d7758c71e2b62ae20f63a1e405e9e8d1bcf2d0674648d751e",
+          "palette_offset": 633,
+          "palette_sha256": "21fb7f56fa401b8d5a7365c9af907b6aa35ae987c628745c520dc3e59aad4e11",
+          "asset_key": "field_part1"
+        }
+      ],
+      "patches": [
+        {
+          "text": "编成",
+          "rect": [
+            0,
+            190,
+            46,
+            211
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "道具",
+          "rect": [
+            50,
+            190,
+            96,
+            211
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "装备",
+          "rect": [
+            0,
+            212,
+            46,
+            233
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "流派",
+          "rect": [
+            50,
+            212,
+            96,
+            233
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "信息",
+          "rect": [
+            0,
+            234,
+            46,
+            255
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "设置",
+          "rect": [
+            50,
+            234,
+            96,
+            255
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "魅力",
+          "rect": [
+            51,
+            128,
+            106,
+            144
+          ],
+          "size": 14,
+          "ink": [
+            223,
+            192,
+            145
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "00065533.lin": {
+      "schema": 1,
+      "payload_sha256": "e8e612b627a18e1ba9a5d1f803fd8c834b24d481747459cb3cddfa47eece8565",
+      "source_compressed_sha256": "0adf5311499536b8a5d38902597facddb5d8cecb701afe9a0aaa337d80e4fd73",
+      "textures": [
+        {
+          "package": "../Textures/00001002.utx",
+          "name": "field_part1",
+          "serial_offset": 68929,
+          "pixel_offset": 68994,
+          "pixel_sha256": "183c206fa7765a8d7758c71e2b62ae20f63a1e405e9e8d1bcf2d0674648d751e",
+          "palette_offset": 67905,
+          "palette_sha256": "21fb7f56fa401b8d5a7365c9af907b6aa35ae987c628745c520dc3e59aad4e11",
+          "asset_key": "field_part1"
+        }
+      ],
+      "patches": [
+        {
+          "text": "编成",
+          "rect": [
+            0,
+            190,
+            46,
+            211
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "道具",
+          "rect": [
+            50,
+            190,
+            96,
+            211
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "装备",
+          "rect": [
+            0,
+            212,
+            46,
+            233
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "流派",
+          "rect": [
+            50,
+            212,
+            96,
+            233
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "信息",
+          "rect": [
+            0,
+            234,
+            46,
+            255
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "设置",
+          "rect": [
+            50,
+            234,
+            96,
+            255
+          ],
+          "size": 18,
+          "ink": [
+            240,
+            240,
+            240
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "魅力",
+          "rect": [
+            51,
+            128,
+            106,
+            144
+          ],
+          "size": 14,
+          "ink": [
+            223,
+            192,
+            145
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "00001008.lin": {
+      "schema": 1,
+      "payload_sha256": "84b7f0d69de10c5630a238f518f605286c9698b68055ef822d1d08deab433f0e",
+      "source_compressed_sha256": "9fbe54d1af82d86842ee0bc824140601c65df1b204272359de70c1c836947626",
+      "textures": [
+        {
+          "package": "../Textures/00001008.utx",
+          "name": "global_part1",
+          "serial_offset": 6036,
+          "pixel_offset": 6101,
+          "pixel_sha256": "aa5c9c43fcec6a7304ca609eef55fdc8aa45b4655a4da61c7cf7410e6eaac5d8",
+          "palette_offset": 5012,
+          "palette_sha256": "8385f31fdfb9e9d0aab9d76e709f147888bc6029ea61fb52140432c0f973d52f",
+          "asset_key": "global_part1"
+        }
+      ],
+      "patches": [
+        {
+          "text": "整理",
+          "rect": [
+            219,
+            122,
+            255,
+            140
+          ],
+          "size": 15,
+          "ink": [
+            223,
+            192,
+            145
+          ],
+          "stroke": [
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  }
+}

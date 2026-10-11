@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "base_file_sha256": "e97b77d48e7278bd4b792dc6062c8778afc0aecd6743361df9f8e9e15953ae29",
+  "base_ship_sha256": "079f6b52642bd6eac60ef629443503cdd85b455f56368dd24ce3598478f6ef63",
+  "fields": [
+    {
+      "id": "SHIP/00014107.tui/record/4/field/0/index/4",
+      "source_sha256": "6ff0b6aadbc759c7cce41ba2205f03dae78391284c4d309eb867bd60aa59f2f4",
+      "previous_target": "血泪的伙伴们或许很擅长战斗，$n可平时连一件事都做不好。$n到头来，总得有人$n照顾他们。$n呵呵，真拿他们没办法。",
+      "target": "血泪的伙伴们或许很擅长战斗，$n可平时连一件事都做不好。$n到头来，总得有人照顾他们。$n呵呵，真拿他们没办法。$n",
+      "batch": "locales\\zh-CN\\character-commentary-review-01.json"
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/101",
+      "source_sha256": "e22f486e0ec9405ff2d7960016d833eccbbbbf07492078d8dc1cd5dcd07f6e81",
+      "previous_target": "让我方一人恢复井然有序的状态，$n解除混乱。",
+      "target": "我方一人恢复井然有序，$n解除混乱状态。",
+      "batch": "locales\\zh-CN\\talisman-encyclopedia-review-01.json"
+    }
+  ],
+  "operand": {
+    "package": "MrtsGame.u",
+    "export_index": 12302,
+    "source_function_sha256": "1d916f6e0ffc891b27560b68bd489dea3fb6d49f6129691f7805eb1f47322df9",
+    "offset": 3521,
+    "old_hex": "2cf4",
+    "new_hex": "2cf1",
+    "owner_path": [
+      "MrtsWindowStateCharInfo",
+      "MrtsFieldCharListBox"
+    ],
+    "reason": "46px friendship box centered atX259; two18px advances start atX241 instead of244; glyph vertical position handled by rebuilt font"
+  }
+}

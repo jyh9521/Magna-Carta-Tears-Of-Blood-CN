@@ -686,7 +686,7 @@
     {
       "id": "SHIP/00006460.cdg/slot/101",
       "source_sha256": "e22f486e0ec9405ff2d7960016d833eccbbbbf07492078d8dc1cd5dcd07f6e81",
-      "target": "让我方一人恢复井然有序的状态，$n解除混乱。",
+      "target": "我方一人恢复井然有序，$n解除混乱状态。",
       "status": "reviewed",
       "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
     },

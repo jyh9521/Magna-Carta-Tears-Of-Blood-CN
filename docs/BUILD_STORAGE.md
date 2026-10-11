@@ -1,7 +1,7 @@
 # 构建存储与保留清单
 
 - 原版ISO、PCSX2、BIOS、正常存档和即时存档不属于build清理对象。
-- docs/BUILD_RETENTION.json记录build相对路径、大小、SHA-256与保留角色；现有两项均保留，局部显示通过不等于完整运行验收。
+- docs/BUILD_RETENTION.json记录build相对路径、大小、SHA-256与保留角色；当前保留项须全部校验，局部显示通过不等于完整运行验收。
 - 待测候选和已测基线都必须明确登记；新候选生成后及时更新清单，不按目录名或“可重建”判定可删除。
 
 ## 当前测试镜像登记（2026-10-11）
@@ -30,3 +30,8 @@ schema1报告mode=read-only、deletion_authorized=false；它不生成删除命�
 ## 有界试译新增候选
 
 opening-trial-01新增一份待测ISO并登记为protected；此前两份镜像暂时保留，未执行清理。当前清单共3份ISO，不能把新候选pending-runtime状态误判为可删除；后续保留数量按实际验收与明确清理清单调整。源码测试/回滚和独立复核只生成小型源码与资源，不创建第二份试译ISO。
+
+
+## 当前清理结果（stage185）
+
+本轮实际执行清理，181未执行计划的记录保持历史原貌；四个旧PoC镜像已退役并从protected移至retired，当前测试镜像hash登记已更新。数量、占用、保留范围、恢复边界与维护约定以 [本地存储维护](LOCAL_STORAGE_MAINTENANCE.md) 为准，不继续用早期五镜像或旧hash代表现状。

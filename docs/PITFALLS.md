@@ -542,3 +542,18 @@ The first complete movie+archive ISO failed independent verification with unexpe
 ## stage180 标题与 UI 反馈修正
 
 stage180：菜单位图不会随普通文本回填自动翻译。旧预览按BGRA呈现蓝色羽毛，标题实证应为RGB；palette原字节不改。LINEAR清单键不是.lin文件名，首轮重建在manifest门禁失败，修正stem键后重建。另一同名标题变体源像素不同，门禁拒绝，不强写。首次在派生selected-copy-batch中改UI已恢复，随后按canonical registry同步；只有新integrated-afs2可作为本版输入。隔离基线测试需创建work临时目录，缺目录造成的四项失败日志保留，补目录后1913项通过。
+
+
+## stage182 菜单与宋体修正
+
+宋体墨迹可能超出名义 advance；按实际 ink bbox 居中并检查格内覆盖，必要时收缩宽度。U+3000 为空白合法，不应误报缺字；其他字符须通过 cmap 与量化后非空检查。图集普通 caption 已译不代表 bitmap 消费者已译。
+
+
+## stage183 离线字形实验
+
+超采样在15px/四级量化下可能比hinted native更细；增粗也可能合并组件、关闭孔或挤出advance。应比较真正2-bit解码图，拒绝危险增粗并逐字记录，不能把高分辨率字体预览当游戏效果。见 FONT_RENDER_EXPERIMENT.md。
+
+
+## PCSX2诊断 datapath
+
+本地v2.8.2的 -datapath 对输入目录再追加 PCSX2 子目录。首次184探针误将INI放在父目录，日志停在输入源初始化且无ELF执行，记录保留。纠正为 <datapath>/PCSX2/inis/PCSX2.ini 后观察原ELF冷启动执行。软件SaveFrame开关未产生图像，不将空诊断输出当作视觉验收；隔离设置不影响用户日常配置。

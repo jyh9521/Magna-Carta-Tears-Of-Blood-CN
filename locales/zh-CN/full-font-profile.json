@@ -2,18 +2,65 @@
   "locale": "zh-CN",
   "game_profile": "profiles/scka-20043.json",
   "font_input": {
-    "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
-    "family": "Source Han Sans SC Regular",
+    "sha256": "1df61d31687d04fd2f928a3bb6ca6cd61f0e988cc267cf317f32406edbb49f70",
+    "names": {
+      "1": "Source Han Sans SC Medium",
+      "2": "Regular",
+      "5": "Version 2.005;addfeatures 5.0.0b21",
+      "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.",
+      "14": "http://scripts.sil.org/OFL"
+    },
+    "family": "Source Han Sans SC Medium",
     "version": "2.005R",
-    "license": "SIL Open Font License 1.1",
-    "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf"
+    "license": "SIL Open Font License 1.1"
   },
   "alignment_reference": "测",
-  "advance": 19,
-  "milestone": "full-font-current-translations",
+  "advance": 18,
+  "milestone": "full-font-medium-mixed-default",
   "font_characters": "locales/zh-CN/full-characters.json",
   "font_raster_sizes": {
     "NormalFont": 18,
     "KatakanaFont": 15
-  }
+  },
+  "schema": 1,
+  "fonts": {
+    "NormalFont": {
+      "base_sha256": "b1264d3544b8acc953c557a289032bec2843d9d02396803152aa619c0c4e4067",
+      "raster_size": 18,
+      "reference": "测",
+      "body_top": 0,
+      "original_glyphs": 2667,
+      "advance": 18,
+      "advance_overrides": {
+        "，": 10,
+        "。": 10,
+        "！": 10,
+        "？": 10,
+        "：": 10,
+        "；": 10,
+        "、": 10
+      },
+      "raster_options": {
+        "supersample": 4
+      }
+    },
+    "KatakanaFont": {
+      "base_sha256": "7e388bbef0dd2d685835ef81d9430d4ba04c53f5fd862593ee9e21c4713112e5",
+      "raster_size": 15,
+      "reference": "测",
+      "body_top": 0,
+      "original_glyphs": 2667,
+      "advance": 18,
+      "advance_overrides": {
+        "，": 10,
+        "。": 10,
+        "！": 10,
+        "？": 10,
+        "：": 10,
+        "；": 10,
+        "、": 10
+      }
+    }
+  },
+  "selected_experiment": "A-medium-mixed"
 }

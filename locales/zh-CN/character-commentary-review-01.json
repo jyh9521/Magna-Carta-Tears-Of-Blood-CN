@@ -35,7 +35,7 @@
     {
       "id": "SHIP/00014107.tui/record/4/field/0/index/4",
       "source_sha256": "6ff0b6aadbc759c7cce41ba2205f03dae78391284c4d309eb867bd60aa59f2f4",
-      "target": "血泪的伙伴们或许很擅长战斗，$n可平时连一件事都做不好。$n到头来，总得有人$n照顾他们。$n呵呵，真拿他们没办法。",
+      "target": "血泪的伙伴们或许很擅长战斗，$n可平时连一件事都做不好。$n到头来，总得有人照顾他们。$n呵呵，真拿他们没办法。$n",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },

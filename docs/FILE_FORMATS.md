@@ -453,3 +453,8 @@ Cached prefix rewriting requires a unique complete source header and unique perm
 ## stage180 标题与 UI 反馈修正
 
 本次标题 P8 资源为256×256单mip。已验证前三palette通道按RGB组成截图对应的金／灰配色，仅此资产结论，不泛化全部格式。LINEAR原生清单使用无扩展名资源ID，更新大小时移除.lin后缀。详见 UI_TITLE_REVISION.md。
+
+
+## stage182 菜单与宋体修正
+
+stage182 字体重绘保留全部序列化布局，只写新增槽 bitmap/metrics；46×21 tab 图块、整理 (219,122,36,18)、魅力 (51,128,55,16) 与镜像副本见 UI_FONT_REVISION.md。

@@ -569,3 +569,18 @@ Compact object/name references occupy4VM bytes irrespective of their disk compac
 ## stage180 标题与 UI 反馈修正
 
 标题菜单是 LINEAR 的 P8 位图而非普通字符串。00013133.lin 五状态菜单、00015559.lin 小标题及 00000624.lin 一致缓存同步，三流九数组；palette、lazy 指针、包表和非目标像素保留。00015560.lin 为不同指纹变体，不按同名猜测覆盖。详细证据见 docs/UI_TITLE_REVISION.md。
+
+
+## stage182 菜单与宋体修正
+
+顶部 tab、整理与魅力实际由图集绘制，不能仅修改普通 caption。三流双副本绑定、好感 VM 操作数与缓存同步证据见 docs/UI_FONT_REVISION.md。
+
+
+## stage183 离线字形实验
+
+可选4×覆盖率栅格化、Lanczos、gamma、阈值与有保护增粗仍输出原2-bit字形。结构和metrics保持，默认路径字节一致；详见 docs/FONT_RENDER_EXPERIMENT.md。
+
+
+## stage184 选定默认字体
+
+Verified：A-medium-mixed 两字库由原ISO重新扩展生成，与实验完整字库逐字节相同；原2667 bitmap、全metrics/编码表和 opaque tail 保持。普通Font与两个唯一startup Font副本同步，只改变追加glyph bitmap。相较宋体ISO，62文件仅FILE.AFS内容不同，成员变化限AFSFileIndex.idx、MrtsEngine.u、celfid.lix；非Font包字节、SHIP、LINEAR、影片与ELF未改。1972单元测试及独立回读通过；隔离源码回滚1964通过。PCSX2冷启动执行原ELF的日志属于有限运行证据，不是正文视觉验收。见 DEFAULT_FONT_INTEGRATION.md。
