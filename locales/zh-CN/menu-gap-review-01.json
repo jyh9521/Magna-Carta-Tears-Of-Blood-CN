@@ -1,0 +1,2038 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "menu-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001238.tui/record/0/field/0/index/0",
+      "source_sha256": "9432f0674d846c650d62b160647aae65111bd80953557a1fdce249d614c73940",
+      "target": "吉拉特工坊",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/1/field/0/index/1",
+      "source_sha256": "39bc2af9492624a28dcbeb9c5535f39ef8626f8a828df5df51032496c1b5dfd3",
+      "target": "升级",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/1/field/1/index/1",
+      "source_sha256": "331d0998f142104b1a7f9f981710a944b7a4266b5f25f24e45979021852af9b2",
+      "target": "升级装备",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/2/field/0/index/2",
+      "source_sha256": "75e10d709c4a5a2e854c6368699e85f171fca2817f7ac673f3b486310582451f",
+      "target": "任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/2/field/1/index/2",
+      "source_sha256": "e095de51edf1a11194cf5eb72777239c39f9b0badce426bda345d734537dc102",
+      "target": "接受任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/3/field/0/index/3",
+      "source_sha256": "a1e940676584d1a041c51b84737e2ced005beeef9fbe462fd069c90c7c95f052",
+      "target": "离开工坊",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/3/field/1/index/3",
+      "source_sha256": "a69bf958333760035bb6ef10aa07dff10bcc48b72943a5a3be443297851e1b9d",
+      "target": "离开工坊",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/4/field/0/index/4",
+      "source_sha256": "5899200e59d21ac526ce1e4f4ef29ad4ed9578dc82b3b3b7ad3c9f240167ab3d",
+      "target": "要升级吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/5/field/0/index/5",
+      "source_sha256": "3f0344c5a29af418a17a4955faba04b4916a755467c41edd8a2245c649a6202f",
+      "target": "一次只能进行一个任务。要接受任务吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/6/field/0/index/6",
+      "source_sha256": "eaf6636a95a9f2714ac0af46906bb9fdc2fc2afb9155b8850a46043efb5b7a23",
+      "target": "最近翁戈利安特经常出没。我不是战士，没法亲自去对付它们；不过，你若能替我打倒它们，我就把那把剑送给你。",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/7/field/0/index/7",
+      "source_sha256": "198604cc3d28f2c3cc0cc4f7b250c3b965579d600ceb4962957f39fd2a2230f5",
+      "target": "要领取奖励吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/8/field/0/index/8",
+      "source_sha256": "d436bd408d890190a70747f6434be878915f06f53347e8a8f96e46359a30f4eb",
+      "target": "烈刚长剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/9/field/0/index/9",
+      "source_sha256": "6651f47683955163dc8e6a7159b282387f76041236c2c541ccab9742a9df89dc",
+      "target": "所需条件",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/10/field/0/index/10",
+      "source_sha256": "5b9a5cea928ca9cf36b1e3f76c1c691d91aa99674e2b4fe5d3597b9dcf2b522f",
+      "target": "[ 所需道具 ]",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/11/field/0/index/11",
+      "source_sha256": "69c95d66b61320c308e0049c5624c10a9f2c073b96d61b6a184ebfa01277de54",
+      "target": "制作时间",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/12/field/0/index/12",
+      "source_sha256": "df14cd1d75442553ca9a1e5108bf44f25bc10f68b6d370322387679f97d203a8",
+      "target": "成功率",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/13/field/0/index/13",
+      "source_sha256": "4bbaa674097fffbcd99418b44986fd9ffe93990e1929ef3d15fd3bd2b7abb651",
+      "target": "攻",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/14/field/0/index/14",
+      "source_sha256": "cc66951214cb0e6267d276337d3b2e7abd42596e9184d3a52ac61a0f404bbe5b",
+      "target": "防",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/15/field/0/index/15",
+      "source_sha256": "6d192433bdc8b077b3b6a5093b7bf3ece4f8c64df5319dc665767313204c26ea",
+      "target": "同",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/16/field/0/index/16",
+      "source_sha256": "0544a6dd0f7cace259a11c1a8a2000a95637a600bb1d726b9ee259fb63808f99",
+      "target": "次日",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/17/field/0/index/17",
+      "source_sha256": "44bf6fba70b7c2638a15242f6fa0fa2d259d448636e6a8cd2b468a6198349635",
+      "target": "升级结果",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/18/field/0/index/18",
+      "source_sha256": "379eb417b09f208158bec205c6d29e4e3bf2db9cdf3cfe15565ad31640ad8cf9",
+      "target": "确定",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/19/field/0/index/19",
+      "source_sha256": "e351cd11863a95091703fc920162b6cc31442458f39af65461a512a8e02915bd",
+      "target": "取消",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/20/field/0/index/20",
+      "source_sha256": "ab0c5d6e95737a505bacd3cd39dd5394f1978b86956c6cdde3a0063845ff51f0",
+      "target": "[ 怪物信息 ]",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/21/field/0/index/21",
+      "source_sha256": "61f2713834e26fd27f98bfab636a3d8499cd3b29d74aee47d539650f80bfc447",
+      "target": "个",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/22/field/0/index/22",
+      "source_sha256": "493d4438df077c1043c393c60ed36a76e2de6123ccb0cf35560fd24076453809",
+      "target": "是 否",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/24/field/0/index/23",
+      "source_sha256": "2368312d045c76d7480d86fdb8701f1fe44047f899abf675ccb5d73b9480b9f4",
+      "target": "出售装备",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/26/field/0/index/24",
+      "source_sha256": "3cf3ae89e8161d69d8e39c4dd6067daa5780991c45eca5abb1feb344954b2a88",
+      "target": " 任务状态 ",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/27/field/0/index/25",
+      "source_sha256": "056ff7a4f4b7b1e704dfe6b93d50489045ebae43de4aedb3896f74106b988bef",
+      "target": "正在进行此任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/28/field/0/index/26",
+      "source_sha256": "d2958ed88245c76c8ddc32506c0eb3be8c649d662ad8e61603830f37d2e812d8",
+      "target": "尚未接受此任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/29/field/0/index/27",
+      "source_sha256": "e9e73df4502e28efd15bd7b8dfbbe4b9f815146490afbafe972ed45ead217f7f",
+      "target": "要升级装备，光有这些还不够！",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/53/field/0/index/51",
+      "source_sha256": "24ef774e2a92630aa75a10e7447b340d20f538775fd7147f578ea41a99ce1e9e",
+      "target": " 获得！",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/54/field/0/index/52",
+      "source_sha256": "be09a3ded3546826beedb657d205ec66fd824900305331031e8a911f06f11d45",
+      "target": "升级列表",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/55/field/0/index/53",
+      "source_sha256": "2c113513395950338b0110d0d519db6edb9159f8a0ad0046237d678d5eb9f8a9",
+      "target": "当前正在进行其他任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/60/field/0/index/54",
+      "source_sha256": "7b2b79e05cd6b7853eaf7c0e85b9d524efdbffbd9118ceb5d41bbcf9852e0b63",
+      "target": "现在接受任务，完成时可获得额外报酬。",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/61/field/0/index/55",
+      "source_sha256": "61536f0f301862d083a463908436c25cba16daaeaedc5da7f70fe6e8dfd6f84a",
+      "target": "一次只能进行一个任务。要接受任务吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/62/field/0/index/56",
+      "source_sha256": "23fd46c3f2283720d106a056c08df264557fe2f1d38a3955c4a27fef87266527",
+      "target": "已接受任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/63/field/0/index/57",
+      "source_sha256": "5b111a59ceb2705b4d7d47f895ec7258630a519fd915343c1864c40dcb161ac5",
+      "target": "已完成任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/64/field/0/index/58",
+      "source_sha256": "d048986ad9a36c927ac47bc5e6ab5a19096f1f09f56486ddebc76eacbf98321d",
+      "target": "尚未完成任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/66/field/0/index/59",
+      "source_sha256": "d08628da4734433a030632feae100575cfd937d7ccf58b081e57d2f246d0ae1b",
+      "target": "要取消任务吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/67/field/0/index/60",
+      "source_sha256": "f5eeff2b93371cfce5abbbed9e5b930296325d94640f563f55a0693f3290ea53",
+      "target": "已取消任务",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/0/field/0/index/0",
+      "source_sha256": "ba5b66a0ed1870737ee5f22bbea85e4c9371e9d5a5a289c12f9419f8d28f33c6",
+      "target": "编成",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/0/field/1/index/0",
+      "source_sha256": "1dfddf556c72675e52dab5f8a04cb58eefc5037151c18081b67b0d4d74d6fdb6",
+      "target": "更换战斗成员",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/190/field/0/index/1",
+      "source_sha256": "987386620ba745d835695e15d7f09b04212c19532801906f2aa4fb6e3b24da68",
+      "target": "道具",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/190/field/1/index/1",
+      "source_sha256": "41b1f1fb1d2d0ee17c227f442ea667a3ae75436373f9aa16914ca3f25f9415dd",
+      "target": "使用道具",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/138/field/0/index/2",
+      "source_sha256": "8035e9e6536183eb115cf9096c52d5ded2286b4ceb0e3a2a7fcff436f6f25340",
+      "target": "装备",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/138/field/1/index/2",
+      "source_sha256": "b70f7ece4bf1f758c580093e84566c25b5ae392ccc38adc347f0d3d592a0c6ac",
+      "target": "装备或卸下装备",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/141/field/1/index/3",
+      "source_sha256": "51d553183ea1ff5b9d22ab7a8905f123eccc4d8e387bd90ef7f1815e5ad518db",
+      "target": "更换流派、查看技能",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/140/field/0/index/4",
+      "source_sha256": "ce1abf15529a9c82fd8a5f6344dce0da0c701b7fcd2bbab77ce0c26bbeca659a",
+      "target": "信息",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/140/field/1/index/4",
+      "source_sha256": "270d1a1873d8574f707b4d770798386e8e96b7dfb100d8596717ff6a549a449a",
+      "target": "查看各种信息",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/191/field/0/index/5",
+      "source_sha256": "47e8ed849adf9f69409146d94e4792bf6dd2848b269e163443c66444e1dab859",
+      "target": "设置",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/191/field/1/index/5",
+      "source_sha256": "a8bda66e89e230826480e9bb431ba04a3322f8c6c155ce2bd90f322ccdb2d851",
+      "target": "更改游戏设置",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/130/field/0/index/6",
+      "source_sha256": "28d0f8793daec69913d0e32ac3473f0ef1663b0b64e8babaa5f8f087ea2228d7",
+      "target": "诺提亚南部",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/15/field/0/index/24",
+      "source_sha256": "ed8c1521b1e1d7fc81aa3aa45d8a581e4ab2095a476284d84667ba066c50eb8a",
+      "target": "霍恩基加斯",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/16/field/0/index/25",
+      "source_sha256": "1c6fcd86f5b2b8144dc9728df0d6be6376a3bb4fe1466fde26e50939067a5788",
+      "target": "江河泛滥",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/17/field/0/index/26",
+      "source_sha256": "affa6e0e2399a07cc25ef845fbeb88a32b8f9c8a3cdbaf4fb4f27a43daa0ac06",
+      "target": "少女之梦",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/18/field/0/index/27",
+      "source_sha256": "0b371f5970888ed8ebc85902068064fc32d4f45ca84d39c61055c563071139cf",
+      "target": "风月流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/20/field/0/index/29",
+      "source_sha256": "64efab13f4147dee48afa799cfb889ddab0eeb643b3761432efb7083c25d65b7",
+      "target": "流星一光流（改）",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/36/field/0/index/30",
+      "source_sha256": "d749823e1935ead98c1c4d6d32c31ae90439daacf575ff2f370b69f68e45fe89",
+      "target": "武魂隐影流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/37/field/0/index/31",
+      "source_sha256": "75f0d7ea37943381034acecd88a75caea6a4405b344e40425d5259da639f4c87",
+      "target": "真·风月流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/79/field/0/index/73",
+      "source_sha256": "3d3f1eb7e4cb278e49d88cf315dca9f740032f5dac0124164dd3e4f7bcf2f93f",
+      "target": "天",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/80/field/0/index/74",
+      "source_sha256": "b081659408cf2c11e626ca9964d5babef98363cef8b155f33ace620e18c108a6",
+      "target": "风",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/81/field/0/index/75",
+      "source_sha256": "45f229a52f93543da6f1dcebafd66ed55d43d84503f7f4e7fb62a604ccfec531",
+      "target": "江",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/82/field/0/index/76",
+      "source_sha256": "7fd871daf0782aa06bf677ce9148d479fb9a0c1da733bac6af41ddee0f896e69",
+      "target": "水",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/83/field/0/index/77",
+      "source_sha256": "af3c62c1190be3d85f0d619655ab0a2329fcec7f73848f0cc09b8f623e6eeb12",
+      "target": "山",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/84/field/0/index/78",
+      "source_sha256": "89330c49a3f2e9c34666e63d4537c53f46d2dfb03336f5645ed836fb2b9af491",
+      "target": "地",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/85/field/0/index/79",
+      "source_sha256": "bc5209466275c78ba2d8dbb46eba0dc94997f3bb7e6e963379031c6689a02c78",
+      "target": "火",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/86/field/0/index/80",
+      "source_sha256": "245b6b02bb4d79dbb7d3eb3a1b7856fac45bc651f6a4ed12716eeb50c66e3460",
+      "target": "雷",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/234/field/0/index/172",
+      "source_sha256": "2544e8af9d32cb6b1ce93db9195aba0483d8ef7a7d214457b3e4a8ea287946aa",
+      "target": "前往阿玛巴德",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/235/field/0/index/173",
+      "source_sha256": "6410acb14fbfa42c4d51ab67425ac19e2c43661f7608441da19f9d9d9a10d585",
+      "target": "前往亚逊罗文东部",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/236/field/0/index/174",
+      "source_sha256": "2b6c81f1cdf0cd3932f3e2011740f9dba4db2b8d2576ced3dde636b8982428cf",
+      "target": "前往亚逊罗文西部",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/237/field/0/index/175",
+      "source_sha256": "b538658d8c67fe2599c854586ec25c732860d4c136ddeb7d5b0305fa768da71d",
+      "target": "前往马拉卡特",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/238/field/0/index/176",
+      "source_sha256": "06253cf2e6a52bae2b4d1591db1f4354e0f984be0861ab18b9e1af28d1f8ce5f",
+      "target": "前往吉拉特",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/239/field/0/index/177",
+      "source_sha256": "ed3fd91fc674e87df570e9bb2dcd59fd04c51453052c59a7e940afacea9f3964",
+      "target": "前往拜耶尔",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/240/field/0/index/178",
+      "source_sha256": "a6c318620d09bef72060d4e1cb5782bad9745f87ae554fd5ab4f5408ca8cbcf2",
+      "target": "前往北冰原",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/284/field/0/index/222",
+      "source_sha256": "f21f4094ca0a1b14dc6c56ef3fa90a22aa08ca43705b8c694fa8d87a93a6732e",
+      "target": "天之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/285/field/0/index/223",
+      "source_sha256": "5b579354d6b6c3cdcd6f520723664a5dd6c12bb91b01417ee2406c2c433dd44f",
+      "target": "风之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/286/field/0/index/224",
+      "source_sha256": "fcd943ae2cf8df670d5f946845fab950f8ddac4a8131df75712c65db8678ed5f",
+      "target": "江之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/287/field/0/index/225",
+      "source_sha256": "091ee7f439f9a942fa6002be2fecd3b641accd4f1cc38ad314fc29e049cafd87",
+      "target": "水之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/288/field/0/index/226",
+      "source_sha256": "f941feeadc9b01d1dbe3875685b3a32fdea04b9b612025a3e6076de552913361",
+      "target": "山之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/289/field/0/index/227",
+      "source_sha256": "44681973b4895883d6b2f7c1d767051d89e6f3959fa0980822813949873865e6",
+      "target": "地之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/290/field/0/index/228",
+      "source_sha256": "f6759f849b3bd20cb91a3a48dc9bba20d18c55e4b26cf20805ca8d28b992e0af",
+      "target": "火之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/291/field/0/index/229",
+      "source_sha256": "ec54c2b81ce8732e214dd1e43e0104fefaeef73b944550a58a1c9662b8f09420",
+      "target": "雷之卡恩增加了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/0/field/0/index/0",
+      "source_sha256": "24ef774e2a92630aa75a10e7447b340d20f538775fd7147f578ea41a99ce1e9e",
+      "target": " 获得！",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/2/field/0/index/1",
+      "source_sha256": "1e0ccaebcb678e0c7185595c478b85f294990eec66b50cc7fc1f4bdceee77ce6",
+      "target": "是",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/3/field/0/index/2",
+      "source_sha256": "ffac2038d3eda2ce8502838b8ffc78822990106505478e462f505e310312a229",
+      "target": "否",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/4/field/0/index/3",
+      "source_sha256": "69f4684f1c2768a9c82f7dec13357975483dc48341e79a8d31a1001cc1b52ac0",
+      "target": "更换流派",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/5/field/0/index/4",
+      "source_sha256": "3c6a562ab64c7932a3ace2becdb5e3943e0e6a249ab207e92bc1cd69e6ff2823",
+      "target": "切换模式",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/6/field/0/index/5",
+      "source_sha256": "41bfa937e5d2f69a3bcdd884ddc0f0716fe804000c1a1c4f2995083927caf28c",
+      "target": "确定",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/7/field/0/index/6",
+      "source_sha256": "e351cd11863a95091703fc920162b6cc31442458f39af65461a512a8e02915bd",
+      "target": "取消",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/8/field/0/index/7",
+      "source_sha256": "97ff96062a52b6d2d774300f0c9343e351dc9562224b1fa2b9278360005251ed",
+      "target": "更换角色",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/9/field/0/index/8",
+      "source_sha256": "c38c825c92e0ceded83715b486bcea91d29daa09e36e59379d7542de40f0995a",
+      "target": "需要钥匙",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/10/field/0/index/9",
+      "source_sha256": "33e48903988f9be8ffc3075e546997677e9e31d805ef8d8d60221c8deed5df94",
+      "target": "没有钥匙",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/11/field/0/index/10",
+      "source_sha256": "6b96b506c70b5b9735bc70a9f5e446c4cc1557528fd3b30d2c9e3aeb163994ce",
+      "target": "金钱不足",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/12/field/0/index/11",
+      "source_sha256": "cac886ad8d78a149ce4a4805f4793d06d9441260da8bacf6afaab833744dc72c",
+      "target": "要存档吗？",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/20/field/0/index/19",
+      "source_sha256": "2158291fe8b4d57f51df85e48993a718d50a774ece9495c95a32a45727969c63",
+      "target": "此角色无法装备该武器",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/21/field/0/index/20",
+      "source_sha256": "996e089b1c38b07e1380515504c02018431012875a81693f62e7580fef47151b",
+      "target": "持有数量已达上限",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/22/field/0/index/21",
+      "source_sha256": "0cafc1cc177c69f811bd689c4f62c525a06365a9fc8926fa80c71361ff9a7be6",
+      "target": " 已达持有上限",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/0/field/0/index/0",
+      "source_sha256": "da317a18d3485e91950ae6012288924ba4f62f991a6ef5b3ccfeb63990e3ebcc",
+      "target": "请选择同伴",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/1/field/0/index/1",
+      "source_sha256": "00302f67877f83ddb2ad5cc73f0bebde3bdf1c6d852dbe447ff49249d9c5b50a",
+      "target": "选择角色",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/2/field/0/index/2",
+      "source_sha256": "17521d034ef7fbeb098759fc772b742d8d046cc2f23159f5f302c2a6c504d404",
+      "target": "来，送你的礼物。",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/3/field/0/index/3",
+      "source_sha256": "204c5e910a2e8c7570703705686e97e829dd7a277cccfd755285d580dce4b554",
+      "target": "哇～谢谢！我一直想要这个呢。",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/4/field/0/index/4",
+      "source_sha256": "60b70ec37d90006db7e5bd69050ce4f653fa9023fd72e7dd96867aff6db0611b",
+      "target": "我也这么想",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/5/field/0/index/5",
+      "source_sha256": "9f5e595da254160bf54c112f650f17de917c815adfb376c6364524cd6e89233b",
+      "target": "别说同伴的坏话了",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/6/field/0/index/6",
+      "source_sha256": "23b5f8aa53fa1acb13df4facc71adc0e915fe26a864ad568d2c3a58660a25944",
+      "target": "也许莉丝是间谍",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002381.tui/record/0/field/0/index/0",
+      "source_sha256": "54aa855adecc2dbcfa2e1bc4880246723390330fcf08ed826b6fb00bf4f26f1a",
+      "target": "马拉卡特的恩特雷斯沙漠有一座普诺森图书馆",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002381.tui/record/1/field/0/index/1",
+      "source_sha256": "bc7547bcd2e785da427b13a3d1e3a8cac5cec3d8ff13e5fbadc5516a16cdbbb5",
+      "target": "头一次听说呢",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002381.tui/record/5/field/0/index/5",
+      "source_sha256": "dd3089107a5320ac0bb94544e84b81d0cf099dc1b7103c33fe769c1f0fefae70",
+      "target": "没有目的地",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002382.tui/record/0/field/0/index/0",
+      "source_sha256": "bed671596b2caa36df64aee8a2d7b996ce7dc5e01d473798f2d73249de2ba7e0",
+      "target": "没人会知道的",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002382.tui/record/1/field/0/index/1",
+      "source_sha256": "436ab9b1b94b37b1a9f4dba6e64d3b2c62a15f0a0f4e8c1ccfe2d75e3b467e7c",
+      "target": "只是白费力气",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/0/field/0/index/0",
+      "source_sha256": "0b371f5970888ed8ebc85902068064fc32d4f45ca84d39c61055c563071139cf",
+      "target": "风月流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/2/field/0/index/2",
+      "source_sha256": "666a0f5447aa80f33883026f8b21ccd3077e8652ce50473b002af8950a2a8903",
+      "target": "弓来燕牙流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/3/field/0/index/3",
+      "source_sha256": "8c6e1987df3111c7e14376a196a832a60c486a61fde3553bb5838987514618f8",
+      "target": "流星一光流·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/5/field/0/index/5",
+      "source_sha256": "d749823e1935ead98c1c4d6d32c31ae90439daacf575ff2f370b69f68e45fe89",
+      "target": "武魂隐影流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/6/field/0/index/6",
+      "source_sha256": "27387697365e55aac8a86f90bc887f6b5118031f19ddfbdc71fc500f09c88f53",
+      "target": "弓来燕牙流·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/7/field/0/index/7",
+      "source_sha256": "5d594e34d19be36b05f24d9d60fec3363f9d83c73da005c972912135d7aa5e3d",
+      "target": "天规神燕流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/8/field/0/index/8",
+      "source_sha256": "d97154d92b7ae562e60bae4e343255a311117f5c327990c2d9f902448fd3988f",
+      "target": "真·风月流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/9/field/0/index/9",
+      "source_sha256": "34b132766c6bc59c639df0e46f9a2231da6a720c6e70728ff6c2f0263b95995b",
+      "target": "天雷击掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/10/field/0/index/10",
+      "source_sha256": "72671c6e17fef042ff825a3538b65048491f1e634efe4bd8dbe2c507247dfeaa",
+      "target": "夜旋神掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/11/field/0/index/11",
+      "source_sha256": "9028f29f22c05c0df1050613ab14174a9d358eece9194c0a73eddd594de3cda6",
+      "target": "震冲叶掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/12/field/0/index/12",
+      "source_sha256": "f6cd3cede50192b7c9d1d404f83ec438339d56d4dc9c2d3ce8892a788572bddf",
+      "target": "轰电乱搏掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/13/field/0/index/13",
+      "source_sha256": "df5413df40a66e2a7b83552ebdac94a21b36acfeaaa47168e37828a2a9619d11",
+      "target": "搏破气力掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/14/field/0/index/14",
+      "source_sha256": "dd47dab64794b065575ef244227fd7a22809750eede0da3d227a6ed5e1dcbabf",
+      "target": "寒阴魁厉掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/15/field/0/index/15",
+      "source_sha256": "0ac91ec48a475f2782948ae5aefffaa5dbf93e8b4bf37998e6b3fce669491a73",
+      "target": "五轮十境掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/16/field/0/index/16",
+      "source_sha256": "30a2102bf849c4d2665983066c62870ee66147cd8ca700992571c39a1ce51324",
+      "target": "火球魔道流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/18/field/0/index/18",
+      "source_sha256": "77927dabe870f0a6b24e3af03652010fc02ebeadd0360c9d592ee3de9d93b8b8",
+      "target": "土力强破流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/19/field/0/index/19",
+      "source_sha256": "d245bbbe627bf437b6d90809a2c9a4d53e11d97f1b068a309075fc7fddc513e5",
+      "target": "天命流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/20/field/0/index/20",
+      "source_sha256": "94b1072ca9a0cc9150d168c26cc06904fee37b61d65b42b9ff0dc8cac5239eab",
+      "target": "八云击电流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/22/field/0/index/22",
+      "source_sha256": "a86654d84fd9e8d4ec5c2289803407e6da559458c6e84ccdd97a4a5272855bb4",
+      "target": "视线流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/23/field/0/index/23",
+      "source_sha256": "dc9e410d49c42c0ed22bafd8a1e7efff8e92c8e59179be4bf0a76ebfacdc6d3f",
+      "target": "江河流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/24/field/0/index/24",
+      "source_sha256": "984b84f590acd28b7a1db098093aa8e7b9af0836618584fdfd3ae13c635ded85",
+      "target": "青云地流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/25/field/0/index/25",
+      "source_sha256": "b86a8d2c43d4942cabc86d21dd871ef0cb25e15b741c7f348e7395f32a75d325",
+      "target": "幻虚天帝流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/26/field/0/index/26",
+      "source_sha256": "0aa51adde085f9cc806266e28b74f9952355654f5f64bf11a91037e0efebe65d",
+      "target": "青天水连流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/27/field/0/index/27",
+      "source_sha256": "1842e837ee88e26359a3b073feecc15294a6f41d0f37a5dc155ac7bf90fd1c99",
+      "target": "天正流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/0/field/0/index/0",
+      "source_sha256": "242aed03edb3e07c942ed9c0281a6391746deac9a609429cce959a33717e7129",
+      "target": "一阵斩",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/1/field/0/index/1",
+      "source_sha256": "2f40dc1a04348b1e1602283cb7d940e42aa572a7b2351ff3f4c981c24b7a5376",
+      "target": "影斩剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/2/field/0/index/2",
+      "source_sha256": "91ab55e80f95c1f529d243649d6d4446a9f1c2955b26c18b055ae66a046ea347",
+      "target": "影斩剑·连",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/3/field/0/index/3",
+      "source_sha256": "1fdd08a7f21359480a3e7d7609d05b1533bc446b4a0d37457595395a629f8e73",
+      "target": "空破剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/4/field/0/index/4",
+      "source_sha256": "7b14d33d5ca01ec7eaa8d18cdb54a554a3b573c13e97f9a365b6b229dafc3b13",
+      "target": "狂风连剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/5/field/0/index/5",
+      "source_sha256": "9e9395639badb858d3ff39c825ecb447f2b2ee93a60dd654371f3a4ccf9d5aa6",
+      "target": "风天双击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/6/field/0/index/6",
+      "source_sha256": "433cfd7966eba3566f7184dcd4668cd2e5e29460b1552490448cc9ace0422858",
+      "target": "烈风无双连",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/7/field/0/index/7",
+      "source_sha256": "14aba321c420a117c9af7db3bf722133d9a1a68d0533e4e01a1efc9c87116a2b",
+      "target": "龙牙虎爪剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/8/field/0/index/8",
+      "source_sha256": "11446218806cf92743779a185ac7d49ac35832e9ce5037cf0952c4e3b56983f9",
+      "target": "苍天真剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/9/field/0/index/9",
+      "source_sha256": "ce6291a583ca6d45401ffe9a49f63255bdadfcc543ec6a99610c97778e584a47",
+      "target": "反·流星一光流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/10/field/0/index/10",
+      "source_sha256": "749289c206b38865bd82eb013d583943241f955906d56e6a67ab92c907c2079b",
+      "target": "朱虹剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/11/field/0/index/11",
+      "source_sha256": "c961b7f9687863a591e76bb1ab4ee6fe1d86b239e20fb9001b3a8d239b45db8b",
+      "target": "六星十剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/12/field/0/index/12",
+      "source_sha256": "51082dce6b843a5e94d2843f8b3912055a97b359b55daa97f0f2e0387a95205c",
+      "target": "破潮极印剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/13/field/0/index/13",
+      "source_sha256": "a8e9b3a6abd1341855ad5d78a671ab0fff42e04e5645658b124628cecd3a71b9",
+      "target": "螺燕剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/14/field/0/index/14",
+      "source_sha256": "29af5c63cc2c263b0e08c21b782e6fe55c2de081e04822fbfa456eaa4558fde6",
+      "target": "柔互剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/15/field/0/index/15",
+      "source_sha256": "6828313cc9fcc22d4da5dc814572e84937630c5976577453f5552578e3eb31ec",
+      "target": "狂风连剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/16/field/0/index/16",
+      "source_sha256": "e129b23d2b4ced8cfec6345002ed25750347cdbb653f2fd8970c6dea7dc83b2a",
+      "target": "风天双击·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/17/field/0/index/17",
+      "source_sha256": "4a886fc1be99e23aa2090b2f2e6df62cb6bdbbd9903ed2964e6a534f7f6a02b4",
+      "target": "烈风无双连·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/18/field/0/index/18",
+      "source_sha256": "9e5ac24e67d4dfd94ada0c2ba55da4a19192d1b191eedcde317f37b04299e2f5",
+      "target": "龙牙虎爪剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/19/field/0/index/19",
+      "source_sha256": "49cfcd378d2f2ce36e796470f7e5d33117ab57d32a7d209f407991e178564b73",
+      "target": "苍天真剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/20/field/0/index/20",
+      "source_sha256": "a17925f6781478035af3c72c9deefbaee0db2d220c57e7a3a0a1483788e14533",
+      "target": "流星一光流·改·奥义",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/21/field/0/index/21",
+      "source_sha256": "49bc69808e491e40c516f38e1594f13816dcb4969ee4cf5f0dd1b5bcba3d89db",
+      "target": "方岚任击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/22/field/0/index/22",
+      "source_sha256": "a49f5ab791720de56bc0edc0db17adbe4d35398531a40dd14e5959b385301b02",
+      "target": "回旋五行",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/23/field/0/index/23",
+      "source_sha256": "d4c3e468fd37e323949a1721de10e1ce1d72e316edb7abd1b5f75628749525b9",
+      "target": "阵罗气击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/24/field/0/index/24",
+      "source_sha256": "170cd0b3f49130a51f80e262f95998e2caa348574edf56f7f62747c2c1f9a578",
+      "target": "群牙斩",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/25/field/0/index/25",
+      "source_sha256": "e43ad17e6fe0158a9a953f9b53f662ef7c9dceb4f636c72821655b3f106ccf4b",
+      "target": "影飞下斩",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/26/field/0/index/26",
+      "source_sha256": "c2d48b5d850ddfa2b444f07f4019d0d63e94d7f1f4aa418078b988b43cce7f46",
+      "target": "方旋周还击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/27/field/0/index/27",
+      "source_sha256": "8d2b345a1eb4b8d4b1d64a97b8688f003b2b2415a39a3792cb94a141e7904de7",
+      "target": "无极剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/28/field/0/index/28",
+      "source_sha256": "e2137cb270372e8160edbb2f52256a82fa3bd787cf33df3a5688ae1c349a9af0",
+      "target": "天降黎明剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/29/field/0/index/29",
+      "source_sha256": "88157fc8feab227f4a3ae05105f575c3282632f2c38d6654ed968b0aa263ed78",
+      "target": "北风寒雪剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/30/field/0/index/30",
+      "source_sha256": "454fa5a717ba8dc761c882ec0addf553e111a98d01955b81eb78e5c510e20d49",
+      "target": "方追幻舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/31/field/0/index/31",
+      "source_sha256": "f9c35ac8c82557139d9b5cc78fc0128686da94fbee0975d5d3a4d4a62e027be3",
+      "target": "烈火地狱剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/32/field/0/index/32",
+      "source_sha256": "2e3ef0a7d3bbbf4264b61988a97136208cd5eac5b98044fc3cdf81ca1558c86b",
+      "target": "天下一剑阵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/33/field/0/index/33",
+      "source_sha256": "8c01ae2ceee5198d85111205bb445a09eec41d096483752c03725f796323281b",
+      "target": "武魂隐影流·改·奥义",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/34/field/0/index/34",
+      "source_sha256": "1213f962ad49c49ed4d6ec00fcbfa2e880f2a65c94974a0fec11beb413813fc4",
+      "target": "朱虹剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/35/field/0/index/35",
+      "source_sha256": "bca7ee21dcd8c6d142938603763b641b1d5517ec00e945da9698bf3bb208322b",
+      "target": "六星十剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/36/field/0/index/36",
+      "source_sha256": "b96bea148e8ba86fe8ebbe068c192f894fca7d2cf23d12a8962c78220be6313b",
+      "target": "破潮极印剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/37/field/0/index/37",
+      "source_sha256": "03524a5749f3093495d5e055cf546ad6bd961bdcbde284d9a9a930c76f2d422b",
+      "target": "螺燕剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/38/field/0/index/38",
+      "source_sha256": "36546f8aa0df4aab1ffd3a9b98653cb41d0550e134c4f7f6d1600732516c5517",
+      "target": "柔互剑·改",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/39/field/0/index/39",
+      "source_sha256": "6f2df34ac44f18edd3d5876660c04691059a578fd10801cb1afad7cee1328d16",
+      "target": "天地破裂舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/40/field/0/index/40",
+      "source_sha256": "62a61a09ba2798424ea39047d0f60ecb3450c7773a759773d07e2c1401d54373",
+      "target": "弓来燕牙流·改·奥义",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/41/field/0/index/41",
+      "source_sha256": "e2bbdfcaa9ae80e67dcd676ab7708f86d75da1deb0da582ed6aebec57257e857",
+      "target": "地寒旋剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/42/field/0/index/42",
+      "source_sha256": "58a6a39c23f0891e02e3af647bd92dbe68c512f5abf2cde59498b60cc5a3d814",
+      "target": "步后虚剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/43/field/0/index/43",
+      "source_sha256": "1c0dd9721702276ccc74c9052dbc52a6905cada8cf1f4421c0233bf0cb7a8cdc",
+      "target": "升掌高剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/44/field/0/index/44",
+      "source_sha256": "85aeef1aceec3d7da84857c1d53919d4713fe5d25032323dba797d553f4a8409",
+      "target": "毒牙飞剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/45/field/0/index/45",
+      "source_sha256": "3c97160fac8d728c0d5b8bb8f2effe60996ffe4a2c9a8635917660e0cf910726",
+      "target": "蝶夜剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/46/field/0/index/46",
+      "source_sha256": "2fa02585e4d70dcc66a3311087a5d8e6ceaf73d0b09dec434c92ad9ca2b58afd",
+      "target": "极意·燕牙剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/47/field/0/index/47",
+      "source_sha256": "254d97d90c6114ba6bd446e7e2b4a4cf177b4c24e0ea5049bf1f3d7732be1d55",
+      "target": "天规神燕流·改·奥义",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/48/field/0/index/48",
+      "source_sha256": "1959018cabddde8838aecd9d1b081de37e7291c6e644a6dde50271357769db78",
+      "target": "真·无极剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/49/field/0/index/49",
+      "source_sha256": "4a7a1eebfb2d0788d973101c626c1e492552071a06f773c1337c2d768cae8e8e",
+      "target": "真·天降黎明剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/50/field/0/index/50",
+      "source_sha256": "b02e98496067e33114db8442b00aa9370540b74c93d59892f209848058c29673",
+      "target": "真·北风寒雪剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/51/field/0/index/51",
+      "source_sha256": "f9d6ee772527d64f65d83bb91b861fbdb8e0d447bcfefcfb176caa59105f9ef5",
+      "target": "真·方追幻舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/52/field/0/index/52",
+      "source_sha256": "78f47b587d9c2c4702eb140594771a416e19d1face0c74740d0a47bc27ce3367",
+      "target": "真·天地破裂舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/53/field/0/index/53",
+      "source_sha256": "5a05b0fa795d41d8b0bfb4d61a8e41c1b6470a5c219998680c8c77f5d1ba3e73",
+      "target": "真·天下一剑阵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/54/field/0/index/54",
+      "source_sha256": "9774fd0519d1f3ff56d6fae943b48c4399f045c60fec531ba39a61181dc0a2df",
+      "target": "武魂隐影剑",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/55/field/0/index/55",
+      "source_sha256": "95cf22380bc16074eb85fcf2b417e4319f92ba9f05edcc08fdcd4d8a32bcfa3d",
+      "target": "天上剑阵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/56/field/0/index/56",
+      "source_sha256": "7b052e4dae3da74954811082a6d70d1cac7bc57d0ba1d5c5630cf320d0e68385",
+      "target": "一掌·黑狼破岩",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/57/field/0/index/57",
+      "source_sha256": "45ba2ed785318f3fdeb03896ee6dc341b6708f4dd28253404d9d49546a77021c",
+      "target": "二掌·五峰纵破",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/58/field/0/index/58",
+      "source_sha256": "56f86366419afc48cd7d79042e35d69412d66777eb09977e28e93a289bf6ba49",
+      "target": "三掌·北山如巨",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/59/field/0/index/59",
+      "source_sha256": "fdd1abd689fd77a7ac770bc99d25dd29f0f34aa27cc3b85cf8c3c3a35a450dc8",
+      "target": "四掌·黑狼斗灭",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/60/field/0/index/60",
+      "source_sha256": "ae8ce6851d8277edac1567ca454c5dea20593f990f0ebb373e37a81251275a0d",
+      "target": "一掌·自巨雄来",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/61/field/0/index/61",
+      "source_sha256": "00a01b1c130a5b359b43e7b9e735b5515eef591962fc7c98cacfbbcc560b011f",
+      "target": "二掌·高天飞鹰",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/62/field/0/index/62",
+      "source_sha256": "60e7154bf71edd0a7a2f5dbcc045b6294b2debec9631aa59165b2893d6399d84",
+      "target": "三掌·窈爪架峰",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/63/field/0/index/63",
+      "source_sha256": "3408391f9d3d0a8f9e4401887d24249612413841fbf204249d8fff8d07f453b1",
+      "target": "四掌·震斥晓雷",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/64/field/0/index/64",
+      "source_sha256": "de733ba1ef0ca7652de21920b7c486a40316ac27a23702192adfff727faec3f6",
+      "target": "夜旋神舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/65/field/0/index/65",
+      "source_sha256": "9c6381969796bdf73f9401f4c590b9eb3797090bb8078f82d48f4e66bc234a6b",
+      "target": "一掌·地源落翔",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/66/field/0/index/66",
+      "source_sha256": "fe8967411f66b20389743336dead110cf501612ad6a983deaaf88595d9b1eb4c",
+      "target": "二掌·乱手获金",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/67/field/0/index/67",
+      "source_sha256": "49dbd3fab3c84677f64b739c161b0881d64257f10d7237b9ff6ab6efe0b201ad",
+      "target": "三掌·五裂山溃",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/68/field/0/index/68",
+      "source_sha256": "da314bd62f548f91e9ee73679360c6eec5d93ddb6227415a6c789571e661d1ab",
+      "target": "四掌·五形至尊",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/69/field/0/index/69",
+      "source_sha256": "568a41ad573c3083136733cd76e8e681184eac79117bcf72f6b7dbec7cfd20de",
+      "target": "五掌·朱罗灭劫",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/70/field/0/index/70",
+      "source_sha256": "6834fa0d60369701b9a89222483d2d095fea88f089f274798e6567142d25fa50",
+      "target": "一掌·架下寅范",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/71/field/0/index/71",
+      "source_sha256": "8da40b44e4a252f8f1fd36e38288953140f5a6ec3522f0315664c450bdac27d2",
+      "target": "二掌·御厉西赴",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/72/field/0/index/72",
+      "source_sha256": "2889bb3a846be6739ea27fef8d11de61c4fcd0174255ce9589091d781aee2213",
+      "target": "三掌·步反一玉",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/73/field/0/index/73",
+      "source_sha256": "3ff76a6a176a6a4698daeb76006cf9215610e746a2d0c02c15326cf6b181265f",
+      "target": "四掌·水星乱击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/74/field/0/index/74",
+      "source_sha256": "69695fa9dc819c189a406afb715faf57c1464ffbecca92908b734a8130c30c7d",
+      "target": "五掌·流轰电掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/75/field/0/index/75",
+      "source_sha256": "e2c63b4a0d017702261170e607ede0be42071437f15357ee1c4e67e51cc4b600",
+      "target": "轰电乱搏舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/76/field/0/index/76",
+      "source_sha256": "71f7d3c6a435aa4956532f63f574e1ca03ac772dc64f4fc3665cb88367108cbf",
+      "target": "一掌·虎鹰发击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/77/field/0/index/77",
+      "source_sha256": "8178ee56a6306cd9f1f00ed8c5dd23f047f19df12d1aee7fc8ebaf535c634198",
+      "target": "二掌·雷电地杀",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/78/field/0/index/78",
+      "source_sha256": "41a5524bb9b2fa9a1498305a3ac9e4ab3d966d25deaf52bdc27210a402ba0301",
+      "target": "三掌·武豪一星",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/79/field/0/index/79",
+      "source_sha256": "2defe789f81cb5d23f4f8872872cce7a5eac1fbf697bd28beada17b86472e918",
+      "target": "四掌·幻虎太灵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/80/field/0/index/80",
+      "source_sha256": "5a4d2e83a5a8e64b8fcb583e795fd09b95df2172920ff90f9d8619f253a30239",
+      "target": "五掌·地甲重当",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/81/field/0/index/81",
+      "source_sha256": "acf7b895261d9024bccda6e3ee5ddb1cf28d048da424f2514eed1a646e582dc5",
+      "target": "六掌·虎放天下",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/82/field/0/index/82",
+      "source_sha256": "2dd31f53ec0fe2e23550b88189f26059426078607ea73706bbc5da8528ef054d",
+      "target": "一掌·阿罗魔击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/83/field/0/index/83",
+      "source_sha256": "8bcaa4f7e3665d31075f632bd4e85e4102341c5536596ec9418e1e6d2828e323",
+      "target": "二掌·魁厉魂掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/84/field/0/index/84",
+      "source_sha256": "145e185a92b984505d92679a649abb41569d19f50e8ca0fd6896d0f79b2fba0b",
+      "target": "三掌·银昂搏厉",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/85/field/0/index/85",
+      "source_sha256": "9ae3d2acc744f44a5fd244e5ca9c245c5cfe9ba232a320d32ac24b93f5fc1271",
+      "target": "四掌·多地金刚",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/86/field/0/index/86",
+      "source_sha256": "fc7bcb6fd3f254ec873290c4533ee83b7dcf9432d10f82937c9a83e3d5a0b424",
+      "target": "五掌·皆罗流击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/87/field/0/index/87",
+      "source_sha256": "592ac0479f2cd12b8201956f5745f35e1680f6f9c9bbb0d43217a4d0b2c25b25",
+      "target": "六掌·天神万掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/88/field/0/index/88",
+      "source_sha256": "7f29a06847596fc4177b81d6689ddaf2a81ae80c3009a77a9c8bbd84ce52e7d9",
+      "target": "寒阴魁厉舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/89/field/0/index/89",
+      "source_sha256": "f101f741a222881bbdadf5253dd3394f6c3459f8c15ed0d0833fe9ed8cad4ef7",
+      "target": "一掌·流星五掌",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/90/field/0/index/90",
+      "source_sha256": "510de281cf1be013d53edb755254360a7961927c1053d86e485270537b5353fc",
+      "target": "二掌·双虎搏震",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/91/field/0/index/91",
+      "source_sha256": "95b8056c55761e401a3a6687d494185365350a53a65e1097a3a83bb3ea2809ad",
+      "target": "三掌·暗魂烧炎",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/92/field/0/index/92",
+      "source_sha256": "9c2ed08cfd81616177b0cedef7db24fd13c9f0b2605633e55ebf2d395005f0e3",
+      "target": "四掌·六斗大龙",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/93/field/0/index/93",
+      "source_sha256": "4525167d7d029da65dfcf11d347cb2f3cd56b07056058c4d60329193ec72575f",
+      "target": "五掌·天上龙凤",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/94/field/0/index/94",
+      "source_sha256": "1a6813be55c151754973204b2922226a0bc6d9f3190f830fb98498961036c307",
+      "target": "六掌·无生一心",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/95/field/0/index/95",
+      "source_sha256": "1a098bf8efe5779add9e5585225d6bf270eb070b7761fc33477f06bb966eb7c4",
+      "target": "五轮十境舞",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/96/field/0/index/96",
+      "source_sha256": "00074ced4920ea1ca36790d8a2d60ca5a22391e83cbfe0016c2f047421cd8c93",
+      "target": "火力球",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/97/field/0/index/97",
+      "source_sha256": "c6c521fc310f83dba2e1f3d49ea493de0c2813a8c0b8fabca96847caef650210",
+      "target": "火焰击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/98/field/0/index/98",
+      "source_sha256": "f8c920f2960b4b6a12923f9b8deb662cc0942a65d222619939b24975a03ca450",
+      "target": "火焰震破",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/99/field/0/index/99",
+      "source_sha256": "55d31cdfb404997a5963e5c667cbd9426202d2173990a0f87c760990943fe3ce",
+      "target": "火焰强行",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/100/field/0/index/100",
+      "source_sha256": "218b0487f5dc612a94117b98b0b453979c5f3c0b0a74da3f27d921395c602d90",
+      "target": "雷击升华",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/101/field/0/index/101",
+      "source_sha256": "e164b7834746c28a19aacd70c5ba42831a997cac8fa7b97a33a28c100eef10e6",
+      "target": "雷声降震",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/102/field/0/index/102",
+      "source_sha256": "c71023d4bdf83a02177006345f81882777a4eb826a37426ec6fcb5eeb462f590",
+      "target": "雷虎破连",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/103/field/0/index/103",
+      "source_sha256": "0eb73ffada0eded734923779b6bbcbe35a266a364a026766fdd3a0e82f7a7312",
+      "target": "十字雷电术",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/104/field/0/index/104",
+      "source_sha256": "c0678d3995b1c0be417a88fe8bfe85a0ffafd5218ec1fa8725c156e15e570526",
+      "target": "飞月降击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/105/field/0/index/105",
+      "source_sha256": "6bdba217f4d30d1f04fa3610e38a57ad97606496085ac4c44e38cc1db71c1744",
+      "target": "角形雾笛",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/106/field/0/index/106",
+      "source_sha256": "11ddcf6faab171591f4a49f9a10cfb0405d0fa07b97092198c1435805052cade",
+      "target": "炼星地轮",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/107/field/0/index/107",
+      "source_sha256": "ec033f8f1f4a61fe06fe66b5bbee5437b92794633c98bcbb0b8195c4b66cec3a",
+      "target": "拘缚地盘",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/108/field/0/index/108",
+      "source_sha256": "8600559718b106a0196d30f0b9ebd9431d40312b1e43ac4fdd3e6ec5fafa0355",
+      "target": "土行八阵图",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/109/field/0/index/109",
+      "source_sha256": "9583d9d037dc8a45709a50cbca7525698824e88a0f9496bae8e24dff87438d6b",
+      "target": "天上宝灵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/110/field/0/index/110",
+      "source_sha256": "d9cf84a0433658c319c2059b407546cd1294b8b573cb64c315ad834682fd758a",
+      "target": "天山斗神灭",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/111/field/0/index/111",
+      "source_sha256": "ea022e258b5f450b530426f235c493d96238e80905e469eb576e8d87e74d6cb1",
+      "target": "天风波道行",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/112/field/0/index/112",
+      "source_sha256": "4b6831bb5c39100d3f20fdafd6dcc8d2f1bd55515a489ebed880ad1208b86c1e",
+      "target": "冻人归天",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/113/field/0/index/113",
+      "source_sha256": "ad3d51241384c0aef9cc9ec961ccfe25310a96215d5b0a2d673df09646c00191",
+      "target": "天峰七星击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/114/field/0/index/114",
+      "source_sha256": "3e484677b62de3be02d8bae21fa9a6065813c258c3a644cb2441836e430b934a",
+      "target": "雷声魔道流",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/115/field/0/index/115",
+      "source_sha256": "7897f9efeca569e0677b4d1ee8ff3c0be8da7625f5e05e7549b07bb847a149c6",
+      "target": "罗汉击电",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/116/field/0/index/116",
+      "source_sha256": "800def7aa1731720d43e4c53a9ef3a57a68ba430bc8b6dbf5024ebea752f3787",
+      "target": "风雷螺旋击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/117/field/0/index/117",
+      "source_sha256": "39569f808467db8772369d3082e973517ab74c71eebd579a4bdfe2f51947285c",
+      "target": "雾雷电",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/118/field/0/index/118",
+      "source_sha256": "55a347241b82b462fc9b995368d7031ad7554c477cd1a62af554b4c1ba38dda6",
+      "target": "惊电界",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/119/field/0/index/119",
+      "source_sha256": "d0cf3314de12111caa453efeb82302ece28f5c32dee18fb091c881f4b7b2cba8",
+      "target": "全雷世界",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/120/field/0/index/120",
+      "source_sha256": "4991d60665dea427ae0529dd082874b66203bbc1aff03064462c4da223cbd9c5",
+      "target": "炎电雷声连",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/121/field/0/index/121",
+      "source_sha256": "e499dc47748ae7b988aa99e94ef6c590842b136f92fe628ee6da2922f2ccbb8c",
+      "target": "搏电黄连破",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/122/field/0/index/122",
+      "source_sha256": "a9baeee64d958b4000775a9a56edbfa0f82a872ed834add384d76dac550dce17",
+      "target": "连炎烧火旋",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/123/field/0/index/123",
+      "source_sha256": "99d9125d9d57acd7c8e57215362e861415d81a807d862dec7ed0f040cc8f034e",
+      "target": "雷光天炎散",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/124/field/0/index/124",
+      "source_sha256": "af33f4dc39fef6e23b842df4454f4e5e57fea89f80f3f7cea6833b08c9c10fce",
+      "target": "寒炎地凉峰",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/125/field/0/index/125",
+      "source_sha256": "2ff9e96b779f9253adc195c1be8be44e637d2764f94969a61605ef0365730d5d",
+      "target": "黄雷帝炎阵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/126/field/0/index/126",
+      "source_sha256": "baca02ce48ee9e5f50f11e36b6f1fc6026107fb186fd4fa8a71a2ae73b477063",
+      "target": "助威",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/127/field/0/index/127",
+      "source_sha256": "82dc7c57110b50cb4e4f4a824064bc17c90ab8b842859b163dd1e96ac8208c71",
+      "target": "回复圆",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/128/field/0/index/128",
+      "source_sha256": "42651e7a501cb26764524226f2570dc69de6e19aa3c23d12b21805144398fd2d",
+      "target": "回复一圆",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/129/field/0/index/129",
+      "source_sha256": "f0b1dcb5f71b2a272ce0b47c9a32b4bc8e24875492ad11ca12807c9f2520cc90",
+      "target": "回复阵圆",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/130/field/0/index/130",
+      "source_sha256": "d8cfa1f6ee3a6c3ce2565d6f91c243b76c8c5c20b9fc52897206c741504e2105",
+      "target": "一天之境",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/131/field/0/index/131",
+      "source_sha256": "b7494f7b00f18bdf1903dda84b5ea33d0f46f1b7e6d67cb7244d9c0d1b523d21",
+      "target": "幻天归阵",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/132/field/0/index/132",
+      "source_sha256": "65ec766f7b26deb56e0e82443a4f4c53038edfac33a79e2d6798ff3a5f880173",
+      "target": "天幻击轮",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/133/field/0/index/133",
+      "source_sha256": "21d80fb6914f7ea17a29838831e6bc34d530791792488900fe6f6d2fc5d15916",
+      "target": "天下降临",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/134/field/0/index/134",
+      "source_sha256": "54371931b4a1ab5422d7f0149ef8cb84d1afd6bd62d1c3a77d11fb150fdf6918",
+      "target": "冰河落下",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/135/field/0/index/135",
+      "source_sha256": "0024b2d86b846128eca0cf4e16f57c60da4a20fd0796f6b92653cba45d166498",
+      "target": "三冰球",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/136/field/0/index/136",
+      "source_sha256": "0302ce87f1c34936a2ecf8ad07b7d1e1510a8fc937042d76b9f69f733320440f",
+      "target": "多重冰河",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/137/field/0/index/137",
+      "source_sha256": "119c2d5c6a6a1bd451bf3a428f8682e5124f1c7222423a65163fe2f2c07d4881",
+      "target": "爆结落下",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/138/field/0/index/138",
+      "source_sha256": "6b1d274a47e7ec6dc4fdf40b6af5399100ecbfedb00efd47605eb4d268cc0c28",
+      "target": "天地一点",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/139/field/0/index/139",
+      "source_sha256": "b6cb4059b67a13071a1edcf3ae00d448f9590a1ddb2aac0025de7ae2229c3d60",
+      "target": "三元阵礼",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/140/field/0/index/140",
+      "source_sha256": "1f880787a8615bdbf191224d31a9dc48098f3d46a41367bfb2d4488360ab52f3",
+      "target": "保身降礼",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/141/field/0/index/141",
+      "source_sha256": "8c284acc0c1ae94642ce4aee417f9c52bb7f58c45d5d641f70a5721ca4ca7f92",
+      "target": "真保身礼",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/142/field/0/index/142",
+      "source_sha256": "571464e37b113e50b7f7baa4fc9644d895b9ba036e037202737d1881f253bfd6",
+      "target": "常驻余气",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/143/field/0/index/143",
+      "source_sha256": "231554f5455b86713680b730150cd4ebac4d5ef65aea361565daf6da105f7a0a",
+      "target": "大仙回复",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/144/field/0/index/144",
+      "source_sha256": "9e0c43ba789d79c3eea8f64360c4883397cf8cbeb10651b15f989996f57ddc51",
+      "target": "天降地连",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/145/field/0/index/145",
+      "source_sha256": "72a37d8d4e3efbe5853da1fb7cac47579358cdce3a7b960306704a1664d7c63c",
+      "target": "渐入佳境",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/146/field/0/index/146",
+      "source_sha256": "cd74e8bda6b1aebc2b15af938a597d2e41213b7ee23c48a58647bc43a2c68138",
+      "target": "补凉大水",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/147/field/0/index/147",
+      "source_sha256": "d9badc2ff412bbb7ea671c783ae6399c820cf9a7ea4125ed567f057727fac835",
+      "target": "流旋堂",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/148/field/0/index/148",
+      "source_sha256": "52912e63c952f6036ec35aa7b540df299031e367405014684c857662edc9e2cf",
+      "target": "火旋地宁",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/149/field/0/index/149",
+      "source_sha256": "6afcad3df3dec5e3189948f6b583761389e30dc1ded17f411e725b029dcaea3f",
+      "target": "永远一生",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/150/field/0/index/150",
+      "source_sha256": "4c9c39ffa88f49a9913b6fb2639d21dd73db19ce1631696debe205034f78d16e",
+      "target": "冰河全境",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/151/field/0/index/151",
+      "source_sha256": "c9d123a1ffe8b991beef3631e286ae6b44274fa9aeacdd5ea1baddfec7819d61",
+      "target": "天冰下雪",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/152/field/0/index/152",
+      "source_sha256": "c5ee35601c7edd6d7c922b3097e9bdcb18644e2fd88051e5a66851d28b9564c1",
+      "target": "冰河雪峰击",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/153/field/0/index/153",
+      "source_sha256": "2123215dea83e2e64d3d27bb64d7e98f3f44dd54788515039c9b24ad6e27d9df",
+      "target": "架冰雪魔伏",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/154/field/0/index/154",
+      "source_sha256": "4d083d859ea781318753ae8aca7ff7e834878fa3a7002d8639ab0d31f73e7a5c",
+      "target": "暴风雪",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    },
+    {
+      "id": "SHIP/00002789.tui/record/155/field/0/index/155",
+      "source_sha256": "c82e01fdd334abb906940e5b8cc014de74b812b1c403d459d5ee28580c5fb11a",
+      "target": "冻结世界",
+      "status": "reviewed",
+      "context": "Complete menu label, prompt or skill/style name; unresolved concatenation particles, internal status identifiers and unreviewed editor labels excluded; source identity unchanged."
+    }
+  ]
+}

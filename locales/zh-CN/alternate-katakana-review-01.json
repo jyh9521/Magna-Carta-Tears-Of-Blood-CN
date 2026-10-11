@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000357.fpb/seq/19",
+      "source_sha256": "191f877320bbb86e95b2098204bc4e8d2dccd48f4a4848f054d14e37a18464ad",
+      "target": "$D06阿玛巴德？$D26 $D06巫女？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/22",
+      "source_sha256": "6409ffc4b1adf06e74f5e3bedcf0ae2c69cdd6a3fd31f858d22ddc4a9b3b355c",
+      "target": "$D08莉丝？？$D68 $D15莉丝！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/23",
+      "source_sha256": "e6f602ece71cd0b697ffeb71b4d1aeb99fb9cfa4e453e0eb2fe345ee62fbf33a",
+      "target": "莉丝！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/14",
+      "source_sha256": "62c2f19d5b457a19f1ea65328b24f34333aa3672c199523cdb201a2ede68b72c",
+      "target": "长剑！优质盾！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/12",
+      "source_sha256": "a6c557e9fa6d5a78befbd08fc2fb3ad1133d2a025b7537f47d5508e7061888f0",
+      "target": "阿蜜拉女王？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    }
+  ]
+}

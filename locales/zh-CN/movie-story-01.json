@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "status": "text-reviewed-native-scroll-timing-pending",
+  "movies": {
+    "180101": [
+      {
+        "start": 1,
+        "end": 24,
+        "target": "寻找新天地而迁来的人类，与早已生活在伊佩莉亚的亚逊之间的对立，从一开始便埋下了悲剧的种子。顺应自然的亚逊与开拓自然的人类，最终陷入战争。"
+      },
+      {
+        "start": 24,
+        "end": 47,
+        "target": "战争中，八英雄封印了光之树，由此产生的阿缪特病威胁着亚逊的生存。然而，拥有特殊体质的霜龙与领导力强大的阿蜜拉女王出现后，战局迎来了新的变化。"
+      },
+      {
+        "start": 47,
+        "end": 72,
+        "target": "为扭转连败的局势，人类联合军计划对亚逊的根据地埃彭塔德发动大规模魔法攻击。血泪是一群因亚逊而失去挚爱的人，他们在大巫女之子、联合军将军阿格雷安的命令下，投入大魔法阵作战。"
+      },
+      {
+        "start": 72,
+        "end": 96.16,
+        "target": "在无人能预见希望的困境中，血泪队长卡琳兹与伙伴们，投身于这场决定人类与亚逊未来的激战。"
+      }
+    ],
+    "991804": [
+      {
+        "start": 1,
+        "end": 13,
+        "target": "随着救赎之光这一力量根源被彻底摧毁，光之树也永远沉睡了。光之树与亚逊之间的联系由此完全断绝，亚逊获得了解放。"
+      },
+      {
+        "start": 13,
+        "end": 26,
+        "target": "摆脱了曾被认为无人能够治愈的阿缪特病，亚逊得知这一奇迹竟由一个人类创造，惊叹不已。"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "target": "虽然一切纷争尚未平息，这一奇迹却成为人类与亚逊之间，萌发全新交流的契机。"
+      },
+      {
+        "start": 36,
+        "end": 41.77,
+        "target": "一年后……"
+      }
+    ]
+  },
+  "evidence": {
+    "180101": {
+      "native_frame_seconds": [
+        20,
+        40,
+        60,
+        80
+      ],
+      "text_source": "native scrolling picture, not hallucinated ASR"
+    },
+    "991804": {
+      "native_frame_seconds": [
+        15,
+        25
+      ],
+      "text_source": "native scrolling picture, not hallucinated ASR"
+    }
+  },
+  "notes": [
+    "复用原版滚动文字画面/OCR核对所得译文，不进行无语音ASR；中文按原有四段阅读窗口细分为最多两行的下方居中短句。",
+    "不遮盖画面、不删除原版烧录文字；中文阅读窗口仍须在新成片中人工验收。",
+    "用户决定997777不做字幕；片尾名单及歌曲不再作为本轮字幕缺口。"
+  ],
+  "source_sha256": {
+    "180101": "97e2d82c849cf7d982b5c96ed78236fe1156a83fca94a5ef0a549a1210ea9d32",
+    "991804": "2f8e29ef32a50c6206a054afefc77a4d5bab252acb70dfd4fbd751dc9f9acd0d"
+  },
+  "font_sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "review_scope": "movie-review-scope.json",
+  "subtitle_position_ratio": 0.84
+}

@@ -1,0 +1,926 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000357.fpb/seq/2",
+      "source_sha256": "4f5b9a176096b52fdcdbc621351ae375c31c4d97e1ad83335fec57e6b951875d",
+      "target": "不是亚逊吧？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/12",
+      "source_sha256": "02f82b8bc6787bc60a82e9dc03b11b307e66673aa6882eecbb86fe3ac94ef3f2",
+      "target": "我很害怕……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/15",
+      "source_sha256": "1cba4f813878e12b90f1aefc0991208b50fbbd0e7a0060452e98040b4cb6ff07",
+      "target": "大魔法作战中，有许多巫女和巫师参加……$n难道在那里出了什么事故……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/17",
+      "source_sha256": "27074fd664fd3bf3e24a82777c0fef570bbfb27cd68db4622bb47a3258d96052",
+      "target": "你大概……是阿玛巴德的巫女吧。$n而且能力很强，治疗术可是巫女的专长。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/18",
+      "source_sha256": "6a0fd3676915bdd3d255b268613a4899be12c0f2f2018ad89c17e9348d06fa71",
+      "target": "你是阿玛巴德的巫女吧。$n而且能力很强，治疗术可是巫女的专长。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/20",
+      "source_sha256": "8327539f8fb7d48deb07140b71c129678608ffbc65b7e3eae656d5883e9b5d5a",
+      "target": "$D08看来你真的什么都想不起来了。$D20 $n$D06还记得自己的名字吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/21",
+      "source_sha256": "f47ffab6e6128cecf8a64d361134f8f6c6b887c44b8984f87ebe783f408a022e",
+      "target": "那就叫莉丝吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/25",
+      "source_sha256": "411b83581dae3ae461bd80bb72c462fce553494e8cdce449081245f27e02e6ad",
+      "target": "走吧！$n也不全是为了感谢你救了我，我送你去阿玛巴德吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/32",
+      "source_sha256": "15c68d347cdd3dd58e5ae99dfe73f558e9df10da6f8cf55a7ce73f11f36a75be",
+      "target": "醒来的时候，我就在这里了。然后……$n你就在旁边。我怎么叫你都叫不醒，很害怕。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/0",
+      "source_sha256": "33fc772ed9ee8c8373f0693d440da5a25b9f41d481292293f7cb119d9386695b",
+      "target": "$D04不行，不能一直这样下去……$D30 $n$D04得做点什么……做点什么……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/5",
+      "source_sha256": "9a6afd57497e1a90e97c2ed778604c0f853fd0957b1c2d2f188995b7ea627651",
+      "target": "抱歉，我以为你是亚逊，一时没忍住。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/8",
+      "source_sha256": "a7f7579d5e729a106d680a745c8267789c238c221f1a1d3592db3572abe24ea5",
+      "target": "有那么害怕吗？既然被派去参加大魔法作战，$n这种程度应该不算什么吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/13",
+      "source_sha256": "2dcd674972066d32198725651fa1a34bed86e819580d84279953a616c18817b4",
+      "target": "醒来的时候，我就在这里了。彷徨了很久之后$n才找到你，可起初无论怎么叫你，$n你都不醒……我很害怕。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/14",
+      "source_sha256": "9fbcacdf0cfb81ed1617034a48dc7382f81213f9274f6255ba2bc3a0fba11c1e",
+      "target": "你是阿玛巴德的巫女吧。$n治疗术是只有巫女才会的专长。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/15",
+      "source_sha256": "46b68af7829407c7412e27fb4e420fd0da9e1032674548ab3e7720dcb1f0b57d",
+      "target": "阿玛巴德是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/16",
+      "source_sha256": "1720493761f91d87c14fbb947b4de7a58f239895a6a531ff651ec5d92ee1015f",
+      "target": "看来你真的什么都想不起来了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/20",
+      "source_sha256": "d0129b538e2673c43e5c819eafb1d2b2e12a1d1e6cdf706b2f4a4010e2794b17",
+      "target": "走吧。你救了我，也不全是为了$n报答你，我陪你去阿玛巴德。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/4",
+      "source_sha256": "f19a94df36ca7066ea055dc5372ed8dd5dbb1517158c25bef7bb86dd80017d36",
+      "target": "我本想等与你结婚以后，$n把这本日记送给你，$n因为我想把看着你时心中所有的感受，$n都写下来告诉你。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/5",
+      "source_sha256": "2bcd2e2a5612338640a942d7756e1d7b8cb44ce89f8fed86f54bf82dee48d2f2",
+      "target": "可是，没想到竟会以这种方式$n结束这本日记，对不起。$n自从我站在人类一方之后……$n因为我曾是黑暗精灵……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/7",
+      "source_sha256": "1ad4191b9478a4cafa6474c588d661cc8bfd978468dbdf325c68fd658c5694a3",
+      "target": "我爱你。$n我们曾作为伙伴，一起度过危机。$n那时……我差点从悬崖上掉下去，$n是你救了我。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/10",
+      "source_sha256": "c929c9ad9c44d17e51994c51ef774488bd4127833a4ef5c48c4eaab9ee0a82d6",
+      "target": "还有，说是最后的礼物，$n实在有些不好意思，但我想它会很适合你。$n你喜欢黄色，对吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00000453.fpb/seq/14",
+      "source_sha256": "af28edb514e5ffa801bb05c748def30f2e6f30697dc598e7b202dc741725a25b",
+      "target": "嗯，那我这样的，也可以穿吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/5",
+      "source_sha256": "72acf61bb0cedbb1bfde726cf770779ddc98765371b2298b3b76836c2c6f4b05",
+      "target": "我本想等与你结婚之后，$n把这本日记$n送给你。$n因为我想告诉你，$n自从与你相遇之后，$n我心中有过怎样的感受。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/6",
+      "source_sha256": "01195806234a87eeeabc25843734ec00a3ca66daedb6dc893b500096e56a5d98",
+      "target": "可是，$n没想到竟会这样写下最后一页……$n对不起。$n都怪我舍弃了黑色亚逊，$n站到了人类一方……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/8",
+      "source_sha256": "39e37a1c66e6aca9615483cc5c0be762f4243fe767aafebf43e00a0b11fabc41",
+      "target": "我爱你。$n我们曾作为战友，一起度过危机。$n那次我差点从悬崖上掉下去，$n是你救了我。$n$D10我至今还记得很清楚。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/11",
+      "source_sha256": "ff5a7c0d6a3287aaad36199c9b97f9b620ab20dba782beb2d8f7a30692dff484",
+      "target": "还有，虽然称作最后的礼物有些不好意思，$n但我想送你一件适合你的裙子……$n一件你喜欢的、漂亮的黄色裙子。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/12",
+      "source_sha256": "7e449d1ceb0ea3c3daba8c65280415dfcc98e18aa411e944c05dc2f31426996c",
+      "target": "你总是穿着男装，$n我一直有些在意。$n你明明是个女人，$n却为了变强，$n连这样的事也牺牲了。$n也许你不会喜欢，$n但能收下它吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001005.fpb/seq/14",
+      "source_sha256": "8d2fdd0f7b1fdccad89ea0b4307eb717f342abaf25c019feb3dc60cb35e67247",
+      "target": "嗯。$n那我可以穿吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/3",
+      "source_sha256": "1e29b5c6d6542f9d02bf6a0d3e25b827cc27c7affa2db3b667c2e071e34ef78f",
+      "target": "真名法典真的很不可思议。$n据说只要集齐神器，就能凭借它的力量让天空降雨，$n甚至引发地震。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/4",
+      "source_sha256": "8143a86f0d087a2d4c41c75bdc814758273fc064da7c7d3e5137c215487bd68c",
+      "target": "这个村子也有关于真名法典的传说。$n一百年前，这里遭遇了严重的旱灾，$n人们曾献上祈祷。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/5",
+      "source_sha256": "645acceb51fcd3969e07c7ec38c35083bbfb3aa0f2a5c20cdaba96f22da79ce0",
+      "target": "那时，村里的一个女孩让雨降了下来。$n她拿着一把据说是父亲遗物的神奇小刀，$n听说那把小刀发出了光。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/6",
+      "source_sha256": "4d32cb8e94625198117cd7b831a54dcf2e554c38ddc13da2614bd81e8d1acec6",
+      "target": "你见过阿蜜拉女王吗？她像蜂后一样$n可怕。在战场上受伤之后，她就用面具$n遮住了脸。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/8",
+      "source_sha256": "1c38a79ef48e752b1e330d1753efae52d01dea0bb7d15c18c082b5d2b0a880fe",
+      "target": "阿蜜拉麾下四天王的剑术也很厉害。$n那些家伙还各自拥有使魔。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/9",
+      "source_sha256": "b9fc231fca06219d6905ad07c314af9708989a3b5437e12b913d11d74cfced17",
+      "target": "最近，一位巫女来过村子，凭借神力$n为病人治疗。只要碰到巫女的手，$n疾病就真的会治好。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/10",
+      "source_sha256": "6fa86613000815d9713d1a814ef28e873a72db0d0bf22eab16d5176c2513c415",
+      "target": "很不可思议吧？听说只有天生具有神力的人，$n才能使用这种力量。有些人从小$n就能展现它。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/11",
+      "source_sha256": "5be0f29001cbd25db414512be238d4c7594f7836001aa63987836ba91465d3b3",
+      "target": "其实，我的一个兄弟也拥有神力，后来成为了$n巫师。那家伙一直想登上$n大巫师的位置。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/16",
+      "source_sha256": "848858f46cc958144d5cb48e9ff8eb48211b6ef03add594b89376c173fa3197e",
+      "target": "传闻杂货店",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/18",
+      "source_sha256": "4f03a290b988b1148cec0e3dc3fe6975950512f539db59e4a8df2e0dcf07b858",
+      "target": "钢铁铁匠铺",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/21",
+      "source_sha256": "425591f24b5768b4242cd586c23251db9cce1a1e91ad96352dc9d9720e4f9849",
+      "target": "本周仅剑类商品享受九折优惠，$n请不要错过这个机会。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001907.fpb/seq/2",
+      "source_sha256": "bb8f369204ff5416c559679334687a10df6ecea03ca5b2c7742778402b86b2cb",
+      "target": "那些亚逊呢？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001907.fpb/seq/3",
+      "source_sha256": "0a4eefd8bd6c22de9a689331b621bd4844b173e47b4ea90dbe1b54b1c0d8d4f3",
+      "target": "你还在担心那些亚逊吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001907.fpb/seq/9",
+      "source_sha256": "a52bbff0a1d3fee133a211d7bd88cb2130f4c1c70b1f5452f3a1d619ea9c6ed9",
+      "target": "卡琳兹，你觉得所有亚逊都该死吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001907.fpb/seq/13",
+      "source_sha256": "6c96a4e62cbef2fe75bc40d9b66a4a1c75be986fbff1e2eb7392c5d2d626d604",
+      "target": "为什么就这样认定了！？他们又不一定会成为敌人。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00001907.fpb/seq/14",
+      "source_sha256": "34b2b5aea93f06290835389aea3b4140d1516b7e38602037e02e723626d591e9",
+      "target": "少说这些漂亮话。你从未被亚逊夺走过什么，才能说出这种话吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/0",
+      "source_sha256": "0e43961202b386cadc1b469a032440d95b8696574d73bcae5566d611273b3319",
+      "target": "黑色亚逊啊……光之树被封印以后，$n他们就被逐出了埃彭塔德，对吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/1",
+      "source_sha256": "e7f9c042da52678514a6db1f4e9b34409b4721116da29d7d6f3980ee1a02cda6",
+      "target": "听说，在那场悲剧中，一部分黑色亚逊逃到了北方，$n隐居在人类看不到的地方。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/4",
+      "source_sha256": "6f28fd166b2a04c8d52e0835215f192b545bcc373cfc44021cd50ac20abeb673",
+      "target": "关于卡恩风暴与神器有关的假说，$n似乎很有说服力。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/6",
+      "source_sha256": "7e58e98b962dd696e653452e475183c0df2c39bbcf48659cea9a7fa69d8163c0",
+      "target": "不过，能引发异常天气的神器，竟然如此强大……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/7",
+      "source_sha256": "5f154eefcd698370e812acb0d1e3ea6c557364c28aef2e39dac31bb26c69b94a",
+      "target": "要是把这样的神器当作武器使用，$n威力一定很惊人吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/9",
+      "source_sha256": "9449dcbf4bcfb5a5991501c3642a9a9ced9b9b5d711adb5686f563e2a155a04d",
+      "target": "真是给人添了大麻烦。$n难道就没有谁能阻止那家伙吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/11",
+      "source_sha256": "84eb2214fd545e56213e0b8405c12ad3e6f6d148248aa869a40eb9d181055e82",
+      "target": "认识才五分钟，就能让对方变成敌人，也算是一种本事，$n不过，陪在身边的人可就累了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/12",
+      "source_sha256": "3d353b72e126e59dc0fcfaeeecb1a2a71bef0eab8d98ae17f31367d09fbb7027",
+      "target": "说起来，克里斯的故乡是马拉卡特，$n对吧？马拉卡特人$n应该不是那种性格才对啊。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/16",
+      "source_sha256": "ee78dd8b78df74190881925da7cbeb299934ef7fb24daf40868ab0ad620ebc2a",
+      "target": "只要对亚逊的复仇还没结束，$n我就绝不会停止战斗。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/20",
+      "source_sha256": "f12fe6b0b87f6c763ba0f6e0136feb8b094b6b7f1c27896084268ba66eee7c10",
+      "target": "危险、困难、根本不可能完成的任务，全都$n推给我们，背地里还说我们的坏话。$n啊，真让人火大！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/21",
+      "source_sha256": "f5cf94e9c5cfc6a4959f6d0dafb9595f72bf3780419fca88d52632d3bc911d2d",
+      "target": "联合军不肯提供像样的援助，$n我们才不得不修缮这座废弃的寺院，$n住在这里，不是吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/27",
+      "source_sha256": "08e6119c3c7259c144ab1eb33543bf1034ea64eaec18adf90e26d73be7997548",
+      "target": "全品类商品正在享受七五折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/28",
+      "source_sha256": "0da6cc7b3b33a45fc91189f82f7a019612432d7734af62c0409fca289a209dc7",
+      "target": "全品类商品正在享受九折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/31",
+      "source_sha256": "560cb6f68185929114ce8c796f9cbc5608f4021020f94aafedda863b89264f8c",
+      "target": "工坊主人",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/36",
+      "source_sha256": "05bf5a60adc6b3abd42387ef7044ff5390649ece19b64522a3fe64cefcc36dcd",
+      "target": "我记得，是在亚逊罗文领土内，$n阿姆隆德森林附近吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005420.fpb/seq/37",
+      "source_sha256": "04db374ad1fb03081234b09a408620022a41dcef79e3bc37dffeeb537e72892b",
+      "target": "啊，真的要去吗？$n那里很危险啊。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/0",
+      "source_sha256": "72fa3d688b20224cb236db29d4f0ab5820b9b273cc596e0fce94ea2bb0949171",
+      "target": "霜龙的动向，让我很在意。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/2",
+      "source_sha256": "162fcfd684df9aa7634d6a52e09ff48d7835b8c52578d10a6366b0db8996d4e7",
+      "target": "这样下去，就连吉拉特和阿玛巴德，$n都会变成战场吧？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/3",
+      "source_sha256": "6156f295aa43e952d305351389178f9a4f56dc15bab9bf4053a78ca867528ce8",
+      "target": "怪物、亚逊，$n还有燃烧着复仇之火的马拉卡特解放阵线……$n埃福特真是个被诅咒的村子。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/5",
+      "source_sha256": "1db1284724a0993c18baa82c5caa4382234b51de2873f30b7a6c6452b095fdb3",
+      "target": "只要还活着，我就不想看到人类之间的战争。$n光是与亚逊的战争，就已经够了……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/6",
+      "source_sha256": "76fac5e0cd74974b271198adb8fcdf18220c13c0d6adbd68f97d46a4aced35b2",
+      "target": "虽然我是联合军的士兵，$n但我相信，我们应该创造一个$n人类与亚逊共存的世界。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/7",
+      "source_sha256": "5b1500242f7b6af4d91a7b6c31a7e8d3af43896b8e865a977dc4c36d77ad381c",
+      "target": "是啊，光之园埃蒙，不就是很好的例子吗！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/8",
+      "source_sha256": "e76395ec8a79c8d81545981244a934df57c905a64ac292108520d0ad2ce3e3b1",
+      "target": "在光之园埃蒙，人类与亚逊$n不是正共存着吗？我们也$n一定能与亚逊共存。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/12",
+      "source_sha256": "3fd1f3da2ac1604919a766add87d2f2ffeb3dc66ba03721f1fd8a26863c3fa86",
+      "target": "如果没有亚逊与怪物的袭击，$n埃福特本该拥有世界最先进的$n飞行艇制造技术。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/13",
+      "source_sha256": "7781cfd8e64078aa8158c11fbb037ada9e187fb8040fa21cb8b220a3dea2cbe1",
+      "target": "埃福特的问题在于，那些才华竟被区区$n怪物和无能的同伴所拖累，$n无法得到发挥。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/14",
+      "source_sha256": "f5a1d3b05e01155e2140f3384b0641a2b0de2de64ce84b5be128d91b7883aeff",
+      "target": "无能又害怕亚逊的人，$n反倒成了优秀之人的累赘，这就是现实。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/15",
+      "source_sha256": "f5f20f747b271f6721b5a1a9b846d75fb4e5e6188c86026064293a5902beae39",
+      "target": "我从一位行商那里听说了一个故事，$n是个如梦一般的传说。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/17",
+      "source_sha256": "9c547ba9a621b89a5bcbbb688bce4a3cf2ccf0c8f4c6a3195da7b2e28389c010",
+      "target": "只要集齐那八件遗产，就能发动“真名法典”，$n人们害怕这一点，$n所以把它们分散到了世界各地。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/18",
+      "source_sha256": "45212c3f298c2bfa4deb0cdee3f3ba3224aa6c5e7ed8ff9f0a5b605aabac51e9",
+      "target": "亚逊的四天王，真的有那么可怕吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00005421.fpb/seq/19",
+      "source_sha256": "c948d1036d0b226d4177977a9646f86d623d66ea0ec9a7f49bcae75cdc2de139",
+      "target": "听说他们不仅箭射不死、剑砍不死，$n还是会抓住人类吃掉的怪物。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00007658.fpb/seq/4",
+      "source_sha256": "1f671bb20f0a4fc5f7d11d55dd747e611135f256a758f4d4654bb1c26650ede0",
+      "target": "全品类商品正在享受七五折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00007658.fpb/seq/5",
+      "source_sha256": "668fd7d26166b44de02a1c50a95ec230bafec606909d1f6fdbd5170b7d4aceaf",
+      "target": "全品类商品正在享受九折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00007658.fpb/seq/8",
+      "source_sha256": "560cb6f68185929114ce8c796f9cbc5608f4021020f94aafedda863b89264f8c",
+      "target": "工坊主人",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011094.fpb/seq/4",
+      "source_sha256": "1f671bb20f0a4fc5f7d11d55dd747e611135f256a758f4d4654bb1c26650ede0",
+      "target": "全品类商品正在享受七五折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011094.fpb/seq/5",
+      "source_sha256": "668fd7d26166b44de02a1c50a95ec230bafec606909d1f6fdbd5170b7d4aceaf",
+      "target": "全品类商品正在享受九折优惠。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011094.fpb/seq/8",
+      "source_sha256": "560cb6f68185929114ce8c796f9cbc5608f4021020f94aafedda863b89264f8c",
+      "target": "工坊主人",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/0",
+      "source_sha256": "4fc6f536391e27c700312b45106ddd5603aae34224de89c0490f7a47e99abee0",
+      "target": "啊，充满痛苦的人生。$n就因为我是天才，$n到底要给我多少试炼才肯罢休啊？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/1",
+      "source_sha256": "713a61c3a065fac8c798d52b76160bb68e2d5af3243452641045adf424f46ad0",
+      "target": "现在是开玩笑的时候吗！？明明有我们在，$n却还是让敌人抓走了卡琳兹！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/3",
+      "source_sha256": "5631c7eb1089d2e2926e97f3b263734fc3daf36c12cd160470622037ae88708c",
+      "target": "我们不正是在商量这件事吗？$n有空在这里吵吵嚷嚷，$n还不如想想作战办法！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/4",
+      "source_sha256": "a0f152edbd37b432047df69a55c30c288857a8b6036ef5b9984c2746f1091149",
+      "target": "不过，恐怕不会那么容易。$n我们不但与亚逊为敌，$n还连阿玛巴德也得罪了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/6",
+      "source_sha256": "92062bbdb8a6a7e0a4dc5cea427f3ab5825bebaa8f2a5f72bfe910f092eebe38",
+      "target": "请求什么？为了救卡琳兹，$n请他们攻打亚逊罗文吗？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/9",
+      "source_sha256": "3fccea34bda8847ef09def2ffbae6e95dfa41270f518a95b142104ec5374f4da",
+      "target": "要说攻入亚逊罗文的办法，我倒是有。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/12",
+      "source_sha256": "2a5be52a5a9e74c8f1a583b8de108755a09cc545da04cbfb114a62910440af8e",
+      "target": "把这位大叔扔到森林另一头去。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/13",
+      "source_sha256": "89dfde05902f6a2aaf894543d794d3d7dac3d9ecf25e33c12f3889507dc7036b",
+      "target": "那样一来，你们可就没有向导了。$n我曾经沿着某条路线，$n进入过亚逊罗文。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/14",
+      "source_sha256": "ee817638c4b03ca11014e568032156ab8760f58fd670bfece28d826854864fa9",
+      "target": "骗人的吧？$n亚逊罗文与吉拉特的边境地带，可是战场。$n光是靠近，就会丢掉性命啊。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/16",
+      "source_sha256": "ad314859e291a84e3bb52eeb29c9f185e350103ffd49e1b63f505e1995a2bf76",
+      "target": "我有个问题。$n你说的几年前，究竟是什么时候？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/17",
+      "source_sha256": "3320dea51fdbb566c528299ffcf06ca00f6807c7a40d35d375ce302a82212cf5",
+      "target": "哼，说起来……大概五十年前吧？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/18",
+      "source_sha256": "9fb1a496a7239f7a3313a9a347f5f1b5cfa61f86832956cf96247668fe4ff5d7",
+      "target": "五十年前？那不就是八英雄走过的路线吗！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/19",
+      "source_sha256": "426a6dfae4575b35e36ba87ad27c1a5846a6890a4ed1c8e1c87bcad21e3cea4f",
+      "target": "你还真清楚。$n正如这位小姐所说，那是最初的远征队走过的路。$n当时，远征队员中有三个人差点死掉……$n算起来，我们这里至少有一半人，$n能平安抵达亚逊罗文吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/20",
+      "source_sha256": "be3c309e5d24a9a6fb13b88b3f1095660ae2515ab2165bd3a85f75976fa05284",
+      "target": "竟然还有一半啊！这未来光明得，$n都快让人感动落泪了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/23",
+      "source_sha256": "66268eec634dd23d708ab778d77069e790f8aca8d06483fd85e730b0154b484f",
+      "target": "莉丝，听说格雷顿山脉不但险峻，$n怪物还比草木更多。$n也正因如此，那里连战场都成不了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/26",
+      "source_sha256": "a99c11e0fd89f8bea2712a8f282339d14b118de55da42d89178dce325804d02f",
+      "target": "我也去！毕竟是为了救队长。$n只要有不向任何逆境低头的毅力，$n就一定能翻过山去！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/27",
+      "source_sha256": "08b54bf338322f36afce5430583bc344fd2c0d3307e29385112f2cb6ace06dfe",
+      "target": "你这个只懂拼毅力的笨蛋……$n啊，豁出去了，我也去！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/28",
+      "source_sha256": "ba24b5b65655926f15ad56bcbc8ef66bb748e06c25db6611fee4e40ced3d9f44",
+      "target": "翻过山脉，直到埃彭塔德就只有一条路了。$n恐怕得一路强行突破。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/31",
+      "source_sha256": "9577293c6ad6f23a2768b6d5a8d2c4404b2b714230a9ca0461d6b2de2e5a3501",
+      "target": "在抵达埃彭塔德以前，$n大家最好都做好心理准备。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00011739.fpb/seq/32",
+      "source_sha256": "214df6de5e8f7e1d2f2fa8347fb58c3828c530de1cdcaaf061641c68b660d159",
+      "target": "这种话别说得那么高兴啊。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/0",
+      "source_sha256": "ccffe11b25d0a4dd4355f66d81f08f3481e18a80c468e73d28f6339f4af7a979",
+      "target": "人类？！竟然会在这里？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/4",
+      "source_sha256": "4a0ba5b7dba785ff3f7c3ca581a88b75c9a3025fbda35d9c9750d8ab02b7476d",
+      "target": "其实，我恨不得把你们碎尸万段……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/7",
+      "source_sha256": "4a0ba5b7dba785ff3f7c3ca581a88b75c9a3025fbda35d9c9750d8ab02b7476d",
+      "target": "其实，我恨不得把你们碎尸万段……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/10",
+      "source_sha256": "b4d855d41aec99be2038dfacfb76d77eb1994ca131e54343463dd9d63ffebf3d",
+      "target": "你们是想消灭我们，对吧？！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/12",
+      "source_sha256": "ee2bbeb047a31edfe5d4a2cb6c0a74a473c2e1d0c301e7187bff628199f2eca5",
+      "target": "救命！别过来！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/13",
+      "source_sha256": "38a4876b5f19dffc92add20f2c23778594b5263b1ee80b6c1d77329bcb115f41",
+      "target": "我还不想死啊！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/29",
+      "source_sha256": "6d0f7712c8295887b9f133d4912ed4f998e95e4bef4f2ddefb9f49f9065e311f",
+      "target": "为什么？那个人究竟做了什么？$n夺走我的丈夫，你们很开心吗？$n说啊，到底怎么样？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/17",
+      "source_sha256": "bfb118bcbbb8ec041a332a5e4e9d68d6bbee3bc002bc16df84314b7b618f9951",
+      "target": "不论人类还是亚逊，都无法阻止$n这驶向崩溃的齿轮。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/20",
+      "source_sha256": "3965b296e3bfb0c80649e093fdcb47ac248ddcfc865b9eb385cfd1e26c5a9c8b",
+      "target": "是人类！呜哇啊啊啊！！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/24",
+      "source_sha256": "dd96e88dee88cb312b108128b4085bafc811e7b1c5b509c540bed0149a2993c4",
+      "target": "人类会吃亚逊，这种事，$n我可是知道的！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/25",
+      "source_sha256": "2126b03f2f6b3b5a2922fe146b379be86d294c8083c5179750d89180ae8edeef",
+      "target": "妈妈是这么说的！$n她说，人类想把亚逊全部吃光！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/30",
+      "source_sha256": "a8c54546f8ec24b466ed15412d4663038e079dcef516dc546dcb515fa4fd5bdf",
+      "target": "埃彭塔德装备店",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/33",
+      "source_sha256": "5d32160d33d9122ec960a3826a3bc46379f9f6cd433fa82a0466170fc1165ab4",
+      "target": "亚逊罗文首都，$n埃彭塔德的装备店",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/34",
+      "source_sha256": "4592ef855eddc032af222e07fe1b324addeae7454fd5db746028d130c17bb197",
+      "target": "埃彭塔德道具店",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    },
+    {
+      "id": "SHIP/00015240.fpb/seq/37",
+      "source_sha256": "715ca30c41291991f426db70d391b1a55928a4e34f71606041ccbcfdf607a711",
+      "target": "亚逊罗文首都，$n埃彭塔德的道具店",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+    }
+  ]
+}

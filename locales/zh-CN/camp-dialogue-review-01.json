@@ -1,0 +1,281 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "camp-dialogue-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00003583.cht/slot/0",
+      "source_sha256": "dfb524497a6557b914b3bcae753478474f61bf1e9073c7908a9fd685f0ec830c",
+      "target": "希望这次大魔法阵作战能够成功。$n就算是为了血泪，也一定要成功。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/1",
+      "source_sha256": "a4a29f671a7ea1426df8b68750186f65a392b21c85e14e8817dd9219b0c9698f",
+      "target": "这次作战或许能结束战争，所以一定要成功。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/2",
+      "source_sha256": "7a5a28234e95d6d5c1cf06a016614c653acd16ca60ccfab995fc9886f1168f80",
+      "target": "是啊～",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/3",
+      "source_sha256": "04d23e6110c36a0d84283f9b8e94ace699f0b00bd1f6d755dbd3206deb258639",
+      "target": "反正就算成功，功劳也会归联合军。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/4",
+      "source_sha256": "46f80c5fd838a6ea9a91c10d7a107a75a72ede7b1f54b61aee4aa8769e62f8ca",
+      "target": "就是。想到那些家伙得意洋洋的样子，我就一肚子气。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/5",
+      "source_sha256": "d617ec9e10f293e2a3c32c3672b4d9f4d55197bda3c5218261c7bdf767946ddc",
+      "target": "不过……这毕竟是难得接到的大型作战啊。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/6",
+      "source_sha256": "ef26afdb02d1d1025e535c624010510ae52baec94411b62e4d1e9759e6bdb756",
+      "target": "队长，你怎么看这次作战？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/7",
+      "source_sha256": "c886f61d68f8433838fddbbdfdbe0954650cb44a0f8a0f55a1093fd4bf5b6d9f",
+      "target": "我认为很重要。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/8",
+      "source_sha256": "f262c4530847cbc403a4a5185b14f69766fd875b049bdedbc5f75d913c4d3758",
+      "target": "确实如此。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/9",
+      "source_sha256": "b5903b6d23f090b6bf2d1d23e6119fcdf2fa1a25c6e62f3971719e0a04d25969",
+      "target": "啧，反正只是给别人做好事。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/10",
+      "source_sha256": "34b1bf41ba24210c2c4ce795600c6f7641c949a325458bc3a34ab5c1158f00f9",
+      "target": "嗯，确实也有种替别人做事的感觉。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/11",
+      "source_sha256": "70c29afb59d06426dacf9461bbebbf57b83d27b659406e3afeede122a3c97c6f",
+      "target": "大家肯定会把功劳都归给联合军。$n不过……",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/12",
+      "source_sha256": "459955de7d3cfd91cdd39cf4d020bf70758a256401137cc98feb4d545974035c",
+      "target": "卡琳兹说得没错，一向都是这样。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/13",
+      "source_sha256": "11c45825654eef909ec03eedc6c258e9bca6b9fc72883464c5044dc34f5dc27f",
+      "target": "不过是保护几个魔法师，$n有什么了不起？赶快结束吧。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/14",
+      "source_sha256": "1d19b58389eb7b35d371e2452fe25dba488cb1cf330709b7a6c422bbda2a7fe0",
+      "target": "掉以轻心可能会坏事。尤其是你，必须小心。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/15",
+      "source_sha256": "6bf20199a76b0408b059979ab7f64117a9d155e1dd217383048a8c4b5e18a8ca",
+      "target": "所以呢？你是在教训我吗？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/16",
+      "source_sha256": "6d7ed75b46b9d786ab7894db6f3dad8b431a01ca8fcd25c0710c70eb0db2bba3",
+      "target": "哈伦，听队长的话。$n你这人实在让人放心不下。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/17",
+      "source_sha256": "cea13fd4e7d830377d6ce8430fe33af2c8984b7ae8d4be2fa4f349500b7f0437",
+      "target": "没错。有这股干劲，应该很快就能结束。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/18",
+      "source_sha256": "60dc6badc34c743ce9b2b25414d817af34a85875f92d3130504c95977f19ad73",
+      "target": "那当然！亚逊的混蛋们，$n今天就来打一场吧。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/19",
+      "source_sha256": "103229cf9e507af1e491cd977122eee7ec5ec3110be6fe637f0f35e1501e88b6",
+      "target": "不过，总部那边没问题吧？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/20",
+      "source_sha256": "952eae2f069b292ffb3efd50b5e733e0314c606948d3d5936305db44472a621a",
+      "target": "你居然会担心总部，真难得啊。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/21",
+      "source_sha256": "e9d709ffac6b217cb582209f5b43b1a73bb9e02edac88a6dec83b7bfe1e30b46",
+      "target": "说什么呢。我还是知道自己也是血泪的一员。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/22",
+      "source_sha256": "91495be7ce3394530018fd490191a476c04bb385917803c68da88f116cb356f6",
+      "target": "原来哈伦先生也有这样的一面啊。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/23",
+      "source_sha256": "7a5a50a54d40a9b1b941535522992a05382863500a0e068eb3b49bf67e9aa15d",
+      "target": "有结界在，应该没问题。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/24",
+      "source_sha256": "cfb576a0b074044c6201c1623b5b2a07fa67d374cbe0b49da4ca9563619ce431",
+      "target": "就算硬闯进来，也只会在里面迷路吧。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/25",
+      "source_sha256": "d5d2879e1e406404acb0925e040d26db69cfdb3786b321a838a3237857db424d",
+      "target": "哈，是吗？大概吧。$n其实我就是在里面迷路的笨蛋。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/26",
+      "source_sha256": "52551fad47bae988c96c861cd89e6e247737564c467f83bfd63cf6a557299bfe",
+      "target": "你还真爱抬杠。$n卡琳兹怎么会是那个意思？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/27",
+      "source_sha256": "ebb7e87e02f05b7c7bbd5872b65f99ab4b0a2d2ad5094c03c67eb4fbf381c2bb",
+      "target": "作战很重要，但更重要的是大家一起回来，明白吗？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/28",
+      "source_sha256": "4aaf0d623a34a841cc8aa6fb98217417646342921c171cac376b0814c6a42bd2",
+      "target": "明白了。你真爱操心啊。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/29",
+      "source_sha256": "0dabad901d8b6dae61267570e733d4a7c7b435cbc045ab82d4f2952d30937a35",
+      "target": "是吗？像个老人一样爱操心，$n还真是抱歉啊。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/30",
+      "source_sha256": "a7838d8b40afba0818236dd9032e4d457bc12878005a10321aa6d53e97640f9c",
+      "target": "都是好朋友，说这种话有什么关系。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/31",
+      "source_sha256": "e2d532f3de0dd9b018f4497a944f29b8904e46e0734b12d2493bb5b69381a093",
+      "target": "放心，我会让大家一起回来的。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/32",
+      "source_sha256": "0b91dfde0d66caec737aa3782373213080a8d3fc4236e3899ee3dd036a252710",
+      "target": "真有自信啊，我可以相信你吧？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/33",
+      "source_sha256": "109777689f8eddae3201ee3104f2ef97528098088cc46a4deb0d4453c946a08b",
+      "target": "用大魔法攻击亚逊，埃彭塔德或许会被摧毁。$n那里住着普通亚逊，而不是军队。$n攻击那里，真的对吗？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/34",
+      "source_sha256": "d95e23cda351129bd5449281e57b4bbdf23297ff8454c75c66fab36a1b5e1e4d",
+      "target": "你是想问，我们是不是也和亚逊一样？",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/35",
+      "source_sha256": "4b6a61800a62ead7c9cd3b27e296c732dd3a808dc2212cc8ee8051d50272604e",
+      "target": "不是。大魔法是被禁止的咒语，$n大家根本不知道它究竟有多大威力。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/36",
+      "source_sha256": "5465b4b7eb99f4446916f678ef72f8d0b7cddc8d82ada5dbb0bd881bed0d2800",
+      "target": "我们只是偿还至今承受的一切。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/37",
+      "source_sha256": "fee13671b7522b3cd6a57437f331c541df5735c0c28c0ebb532e0efd3ec72fbd",
+      "target": "这倒也是。毕竟我们$n都对亚逊怀着仇恨。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    },
+    {
+      "id": "SHIP/00003583.cht/slot/38",
+      "source_sha256": "3baa758b93a8b0f55537e813e82c13c6e45e5b103a1eb75c09524384e71ebde8",
+      "target": "当然，那可不是一般的仇恨。$n这次正是机会。",
+      "status": "reviewed",
+      "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
+    }
+  ]
+}

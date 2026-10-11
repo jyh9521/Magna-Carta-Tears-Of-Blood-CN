@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "display-label-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000953.itm/record-index/170/field/0",
+      "source_sha256": "51d8e1d343ea9c325873a965fcd427bc7ffbf34e699727f821fc7da9a381e2fc",
+      "target": "火之碎片（暂缓？）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/171/field/0",
+      "source_sha256": "cb5c5ca5cd9fddb00b23fc1bb50f08061201c1576777b2fb820f6b75e7f58c7b",
+      "target": "雷之碎片（暂缓？）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/446/field/0",
+      "source_sha256": "f4843cb2a977bcac221bbc5b9d2000fa0020b96b57b431370869712054740391",
+      "target": "怪物毒武器",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/447/field/0",
+      "source_sha256": "6b8cd17a39ec2c1f9f63162c3fff699ea4b88e186cacc45b77edf61bdb785705",
+      "target": "怪物麻痹武器",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/448/field/0",
+      "source_sha256": "c25de10bbce30f1d601ae3896a40d5bf25950a213d59aba99b5e4a5c452fb9dd",
+      "target": "怪物石化武器",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/460/field/0",
+      "source_sha256": "8f479ec9d9cc498b72f1e5a83459de12859126bb91039c5a703c85a2f5330388",
+      "target": "手套（怪物）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/461/field/0",
+      "source_sha256": "a71e2c9a9e84e267c120c51837cfe0ba40c7588eb73d294fea5caf797322a1c9",
+      "target": "剑（怪物）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/462/field/0",
+      "source_sha256": "8cbeeced34b2201af6f89cec8bb8f1af26ff550fac3c77a584bdfb978a8fd72a",
+      "target": "赤术（怪物）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/463/field/0",
+      "source_sha256": "83429ce32f32b809bf7b1205aaf67118f00d4bbd610f6c95aeb3b1058c4a541b",
+      "target": "弓（怪物）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/464/field/0",
+      "source_sha256": "8116f806e7cbde4a7fa92cd31264f5d172c353b2f6b0eb8638c6d6c94b2004db",
+      "target": "青术（怪物）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/465/field/0",
+      "source_sha256": "1ae2d5ba24fca16ab707a4ca8ec5384daea21cd1e236da9073a2389aec8304d6",
+      "target": "阿蜜拉_法杖",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/466/field/0",
+      "source_sha256": "80575ebecf402db7531be9e2b53a81935a2c9a69f1173105c629b5dc2d93b6fe",
+      "target": "阿斯塔尔_剑",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/472/field/0",
+      "source_sha256": "313dec4376356e9504a373cff408893fba96fe7441552fdfc44277b488b847c6",
+      "target": "抗麻痹饰品（首领专用）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/473/field/0",
+      "source_sha256": "5fcf53f0c274724be587d39600ea0b2eb3bec23c4a9b9202ede08c64f7251914",
+      "target": "抗石化饰品（首领专用）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/474/field/0",
+      "source_sha256": "074f9587837b469d8438fee75b886bc9e2c701a338a4ecf0098540b61687ae40",
+      "target": "抗中毒防具（首领专用）",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/30/field/0/index/28",
+      "source_sha256": "2aae9b69edae287ecd04825e5605523a3f39af5bd431bbac97d643236ff8ffb5",
+      "target": "[未校审]无名刀",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/31/field/0/index/29",
+      "source_sha256": "c43782125f42080f1534e30bea08f6847aea632118eee19a224519ff135bcccb",
+      "target": "[未校审]白色法杖",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/32/field/0/index/30",
+      "source_sha256": "72a6e53c735371766417277553227b890b00a4b61d2948020f93870f5a7b9124",
+      "target": "[未校审]蓝色法杖+1",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/33/field/0/index/31",
+      "source_sha256": "61e4a057bdaef1d3cdefe2ebb427657a495eb9d8b71f1fefa56d4ee04b23b2c9",
+      "target": "[未校审]呼唤暴风的手套",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/34/field/0/index/32",
+      "source_sha256": "53fc04d939abfd1cc037117e3f8c1baa9cfa0ee2752faedb1258b06372aaa512",
+      "target": "[未校审]巨吨手套",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/35/field/0/index/33",
+      "source_sha256": "df4ff07a64fdfec37548d35b392da56505bc1d1934d1b3e855dcc10a31ed5482",
+      "target": "[未校审]猎人弓S",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/36/field/0/index/34",
+      "source_sha256": "f38d648c0f12b7882dea4acb01aebfa1641cfdd3149974c56d3be7d3fe3dd025",
+      "target": "[未校审]一级防护服",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/37/field/0/index/35",
+      "source_sha256": "1dc64b83a5fdb678a37b82fdb0bf0931af0e64c9111dcea82e3c725abfdf30d7",
+      "target": "[未校审]超华丽服装",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/38/field/0/index/36",
+      "source_sha256": "1ad6b8afb30ef44a3ccf6dce7644ac5448f2cc666116bd61bc146ce347d6c2c3",
+      "target": "[未校审]华丽法衣",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/39/field/0/index/37",
+      "source_sha256": "8722b0f7c7515ed5f74bcf27e34f94dcf7b1d512577487a859f953d53f405843",
+      "target": "[未校审]羽翼弓F",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/40/field/0/index/38",
+      "source_sha256": "b0453ec79d56295ff939318cee56ac99180c39b0639b0e210bf1632921ae47cd",
+      "target": "[未校审]白色法杖+2",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/41/field/0/index/39",
+      "source_sha256": "cf2f350038e1575de105775b5b89e483c089a6dddb2e87888e20f19a44b92924",
+      "target": "[未校审]任务尚未完成",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/42/field/0/index/40",
+      "source_sha256": "2aae9b69edae287ecd04825e5605523a3f39af5bd431bbac97d643236ff8ffb5",
+      "target": "[未校审]无名刀",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/43/field/0/index/41",
+      "source_sha256": "c43782125f42080f1534e30bea08f6847aea632118eee19a224519ff135bcccb",
+      "target": "[未校审]白色法杖",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/44/field/0/index/42",
+      "source_sha256": "72a6e53c735371766417277553227b890b00a4b61d2948020f93870f5a7b9124",
+      "target": "[未校审]蓝色法杖+1",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/45/field/0/index/43",
+      "source_sha256": "61e4a057bdaef1d3cdefe2ebb427657a495eb9d8b71f1fefa56d4ee04b23b2c9",
+      "target": "[未校审]呼唤暴风的手套",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/46/field/0/index/44",
+      "source_sha256": "53fc04d939abfd1cc037117e3f8c1baa9cfa0ee2752faedb1258b06372aaa512",
+      "target": "[未校审]巨吨手套",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/47/field/0/index/45",
+      "source_sha256": "df4ff07a64fdfec37548d35b392da56505bc1d1934d1b3e855dcc10a31ed5482",
+      "target": "[未校审]猎人弓S",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/48/field/0/index/46",
+      "source_sha256": "f38d648c0f12b7882dea4acb01aebfa1641cfdd3149974c56d3be7d3fe3dd025",
+      "target": "[未校审]一级防护服",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/49/field/0/index/47",
+      "source_sha256": "1dc64b83a5fdb678a37b82fdb0bf0931af0e64c9111dcea82e3c725abfdf30d7",
+      "target": "[未校审]超华丽服装",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/50/field/0/index/48",
+      "source_sha256": "1ad6b8afb30ef44a3ccf6dce7644ac5448f2cc666116bd61bc146ce347d6c2c3",
+      "target": "[未校审]华丽法衣",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/51/field/0/index/49",
+      "source_sha256": "8722b0f7c7515ed5f74bcf27e34f94dcf7b1d512577487a859f953d53f405843",
+      "target": "[未校审]羽翼弓F",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001238.tui/record/52/field/0/index/50",
+      "source_sha256": "b0453ec79d56295ff939318cee56ac99180c39b0639b0e210bf1632921ae47cd",
+      "target": "[未校审]白色法杖+2",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/241/field/0/index/179",
+      "source_sha256": "6ae7b44dfeb94bf5cb5a522bb09cf2671912671444db2641e256ca9c5cffc7b8",
+      "target": "卡琳兹_状态说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/242/field/0/index/180",
+      "source_sha256": "1b9e82dd5cbb5fe9ebbdbffe7a622f30232276bb5fd79cb68ae63d92e904f1b0",
+      "target": "莉丝_状态说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/243/field/0/index/181",
+      "source_sha256": "79c81c3e52f5c983a53f7877210bdf72c7454749ae491fb53b0f4b7b93af05a8",
+      "target": "阿泽尔_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/244/field/0/index/182",
+      "source_sha256": "478ab342fd07b348cd5286890d695d4ff909d2fa8ab9d9a3656d364b93c7a906",
+      "target": "哈伦_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/245/field/0/index/183",
+      "source_sha256": "53dcda4f74a840fc4fbc1f06fc29246b2e37750258ba1966bf1250af189fe7cb",
+      "target": "艾欧妮丝_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/246/field/0/index/184",
+      "source_sha256": "db733958a1eb2c06cc67e43ccebfc174633e5e0b9f1f6802223595f89a7552e2",
+      "target": "玛雅_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/247/field/0/index/185",
+      "source_sha256": "f5df8e7b723359a2236330de37eb27c85716e4704a27c5f8a929f9c6a71264b2",
+      "target": "朱丝蒂娜_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/248/field/0/index/186",
+      "source_sha256": "dac3e1a1fe7c380b80e50d64988b791fd27b27f97662aae0f93e576f856c641c",
+      "target": "莉安娜_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/249/field/0/index/187",
+      "source_sha256": "ab15667fdb34b23e626bdfc68591ec66ade0c2a42f70d569a5a89bcc51b1819e",
+      "target": "克里斯_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/250/field/0/index/188",
+      "source_sha256": "78853500a71eb6408d14a1e26580d66ac05893891bf54df0d7726b93c7b39904",
+      "target": "缪恩_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/251/field/0/index/189",
+      "source_sha256": "018a2c02fcef40bd4eea7936550d56873e46088d713d2708deb31dc584d7f096",
+      "target": "劳尔_说明",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/15/field/1",
+      "source_sha256": "ae3d5ac7f5ceea2e0b0b6b7b32165df774a5dd1f8facd6e4c004ae928fe41108",
+      "target": "呼唤暴风的手套 _ 33",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/16/field/1",
+      "source_sha256": "aee8483170b0a5b4b8bef537561223d6c288598c1532cb1ba987733d72836d00",
+      "target": "巨吨手套 _ 34",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/17/field/1",
+      "source_sha256": "7b0a6327ce6af30d810409b49938a7fb77b87d0de7850ceef23a9ff73885efc0",
+      "target": "华丽法衣 _ 38",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/18/field/1",
+      "source_sha256": "9c67ac65b92201ad5c88ff36da49ca458d8a14752e2eaba84f2e3f1a68121903",
+      "target": "猎人弓S _ 35",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/19/field/1",
+      "source_sha256": "55f869e7c98925a9b414c0a66204969b5bce937ec0d8a44209a76f607a3d27b6",
+      "target": "白色法杖+2 _ 40",
+      "status": "reviewed",
+      "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
+    }
+  ]
+}

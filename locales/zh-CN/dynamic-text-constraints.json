@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "fields": [
+    {
+      "id": "SHIP/00000682.tui/record/14/field/0/index/7",
+      "source_sha256": "e52c337588080d47d40fd84f162d030fb2b73a3cb0c19eec867039f86253b959",
+      "target": "希德币。是否占卜？",
+      "kind": "amount-prefix",
+      "character_boundary": null,
+      "byte_boundary": null,
+      "consumer_binding_complete": true,
+      "write_policy": "translate",
+      "binding_evidence": "locales/zh-CN/proofreading/amount-consumers.json",
+      "binding_kind": "verified-static-key-and-expression-chain",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000682.tui/record/9/field/0/index/11",
+      "source_sha256": "6d4584969b1d6890015d4134d68529c031b1e1d5f962b5b24b9e096deb3b300d",
+      "target": "消灾需花费 希德币。是否消灾？",
+      "kind": "fixed-slice-insert",
+      "character_boundary": 5,
+      "byte_boundary": 11,
+      "consumer_binding_complete": true,
+      "write_policy": "translate",
+      "binding_evidence": "locales/zh-CN/proofreading/amount-consumers.json",
+      "binding_kind": "verified-static-key-and-expression-chain",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001239.tui/record/7/field/0/index/12",
+      "source_sha256": "e1a935cad47203313b68dc36e3e003c8de8b7bd7a6db6a78864ffae5cad7e3a9",
+      "target": "希德币。是否购买？",
+      "kind": "amount-prefix",
+      "character_boundary": null,
+      "byte_boundary": null,
+      "consumer_binding_complete": true,
+      "write_policy": "translate",
+      "binding_evidence": "locales/zh-CN/proofreading/amount-consumers.json",
+      "binding_kind": "verified-static-key-and-expression-chain",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001249.tui/record/17/field/0/index/12",
+      "source_sha256": "57480adf28fca28fbfe60ad7b86785d36239ff8d7e83a01b5e0b23d70352b6db",
+      "target": "修炼需希德币。是否修炼？",
+      "kind": "character-slice-insert",
+      "character_boundary": 3,
+      "byte_boundary": null,
+      "consumer_binding_complete": true,
+      "write_policy": "translate",
+      "binding_evidence": "locales/zh-CN/proofreading/amount-consumers.json",
+      "binding_kind": "verified-static-key-and-expression-chain",
+      "runtime_verified": false
+    }
+  ],
+  "encoding_assumption": "single-byte ASCII and two-byte high-bit mapped glyphs;matches observed scalar scanner;not UTF-8",
+  "native_scalar_verified_offline": true,
+  "full_consumer_binding_verified": true,
+  "verification_kind": "static compiled key-search/native key-index and mapped slicing; runtime execution not claimed",
+  "runtime_verified": false
+}

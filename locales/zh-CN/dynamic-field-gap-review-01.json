@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "dynamic-field-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001240.tui/record/92/field/0/index/86",
+      "source_sha256": "f94d4d0896c78673787c5f1f90ecd8f3b28c9940e60f9de8678a04331d1e7864",
+      "target": "的友好度提高了",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. CharName + MainText; no gender or name guessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/93/field/0/index/87",
+      "source_sha256": "eb08862fb256fea38f300b15e7d6761b155214707416ccac9b8712ce83e5bd52",
+      "target": "的友好度降低了",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. CharName + MainText; no gender or name guessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/208/field/0/index/146",
+      "source_sha256": "33efc117cc4b28f216acdb7422a4ed410f2c0db498a7ad07b0cb2b26785c53bf",
+      "target": "的友好度没有变化",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. CharName + MainText; no gender or name guessed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/300/field/0/index/238",
+      "source_sha256": "b11cc2ac2670e43a6e79eb9c297073556cd2ab126d47db30e503f462ec67ddbc",
+      "target": "最高伤害记录 [ ",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. Independent SetText UI component; original bracket/slash/spacing retained, not a standalone sentence."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/301/field/0/index/239",
+      "source_sha256": "51c48d4960b8548c7dfc8741a4fbbaf341235d3d12f40e49dfad18c639b99431",
+      "target": " ] / 记录刷新次数 [ ",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. Independent SetText UI component; original bracket/slash/spacing retained, not a standalone sentence."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/303/field/0/index/241",
+      "source_sha256": "eb4a807bb02637da8c74c6610d154cdf48ed9512a65e1cad3bdc3923e1a44925",
+      "target": "认证编号 [ ",
+      "status": "reviewed",
+      "context": "Native record-key binding and complete original consumer function reviewed. Independent SetText UI component; original bracket/slash/spacing retained, not a standalone sentence."
+    }
+  ]
+}

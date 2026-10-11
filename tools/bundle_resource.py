@@ -38,6 +38,39 @@ def overlay_segments(blob: bytes, segments: list[dict], *, expected_sha256: str)
     return bytes(output), report
 
 
+def replace_cached_file(bundle: bytes, original: bytes, modified: bytes, *,
+                        cached_path: str, expected_file_records: int,
+                        expected_payloads: int, expected_bundle_sha256: str,
+                        expected_source_sha256: str) -> tuple[bytes, dict]:
+    """Overlay an observed whole-file body and its exact padded-name size records.
+
+    Counts and name spelling come from a version-specific profile, not inference.
+    This is not a general cache parser or proof of runtime stream acceptance.
+    """
+    require(hashlib.sha256(original).hexdigest()==expected_source_sha256,'cached file source fingerprint mismatch')
+    path=cached_path.encode('ascii')
+    require(path and b'\0' not in path and len(path)<128,'invalid cached filename')
+    require(type(expected_file_records) is int and expected_file_records>0 and
+            type(expected_payloads) is int and expected_payloads>0,'invalid cached file counts')
+    require(original and modified and bundle.count(original)==expected_payloads,'cached file body count mismatch')
+    record=path.ljust(128,b'\0')+struct.pack('<I',len(original))
+    require(bundle.count(record)==expected_file_records,'cached file size record count mismatch')
+    segments=[];start=0
+    for i in range(expected_payloads):
+        at=bundle.index(original,start);start=at+len(original)
+        segments.append(dict(label='whole-file-'+str(i),offset=at,original=original,modified=modified))
+    start=0
+    for i in range(expected_file_records):
+        at=bundle.index(record,start)+128;start=at+4
+        segments.append(dict(label='whole-file-size-'+str(i),offset=at,original=record[-4:],modified=struct.pack('<I',len(modified))))
+    result,changes=overlay_segments(bundle,segments,expected_sha256=expected_bundle_sha256)
+    for row in changes:
+        require(hashlib.sha256(result[row['modified_offset']:row['modified_offset']+row['modified_size']]).hexdigest()==row['modified_sha256'],'cached file overlay readback mismatch')
+    return result,dict(path=cached_path,file_records=expected_file_records,payloads=expected_payloads,
+                       original_file_bytes=len(original),modified_file_bytes=len(modified),
+                       segments=changes,untargeted_bytes_preserved=True,runtime_verified=False)
+
+
 def replace_cached_package(bundle: bytes, original: bytes, modified: bytes, indices: set[int], *,
                            expected_bundle_sha256: str, expected_package_sha256: str,
                            cached_path: str, expected_file_records: int = 2) -> tuple[bytes, dict]:

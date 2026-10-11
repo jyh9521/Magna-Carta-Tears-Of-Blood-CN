@@ -1,0 +1,617 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "encyclopedia-party-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00003591.fds/record-index/0/field/0",
+      "source_sha256": "2c48960509e3bcdc48034dd62e0060aa15c15b5beaa24bc2a4b040fd49d03cc5",
+      "target": "卡琳兹，快走吧！",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/0/field/1",
+      "source_sha256": "8f97848cf2c09644093e3b9741777dc754ef20a58936699f09e69a826775b40d",
+      "target": "我没问题～",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/0/field/2",
+      "source_sha256": "bcfb591c3ddd0f22e8b886a39c086e456f72ea28f1905a69d91ed8c2181f94c1",
+      "target": "有点累了",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/0/field/3",
+      "source_sha256": "93fa788d350f3b32418a3bde1746975d580ee25d4af9ce071f2aaf5afbdb2ed9",
+      "target": "别管我",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/1/field/0",
+      "source_sha256": "27754fcf396f67efacffbb5304bce050d9751376b2cc07f77f21c19fd9078b4b",
+      "target": "队长，今天也加油吧。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/1/field/1",
+      "source_sha256": "2b95e4f5820ece62449c88df8637bb6f42cf762274259cac27e4447e0a815ace",
+      "target": "这点程度很轻松",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/1/field/2",
+      "source_sha256": "3151ef6e826b74e096f15d71973f4507ee996257bffa1db6502eaf2b2f3a9b79",
+      "target": "还算过得去吧",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/1/field/3",
+      "source_sha256": "3d6faacd47a0e6a6895103e73a60c5920da2a9be06bf3632e9256bead532307e",
+      "target": "今天没什么干劲",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/2/field/0",
+      "source_sha256": "561041f10bfcf4a0db225866bdd37807712c9126c0f8dc149114a725a0b1e5c7",
+      "target": "尽管开口。今天去哪儿？",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/2/field/1",
+      "source_sha256": "6a6a4a6f97f0880dbf2fd437228496654f8352fb0a213b3757bd21d2eac0e50f",
+      "target": "反正也没别的事可做",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/2/field/2",
+      "source_sha256": "677bed802bb84d557aefd07937370798a48454703a43a12a94368a0367f3f8ed",
+      "target": "唉，真没意思。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/2/field/3",
+      "source_sha256": "8a25fcae45261d3fb9c9eb5415b9efba7f8089ab5c49acf31b1d3a1fd1972f09",
+      "target": "别来烦我",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/3/field/0",
+      "source_sha256": "86c8e19fcbf58b458212f5781bc1236d83dc295dd3c7a443c8a4f3b1c55a0ed1",
+      "target": "今天心情不错",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/3/field/1",
+      "source_sha256": "0070ec7e6700086e06ea3fcfd005094446fa9bc148c3b7f948a3f102b02a9ef2",
+      "target": "只要和大家在一起就没问题",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/3/field/2",
+      "source_sha256": "c17d1f5786176cdcf7c9cff2a872d47a78d8645f64c233ae4272eceb1ef77303",
+      "target": "总觉得提不起劲",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/3/field/3",
+      "source_sha256": "01f86f0b93a85fe7923e104bba79fe2a732864e79b9477f5e2aed3e7e48b40e1",
+      "target": "今天就到此为止吧",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/4/field/0",
+      "source_sha256": "18d26c57ef7ee77c626c7f362682e4cd481e02923c53e5c6059944dfd03990b1",
+      "target": "既然需要伟大的克里斯大人，我就欣然与你同行。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/4/field/1",
+      "source_sha256": "cfe0ab7d7a003178c6502196d0e1e25dc32d5da6ddad7583cb7fa72943dc27f4",
+      "target": "哈哈，今天心情也很舒畅。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/4/field/2",
+      "source_sha256": "4af626f0d8e13aa4dd4544dbfa4ae80236e39c70f3c524b9a53e53a3b59154da",
+      "target": "浑身酸痛啊",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/4/field/3",
+      "source_sha256": "9658f9d7e452d93e86e7e5f2608b526b8c054c2cbfce0544c1a547fb28ae60f9",
+      "target": "除了可爱的姑娘，其他人就别跟我搭话了。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/5/field/0",
+      "source_sha256": "b39c192e8212b58e0d8ea2fc727bda260d0412b8fc56099ec4c8dfa694c8a636",
+      "target": "现在似乎正是好时机",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/5/field/1",
+      "source_sha256": "740872b9c7faac677194fe7e3cae1fbeacdc5f3f7781441fc31a1756a85b8365",
+      "target": "为了任务的话",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/5/field/2",
+      "source_sha256": "a95f4f610825a06b45aed241f6a91fbbcbd9500ff738e8f212536963f745d372",
+      "target": "目前还行……",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/5/field/3",
+      "source_sha256": "ee0ab0b77aac86c9cad9290a0883bcf0e395b29e470a0871d58d7b28565653a4",
+      "target": "身体状况不太好",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/6/field/0",
+      "source_sha256": "cf2df6b8fa46531a026bf077f95bb67a58723965a1cf95d692b02d5c3f866954",
+      "target": "吃饱了，也该活动活动了。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/6/field/1",
+      "source_sha256": "46badef33f90d6450ddc1bf8a242381acf96f9be0c07f5bc990b2ba9d5167af7",
+      "target": "今天去哪儿？走吧。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/6/field/2",
+      "source_sha256": "99c201c44c310bc1288ee54695763d05aaf89b3d6a74d436ca046cbdc7525479",
+      "target": "开始有点饿了",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/6/field/3",
+      "source_sha256": "98be1c4efb57bc6837505f9aaf4ff49c9aedb6185238becec2f0eab0b66a4080",
+      "target": "啊啊，饿得不行了。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/7/field/0",
+      "source_sha256": "d0a2161b617e14ce98343f44833f72221cdac23f1eeaa15a0734e5c6ce3926cd",
+      "target": "好，今天去哪儿都陪你。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/7/field/1",
+      "source_sha256": "f5d12bed5866e2fe91803c07d7550d1fa2e7744b14dbcdccb92f8eea9a7166e1",
+      "target": "反正闲着，没问题。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/7/field/2",
+      "source_sha256": "bbcedab98115aea00af565803247e8de95962954b3163ef6d187d529af25ce52",
+      "target": "我还有别的事……",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/7/field/3",
+      "source_sha256": "43533e867f150041fc861398dff7ef1e603c99c4ed59d6ef279d05a29ad3523c",
+      "target": "不知道，你自己看着办吧。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/8/field/0",
+      "source_sha256": "f36a48c4a0c302bc63a3d4bc7d93b59632c435d9289b9e81160a0cb4823f5be4",
+      "target": "今天的心情棒极了",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/8/field/1",
+      "source_sha256": "6c7cbe37a1ab91f966c3b00e3d6ce0061a25055a8a6c513f55492103b4373d85",
+      "target": "暂时没问题。我的身体还撑得住。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/8/field/2",
+      "source_sha256": "109bf496d284f6783a46311808f0c1a603e6fd7a607f9cc92a7aa76580bb4427",
+      "target": "能不能稍微歇一下？",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/8/field/3",
+      "source_sha256": "578b33d3ac47794c1453b59ae5ab2ec0f5c9f8832af3fc72a13ecb720f83816a",
+      "target": "对不起……实在不行了。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/9/field/0",
+      "source_sha256": "d8b2f54164953b0474798ea45e42fa4a39d084c6ff13247d4312855c96f34a8a",
+      "target": "一起走吧",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/9/field/1",
+      "source_sha256": "1457d83d7d12272cbe9fa5532b252c00f2cc314c1163ff146ea1fa087bf52b46",
+      "target": "现在还不是放弃的时候",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/9/field/2",
+      "source_sha256": "144468b97ff88ae2d5f5cfb77c09b72a1436f23498e56cce04ea75617c1e717c",
+      "target": "……有种不祥的预感。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/10/field/0",
+      "source_sha256": "8760e136823e09cd4ea23927cfae72255cbda4886866a6c60abf50ac44cfcb3e",
+      "target": "（……不管去哪儿，我都跟你一起。）",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/10/field/1",
+      "source_sha256": "ecabcc1977c78f5df348b5a5bbce18385543bb70ae8136b2782b49352a3bbb99",
+      "target": "（……今天没问题。）",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/10/field/2",
+      "source_sha256": "5fc5d7406591ecdcd549dd6f3cae34c4961693d1fd5e8ba5978a25eb05b52c22",
+      "target": "（……今天状态不太好，看不出来吗？）",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/10/field/3",
+      "source_sha256": "f69c987bafb4e444e4fc80c2017d90c62b33c01b858d47015f3c157991d88347",
+      "target": "（……别碰我。）",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/0/field/1",
+      "source_sha256": "6cddcf18eb7617a1f059c71f10ebd029b68b3dbc90fb85bad3a939587ea9bc14",
+      "target": "常见的怪物。$n体形小，动作敏捷，$n保持距离与之交战$n比较稳妥。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/1/field/1",
+      "source_sha256": "7fda97ac571ba99df3fa1523f59afe1f9ffc242f41daf7936a00991035750b6a",
+      "target": "常见的怪物。体形小，$n动作敏捷，保持距离$n与之交战比较稳妥。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/2/field/1",
+      "source_sha256": "d23cb992c52a42fe3a1fa4cac6f54b792b81b1b3b73fe7a9f2d7d4546ce02117",
+      "target": "外形酷似豹子，$n危险程度却远非$n普通野兽可比的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/3/field/1",
+      "source_sha256": "9f5963548f7664d52f22efa5ef792f9280c05f844312585f4891537785dd4d8e",
+      "target": "外形酷似豹子，$n危险程度却远非普通野兽可比的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/4/field/1",
+      "source_sha256": "efb223c319d57953d511770ff8cbee3329fa2f984c965bfff977d833c5497db8",
+      "target": "遭到攻击就会变得狂暴的怪物。$n它的羽毛是制造飞机$n必不可少的材料。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/5/field/1",
+      "source_sha256": "0a4d98806d40d0a0b8743726f3f3a27781d469082a32b3d14072c07b86e5105b",
+      "target": "体形庞大，浑身喷火，$n威慑力十足，$n是极其危险的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/7/field/1",
+      "source_sha256": "2128b49dd0e31c43ee489d7543e203330271fdaf343770b8560c7ab44ac1f0c5",
+      "target": "守护山之遗迹的神兽，$n体形庞大，防御力极强。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/8/field/1",
+      "source_sha256": "3c07b69b9c63eb6119679fc9d38c778c19a4e7849d09bafcebe24d336246f95a",
+      "target": "罗茜的使魔。平时$n并不主动攻击，发怒后$n却会变得极其狂暴。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/9/field/1",
+      "source_sha256": "5b3c0f90d3d494c8ffc53da88a0f6b59ff8913482e56aac6e29776089c61c7de",
+      "target": "以庞大的体形和凶暴残忍的$n性情而臭名远扬的怪物",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/10/field/1",
+      "source_sha256": "e034b3c01e8e9aade593ffa68cf25fe0e25126d345b04ff5d0c2d6668fccc7c8",
+      "target": "拥有一定智力，$n懂得使用魔法攻击的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/11/field/1",
+      "source_sha256": "e034b3c01e8e9aade593ffa68cf25fe0e25126d345b04ff5d0c2d6668fccc7c8",
+      "target": "拥有一定智力，$n懂得使用魔法攻击的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/12/field/1",
+      "source_sha256": "ef2651656ce135cf156e53b521865df32d70c4e5b95190a1efdbadf4986aa86d",
+      "target": "使用厚实的盾牌和刀剑，$n能有效进行攻击与防御的$n怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/13/field/1",
+      "source_sha256": "29fe45599a265db138eccacb1cc7e041375459b15217c1da47fad9b799519b11",
+      "target": "尽管体形庞大，却力大而敏捷，$n对付它时必须$n格外小心。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/14/field/1",
+      "source_sha256": "abb63755bb3ed49cdefcd0ff9bc2eb646f84edb8afa11448cad669a054ef2078",
+      "target": "有着“食鬼”的别名，$n总是饥肠辘辘，$n以逮到什么就吞吃什么$n而闻名。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/15/field/1",
+      "source_sha256": "8affdddc2ff95478652713647f510b927fe3d3816dfeb60fdbf3f4e9c294b718",
+      "target": "体形庞大，智力也很高，$n会突然发动袭击来攻击人类。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/16/field/1",
+      "source_sha256": "e5f94c88c353640f7c9a9684bae68909abeb93698b385124ac5377073b592e90",
+      "target": "智力很高，$n学习能力出众，$n又善于群居，$n对付它时需要小心。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/17/field/1",
+      "source_sha256": "0995e20e942c7dd4b6712b666a952a237ee8f70970316fe2bc8e3bb56e73df98",
+      "target": "智力很高，学习能力出众，$n又善于群居，$n对付它时需要小心。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/18/field/1",
+      "source_sha256": "36c4406a4c5db216b6a468b1fb9dd35bd2195b5ae242bfe5295de355e166f774",
+      "target": "以巨剑和独眼为特征的怪物，$n体形庞大，力气惊人。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/19/field/1",
+      "source_sha256": "92a56caca64bdb70450493b3a8b9c77fdb976a477e57ce1f3e218a04091b880b",
+      "target": "据说诞生于枯死巨树的怪物。$n由于没有神经系统，$n防御力极强。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/20/field/1",
+      "source_sha256": "e526d3b477b76364e4d0daccc9fe91c577954e263defbf4d30d761148b80663f",
+      "target": "性情凶暴残忍，$n外形正如自古流传的$n恶魔形象。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/21/field/1",
+      "source_sha256": "dc9ab94e9ceec6a60d7b7131ccb06bc4f9b4b7383b16220c218a664846d8ed63",
+      "target": "感觉器官发达，$n面对它时既不能藏身，$n也不能从死角发动攻击。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/22/field/1",
+      "source_sha256": "dc9ab94e9ceec6a60d7b7131ccb06bc4f9b4b7383b16220c218a664846d8ed63",
+      "target": "感觉器官发达，$n面对它时既不能藏身，$n也不能从死角发动攻击。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/23/field/1",
+      "source_sha256": "2c267d5d21f1ae1ea7ac969a8f91bdcfe27abcdf5ee861b66521e0c250b3e44c",
+      "target": "习性与蜘蛛相似的怪物，$n需要提防它尖利的$n腿部攻击。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/24/field/1",
+      "source_sha256": "64a5a74669762dd94dd7456241c64a145aef4eb9d079b71a53cb178bb008f32f",
+      "target": "身体坚硬，$n几乎没有智力的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/25/field/1",
+      "source_sha256": "f1166b1831d33ab2c304f73bb2656fafa26e24cf94ff72fb06b83c3eb66cb6ff",
+      "target": "虽然是植物，却能够移动；$n虽然没有眼睛，却能捕捉敌人并攻击。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/26/field/1",
+      "source_sha256": "f1166b1831d33ab2c304f73bb2656fafa26e24cf94ff72fb06b83c3eb66cb6ff",
+      "target": "虽然是植物，却能够移动；$n虽然没有眼睛，却能捕捉敌人并攻击。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/27/field/1",
+      "source_sha256": "1215e8cc4140ccbd67f7de29248edbe1d8037f2c129ee78ce98993e54a413c28",
+      "target": "原本的形态近似水精灵，$n却因卡恩暴走，$n变成了如今的模样。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/28/field/1",
+      "source_sha256": "9abd12e27656c3212a0fc3f36c68a214bcdff0b25846a6df92caed6b1c652430",
+      "target": "使用魔法攻击的$n人形怪物。对物理攻击$n略显脆弱。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/29/field/1",
+      "source_sha256": "90e39b2db470c60091bcbd8b0a483681adb2902c9b2e399ff36a0853fc61d633",
+      "target": "半人半马形态的怪物，$n拥有极高的智力。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/30/field/1",
+      "source_sha256": "83bb3db84c7ad4bdb95a59f671c782c24802ec78b2bf01c8501b691d9e14867e",
+      "target": "守护天之遗迹的神兽。$n动作敏捷，智力高，$n攻击力也很强。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/31/field/1",
+      "source_sha256": "8bbae5d0b636745cd1014963ebb7636da3116472201c84dbe4d55215c3e4868d",
+      "target": "全身被烈焰包裹的$n传说之鸟。据说永远不会死去。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/32/field/1",
+      "source_sha256": "a5967e14ca6097e030705836848bfee6c3f8e532b16d15c24a53938a4da7a74d",
+      "target": "奥尔哈的使魔，亦称死亡篡夺者。$n在四天王的使魔中，$n它的力量最强。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/33/field/1",
+      "source_sha256": "56a5664171e8f196d3c1ea23679122055ebfcf801858bcec80d8f62753864c7e",
+      "target": "守护江之遗迹的神兽，$n拥有极其强大的力量。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/34/field/1",
+      "source_sha256": "dcb04830e4f8d47bc2a00d688a82e77962fdcb5e65986fb9c85598db3783006c",
+      "target": "四天王阿萨德的使魔，$n尤其喜欢集中攻击男性。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/35/field/1",
+      "source_sha256": "2d3130336bc2104bfb8b1307dc5edb4e17f9f542d7e659192c940ecdca506caa",
+      "target": "具有强大的雷属性，$n守护雷之遗迹的神兽。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/36/field/1",
+      "source_sha256": "6eeff26a478dc6a035564264deba6ff41a74f6ab01148ff02522544f75b24213",
+      "target": "性情温顺，但一旦发怒$n就会变得极其危险，$n发动攻击后便拼死不休。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/37/field/1",
+      "source_sha256": "743cb0b6092768ae57495a1aecec27e90fd491917ff87ce5156e54c93bf73630",
+      "target": "外形如鱼，$n却能在水外生活的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/38/field/1",
+      "source_sha256": "743cb0b6092768ae57495a1aecec27e90fd491917ff87ce5156e54c93bf73630",
+      "target": "外形如鱼，$n却能在水外生活的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/39/field/1",
+      "source_sha256": "743cb0b6092768ae57495a1aecec27e90fd491917ff87ce5156e54c93bf73630",
+      "target": "外形如鱼，$n却能在水外生活的怪物。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/40/field/1",
+      "source_sha256": "dbc007d0470642366efa682634cb6ed8020e5dafd65009c88b93f8d2f0b17354",
+      "target": "看似温顺的食草动物，$n却性情敏感，容易激动。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/41/field/1",
+      "source_sha256": "d1df6b5eac5e3283b12e0aae946dc2274c30843de11321e089ca2a56d3182627",
+      "target": "看似温顺的食草动物，$n却性情敏感，容易激动。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/42/field/1",
+      "source_sha256": "f306c5e16ecb7ee0feb0e2d46a23b378f83f976a9c95b827a7473b4ef445251a",
+      "target": "凯莉安的使魔，能运用$n多种辅助能力，$n将敌人逼入险境。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00006461.mdg/record-index/44/field/1",
+      "source_sha256": "843d71919ddbaf53aa79622757c8020fadbb6b4b08d8fd3e6e763b9d80084fac",
+      "target": "守护火之遗迹，$n能够发动强大火焰攻击的$n危险神兽。",
+      "status": "reviewed",
+      "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
+    },
+    {
+      "id": "SHIP/00003591.fds/record-index/9/field/3",
+      "source_sha256": "777432224c3286547b4ed9213074b1dfe05a60ef521e1df6f4709e16d5363449",
+      "target": "……今天真糟糕。",
+      "status": "reviewed",
+      "context": "Project translation choice for literal Japanese question-mark damage. High-confidence deduction from field3 being the negative readiness slot in all comparable party records; original missing Japanese character is not claimed restored."
+    }
+  ]
+}

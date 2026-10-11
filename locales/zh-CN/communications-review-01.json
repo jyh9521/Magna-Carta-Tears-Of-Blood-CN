@@ -1,0 +1,1982 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "communications-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00003602.pod/field/0",
+      "source_sha256": "dbd34049be306308cce367f59383b1a30911d60fbe98832d6e15b5d748a9e30e",
+      "target": "没有特别的异常。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00003602.pod/field/19",
+      "source_sha256": "dbd34049be306308cce367f59383b1a30911d60fbe98832d6e15b5d748a9e30e",
+      "target": "没有特别的异常。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005217.pod/field/0",
+      "source_sha256": "dbd34049be306308cce367f59383b1a30911d60fbe98832d6e15b5d748a9e30e",
+      "target": "没有特别的异常。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005217.pod/field/19",
+      "source_sha256": "dbd34049be306308cce367f59383b1a30911d60fbe98832d6e15b5d748a9e30e",
+      "target": "没有特别的异常。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005218.pod/field/0",
+      "source_sha256": "2c32bcf8c60d9ac0bcc150623b105f346b6447d666a9e88f2dbf3b0e13455a8b",
+      "target": "最近没有亚逊入侵的报告，但有消息称在边境地区发现了少量亚逊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005218.pod/field/19",
+      "source_sha256": "2c32bcf8c60d9ac0bcc150623b105f346b6447d666a9e88f2dbf3b0e13455a8b",
+      "target": "最近没有亚逊入侵的报告，但有消息称在边境地区发现了少量亚逊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005219.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005219.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005220.pod/field/0",
+      "source_sha256": "16134d7e6ae8e7b1b9c0b2266f104612299bb6ffaf2a370c135ed3b20d1ea355",
+      "target": "这边没什么事。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005220.pod/field/19",
+      "source_sha256": "16134d7e6ae8e7b1b9c0b2266f104612299bb6ffaf2a370c135ed3b20d1ea355",
+      "target": "这边没什么事。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005221.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005221.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005222.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005222.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005223.pod/field/0",
+      "source_sha256": "e6644b674427bbcf7ee77e1a949281c7ebe741115d419b39ef29ac48b6ac23b9",
+      "target": "快去见将军吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005223.pod/field/19",
+      "source_sha256": "e6644b674427bbcf7ee77e1a949281c7ebe741115d419b39ef29ac48b6ac23b9",
+      "target": "快去见将军吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005224.pod/field/0",
+      "source_sha256": "511583b6b2c49fe254db90419cacf09b2eaac2dceeb9abac6ff050dd6b94d9d1",
+      "target": "已经确认亚逊曾秘密潜入吉拉特。联合军在阿玛巴德大道遭到霜龙袭击，现在正在处理善后。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005224.pod/field/19",
+      "source_sha256": "511583b6b2c49fe254db90419cacf09b2eaac2dceeb9abac6ff050dd6b94d9d1",
+      "target": "已经确认亚逊曾秘密潜入吉拉特。联合军在阿玛巴德大道遭到霜龙袭击，现在正在处理善后。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005225.pod/field/0",
+      "source_sha256": "f3638f13e342b120e9262c3a6b0570eeefa3fb7a82ed3dd9c3ffd0fee36a5246",
+      "target": "能顺利结束就好。以后行动前，多想一想如何？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005225.pod/field/1",
+      "source_sha256": "0b54112a65c66ddecf0b0c09f9fc3e9f1b634020d28d52f2de0603bf5eef73da",
+      "target": "我会记住的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005225.pod/field/19",
+      "source_sha256": "25e1aae6eebbfd92478d9b3eca055acaf39231fc3f1ef998b797a4b43163f762",
+      "target": "能平安结束就好。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005226.pod/field/0",
+      "source_sha256": "1a8aadfc5d08db279ab9ed388ef39d13b4b5068251b086687e423a4702982c76",
+      "target": "今后就拜托你了，玛诺。虽然会很辛苦……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005226.pod/field/1",
+      "source_sha256": "bcea01e781c83fa0b70cbb88713e72ef7d1ebba89dbfabed2b2af09e7ec5d587",
+      "target": "别担心。辛苦的事我早就做得够多了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005226.pod/field/19",
+      "source_sha256": "273cc360decefe099340297e76680e3e6bd50def1dccf31be8764377058f1673",
+      "target": "那就拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005227.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005227.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005250.pod/field/0",
+      "source_sha256": "5f4ffdf6329f2a1b16cc4686440877a1702f5f10babfe26472d2bf8551fb5824",
+      "target": "这边没什么事。你说过要治疗那个叫莉丝的姑娘吧？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005250.pod/field/19",
+      "source_sha256": "5f4ffdf6329f2a1b16cc4686440877a1702f5f10babfe26472d2bf8551fb5824",
+      "target": "这边没什么事。你说过要治疗那个叫莉丝的姑娘吧？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005251.pod/field/0",
+      "source_sha256": "beda673c249d5bb87ae18e1e3fd13dbb48c6c8bb24bf96632b103e6f21265ef6",
+      "target": "最近亚逊频繁来到伊佩莉亚，目的不明。传闻他们在寻找什么东西，据说负责调查的几人已被发现死于非命。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005251.pod/field/1",
+      "source_sha256": "357bda47d82e473214945192212a7fce0e7210939b1cf526b97057476fa23c96",
+      "target": "（联合军里果然有休戈所说的叛徒吗……）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005251.pod/field/19",
+      "source_sha256": "63a6a84c3d63a897e48bc47459e2eaae1b086ce9f667249747393c413b13868d",
+      "target": "最近亚逊经常来到伊佩莉亚。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005252.pod/field/0",
+      "source_sha256": "e6adfd195b655eb1253f447de1be9dff54ab7124573db221b43ace1055754340",
+      "target": "母亲最近在认真考虑举办大祈愿祭。$n我觉得战时还是不办为好。$n不过，别看她那样，$n她可是个意志坚定的人。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005252.pod/field/1",
+      "source_sha256": "285bb98bdde3afa57881cb1defa5a4790b7e3b5be8d883183eaca1c156717537",
+      "target": "如今这种时候，确实太危险了。$n但大祈愿祭已经很久$n没能举行，也有人盼着呢。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005252.pod/field/2",
+      "source_sha256": "1bd25b659f705285417aaa49c2dc30f291430508681f9f1ff476198e25bea3ed",
+      "target": "为了鼓舞士气，确实有必要……$n不过，还是先看看情况吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005252.pod/field/19",
+      "source_sha256": "47e63c83f1f02beadd72c4d3ea87f0b4c695dba1d5c78ebbf641d8169acc8e11",
+      "target": "先观察一下情况吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/0",
+      "source_sha256": "c40a7e4757d901256ab7223fcd88b5766e621542b431320fcc858a58208c56e3",
+      "target": "……原来是阿格雷安将军误会了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/1",
+      "source_sha256": "13b07a523e56bb94f227e12b40756871fdd962031f3601693ef77375d8ff9d94",
+      "target": "可以这么说。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/2",
+      "source_sha256": "c9753417bfe95111c05437bc3101feb90987897be7e54c3a240780b74521d55f",
+      "target": "不过……这么说，大巫女大人一直在派间谍前往亚逊罗文？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/3",
+      "source_sha256": "a5b76e3277181c51ebdf1e7c0ae66e53ccb06a3c7431ac1d3b5fdb26bf1cab5e",
+      "target": "你觉得这不像大巫女会做的事吗？可现在毕竟是战争时期。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/4",
+      "source_sha256": "95290aee751992ae863f1b47affcf5cc789b98527082b4cc963c215dba832225",
+      "target": "是啊……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005253.pod/field/19",
+      "source_sha256": "a7e81127dcfcd603a16aa8cadd3ebe8ca40c0d1f013db7062cf242293394aeaf",
+      "target": "小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005254.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005254.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005255.pod/field/0",
+      "source_sha256": "c30fc9c683e991d89c1e67471252ab67ccf4df91163ca69d1ed8f0f7811f07d7",
+      "target": "辛苦了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005255.pod/field/19",
+      "source_sha256": "c30fc9c683e991d89c1e67471252ab67ccf4df91163ca69d1ed8f0f7811f07d7",
+      "target": "辛苦了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/0",
+      "source_sha256": "5c11bce2d69c1efc8862f4b538f53c48c9190609c04d92ae96d026a68bdca679",
+      "target": "卡琳兹～哇，能看到卡琳兹耶，小小的。真神奇。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/1",
+      "source_sha256": "7b3ede7ca082a13244015e217f5c0f4fc8894055d78be6c5fde4285c920f6e86",
+      "target": "这种事就让你这么惊讶啊……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/2",
+      "source_sha256": "fa710095e2ab527ab166f9973ba04375cdf70abd4ebb793517a601291383a593",
+      "target": "怎么了？有话跟我说吗？有什么想问的吗？嗯？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/3",
+      "source_sha256": "f4a31fd6927aa4370381991d624c2a76ae14a52a6f15fce9635e854836edb624",
+      "target": "只是……也没什么事……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/4",
+      "source_sha256": "8594819fefe81f3454a086745e0266176971f3d997b3e84b9e97af5024a9b7b7",
+      "target": "我没事。$n有朱丝蒂娜陪着，很安心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005256.pod/field/19",
+      "source_sha256": "d95088bcca812657542542050475b10453748516a463d34c6ab1b70197f0c8d1",
+      "target": "你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005257.pod/field/0",
+      "source_sha256": "8c6a4e2701c1b4c3b06232338cd48789abdd6c14958adcd4e77ca99222c541d4",
+      "target": "有什么事？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005257.pod/field/1",
+      "source_sha256": "f45ffaf769f2954b6ca52aa886f7626292f0179aa2620325c65a1cda8f81462a",
+      "target": "唔……只是想问问，卡琳兹过得怎么样。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005257.pod/field/19",
+      "source_sha256": "8c6a4e2701c1b4c3b06232338cd48789abdd6c14958adcd4e77ca99222c541d4",
+      "target": "有什么事？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005258.pod/field/0",
+      "source_sha256": "26c520f03308871ed2018bebb7900b03e39fcb19b3c27b0bdf6fc03abe59f56e",
+      "target": "诺提亚的阿泽翼，收费昂贵可是出了名的。像我们这样的平民，连想都不敢想。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005258.pod/field/19",
+      "source_sha256": "26c520f03308871ed2018bebb7900b03e39fcb19b3c27b0bdf6fc03abe59f56e",
+      "target": "诺提亚的阿泽翼，收费昂贵可是出了名的。像我们这样的平民，连想都不敢想。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/0",
+      "source_sha256": "830e561f018ba5cffafe58a5db9b7f69b273d62f7fcd5f561f9e4e5960470733",
+      "target": "阿泽翼？嗯，那里收费昂贵确实很有名。必要的话，我可以借助阿玛巴德的力量，让你们使用。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/1",
+      "source_sha256": "ea29981ffad6b601a87922284cc2bd75db373e6e7ad79192dc3306e1b5513e40",
+      "target": "不用了，没必要做到这一步。再找找，总会有办法的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/2",
+      "source_sha256": "46af6c00f4e09b3957beb1252c84f16d8aaada8be2be0b9743c5f478e55ebf4b",
+      "target": "实在没办法就告诉我，别为这种事发愁。你从以前起就不愿依靠别人。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/3",
+      "source_sha256": "f8b5fa7a87530ceb6c7189af35840773330b55dc5365e752840bd127101c4572",
+      "target": "呵，无谓地逞强，本来就是我的拿手好戏。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/4",
+      "source_sha256": "3d86d9582712bffd934bc06e7db1484544bd66f216d1be014af0864412c51c99",
+      "target": "哎呀，我不是在挖苦你，别误会。我的意思是，你一直很有毅力。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/5",
+      "source_sha256": "6d2840d791ad8a16364ee415a8007e0b6db7e080dd3080b8198dfd08e1695131",
+      "target": "那就以后再联系吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005259.pod/field/19",
+      "source_sha256": "210858498bcf1959855adbfaa76d989b46b52a02b9132310fd4a1b6043121d2d",
+      "target": "遇到困难，随时告诉我。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/0",
+      "source_sha256": "f6f76336c0b07202c9079f5102008cb8764ab229cd8b4935685e61a931402d06",
+      "target": "秘密任务到底是什么？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/1",
+      "source_sha256": "a344ab1967439407149b068fb445d4901feab034c556ed099a21bb7ddf989141",
+      "target": "这事没法告诉你。是阿格雷安将军直接交给我的任务。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/2",
+      "source_sha256": "74098a0666f3700ce332eec6409ffb589410dbe5224d845409e53e0a950ea9f8",
+      "target": "最近你总是这样……是不是在做什么危险的事？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/3",
+      "source_sha256": "1c76963eb5ab56abe7d2b7c1fa01d03ea63aaa7531913145dd5487729e83ddf5",
+      "target": "还没到那种程度，你不用操心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/4",
+      "source_sha256": "c4481c94eb525cedd7d2e302ae064c9810fdc4371febd6f29d97f94a113283e2",
+      "target": "是啊，我就是个多管闲事的人。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/5",
+      "source_sha256": "9accfa8bba9f0330d4dc2258888a99bde4e8635efb9cc849bdeee9089f7549ae",
+      "target": "唉……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005260.pod/field/19",
+      "source_sha256": "866fa684ce4bc31a5f47bd7918528dacc445923a78fe2d5f7bab6b5064cba7e9",
+      "target": "别在意，我只是多管闲事罢了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005261.pod/field/0",
+      "source_sha256": "39445b54f831466a1f1f43f208682b62e557a55146f967128bde8e95bca84b11",
+      "target": "请代我向兄长问好。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005261.pod/field/19",
+      "source_sha256": "39445b54f831466a1f1f43f208682b62e557a55146f967128bde8e95bca84b11",
+      "target": "请代我向兄长问好。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005262.pod/field/0",
+      "source_sha256": "2d378c2ed6ee98c8a841d971dcc72cef506fafdf935d860ffab35841a1fa1dd1",
+      "target": "结果还是失败了。没想到沙尘暴这么厉害。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005262.pod/field/1",
+      "source_sha256": "5f5ee0eede276d1f8f6a0cedca4206e81bf58bd185514e0d262528b2690fea7c",
+      "target": "总之，我会继续寻找办法。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005262.pod/field/2",
+      "source_sha256": "9acb2fe25ada0519b3d640b21f94ec1fb67a070df2f966987d81fc8a61772f76",
+      "target": "知道了。那就小心吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005262.pod/field/19",
+      "source_sha256": "a7e81127dcfcd603a16aa8cadd3ebe8ca40c0d1f013db7062cf242293394aeaf",
+      "target": "小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005263.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005263.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005264.pod/field/0",
+      "source_sha256": "e3c2acf102e6145dcff856c98fea6d397d04cb7c8bd01386ae79a5c0864a79ae",
+      "target": "诺提亚正在流传阿泽翼遭到重创的消息。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005264.pod/field/19",
+      "source_sha256": "e3c2acf102e6145dcff856c98fea6d397d04cb7c8bd01386ae79a5c0864a79ae",
+      "target": "诺提亚正在流传阿泽翼遭到重创的消息。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005265.pod/field/0",
+      "source_sha256": "90fc65ab6f619b6263eceb690a391e0f9d7cc259c2628bd827acf857bed17e43",
+      "target": "见过我兄长了吗？是不是和我一模一样？呵呵呵。我们是双胞胎，又碰巧都有神力，都成了巫师，难道不是很神奇吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005265.pod/field/19",
+      "source_sha256": "3dbfaaf70d32f8b2cdeedb1830056c886615970f1ef7537f51176faeb5100d0d",
+      "target": "见过兄长了吧？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005266.pod/field/0",
+      "source_sha256": "c9ad2f3206863561577db03283f66a582b774fadd4b30fff6d5f3024b691a88a",
+      "target": "这次是埃丰索？你们到底在做什么？那是克里斯的故乡？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005266.pod/field/19",
+      "source_sha256": "c9ad2f3206863561577db03283f66a582b774fadd4b30fff6d5f3024b691a88a",
+      "target": "这次是埃丰索？你们到底在做什么？那是克里斯的故乡？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/0",
+      "source_sha256": "db5dda941849082a004c6b7394d2db01c9afd7f593bb29187c1676950e1d3bd6",
+      "target": "原来如此，约书亚的回忆录啊……我略有耳闻。他原本把回忆录放在老家，遭到盗窃后，便流入了拍卖场。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/1",
+      "source_sha256": "39b7a7165378113dbd1333ddf999ba5051009ca29edbc8e30a57593b57e36bfb",
+      "target": "拍卖场？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/2",
+      "source_sha256": "bbb0ee7a58558de91ff43e88c26b95d11be010b8b721a048eaff09a64964e699",
+      "target": "曾经以高价成交，但最后似乎被拆成几部分，散落到收藏家手里。你看到的，应该就是其中一部分吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/3",
+      "source_sha256": "cb91e279266492cec52b36931e0d1891227b49b87e27064034ac7899d1a90657",
+      "target": "这么说，回忆录的其余部分还留在伊佩莉亚的某处。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/4",
+      "source_sha256": "42bb2bb17a5e906413773de4527badead2bec6fa66210c2c4de4e6d16fb9a211",
+      "target": "没错。收藏家其实不在意内容，只痴迷于它是前任大巫师亲笔写的回忆录。即使看过，也只会当成荒诞的故事。毕竟约书亚大巫师晚年已经疯了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/5",
+      "source_sha256": "86836dc1835c9502bac317f1fa3ba4d61d7081db6cd2009eb337eaf2be100784",
+      "target": "原来是真的。我还以为只是传闻。总之，这本回忆录的其余部分，也值得继续寻找。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005267.pod/field/19",
+      "source_sha256": "55b68eaca8b18041ad0c84f60d8b4cf248f1c092bdc25d8ed39e6c095fdf0ed2",
+      "target": "约书亚的回忆录啊……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005268.pod/field/0",
+      "source_sha256": "ff0e0ddfa3fe7eb53add4c349cfeb0835f0506ea14d4d98282127c0a58a6ddae",
+      "target": "恩特雷斯沙漠……不就是传说中的普诺森图书馆所在之处吗？什么？真的存在？我一直以为只是荒诞的传说。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005268.pod/field/19",
+      "source_sha256": "69d68d5be4742b2a14611e1151a2a9685ea027ac14528371f806d6badb801df4",
+      "target": "居然在沙漠里建图书馆，除非疯了，否则怎么可能呢？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005269.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005269.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005270.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005270.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005271.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00005271.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007211.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007211.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007212.pod/field/0",
+      "source_sha256": "e4a8ccee78185bd5be72eb28f845cddb0f133252607bd57f4e85f88c8b8639d3",
+      "target": "近来战争不断，到处都是伤员。巫师和巫女们每天都忙得不可开交。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007212.pod/field/19",
+      "source_sha256": "e4a8ccee78185bd5be72eb28f845cddb0f133252607bd57f4e85f88c8b8639d3",
+      "target": "近来战争不断，到处都是伤员。巫师和巫女们每天都忙得不可开交。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007213.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007213.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007214.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007214.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007232.pod/field/0",
+      "source_sha256": "8d50782a8e995628a0a6a9a63b9d946ec41236b73c8b90a1864f596c56eebc1c",
+      "target": "火之碎片……确实有可能。拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007232.pod/field/19",
+      "source_sha256": "8d50782a8e995628a0a6a9a63b9d946ec41236b73c8b90a1864f596c56eebc1c",
+      "target": "火之碎片……确实有可能。拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007233.pod/field/0",
+      "source_sha256": "1df0699f583b00e738ff003bb19cff88909a51c456127a8d24400c440d64fc7d",
+      "target": "总部没什么事。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007233.pod/field/19",
+      "source_sha256": "1df0699f583b00e738ff003bb19cff88909a51c456127a8d24400c440d64fc7d",
+      "target": "总部没什么事。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007234.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007234.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007235.pod/field/0",
+      "source_sha256": "5aba50472ad74a5f19117be38b7e975def80801178a86f2aed13167f53128da0",
+      "target": "听说四天王中最邪恶的是阿萨德。他的性情极其残忍。据说联合军最不想碰上的，就是阿萨德的$n军队。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007235.pod/field/19",
+      "source_sha256": "5aba50472ad74a5f19117be38b7e975def80801178a86f2aed13167f53128da0",
+      "target": "听说四天王中最邪恶的是阿萨德。他的性情极其残忍。据说联合军最不想碰上的，就是阿萨德的$n军队。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007236.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007236.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007237.pod/field/0",
+      "source_sha256": "cbad4d9bc917c669f5c237b9cf4754c49154332ae0e03ca19ccb5a66a6c4791a",
+      "target": "嗯，我打算进一步改良罗斯蒂28号，造出更好的飞机。敬请期待。$n我会造出让阿泽翼都抬不起头的飞机。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007237.pod/field/19",
+      "source_sha256": "cbad4d9bc917c669f5c237b9cf4754c49154332ae0e03ca19ccb5a66a6c4791a",
+      "target": "嗯，我打算进一步改良罗斯蒂28号，造出更好的飞机。敬请期待。$n我会造出让阿泽翼都抬不起头的飞机。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007239.pod/field/0",
+      "source_sha256": "65dc7b02dd4bfd9e7fbdd3dfb1f03b28f84b34b58bd81c8200e39e2055ea3de3",
+      "target": "那么，祝你好运。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007239.pod/field/19",
+      "source_sha256": "65dc7b02dd4bfd9e7fbdd3dfb1f03b28f84b34b58bd81c8200e39e2055ea3de3",
+      "target": "那么，祝你好运。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007241.pod/field/0",
+      "source_sha256": "15b27ca4193f532b271be5d4e4095f34f8f4d3cb982c1ca8d4aeec9e3f684d3a",
+      "target": "你们要是什么事都自作主张，那我待在这里也没必要了吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007241.pod/field/19",
+      "source_sha256": "15b27ca4193f532b271be5d4e4095f34f8f4d3cb982c1ca8d4aeec9e3f684d3a",
+      "target": "你们要是什么事都自作主张，那我待在这里也没必要了吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007244.pod/field/0",
+      "source_sha256": "6796a18d4126e45ff9e3c9c59f1957142ba0eaeca227e61a3e06054727f3d09f",
+      "target": "愿你的记忆早日恢复。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007244.pod/field/19",
+      "source_sha256": "6796a18d4126e45ff9e3c9c59f1957142ba0eaeca227e61a3e06054727f3d09f",
+      "target": "愿你的记忆早日恢复。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007245.pod/field/0",
+      "source_sha256": "4f6f94b728f7a87ef5baee9935d62bb11dd1f2dd6de8508de0d33864ee1425ef",
+      "target": "今后就轻松相处吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007245.pod/field/19",
+      "source_sha256": "4f6f94b728f7a87ef5baee9935d62bb11dd1f2dd6de8508de0d33864ee1425ef",
+      "target": "今后就轻松相处吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007246.pod/field/0",
+      "source_sha256": "80865f3f20c809581484017ee723dc2c725a1aae090c68c40b63bf5e3ba46a6f",
+      "target": "战乱不断，世道不安。只有姑娘们结伴出行，可是很危险的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007246.pod/field/19",
+      "source_sha256": "80865f3f20c809581484017ee723dc2c725a1aae090c68c40b63bf5e3ba46a6f",
+      "target": "战乱不断，世道不安。只有姑娘们结伴出行，可是很危险的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007247.pod/field/0",
+      "source_sha256": "5f1a1909e3ce06b6b7d120e6a50e82d40a0ebc9d84746a55b37e92c7fbb00691",
+      "target": "见过兄长了吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007247.pod/field/19",
+      "source_sha256": "5f1a1909e3ce06b6b7d120e6a50e82d40a0ebc9d84746a55b37e92c7fbb00691",
+      "target": "见过兄长了吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007248.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007248.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/0",
+      "source_sha256": "a08a991300a3f95557641a445a4b3de630c0fd06861f685ae4a9f40c0e20ac14",
+      "target": "风月林？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/1",
+      "source_sha256": "0ea6603951d335038426c0a2a84f9beaaaadacf65a148e3c7dee059828cab40a",
+      "target": "为什么？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/2",
+      "source_sha256": "d91af57404a2f608886731291e709105d5605f5cf3093ba6f103da52507563b0",
+      "target": "那里……是卡琳兹的故乡。如今已经成了废墟。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/3",
+      "source_sha256": "a2ea259cf3b0df14b19f69e69878413e7a1d576b203cd3161ca6f2ce8cefc6d4",
+      "target": "原来如此。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/4",
+      "source_sha256": "f79d4df8a736c5500bedc63112054944e0d339bcea3ae64dbffaa31a888e933c",
+      "target": "从诺提亚出发，要往南走。$n就在血泪据点附近。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007249.pod/field/19",
+      "source_sha256": "f79d4df8a736c5500bedc63112054944e0d339bcea3ae64dbffaa31a888e933c",
+      "target": "从诺提亚出发，要往南走。$n就在血泪据点附近。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007250.pod/field/0",
+      "source_sha256": "cc460aa9b0a203d43ffb094a4172f32b143c51b04d2c4ac62b09b4a50e639486",
+      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿蜜拉女王，是令人恐惧的存在。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007250.pod/field/19",
+      "source_sha256": "cc460aa9b0a203d43ffb094a4172f32b143c51b04d2c4ac62b09b4a50e639486",
+      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿蜜拉女王，是令人恐惧的存在。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007251.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007251.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007252.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007252.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007253.pod/field/0",
+      "source_sha256": "c546a6886eef32c3290b4b22ecbf003c18a51bb9017e6ea8cf12b46f6cc3872e",
+      "target": "啊，说起我，我就是“罗斯蒂”运输公司的老板罗斯坦。很快就会打造出足以媲美阿泽翼的运输公司，敬请期待。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007253.pod/field/19",
+      "source_sha256": "940676f41e209684bd6df63a73f34243d0a4cdf688220c22f0a0ed3530532973",
+      "target": "我是“罗斯蒂”运输公司的老板罗斯坦。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007255.pod/field/0",
+      "source_sha256": "87cb071925fd75c01e309f5533a667abfaa859f20fdf9ee65964c7f16bd5f7f0",
+      "target": "母亲似乎打算举办大祈愿祭，真让人担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007255.pod/field/19",
+      "source_sha256": "87cb071925fd75c01e309f5533a667abfaa859f20fdf9ee65964c7f16bd5f7f0",
+      "target": "母亲似乎打算举办大祈愿祭，真让人担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007256.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007256.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007257.pod/field/0",
+      "source_sha256": "30080dccf37874aa5f2767e720e49776554f807cdb6942794e2660773de432f6",
+      "target": "约书亚的回忆录……我也听说过。米雷娜有个商人偶然得到过，引来不少收藏家。可商人毕竟是商人，开出离谱的高价，最后大家都退走了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007257.pod/field/19",
+      "source_sha256": "30080dccf37874aa5f2767e720e49776554f807cdb6942794e2660773de432f6",
+      "target": "约书亚的回忆录……我也听说过。米雷娜有个商人偶然得到过，引来不少收藏家。可商人毕竟是商人，开出离谱的高价，最后大家都退走了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007258.pod/field/0",
+      "source_sha256": "d8b08494af983d7336602dabd3142a6459fe0652ed3cfdfcf967cade93858bd9",
+      "target": "真不知道战争什么时候才能结束。再这样持续下去……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007258.pod/field/19",
+      "source_sha256": "d8b08494af983d7336602dabd3142a6459fe0652ed3cfdfcf967cade93858bd9",
+      "target": "真不知道战争什么时候才能结束。再这样持续下去……",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007259.pod/field/0",
+      "source_sha256": "3452c573218a97eaee3d2137b6053dca4e4db4c118a4a10f4601c2b551944c95",
+      "target": "我那个傻儿子还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007259.pod/field/19",
+      "source_sha256": "3452c573218a97eaee3d2137b6053dca4e4db4c118a4a10f4601c2b551944c95",
+      "target": "我那个傻儿子还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007260.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007260.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007261.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007261.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007262.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007262.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007263.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007263.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007264.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007264.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007265.pod/field/0",
+      "source_sha256": "9a95e7293a43209a25f352c80c3bf03560fd019cd6b03d154f0e362944e48531",
+      "target": "大祈愿祭的事就拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007265.pod/field/19",
+      "source_sha256": "9a95e7293a43209a25f352c80c3bf03560fd019cd6b03d154f0e362944e48531",
+      "target": "大祈愿祭的事就拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007266.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007266.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007267.pod/field/0",
+      "source_sha256": "1cc50211145e18721f36804cef25d785a66e66c65f5597ebd9aa4beda58a3a3b",
+      "target": "记忆正在一点点恢复啊，加油。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007267.pod/field/19",
+      "source_sha256": "1cc50211145e18721f36804cef25d785a66e66c65f5597ebd9aa4beda58a3a3b",
+      "target": "记忆正在一点点恢复啊，加油。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007268.pod/field/0",
+      "source_sha256": "85a1c4d81c2835444057b49f6ccf75fe5260196330651f80c4425b57f2380c19",
+      "target": "小心，这事很危险。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007268.pod/field/19",
+      "source_sha256": "85a1c4d81c2835444057b49f6ccf75fe5260196330651f80c4425b57f2380c19",
+      "target": "小心，这事很危险。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007269.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007269.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007270.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007270.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007271.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007271.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007272.pod/field/0",
+      "source_sha256": "da894a71c9fb2df42e18a5b114be538e843f8ce467d477be26a3017189cc42f5",
+      "target": "虽然危险，但多亏大祈愿祭，士兵们的士气提高了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007272.pod/field/19",
+      "source_sha256": "da894a71c9fb2df42e18a5b114be538e843f8ce467d477be26a3017189cc42f5",
+      "target": "虽然危险，但多亏大祈愿祭，士兵们的士气提高了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007273.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007273.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007274.pod/field/0",
+      "source_sha256": "1a9775744a0368b93ec5d2c5ba3fc53bb812c7b84177990e2819d6560a224785",
+      "target": "你过得还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007274.pod/field/19",
+      "source_sha256": "1a9775744a0368b93ec5d2c5ba3fc53bb812c7b84177990e2819d6560a224785",
+      "target": "你过得还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007275.pod/field/0",
+      "source_sha256": "814b6a73f6f8870a1f89fc482c4662abd46e8ed41c28f04c6f84a4377a893e42",
+      "target": "最近没什么事。我嘛，一直待在家里。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007275.pod/field/19",
+      "source_sha256": "814b6a73f6f8870a1f89fc482c4662abd46e8ed41c28f04c6f84a4377a893e42",
+      "target": "最近没什么事。我嘛，一直待在家里。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007276.pod/field/0",
+      "source_sha256": "d0854bd13bb1ded0da7b954f82124c03a70337216098add982e2c9d8f8195ac7",
+      "target": "去拜鲁克斯看看吧，那里汇集了许多情报。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007276.pod/field/19",
+      "source_sha256": "d0854bd13bb1ded0da7b954f82124c03a70337216098add982e2c9d8f8195ac7",
+      "target": "去拜鲁克斯看看吧，那里汇集了许多情报。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007277.pod/field/0",
+      "source_sha256": "c95caf1dfd89ee6af247d3115f1a71f4baca605368b947e43df048128e58b08f",
+      "target": "拜耶尔？那里当然只能飞过去吧，阿泽翼就是靠这个挣钱的。不如来我这里？哈哈哈。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007277.pod/field/19",
+      "source_sha256": "c95caf1dfd89ee6af247d3115f1a71f4baca605368b947e43df048128e58b08f",
+      "target": "拜耶尔？那里当然只能飞过去吧，阿泽翼就是靠这个挣钱的。不如来我这里？哈哈哈。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007278.pod/field/0",
+      "source_sha256": "dfa2fa8ddf0b2d90e5b669ef4004139a0eae1149c5552e192bbabef517a2a099",
+      "target": "我没去过拜耶尔，不过听说那里很封闭。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007278.pod/field/19",
+      "source_sha256": "dfa2fa8ddf0b2d90e5b669ef4004139a0eae1149c5552e192bbabef517a2a099",
+      "target": "我没去过拜耶尔，不过听说那里很封闭。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007280.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007280.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007281.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007281.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007283.pod/field/0",
+      "source_sha256": "895d84698782273e90283f21a3c7ea94b2db1b7f87c65169b64dd536da50f399",
+      "target": "看来找回了新的记忆。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007283.pod/field/19",
+      "source_sha256": "895d84698782273e90283f21a3c7ea94b2db1b7f87c65169b64dd536da50f399",
+      "target": "看来找回了新的记忆。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007284.pod/field/0",
+      "source_sha256": "e9a266f16ee9f166fd9af2c2e06548b6e1adc2dece7c6dddb03950f91d3bfadd",
+      "target": "还要这样活到什么时候……真难熬啊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007284.pod/field/19",
+      "source_sha256": "e9a266f16ee9f166fd9af2c2e06548b6e1adc2dece7c6dddb03950f91d3bfadd",
+      "target": "还要这样活到什么时候……真难熬啊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007285.pod/field/0",
+      "source_sha256": "385b75001a4dc4b27fd2b36e7ab23c1070c3b7e0c91b451c81385833430c81f9",
+      "target": "想找新情报，就去普诺森图书馆。传闻那里有许多如今已看不到的珍本，也许能发现意想不到的真相。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007285.pod/field/19",
+      "source_sha256": "385b75001a4dc4b27fd2b36e7ab23c1070c3b7e0c91b451c81385833430c81f9",
+      "target": "想找新情报，就去普诺森图书馆。传闻那里有许多如今已看不到的珍本，也许能发现意想不到的真相。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007297.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007297.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007298.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007298.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007299.pod/field/0",
+      "source_sha256": "d8f2d80eccdaafcb74009771306925050067c0d910b6b7b16a0a49a362f114c9",
+      "target": "拜耶尔在北方，天气寒冷，要小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007299.pod/field/19",
+      "source_sha256": "d8f2d80eccdaafcb74009771306925050067c0d910b6b7b16a0a49a362f114c9",
+      "target": "拜耶尔在北方，天气寒冷，要小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007300.pod/field/0",
+      "source_sha256": "77a2ed979a6572620f885e81ba12d74227857511531dc95b73f7beda5de59607",
+      "target": "四天王确实可怕。我只盼不要在战场上碰到他们。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007300.pod/field/19",
+      "source_sha256": "77a2ed979a6572620f885e81ba12d74227857511531dc95b73f7beda5de59607",
+      "target": "四天王确实可怕。我只盼不要在战场上碰到他们。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007301.pod/field/0",
+      "source_sha256": "0984b7d7e799c53667dee032a4a597abd93d0f582fd35cdec7cfba20e6b72ec6",
+      "target": "没人觉得是你的错……振作起来。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007301.pod/field/19",
+      "source_sha256": "0984b7d7e799c53667dee032a4a597abd93d0f582fd35cdec7cfba20e6b72ec6",
+      "target": "没人觉得是你的错……振作起来。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007302.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007302.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007303.pod/field/0",
+      "source_sha256": "e780f1347868f740c6eeedcbe6deb1c6841d644c95243446cee808e64ad3ab8b",
+      "target": "要小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007303.pod/field/19",
+      "source_sha256": "e780f1347868f740c6eeedcbe6deb1c6841d644c95243446cee808e64ad3ab8b",
+      "target": "要小心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007304.pod/field/0",
+      "source_sha256": "6a16e54790a664d1ce9b569a173c58b62e953c7aabf8996df939b47edf247713",
+      "target": "又需要我帮忙了吧？嗯？克里斯那家伙可是一点用都没有。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007304.pod/field/19",
+      "source_sha256": "5d4479c8796679d56527760e774089e0d2160abf1ddeefe02c0dfc62301bcd13",
+      "target": "不需要我帮忙吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007305.pod/field/0",
+      "source_sha256": "4e847f39e92bdf99fbc474a8fb3fae2e21298bb5aa68d1841cd0f4a183ce3958",
+      "target": "虽然蕾哈丝已经离开人世……但我们不要太绝望。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007305.pod/field/19",
+      "source_sha256": "4e847f39e92bdf99fbc474a8fb3fae2e21298bb5aa68d1841cd0f4a183ce3958",
+      "target": "虽然蕾哈丝已经离开人世……但我们不要太绝望。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007306.pod/field/0",
+      "source_sha256": "02cd8289a2ab8c6d77ec928c27a9d54932d42402781d2cea4518e9587635a88a",
+      "target": "拜耶尔虽然封闭，却也不至于对伊佩莉亚的危机置之不理。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007306.pod/field/19",
+      "source_sha256": "02cd8289a2ab8c6d77ec928c27a9d54932d42402781d2cea4518e9587635a88a",
+      "target": "拜耶尔虽然封闭，却也不至于对伊佩莉亚的危机置之不理。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007307.pod/field/0",
+      "source_sha256": "df54b0f64c4b2c2259080fb5223a58a54599bad445ff0ea559facd9e8e6be36b",
+      "target": "八英雄……虽然只是五十年前的事，他们却已经成了传说般的存在。光是编造他们事迹的小说，就有好几本，当然都是荒诞的故事。说到底，他们也只是人类啊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007307.pod/field/19",
+      "source_sha256": "df54b0f64c4b2c2259080fb5223a58a54599bad445ff0ea559facd9e8e6be36b",
+      "target": "八英雄……虽然只是五十年前的事，他们却已经成了传说般的存在。光是编造他们事迹的小说，就有好几本，当然都是荒诞的故事。说到底，他们也只是人类啊。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007308.pod/field/0",
+      "source_sha256": "001b4426adb4b10d9c433c975567ebf603bde24363211c1b8684c757972800e4",
+      "target": "今后最好更加小心。要是让母亲知道了救赎之光，可就麻烦了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007308.pod/field/19",
+      "source_sha256": "001b4426adb4b10d9c433c975567ebf603bde24363211c1b8684c757972800e4",
+      "target": "今后最好更加小心。要是让母亲知道了救赎之光，可就麻烦了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007309.pod/field/0",
+      "source_sha256": "91c3f35bb6d4317c21f47da989a40bd2d6c4d68bc63de9d71868bfc81e46d1c1",
+      "target": "最近血泪遭到袭击，真令人费解。他们究竟想得到什么？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007309.pod/field/19",
+      "source_sha256": "91c3f35bb6d4317c21f47da989a40bd2d6c4d68bc63de9d71868bfc81e46d1c1",
+      "target": "最近血泪遭到袭击，真令人费解。他们究竟想得到什么？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007310.pod/field/0",
+      "source_sha256": "c35b7026c6bf6ea9fd8ad79fdc15397f353081eb8a8a17f5c5b675bab95d64af",
+      "target": "听说血泪遭到袭击，你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007310.pod/field/19",
+      "source_sha256": "c35b7026c6bf6ea9fd8ad79fdc15397f353081eb8a8a17f5c5b675bab95d64af",
+      "target": "听说血泪遭到袭击，你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007333.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007333.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007334.pod/field/0",
+      "source_sha256": "9631e5e5c7732a070da2936eab4a577da1cb9e0d529c104b0c54762336e4a6b2",
+      "target": "能避开的话，我真不想遇到使魔。它们太可怕了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007334.pod/field/19",
+      "source_sha256": "9631e5e5c7732a070da2936eab4a577da1cb9e0d529c104b0c54762336e4a6b2",
+      "target": "能避开的话，我真不想遇到使魔。它们太可怕了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007335.pod/field/0",
+      "source_sha256": "1323d667ef3281d5d043dcf581fc67d100b49da70d15bba4f489fc0e3f098f78",
+      "target": "莉丝找回记忆后，一定要带她来。$n我很想知道，已经消失的卡恩是如何重新产生的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007335.pod/field/19",
+      "source_sha256": "1323d667ef3281d5d043dcf581fc67d100b49da70d15bba4f489fc0e3f098f78",
+      "target": "莉丝找回记忆后，一定要带她来。$n我很想知道，已经消失的卡恩是如何重新产生的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007336.pod/field/0",
+      "source_sha256": "6eaa19e957f6f8b0fc816fe1eeae610339d7e8632a393394794dd5ad8d99f44a",
+      "target": "最近我治疗过一名亚逊。他来自人类与$n亚逊共同生活的埃蒙。似乎以为各地的人类都和那里一样，就毫无防备地来到北方，$n结果遭到了联合军的攻击。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007336.pod/field/19",
+      "source_sha256": "3a0768a0a20368c3d62b80115edd0e7165c3bcacbf85565a5f245b701a23dc9f",
+      "target": "人类与亚逊共存……你觉得可能吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007337.pod/field/0",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007337.pod/field/19",
+      "source_sha256": "7a68df556a934277f49eae21a2f51ac4f6844a913a4977a662a21dbc11a1ee7f",
+      "target": "（离线）",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007338.pod/field/0",
+      "source_sha256": "f0b6a224ebed101dc817c4e5f38b98abd432241d23a4675f32c65eb6149e0240",
+      "target": "你若想相信卡琳兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007338.pod/field/19",
+      "source_sha256": "f0b6a224ebed101dc817c4e5f38b98abd432241d23a4675f32c65eb6149e0240",
+      "target": "你若想相信卡琳兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007339.pod/field/0",
+      "source_sha256": "dbf7c2251c02e66d6837384875b152f3ca5edb0a47832119ef60563044baf703",
+      "target": "越是艰难的时候，越要懂得歇口气。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007339.pod/field/19",
+      "source_sha256": "dbf7c2251c02e66d6837384875b152f3ca5edb0a47832119ef60563044baf703",
+      "target": "越是艰难的时候，越要懂得歇口气。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007340.pod/field/0",
+      "source_sha256": "48509149963a05c8112146c51d03dae1836de260385a3fe3ed8f721725a69b73",
+      "target": "阿泽翼似乎正逐渐被我的罗斯蒂压下去。毕竟这边便宜，当然更好，不是吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007340.pod/field/19",
+      "source_sha256": "48509149963a05c8112146c51d03dae1836de260385a3fe3ed8f721725a69b73",
+      "target": "阿泽翼似乎正逐渐被我的罗斯蒂压下去。毕竟这边便宜，当然更好，不是吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007341.pod/field/0",
+      "source_sha256": "8eb4fb606715fa06539311d1718051aea0c34af205ece4f224f3708aa3d2d3d1",
+      "target": "最近，阿玛巴德暗中流传着阿格雷安将军遇袭的消息。是真的吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007341.pod/field/19",
+      "source_sha256": "8eb4fb606715fa06539311d1718051aea0c34af205ece4f224f3708aa3d2d3d1",
+      "target": "最近，阿玛巴德暗中流传着阿格雷安将军遇袭的消息。是真的吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007342.pod/field/0",
+      "source_sha256": "e1e4fcf8d9c8aa7bf2ff2ab4fbf3c593b6e0f2875263e58e715b63b2750e509f",
+      "target": "没事吧？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007342.pod/field/19",
+      "source_sha256": "e1e4fcf8d9c8aa7bf2ff2ab4fbf3c593b6e0f2875263e58e715b63b2750e509f",
+      "target": "没事吧？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007343.pod/field/0",
+      "source_sha256": "27a329e7d9a4eb667caf2a124508117475f9c2a990719bb18d8e70aede90a267",
+      "target": "看来你陷入困境了。必要的话，可以来这里。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007343.pod/field/1",
+      "source_sha256": "9da741b54f55c996c3316e20c6c4e7b57333881f34a8a73a452e0782506082a6",
+      "target": "不了，我不能给布兰大人添麻烦。我会寻找办法的。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00007343.pod/field/19",
+      "source_sha256": "e3e9c5878d4d4216fd1d2a103d98be58a08d7ada8c04cf221cb906a62ebcfb4d",
+      "target": "有什么事，可以来这里。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00011478.pod/field/0",
+      "source_sha256": "0101da77f680074108c4e41b6c73e0b3d429d4e823b6420540cf8c89aea23285",
+      "target": "卡琳兹，我身体很好，过得也好。$n别担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00011478.pod/field/19",
+      "source_sha256": "0101da77f680074108c4e41b6c73e0b3d429d4e823b6420540cf8c89aea23285",
+      "target": "卡琳兹，我身体很好，过得也好。$n别担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00013280.pod/field/0",
+      "source_sha256": "82806de6fc37f4737fd0fd3bbb395721da066383a7a7504f3b3a8fb8fe137288",
+      "target": "那么，就拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00013280.pod/field/19",
+      "source_sha256": "82806de6fc37f4737fd0fd3bbb395721da066383a7a7504f3b3a8fb8fe137288",
+      "target": "那么，就拜托了。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00013498.pod/field/0",
+      "source_sha256": "39d9aa8ee6f86fcb43d2e0a4dcbd392b4cce87320366aa4b609386392950d965",
+      "target": "卡琳兹，快到阿雷莫里山来。我会在那里等你们。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00013498.pod/field/19",
+      "source_sha256": "39d9aa8ee6f86fcb43d2e0a4dcbd392b4cce87320366aa4b609386392950d965",
+      "target": "卡琳兹，快到阿雷莫里山来。我会在那里等你们。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016068.pod/field/0",
+      "source_sha256": "42b27fd949a43ab764bedb02d4f2c2fd6b9d3b8d729f0e4fbe63a142cf5ae4d8",
+      "target": "莉丝……你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016068.pod/field/19",
+      "source_sha256": "42b27fd949a43ab764bedb02d4f2c2fd6b9d3b8d729f0e4fbe63a142cf5ae4d8",
+      "target": "莉丝……你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016590.pod/field/0",
+      "source_sha256": "42b27fd949a43ab764bedb02d4f2c2fd6b9d3b8d729f0e4fbe63a142cf5ae4d8",
+      "target": "莉丝……你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016590.pod/field/19",
+      "source_sha256": "42b27fd949a43ab764bedb02d4f2c2fd6b9d3b8d729f0e4fbe63a142cf5ae4d8",
+      "target": "莉丝……你还好吗？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016591.pod/field/0",
+      "source_sha256": "c34c5aa52bff4518cbec2c6ee164617ec8cd9c25ba72fb7453ea1316e99cbbf5",
+      "target": "卡琳兹，我过得很好，别担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016591.pod/field/19",
+      "source_sha256": "c34c5aa52bff4518cbec2c6ee164617ec8cd9c25ba72fb7453ea1316e99cbbf5",
+      "target": "卡琳兹，我过得很好，别担心。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016644.pod/field/0",
+      "source_sha256": "b9cce955f73da7f5229d82b7255ec7ab2a2358a0b896912d3310b5732931a114",
+      "target": "好了，想让我送你去哪儿？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016644.pod/field/19",
+      "source_sha256": "b9cce955f73da7f5229d82b7255ec7ab2a2358a0b896912d3310b5732931a114",
+      "target": "好了，想让我送你去哪儿？",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016650.pod/field/0",
+      "source_sha256": "2038c0d8a64ddfd1c0ac35c8e2a23e1c7999de821362ee6be897f4566b3ade2b",
+      "target": "克里斯被抓走后，我乘罗斯蒂去了雷斯蒂，但戒备太严，根本没法在雷斯蒂村降落。$n快去救克里斯吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016650.pod/field/19",
+      "source_sha256": "2038c0d8a64ddfd1c0ac35c8e2a23e1c7999de821362ee6be897f4566b3ade2b",
+      "target": "克里斯被抓走后，我乘罗斯蒂去了雷斯蒂，但戒备太严，根本没法在雷斯蒂村降落。$n快去救克里斯吧。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016651.pod/field/0",
+      "source_sha256": "2140f77caffbfe591baf814f6847b475b13f637732b9a3457c6859c571afd1c9",
+      "target": "我替罗斯坦大人驾驶罗斯蒂。以前驾驶阿泽翼时，机器经常故障，只能冒着生命危险$n驾驶。相比之下，罗斯蒂既安全，又快得多，驾驶起来$n真让人痛快。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016651.pod/field/19",
+      "source_sha256": "014e891dbace8e5cbbe1770381ba298b9ce86d0ce2107e7e328a37cef0f7ecef",
+      "target": "好了，不管去哪儿，我都会迅速送到。请告诉我目的地。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016900.pod/field/0",
+      "source_sha256": "f84d33e5f1a6fe5c437f8bebf0716d3e459d218c63ff3983d9359b10748b6a57",
+      "target": "符咒合成基本遵循属性之间的关系。$n将相应属性的符咒合成，$n可以得到类似或更好的符咒，$n但反过来，合成相克的符咒就会失败。不过，$n也并非一定遵循这个规律。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016900.pod/field/19",
+      "source_sha256": "f84d33e5f1a6fe5c437f8bebf0716d3e459d218c63ff3983d9359b10748b6a57",
+      "target": "符咒合成基本遵循属性之间的关系。$n将相应属性的符咒合成，$n可以得到类似或更好的符咒，$n但反过来，合成相克的符咒就会失败。不过，$n也并非一定遵循这个规律。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016901.pod/field/0",
+      "source_sha256": "ccb6752c95e662f73d4c0bf3f6aa29215fd99474a829a1e5978f9b6c13a17aae",
+      "target": "相应的符咒是天与风、江与水、山与地、火与雷。相克的符咒是天与山、$n风与地、江与火、水与雷。$n不清楚的话，在野外按SELECT按钮，$n查看卡恩信息。相邻的属性相应，$n对称的属性相克。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016901.pod/field/19",
+      "source_sha256": "ccb6752c95e662f73d4c0bf3f6aa29215fd99474a829a1e5978f9b6c13a17aae",
+      "target": "相应的符咒是天与风、江与水、山与地、火与雷。相克的符咒是天与山、$n风与地、江与火、水与雷。$n不清楚的话，在野外按SELECT按钮，$n查看卡恩信息。相邻的属性相应，$n对称的属性相克。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016903.pod/field/0",
+      "source_sha256": "dd823f5f4e49ddf3199c4d09148217f2ee061123caf859a26f4f98415fcdd4ac",
+      "target": "道具店出售的符咒，都是合成的$n基本材料。如果合成出的符咒$n在商店买不到，那肯定是稀有符咒。$n将这类符咒与其他符咒$n合成，有时可以制造出$n另一种符咒。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016903.pod/field/19",
+      "source_sha256": "dd823f5f4e49ddf3199c4d09148217f2ee061123caf859a26f4f98415fcdd4ac",
+      "target": "道具店出售的符咒，都是合成的$n基本材料。如果合成出的符咒$n在商店买不到，那肯定是稀有符咒。$n将这类符咒与其他符咒$n合成，有时可以制造出$n另一种符咒。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016904.pod/field/0",
+      "source_sha256": "594054dd69834e255bdc4ffb00477ab278026a556d936467f3f2c785fa72d20e",
+      "target": "通过合成或宝箱获得的符咒，$n有不少都很实用。道具店$n完全不出售这些符咒，最终只能靠自己取得。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    },
+    {
+      "id": "SHIP/00016904.pod/field/19",
+      "source_sha256": "594054dd69834e255bdc4ffb00477ab278026a556d936467f3f2c785fa72d20e",
+      "target": "通过合成或宝箱获得的符咒，$n有不少都很实用。道具店$n完全不出售这些符咒，最终只能靠自己取得。",
+      "status": "reviewed",
+      "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
+    }
+  ]
+}

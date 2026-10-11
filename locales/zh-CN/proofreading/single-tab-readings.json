@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "source_corpus_sha256": "06fbc464c002e8faba8c8334ed956d044bbc88ecd7185b27723d9ba1b438ba0a",
+  "entries": [
+    {
+      "id": "SHIP/00000682.tui/record/17/field/0/index/16",
+      "resource": "SHIP/00000682.tui",
+      "resource_sha256": "2b3d6613e01e1d62f750ef1261f8223e7bb804b39225951af4381c69aaf1e0a5",
+      "offset": 8268,
+      "source_bytes": 81,
+      "source_sha256": "e67b5b3e08eb73697e6bca36d06a6bdf9afa0aea14590af42b2e47ab407d9516",
+      "source": "바람의 부적으로 감정되었습니다. 보조무기 장착시 공 +1\t방 +3 의 효과가 있습니다.　",
+      "reading_sha256": "504985cdcf4a2b8e214c36a59dda449e7a7c7d03c8871bd9c64e534c30d48f64",
+      "target": "鉴定结果为风之符咒。装备为副武器时，攻击+1\t防御+3。　",
+      "status": "reviewed",
+      "record_key": 17,
+      "physical_index": 16
+    },
+    {
+      "id": "SHIP/00001240.tui/record/192/field/0/index/9",
+      "resource": "SHIP/00001240.tui",
+      "resource_sha256": "e51d42d096a485949f27d23b8549eb0f56049099214ad688cb225590662e7a83",
+      "offset": 4656,
+      "source_bytes": 7,
+      "source_sha256": "4d53534f3447c630036046bcf6c73483576574bf27c70a20284dd0b4070cc66a",
+      "source": "명칭순\t",
+      "reading_sha256": "78a0844452b1dad89aaca08549621b73eeaf0eb9dbc94fb5beb02c869c1d285a",
+      "target": "按名称\t",
+      "status": "reviewed",
+      "record_key": 192,
+      "physical_index": 9
+    }
+  ]
+}

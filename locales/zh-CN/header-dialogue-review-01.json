@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "header-dialogue-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00004668.fpb/pool-gap/0/177",
+      "source_sha256": "4b331e4c8c9d46835d0f60100d2987a30006ad0301953c60b11afb967acf592c",
+      "native_key": 13,
+      "target": "江之英雄约书亚的回忆录1：我不知道留下这份记录究竟是不是正确的选择。然而，我们得知了太多有关救赎之光的真相，最终甚至将它封印。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    },
+    {
+      "id": "SHIP/00004669.fpb/pool-gap/0/217",
+      "source_sha256": "7173ed6394aaa45d91a8f39e67e81f34944c61fd312abbaa56a939f49e669138",
+      "native_key": 10,
+      "target": "关于八英雄：封印光之树的八位英雄。我们总称他们为风之英雄、火之英雄，连他们的姓名都不知道，只是一味地称他们为英雄。  $n本书只记述有关他们的已知事实。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    },
+    {
+      "id": "SHIP/00004800.fpb/pool-gap/0/86",
+      "source_sha256": "35623bb8b8b89bb4d8ccdc89784dbd9ddfde65e9165e762f1001197c96727407",
+      "native_key": 11,
+      "target": "即使是巫师和巫女，$n也并不是所有人都支持$n埃琉内德圣会。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    },
+    {
+      "id": "SHIP/00004994.fpb/pool-gap/0/32",
+      "source_sha256": "83a19acef748d0862d9e798c9ad58bd5bc8b8dd067931fb388bfc6a1b0b63677",
+      "native_key": 1,
+      "target": "一下子热起来了。不要紧吧？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    },
+    {
+      "id": "SHIP/00005047.fpb/pool-gap/0/167",
+      "source_sha256": "d630d463fb750b6ffd4188c862c016ca43342092f42f4f7e24582704644117ea",
+      "native_key": 2,
+      "target": "珠宝魔法师格兰朱：格兰朱被誉为马拉卡特最优秀的珠宝工匠。格兰朱家族的作品虽然价格昂贵，却深受女性喜爱，常被选作结婚礼物。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    },
+    {
+      "id": "SHIP/00006436.fpb/pool-gap/0/123",
+      "source_sha256": "1d3bbef0ca62970e62fddacda1ab8f74f3f07315d0faf03de4cc89b93c39db51",
+      "native_key": 1,
+      "target": "致莫莉。$n$n我打算去一趟普诺森图书馆。听说那里有许多珍贵的书籍和文献。说不定也有关于这个恶魔的资料。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-header-record",
+      "context": "Native loader/getter static binding stage143 identifies actual header record. Exact source hash and pool geometry retained; legacy IDs not renamed. Canonical glossary names used. 04800 Japanese missing characters interpreted contextually; raw CP949 source is preserved, CP932 decoding fails; no claim of recovered original glyphs. No forced gender for unidentified speaker."
+    }
+  ]
+}

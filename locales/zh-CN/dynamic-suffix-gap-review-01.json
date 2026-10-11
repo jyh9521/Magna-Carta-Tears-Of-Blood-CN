@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "dynamic-suffix-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001240.tui/record/74/field/0/index/68",
+      "source_sha256": "7e7274d5d49b23d9ed9778e2d9f6c09a8992fa75ab767e94e5b0b044dd4fced1",
+      "target": "的装备",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/75/field/0/index/69",
+      "source_sha256": "31fac5033ae483ed3e994787f87d80b546ff1ee02bb5070ac5f7cfd2353c9407",
+      "target": "的流派",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/168/field/0/index/141",
+      "source_sha256": "d602f298d28e835d0420ef62ad4ac4e98a1ef878478eaafbc2cff89212939942",
+      "target": "发来了通讯",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/219/field/0/index/157",
+      "source_sha256": "0d5a3cebdc4ea15fa7dc953400fde4753d4ee485a9db78b2f82eb790fc6032c3",
+      "target": "的详细技能",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/260/field/0/index/198",
+      "source_sha256": "0d5a3cebdc4ea15fa7dc953400fde4753d4ee485a9db78b2f82eb790fc6032c3",
+      "target": "的详细技能",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/7/field/0/index/7",
+      "source_sha256": "6d1063d0698b3d3edae9d2d34bc2542f3a3ce3f7d3cacfeb3ad2718dbd061bd8",
+      "target": "的友好度提高了",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00002380.tui/record/8/field/0/index/8",
+      "source_sha256": "47bddf506ea161a70c0dfc93be2c76f400596fcf8d44ca0414e76c211baeed32",
+      "target": "的友好度降低了",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    },
+    {
+      "id": "SHIP/00002381.tui/record/4/field/0/index/4",
+      "source_sha256": "ffaf1637b9db86d12eff80ba24f8826f9137675445fb3ec125a016104add9f88",
+      "target": "：是否前往？",
+      "status": "reviewed",
+      "context": "Source-bound suffix reviewed as Chinese possessive/sender/affinity/destination label; no names, gender, numbers or source expression order invented. Map key4 has original whole-function getter/out-index/TextData/SetMessage static evidence. Other suffix grammar is a language decision, not a proven runtime consumer."
+    }
+  ]
+}

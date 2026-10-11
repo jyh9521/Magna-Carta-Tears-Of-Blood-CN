@@ -1,5 +1,34 @@
 # File Formats
 
+## CDG true native record layout and Store/Gym TUI (stage168)
+
+CDG is header(count72,type5) plus72 records of526 bytes: discardedu32,Keyu32,Name255,numericu32,numericu32,Description255. The263-byte leading-string slices in the old corpus are not physical records; an odd slice may fingerprint the next record numeric prefix as its8-byte tail, which must remain exact. Native records are40 bytes at array118/count11c, with key0/nameFString10/descriptionFString1c. Store/Gym TUI source records areKey4/Main256/Help256, count34/27,type2; native records are28 bytes with MainFString4/HelpFString10. Their key lookup chooses physical positions, not an index guessed from numeric ID.
+
+A valid Unicode space separator can have no ink while retaining normal glyph advance. Empty ordinary glyph rasters continue to fail; the source font cmap and input fingerprint are validated before rasterization.
+
+## Explicit per-field literal control interpretation (stage167)
+
+Generic control parsing defaults remain unchanged. A derived field may select numeric-percent-nonascii-angle-arrow-v1 only with original-controls quarantine and raw/reading/target/native-binding fingerprints, a verified native span, and an explicit false runtime-semantics claim. Known printf/markup tokens take precedence; unknown percent must follow digits, paired literal angles must contain non-ASCII letters, and unknown structures/control bytes fail. Validation preserves all numeric values and token order. CHT native512 write bound preserves the old fullsegment fingerprint and numeric tail; POD and ITM field extents remain512/255 respectively. No automatic codec or grammar fallback exists.
+
+## Verified CHT/POD native text widths (stage164)
+
+CHT original native readers consume12-byte header,count at4,then532-byte records:16bytesnumericmetadata,512bytesNUL-paddedtext,4bytesnumericmetadata. Text offsets28+532*index. Legacy first-NUL/zero-run span516 can include a zero numericword;true stringcapacity511bytes plusNUL. Alternatecatalog preserves the original fullsegmenthash (532or516including nextrecordmetadata when applicable) butwritesonly512bytes andhashes remaining tailseparately. All1608previously selected CHT targets fit this native limit (maximum172bytes);no blindcapacity enlargement is used.
+
+POD fixed12328bytes: fiveu32 headerwords,ten512-byte strings,u32,five512-byte strings,u32,nine512-byte strings,threeu32finalwords.24sourcefield offsets remain distinct despite source text equality. Field0offset20→nativeFString18;field19offset9756→fc. OthernativeFString positions are documented in pod_text_layout(),not inferred fromtext equality.
+
+
+## Native TUI lookup versus physical ordinal (stage149)
+
+00001240.tui loader and getter share a28-byte runtime record with key at0, MainText4 and HelpText16. Original source geometry is8-byte header followed by516-byte records: u32key,256-byteMain,256-byteHelp. Native lookup scans stored keys, not physical record order. Source catalog IDs preserve both record_id and record_index: only record_id binds a compiled integer getter argument. Every half offset/hash and actual source key is independently checked against original SHIP.AFS. Sparse source keys must not be converted to ordinals in translation-consumer analysis. All serialized record IDs/order remain unchanged in imports.
+
+
+## Configuration value and startup cached-file overlays (stage147)
+
+Verified for supported source fingerprints: .int/.ini field identity consists of line number, section plus repeated-section occurrence, ASCII key, original value offset/length and SHA256. Rebuilt values may contain mapped high bytes but cannot contain0/10/13. Section/key/comment/newline structure and all unselected values remain unchanged; selected offsets are recomputed after variable-length overlays.
+
+Startup cached configuration records observed in the original bundle use an ASCII bare filename padded with NUL to128 bytes immediately followed by a little-endian u32 file byte length. Core.int has2 matching records and1 whole body; psx2game.ini has3 records and1 body. Exact path/source hash/count profile is required; body and size words are overlaid through source-hashed segments with independent readback. Record purpose/engine consumption remains unverified; no broad binary pattern patch is authorized. SHIP mirror resizing remains rejected.
+
+
 状态定义/出处见 ../TECHNICAL.md；完整审计与资源计数见 PHASE1_RESEARCH.md。
 
 ## AFS (Verified structure; upstream runtime findings)
@@ -366,3 +395,61 @@ CLS count213/kind24/stride100，ATT count456/kind5/stride24，VAL count170/kind1
 ## stage88 地图字符串／字段消费者
 
 见 `NATIVE_STRING_FIELD_REVIEW.md`。地图compact-string记录补齐两个候选，上下文未闭合8→6；8032编译对象重新解析，77项取得同函数字段消费者证据，未确认320→243。新角色仍为只读候选，完整native序列化、reaching-definition及运行显示尚未证明，覆盖门禁保持待核查。
+
+### leading-only回填指纹边界
+
+Verified static：旧slot提取的slot_sha256包含整个segment，trailer_bytes及trailer_sha256描述首NUL后零区之外的opaque trailer。observed_byte_capacity+1是可替换的leading范围，不是完整指纹范围。import_audited_fields按两范围分别验证，非选择trailer保留；这不证明所有leading字段的运行显示用途或缓存关系。
+
+## CHT按字段替代文字解释
+
+CHT00004044 slot16、00004059 slots0/3/10/19/21存在严格CP949和CP932双向可往返的相同字节；后者形成完整日文问题及人物说明，前者主参考保留。此发现不改变CHT分区、NUL/opaque trailer、源hash或整个资源默认解码。Verified为字节往返与$n序列不变；High-confidence为按场景词汇选择CP932读法。译文记录只绑定原源ID/hash，不把回译字符写回源语料。
+
+## FPB有序不重叠窗口与保留区（stage141）
+
+Verified static：原SHIP的00004668／00004669／00004800／00004994／00005047／00006436六FPB，已选择窗口均有序不重叠，首窗口前存在非空pool前缀。旧partition-only backend因此拒绝72条已审校目标，不是实际重叠。原header、table、pool及geometry诊断保存在work/visible-text-141/fpb-geometry-frontier.json。
+
+通用rewrite_fpb现在接受有序不重叠且全部in-bounds的窗口：窗口间／前／后的未选择pool字节按原顺序完整保留，只有明确seq目标改变；后续offset重新计算，length及sentinel重新写入，未选择窗口逐字节核对。重叠／逆序／重复seq／越界继续拒绝，不采用模糊diff重映射、不合成不存在的seq身份。
+
+六个原prefix未翻译，原字节及首窗口offset（header+0x0c所用边界）保留。未编号不等于未显示，header默认视图与显式seq0的消费关系仍须原生消费者证明；本项不授权把6个reference源字段从最终范围静默排除。
+
+## 原生FPB首记录核查（stage143）
+
+**Verified（版本锁定静态证据）**：原ELF的`..\FPB\%08d.fpb`唯一地址配对指向加载函数0x3007c0。函数读取count后，循环count次读取key四字节及offset/length各四字节。因此+0x04/+0x08/+0x0c不是padding，而是第一个实际record；后续才是旧parser称为windows的record。目的数组为FieldData的+0x19c或+0x1a8，record stride16、字符串在+4。独立的完整qualified method注册复制链绑定GetPlayBookDataText→0x3424d0→0x342560；getter以10000分数组并对第二数组的key减10000，按key首个匹配返回，不按文件record序号索引。不是UIInfo.GetFieldTextData的TUI消费者。
+
+实际SHIP扫描707个可解析FPB、1个8字节文件00001945.fpb仍不支持；19个header key非零，没有重复native key。六个原pool-gap对应真实首record：00004668 key13、00004669 key10、00004800 key11、00004994 key1、00005047 key2、00006436 key1。这些前缀不能继续归为无编号不可见padding；已有源hash/字节坐标保持，后续补译并增加明确header-record回填路径。其余13个非零首key已有legacy seq/0几何链接，旧ID是catalog alias而非native key，不能直接重命名或与显式0合并。
+
+`tools/audit_native_method_registration.py`与`tools/audit_native_playbook.py`可从原ELF/SHIP/冻结corpus复核；指令原words和完整源hash是依据，Capstone对R5900 LQ/SQ的通用反汇编仅探索参考。证据在work/visible-text-143/native-playbook.json。未声称加载函数已在游戏执行、所有资源场景都可达、字符转换或画面排版通过。953资源候选AFS继续保留；此证据尚不自动改写六prefix或生成最终ISO。
+
+## 原生首record补译与独立回填（stage144）
+
+六个真实header record已在locales/zh-CN/header-dialogue-review-01.json按冻结source hash补译并逐句reviewed，native key13/10/11/1/2/1和pool-gap旧ID分别保留。江之英雄约书亚／救赎之光／光之树／格兰朱／马拉卡特／埃琉内德圣会／普诺森／莫莉沿用名词表。04800原Japanese汉字问号缺损按上下文解释，不声称恢复原字；原bytes严格CP949往返，CP932读取失败。$n顺序和数量保持、未知说话者不新增性别。
+
+通用rewrite_fpb_header和tools/import_fpb_headers.py使用明确native key、首record源hash、原AFS/corpus/已回填copy hash及物理font mapping；仅替换header window，显式record keys/order/body字节、内部gap和tail不改，offset统一加delta，header length和pool size同步。拒绝key/hash/offset/overlap/bounds/control/empty mismatches。实际在stage141的六个正文已译副本上继续回填，header-copies2/headers.json权威；两次构建六输出byte-identical，新增目标无glyph缺口，现有两font已覆盖。11新tests、1471测试通过（baseline/rollback1460）。
+
+此特殊header batch与24普通batch独立：普通13383 reviewed不变，新增6 reviewed→合计13389，实际普通回填13025+header6。冻结corpus中旧reference语义不改写，通过native绑定特殊header policy授权副本。下一步把六副本合并到当前953资源完整import receipt/AFS构建和独立验证，不能拿旧stage142AFS当已含六prefix的最终ISO。860普通缺口、358pending及其他scope/layout/movieintegration未闭合。
+
+CHT定槽内非NUL内容可以包含末尾0A（07533slot8/16768slot16）。512byte native槽、16byte前数值与4byte后数值边界不变。terminal-line-feed-v1保持译文末尾0A并随后NULpadding；当前只验证原字节/FString存储，LF在界面的实际解释未据此推断。
+
+stage170：两条TUI制表符源字段00000682 key17/physical16与00001240 key192/physical9补译，native256/MainFString4及真实Key查询绑定。single-tab-byte-v1只允许一个TAB，保留09字节并保持数字、protected tokens在TAB两侧顺序，默认API仍拒绝控制字节。风之符咒依名词表部件统一，不写护符；全角空格保留。14616reviewed、2013terms、2464chars/两5131glyph；5control→3control，8decode/其他scope/动画ISO继续，最终验证见170/VERIFICATION.txt。原文中的TAB实际排版语义不因静态存储确认而冒称已验收。
+
+stage171：00000218.fpb实际header key0/offset0/length43绑定，37B可见韩文场景测试对白后6个NUL。terminal-null-padding-v1以source/reading/target/native hashes启用，仅源末尾零字节；目标正文无NUL，rewrite_fpb在译文bytes后追加原6zero并更新native header长度，不删除源padding、不改原档、不推断事件未使用。普通14239/含FILE14617reviewed、2013terms；剩2control与8decode集中00000106源异常窗口，其他scope及ISO继续。完整验证171/VERIFICATION.txt；默认FPB API原行为不变，无自动padding判断。
+
+stage172：00000106.fpb十个原生记录明确列为retain-source-fault（8个CP949 bytewindow截断字符、1个非语法测试残片えうれおいつえれｄ+3NUL、1个9NUL全零记录）。prepare_source_fault_retention按原SHIP/ELF/nativeKey/physical/span/fullpool/hash核查，派生catalog只添加retention proof，原decode/controls/editable/backend/offset/raw均不改变。scope单列源异常保留10，不计已翻译、不授予import、不声明事件未使用；普通scopereview仍不能跳过quarantine。171字库/AFS实际bytes不改，14617reviewed/2013terms/1011资源14614fields。新scope不再有deferred-decode/control，原8failed/2quarantine如实保留；10Latin/3configsemantics/3pending/compiled/native/image/layout与已验收动画/最终ISO继续。证据172/VERIFICATION.txt。
+
+stage173：余10Latin范围收拢：9条可读英文补译（CommonSid1/GFTOrhaText2/FDS原型6），vbvb b source-bound literal保留（累计139）。GFT原92*822+8、native180/arrayf4，GetGiftData按首Key0比较；0/1键唯一，OrhaText源70/nativea8，Core结构最后StrProperty，compiled10958 BeginState的SetChatText参数，不是内部tag。CommonGetCommonTextIndex312920→3127f0/array130，key19实际physical18。FDS03633为2*2052+8四512文本原型，与active03591同定槽schema；不宣称其游戏加载已执行。Sid→希德币、Orha1/2→奥尔哈1/2、pparkjju/2→朴柱/2项目统一，不推断人物身份性别，数字与机器metadata保留。14626reviewed/2018terms；最终字库/AFS验证173/VERIFICATION.txt。10源异常仍保留，3configsemantics/3pending/compiled/native/image/layout及动画ISO继续。
+
+
+## Configuration metadata retention
+
+The derived source-corpus config_metadata_retention object binds source_sha256, original semantic, role, static native window verification and decision hash. It preserves original source/encoding/import eligibility. Scope recognizes retain-config-metadata only with a valid proof and rejects translations unless retain-original is explicit. No runtime invisibility claim is encoded.
+
+## Exact expression spans and source-bound cached overlay (stage178)
+
+Compiled grammar can optionally return token end and virtual_end at recursive return, before parent operands/trailers. Inferring the end from the next token is incorrect for nested Context and Iterator. Default inventory schema is unchanged. Literal payload lengths contribute equally to disk and VM deltas; compact references do not.
+
+Cached prefix rewriting requires a unique complete source header and unique permitted end. All original alignments under the observed repetition grammar must yield one identical output; no first-path selection or deletion of repeated bytes occurs. Unknown bytes, different outputs, edited literal-interior jump destinations and unsupported object classes fail closed. Package metadata tables/summary/two padded-name size records are distinct guarded overlays. All remaining cache bytes remain unchanged.
+
+
+## stage180 标题与 UI 反馈修正
+
+本次标题 P8 资源为256×256单mip。已验证前三palette通道按RGB组成截图对应的金／灰配色，仅此资产结论，不泛化全部格式。LINEAR原生清单使用无扩展名资源ID，更新大小时移除.lin后缀。详见 UI_TITLE_REVISION.md。

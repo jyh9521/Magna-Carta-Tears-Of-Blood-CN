@@ -1,0 +1,687 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "progression-hints-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00007460.ecd/slot/0",
+      "source_sha256": "06eaefa3bdc943894c92cafe609b416fdcf574fd9511661cafdb79d5d3f6f8e1",
+      "target": "赶快离开这个洞窟吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/1",
+      "source_sha256": "c8cfb598f4ad328962d178a7e5632fa5258a3ab09a6c02584134d0b96da5be5c",
+      "target": "得离开亚逊罗文。$n留在这里太危险了。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/2",
+      "source_sha256": "93cd47abfb9708dfa20737e33c874baec6fa1275cc08153064a41057b7b30538",
+      "target": "雷斯蒂村就在这里正北方。$n赶快走吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/3",
+      "source_sha256": "638d11ffecda3eed14133f6ff7a726944c6024ee5b52bc0c74ce2b4061103cbc",
+      "target": "队长，快去旅馆和艾欧妮丝小姐、$n哈伦先生会合吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/4",
+      "source_sha256": "3e9dd31c20719274a5a7cb7c9f9edeb595bf66d42fe71e257845c5f13f7073e8",
+      "target": "去找阿格雷安将军吧。$n联合军总部应该就在雷斯蒂西边。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/5",
+      "source_sha256": "21769db8d0eafe239c70930bfbc46415f4634ac7d012e196876e5ff16f989297",
+      "target": "说起来，卡琳兹，刚才在旅馆外，$n联合军的队长正在找你。$n不过我没理他……",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/6",
+      "source_sha256": "e2c061abb8f6f9c03f90be7663a773b80e150894ef9f238734135569fe937c50",
+      "target": "快去救巫师吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/7",
+      "source_sha256": "50f1f201050175476238ebf0e4d8a910b62be0a3ca3c176e30a68bdc969a36e1",
+      "target": "他们应该还没走远，$n也许就在雷斯蒂峡谷一带？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/8",
+      "source_sha256": "5dfa02c6c769bad8f98f7e922956409f40364a40efeb2084aec9d9645e0b7194",
+      "target": "快去抓住那个亚逊。$n他大概打算从雷斯蒂峡谷南边出去，$n逃往亚逊罗文吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/9",
+      "source_sha256": "efbc5ce69f7b3591d499827353f25263eac3dba265a6063d3060537fbce3de01",
+      "target": "去旅馆给阿泽尔治疗",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/10",
+      "source_sha256": "eaf0b835c781c4b2f2bcef523116d9182a18b6d26d40c3303373d9530ef59636",
+      "target": "去见阿格雷安将军吧。$n得把莉丝带回来。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007460.ecd/slot/11",
+      "source_sha256": "e404c030b99e59cf20b984703a98076a1f29228e90ed9822376175d39339efc8",
+      "target": "阿泽尔没事吧……$n去看看他的情况如何。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/0",
+      "source_sha256": "96c05a0c420c30e211789b5fe18d4d1e546dbb47da49c7a9ae37d070c1022f54",
+      "target": "快回血泪总部吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/1",
+      "source_sha256": "9919fba95214e68f3a02a91917beb7a629fe2e249d933f1c04647d6295a687ea",
+      "target": "蕾哈丝恐怕正在生气呢。$n赶快去会议室吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/2",
+      "source_sha256": "e9afc227a857c76d5faaf63f0a62399bb1bf7140aa75aa31e05bb31806f77332",
+      "target": "拉埃杜山南部还有雷之遗迹，$n很危险。抓紧吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/3",
+      "source_sha256": "bfd586c6ea19e8c1e54a332e9d7a58725f881327ca3eb5d1dbe583d9a6a45336",
+      "target": "莉丝小姐肯定就在雷之遗迹的某处。$n赶快找找吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/4",
+      "source_sha256": "7a5d6ba5b10d24e5806906bc353b9c60af66f572d159fe125fdc32f617865275",
+      "target": "要治疗莉丝，恐怕得把她$n带到阿玛巴德大神殿去。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/5",
+      "source_sha256": "b22f8400ec667bd750443f0db7326ac92685b7e4e07350cffac0c01d3e1cd736",
+      "target": "既然已将莉丝托付给大巫女大人，$n就别担心了，逛逛大神殿吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/6",
+      "source_sha256": "6b999ae6faefe71752b3f02919437e532152bb9b09b23007cec1e93eaebe2e91",
+      "target": "莉丝的治疗似乎已经结束了，$n快回病房看看吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/7",
+      "source_sha256": "4dee81cdde6c8aa8c61d773ab6c5f00f43d40cd0386eef7d92bd4b93d9e39abb",
+      "target": "阿格雷安将军的房间$n在阿玛巴德大神殿二楼。$n快去吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/8",
+      "source_sha256": "93c4ccdff246e99be1cfaeab39d01fcba68dcc47a0e26a3137025379c2192b6b",
+      "target": "去二楼拜见$n拉德琳娜大人吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007500.ecd/slot/9",
+      "source_sha256": "623710249db54c83f481b445bb0e964f16a1571743b2e2697bc4a7f1aeeadd54",
+      "target": "快用通讯器向蕾哈丝$n报告现在的情况吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007501.ecd/slot/0",
+      "source_sha256": "3181a948cbf16db54cf4cb5a407cee6f981a2379460ecefca436599f6ed9b547",
+      "target": "要去寻找莉丝的记忆吧？$n雷米耶在阿玛巴德西南方。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007501.ecd/slot/1",
+      "source_sha256": "0bbd39b19e9363216f328db4e17bd3222c2e6c9e69405ea845c8ba841bb0aeb4",
+      "target": "没看见莉丝……$n难道她又像那次一样跑远了？$n……真让人担心。去找找吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007501.ecd/slot/2",
+      "source_sha256": "c72726083434469606bfdef67027410386b6f2408c041a32063117d4d3eb4c74",
+      "target": "快回布伦先生和莉丝$n所在的房间吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007501.ecd/slot/3",
+      "source_sha256": "430b218cf49e82d7254a5a43a6e46d79c55a8f100c6daaad5425803a8ee3f98c",
+      "target": "那些亚逊……应该还没走远。$n也许在塞尔顿山脉$n或奥尔本森林？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00007501.ecd/slot/4",
+      "source_sha256": "311ef093c2b1dc72c5ae1b72e2d9dde73c157811d8351a7034e46791d1e888ef",
+      "target": "听说诺提亚在雷米耶西边。$n路很远，做好充分准备再出发吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00008339.ecd/slot/0",
+      "source_sha256": "06506e4232b3098cec6324e4d03740e30439dd56a84c3c6ecaeef80692cead08",
+      "target": "快去大魔法阵！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00008339.ecd/slot/1",
+      "source_sha256": "eb662131f02d97a6ea8cfaf5e1c059ce01ec4be8c7102ec09630d0939a2e5e0f",
+      "target": "快离开亚逊罗文吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/0",
+      "source_sha256": "d2e9c21b261f8d272a329f7d06ec80660ea931313bca12da3bca2152679bfd64",
+      "target": "阿泽翼总部大概在诺提亚东部的某处。$n去找找吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/1",
+      "source_sha256": "e33739617a4205aad3113cc807fd6121ebe4bd956ff416e3ff115b87eac47aeb",
+      "target": "偶然听村民说，那个驾驶员$n似乎正在寻找“空中鳃”。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/2",
+      "source_sha256": "82fb17984e099403c4b64a543443dff909b3c2e03623519453a0578584b03980",
+      "target": "刚才我看到一个小孩$n拿着奇怪的鳃",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/3",
+      "source_sha256": "30f09d628c6dad2ee488400c0c48d10d782a6284dcb415fce713589da8e200cb",
+      "target": "既然已经拿到“空中鳃”，$n就带给那个驾驶员吧。$n他真的会载我们去吗～？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/4",
+      "source_sha256": "b0be2b3671c8053e5d1a6cd06956aa8886271aabfd3c0d66fda485a62b360739",
+      "target": "唔……我最讨厌炎热了。$n赶快离开吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/5",
+      "source_sha256": "e4e53baf392c70c570f713a68965bd4b3340db046a70ede38041d1887ecb28cc",
+      "target": "去埃丰索东部东南方的房子看看吧。$n到了那里，应该就能$n前往普诺森图书馆了。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/6",
+      "source_sha256": "5cc785d1f8473319de30ed443338dd95df94ca23be45c2415d1c26fd78eb986b",
+      "target": "打倒沙漠里的奥马雷布，$n就能得到奥马雷布的羽毛。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00010015.ecd/slot/7",
+      "source_sha256": "61ed33459d4f8b5c5718d1b085aef44548b0abb28eea539fa954405777d3c945",
+      "target": "奥马雷布的羽毛已经收齐了，$n现在去找爸爸吧。$n希望这次能做出像样的东西……",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011167.ecd/slot/0",
+      "source_sha256": "31acdfc4da21af8e6790d6420467fcd1fb1646c84363a28a3a367b1629746e73",
+      "target": "去米雷娜大道吧。$n应该在雷斯蒂北边。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011167.ecd/slot/1",
+      "source_sha256": "c8f21831801b1469a9d76838f08b013303280a490007915f1e95d780c0705d97",
+      "target": "亚逊罗文冒出的火山……$n总觉得和救赎之光有关。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011167.ecd/slot/2",
+      "source_sha256": "00da97a0da1e7eee9dba9baa7ed27dd67047a1a18c3ae009392fd102c308edf1",
+      "target": "亚逊罗文突然冒出的火山……$n去向史密斯先生问个清楚吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011167.ecd/slot/3",
+      "source_sha256": "f68d39153e7c45a568088430bd64473161cda64cdbcfb40faaf6b604dd0286ec",
+      "target": "再去一趟亚逊罗文吧。$n那座火山……有必要调查一下。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011167.ecd/slot/4",
+      "source_sha256": "b047d4ea3a069a50af98e2aa500695bbf8697dcd91e065f229d89b628d298bde",
+      "target": "先离开亚逊罗文吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011168.ecd/slot/0",
+      "source_sha256": "5c8632cb11c16e2e0e173ee985b3c2bf3678402bef9f3d93a216f2a3c0b51488",
+      "target": "经过卡斯卡平原和埃雷斯廷，$n去风月林看看吧。$n莉丝，说不定能找回你的记忆。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011168.ecd/slot/1",
+      "source_sha256": "3156007dd2e7e5036783ccae8faef636591984e209810147f29df8c68b739a3a",
+      "target": "风月林……总觉得很怀念。$n这是为什么呢？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011168.ecd/slot/2",
+      "source_sha256": "3ad4ece943879d17a32c28b40310cadd2eaa3c184aab61149d60d1287627454c",
+      "target": "莉丝肯定出事了。$n快去风月林吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011169.ecd/slot/0",
+      "source_sha256": "e600fdd063909771507ecbcc84306765574076e8232341ea93f35b6dd7c4916b",
+      "target": "制作月之魔法师，需要$n月之碎片、黏土和杰古拉之骨。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011169.ecd/slot/1",
+      "source_sha256": "1245257b23d8341c63b6aed9aee284b299a7c813bc070d1c5c3119b2a2bbb71c",
+      "target": "乘罗斯蒂28号去北冰原吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011169.ecd/slot/2",
+      "source_sha256": "0deb2ad7410800771380ea4867362a6effc9845f40e6c9e20f2f23de8ed1018b",
+      "target": "山之遗迹。那里一定也有救赎之光吧？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011169.ecd/slot/3",
+      "source_sha256": "877d3c5eef05fe86528dd4593fb0fdcf529d5e6ad7e6a62efd48cb400c5b630f",
+      "target": "快把这位假扮拉德琳娜大人的人$n送到风月林去吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011169.ecd/slot/4",
+      "source_sha256": "ebe9b5d92b08e372cc71e9ba68969636582cbd2a4dfdb2879a70e9240595b217",
+      "target": "去会议室和血泪的伙伴们会合吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/0",
+      "source_sha256": "41455b363e4fe00fdfca13e6f0b6a21393ea858935dd5bfbf77d23ada487e79d",
+      "target": "去兰卡山脉，$n寻找充满江之卡恩的物品吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/1",
+      "source_sha256": "23dc57c98b83028d45904806b19d26f78af480bc21922fd14b34b4f324b478bd",
+      "target": "把含有江之卡恩的物品带回血泪吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/2",
+      "source_sha256": "bd1570277ef71c7d80467bc878a60ee21d1a7b378870ce7a36f29edabe14fbf7",
+      "target": "打倒雷斯蒂森林里的龙之弗雷昂吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/3",
+      "source_sha256": "d94bc0670e483cce36dabcd0b95724a474c008be46e9c0e2434ae9036bfdd90a",
+      "target": "回血泪总部，向蕾哈丝报告吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/4",
+      "source_sha256": "c3ac2bec629d2cadcbeffe5dac5341794c0e7eb1634b649626566905ae43e115",
+      "target": "去拜鲁克斯调查水之碎片吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/5",
+      "source_sha256": "16f6d9175e4fa9f96d9e66fd5e11d7093a5c9e68e83e219cc76a3c9405300b88",
+      "target": "通过通讯联系蕾哈丝小姐吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/6",
+      "source_sha256": "37ea76ba25eddcd2460b63fa446b3e53a5f2039dd105c134a696e219d06828b2",
+      "target": "血泪总部遭到袭击了！$n大家快回据点！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/7",
+      "source_sha256": "474719dd40099d764f0d96972177bcd58f1aab5523d2eea91a7108201b7908a7",
+      "target": "得回总部了解受损情况",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/8",
+      "source_sha256": "36e387eaf49e520229ac4403daac4a9b480c2c53631d8187c4ac31d001055bf0",
+      "target": "去埃丰索的克里斯家，$n见罗斯坦先生吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011172.ecd/slot/9",
+      "source_sha256": "75c24cf61ee0eddeddb051d506bba39821ac3eb1e743ebcd9f34ad151474f86b",
+      "target": "应该能在普诺森图书馆取得情报。$n穿过与雷米耶村相连的$n沙漠就能到达。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011173.ecd/slot/0",
+      "source_sha256": "6557458e08961c7f295e8a4b8028514625ca382ef1faba4595bb94dc5b0db3e0",
+      "target": "最了解卡琳兹的人，$n应该是阿格雷安将军吧？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011173.ecd/slot/1",
+      "source_sha256": "1625e0aa07f3c6650a925d4f4c4917207078a760d0f9774342596a8427db5e36",
+      "target": "浮游城啊……去找罗斯坦先生，$n拜托他驾驶罗斯蒂，$n送我们到拜耶尔吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011173.ecd/slot/2",
+      "source_sha256": "058905c569569fa51d3d2a4b81433e1a38224372554e7895cb7b0355972c6e5a",
+      "target": "那么，快去浮游城看看吧！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011173.ecd/slot/3",
+      "source_sha256": "316206cebc529a786f09caa4d0512c566c8e9a1e3f3f3c3a8d36dbc1e8e8c7fa",
+      "target": "去浮游城的中心看看吧。$n总觉得……会有什么事发生。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011174.ecd/slot/0",
+      "source_sha256": "4d7f39fbeede799f10d37078be614c5af0305c9fac6ce1ce572c47cc2b58715f",
+      "target": "居然有图尔博，果然不对劲。$n快去浮游城中心吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/0",
+      "source_sha256": "e7dc5d9c4ad469f5c3012e0602c5c74c7424b823a7b63cca3a9bdba82003ffbe",
+      "target": "快去迎接阿伦大人吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/1",
+      "source_sha256": "3c718c8777d8721dae7104cdd7c19bf8977bb39d779dbde0783a41e00affbdaa",
+      "target": "把阿伦大人$n送到阿玛巴德大神殿吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/2",
+      "source_sha256": "b103fe359479ff9e54556ca64376720aefc4a5089e80be726f46a41fa4e03d26",
+      "target": "那么，现在去见阿格雷安将军吧？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/3",
+      "source_sha256": "79d7c816505d19013bf53ec2b7feb4e8106d39840010725148b92900d23ccd93",
+      "target": "去抓袭击阿格雷安的家伙吧。$n他应该还没逃远。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/4",
+      "source_sha256": "76b49bdc4b1b9b80b789b13ac0af045d5e52ee4fc6bb64ab942a9e5f90df787d",
+      "target": "那个家伙……绝对不可原谅。$n就算追到地狱尽头也不放过他。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011175.ecd/slot/5",
+      "source_sha256": "1327dbaba8426def8d995fcf337da0cbfcf57a2958b7de3858f7910e1d64ed43",
+      "target": "那个家伙，大概正在沿着$n亚逊罗文继续往南走。$n去南边看看吧，往埃丰索方向。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011176.ecd/slot/0",
+      "source_sha256": "961aeac35ad66e76cbedcda1e39b0830094e090e592335c2a4b0aac04f11e897",
+      "target": "那么，去雷之遗迹$n寻找莉安娜丈夫的踪迹吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011176.ecd/slot/1",
+      "source_sha256": "7591146606aefb21e658d2874174c350c5f2caab1863822ee46b42d35d268504",
+      "target": "我们也该$n回阿玛巴德大神殿了",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011176.ecd/slot/2",
+      "source_sha256": "f2d4798a51b90f56f09dd56ffa65ff59a10479940a3e626fdb6e4392e2c7123d",
+      "target": "去阿斯蒂内湖吧。$n在那里就能见到莉安娜的丈夫。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011177.ecd/slot/0",
+      "source_sha256": "4e5d5946fbbc8f75e458cfa7e8f7d090a7e4e7a1ec690cf66b4745dbcb0e3ef0",
+      "target": "保护莉安娜的最好办法，$n就是去埃蒙。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011177.ecd/slot/1",
+      "source_sha256": "a185478e5235bf985535c6cd0dda724674c286bd3c092007b3aee28959c03afe",
+      "target": "对不起，莉丝。$n但去埃蒙之前，$n我一定要回一趟斯蒂兰的家。$n我们走那条从多伦遗迹$n通往斯蒂兰森林的路线吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011177.ecd/slot/2",
+      "source_sha256": "7e5ad0c165ba65e6ad94f274666756800e978358894d44ce566540ab0cb02dc2",
+      "target": "好了，现在去埃蒙吧。$n从这里出发，只能穿过$n阿斯蒂内沼泽。$n经过埃丰索和玛布雷斯，就到埃蒙了。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011178.ecd/slot/0",
+      "source_sha256": "3875ba0ee741d94797689470aa207efdf71075bbd3e21308f2f7d9b74cc43625",
+      "target": "必须找到莉丝。$n为此……眼下只能$n先去埃蒙看看了。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011179.ecd/slot/0",
+      "source_sha256": "6787520a5063f8554dce1d0f82847271df02a21fa763fa44bef4bd3253419b1d",
+      "target": "和平会谈以后再说！$n现在先穿过斯蒂兰森林，$n赶快去埃蒙。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011180.ecd/slot/0",
+      "source_sha256": "0d4ada61412eedb9c410889303119664d46984e863b1a616faf606a5dcbe83a5",
+      "target": "去塞尔顿山脉的图尔博据点！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011182.ecd/slot/0",
+      "source_sha256": "d17f3fc20a8af0a28fff5d51027fe74cc93af667b2d1356e90e6a100679fc289",
+      "target": "靠我们自己的力量越过格雷顿山脉，$n救出卡琳兹！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011182.ecd/slot/1",
+      "source_sha256": "684fedf00ff4039c80d8287f58a496289e36d035dacb35ae338ce0d6413aff93",
+      "target": "莉丝不见了！必须找到她！",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/0",
+      "source_sha256": "ceb3279b87bc1ea6f175ac7e1ad78e4e0f1c241cede333d1b63878c487e86a5c",
+      "target": "我要去天之遗迹，找回天之碎片。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/1",
+      "source_sha256": "8462dd86ef97d3f983ce380c0953aa0f8b6119aaf7ec5f0ab897fee065f15a3d",
+      "target": "再去一趟图尔博据点吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/2",
+      "source_sha256": "32095db9ef93d30aa41ba75d602aace138d22b49b5118d327d01453c5f2297ff",
+      "target": "必须带上大神殿里的江之碎片，$n前往阿斯蒂内湖。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/3",
+      "source_sha256": "7093e7461e117c6fa3501167f1f68caa95bd8a9a6f3c7edcadf48d352f7a9314",
+      "target": "那么多巫师，我们应付不来。$n先到拉德琳娜大人的房间里$n藏起来吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/4",
+      "source_sha256": "2f7c0fb863b30eb5eba5ae24d5a0699c25ab2f7e34c1cd9436c710bf6d05beb9",
+      "target": "去阿斯蒂内湖吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011183.ecd/slot/5",
+      "source_sha256": "4e249e1edc7521f04087740ce30c41092c7886f539b8709c07c62362bf5d7817",
+      "target": "接通通讯器吧。$n阿格雷安联系了我们。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011184.ecd/slot/0",
+      "source_sha256": "f3111290a21c58756caee2ec4e3ae9dcdab06c855f4327c25890225796061fba",
+      "target": "现在最要紧的是找到队长。$n要不要再去阿斯蒂内湖$n找一次呢？",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011185.ecd/slot/0",
+      "source_sha256": "62e65baaddbf42a75c4259daa71005127706e4ac594a9e1e586e32a8f87ffdf0",
+      "target": "回埃蒙吧。$n同伴们大概都在那里。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/0",
+      "source_sha256": "59bb23bfb681e317c347c9358259396770e252570ad1d148387e614e125d34f0",
+      "target": "看来得先去塞尔顿山脉的$n图尔博据点调查一下",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/1",
+      "source_sha256": "1d298087821ba1fa27feafb7b8f72a6e85ca6823e83346f60702ebca1a5eb3c2",
+      "target": "师父说让我们找些食物来着……$n收集些鸦兽肉带回去吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/2",
+      "source_sha256": "abe144a96f0192f13bdcd39a69afd8138b9c01770021ff08274fa63339d84e85",
+      "target": "鸦兽肉已经收齐了，去找杰卡尔特师父吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/3",
+      "source_sha256": "332b63ecf713be69366f075a471c52cf352c61e49fa09270397456e840ea5795",
+      "target": "向师父展示我领悟到的东西吧",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/4",
+      "source_sha256": "f25311c87ca0512e367b8ee079a5cbbf2bf6d4935a009015ce21e178eb8ed2db",
+      "target": "必须救出大家。快去雷斯蒂。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/5",
+      "source_sha256": "fbcc8e425fc9c7787ea0ca290fac3917a49f4064e90188fc30d9e207d24ef53d",
+      "target": "现在回阿斯蒂内湖。$n带着朱丝蒂娜……$n必须和休戈做个了断。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    },
+    {
+      "id": "SHIP/00011186.ecd/slot/6",
+      "source_sha256": "a6079a2eaa1d839d82e29608f5b268f1c0f427d53ae5c9ab37d862fac66514ef",
+      "target": "休戈，我会阻止你的……$n在埃彭塔德的那个地方等着吧。",
+      "status": "reviewed",
+      "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
+    }
+  ]
+}

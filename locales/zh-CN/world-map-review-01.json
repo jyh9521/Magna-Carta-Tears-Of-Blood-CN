@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "world-map-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001643.nod/record-index/0/field/1",
+      "source_sha256": "b27c1232d6a5a41b8669520375296bc851643f085769520f6ea50ffa3441df6f",
+      "target": "卡琳兹的师父——杰卡尔特之家",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/1/field/1",
+      "source_sha256": "6b06312f3c988e18f42e5996452821ddc5188b9f93fa1ae9f254ea8522927e93",
+      "target": "伊佩莉亚大陆北方，无人能够生活的荒芜之地。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/2/field/1",
+      "source_sha256": "3bcadb8febdb23081e2a5f10361523f17c68651b169025313f0d8ce692fdf5ef",
+      "target": "传说存放着山之神器的地方",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/3/field/1",
+      "source_sha256": "128ed01f81d3df681f3d707b7bd3a827b566d523f411965a694d7a29f4a711c1",
+      "target": "水之英雄伊蕾因所在之处",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/4/field/0",
+      "source_sha256": "00ba18f389357bca93821ed0979e2606553074ce98ac12bf8cf0fbd362b68bd3",
+      "target": "浮游岛（亚空间）",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/4/field/1",
+      "source_sha256": "956a0a53399ced86634612ab6dee2bdb33a40bba0291915bb58378a8c08c5aac",
+      "target": "拜耶尔地区的浮游岛，普通岩石地带。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/5/field/0",
+      "source_sha256": "db58f0b35b43b2617477f9bd474f2dfe8af6c5eaeebc455242ab618db9df64cc",
+      "target": "浮游岛（火）",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/5/field/1",
+      "source_sha256": "f324fd8d01fa503f2ccf82d306c01e9bfa05628e45434362ba2b2d6861b3fa75",
+      "target": "拜耶尔地区的浮游岛，空中熔岩地带。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/6/field/0",
+      "source_sha256": "84e7638395dd644e5961ca640d8494b60989da07b397f04dab27a7d797e9d45b",
+      "target": "浮游岛（水）",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/6/field/1",
+      "source_sha256": "0e837cebb4426aaaeb7de50d546da7864a200c31870a3ce26761d54d07f39124",
+      "target": "拜耶尔地区的浮游岛，空中湖泊地带。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/7/field/1",
+      "source_sha256": "2b3491f7f9934d27cabac53cb06e4303d0dbdfffbd0561667d7475348810cf0d",
+      "target": "自然环境丰饶、神秘魔法发达的空中都市",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/8/field/1",
+      "source_sha256": "49cf38356fe916c565000fc48624a0ac5263278560a4a77ab854f3a9c441e5aa",
+      "target": "阿玛巴德大神殿所在的圣地，巫师和巫女居住的都市。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/9/field/0",
+      "source_sha256": "dcd32730f901d3fe2e3b6df7b9040640840257e48addfb4e7d77f3dd941d3934",
+      "target": "拉埃杜山北部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/9/field/1",
+      "source_sha256": "bd7e4bfda18a088bbd2c64226c96a97298925755e6bde4f0b7a0e6d359c24e0e",
+      "target": "据说时常雷鸣的拉埃杜山北部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/10/field/1",
+      "source_sha256": "95e50f30163dc941854aac38f46e250d5534320489f0c20ce1882ebe1b18031d",
+      "target": "据说蕴含雷电之力的洞窟",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/11/field/0",
+      "source_sha256": "35d91f03351b4c1105c302e9316497d1e71750764a513fc40f6cae8d587f08c0",
+      "target": "拉埃杜山南部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/11/field/1",
+      "source_sha256": "84dc21bc01c55888964a96ab33c381405e605c98e45ab04bda4bc31c24a8fb6e",
+      "target": "据说时常雷鸣的拉埃杜山南部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/12/field/1",
+      "source_sha256": "24d1646cccb4fadabb3a264fb29bcadc981252e71b5b607e12958ff920a4aa8f",
+      "target": "阿玛巴德附近的山区",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/13/field/1",
+      "source_sha256": "2b19d31bdf95cb7be11b25ad0d2bd46655023fad1111c03197c18542d12586ef",
+      "target": "据说存放着天之神器的遗迹",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/14/field/1",
+      "source_sha256": "b41e4b59860080997c7b4d600f9e2b2f3871be27c204a9ae00067ccd034ae0bc",
+      "target": "雷米耶附近的森林",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/15/field/1",
+      "source_sha256": "6ad47e67dab4cdbe6452300bf0791be712031f8b7ab27203e803a06233f7d720",
+      "target": "马拉卡特附近的小村庄，目前只有一户人家居住。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/16/field/1",
+      "source_sha256": "5cdd8d8eef08eed69b051f05127aca189192e4d9c7d9e4d0c18644d45773f9f4",
+      "target": "小村庄斯蒂兰附近的森林",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/17/field/1",
+      "source_sha256": "ceff1711265c19cc5b92da73fbb695b963ff952260d07739dee919dfcf6dea0d",
+      "target": "马拉卡特最有活力、商业繁荣的村庄",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/18/field/0",
+      "source_sha256": "e9c778b87dc5cd3ab48d2d95c41639cbd8d2491bfda73c7f4e96b130f1c32c59",
+      "target": "阿斯蒂内沼泽北部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/18/field/1",
+      "source_sha256": "13d746f83e6ed48d7223244489edf186e345e5757c344ca0e0603e3e282ed1a6",
+      "target": "马拉卡特著名的阿斯蒂内湖附近的沼泽北部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/19/field/1",
+      "source_sha256": "76ae55a9524ec30e59d67508d7b002b631437c4b1b981b8236a25493c24954a5",
+      "target": "马拉卡特的名胜——阿斯蒂内湖",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/20/field/0",
+      "source_sha256": "a09fb5ad9e9ec9f44b6de1ad20f049e309840ba50f0867ac86d63090c15903b9",
+      "target": "阿斯蒂内沼泽南部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/20/field/1",
+      "source_sha256": "49daf32bbe5c655cefe778368b29f3c617d4b6140903774d2044b717d973413d",
+      "target": "马拉卡特著名的阿斯蒂内湖附近的沼泽南部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/21/field/1",
+      "source_sha256": "9b1d184ea4683ec61c4888030b531b9226b741a315b6b5546a9b52341fc7b290",
+      "target": "伊佩莉亚最大的沙漠",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/22/field/1",
+      "source_sha256": "3280c214e139a72348ed53c1039d9226b8f058870b080254701aecfad3fb2997",
+      "target": "沙漠中央的神秘图书馆",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/23/field/0",
+      "source_sha256": "cfff82559c90c19feaac9e3f88c24ddcc83077c34abe1df6389e0e57382d96b3",
+      "target": "埃丰索西部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/23/field/1",
+      "source_sha256": "6896d523218fc005e1107f17fa0205073e372b7f52868caff5ca7c2a5aeea311",
+      "target": "沙漠地区的村庄，制造出了最出色的飞空艇。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/24/field/1",
+      "source_sha256": "64fe3a86b1fac0044bfb3bbb0b930190390158200c806382ba892ccca2798080",
+      "target": "据说总是下雨的平原",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/25/field/1",
+      "source_sha256": "764206e61fcc67a21bc3a0b274b9bdd86fa290ed3d2f5b7765dece91aed74409",
+      "target": "通往阿玛巴德的宽阔道路",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/26/field/0",
+      "source_sha256": "51fbf19bb0bb79c01e788f8c47457fbc0b9831bbb0adcedd2aad60b866f76c71",
+      "target": "诺提亚北部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/26/field/1",
+      "source_sha256": "0a0d1293d680a6a850e8c9c8e03bc16c1e0bb6b75e7a63bf2b26f49e1e516c5c",
+      "target": "吉拉特最大的都市，依靠飞空艇连接各地。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/27/field/1",
+      "source_sha256": "89e644b8324099fd3925cd24833ff295d3b7d5ef37ecbb5e694fe8b5387bf661",
+      "target": "吉拉特北部的平原，连接埃雷斯廷与诺提亚。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/28/field/1",
+      "source_sha256": "6a512c41f8b9b93cc3fa31a9888221f549f4940110d19e2b4c55b7bfa84e5d45",
+      "target": "传说存在古代文明遗迹的地方，也是通往马拉卡特的道路。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/29/field/1",
+      "source_sha256": "39fa8a8dc773540c69f61a8849357f5635346689b17d19bfe95fcb6f52bfb818",
+      "target": "由著名富豪精心装点的美丽平原，也是知名的约会胜地。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/30/field/1",
+      "source_sha256": "288f89d8577567189c07536966b791cd06a0857bb3f7c077edc2e30b31a12a79",
+      "target": "连接吉拉特北部与南部的森林",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/31/field/1",
+      "source_sha256": "5517da38b31c592deed392aff8c633fd0f2c6ff1432d79fabc700c851616151b",
+      "target": "诺提亚附近的平原，也是通往南部的另一条路。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/32/field/1",
+      "source_sha256": "ba1a296d66d514965da4a692f4c051035146b3af24334f48839e5d25b8bf32b8",
+      "target": "从雷斯蒂前往诺提亚时途经的平原",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/33/field/1",
+      "source_sha256": "7622d12c3edcbb9321ed97971ba0ba5801438ea1a5fbe5c069a36cde7e855d9e",
+      "target": "通往风月林的山脉",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/34/field/1",
+      "source_sha256": "4e7e2282787a42a7419fa6580d42410b2fcc89d71a62b71c365f5d4daed7c53b",
+      "target": "著名道场风月林的遗址",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/35/field/0",
+      "source_sha256": "0d3c776ee6e1fe82b6c4b15faf668637ae9f3df6975ec3417d297a0ca5a7d654",
+      "target": "雷斯蒂西部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/35/field/1",
+      "source_sha256": "6805676508ae7c1697b08d56e8379b6f1a990590680d142ff1060cb4b3363447",
+      "target": "联合军的要塞都市，平民的进入受到限制。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/36/field/1",
+      "source_sha256": "bda204b685f18d790f1f1bc4471231036e228b2fdfbc8c404a078b012c374ad6",
+      "target": "雷斯蒂附近的森林",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/37/field/1",
+      "source_sha256": "a913396f90e498d634666a546bc30d0ccc684dfdfeb6ca1fe4ca90c05b781da3",
+      "target": "雷斯蒂森林，与亚逊领地的边界。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/38/field/1",
+      "source_sha256": "fd196bfa6f9f21c0188189ce546ceaf60957c2f8dc5113d983c92b4a80fe3491",
+      "target": "血泪的总部，依靠结界阻止敌人入侵。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/39/field/1",
+      "source_sha256": "31fb778d257302ee4ddd363bfaead8624ee7e23e4507658493b2448b634ad94f",
+      "target": "作为亚逊罗文入口的山脉",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/40/field/1",
+      "source_sha256": "546cbd9deda7ab9e43d65c4420cdfa076b33f7e54822df07a7ce50e4953c6150",
+      "target": "亚逊罗文的森林",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/41/field/1",
+      "source_sha256": "2d466185aa08f9cb71fcf2b4c0247fd9a61d75810298e97c87e9ef9f69632c01",
+      "target": "人类几乎一无所知的神秘洞窟",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/42/field/1",
+      "source_sha256": "67da4d016b2b93c5ac15332d129d5e725d897812b8d729ab7f945bc19e67d5da",
+      "target": "与北部拜耶尔的浮游城并列的两大火山地带之一",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/43/field/1",
+      "source_sha256": "6d10013b6223d0b26682f456bcbffe44f578ac7f82c6701af0de63365b98d2df",
+      "target": "火山地带中央的神秘洞窟",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/44/field/1",
+      "source_sha256": "344b0fc28139abf4b28321e4af49f9a488827de5fe9479dd6d0921eb4f4971ca",
+      "target": "埃彭塔德前方的森林，弥漫着神秘的气氛。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/45/field/1",
+      "source_sha256": "b106291b57413ff25999b2b3829ac82cb62b3bd23b5d72746975cdc743d4c2bb",
+      "target": "通往亚逊罗文的山脉地带",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/46/field/1",
+      "source_sha256": "1691e350a91f20e086d1f59e81463d71fa31cf3c44346fa8bb1703dfb344989f",
+      "target": "联合军为进攻亚逊罗文而布设魔法阵的山区",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/47/field/1",
+      "source_sha256": "4621add7861a797c8efb6327c842187cb7c44d26716906a3987d5039fc5e1224",
+      "target": "亚逊罗文的首都，对人类而言是未知的世界。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/48/field/1",
+      "source_sha256": "f8b5133932fbe177405968bd7fc957205fc8d688a9140bcc9bdf2f8a2eebc7e6",
+      "target": "实现了人类与亚逊共存，被称为理想乡。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/49/field/0",
+      "source_sha256": "246a3a9451ccd9d60f6888dd1bc933a4e74c70e37e2b7d060c5543f1bbf014b5",
+      "target": "雷斯蒂东部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/49/field/1",
+      "source_sha256": "6805676508ae7c1697b08d56e8379b6f1a990590680d142ff1060cb4b3363447",
+      "target": "联合军的要塞都市，平民的进入受到限制。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/50/field/0",
+      "source_sha256": "47930527b941f2cdad0ecd9936745db197322c54bb5cbd27dcd704539829eb70",
+      "target": "诺提亚东部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/50/field/1",
+      "source_sha256": "0a0d1293d680a6a850e8c9c8e03bc16c1e0bb6b75e7a63bf2b26f49e1e516c5c",
+      "target": "吉拉特最大的都市，依靠飞空艇连接各地。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/51/field/0",
+      "source_sha256": "28d0f8793daec69913d0e32ac3473f0ef1663b0b64e8babaa5f8f087ea2228d7",
+      "target": "诺提亚南部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/51/field/1",
+      "source_sha256": "0a0d1293d680a6a850e8c9c8e03bc16c1e0bb6b75e7a63bf2b26f49e1e516c5c",
+      "target": "吉拉特最大的都市，依靠飞空艇连接各地。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/52/field/0",
+      "source_sha256": "9b3f85c7b4e5076e44af4a6400361ac6b91e0ec5401bd6ed3475ae144c3ca7ad",
+      "target": "埃丰索东部",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/52/field/1",
+      "source_sha256": "6896d523218fc005e1107f17fa0205073e372b7f52868caff5ca7c2a5aeea311",
+      "target": "沙漠地区的村庄，制造出了最出色的飞空艇。",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/53/field/0",
+      "source_sha256": "d330026cae974babaf8ad2726d6711fe2af7377f9398f944ef3942615984ae56",
+      "target": "普诺森图书馆前的迷宫",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    },
+    {
+      "id": "SHIP/00001643.nod/record-index/53/field/1",
+      "source_sha256": "a0ef51c8e03c725fec71b9bfa3bb5839ed18363e173b9aed1950d9ce248bfaf1",
+      "target": "通往普诺森图书馆的道路",
+      "status": "reviewed",
+      "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "dynamic-array-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001240.tui/record/73/field/0/index/67",
+      "source_sha256": "e80542f451a021073ccb638ecc6bf4d03d9fd7ba7fe13719034a66c06cd53d6f",
+      "target": "（收礼者）：",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/87/field/0/index/81",
+      "source_sha256": "ddc95f2bfa9fe06b20670bc9d3e95642d31623d30c134de1bae508e9cb76b15e",
+      "target": "属性的精灵石",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/88/field/0/index/82",
+      "source_sha256": "82a70025a7ac3ebaa7c2afe43e6acbca84bc2f5c9c3daf15cff7f0669c1dcd53",
+      "target": "属性的精灵石：转换完成",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/23/field/0/index/22",
+      "source_sha256": "4058a2cf4553a0139cfd0c21e9de160c5b698499028108eba21d0db03ec6230f",
+      "target": "获得流派[",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/29/field/0/index/28",
+      "source_sha256": "fb05e9ee7dcca03969b3804e6118ef987d3f9c31a1acab7fd0495be7ac55528f",
+      "target": "]！",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/30/field/0/index/29",
+      "source_sha256": "262e1c94cd31b4735bb5f4be90ed9568d955dd7f258f67875e4a437b200f8679",
+      "target": "的",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/32/field/0/index/31",
+      "source_sha256": "bcc6e4ca670b7649ca319dcd4344fd0b48e2d831dea5c820c59c22a00093f753",
+      "target": "",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate.",
+      "empty_display_suffix": {
+        "schema": 1,
+        "id": "SHIP/00001255.tui/record/32/field/0/index/31",
+        "source_sha256": "bcc6e4ca670b7649ca319dcd4344fd0b48e2d831dea5c820c59c22a00093f753",
+        "previous_target": "。",
+        "role": "composed-display-sentence-terminator",
+        "consumer_sha256": "7ed1181c0c0f0c785cfa997a35d34a168a3cf0c56977cc51b7bbb4b33b4cc10c"
+      }
+    },
+    {
+      "id": "SHIP/00001255.tui/record/36/field/0/index/35",
+      "source_sha256": "99243f743d2e077d6286550226ff8e612ee7ab2830a2e5d5a0a3ac833b75ef40",
+      "target": "增加了",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/37/field/0/index/36",
+      "source_sha256": "455421c961d761ae6ae9404a03bad1292b2a9c8883b7cbbb3aa8e606848b1372",
+      "target": "增加了",
+      "status": "reviewed",
+      "context": "Whole source compiled direct-array composition reviewed; physical ordinal explicitly parsed from array expression (not a getter key). Recipient is an explicit UI label; Korean grammatical particles become Chinese pre-number predicate and sentence terminator together. Original variable name/numeric/string order remains. Runtime/layout acceptance separate."
+    }
+  ]
+}

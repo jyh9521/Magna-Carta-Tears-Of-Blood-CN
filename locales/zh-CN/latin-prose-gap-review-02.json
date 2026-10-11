@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000432.fpb/seq/3",
+      "source_sha256": "7a0e30c23077bc4d3a36c2fb95d1f3cb5c75171dee2eaafb578cdd6929d6dd6a",
+      "target": "回答1",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/4",
+      "source_sha256": "504948a89d23bbeee61a36569f622210faa0706a0eefbd104f95ec6f7fcbf859",
+      "target": "回答2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/0",
+      "source_sha256": "b7630de5dcb3cd866086a7297330dc75624ad76eee991c43cc228931ab4d8db8",
+      "target": "往日回忆模式（?? ?? ?? ??）",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/1",
+      "source_sha256": "8742fd199fc858f1214bb22294fc11fe7b78720fb734811f312f21f3fdce17ba",
+      "target": "影片正在播放：-_-（???）",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00007682.fpb/seq/0",
+      "source_sha256": "00933c592401e9bfc888134754a54ef6a8cf135668821ae0f26023ff03c10391",
+      "target": "伊库、梅、库姆、科尔塔、农、翁尼达尔、奎尔塔、佐雷……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/0",
+      "source_sha256": "d15f2cc9d9a92be456ba9a0a9e348561000606ff75288a94c50f1ae073c08982",
+      "target": "摩卡奇诺是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/1",
+      "source_sha256": "3367e56585f868e14c818e3de67ececf2d7aeb0ac46736549b48dcf7aac24475",
+      "target": "这他妈是个绝妙的东西。$n俊基喜欢它，妈的。$n你要是喜欢，就滚出去！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/2",
+      "source_sha256": "ccbc66e99cd70b33f306ed85e33f5c91529d935581c59c27afcdd066fbfd5868",
+      "target": "小心，你会沉迷其中的。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/3",
+      "source_sha256": "1b004979a3ed14292d038a57a3c9a362542e7ca8964dbdb70eeef1b235992dcc",
+      "target": "什么是善意？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/4",
+      "source_sha256": "3610927c94596563b11b3571b97224a7378f97a77a6496336af26ba005c3360d",
+      "target": "就是输给朴朱100次以后，终于赢了一次。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/5",
+      "source_sha256": "80495816f7f221579a472ca05647122a046f90846f2531202061c7eb7e7a8c8c",
+      "target": "你是谁？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/6",
+      "source_sha256": "7b2f1f2033aa8f10ad68f95543104e1675b4bc7b1fd77df7faaa631d625a7a76",
+      "target": "我无名无姓。去你妈的。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/7",
+      "source_sha256": "00603594d96ebed11b66791a3ee5e71980cbaa790059ba551b2c9519bbc6f076",
+      "target": "BBS战术是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/8",
+      "source_sha256": "b6c8ed41c41512bd25dcb03bb155b15c4a57c3f547527fa139ee5aaf326e51a9",
+      "target": "兵营、兵营、补给站。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/9",
+      "source_sha256": "5923e2503bd2d3defa387b9dc531a2cd17ec8df8449350da657898243a9a2882",
+      "target": "这招对虫族玩家有效。$n有人称它为“烈焰战术”。$n你能感受到陆战队员的强大火力。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/10",
+      "source_sha256": "dfd0c97c82f1c146ffe1bfc8572925514b4790380b1e8863f3a0dd2cdb10f7c1",
+      "target": "卞吉燮经常用这一招。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/11",
+      "source_sha256": "d54a06dae2b141f7d0d6f32206f2cb315aed81e42d49f7864b0b63f1bf00c0f0",
+      "target": "牛仔打法是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/12",
+      "source_sha256": "ec1ab7b93692fa83b8b30c54b72915d72f8bdf795c18291bdf0793522f99ea4c",
+      "target": "就是使用雷兽的虫族打法。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/13",
+      "source_sha256": "94a2e87a8afb27ae9ce07ac376fa6d7ba91339b777f47c3b191dd0347430c36f",
+      "target": "天啊，这是最后一条了！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/14",
+      "source_sha256": "eb7a9ca5a4e2a390755c831fb4e6c0175ec2ae0b4273ee5c8a41d52bc1cd442a",
+      "target": "妈的，操，真他妈见鬼。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/15",
+      "source_sha256": "0313ae85fae0084812cec8bd969de5a197e58fe97eb46a61621be3ffbd9715dd",
+      "target": "我想在这个游戏里看到韩文，真他妈的。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    },
+    {
+      "id": "SHIP/00003922.cht/slot/16",
+      "source_sha256": "83a0d64158012d707088cadc856316aceb8a7ca25c6fb4f19c43c1e210e905d3",
+      "target": "你他妈是谁？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Full source-bound Latin prose/test label. Original source IDs, protected controls, numeric quantities and fixed-slot trailers remain; developer StarCraft banter is not rewritten into Magna Carta lore. Incantation uses the existing adjacent Hangul-derived phonetic reading, not invented semantic decoding. Static copy approval does not claim runtime reachability or visual fit."
+    }
+  ]
+}

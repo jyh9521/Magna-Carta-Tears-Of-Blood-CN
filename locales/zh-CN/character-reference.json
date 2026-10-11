@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "game": "Magna Carta: Tears of Blood",
+  "source": {
+    "url": "https://gamefaqs.gamespot.com/ps2/921279-magna-carta-tears-of-blood/faqs/40165",
+    "author": "choumaou",
+    "section": "Characters",
+    "checked_on": "2026-10-10",
+    "evidence": "secondary character guide"
+  },
+  "characters": [
+    {
+      "canonical_source": "칼린츠",
+      "reference_name": "Calintz",
+      "gender": "male",
+      "default_pronoun": "他",
+      "contextual_names": [
+        {
+          "source": "마노",
+          "target": "玛诺",
+          "role": "childhood name",
+          "confidence": "high-confidence contextual identity; preserve distinct source display names",
+          "evidence": [
+            "SHIP/00002196.fpb/seq/16",
+            "SHIP/00002196.fpb/seq/21",
+            "SHIP/00002198.fpb/seq/45",
+            "SHIP/00002219.fpb/seq/9",
+            "SHIP/00002219.fpb/seq/12"
+          ],
+          "automatic_substitution": false,
+          "source_ids_not_merged": true,
+          "runtime_cache_linking_verified": false
+        }
+      ]
+    },
+    {
+      "canonical_source": "아젤",
+      "reference_name": "Azel",
+      "gender": "male",
+      "default_pronoun": "他",
+      "source_aliases": [
+        "아세스"
+      ],
+      "alias_decision": {
+        "confidence": "high-confidence contextual identity; project canonical name decision",
+        "evidence": [
+          "CHA6/9/168 아세스",
+          "TUI00002792 record10 아젤",
+          "FPB13491 apprentice sword/training role",
+          "CHT05175/05176 rescued apprentice addressing Calintz as captain"
+        ],
+        "source_ids_not_merged": true,
+        "runtime_cache_linking_verified": false
+      }
+    },
+    {
+      "canonical_source": "에오니스",
+      "reference_name": "Eonis",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "하렌",
+      "reference_name": "Haren",
+      "gender": "male",
+      "default_pronoun": "他"
+    },
+    {
+      "canonical_source": "리스",
+      "reference_name": "Reith",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "크리스",
+      "reference_name": "Chris Arcway",
+      "gender": "male",
+      "default_pronoun": "他"
+    },
+    {
+      "canonical_source": "마야",
+      "reference_name": "Maya",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "저스티나",
+      "reference_name": "Justina",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "라울",
+      "reference_name": "Raul",
+      "gender": "male",
+      "default_pronoun": "他"
+    },
+    {
+      "canonical_source": "리안나",
+      "reference_name": "Rianna",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "레하스",
+      "reference_name": "Lehas",
+      "gender": "female",
+      "default_pronoun": "她"
+    },
+    {
+      "canonical_source": "아그레이언",
+      "reference_name": "Agreian",
+      "gender": "male",
+      "default_pronoun": "他",
+      "contextual_names": [
+        {
+          "source": "휴고",
+          "target": "休戈",
+          "role": "childhood name",
+          "confidence": "high-confidence contextual identity; preserve distinct source display names",
+          "evidence": [
+            "SHIP/00002196.fpb/seq/18",
+            "SHIP/00002196.fpb/seq/21",
+            "SHIP/00002196.fpb/seq/23",
+            "SHIP/00002218.fpb/seq/0"
+          ],
+          "automatic_substitution": false,
+          "source_ids_not_merged": true,
+          "runtime_cache_linking_verified": false
+        }
+      ]
+    },
+    {
+      "canonical_source": "라드린느",
+      "reference_name": "Ladrinne",
+      "gender": "female",
+      "default_pronoun": "她"
+    }
+  ],
+  "pronoun_policy": "Resolve the actual antecedent in context; do not mass-replace pronouns by co-occurring names."
+}

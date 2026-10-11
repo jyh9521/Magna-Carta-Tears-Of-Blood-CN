@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "remaining-character-names-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000460.cha/record-index/125/field/0",
+      "source_sha256": "93047261a02ead47f96d6f192e0b54ffbbf2a0735e8d48e236a19b5c5be45ff0",
+      "target": "阿格雷安怪物形态",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/191/field/0",
+      "source_sha256": "099a8c5f0a2aced0620c8763e346370ee5ebfd97760ea43bfb667da50068e2fb",
+      "target": "阿格雷安怪物形态版",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/212/field/0",
+      "source_sha256": "083dcc8ffd17648a09977750d19ae66c66d774d0f6e544f34ff8449412b84401",
+      "target": "真星效果测试",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/213/field/0",
+      "source_sha256": "b1e79ad670f9c318afa1d5508013a254e9bc6b528dd9ea3104eb3e3b8c3a1600",
+      "target": "泰坤效果测试",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/224/field/0",
+      "source_sha256": "3de29d1498815b788f5b243fbe2eeef6cffe9c1117cfa6df10df90948dd3b4c9",
+      "target": "大地碎片破坏",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/242/field/0",
+      "source_sha256": "dbd57dc2fd4301a0944a45328468285d9a68bc159f9cabf94fd1e608c396686d",
+      "target": "卡琳兹",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/243/field/0",
+      "source_sha256": "ff9f2ee637fce44c4f5b4666150a0b3997b45cc272fbbe30a16709dec65659e5",
+      "target": "阿泽尔",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/244/field/0",
+      "source_sha256": "1802710643d131b89891a682a48f66414f7078f8a297a468a65800c0fbe51ec9",
+      "target": "莉安娜",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/245/field/0",
+      "source_sha256": "c4fd66799c903527936272d454a670f886a38838600cd4c1ef3543d329e9e9d3",
+      "target": "艾欧妮丝",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/246/field/0",
+      "source_sha256": "f67da850ed11420c3001e6ace5d1dba1e81018a9a68ebe9a44f4874f7c92b612",
+      "target": "莉丝",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim. High-confidence context: neighboring Japanese labels follow Calintz/Azel/Rianna/Eonis/Reith/Chris/Haren ordering; original literal question mark retained in source."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/247/field/0",
+      "source_sha256": "8c19bd2ea92db6751902cca7d00ea18beae70e965a6ad9ae160b2acdcca4dea1",
+      "target": "克里斯",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/248/field/0",
+      "source_sha256": "0cc69ce612a0a5481e5d4845b570f1440d64cd1f01574eed0d126925981ce22b",
+      "target": "哈伦",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/274/field/0",
+      "source_sha256": "7fdb394df098653ed2e8514bb63de48299ccc8d7125807a0d94d651b6c0b0cab",
+      "target": "龙族弗雷昂",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/293/field/0",
+      "source_sha256": "bf4ff4f506778e8037b297513f84ab37fab82845a091f7f12b4acf173b1cc66f",
+      "target": "强化霜龙",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/294/field/0",
+      "source_sha256": "bf4ff4f506778e8037b297513f84ab37fab82845a091f7f12b4acf173b1cc66f",
+      "target": "强化霜龙",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    },
+    {
+      "id": "SHIP/00000460.cha/record-index/295/field/0",
+      "source_sha256": "220606fed94e82f5b2367b1f9c9e8fe3e49eb4ce98ac0691842961f6f7baea34",
+      "target": "最终版霜龙",
+      "status": "reviewed",
+      "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
+    }
+  ]
+}

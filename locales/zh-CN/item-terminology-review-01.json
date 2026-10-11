@@ -1,0 +1,1191 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "item-terminology-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/2/field/0",
+      "source_sha256": "f1f3d4d89d1f014040305df4ae0c386a91816819f39fd01dc8a522e0c918672d",
+      "target": "天缘翔舞流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/6/field/0",
+      "source_sha256": "469caeb40153ec70364d9083870c8e5dd061a9980073f0b1a0484a323a97cb5e",
+      "target": "真·天缘翔舞流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/10/field/0",
+      "source_sha256": "e2ba0b81f4395c9ae86c78e7d864739989699bac3f671693fb5adc7dc3c05f33",
+      "target": "夜旋神掌流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/17/field/0",
+      "source_sha256": "cc068f382dd4d046f0e57622b3533f6655588f0dae629c3850a8af05111d100d",
+      "target": "雷电流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/20/field/0",
+      "source_sha256": "469b8a0e0c84cd672bd11d34c6ac4d00af9c05deb86c0cbadae874d14a1fe82f",
+      "target": "八云电击流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/21/field/0",
+      "source_sha256": "c976e88d92ec72d3427360ec06d88fd52379afcbdc6fa2d828ce1d41e422b8d6",
+      "target": "大破邪道流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/23/field/0",
+      "source_sha256": "71b07d5fd4ab3df9bb899ebdb772ea2a64a54207e8ea80100de3d8e448546209",
+      "target": "青云流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/24/field/0",
+      "source_sha256": "1315eba48822d72cf879ec4a113465703daee1297e3067dc06b78ac074a2347c",
+      "target": "青天活星流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/27/field/0",
+      "source_sha256": "f1a2788a836135190c61964ab90020d4eacb2567feeb3283d4e3906bea1cad3f",
+      "target": "幻动流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/29/field/0",
+      "source_sha256": "81d81b1e7ef547ffcc55e68e2a8c98725212b668df4b40f36464c4999618e4f9",
+      "target": "极击流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/31/field/0",
+      "source_sha256": "d5f75b17959a571dff24b4652f8f8c9c150003f24e34da5ed39bfa250ffa8749",
+      "target": "无弓双破流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/113/field/0",
+      "source_sha256": "3d7a153dcae6eca296cffde6066a61714694c6f733ef032f0b48dfa8e1f2936c",
+      "target": "见习巫女服",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/315/field/0",
+      "source_sha256": "2498d88e9a356f82907050e7877c0bdcf919f2000b4ec6a7995a4c486af66e61",
+      "target": "流星道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/316/field/0",
+      "source_sha256": "bead9576638ed67305e5193bd4f1dc61e7247baa846f944078be6cbdd939b097",
+      "target": "流星道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/317/field/0",
+      "source_sha256": "361064b390b2fe09150cd89010b4c720d875527efe49fa573dcb8165854f5e0f",
+      "target": "流星道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/318/field/0",
+      "source_sha256": "03934d02c605289f2cdc9f917aa02a78ea17e05edb5d4959653c43ed52509b15",
+      "target": "流星道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/319/field/0",
+      "source_sha256": "fc84044c377bff1e85aa479539aae5846e09bc41863437bce4070c087b9fae61",
+      "target": "阿罗道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/320/field/0",
+      "source_sha256": "050d5869a5373ca5258e3283f63ac51fdb7cb1d841f68e33d94fbc48dd04bbf8",
+      "target": "阿罗道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/321/field/0",
+      "source_sha256": "aad817d3ddcb92d0f35cf5fd1ca1101c423a7ff5221fc7b631d44a9efeb047b6",
+      "target": "阿罗道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/322/field/0",
+      "source_sha256": "2d36277c2c547c478f005392c5abee05f929a31a6debd69a87e6a8fe0d041283",
+      "target": "阿罗道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/323/field/0",
+      "source_sha256": "1161037261cd50a86a67fafe439c694dc421c42d9ade7ecef63200bddac4eee7",
+      "target": "天道道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/324/field/0",
+      "source_sha256": "b563b85d1a376f0c4d14149b07a5519da7ad78004cbdcbcee7a7f6dfe40ce4f9",
+      "target": "天道道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/325/field/0",
+      "source_sha256": "14eac71ddf2830f71067691b46eff02a175ee6097d98020dfa0fe09ed6fba4f1",
+      "target": "天道道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/326/field/0",
+      "source_sha256": "ba16cbfe07ab16e8f121f3eded6ac7266c2f72369d405095719bcb53eea2f67c",
+      "target": "天道道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/327/field/0",
+      "source_sha256": "e03df2467a6ffc89cad880a3d4793a22afcab1a0a3083657512be6a3918d69b3",
+      "target": "泰坤道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/328/field/0",
+      "source_sha256": "807bba0d7cc4a45e04ebc341e9dfe690a490a48ded7c52fa39e435cc03090c77",
+      "target": "泰坤道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/329/field/0",
+      "source_sha256": "8e1cd047d76967f9b3d96fcd218732b67220a42d5da50923ec0d50a3781a1252",
+      "target": "泰坤道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/330/field/0",
+      "source_sha256": "d0824e6ac363a6ab43dfa4b5a21a7c54856acf0f325cd968be5265751c2b4ac9",
+      "target": "泰坤道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/331/field/0",
+      "source_sha256": "b5a3e775fb0dc0618cd85bf3fb6d53c9fd7fc7f096bb49375b127a7728c5cb33",
+      "target": "黑云道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/332/field/0",
+      "source_sha256": "50d3644640451993aab72e5f3b7e21de46032f92964f71fea8fe13d2a42cac32",
+      "target": "黑云道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/333/field/0",
+      "source_sha256": "ce154c3b1d0f1ccb5046e2cff603a8187ec70a95014df1b952c4000278ea0329",
+      "target": "黑云道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/334/field/0",
+      "source_sha256": "fcae53b8684a8a9df80c3be118ccea79d5021d743ce2de19c50192205fb4971a",
+      "target": "黑云道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/335/field/0",
+      "source_sha256": "3a736536624ee85f439fbdd31bc0c27fdaa6006c03f5e4eb535635ec2c1d73d7",
+      "target": "破邪道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/336/field/0",
+      "source_sha256": "0c5d7415728394c8db401f032c9791b399528cc3f3716011f015fc79888da613",
+      "target": "破邪道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/337/field/0",
+      "source_sha256": "d5ece5eed90cde7e507613dfd357ff178960d0816f24d4186be0c120d1b7f8c9",
+      "target": "破邪道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/338/field/0",
+      "source_sha256": "fee295c1fb96264ed3c3ee68a4e195fb5049ed269e9bf6103d4d7a126b9611f5",
+      "target": "破邪道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/339/field/0",
+      "source_sha256": "dc725ce6fa6ea6dfc6a6a2cc85029eef02d6bddcd4210297216734721fe20781",
+      "target": "清音道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/340/field/0",
+      "source_sha256": "2aaac703e48185d237c7812634c3f03cc330b59effedb1c15a0b04abcafe179f",
+      "target": "清音道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/341/field/0",
+      "source_sha256": "b772b4879a99ed1b333f33ef292b0b3176ba376a85f8ce96e2bc05081991965d",
+      "target": "清音道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/342/field/0",
+      "source_sha256": "645339fe492949160ebc483466ec46bf19468592e033550d62f1013b0b820935",
+      "target": "清音道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/343/field/0",
+      "source_sha256": "dd934ba9353f62bdcb51143b18e6c32159341e70ed0619c6155537689d05e3f3",
+      "target": "帕克朱道场·梅级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/344/field/0",
+      "source_sha256": "b8659fb539ecd428f333e89050151c35eb5dcfc7d8720062f8081d18faaf70e9",
+      "target": "帕克朱道场·兰级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/345/field/0",
+      "source_sha256": "177eb5462ab07e3e76af6c336d94a7c6d4f2a2f76ac23e6ca8a35aff0e97bfe3",
+      "target": "帕克朱道场·菊级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/346/field/0",
+      "source_sha256": "f0eb999431a04e3442b893dc4e554ccd94e1ffc245cf9752d4621bd61133230a",
+      "target": "帕克朱道场·竹级结业证",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/347/field/0",
+      "source_sha256": "eb438aace50fe913b8aac1e264dceaf4cbda89ee4a94900424169efae320e87e",
+      "target": "联合军之剑",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/348/field/0",
+      "source_sha256": "d946ac1027001940a376128b7c2bf811ec9dd4dc22e8ee2e7a6799515b5e1a56",
+      "target": "真·流星一光流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/348/field/1",
+      "source_sha256": "d946ac1027001940a376128b7c2bf811ec9dd4dc22e8ee2e7a6799515b5e1a56",
+      "target": "真·流星一光流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/349/field/0",
+      "source_sha256": "1d57fcd3c9063b725974a3c6e59dfba3c7a05143c7a489c466431af3c2ba65f2",
+      "target": "天雷击掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/349/field/1",
+      "source_sha256": "1d57fcd3c9063b725974a3c6e59dfba3c7a05143c7a489c466431af3c2ba65f2",
+      "target": "天雷击掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/350/field/0",
+      "source_sha256": "94b0228f50fe0e63d149ca702cf02e1ab86ec72159f16805d14b43ea6f7165a0",
+      "target": "雷电流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/350/field/1",
+      "source_sha256": "94b0228f50fe0e63d149ca702cf02e1ab86ec72159f16805d14b43ea6f7165a0",
+      "target": "雷电流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/351/field/0",
+      "source_sha256": "6b12e051fdc4c689385531272e3964506cc2c0f3408fbf573a7ea531a76a88b0",
+      "target": "天缘翔舞流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/351/field/1",
+      "source_sha256": "6b12e051fdc4c689385531272e3964506cc2c0f3408fbf573a7ea531a76a88b0",
+      "target": "天缘翔舞流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/352/field/0",
+      "source_sha256": "1ff698e98efa0d8c16e0c6a4e5b0b97f6cf90879ea7fa264bed8a18ad3437108",
+      "target": "乱火翔烈掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/352/field/1",
+      "source_sha256": "1ff698e98efa0d8c16e0c6a4e5b0b97f6cf90879ea7fa264bed8a18ad3437108",
+      "target": "乱火翔烈掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/353/field/0",
+      "source_sha256": "81714988e6cbdd7a38608f60526076886e65462311ff0509c9f12d0117704011",
+      "target": "大地强波流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/353/field/1",
+      "source_sha256": "81714988e6cbdd7a38608f60526076886e65462311ff0509c9f12d0117704011",
+      "target": "大地强波流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/354/field/0",
+      "source_sha256": "bbefab64c3d2059617762b5d33f341f3210c3892b8cc71b0bc1070601044bdce",
+      "target": "青天活星流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/354/field/1",
+      "source_sha256": "bbefab64c3d2059617762b5d33f341f3210c3892b8cc71b0bc1070601044bdce",
+      "target": "青天活星流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/355/field/0",
+      "source_sha256": "390f3c96e7830764bb6fd1ead085c25fce255eaa639824ea8b91951f913952ac",
+      "target": "方旋周还流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/355/field/1",
+      "source_sha256": "390f3c96e7830764bb6fd1ead085c25fce255eaa639824ea8b91951f913952ac",
+      "target": "方旋周还流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/356/field/0",
+      "source_sha256": "a1fdb09a7a7b3f7eef25c7e83e229587141a6600147b351fd0b14e708f6fbf25",
+      "target": "极击流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/356/field/1",
+      "source_sha256": "a1fdb09a7a7b3f7eef25c7e83e229587141a6600147b351fd0b14e708f6fbf25",
+      "target": "极击流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/357/field/0",
+      "source_sha256": "cce19e1d81164820b98d66d5c87c70a6a1cf44c3f6784542c2fd117fe9e385be",
+      "target": "大地脉动掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/357/field/1",
+      "source_sha256": "cce19e1d81164820b98d66d5c87c70a6a1cf44c3f6784542c2fd117fe9e385be",
+      "target": "大地脉动掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/358/field/0",
+      "source_sha256": "50465be8ef3d874694bc35ceb118b3f42bf1a10465f2c2f4c516533a37563477",
+      "target": "天命启心流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/359/field/0",
+      "source_sha256": "e8950ed3eaafd0f06309ba7c783a95a993fdd2dd0e660d235795c85032a7bb87",
+      "target": "无弓双破流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/359/field/1",
+      "source_sha256": "e8950ed3eaafd0f06309ba7c783a95a993fdd2dd0e660d235795c85032a7bb87",
+      "target": "无弓双破流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/360/field/0",
+      "source_sha256": "985b1822eefcc9ec743fc0d97e228d53b0ca02d4cd62fe284789b565f96cd032",
+      "target": "水连流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/360/field/1",
+      "source_sha256": "985b1822eefcc9ec743fc0d97e228d53b0ca02d4cd62fe284789b565f96cd032",
+      "target": "水连流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/361/field/0",
+      "source_sha256": "b7cf6f4b60f87286de6950a3952fa58249b833f08f2a3d0dc2ff45ca58783148",
+      "target": "真·天缘翔舞流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/361/field/1",
+      "source_sha256": "b7cf6f4b60f87286de6950a3952fa58249b833f08f2a3d0dc2ff45ca58783148",
+      "target": "真·天缘翔舞流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/362/field/0",
+      "source_sha256": "cb51cf99a432d16239b837d3c18020f3654872aa6d241db79815440f16059c44",
+      "target": "大破邪道流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/362/field/1",
+      "source_sha256": "cb51cf99a432d16239b837d3c18020f3654872aa6d241db79815440f16059c44",
+      "target": "大破邪道流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/363/field/0",
+      "source_sha256": "3d0be07b5f1da3c407b3f2043da1a1b3a253e50e640dc3bb86e1c9f94d9cca42",
+      "target": "泰山激层掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/363/field/1",
+      "source_sha256": "3d0be07b5f1da3c407b3f2043da1a1b3a253e50e640dc3bb86e1c9f94d9cca42",
+      "target": "泰山激层掌秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/364/field/0",
+      "source_sha256": "b65d160e7caf44c59a2bad1a54dff1e99295b07d687b4b6a7c4bb43188882bfb",
+      "target": "真·风月流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/364/field/1",
+      "source_sha256": "b65d160e7caf44c59a2bad1a54dff1e99295b07d687b4b6a7c4bb43188882bfb",
+      "target": "真·风月流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/365/field/0",
+      "source_sha256": "c11964b8906180b5e4a1e881bd511ff466dedeb3542f1e3a9854a366bf44eb1c",
+      "target": "幻动流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/365/field/1",
+      "source_sha256": "c11964b8906180b5e4a1e881bd511ff466dedeb3542f1e3a9854a366bf44eb1c",
+      "target": "幻动流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/367/field/0",
+      "source_sha256": "c073f5e7fbcf9f74f24735ee2488a2cb081c2a905e46fb96765d5b5547cdf534",
+      "target": "青云流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/367/field/1",
+      "source_sha256": "c073f5e7fbcf9f74f24735ee2488a2cb081c2a905e46fb96765d5b5547cdf534",
+      "target": "青云流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/368/field/0",
+      "source_sha256": "1ab5dd122caa03011106f7851d0bde2e440727d7531bc71349e8081d4877e472",
+      "target": "八云电击流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/368/field/1",
+      "source_sha256": "1ab5dd122caa03011106f7851d0bde2e440727d7531bc71349e8081d4877e472",
+      "target": "八云电击流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/369/field/0",
+      "source_sha256": "0bcc0fd8e7f3d99934098289cceedce73879191a075382a30ace516fd40835fc",
+      "target": "夜旋神掌流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/369/field/1",
+      "source_sha256": "0bcc0fd8e7f3d99934098289cceedce73879191a075382a30ace516fd40835fc",
+      "target": "夜旋神掌流秘传书",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/370/field/0",
+      "source_sha256": "2c7b49ccac496363501d19d99ec288404665d8527f0bf3420886b74677fa8c0d",
+      "target": "天·意气风发",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/371/field/0",
+      "source_sha256": "bca51ed225aa14724329e6ee310c438f649d0b18b5ac8bb0b60ebcd31fcaf040",
+      "target": "天·心情高涨",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/372/field/0",
+      "source_sha256": "b4bf5335a482e85a617bcfff46455f1b829783c7003ed91d8556d64acbb6c65d",
+      "target": "天·犹豫",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/373/field/0",
+      "source_sha256": "e17b48e372a1661493b79e906e1f18f357818a1654b812d095e937bb7d5921c3",
+      "target": "地·精神统一",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/374/field/0",
+      "source_sha256": "3bba96ae9cd3de151192a462b73347c5b83b70cdd6eebf938588496f1dac3245",
+      "target": "水·一人为众人",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/375/field/0",
+      "source_sha256": "404c426fbfa9f8e6bb444c9c24de8a89e1838e8f4882bc281ed38583278c910d",
+      "target": "雷·动摇的心",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/376/field/0",
+      "source_sha256": "6717d038a28c125f90ddf11754e18f9897b893684969329e29bcb2db7898d197",
+      "target": "地·出发！",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/377/field/0",
+      "source_sha256": "ead95c9e9f5595af3796246de98505b24ec0b25a559996335ecde979b6cd2c34",
+      "target": "雷·守护我的力量",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/378/field/0",
+      "source_sha256": "a4587fce9fc170e2df7a3a4fcff24a8d1a0cb0905c4be7cce2008c17d5c501e8",
+      "target": "雷·守护众人的力量",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/379/field/0",
+      "source_sha256": "890aa4a43756df8c4850bd4ed3263a6a1a390435b3f21ab979551bf42970f643",
+      "target": "火·痛苦终结",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/380/field/0",
+      "source_sha256": "175783669c9d252426f6f27ffa4d73016f14e09059b204f97dd7e44c837a80cf",
+      "target": "山·终极孤独",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/381/field/0",
+      "source_sha256": "e85a4e9e69bdf6204b021d125593d9cdaffcace8597e1234013c0b60e1272587",
+      "target": "山·禁止接触",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/382/field/0",
+      "source_sha256": "a0cae0e038634709468cff52345d3fdab91394b2c6e991c41295f70e35634c08",
+      "target": "山·悲伤连锁",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/383/field/0",
+      "source_sha256": "8b727b16db01a32348044d8f70a63c295e18f3f0debba469567004862e0cde2a",
+      "target": "火·如我所愿",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/384/field/0",
+      "source_sha256": "112244d5082a8eb06fd08559d6f589ab15d25a4e80aad315f069009dafe34b52",
+      "target": "天·天空之云",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/385/field/0",
+      "source_sha256": "718eaecc3ae0e43edfd69a3f13df443c69fb158f81e566f7145953fb4824ef76",
+      "target": "风·风之低语",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/386/field/0",
+      "source_sha256": "cda36bc5ac0c6df34b4815adf399ea1e2f62fa7061950171c9681fa184155b6c",
+      "target": "山·山之回响",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/387/field/0",
+      "source_sha256": "5e853642ce8980d962f9966f7497b3188b9ca99590b07131b21fe04b9bc79209",
+      "target": "地·大地回响",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/388/field/0",
+      "source_sha256": "fa86174e3f4d8ebc99b7e315592605121e044ac825f7b606f5680db530e84c54",
+      "target": "江·江河泛滥",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/389/field/0",
+      "source_sha256": "b51c259f3abc4d49ab421a7f36a97c4a1e32b033f4cfd7b1a812b938564dc3bf",
+      "target": "水·水之流动",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/390/field/0",
+      "source_sha256": "df9f279f9e5456771034c74d192b978fa7dbd64a31d847117a2f8f511eaa428d",
+      "target": "火·火之激情",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/391/field/0",
+      "source_sha256": "d8bececc86c49bbcb0087918804a555c60fbf3a2d14112e17d6b7e37237cee17",
+      "target": "雷·雷鸣",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/392/field/0",
+      "source_sha256": "138e91340c208f7e9e3995fd25d6dc27ddd709944f7d17912b15c74a37a2d756",
+      "target": "雷·充盈的心",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/393/field/0",
+      "source_sha256": "c4b2218a4ef73014a6ec845b9f5af2723f5e56a83ace9982bcd690ad92202e2f",
+      "target": "火·充盈世界",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/394/field/0",
+      "source_sha256": "30a7de2baeb91d4b9bd59bbb2963405f54f9d2487225159311fc827c3a417c2f",
+      "target": "天·崩塌的山",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/395/field/0",
+      "source_sha256": "e31f95047c4afb47ac45916618fef7e4c2b8c774dc0b526f16f93dbde88eaed0",
+      "target": "风·裂开的大地",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/396/field/0",
+      "source_sha256": "5cfa0c44a6d249251395d1d61089f6a43947c98a74293c468a0cb4329b062684",
+      "target": "江·熄灭的火",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/397/field/0",
+      "source_sha256": "22e7f6af7681e776109c2305b2770f32ec8ac722d55fa288d8dee513a4750347",
+      "target": "水·中断的电击",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/398/field/0",
+      "source_sha256": "6115834153a5850309d531dc6ce3057c86bc60c53010d8033ffc4ef5ad989b37",
+      "target": "山·暗黑天空",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/399/field/0",
+      "source_sha256": "197b58ee0959b41f6fa04f993b45437e2d29c01454d87bc5cd9db86849764607",
+      "target": "地·消逝的风",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/400/field/0",
+      "source_sha256": "1adf1c9e0bb2ac0aa3918a8685088af536ca9faf7a4251648678f80f0c9552f5",
+      "target": "火·干涸的江河",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/401/field/0",
+      "source_sha256": "660fdb9e452847969be3df44b929470a895ac0ec9587a3eb508b58bdd21b6b05",
+      "target": "雷·泛滥之水",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/402/field/0",
+      "source_sha256": "e4ed8150090440677caec41313f379f0bcadba4555da3903dc06196affa6a0ca",
+      "target": "山·颠倒的世界",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/403/field/0",
+      "source_sha256": "8710d4011f43c1da5c92b3e0e1a6874feaaafbffa2be6803b6a0f823c3a01d5f",
+      "target": "风·寂静世界",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/404/field/0",
+      "source_sha256": "3a21af93694d39916b3f5b063e731d86709484c9b4483a018a89acc3b480442e",
+      "target": "天·自己的外壳",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/405/field/0",
+      "source_sha256": "656685cbf619b6a6ca9060d5130ac1bb5f194a5dae8fa225df0311d52ca6b315",
+      "target": "水·团结的力量",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/406/field/0",
+      "source_sha256": "bd0a5840770dbd004e7221a374b81de8a8c2ec2d2059f2e6321bc2e3d8f84952",
+      "target": "江·坚定信任",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/407/field/0",
+      "source_sha256": "ba0811282141efa4549b994e44d312a507d4c6398bfeb8802272358b0e4709aa",
+      "target": "江·小心使用",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/408/field/0",
+      "source_sha256": "a441704a15e0fa0d5d437fc8168abb2fae3ed0fd9ea1ed3e88fecb37ec622a17",
+      "target": "山·麻痹的身体",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/409/field/0",
+      "source_sha256": "69a6ce322ef00cb661b7230e906ee923c35f61cdcd204dd3ef92319c96f1963b",
+      "target": "地·石像之眼",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/410/field/0",
+      "source_sha256": "7a2774e514c12e21fedcc4e84463abf9abee116343369babe16e6459e8e6d541",
+      "target": "火·灵魂分离",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/411/field/0",
+      "source_sha256": "ab48a72f8f6b4a8a39a54e00a0bc768a198d9e7e01330725b343a635f28d721b",
+      "target": "雷·缓慢的时间",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/412/field/0",
+      "source_sha256": "2a378f0fc6d48df59956f9959ec753a27ce79b1846b06d93c423880e927c02b1",
+      "target": "风·风之疾驰",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/413/field/0",
+      "source_sha256": "fb20114014d82075d7b02774308d271b377d1f429fc590fb6bdf485dde05164f",
+      "target": "江·愤怒之拳",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/414/field/0",
+      "source_sha256": "56f9e11d5afb4ef021911313a7b716b8eb35165aa7ca07fa23b77b1e9a67fee3",
+      "target": "山·放马过来！",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/415/field/0",
+      "source_sha256": "9215c792206bed9711f3b596e46890b8012c01528da217120d832587c4f7eda3",
+      "target": "水·中和的毒",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/416/field/0",
+      "source_sha256": "6958e327e5dac0109366150902274a29669200e659eddcfa7a1f07491db6a600",
+      "target": "天·重获行动",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/417/field/0",
+      "source_sha256": "a961635fa927d1f6baac0f12adf769f87da3fbcdf930dcc31c67704b746539b9",
+      "target": "天·破碎的岩石",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/418/field/0",
+      "source_sha256": "fbec150cb17c7a3d2e2b9aaa7f5671fd58f33ff128c14443010ae93d6ed2bbad",
+      "target": "地·井然有序",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/419/field/0",
+      "source_sha256": "dd9cb07446f69febf8fd68c2add85c68d1df53c16a862d0e2bb8ccf67eacf3d1",
+      "target": "风·受缚的自由",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/420/field/0",
+      "source_sha256": "14cb5b31e40d08a5e0544ead2cf807cdc95e4bc8d265430cb600b1df8fdc3c33",
+      "target": "雷·失落的时间",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/421/field/0",
+      "source_sha256": "3bc041ae53296c334ef2f75e17637b9553b7001e7dc6e5361c5451c1ec79c3c9",
+      "target": "火·回归最初",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/422/field/0",
+      "source_sha256": "b7d0e9fb2a5f4ae0aae00873a89f291a367e508f22649eacdc49afddff87102e",
+      "target": "水·剥落的铠甲",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/423/field/0",
+      "source_sha256": "9f33cfe2f9a3b20a3236a7e796fa06cec4d99dc5d4a285623b7527a17250894b",
+      "target": "火·心脏的跳动",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/424/field/0",
+      "source_sha256": "7836eda34d65748403537a79af35c4f8286d1d544a13a6d3580926d4b4217d40",
+      "target": "江·万物归初",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/425/field/0",
+      "source_sha256": "39a1fcd8584d3f0454904ac18a8ebbd523c4f27f6d81d02e16bc56703aa87b03",
+      "target": "水·小小谢意",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/426/field/0",
+      "source_sha256": "856b1505cb9fbbf2cb81cf48613be937a60b470ddcc2698c6cf1e6d91a088220",
+      "target": "风·伤口愈合",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/427/field/0",
+      "source_sha256": "fde1e7fe12b53c92d1bd52eeeccc87290e397c723767e8360127dfe50ac7022d",
+      "target": "江·祝福之声",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/428/field/0",
+      "source_sha256": "90129357aac208e6bb8703c0c82ff7e3e2a6a9949e858eae2eb7d73781ea38aa",
+      "target": "水·如同新芽",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/429/field/0",
+      "source_sha256": "f670860ce2d7eddf2b4685f6d8691bcfb8e7d5dd2280beabf9e5922a3a211e31",
+      "target": "天·克服逆境",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/430/field/0",
+      "source_sha256": "1a668ce44e124293e0c9f244d7e557b8977d5c13954e84acf3d46d84846d7c14",
+      "target": "水·天界回响",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/431/field/0",
+      "source_sha256": "d46bdbaac98b23099350fbd376eb516068ea56bcb80373cebbceb897dd396f9c",
+      "target": "地·跟我来！",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/432/field/0",
+      "source_sha256": "b36da4cb6e975232b9a6b70e5780de6f96326b38e1ce79c49d8459e314205a30",
+      "target": "地·无法遵从的命令",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/433/field/0",
+      "source_sha256": "a5711965a606e49abb008fa30dfaf6c298fdf9b9bd51672700c4b2b80b108f97",
+      "target": "火·如同疾风",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/434/field/0",
+      "source_sha256": "4473e238818b2c7d0d07ca225b3d414cbe23ffdc27a693c43bb880d5287ff077",
+      "target": "风·天使之声",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/435/field/0",
+      "source_sha256": "e0f164d93304dd37f98c7b7e10b2780de9701478387debd34b0ca0f0259ae0c5",
+      "target": "风·无人之地",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/436/field/0",
+      "source_sha256": "0f87efe320ce5617fd4f50f712c77a0f3e1dc8a6d4f4351cae65daecbad736dc",
+      "target": "江·堕落之惧",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/437/field/0",
+      "source_sha256": "178c99d3a0883df1cba1a5d7f1d2ece97be83ef58fa221a9d0abcfa230b997c9",
+      "target": "江·必然结果",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/438/field/0",
+      "source_sha256": "563e1e590e2c02c6a688ea4882f1f093419f0b109bbfee29b670dc055966c8fb",
+      "target": "地·小小幸福",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/439/field/0",
+      "source_sha256": "e997507982e1c057658404fe463a09a78aedf62eb9dbfc5e5bb234fc778621fc",
+      "target": "山·救援船",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/440/field/0",
+      "source_sha256": "9c9201dd29d3cb6349db40fad0f700e2bffc64812ae57a3d1d2378f748603769",
+      "target": "风·大逃脱",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/441/field/0",
+      "source_sha256": "61cada371a3d7929a07f79e886c51d6c3d6d24fc13afb8dcb757084ab0655106",
+      "target": "雷·无敌最强",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/444/field/0",
+      "source_sha256": "2f42ef6729a90cd222a4832f63a468438b554bc8c7866203f773b0b8f4d4584e",
+      "target": "亚逊法杖",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/454/field/0",
+      "source_sha256": "efe5ff3cdd7245c0512c0a350d261c93a1568d74d448d3b8250b5ab3670b97d0",
+      "target": "凯莉安的扇子",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/456/field/0",
+      "source_sha256": "7221f3f73fde18ec5c9cd812aeec9da316f83d5bdc833026e93bcb36351e5c5c",
+      "target": "流星道场（菊）",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/457/field/0",
+      "source_sha256": "00637c4073301621ca9d156fc0c7552adde0940f56e52bbc3111bc5a5808b2cc",
+      "target": "流星道场（竹）",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/458/field/0",
+      "source_sha256": "99abadb5fdcecd51a8fef3a170f51a7b157ca7ed5edcdf6a1098ca7969de3115",
+      "target": "破邪道场毒手套",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/459/field/0",
+      "source_sha256": "cd3884866d8ba378b334a627e2b05821a1b4e3369b37e5c01b05357dd07ba7d2",
+      "target": "破邪道场混乱手套",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/475/field/0",
+      "source_sha256": "a370f8e84f14928ec20ca4ebf1c675be39ec4f462747ea014018298477263a82",
+      "target": "图尔博专用剑",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/477/field/0",
+      "source_sha256": "995288256e98ecaa2049610d852eb8a9f6360177ed9e32b03e10f124242f15a4",
+      "target": "阿格雷安之剑",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/478/field/0",
+      "source_sha256": "cd1cc9ff1ec285e9ecacd567e6c81d548af929177dbbfd34df6d84d03456f239",
+      "target": "杰卡尔特之剑",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/17/field/0/index/17",
+      "source_sha256": "cc068f382dd4d046f0e57622b3533f6655588f0dae629c3850a8af05111d100d",
+      "target": "雷电流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    },
+    {
+      "id": "SHIP/00002459.tui/record/21/field/0/index/21",
+      "source_sha256": "c976e88d92ec72d3427360ec06d88fd52379afcbdc6fa2d828ce1d41e422b8d6",
+      "target": "大破邪道流",
+      "status": "reviewed",
+      "context": "Complete item/style name; explicit glossary choice; runtime visibility and cache/ISO integration separately assessed."
+    }
+  ]
+}

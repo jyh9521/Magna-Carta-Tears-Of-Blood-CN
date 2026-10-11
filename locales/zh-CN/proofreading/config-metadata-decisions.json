@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "5f1986262ca0180d0de713b63ac445e1a264093c117629bb38712622f112166b",
+  "elf_sha256": "35cc6048f0e1f68d06bf3e515b99de3263e5092be62d6215cff5e74aa0ea15f0",
+  "archive_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "entries": [
+    {
+      "id": "FILE/psx2user.ini/line/2",
+      "resource": "FILE/psx2user.ini",
+      "resource_sha256": "dfd842d9a78058dbbeb6f9993483ba669532e9d36291f0470a33fe03f0558c9a",
+      "offset": 22,
+      "source_bytes": 6,
+      "source_sha256": "64aee8c6cbd026d9ea9221661f7632351d9a741198cd01ca017450b56f78a206",
+      "section": "DefaultPlayer",
+      "key": "Name",
+      "source": "Player",
+      "status": "reviewed",
+      "role": "default-player-identity",
+      "disposition": "retain-config-metadata",
+      "import_approved": false,
+      "runtime_visibility_verified": false,
+      "reason": "Preserve engine default player identity for URL/user options; this generic Player value is not the named story protagonist. Native key/section consumers verified; runtime display is not inferred.",
+      "native_windows": [
+        {
+          "va": "0x205858",
+          "hex": "6000a68f30d1c6244b00053c4b00073c44010426f03fa524b4bc090c0040e724"
+        },
+        {
+          "va": "0x205930",
+          "hex": "4b00053c4b00063c4000a427f03fa52494bc090c0040c624"
+        },
+        {
+          "va": "0x2b35b4",
+          "hex": "4b00053c4b00063c4b00073c2d202002b062a5247067c624c062e724b4bc090c840142ae"
+        }
+      ]
+    },
+    {
+      "id": "FILE/psx2game.ini/line/3",
+      "resource": "FILE/psx2game.ini",
+      "resource_sha256": "67db5e4171e752f7da3dcfd56d12d9bd5e98a2114ada8440d98840f15b06063f",
+      "offset": 44,
+      "source_bytes": 15,
+      "source_sha256": "096f1ac24f7f414449fca299db14973c21303ab46c75826df733106b499fc6de",
+      "section": "URL",
+      "key": "ProtocolDescription",
+      "source": "Unreal Protocol",
+      "status": "reviewed",
+      "role": "protocol-description-metadata",
+      "disposition": "retain-config-metadata",
+      "import_approved": false,
+      "runtime_visibility_verified": false,
+      "reason": "Preserve engine URL protocol metadata; native configuration initializer stores URL/ProtocolDescription separately from narrative/UI banks. No runtime invisibility claim.",
+      "native_windows": [
+        {
+          "va": "0x26c1c8",
+          "hex": "388a848f4b00053c4b00063c105aa524305ac6240000998c1c00398f09f820032d3800002d8040005c00013cd03b228c160050100000000000000282040040102d100000b0f8050c2d200002010042245c00013c5c00043cd83b22acd03b84245c00013c01000524ec85060cd43b22ac5c00013cd43b268c0400c0105c00013cd03b248c1c5b040c2d280002"
+        }
+      ]
+    },
+    {
+      "id": "FILE/psx2game.ini/line/4",
+      "resource": "FILE/psx2game.ini",
+      "resource_sha256": "67db5e4171e752f7da3dcfd56d12d9bd5e98a2114ada8440d98840f15b06063f",
+      "offset": 66,
+      "source_bytes": 6,
+      "source_sha256": "64aee8c6cbd026d9ea9221661f7632351d9a741198cd01ca017450b56f78a206",
+      "section": "URL",
+      "key": "Name",
+      "source": "Player",
+      "status": "reviewed",
+      "role": "default-player-identity",
+      "disposition": "retain-config-metadata",
+      "import_approved": false,
+      "runtime_visibility_verified": false,
+      "reason": "Preserve engine default player identity for URL/user options; this generic Player value is not the named story protagonist. Native key/section consumers verified; runtime display is not inferred.",
+      "native_windows": [
+        {
+          "va": "0x26c254",
+          "hex": "388a848f4b00053c4b00063c105aa524485ac6240000998c1c00398f09f820032d3800002d8040005c00013cf03b228c160050100000000000000282040040102d100000b0f8050c2d200002010042245c00013c5c00043cf83b22acf03b84245c00013c01000524ec85060cf43b22ac5c00013cf43b268c0400c0105c00013cf03b248c1c5b040c2d280002"
+        }
+      ]
+    }
+  ]
+}

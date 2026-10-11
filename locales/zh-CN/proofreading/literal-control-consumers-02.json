@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "4f4c886486a94f9fc1f886bb607c7b9a46c97f02ff3fa1d4904a3adc3ba54d7c",
+  "bindings": [
+    {
+      "id": "SHIP/00001239.tui/record/4/field/0/index/9",
+      "resource": "SHIP/00001239.tui",
+      "resource_sha256": "5bd2bdd2d410ad6d4985eb5b3ee9949024703e3800d9b82e3ee79dacc7b705b5",
+      "offset": 4656,
+      "source_bytes": 12,
+      "source_sha256": "b59532f8b5326766c04d9ba6d42be0d1a9dde0c565c0e8411e8b42c776b4eb25",
+      "kind": "native-tui-main",
+      "physical_index": 9,
+      "record_key": 4,
+      "native_string_offset": 4
+    },
+    {
+      "id": "SHIP/00001239.tui/record/5/field/0/index/10",
+      "resource": "SHIP/00001239.tui",
+      "resource_sha256": "5bd2bdd2d410ad6d4985eb5b3ee9949024703e3800d9b82e3ee79dacc7b705b5",
+      "offset": 5172,
+      "source_bytes": 52,
+      "source_sha256": "d34c2aace40bada18ebb1d3aff7e4932e1aa76fd6d8d976efa55238fc2254e5a",
+      "kind": "native-tui-main",
+      "physical_index": 10,
+      "record_key": 5,
+      "native_string_offset": 4
+    },
+    {
+      "id": "SHIP/00001239.tui/record/12/field/0/index/18",
+      "resource": "SHIP/00001239.tui",
+      "resource_sha256": "5bd2bdd2d410ad6d4985eb5b3ee9949024703e3800d9b82e3ee79dacc7b705b5",
+      "offset": 9300,
+      "source_bytes": 32,
+      "source_sha256": "be689badcd3c984c49f75c1984036e461bdbdf5f2490ec5009abf4df0fee9941",
+      "kind": "native-tui-main",
+      "physical_index": 18,
+      "record_key": 12,
+      "native_string_offset": 4
+    },
+    {
+      "id": "SHIP/00001249.tui/record/1/field/0/index/1",
+      "resource": "SHIP/00001249.tui",
+      "resource_sha256": "0677124a3457f7bbcfdc32957b919b5fee6f48f1755567445d33ed6bcb84efb9",
+      "offset": 528,
+      "source_bytes": 18,
+      "source_sha256": "044b0c9c7fc7e07de9b5db1cc2896cefba08ff4e3910f41cb6c2557493592ed4",
+      "kind": "native-tui-main",
+      "physical_index": 1,
+      "record_key": 1,
+      "native_string_offset": 4
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/31",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 8169,
+      "source_bytes": 31,
+      "source_sha256": "34ae377ca57e177ed7b839f094483405e69f145de1fba0396d261a7847cb765c",
+      "kind": "native-cdg-description",
+      "physical_index": 15,
+      "record_key": 460,
+      "native_string_offset": 28
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/81",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 21319,
+      "source_bytes": 31,
+      "source_sha256": "f96493d081a813f232e3b36cfad1cbc6a358047382b58dc18fdbb7fd81858d00",
+      "kind": "native-cdg-description",
+      "physical_index": 40,
+      "record_key": 456,
+      "native_string_offset": 28
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/87",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 22897,
+      "source_bytes": 31,
+      "source_sha256": "90c833db478bb801527ae3c6ce6b9109731a2b9014a4e00f09fa0ae63f18f6e0",
+      "kind": "native-cdg-description",
+      "physical_index": 43,
+      "record_key": 461,
+      "native_string_offset": 28
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/97",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 25527,
+      "source_bytes": 31,
+      "source_sha256": "10f1b968fa6c8060ee5e573ae2232c25bee4e53b2f58f016d58096b3383ff2e0",
+      "kind": "native-cdg-description",
+      "physical_index": 48,
+      "record_key": 455,
+      "native_string_offset": 28
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/117",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 30787,
+      "source_bytes": 31,
+      "source_sha256": "303082c375f16377fe1c68faf7671dd6b8cd4f517c930a9319f890a34d69256c",
+      "kind": "native-cdg-description",
+      "physical_index": 58,
+      "record_key": 458,
+      "native_string_offset": 28
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/137",
+      "resource": "SHIP/00006460.cdg",
+      "resource_sha256": "f8e9a5a4ddfb9a2dc823f9e8cf21e8f9a3d2cf0b404bed48c10c3456872e8877",
+      "offset": 36047,
+      "source_bytes": 31,
+      "source_sha256": "48f83c5da531974a2e0d68fe2b867f103f79318cb03939f46ffc099c3688ce19",
+      "kind": "native-cdg-description",
+      "physical_index": 68,
+      "record_key": 459,
+      "native_string_offset": 28
+    }
+  ]
+}

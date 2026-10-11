@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00001239.tui/record/4/field/0/index/9",
+      "source_sha256": "b59532f8b5326766c04d9ba6d42be0d1a9dde0c565c0e8411e8b42c776b4eb25",
+      "target": "< 公告 >",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/5/field/0/index/10",
+      "source_sha256": "d34c2aace40bada18ebb1d3aff7e4932e1aa76fd6d8d976efa55238fc2254e5a",
+      "target": "购买全品类商品达10件以上，即享20%优惠！　",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00001239.tui/record/12/field/0/index/18",
+      "source_sha256": "be689badcd3c984c49f75c1984036e461bdbdf5f2490ec5009abf4df0fee9941",
+      "target": "巨剑竟然优惠20%！　",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/1/field/0/index/1",
+      "source_sha256": "044b0c9c7fc7e07de9b5db1cc2896cefba08ff4e3910f41cb6c2557493592ed4",
+      "target": "挑战道场->继承流派",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/31",
+      "source_sha256": "34ae377ca57e177ed7b839f094483405e69f145de1fba0396d261a7847cb765c",
+      "target": "使三位一体驱动提升70%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/81",
+      "source_sha256": "f96493d081a813f232e3b36cfad1cbc6a358047382b58dc18fdbb7fd81858d00",
+      "target": "使三位一体驱动提升20%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/87",
+      "source_sha256": "90c833db478bb801527ae3c6ce6b9109731a2b9014a4e00f09fa0ae63f18f6e0",
+      "target": "使三位一体驱动提升60%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/97",
+      "source_sha256": "10f1b968fa6c8060ee5e573ae2232c25bee4e53b2f58f016d58096b3383ff2e0",
+      "target": "使三位一体驱动提升30%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/117",
+      "source_sha256": "303082c375f16377fe1c68faf7671dd6b8cd4f517c930a9319f890a34d69256c",
+      "target": "使三位一体驱动提升40%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/137",
+      "source_sha256": "48f83c5da531974a2e0d68fe2b867f103f79318cb03939f46ffc099c3688ce19",
+      "target": "使三位一体驱动提升50%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    }
+  ]
+}

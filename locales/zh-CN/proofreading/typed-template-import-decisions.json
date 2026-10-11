@@ -1,0 +1,431 @@
+{
+  "schema": 1,
+  "elf_sha256": "35cc6048f0e1f68d06bf3e515b99de3263e5092be62d6215cff5e74aa0ea15f0",
+  "source_corpus_sha256": "f8eca3457e9a372bd40b06dc1559a19b3d27840d4bf1241055caf11b730c7261",
+  "bindings": [
+    {
+      "id": "SHIP/00001249.tui/record/30/field/0/index/23",
+      "resource": "SHIP/00001249.tui",
+      "resource_sha256": "0677124a3457f7bbcfdc32957b919b5fee6f48f1755567445d33ed6bcb84efb9",
+      "source_sha256": "5ae67061fbd9f1f8a6a75224c6aa9c91343e7a520566700a55e18aaaf0a806cf",
+      "source": "~가 유파",
+      "target": "~的流派",
+      "record_key": 30,
+      "physical_index": 23,
+      "source_offset": 11880,
+      "fixed_slot_bytes": 256,
+      "native_loader": {
+        "path": "..\\UIText\\00001249.tui",
+        "function_va": "0x308950",
+        "array_offset": "0x16c",
+        "record_stride": 28,
+        "source_record_geometry": [
+          4,
+          256,
+          256
+        ],
+        "destination_offsets": [
+          0,
+          4,
+          16
+        ],
+        "instructions": [
+          {
+            "va": "0x308954",
+            "word": "0x3c05004b",
+            "meaning": "path LUI a1"
+          },
+          {
+            "va": "0x30895c",
+            "word": "0x24a57850",
+            "meaning": "path ADDIU a1"
+          },
+          {
+            "va": "0x3089ac",
+            "word": "0x320f809",
+            "meaning": "read header count virtual call"
+          },
+          {
+            "va": "0x3089b0",
+            "word": "0x24060004",
+            "meaning": "count read 4 bytes in delay slot"
+          },
+          {
+            "va": "0x3089c4",
+            "word": "0x320f809",
+            "meaning": "read second header virtual call"
+          },
+          {
+            "va": "0x3089c8",
+            "word": "0x24060004",
+            "meaning": "second header read 4 bytes in delay slot"
+          },
+          {
+            "va": "0x3089d4",
+            "word": "0xc0c7520",
+            "meaning": "array append helper 0x31d480"
+          },
+          {
+            "va": "0x3089d8",
+            "word": "0x2665016c",
+            "meaning": "array address this plus offset"
+          },
+          {
+            "va": "0x308a08",
+            "word": "0x24060004",
+            "meaning": "record key read size 4"
+          },
+          {
+            "va": "0x308a0c",
+            "word": "0x8e62016c",
+            "meaning": "load array data pointer"
+          },
+          {
+            "va": "0x308a14",
+            "word": "0x518c0",
+            "meaning": "record index times 8"
+          },
+          {
+            "va": "0x308a18",
+            "word": "0x651823",
+            "meaning": "subtract record index"
+          },
+          {
+            "va": "0x308a1c",
+            "word": "0x31880",
+            "meaning": "multiply by 4: record stride 28"
+          },
+          {
+            "va": "0x308a20",
+            "word": "0x438021",
+            "meaning": "record pointer data plus stride"
+          },
+          {
+            "va": "0x308a24",
+            "word": "0x320f809",
+            "meaning": "key read virtual call"
+          },
+          {
+            "va": "0x308a28",
+            "word": "0x200282d",
+            "meaning": "key destination record pointer in delay slot"
+          },
+          {
+            "va": "0x308a3c",
+            "word": "0x320f809",
+            "meaning": "text read virtual call"
+          },
+          {
+            "va": "0x308a40",
+            "word": "0x24060100",
+            "meaning": "text read 256 bytes in delay slot"
+          },
+          {
+            "va": "0x308a48",
+            "word": "0x26040004",
+            "meaning": "string object destination"
+          },
+          {
+            "va": "0x308a64",
+            "word": "0xc069530",
+            "meaning": "buffer conversion helper 0x1a54c0"
+          },
+          {
+            "va": "0x308a68",
+            "word": "0x27a40050",
+            "meaning": "conversion input scratch sp plus 0x50"
+          },
+          {
+            "va": "0x308ad0",
+            "word": "0x320f809",
+            "meaning": "text read virtual call"
+          },
+          {
+            "va": "0x308ad4",
+            "word": "0x24060100",
+            "meaning": "text read 256 bytes in delay slot"
+          },
+          {
+            "va": "0x308adc",
+            "word": "0x26040010",
+            "meaning": "string object destination"
+          },
+          {
+            "va": "0x308af8",
+            "word": "0xc069530",
+            "meaning": "buffer conversion helper 0x1a54c0"
+          },
+          {
+            "va": "0x308afc",
+            "word": "0x27a40050",
+            "meaning": "conversion input scratch sp plus 0x50"
+          }
+        ],
+        "runtime_execution_verified": false,
+        "conversion_semantics_verified": false
+      },
+      "lookup_helper": "0x3132f0",
+      "lookup_result": {
+        "found": true,
+        "index": 23,
+        "steps": 293
+      },
+      "bank_storage_binding_verified": true,
+      "reinsertion_decision": "translate-typed-bank-string-preserve-marker",
+      "placeholder_runtime_semantics_verified": false,
+      "runtime_execution_verified": false,
+      "reason": "Import an explicitly typed MainText slot with unchanged source key, ~ marker and fixed byte geometry. No claim that compiled code reaches this template or substitutes ~. Original record remains reproducible in rollback."
+    },
+    {
+      "id": "SHIP/00001249.tui/record/31/field/0/index/24",
+      "resource": "SHIP/00001249.tui",
+      "resource_sha256": "0677124a3457f7bbcfdc32957b919b5fee6f48f1755567445d33ed6bcb84efb9",
+      "source_sha256": "d0684874d75453d5f185b729f0384f8d5128e587f4e8d6e5ac45eeaa7d22679e",
+      "source": "~를 획득했습니다.",
+      "target": "获得了~",
+      "record_key": 31,
+      "physical_index": 24,
+      "source_offset": 12396,
+      "fixed_slot_bytes": 256,
+      "native_loader": {
+        "path": "..\\UIText\\00001249.tui",
+        "function_va": "0x308950",
+        "array_offset": "0x16c",
+        "record_stride": 28,
+        "source_record_geometry": [
+          4,
+          256,
+          256
+        ],
+        "destination_offsets": [
+          0,
+          4,
+          16
+        ],
+        "instructions": [
+          {
+            "va": "0x308954",
+            "word": "0x3c05004b",
+            "meaning": "path LUI a1"
+          },
+          {
+            "va": "0x30895c",
+            "word": "0x24a57850",
+            "meaning": "path ADDIU a1"
+          },
+          {
+            "va": "0x3089ac",
+            "word": "0x320f809",
+            "meaning": "read header count virtual call"
+          },
+          {
+            "va": "0x3089b0",
+            "word": "0x24060004",
+            "meaning": "count read 4 bytes in delay slot"
+          },
+          {
+            "va": "0x3089c4",
+            "word": "0x320f809",
+            "meaning": "read second header virtual call"
+          },
+          {
+            "va": "0x3089c8",
+            "word": "0x24060004",
+            "meaning": "second header read 4 bytes in delay slot"
+          },
+          {
+            "va": "0x3089d4",
+            "word": "0xc0c7520",
+            "meaning": "array append helper 0x31d480"
+          },
+          {
+            "va": "0x3089d8",
+            "word": "0x2665016c",
+            "meaning": "array address this plus offset"
+          },
+          {
+            "va": "0x308a08",
+            "word": "0x24060004",
+            "meaning": "record key read size 4"
+          },
+          {
+            "va": "0x308a0c",
+            "word": "0x8e62016c",
+            "meaning": "load array data pointer"
+          },
+          {
+            "va": "0x308a14",
+            "word": "0x518c0",
+            "meaning": "record index times 8"
+          },
+          {
+            "va": "0x308a18",
+            "word": "0x651823",
+            "meaning": "subtract record index"
+          },
+          {
+            "va": "0x308a1c",
+            "word": "0x31880",
+            "meaning": "multiply by 4: record stride 28"
+          },
+          {
+            "va": "0x308a20",
+            "word": "0x438021",
+            "meaning": "record pointer data plus stride"
+          },
+          {
+            "va": "0x308a24",
+            "word": "0x320f809",
+            "meaning": "key read virtual call"
+          },
+          {
+            "va": "0x308a28",
+            "word": "0x200282d",
+            "meaning": "key destination record pointer in delay slot"
+          },
+          {
+            "va": "0x308a3c",
+            "word": "0x320f809",
+            "meaning": "text read virtual call"
+          },
+          {
+            "va": "0x308a40",
+            "word": "0x24060100",
+            "meaning": "text read 256 bytes in delay slot"
+          },
+          {
+            "va": "0x308a48",
+            "word": "0x26040004",
+            "meaning": "string object destination"
+          },
+          {
+            "va": "0x308a64",
+            "word": "0xc069530",
+            "meaning": "buffer conversion helper 0x1a54c0"
+          },
+          {
+            "va": "0x308a68",
+            "word": "0x27a40050",
+            "meaning": "conversion input scratch sp plus 0x50"
+          },
+          {
+            "va": "0x308ad0",
+            "word": "0x320f809",
+            "meaning": "text read virtual call"
+          },
+          {
+            "va": "0x308ad4",
+            "word": "0x24060100",
+            "meaning": "text read 256 bytes in delay slot"
+          },
+          {
+            "va": "0x308adc",
+            "word": "0x26040010",
+            "meaning": "string object destination"
+          },
+          {
+            "va": "0x308af8",
+            "word": "0xc069530",
+            "meaning": "buffer conversion helper 0x1a54c0"
+          },
+          {
+            "va": "0x308afc",
+            "word": "0x27a40050",
+            "meaning": "conversion input scratch sp plus 0x50"
+          }
+        ],
+        "runtime_execution_verified": false,
+        "conversion_semantics_verified": false
+      },
+      "lookup_helper": "0x3132f0",
+      "lookup_result": {
+        "found": true,
+        "index": 24,
+        "steps": 305
+      },
+      "bank_storage_binding_verified": true,
+      "reinsertion_decision": "translate-typed-bank-string-preserve-marker",
+      "placeholder_runtime_semantics_verified": false,
+      "runtime_execution_verified": false,
+      "reason": "Import an explicitly typed MainText slot with unchanged source key, ~ marker and fixed byte geometry. No claim that compiled code reaches this template or substitutes ~. Original record remains reproducible in rollback."
+    },
+    {
+      "id": "SHIP/00011012.tui/record/1/field/0/index/1",
+      "resource": "SHIP/00011012.tui",
+      "resource_sha256": "6b416f511961829f6a9792552382cd5c7367f332719b926e8598a3bbcef818f6",
+      "source_sha256": "96e75ece468cbbfd4121c1eea4a7323a30fcaa7c963616ff7211d13669ce5347",
+      "source": "Sid가 소모됩니다. 정말로 가시겠습니까?",
+      "target": "将消耗希德币。确定前往吗？",
+      "record_key": 1,
+      "physical_index": 1,
+      "source_offset": 528,
+      "fixed_slot_bytes": 256,
+      "native_loader": {
+        "function_va": "0x309990",
+        "array_offset": "0x19c",
+        "record_stride": 28,
+        "source_record_geometry": [
+          4,
+          256,
+          256
+        ],
+        "native_window_sha256": "0d368a2244d4741b71fb4d75cbe7d046850f1cb7932dba66e80c4120d70d40ea",
+        "path": "..\\UIText\\00011012.tui",
+        "instructions": [
+          {
+            "va": "0x309994",
+            "word": "0x3c05004b"
+          },
+          {
+            "va": "0x30999c",
+            "word": "0x24a578f0"
+          },
+          {
+            "va": "0x309a18",
+            "word": "0x2665019c"
+          },
+          {
+            "va": "0x309a4c",
+            "word": "0x8e62019c"
+          },
+          {
+            "va": "0x309a80",
+            "word": "0x24060100"
+          },
+          {
+            "va": "0x309a88",
+            "word": "0x26040004"
+          },
+          {
+            "va": "0x309aa4",
+            "word": "0xc069530"
+          },
+          {
+            "va": "0x309b14",
+            "word": "0x24060100"
+          },
+          {
+            "va": "0x309b1c",
+            "word": "0x26040010"
+          },
+          {
+            "va": "0x309b38",
+            "word": "0xc069530"
+          }
+        ]
+      },
+      "lookup_helper": "0x3137b0",
+      "lookup_result": {
+        "found": true,
+        "index": 1,
+        "steps": 29
+      },
+      "bank_storage_binding_verified": true,
+      "reinsertion_decision": "translate-typed-bank-string-preserve-marker",
+      "placeholder_runtime_semantics_verified": false,
+      "runtime_execution_verified": false,
+      "reason": "Import an explicitly typed MainText slot with unchanged source key, ~ marker and fixed byte geometry. No claim that compiled code reaches this template or substitutes ~. Original record remains reproducible in rollback."
+    }
+  ],
+  "runtime_verified": false
+}

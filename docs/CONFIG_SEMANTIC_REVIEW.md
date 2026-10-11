@@ -28,3 +28,8 @@ work/venv/Scripts/python.exe -X utf8 tools/audit_config_semantics.py --corpus wo
 ```
 
 完整原值及证据保存在ignored输出，公开JSON只记录统计。未知section/key保留unresolved；混合描述括号、引号、重复member和边界异常均拒绝。
+
+
+## stage174 显式元数据保留
+
+原分类保持unresolved，以独立retain-config-metadata证明记录保留决断，避免虚构内部/不可见结论。源FILE字节与3个默认配置行逐项匹配，原ELF键读取与native存储窗口匹配。两个Player属于默认身份、一个Unreal Protocol属于协议描述。保留它们避免修改引擎URL身份与默认协议元数据，不将故事名称替换进去；runtime_visibility_verified=false、import_approved=false不变。profile决定的是翻译边界，不是全游戏可见性验收。

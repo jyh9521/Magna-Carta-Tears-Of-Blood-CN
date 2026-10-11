@@ -2,6 +2,12 @@
   "schema": 1,
   "protected": [
     {
+      "path": "test-iso/Magna-Carta-zh-CN-test.iso",
+      "size": 4250667008,
+      "sha256": "809b7565c982f691097a162f044a0c5aefebb3dc12b137f18943d92a2827f69d",
+      "role": "integrated-zh-CN-title-ui-revision-pending-runtime"
+    },
+    {
       "path": "opening-trial-02-source-han/image/MODIFIED_FILE.iso",
       "size": 3232737280,
       "sha256": "0c2d8ebf005fb3a9bfbe12f19525594834c9e3b7c094cb9b6d749d20c910dcb2",

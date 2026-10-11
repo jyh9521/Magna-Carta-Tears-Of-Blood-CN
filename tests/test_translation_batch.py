@@ -31,6 +31,27 @@ class TranslationBatchTests(unittest.TestCase):
         self.batch['entries'][0]['id']='other'
         with self.assertRaisesRegex(ValueError,'unknown'):validate(self.catalog,self.batch,self.terms)
 
+    def test_unique_source_alias_keeps_original_binding(self):
+        self.catalog['resources'][0]['entries'][0]['source_aliases']=['legacy']
+        self.batch['entries'][0]['id']='legacy'
+        self.assertEqual(validate(self.catalog,self.batch,self.terms)['entries'],1)
+        self.assertEqual(self.batch['entries'][0]['id'],'legacy')
+        self.batch['entries'][0]['source_sha256']='0'*64
+        with self.assertRaisesRegex(ValueError,'identity'):validate(self.catalog,self.batch,self.terms)
+
+    def test_alias_and_canonical_target_are_duplicate(self):
+        self.catalog['resources'][0]['entries'][0]['source_aliases']=['legacy']
+        row=copy.deepcopy(self.batch['entries'][0]);row['id']='legacy'
+        self.batch['entries'].append(row)
+        with self.assertRaisesRegex(ValueError,'duplicate'):validate(self.catalog,self.batch,self.terms)
+
+    def test_ambiguous_alias_rejected(self):
+        first=self.catalog['resources'][0]['entries'][0];first['source_aliases']=['legacy']
+        second=copy.deepcopy(first);second['id']='second'
+        self.catalog['resources'][0]['entries'].append(second)
+        self.batch['entries'][0]['id']='legacy'
+        with self.assertRaisesRegex(ValueError,'ambiguous'):validate(self.catalog,self.batch,self.terms)
+
     def test_token_protection(self):
         self.batch['entries'][0]['target']='流派'
         with self.assertRaisesRegex(ValueError,'token'):validate(self.catalog,self.batch,self.terms)
@@ -76,6 +97,17 @@ class TranslationBatchTests(unittest.TestCase):
         self.batch['entries'][0].update(source_sha256=source['source_sha256'],target='克里斯·阿克韦')
         with self.assertRaisesRegex(ValueError,'리스'):
             validate(self.catalog,self.batch,[('리스','莉丝'),('크리스 아크웨이','克里斯·阿克韦')])
+
+    def test_exact_source_homonym_metadata(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d)/'terms.md';p.write_text('| 사과 | 苹果 | 道具 | 已统一 | [match=exact-source] |\n','utf8')
+            terms=glossary_terms(p);self.assertEqual(terms,[('사과','苹果')]);self.assertEqual(terms.exact_only,{'사과'})
+            for original,target,accepted in [('사과','苹果',True),('사과','道歉',False),('사과 드립니다','向您道歉',True)]:
+                source=field('test',original.encode('cp949'),0);self.catalog['resources'][0]['entries']=[source]
+                self.batch['entries'][0].update(source_sha256=source['source_sha256'],target=target)
+                if accepted:self.assertEqual(validate(self.catalog,self.batch,terms)['entries'],1)
+                else:
+                    with self.assertRaisesRegex(ValueError,'glossary'):validate(self.catalog,self.batch,terms)
 
 
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "bindings": [
+    {
+      "id": "SHIP/00000432.fpb/seq/3",
+      "source": "ans 1",
+      "source_sha256": "7a0e30c23077bc4d3a36c2fb95d1f3cb5c75171dee2eaafb578cdd6929d6dd6a",
+      "source_resource": "SHIP/00000432.fpb",
+      "source_resource_sha256": "c38314305f6eac96e1c1b5acd454379a8f1e57c89f825d039e96f95da4a0e6f4",
+      "source_offset": 83,
+      "source_bytes": 5,
+      "target": "回答1",
+      "specific_event_execution_verified": false,
+      "native_record_key": 3,
+      "physical_index": 3,
+      "role": "native-fpb-text-to-chat-string-payload"
+    },
+    {
+      "id": "SHIP/00000432.fpb/seq/4",
+      "source": "ans 2",
+      "source_sha256": "504948a89d23bbeee61a36569f622210faa0706a0eefbd104f95ec6f7fcbf859",
+      "source_resource": "SHIP/00000432.fpb",
+      "source_resource_sha256": "c38314305f6eac96e1c1b5acd454379a8f1e57c89f825d039e96f95da4a0e6f4",
+      "source_offset": 88,
+      "source_bytes": 5,
+      "target": "回答2",
+      "specific_event_execution_verified": false,
+      "native_record_key": 4,
+      "physical_index": 4,
+      "role": "native-fpb-text-to-chat-string-payload"
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/0",
+      "source": "back in the days MODE(?? ?? ?? ??) ",
+      "source_sha256": "b7630de5dcb3cd866086a7297330dc75624ad76eee991c43cc228931ab4d8db8",
+      "source_resource": "SHIP/00004567.fpb",
+      "source_resource_sha256": "174644ab70e3d5447108d158050aa4e3e21c2d09b4ad1e759d74f01e1a298a1a",
+      "source_offset": 0,
+      "source_bytes": 35,
+      "target": "往日回忆模式（?? ?? ?? ??）",
+      "specific_event_execution_verified": false,
+      "native_record_key": 0,
+      "physical_index": 0,
+      "role": "native-fpb-text-to-chat-string-payload"
+    },
+    {
+      "id": "SHIP/00004567.fpb/seq/1",
+      "source": "----- MOVIE playing now-_-(???) ----- ",
+      "source_sha256": "8742fd199fc858f1214bb22294fc11fe7b78720fb734811f312f21f3fdce17ba",
+      "source_resource": "SHIP/00004567.fpb",
+      "source_resource_sha256": "174644ab70e3d5447108d158050aa4e3e21c2d09b4ad1e759d74f01e1a298a1a",
+      "source_offset": 35,
+      "source_bytes": 38,
+      "target": "影片正在播放：-_-（???）",
+      "specific_event_execution_verified": false,
+      "native_record_key": 1,
+      "physical_index": 1,
+      "role": "native-fpb-text-to-chat-string-payload"
+    },
+    {
+      "id": "SHIP/00007682.fpb/seq/0",
+      "source": "Iku Me Kum Corta Non Omnidarr Quirtaa Sore...",
+      "source_sha256": "00933c592401e9bfc888134754a54ef6a8cf135668821ae0f26023ff03c10391",
+      "source_resource": "SHIP/00007682.fpb",
+      "source_resource_sha256": "629f9d2c15e9a041da4a9e288d9b0b94b3c2ddf6868e30143c2a9a0898b26045",
+      "source_offset": 0,
+      "source_bytes": 45,
+      "target": "伊库、梅、库姆、科尔塔、农、翁尼达尔、奎尔塔、佐雷……",
+      "specific_event_execution_verified": false,
+      "native_record_key": 0,
+      "physical_index": 0,
+      "role": "native-fpb-text-to-chat-string-payload"
+    }
+  ],
+  "runtime_verified": false
+}

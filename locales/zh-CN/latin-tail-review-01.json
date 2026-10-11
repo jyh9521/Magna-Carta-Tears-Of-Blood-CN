@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00001255.tui/record/19/field/0/index/18",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/0/field/10",
+      "source_sha256": "a44d1ad19672e96a07a67ac8d94a106583722974ec10cbec9a84bdc7202bb509",
+      "target": "奥尔哈1",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/1/field/10",
+      "source_sha256": "e0c452be3efe3c10efb441b17e0eade0ca9ae169629829ea1e7ce6e0611a1759",
+      "target": "奥尔哈2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/0/field/0",
+      "source_sha256": "3b6ece419b78231338d78a60dbf7ae2489a6eea758ec8f61570f7e6db59ebd11",
+      "target": "我很开心",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/0/field/2",
+      "source_sha256": "9944374b744488e1e56c97c9936177ba66baa7957b8291777a8bdc7a47f8a870",
+      "target": "妈的！！",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/0/field/3",
+      "source_sha256": "4c8df343fe995da6171f0bb17afd643b856b11b9ef26ff6d5532197ec6263bb4",
+      "target": "朴柱",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/1/field/0",
+      "source_sha256": "acdec92c4a427a34d8bb0093f98169d2c7a81178ea61a202e884485f2f7b9ea4",
+      "target": "我很开心2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/1/field/2",
+      "source_sha256": "4f9d0254aef5db1ba23630327e1db5fc538406419b03396b9ce3304439bc7e97",
+      "target": "妈的！！2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    },
+    {
+      "id": "SHIP/00003633.fds/record-index/1/field/3",
+      "source_sha256": "3fabc9a736fa9dc0ea62e28cf231546197fe42132c42f8cabe872cedae39cb83",
+      "target": "朴柱2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Remaining Latin text; source-bound field geometry/full slot and metadata preserved. GFTOrhaText is SetChatText payload;FDSprototype file original03633 selection not claimed. pparkjju uses项目拼写朴柱,not inferred actor identity."
+    }
+  ]
+}

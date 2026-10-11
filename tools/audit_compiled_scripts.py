@@ -16,7 +16,7 @@ from research_inventory import package_tables
 from extract_script_buffers import FILE_HASH
 
 
-def compiled_script(reader,virtual_size,tables):
+def compiled_script(reader,virtual_size,tables,*,include_spans=False):
     core.require(0<=virtual_size<=4*1024*1024,'script size limit')
     start=reader.pos;virtual=0;tokens=[];references=[];strings=[]
     def fixed(n):
@@ -33,7 +33,8 @@ def compiled_script(reader,virtual_size,tables):
         nonlocal virtual
         core.require(depth<64,'script recursion limit')
         at=reader.pos;vo=virtual;x=reader.integer('B');virtual+=1
-        tokens.append(dict(offset=at,virtual_offset=vo,opcode=x,depth=depth,parent_opcode=parent))
+        current=dict(offset=at,virtual_offset=vo,opcode=x,depth=depth,parent_opcode=parent)
+        tokens.append(current)
         child=lambda:token(depth+1,x)
         if x>=0x60:
             if x<0x70:fixed(1)
@@ -78,6 +79,7 @@ def compiled_script(reader,virtual_size,tables):
         elif x in (8,0xb,0x15,0x16,0x17,0x25,0x26,0x27,0x28,0x2a,0x30,0x31):pass
         else:raise ValueError(f'unsupported compiled opcode 0x{x:02x} at {at}')
         core.require(virtual<=virtual_size,'script virtual size overflow')
+        if include_spans:current.update(end=reader.pos,virtual_end=virtual)
         return x
     while virtual<virtual_size:token()
     core.require(virtual==virtual_size,'script virtual size mismatch')
@@ -86,7 +88,7 @@ def compiled_script(reader,virtual_size,tables):
         strings=strings,opcode_semantics_complete=False,execution_verified=False,editable=False)
 
 
-def body(serial,tables,export):
+def body(serial,tables,export,*,include_spans=False):
     core.require(tables['version']==118,'unsupported script package version')
     props=property_block(serial,tables['names'],export['flags']);r=Reader(serial,props['end'])
     refs=[r.index() for _ in range(4)];friendly=r.index()
@@ -97,7 +99,7 @@ def body(serial,tables,export):
     header=dict(super_reference=refs[0],next_reference=refs[1],script_reference=refs[2],children_reference=refs[3],
         friendly_name=tables['names'][friendly],line=r.integer('i'),text_position=r.integer('i'),
         observed_pre_script_word=r.integer('I'),observed_pre_script_word_semantic='unverified',virtual_script_bytes=r.integer('I'))
-    script=compiled_script(r,header['virtual_script_bytes'],tables);tail={}
+    script=compiled_script(r,header['virtual_script_bytes'],tables,include_spans=include_spans);tail={}
     if export['class'] in ('Function','NativeFunction'):
         tail=dict(precedence_byte=r.integer('B'),flags=r.integer('I'))
         if tail['flags']&0x40:tail['replication_offset']=r.integer('H')

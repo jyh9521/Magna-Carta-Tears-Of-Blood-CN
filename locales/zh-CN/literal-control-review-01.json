@@ -1,0 +1,678 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00001932.fpb/seq/120",
+      "source_sha256": "4c0e55d6f413be9babecd79b0dd36fb8f73e428a29ea8dea99f333646255d955",
+      "target": "全品类商品优惠25%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/121",
+      "source_sha256": "a68f56b88009eab2768f032f15a14a9c9e54141ef62bcaa6abfe2f5d9ae62795",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00002526.fpb/seq/17",
+      "source_sha256": "d338ba41632495b39c8b0c1957bb348ec294a4478b7daca8dcd8ee3013f44ea7",
+      "target": "全品类商品优惠25%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00002526.fpb/seq/18",
+      "source_sha256": "4c9a4f1ad1c557909787346529e1cc22529fe2c1fdb8efc99f703da22a26847b",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00003572.fpb/seq/49",
+      "source_sha256": "5458c942339205833a9dae71eaf4fc9243f080b8fbaf754f4a0753288625fa66",
+      "target": "全品类商品优惠20%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/21",
+      "source_sha256": "4c0e55d6f413be9babecd79b0dd36fb8f73e428a29ea8dea99f333646255d955",
+      "target": "全品类商品优惠25%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00004985.fpb/seq/22",
+      "source_sha256": "a68f56b88009eab2768f032f15a14a9c9e54141ef62bcaa6abfe2f5d9ae62795",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/25",
+      "source_sha256": "4c0e55d6f413be9babecd79b0dd36fb8f73e428a29ea8dea99f333646255d955",
+      "target": "全品类商品优惠25%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00005066.fpb/seq/26",
+      "source_sha256": "a68f56b88009eab2768f032f15a14a9c9e54141ef62bcaa6abfe2f5d9ae62795",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00007039.fpb/seq/4",
+      "source_sha256": "ddf30068c3ac5add1e130d055e1e47a71c393ed95ed8b47a400bbe7d45aabadc",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00013491.fpb/seq/34",
+      "source_sha256": "a9f100c691645df5804cec95cf744398fab4911b764c25d4965de32184fd68c2",
+      "target": "当这个数值达到30%以上时，就能按□按钮使用三位一体驱动。$n真厉害！阿泽尔。$n攻击时卡恩的输入全部都是GREAT，已经达到100%了。$n在充满100%的状态下使用，威力就会达到平常的2倍。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00013491.fpb/seq/37",
+      "source_sha256": "e8a83ea5e46c7ab0d666f3899b253bc052fd05c459106ecde4c4c3554e2eb5aa",
+      "target": "不过，有一点要注意。$n如果积攒三位一体驱动时，在攻击中出现Miss，三位一体驱动就会$n变为0%。而且，在准备使用三位一体驱动$n时也一样，如果出现Miss，技能就不会发动，三位一体驱动也会$n变为0%，一定要小心。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00014898.fpb/seq/22",
+      "source_sha256": "e4e22852cf4128c5d96875c5f9f8e65c97501f95f9dd25c24b079b7dc0cb5ba0",
+      "target": "全品类商品优惠25%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00014898.fpb/seq/23",
+      "source_sha256": "c0baa86a37dbed9173eaec5e7ec6238812c26726bedbd3d7c5d513533d7d9859",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00014899.fpb/seq/21",
+      "source_sha256": "34cbb825386a713395c3fe63c832e2381bbc9c2441e1f855a84f386a50c5fced",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00014900.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015097.fpb/seq/3",
+      "source_sha256": "8c0075ffaab7f7fdd6f1c42c2928065a383ae3fddb6e6027178e0934fd7cbcf1",
+      "target": "全品类商品优惠20%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015099.fpb/seq/3",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015209.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015210.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015210.fpb/seq/25",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015218.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015219.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015222.fpb/seq/17",
+      "source_sha256": "41a69728e7fa9ad044371b275faae97da178b58b873128f3d12ebf7792f26a80",
+      "target": "即使一件事看起来不可能，只要还有希望，$n就意味着哪怕只有1%，也仍有实现的可能。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015230.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00015231.fpb/seq/21",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016655.cht/slot/17",
+      "source_sha256": "52b26aac7a89f52dacfeb495a6f253fd02aea11dd83e03b0f5b7cf137365517b",
+      "target": "战斗中，卡恩输入达到GREAT时，三位一体驱动就会增加。积攒到30%以上后，按□按钮便能$n发动三位一体驱动。$n若在充满100%的状态下使用技能，伤害会达到平常的两倍，请在战斗中灵活运用。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016655.cht/slot/18",
+      "source_sha256": "cb9cddbafd1bd0088fbdf0a08eea22e67df917365b54c4c8f1b107ba02bab2c9",
+      "target": "另外，有一点需要注意。积攒三位一体驱动时，如果卡恩输入失败，之前积攒的三位一体驱动$n槽就会变为0%。请务必留意。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016655.cht/slot/41",
+      "source_sha256": "320220a40f9cae758b2132604b588e14fcb4f7e77eac5b6e52ac660dfa4f2e0b",
+      "target": "如果之前的RECORD与现在的MAX DAMAGE之差在之前RECORD的50%以下，就额外增加2个经验值格，$n若在50%以上，则额外增加5个经验值格。 ",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016902.pod/field/0",
+      "source_sha256": "55fc067f49ead4ee6e336d3cebdfd13bb036c0ecd57ba4146ce89ebac59fb563",
+      "target": "符咒的组合顺序不同，得到的符咒也可能$n不同。例如，$n<天·天空之云>与<天·意气风发>组合后，会得到<天·破碎的岩石>，但$n交换顺序，将<天·意气风发>与$n<天·天空之云>组合后，会得到$n<天·崩塌的山>。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016902.pod/field/19",
+      "source_sha256": "55fc067f49ead4ee6e336d3cebdfd13bb036c0ecd57ba4146ce89ebac59fb563",
+      "target": "符咒的组合顺序不同，得到的符咒也可能$n不同。例如，$n<天·天空之云>与<天·意气风发>组合后，会得到<天·破碎的岩石>，但$n交换顺序，将<天·意气风发>与$n<天·天空之云>组合后，会得到$n<天·崩塌的山>。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016905.pod/field/0",
+      "source_sha256": "d5ff75622fbf3578773a7b452b28449ee4eb4835cc5c667f662807d508bd2f1b",
+      "target": "如果不知道该组合哪些符咒，$n我推荐以下组合。$n<山·暗黑天空>与$n<风·风之低语>组合后，会得到$n<风·伤口愈合>。$n<风·伤口愈合>可以恢复体力，$n因此十分实用。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016905.pod/field/19",
+      "source_sha256": "d5ff75622fbf3578773a7b452b28449ee4eb4835cc5c667f662807d508bd2f1b",
+      "target": "如果不知道该组合哪些符咒，$n我推荐以下组合。$n<山·暗黑天空>与$n<风·风之低语>组合后，会得到$n<风·伤口愈合>。$n<风·伤口愈合>可以恢复体力，$n因此十分实用。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016906.pod/field/0",
+      "source_sha256": "279945467a3f2ae124c3f0c21b42ef8b7faa3d63b1ad205d82f7c7df5c8d808e",
+      "target": "<江·江河泛滥>与<天·崩塌的山>组合后，会得到<水·如同新芽>。如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016906.pod/field/19",
+      "source_sha256": "279945467a3f2ae124c3f0c21b42ef8b7faa3d63b1ad205d82f7c7df5c8d808e",
+      "target": "<江·江河泛滥>与<天·崩塌的山>组合后，会得到<水·如同新芽>。如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016907.pod/field/0",
+      "source_sha256": "62780425c5e45d737a6d515d7becb565e2d5f60b47c6a5c44b271b681f71d173",
+      "target": "<天·破碎的岩石>与<天·破碎的岩石>组合后，会得到<天·心情高涨>。如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016907.pod/field/19",
+      "source_sha256": "62780425c5e45d737a6d515d7becb565e2d5f60b47c6a5c44b271b681f71d173",
+      "target": "<天·破碎的岩石>与<天·破碎的岩石>组合后，会得到<天·心情高涨>。如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016908.pod/field/0",
+      "source_sha256": "3f5e34f3cd30635a0161d6badb3f8b3fc22cdd2da8da41d69507b10a1bc13e7b",
+      "target": "<天·心情高涨>与<天·重获行动>组合后，会得到<风·大逃脱>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016908.pod/field/19",
+      "source_sha256": "3f5e34f3cd30635a0161d6badb3f8b3fc22cdd2da8da41d69507b10a1bc13e7b",
+      "target": "<天·心情高涨>与<天·重获行动>组合后，会得到<风·大逃脱>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016909.pod/field/0",
+      "source_sha256": "eca0b94e5740e2fcef59acd4ff509052d6b8d8b74668017edecd2246c24dd849",
+      "target": "<江·愤怒之拳>与<水·剥落的铠甲>组合后，会得到<水·一人为众人>。如果持有这些符咒，建议$n试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016909.pod/field/19",
+      "source_sha256": "7582de390d1c8b0e9422092510dcac55b28e9d999b113f444e72048e0913873c",
+      "target": "<火·心脏的跳动>与<雷·雷鸣>组合后，会得到<雷·充盈的心>。如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016910.pod/field/0",
+      "source_sha256": "b2431d784f43298aedcddd43acac4d1b934cdb6f6818e123430e3cb77355305f",
+      "target": "<风·伤口愈合>与<火·火之激情>组合后，$n会得到<火·痛苦终结>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016910.pod/field/19",
+      "source_sha256": "065d4bf20ab939be91a91b0a75f556ddb72ab038a4a9a991aae905163e268b74",
+      "target": "<雷·充盈的心>与$n<雷·失落的时间>组合后，会得到$n<火·如我所愿>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016911.pod/field/0",
+      "source_sha256": "00a63876ea68fbd499bf4bbd4a26528499989baa3c0975685fd8ec2c8f47f96d",
+      "target": "<山·终极孤独>与<山·终极孤独>组合后，会得到<山·悲伤连锁>$n这种符咒。如果持有这些符咒，$n建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016911.pod/field/19",
+      "source_sha256": "0ff021e2fe60e8d363417617980b79057cffc4784d5ce673c5731f4baaf0c338",
+      "target": "<火·如我所愿>与$n<火·火之激情>组合后，会得到$n<雷·守护众人的力量>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016912.pod/field/0",
+      "source_sha256": "ada3523f4349a5ddbe49e98222729e7d95a08adfe29eb3e03a8d021dbf6816f7",
+      "target": "<火·心脏的跳动>与<雷·雷鸣>组合后，会得到<雷·充盈的心>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016912.pod/field/19",
+      "source_sha256": "462080667a191042d1d087316b051c3f0ebd2451fdf2afa34553aa9cef83183b",
+      "target": "<天·崩塌的山>与$n<火·如我所愿>组合后，会得到$n<江·坚定信任>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016913.pod/field/0",
+      "source_sha256": "2db091906f752a5bc4832111a003b6df48bcb5ba24fc2199cf2d35bccaa183c9",
+      "target": "<水·水之流动>与<天·天空之云>组合后，$n会得到<风·风之疾驰>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016913.pod/field/19",
+      "source_sha256": "bbe7a6af22a48e1aaecc7758d126aa72d2457e1f88fe2164430c3aa864092b0c",
+      "target": "<地·石像之眼>与<江·坚定信任>组合后，会得到<山·禁止接触>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016914.pod/field/0",
+      "source_sha256": "bd6c29ff36a3269b4a49d4397562bec2dd8133f73caf8cad1906231ee440c408",
+      "target": "<江·江河泛滥>与<水·中和的毒>组合后，会得到<风·受缚的自由>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016914.pod/field/19",
+      "source_sha256": "53ae3fdfcb564538bb3c29add627533015fa8fea6da81734ad88f69e90a5ba02",
+      "target": "<江·坚定信任>与<水·水之流动>组合后，会得到<风·寂静世界>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016915.pod/field/0",
+      "source_sha256": "a296a269f52f5de2ece4f0ce9186bfdca1e25bd4c3e35526df096e86d98ea39a",
+      "target": "<地·精神统一>与<水·中和的毒>组合后，$n会得到<水·如同新芽>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016915.pod/field/19",
+      "source_sha256": "08fc159acfbdf86ac6a068b7b19ac1360b23fd3158c59dad5b1c9210bd66c66e",
+      "target": "<风·寂静世界>与<天·天空之云>组合后，会得到<江·愤怒之拳>$n这种符咒。如果持有这些符咒，建议$n试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016916.pod/field/0",
+      "source_sha256": "42a5cdcf1b0d54491148bd2849e611f7f9d7bf162938fb226a46303352a72408",
+      "target": "<山·暗黑天空>与<山·山之回响>组合后，会得到<地·无法遵从的命令>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016916.pod/field/19",
+      "source_sha256": "0519b132c6c5019c9735e464cd976243563a3925f8b69d602c0e57edbfc0602c",
+      "target": "<水·中和的毒>与<天·天空之云>组合后，$n会得到<风·风之疾驰>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016917.pod/field/0",
+      "source_sha256": "927c55e3676aa95c7d2a027c9e65fff47303f64a4d5ef67745d8e58f9fe0db89",
+      "target": "<天·破碎的岩石>与<天·崩塌的山>组合后，会得到<天·自己的外壳>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016917.pod/field/19",
+      "source_sha256": "50eeeba674acdf5f8b38da48f7d64eeaf9be93cc66a39ae28d3c52839b728a10",
+      "target": "<山·山之回响>与<山·禁止接触>组合后，会得到<地·小小幸福>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016918.pod/field/0",
+      "source_sha256": "4e433c77d4021e16c5dacd962d3127ac09f59a5ba6cf535ee6f9d611544a0aad",
+      "target": "<天·天空之云>与<江·熄灭的火>组合后，会得到<水·剥落的铠甲>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016918.pod/field/19",
+      "source_sha256": "4e433c77d4021e16c5dacd962d3127ac09f59a5ba6cf535ee6f9d611544a0aad",
+      "target": "<天·天空之云>与<江·熄灭的火>组合后，会得到<水·剥落的铠甲>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016919.pod/field/0",
+      "source_sha256": "31e6b45db4cf20a373ef3ff999e60394f3110920944c4b0629830b5a178ba172",
+      "target": "<山·颠倒的世界>与<江·小心使用>组合后，$n会得到<火·灵魂分离>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016919.pod/field/19",
+      "source_sha256": "31e6b45db4cf20a373ef3ff999e60394f3110920944c4b0629830b5a178ba172",
+      "target": "<山·颠倒的世界>与<江·小心使用>组合后，$n会得到<火·灵魂分离>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016920.pod/field/0",
+      "source_sha256": "fc81b2b6d43c737ecb1af5b36305e045d12e6b047cb25bb01fb0b94baab0c54e",
+      "target": "<天·自己的外壳>与<江·熄灭的火>组合后，会得到<江·必然结果>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016920.pod/field/19",
+      "source_sha256": "fc81b2b6d43c737ecb1af5b36305e045d12e6b047cb25bb01fb0b94baab0c54e",
+      "target": "<天·自己的外壳>与<江·熄灭的火>组合后，会得到<江·必然结果>$n这种符咒。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016921.pod/field/0",
+      "source_sha256": "30e3ad13a61e330389cd49314865782e0a11c98ed54f709e8d5e4efe79a2922f",
+      "target": "<山·山之回响>与<水·如同新芽>组合后，会得到<风·天使之声>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016921.pod/field/19",
+      "source_sha256": "30e3ad13a61e330389cd49314865782e0a11c98ed54f709e8d5e4efe79a2922f",
+      "target": "<山·山之回响>与<水·如同新芽>组合后，会得到<风·天使之声>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016922.pod/field/0",
+      "source_sha256": "6d6df4593ce67909363d7982cd2fbcbc93842128617d7c6356c98b3fef392240",
+      "target": "<山·禁止接触>与<江·江河泛滥>组合后，$n会得到<地·消逝的风>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016922.pod/field/19",
+      "source_sha256": "6d6df4593ce67909363d7982cd2fbcbc93842128617d7c6356c98b3fef392240",
+      "target": "<山·禁止接触>与<江·江河泛滥>组合后，$n会得到<地·消逝的风>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016923.pod/field/0",
+      "source_sha256": "b56e03804933ff77f840283c30187617f114efe50e189146dbc9360b021b02ae",
+      "target": "<天·天空之云>与<江·坚定信任>组合后，$n会得到<江·祝福之声>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016923.pod/field/19",
+      "source_sha256": "b56e03804933ff77f840283c30187617f114efe50e189146dbc9360b021b02ae",
+      "target": "<天·天空之云>与<江·坚定信任>组合后，$n会得到<江·祝福之声>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016924.pod/field/0",
+      "source_sha256": "fbc0dda9b2cb90d7208c589952ed28d98e73a16401622f84f90991a55ec95ff6",
+      "target": "<山·终极孤独>与$n<山·颠倒的世界>组合后，会得到$n<地·跟我来！>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016924.pod/field/19",
+      "source_sha256": "fbc0dda9b2cb90d7208c589952ed28d98e73a16401622f84f90991a55ec95ff6",
+      "target": "<山·终极孤独>与$n<山·颠倒的世界>组合后，会得到$n<地·跟我来！>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016925.pod/field/0",
+      "source_sha256": "67e1445ca80200af300a2299f73876994b6eeb01c09a13ec3bc297b17b491b24",
+      "target": "<山·救援船>与<山·麻痹的身体>组合后，$n会得到<地·小小幸福>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016925.pod/field/19",
+      "source_sha256": "773c95ae5b09200c1b1505ff03ae6c38b67f1ae7cfbecc96d91c7e5b0bcb85ee",
+      "target": "<火·充盈世界>与$n<地·无法遵从的命令>组合后，会得到$n<江·万物归初>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016926.pod/field/0",
+      "source_sha256": "d8314cc5d0d3473afab7b1980bffe31b5fa9ea25a15c8ca5b4f3c84eccb428ee",
+      "target": "<火·如同疾风>与<风·伤口愈合>组合后，$n会得到<风·无人之地>$n这种符咒。如果持有这些符咒，建议$n试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016926.pod/field/19",
+      "source_sha256": "d11ad97552c076640d4bd4a66f9992dd63c2fc4c23ea1d90485c13b6d4f57623",
+      "target": "<风·伤口愈合>与<火·如同疾风>组合后，$n会得到<火·回归最初>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016927.pod/field/0",
+      "source_sha256": "5f26eb90b53e42d228673d4cd8be0de61520d44b3fd93d2f8bbe7c992e7f8968",
+      "target": "<火·如我所愿>与$n<地·大地回响>组合后，会得到$n<火·充盈世界>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016927.pod/field/19",
+      "source_sha256": "5f26eb90b53e42d228673d4cd8be0de61520d44b3fd93d2f8bbe7c992e7f8968",
+      "target": "<火·如我所愿>与$n<地·大地回响>组合后，会得到$n<火·充盈世界>。$n如果持有这些符咒，建议试一试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00016962.fpb/seq/3",
+      "source_sha256": "fde8d300d033c84f818ff246c9052ce25ff1a1de8baa8855e2ddcfbface4eece",
+      "target": "全品类商品优惠10%。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/398/field/1",
+      "source_sha256": "f96493d081a813f232e3b36cfad1cbc6a358047382b58dc18fdbb7fd81858d00",
+      "target": "使三位一体驱动提升20%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/399/field/1",
+      "source_sha256": "10f1b968fa6c8060ee5e573ae2232c25bee4e53b2f58f016d58096b3383ff2e0",
+      "target": "使三位一体驱动提升30%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/400/field/1",
+      "source_sha256": "303082c375f16377fe1c68faf7671dd6b8cd4f517c930a9319f890a34d69256c",
+      "target": "使三位一体驱动提升40%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/401/field/1",
+      "source_sha256": "48f83c5da531974a2e0d68fe2b867f103f79318cb03939f46ffc099c3688ce19",
+      "target": "使三位一体驱动提升50%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/402/field/1",
+      "source_sha256": "90c833db478bb801527ae3c6ce6b9109731a2b9014a4e00f09fa0ae63f18f6e0",
+      "target": "使三位一体驱动提升60%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    },
+    {
+      "id": "SHIP/00000953.itm/record-index/403/field/1",
+      "source_sha256": "34ae377ca57e177ed7b839f094483405e69f145de1fba0396d261a7847cb765c",
+      "target": "使三位一体驱动提升70%",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed literal structures and numeric values/order retained; bracket names canonical. Native text span bound independently; explicit field policy, default grammar unchanged. Runtime event/renderer layout not claimed."
+    }
+  ]
+}

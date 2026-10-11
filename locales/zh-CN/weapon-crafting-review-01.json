@@ -1,0 +1,323 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "weapon-crafting-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00002106.odd/record-index/0/field/0",
+      "source_sha256": "45cd69f1f8af5da7c2eaa32f9d85f1ba42f123bb8827f6a3822a37dfb57642d7",
+      "target": "杰古拉$n巴斯皮",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/0/field/1",
+      "source_sha256": "47523bd47306a6ac564024586309ece4e3f2d6a139f9ab54e281530e3d983947",
+      "target": "比亚特里诺是把好剑，$n但我不建议你打造。$n材料来自雷斯蒂森林的怪物，$n它们非常凶暴。$n如果珍惜性命，就再考虑一下吧。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/0/field/2",
+      "source_sha256": "a61abe3f21f05973d87195f031d30f63d4db88637c7e71851e27d5ebec5c9d41",
+      "target": "材料应该能从$n雷斯蒂森林等地的怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/1/field/0",
+      "source_sha256": "2234193263c8e50942c2a14fea3dfe488a0d7186ca642b8c9d21faa58f23b622",
+      "target": "达卡姆兹$n邪恶野兔$n飞蜥",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/1/field/1",
+      "source_sha256": "71f1cb771fa48626ee0a4f827ecc135bb064505412d5a0e4abbf34eecbc13fad",
+      "target": "乱世大剑坚固无比，足以闯过乱世。$n所以每种材料也都十分坚硬。$n想取得材料，就得去阿玛巴德大道、$n拉埃杜山、浮游岛等地，$n与那里的怪物战斗。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/1/field/2",
+      "source_sha256": "1b6ee544513bcbb1a563b73a08a56d9260f9a129613685cfbfe503fd665e4a10",
+      "target": "与浮游岛、拉埃杜山、$n阿玛巴德大道等地的怪物战斗，就能取得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/2/field/0",
+      "source_sha256": "cbe40a526502e43b7af8d0e4e60c526735cbb4c7e24225f7acc0337a67bd9c15",
+      "target": "真·猫爪怪$n猫爪怪$n尤拉坤",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/2/field/1",
+      "source_sha256": "93e8a295b4dfb39b438f1bc2afc48d0c11c3013adaf0aa1ff96710046b24b63f",
+      "target": "荣耀法杖是能带来荣耀的著名魔法武器。$n材料可从浮游岛、北冰原和山之遗迹等地的怪物身上获得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/2/field/2",
+      "source_sha256": "09c9059004421fe7299fea2584ef8f91e99aa9cc17913bf798fbab68d30e4dfd",
+      "target": "材料可从浮游岛、北冰原和山之遗迹等地的怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/3/field/0",
+      "source_sha256": "1027f40575e88eb2fc080a8b1f5975618f126699c3d013d0f55208ef835d5421",
+      "target": "骸骨鱼$n温蒂妮",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/3/field/1",
+      "source_sha256": "164ab1c057bbb4091ae53989d9da137135cddd7e605f0d91a9dea3124e830744",
+      "target": "据说持有风云剑的人能像风与云一样自由。$n但我从没亲眼见过。$n毕竟材料很难收集。$n如果你仍想尝试，就去阿姆隆德森林、雷斯蒂峡谷或奥尔本森林看看吧。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/3/field/2",
+      "source_sha256": "f81fab371d49655273fd1d587b56af6b8aaa191b6fdd7d0d29bf0aca84dccef1",
+      "target": "怎么样？$n要去阿姆隆德森林、雷斯蒂峡谷$n和奥尔本森林看看吗？",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/4/field/0",
+      "source_sha256": "b632f45eba4daf7cfa1a04703f351f86ac77174b1df8e43782372fbe0034dd9b",
+      "target": "暗黑杰古拉$n巫师",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/4/field/1",
+      "source_sha256": "0ccc046ee139c82d025b7c79c0846c857a09b3b6f68ea24dd1fee56e1e1d1478",
+      "target": "圣者法杖才是真正为魔法而生的工具。$n去兰卡山脉或阿玛巴德大神殿地下等地看看吧。$n只要战胜那里的怪物，$n这件武器就是你的了。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/4/field/2",
+      "source_sha256": "07a87d17f530e00e61beacc02b71bedd334e2b185a4ccdde3ea2ee481f938734",
+      "target": "去兰卡山脉、$n阿玛巴德大神殿地下等地看看吧",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/5/field/0",
+      "source_sha256": "ea6198db6081a133e403abd4a238aab0a312d7fb0c6072d33acb20cb7b3ea54c",
+      "target": "飞蜥$n暗黑杰古拉$n翁戈利安特",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/5/field/1",
+      "source_sha256": "f64fd30c110b59bf8c2206c4a2d9990ef10f47cf9b2c121148efc4c784f5f5dd",
+      "target": "相传恶魔护拳是恶魔使用过的武器。$n材料可以去阿玛巴德大道、兰卡山脉、$n米雷娜大道等地收集。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/5/field/2",
+      "source_sha256": "4ece1618af292cf996f716471fc626d48787098f87720dd39b88daa3b35bff74",
+      "target": "可以去阿玛巴德大道、兰卡山脉、米雷娜大道$n等地收集材料",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/6/field/0",
+      "source_sha256": "1e251cd9487c8bc59ec26c0879ffc3de236f3194d9ebb91184a9f472a94c42e1",
+      "target": "卡雷贝$n火山人$n布修",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/6/field/1",
+      "source_sha256": "8904edd3ec47e02ae02ee07905a2892c5b0da6403c5e4cfe60f00af2b248d106",
+      "target": "它由进化猎人弓改造而来，威力更强。$n仔细看看里德森林、天之遗迹等地的怪物吧。$n弓是很少见的武器，$n我真心建议你把它拿到手。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/6/field/2",
+      "source_sha256": "5e4cb3e4607c6abc7bbaa6a4c2e3c41205a33564f0083834c8016606bb3c08e6",
+      "target": "材料可从里德森林、天之遗迹等地的$n怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/7/field/0",
+      "source_sha256": "2072e2ce58af23adbc4229a058d636903cdabd4d21862add2a5647350f8aec3b",
+      "target": "木魔像$n强化霜龙",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/7/field/1",
+      "source_sha256": "4b81207b36cb9305213e23954ddb90467fd36290858bb68ff7580d93388f5db9",
+      "target": "究极魔杖的破坏力十分惊人，我甚至不愿打造。$n不过，只要你能用在正途上，倒也无妨。$n材料在格雷顿山脉、阿塞拉森林、$n埃彭塔德等地找到的可能性很高。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/7/field/2",
+      "source_sha256": "2ca3e5869ab0cc09d8a579829285fad2ad256affad38795bdda554fe2163c39e",
+      "target": "在格雷顿山脉、阿塞拉森林、埃彭塔德$n等地找到材料的可能性很高",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/8/field/0",
+      "source_sha256": "7d05a33e0773c47b94de90d910f688d8c6260f74ff6fa965381586a666df51d2",
+      "target": "半人马$n红色巴斯皮$n绿色骸骨鱼",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/8/field/1",
+      "source_sha256": "18e2a2da1a7eba4402b8650f98edac7b3f5fcb04d400960b0098eba2fc6409cf",
+      "target": "天雷剑的破坏力如天上的雷电般强大。$n如果你想要这把剑，$n就去恩特雷斯沙漠、阿斯蒂内沼泽的怪物身上取得材料吧。$n当然，这可不是件容易的事。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/8/field/2",
+      "source_sha256": "da01f14aacdd3e03742ef742b9fc75366f6118beb37b1eead60b3ebf1369d8af",
+      "target": "材料可从恩特雷斯沙漠、阿斯蒂内沼泽的$n怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/9/field/0",
+      "source_sha256": "f5f7ab30258705806a545a6a742a3563918a082298e81e5170b0a06353479674",
+      "target": "螳螂剪怪$n红魔导士$n鸦兽",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/9/field/1",
+      "source_sha256": "00ffb2368234b91ef8e17e389b1b190de98cab088525f77fb1a854cf77a89ff2",
+      "target": "绝望魔杖威力强大，能令对手陷入绝望。$n材料可从普诺森图书馆迷宫、$n普诺森图书馆、多伦遗迹等地的$n怪物身上获得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/9/field/2",
+      "source_sha256": "e9035abf745fab9deabff70deeca6cb2a8c60ea0dd2a319518c87bd8d89ef123",
+      "target": "材料可从普诺森图书馆迷宫、普诺森图书馆、$n多伦遗迹等地的$n怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/10/field/0",
+      "source_sha256": "dc433d26a9ea30ad22f93a8970a68e6614b539e36ce97cf4fb23515f85c72e99",
+      "target": "黄色骸骨鱼$n恶魔野兔$n木魔像",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/10/field/1",
+      "source_sha256": "d33f499685f51ee8b96cd1d9f4c8810ca290ac826bb2f28ab859db09cbe0747f",
+      "target": "华丽法衣是一件物理与魔法防御力都很出色的防具。$n材料可从雷之遗迹、拉埃杜山、$n佩尔布伦平原、兰卡山脉、格雷顿山脉$n等地的怪物身上获得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/10/field/2",
+      "source_sha256": "1d95e9bffa1cd528c3ce18c864414f59d90157dfdbf2aeb4c00c20c5f2dd5db3",
+      "target": "材料可从雷之遗迹、拉埃杜山、佩尔布伦平原、$n兰卡山脉、格雷顿山脉等地的$n怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/11/field/0",
+      "source_sha256": "f8da35b39f6d87197e6d2ec1b635e2e1d0f9e380c4f5e2d8f95b10c27337f70a",
+      "target": "达卡姆兹$n弗雷昂$n拉泰尔",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/11/field/1",
+      "source_sha256": "3eb9b3b76a7cb0a719f46d765819d182ea26e1342f643c6a1ccaa021b663fd75",
+      "target": "希尔芙的庇护是一件性能出色的铠甲。$n身为战士，一定要试着穿上这件防具。$n材料可从浮游岛、火山地带、$n雷之遗迹等地的怪物身上获得。$n祝你好运。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/11/field/2",
+      "source_sha256": "1ae0c146c051d373c5f9a349b186a95046fc105dd088d35cb45e9d39ea3d1e5a",
+      "target": "可以去浮游岛、火山地带、雷之遗迹等地$n收集材料",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/12/field/0",
+      "source_sha256": "89d44aeca847501bc920a10be2019e9b456437065eb38c5d1cf009e50079332e",
+      "target": "强化霜龙$n火山人",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/12/field/1",
+      "source_sha256": "ab9ef4923c82ca1cf43ddadfd1e1b789f51fc0121d6d1a73a22359c87f89b90c",
+      "target": "像巴拉萨达这样出色的剑可不多见。$n材料可以去埃彭塔德、山之遗迹等地收集。$n它威力强大，今后一定能帮上你大忙。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/12/field/2",
+      "source_sha256": "888003b988b37a6cc13ba37f931f3c67404d771e5ea1adc6146da15d8c024acc",
+      "target": "可以去埃彭塔德、山之遗迹等地$n寻找材料",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/13/field/0",
+      "source_sha256": "d99b9ea81f8e480127a6a5217c084fb7ec35848dab9fafd74c1a01c013d0a4e7",
+      "target": "食尸鬼$n布修",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/13/field/1",
+      "source_sha256": "666e2fc293ad07b0c4ecf64948f9fc15525a5c3257264ddab5151917f637b259",
+      "target": "大巫女法衣是为高贵灵魂打造的顶级防具。$n材料可从埃彭塔德地下通道、阿塞拉森林、天之遗迹等地的怪物身上获得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/13/field/2",
+      "source_sha256": "6189c9fc89cdcaad84790e3104968d1c0fa9e3b00128b5d849cc26d21f0aba73",
+      "target": "材料可从埃彭塔德地下通道、阿塞拉森林、天之遗迹$n等地的怪物身上获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/14/field/0",
+      "source_sha256": "145e87a25587b3df85429eaf9e62f154ec8f2b88f25c4ef1eabf015c032ec518",
+      "target": "木魔像$n强化螳螂剪怪$n绿色骸骨鱼",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/14/field/1",
+      "source_sha256": "76073dc9b12ca614306fbfbbea7f1a48a09e0b1eff1c86beb3cab4c494f5c01e",
+      "target": "无极斩魂剑威力极强，甚至能斩断灵魂。$n有了它，几乎就没什么可怕的了。$n材料可以去格雷顿山脉、阿塞拉森林、$n浮游岛、阿斯蒂内沼泽等地，$n从那里的怪物身上获得。",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    },
+    {
+      "id": "SHIP/00002106.odd/record-index/14/field/2",
+      "source_sha256": "c614739dd09dbcaf20d21969e1e80372c2c007d04d81c34ee4a3f2c5b06ba1c4",
+      "target": "材料可从格雷顿山脉、阿塞拉森林、浮游岛、$n阿斯蒂内沼泽等地生活的怪物身上$n获得",
+      "status": "reviewed",
+      "context": "ODD weapon synthesis monster list/description/location guidance; 15 three-field records manually reviewed, exact material locations retained. Original $n order/count retained; opaque metadata unchanged. Last five developer-like labels are not included or silently excluded."
+    }
+  ]
+}

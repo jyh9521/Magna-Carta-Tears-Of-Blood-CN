@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000682.tui/record/17/field/0/index/16",
+      "source_sha256": "e67b5b3e08eb73697e6bca36d06a6bdf9afa0aea14590af42b2e47ab407d9516",
+      "target": "鉴定结果为风之符咒。装备为副武器时，攻击+1\t防御+3。　",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Original TAB byte09 preserved; numeric values stay on original side of TAB.256byte TUI main native storage and actual numeric lookup bound. Runtime layout not claimed."
+    },
+    {
+      "id": "SHIP/00001240.tui/record/192/field/0/index/9",
+      "source_sha256": "4d53534f3447c630036046bcf6c73483576574bf27c70a20284dd0b4070cc66a",
+      "target": "按名称\t",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Original TAB byte09 preserved; numeric values stay on original side of TAB.256byte TUI main native storage and actual numeric lookup bound. Runtime layout not claimed."
+    }
+  ]
+}

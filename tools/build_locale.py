@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import shutil
 import sys
+import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "tools"), str(ROOT / "src"), str(ROOT / "lib")]
@@ -52,6 +53,12 @@ def load_config(path: Path) -> tuple[dict, dict, MappedEncoder]:
     return locale, game, encoder
 
 
+def validate_glyph_raster(char, image):
+    # Unicode space separators legitimately carry advance without visible ink.
+    # Missing/empty ordinary glyphs must still fail rather than disappear.
+    core.require(image.getbbox() is not None or unicodedata.category(char) == 'Zs', 'empty glyph raster')
+
+
 def patch_font(serial: bytes, encoder: MappedEncoder, font_path: Path, reference: str, advance: int, raster_size: int | None = None) -> bytes:
     from PIL import Image, ImageDraw, ImageFont
     info = font_data(serial)
@@ -77,7 +84,7 @@ def patch_font(serial: bytes, encoder: MappedEncoder, font_path: Path, reference
                      "glyph would clip at common baseline")
         image = Image.new("L", (info["width"], info["height"]))
         ImageDraw.Draw(image).text(origin, char, font=font, fill=255)
-        core.require(image.getbbox() is not None, "empty glyph raster")
+        validate_glyph_raster(char, image)
         packed = bytearray(info["height"] * info["row_stride"])
         for y in range(image.height):
             for x in range(image.width):

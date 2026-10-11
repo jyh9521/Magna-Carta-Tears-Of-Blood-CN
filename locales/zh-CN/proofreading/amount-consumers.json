@@ -1,0 +1,3072 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "bindings": [
+    {
+      "id": "SHIP/00000682.tui/record/14/field/0/index/7",
+      "source_sha256": "e52c337588080d47d40fd84f162d030fb2b73a3cb0c19eec867039f86253b959",
+      "source_resource_sha256": "2b3d6613e01e1d62f750ef1261f8223e7bb804b39225951af4381c69aaf1e0a5",
+      "record_key": 14,
+      "physical_index": 7,
+      "target": "希德币。是否占卜？",
+      "kind": "amount-prefix",
+      "character_boundary": null,
+      "byte_boundary": null,
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/6717",
+          "serial_sha256": "ebd14c5125f16c9a358ac02bc1f95a99ca7291094d1b092ee95aebdfdcda462f",
+          "tokens": [
+            {
+              "offset": 3938,
+              "virtual_offset": 5443,
+              "opcode": 72,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "MessageBox"
+            },
+            {
+              "offset": 3943,
+              "virtual_offset": 5451,
+              "opcode": 27,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 24,
+              "symbols": [
+                "SetMessage"
+              ]
+            },
+            {
+              "offset": 3945,
+              "virtual_offset": 5456,
+              "opcode": 112,
+              "depth": 2,
+              "parent_opcode": 27,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 3946,
+              "virtual_offset": 5457,
+              "opcode": 57,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 3947,
+              "virtual_offset": 5458,
+              "opcode": 83,
+              "depth": 4,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 3948,
+              "virtual_offset": 5459,
+              "opcode": 144,
+              "depth": 5,
+              "parent_opcode": 83,
+              "reference_kind": "native-index",
+              "reference_value": 144,
+              "symbols": [
+                "Multiply_IntInt"
+              ]
+            },
+            {
+              "offset": 3949,
+              "virtual_offset": 5460,
+              "opcode": 54,
+              "depth": 6,
+              "parent_opcode": 144,
+              "field": "Value"
+            },
+            {
+              "offset": 3952,
+              "virtual_offset": 5465,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 3953,
+              "virtual_offset": 5466,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 3954,
+              "virtual_offset": 5467,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "GameMagi"
+            },
+            {
+              "offset": 3960,
+              "virtual_offset": 5475,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 3965,
+              "virtual_offset": 5483,
+              "opcode": 28,
+              "depth": 8,
+              "parent_opcode": 25,
+              "reference_kind": "object",
+              "reference_value": -189,
+              "symbols": [
+                "GetValueData"
+              ]
+            },
+            {
+              "offset": 3968,
+              "virtual_offset": 5488,
+              "opcode": 25,
+              "depth": 9,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 3969,
+              "virtual_offset": 5489,
+              "opcode": 25,
+              "depth": 10,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 3970,
+              "virtual_offset": 5490,
+              "opcode": 72,
+              "depth": 11,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 3976,
+              "virtual_offset": 5498,
+              "opcode": 72,
+              "depth": 11,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 3982,
+              "virtual_offset": 5506,
+              "opcode": 44,
+              "depth": 10,
+              "parent_opcode": 25,
+              "int": 80
+            },
+            {
+              "offset": 3984,
+              "virtual_offset": 5508,
+              "opcode": 22,
+              "depth": 9,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 3985,
+              "virtual_offset": 5509,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 144
+            },
+            {
+              "offset": 3986,
+              "virtual_offset": 5510,
+              "opcode": 46,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 3988,
+              "virtual_offset": 5515,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 46,
+              "field": "SelectedItem"
+            },
+            {
+              "offset": 3993,
+              "virtual_offset": 5523,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "nLevel"
+            },
+            {
+              "offset": 3996,
+              "virtual_offset": 5528,
+              "opcode": 22,
+              "depth": 6,
+              "parent_opcode": 144
+            },
+            {
+              "offset": 3997,
+              "virtual_offset": 5529,
+              "opcode": 25,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 3998,
+              "virtual_offset": 5530,
+              "opcode": 25,
+              "depth": 4,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 3999,
+              "virtual_offset": 5531,
+              "opcode": 72,
+              "depth": 5,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4005,
+              "virtual_offset": 5539,
+              "opcode": 72,
+              "depth": 5,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4011,
+              "virtual_offset": 5547,
+              "opcode": 27,
+              "depth": 4,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 41,
+              "symbols": [
+                "GetDVMainText"
+              ]
+            },
+            {
+              "offset": 4013,
+              "virtual_offset": 5552,
+              "opcode": 25,
+              "depth": 5,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4014,
+              "virtual_offset": 5553,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4015,
+              "virtual_offset": 5554,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4021,
+              "virtual_offset": 5562,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4027,
+              "virtual_offset": 5570,
+              "opcode": 44,
+              "depth": 6,
+              "parent_opcode": 25,
+              "int": 14
+            },
+            {
+              "offset": 4029,
+              "virtual_offset": 5572,
+              "opcode": 22,
+              "depth": 5,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4030,
+              "virtual_offset": 5573,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 4031,
+              "virtual_offset": 5574,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            }
+          ]
+        }
+      ],
+      "key_getter": {
+        "id": "FILE/MrtsEngine.u/export/6781",
+        "function": "GetDVMainText",
+        "serial_sha256": "6afafa3b06cb965b5487b0022a96118d83d84406128a6814e029ffa965fc448a",
+        "tokens": [
+          {
+            "offset": 25,
+            "virtual_offset": 0,
+            "opcode": 15,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 26,
+            "virtual_offset": 1,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 15,
+            "field": "i"
+          },
+          {
+            "offset": 29,
+            "virtual_offset": 6,
+            "opcode": 37,
+            "depth": 1,
+            "parent_opcode": 15,
+            "int": 0
+          },
+          {
+            "offset": 30,
+            "virtual_offset": 7,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 33,
+            "virtual_offset": 10,
+            "opcode": 150,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 150,
+            "symbols": [
+              "Less_IntInt"
+            ]
+          },
+          {
+            "offset": 34,
+            "virtual_offset": 11,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 150,
+            "field": "i"
+          },
+          {
+            "offset": 37,
+            "virtual_offset": 16,
+            "opcode": 55,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 38,
+            "virtual_offset": 17,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 55
+          },
+          {
+            "offset": 39,
+            "virtual_offset": 18,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 44,
+            "virtual_offset": 26,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 47,
+            "virtual_offset": 31,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 48,
+            "virtual_offset": 32,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 51,
+            "virtual_offset": 35,
+            "opcode": 154,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 154,
+            "symbols": [
+              "EqualEqual_IntInt"
+            ]
+          },
+          {
+            "offset": 52,
+            "virtual_offset": 36,
+            "opcode": 54,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "Key"
+          },
+          {
+            "offset": 55,
+            "virtual_offset": 41,
+            "opcode": 16,
+            "depth": 3,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 56,
+            "virtual_offset": 42,
+            "opcode": 71,
+            "depth": 4,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 59,
+            "virtual_offset": 47,
+            "opcode": 25,
+            "depth": 4,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 60,
+            "virtual_offset": 48,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 65,
+            "virtual_offset": 56,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 68,
+            "virtual_offset": 61,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "ID"
+          },
+          {
+            "offset": 71,
+            "virtual_offset": 66,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 154
+          },
+          {
+            "offset": 72,
+            "virtual_offset": 67,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 73,
+            "virtual_offset": 68,
+            "opcode": 54,
+            "depth": 1,
+            "parent_opcode": 4,
+            "field": "MainText"
+          },
+          {
+            "offset": 75,
+            "virtual_offset": 73,
+            "opcode": 16,
+            "depth": 2,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 76,
+            "virtual_offset": 74,
+            "opcode": 71,
+            "depth": 3,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 79,
+            "virtual_offset": 79,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 80,
+            "virtual_offset": 80,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 85,
+            "virtual_offset": 88,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 88,
+            "virtual_offset": 93,
+            "opcode": 163,
+            "depth": 0,
+            "parent_opcode": null,
+            "reference_kind": "native-index",
+            "reference_value": 163,
+            "symbols": [
+              "AddAdd_PreInt"
+            ]
+          },
+          {
+            "offset": 89,
+            "virtual_offset": 94,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 163,
+            "field": "i"
+          },
+          {
+            "offset": 92,
+            "virtual_offset": 99,
+            "opcode": 22,
+            "depth": 1,
+            "parent_opcode": 163
+          },
+          {
+            "offset": 93,
+            "virtual_offset": 100,
+            "opcode": 6,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 96,
+            "virtual_offset": 103,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 97,
+            "virtual_offset": 104,
+            "opcode": 31,
+            "depth": 1,
+            "parent_opcode": 4,
+            "literal": "None"
+          },
+          {
+            "offset": 103,
+            "virtual_offset": 110,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 104,
+            "virtual_offset": 111,
+            "opcode": 11,
+            "depth": 1,
+            "parent_opcode": 4
+          }
+        ],
+        "execution_verified": false,
+        "selected_fields": [
+          "DivinationTextList"
+        ]
+      },
+      "static_consumer_binding_verified": true,
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000682.tui/record/9/field/0/index/11",
+      "source_sha256": "6d4584969b1d6890015d4134d68529c031b1e1d5f962b5b24b9e096deb3b300d",
+      "source_resource_sha256": "2b3d6613e01e1d62f750ef1261f8223e7bb804b39225951af4381c69aaf1e0a5",
+      "record_key": 9,
+      "physical_index": 11,
+      "target": "消灾需花费 希德币。是否消灾？",
+      "kind": "fixed-slice-insert",
+      "character_boundary": 5,
+      "byte_boundary": 11,
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/6717",
+          "serial_sha256": "ebd14c5125f16c9a358ac02bc1f95a99ca7291094d1b092ee95aebdfdcda462f",
+          "tokens": [
+            {
+              "offset": 4167,
+              "virtual_offset": 5759,
+              "opcode": 72,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "MessageBox"
+            },
+            {
+              "offset": 4172,
+              "virtual_offset": 5767,
+              "opcode": 27,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 24,
+              "symbols": [
+                "SetMessage"
+              ]
+            },
+            {
+              "offset": 4174,
+              "virtual_offset": 5772,
+              "opcode": 112,
+              "depth": 2,
+              "parent_opcode": 27,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 4175,
+              "virtual_offset": 5773,
+              "opcode": 112,
+              "depth": 3,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 4176,
+              "virtual_offset": 5774,
+              "opcode": 112,
+              "depth": 4,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 4177,
+              "virtual_offset": 5775,
+              "opcode": 28,
+              "depth": 5,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -628,
+              "symbols": [
+                "LeftA"
+              ]
+            },
+            {
+              "offset": 4180,
+              "virtual_offset": 5780,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4181,
+              "virtual_offset": 5781,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4182,
+              "virtual_offset": 5782,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4188,
+              "virtual_offset": 5790,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4194,
+              "virtual_offset": 5798,
+              "opcode": 27,
+              "depth": 7,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 41,
+              "symbols": [
+                "GetDVMainText"
+              ]
+            },
+            {
+              "offset": 4196,
+              "virtual_offset": 5803,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4197,
+              "virtual_offset": 5804,
+              "opcode": 25,
+              "depth": 9,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4198,
+              "virtual_offset": 5805,
+              "opcode": 72,
+              "depth": 10,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4204,
+              "virtual_offset": 5813,
+              "opcode": 72,
+              "depth": 10,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4210,
+              "virtual_offset": 5821,
+              "opcode": 44,
+              "depth": 9,
+              "parent_opcode": 25,
+              "int": 9
+            },
+            {
+              "offset": 4212,
+              "virtual_offset": 5823,
+              "opcode": 22,
+              "depth": 8,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4213,
+              "virtual_offset": 5824,
+              "opcode": 44,
+              "depth": 6,
+              "parent_opcode": 28,
+              "int": 5
+            },
+            {
+              "offset": 4215,
+              "virtual_offset": 5826,
+              "opcode": 22,
+              "depth": 6,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4216,
+              "virtual_offset": 5827,
+              "opcode": 31,
+              "depth": 5,
+              "parent_opcode": 112,
+              "literal": " "
+            },
+            {
+              "offset": 4219,
+              "virtual_offset": 5830,
+              "opcode": 22,
+              "depth": 5,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 4220,
+              "virtual_offset": 5831,
+              "opcode": 57,
+              "depth": 4,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 4221,
+              "virtual_offset": 5832,
+              "opcode": 83,
+              "depth": 5,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 4222,
+              "virtual_offset": 5833,
+              "opcode": 144,
+              "depth": 6,
+              "parent_opcode": 83,
+              "reference_kind": "native-index",
+              "reference_value": 144,
+              "symbols": [
+                "Multiply_IntInt"
+              ]
+            },
+            {
+              "offset": 4223,
+              "virtual_offset": 5834,
+              "opcode": 54,
+              "depth": 7,
+              "parent_opcode": 144,
+              "field": "Value"
+            },
+            {
+              "offset": 4226,
+              "virtual_offset": 5839,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 4227,
+              "virtual_offset": 5840,
+              "opcode": 25,
+              "depth": 9,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4228,
+              "virtual_offset": 5841,
+              "opcode": 72,
+              "depth": 10,
+              "parent_opcode": 25,
+              "field": "GameMagi"
+            },
+            {
+              "offset": 4234,
+              "virtual_offset": 5849,
+              "opcode": 72,
+              "depth": 10,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 4239,
+              "virtual_offset": 5857,
+              "opcode": 28,
+              "depth": 9,
+              "parent_opcode": 25,
+              "reference_kind": "object",
+              "reference_value": -189,
+              "symbols": [
+                "GetValueData"
+              ]
+            },
+            {
+              "offset": 4242,
+              "virtual_offset": 5862,
+              "opcode": 25,
+              "depth": 10,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4243,
+              "virtual_offset": 5863,
+              "opcode": 25,
+              "depth": 11,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4244,
+              "virtual_offset": 5864,
+              "opcode": 72,
+              "depth": 12,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4250,
+              "virtual_offset": 5872,
+              "opcode": 72,
+              "depth": 12,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4256,
+              "virtual_offset": 5880,
+              "opcode": 44,
+              "depth": 11,
+              "parent_opcode": 25,
+              "int": 81
+            },
+            {
+              "offset": 4258,
+              "virtual_offset": 5882,
+              "opcode": 22,
+              "depth": 10,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4259,
+              "virtual_offset": 5883,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 144
+            },
+            {
+              "offset": 4260,
+              "virtual_offset": 5884,
+              "opcode": 46,
+              "depth": 8,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4262,
+              "virtual_offset": 5889,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 46,
+              "field": "SelectedItem"
+            },
+            {
+              "offset": 4267,
+              "virtual_offset": 5897,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "nLevel"
+            },
+            {
+              "offset": 4270,
+              "virtual_offset": 5902,
+              "opcode": 22,
+              "depth": 7,
+              "parent_opcode": 144
+            },
+            {
+              "offset": 4271,
+              "virtual_offset": 5903,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 4272,
+              "virtual_offset": 5904,
+              "opcode": 28,
+              "depth": 3,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -625,
+              "symbols": [
+                "MidA"
+              ]
+            },
+            {
+              "offset": 4275,
+              "virtual_offset": 5909,
+              "opcode": 25,
+              "depth": 4,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4276,
+              "virtual_offset": 5910,
+              "opcode": 25,
+              "depth": 5,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4277,
+              "virtual_offset": 5911,
+              "opcode": 72,
+              "depth": 6,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4283,
+              "virtual_offset": 5919,
+              "opcode": 72,
+              "depth": 6,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4289,
+              "virtual_offset": 5927,
+              "opcode": 27,
+              "depth": 5,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 41,
+              "symbols": [
+                "GetDVMainText"
+              ]
+            },
+            {
+              "offset": 4291,
+              "virtual_offset": 5932,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4292,
+              "virtual_offset": 5933,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 4293,
+              "virtual_offset": 5934,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "rt"
+            },
+            {
+              "offset": 4299,
+              "virtual_offset": 5942,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 4305,
+              "virtual_offset": 5950,
+              "opcode": 44,
+              "depth": 7,
+              "parent_opcode": 25,
+              "int": 9
+            },
+            {
+              "offset": 4307,
+              "virtual_offset": 5952,
+              "opcode": 22,
+              "depth": 6,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4308,
+              "virtual_offset": 5953,
+              "opcode": 44,
+              "depth": 4,
+              "parent_opcode": 28,
+              "int": 5
+            },
+            {
+              "offset": 4310,
+              "virtual_offset": 5955,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 4311,
+              "virtual_offset": 5956,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 4312,
+              "virtual_offset": 5957,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 4317,
+              "virtual_offset": 5962,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            }
+          ]
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/8049",
+          "serial_sha256": "f08fe805955a070756843e96fd2cdc5211af98d16af0e2d6039c25e0cc8c1c75",
+          "tokens": [
+            {
+              "offset": 338,
+              "virtual_offset": 429,
+              "opcode": 71,
+              "depth": 1,
+              "parent_opcode": 15,
+              "field": "strMsg"
+            },
+            {
+              "offset": 341,
+              "virtual_offset": 434,
+              "opcode": 112,
+              "depth": 1,
+              "parent_opcode": 15,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 342,
+              "virtual_offset": 435,
+              "opcode": 112,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 343,
+              "virtual_offset": 436,
+              "opcode": 128,
+              "depth": 3,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 128,
+              "symbols": [
+                "Left"
+              ]
+            },
+            {
+              "offset": 344,
+              "virtual_offset": 437,
+              "opcode": 25,
+              "depth": 4,
+              "parent_opcode": 128
+            },
+            {
+              "offset": 345,
+              "virtual_offset": 438,
+              "opcode": 72,
+              "depth": 5,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 351,
+              "virtual_offset": 446,
+              "opcode": 27,
+              "depth": 5,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 41,
+              "symbols": [
+                "GetDVMainText"
+              ]
+            },
+            {
+              "offset": 353,
+              "virtual_offset": 451,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 354,
+              "virtual_offset": 452,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 360,
+              "virtual_offset": 460,
+              "opcode": 44,
+              "depth": 7,
+              "parent_opcode": 25,
+              "int": 9
+            },
+            {
+              "offset": 362,
+              "virtual_offset": 462,
+              "opcode": 22,
+              "depth": 6,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 363,
+              "virtual_offset": 463,
+              "opcode": 44,
+              "depth": 4,
+              "parent_opcode": 128,
+              "int": 11
+            },
+            {
+              "offset": 365,
+              "virtual_offset": 465,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 128
+            },
+            {
+              "offset": 366,
+              "virtual_offset": 466,
+              "opcode": 57,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 367,
+              "virtual_offset": 467,
+              "opcode": 83,
+              "depth": 4,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 368,
+              "virtual_offset": 468,
+              "opcode": 54,
+              "depth": 5,
+              "parent_opcode": 83,
+              "field": "Value"
+            },
+            {
+              "offset": 371,
+              "virtual_offset": 473,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 372,
+              "virtual_offset": 474,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 373,
+              "virtual_offset": 475,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "Magi"
+            },
+            {
+              "offset": 378,
+              "virtual_offset": 483,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 383,
+              "virtual_offset": 491,
+              "opcode": 28,
+              "depth": 7,
+              "parent_opcode": 25,
+              "reference_kind": "object",
+              "reference_value": -189,
+              "symbols": [
+                "GetValueData"
+              ]
+            },
+            {
+              "offset": 386,
+              "virtual_offset": 496,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 387,
+              "virtual_offset": 497,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 393,
+              "virtual_offset": 505,
+              "opcode": 44,
+              "depth": 9,
+              "parent_opcode": 25,
+              "int": 81
+            },
+            {
+              "offset": 395,
+              "virtual_offset": 507,
+              "opcode": 22,
+              "depth": 8,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 396,
+              "virtual_offset": 508,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 397,
+              "virtual_offset": 509,
+              "opcode": 127,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 127,
+              "symbols": [
+                "Mid"
+              ]
+            },
+            {
+              "offset": 398,
+              "virtual_offset": 510,
+              "opcode": 25,
+              "depth": 3,
+              "parent_opcode": 127
+            },
+            {
+              "offset": 399,
+              "virtual_offset": 511,
+              "opcode": 72,
+              "depth": 4,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 405,
+              "virtual_offset": 519,
+              "opcode": 27,
+              "depth": 4,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 41,
+              "symbols": [
+                "GetDVMainText"
+              ]
+            },
+            {
+              "offset": 407,
+              "virtual_offset": 524,
+              "opcode": 25,
+              "depth": 5,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 408,
+              "virtual_offset": 525,
+              "opcode": 72,
+              "depth": 6,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 414,
+              "virtual_offset": 533,
+              "opcode": 44,
+              "depth": 6,
+              "parent_opcode": 25,
+              "int": 9
+            },
+            {
+              "offset": 416,
+              "virtual_offset": 535,
+              "opcode": 22,
+              "depth": 5,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 417,
+              "virtual_offset": 536,
+              "opcode": 44,
+              "depth": 3,
+              "parent_opcode": 127,
+              "int": 11
+            },
+            {
+              "offset": 419,
+              "virtual_offset": 538,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 127
+            },
+            {
+              "offset": 420,
+              "virtual_offset": 539,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 421,
+              "virtual_offset": 540,
+              "opcode": 25,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 422,
+              "virtual_offset": 541,
+              "opcode": 72,
+              "depth": 1,
+              "parent_opcode": 25,
+              "field": "MessageBox"
+            },
+            {
+              "offset": 427,
+              "virtual_offset": 549,
+              "opcode": 27,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 24,
+              "symbols": [
+                "SetMessage"
+              ]
+            },
+            {
+              "offset": 429,
+              "virtual_offset": 554,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 27,
+              "field": "strMsg"
+            }
+          ]
+        }
+      ],
+      "key_getter": {
+        "id": "FILE/MrtsEngine.u/export/6781",
+        "function": "GetDVMainText",
+        "serial_sha256": "6afafa3b06cb965b5487b0022a96118d83d84406128a6814e029ffa965fc448a",
+        "tokens": [
+          {
+            "offset": 25,
+            "virtual_offset": 0,
+            "opcode": 15,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 26,
+            "virtual_offset": 1,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 15,
+            "field": "i"
+          },
+          {
+            "offset": 29,
+            "virtual_offset": 6,
+            "opcode": 37,
+            "depth": 1,
+            "parent_opcode": 15,
+            "int": 0
+          },
+          {
+            "offset": 30,
+            "virtual_offset": 7,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 33,
+            "virtual_offset": 10,
+            "opcode": 150,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 150,
+            "symbols": [
+              "Less_IntInt"
+            ]
+          },
+          {
+            "offset": 34,
+            "virtual_offset": 11,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 150,
+            "field": "i"
+          },
+          {
+            "offset": 37,
+            "virtual_offset": 16,
+            "opcode": 55,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 38,
+            "virtual_offset": 17,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 55
+          },
+          {
+            "offset": 39,
+            "virtual_offset": 18,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 44,
+            "virtual_offset": 26,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 47,
+            "virtual_offset": 31,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 48,
+            "virtual_offset": 32,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 51,
+            "virtual_offset": 35,
+            "opcode": 154,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 154,
+            "symbols": [
+              "EqualEqual_IntInt"
+            ]
+          },
+          {
+            "offset": 52,
+            "virtual_offset": 36,
+            "opcode": 54,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "Key"
+          },
+          {
+            "offset": 55,
+            "virtual_offset": 41,
+            "opcode": 16,
+            "depth": 3,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 56,
+            "virtual_offset": 42,
+            "opcode": 71,
+            "depth": 4,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 59,
+            "virtual_offset": 47,
+            "opcode": 25,
+            "depth": 4,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 60,
+            "virtual_offset": 48,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 65,
+            "virtual_offset": 56,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 68,
+            "virtual_offset": 61,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "ID"
+          },
+          {
+            "offset": 71,
+            "virtual_offset": 66,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 154
+          },
+          {
+            "offset": 72,
+            "virtual_offset": 67,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 73,
+            "virtual_offset": 68,
+            "opcode": 54,
+            "depth": 1,
+            "parent_opcode": 4,
+            "field": "MainText"
+          },
+          {
+            "offset": 75,
+            "virtual_offset": 73,
+            "opcode": 16,
+            "depth": 2,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 76,
+            "virtual_offset": 74,
+            "opcode": 71,
+            "depth": 3,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 79,
+            "virtual_offset": 79,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 80,
+            "virtual_offset": 80,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 85,
+            "virtual_offset": 88,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DivinationTextList"
+          },
+          {
+            "offset": 88,
+            "virtual_offset": 93,
+            "opcode": 163,
+            "depth": 0,
+            "parent_opcode": null,
+            "reference_kind": "native-index",
+            "reference_value": 163,
+            "symbols": [
+              "AddAdd_PreInt"
+            ]
+          },
+          {
+            "offset": 89,
+            "virtual_offset": 94,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 163,
+            "field": "i"
+          },
+          {
+            "offset": 92,
+            "virtual_offset": 99,
+            "opcode": 22,
+            "depth": 1,
+            "parent_opcode": 163
+          },
+          {
+            "offset": 93,
+            "virtual_offset": 100,
+            "opcode": 6,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 96,
+            "virtual_offset": 103,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 97,
+            "virtual_offset": 104,
+            "opcode": 31,
+            "depth": 1,
+            "parent_opcode": 4,
+            "literal": "None"
+          },
+          {
+            "offset": 103,
+            "virtual_offset": 110,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 104,
+            "virtual_offset": 111,
+            "opcode": 11,
+            "depth": 1,
+            "parent_opcode": 4
+          }
+        ],
+        "execution_verified": false,
+        "selected_fields": [
+          "DivinationTextList"
+        ]
+      },
+      "static_consumer_binding_verified": true,
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001239.tui/record/7/field/0/index/12",
+      "source_sha256": "e1a935cad47203313b68dc36e3e003c8de8b7bd7a6db6a78864ffae5cad7e3a9",
+      "source_resource_sha256": "5bd2bdd2d410ad6d4985eb5b3ee9949024703e3800d9b82e3ee79dacc7b705b5",
+      "record_key": 7,
+      "physical_index": 12,
+      "target": "希德币。是否购买？",
+      "kind": "amount-prefix",
+      "character_boundary": null,
+      "byte_boundary": null,
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/11770",
+          "serial_sha256": "8588e9baf19b45b7df3cf99fef23344e3a472c88074e082f6275f7d033294c87",
+          "tokens": [
+            {
+              "offset": 611,
+              "virtual_offset": 807,
+              "opcode": 15,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 612,
+              "virtual_offset": 808,
+              "opcode": 71,
+              "depth": 1,
+              "parent_opcode": 15,
+              "field": "Msg"
+            },
+            {
+              "offset": 615,
+              "virtual_offset": 813,
+              "opcode": 112,
+              "depth": 1,
+              "parent_opcode": 15,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 616,
+              "virtual_offset": 814,
+              "opcode": 57,
+              "depth": 2,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 617,
+              "virtual_offset": 815,
+              "opcode": 83,
+              "depth": 3,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 618,
+              "virtual_offset": 816,
+              "opcode": 72,
+              "depth": 4,
+              "parent_opcode": 83,
+              "field": "CurPrice"
+            },
+            {
+              "offset": 621,
+              "virtual_offset": 821,
+              "opcode": 25,
+              "depth": 2,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 622,
+              "virtual_offset": 822,
+              "opcode": 72,
+              "depth": 3,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 628,
+              "virtual_offset": 830,
+              "opcode": 27,
+              "depth": 3,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 9,
+              "symbols": [
+                "GetStoreMainText"
+              ]
+            },
+            {
+              "offset": 630,
+              "virtual_offset": 835,
+              "opcode": 25,
+              "depth": 4,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 631,
+              "virtual_offset": 836,
+              "opcode": 72,
+              "depth": 5,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 637,
+              "virtual_offset": 844,
+              "opcode": 44,
+              "depth": 5,
+              "parent_opcode": 25,
+              "int": 7
+            },
+            {
+              "offset": 639,
+              "virtual_offset": 846,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 640,
+              "virtual_offset": 847,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 112
+            }
+          ]
+        }
+      ],
+      "key_getter": {
+        "id": "FILE/MrtsEngine.u/export/6789",
+        "function": "GetStoreMainText",
+        "serial_sha256": "95ae1808f44d9532d67ff2c2ce4fce77302db6e4ff81398dae795379fc02da79",
+        "tokens": [
+          {
+            "offset": 24,
+            "virtual_offset": 0,
+            "opcode": 15,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 25,
+            "virtual_offset": 1,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 15,
+            "field": "i"
+          },
+          {
+            "offset": 28,
+            "virtual_offset": 6,
+            "opcode": 37,
+            "depth": 1,
+            "parent_opcode": 15,
+            "int": 0
+          },
+          {
+            "offset": 29,
+            "virtual_offset": 7,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 32,
+            "virtual_offset": 10,
+            "opcode": 150,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 150,
+            "symbols": [
+              "Less_IntInt"
+            ]
+          },
+          {
+            "offset": 33,
+            "virtual_offset": 11,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 150,
+            "field": "i"
+          },
+          {
+            "offset": 36,
+            "virtual_offset": 16,
+            "opcode": 55,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 37,
+            "virtual_offset": 17,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 55
+          },
+          {
+            "offset": 38,
+            "virtual_offset": 18,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 43,
+            "virtual_offset": 26,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "StoreTextList"
+          },
+          {
+            "offset": 46,
+            "virtual_offset": 31,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 150
+          },
+          {
+            "offset": 47,
+            "virtual_offset": 32,
+            "opcode": 7,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 50,
+            "virtual_offset": 35,
+            "opcode": 154,
+            "depth": 1,
+            "parent_opcode": 7,
+            "reference_kind": "native-index",
+            "reference_value": 154,
+            "symbols": [
+              "EqualEqual_IntInt"
+            ]
+          },
+          {
+            "offset": 51,
+            "virtual_offset": 36,
+            "opcode": 54,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "Key"
+          },
+          {
+            "offset": 54,
+            "virtual_offset": 41,
+            "opcode": 16,
+            "depth": 3,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 55,
+            "virtual_offset": 42,
+            "opcode": 71,
+            "depth": 4,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 58,
+            "virtual_offset": 47,
+            "opcode": 25,
+            "depth": 4,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 59,
+            "virtual_offset": 48,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 64,
+            "virtual_offset": 56,
+            "opcode": 72,
+            "depth": 5,
+            "parent_opcode": 25,
+            "field": "StoreTextList"
+          },
+          {
+            "offset": 67,
+            "virtual_offset": 61,
+            "opcode": 71,
+            "depth": 2,
+            "parent_opcode": 154,
+            "field": "ID"
+          },
+          {
+            "offset": 70,
+            "virtual_offset": 66,
+            "opcode": 22,
+            "depth": 2,
+            "parent_opcode": 154
+          },
+          {
+            "offset": 71,
+            "virtual_offset": 67,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 72,
+            "virtual_offset": 68,
+            "opcode": 54,
+            "depth": 1,
+            "parent_opcode": 4,
+            "field": "MainText"
+          },
+          {
+            "offset": 74,
+            "virtual_offset": 73,
+            "opcode": 16,
+            "depth": 2,
+            "parent_opcode": 54
+          },
+          {
+            "offset": 75,
+            "virtual_offset": 74,
+            "opcode": 71,
+            "depth": 3,
+            "parent_opcode": 16,
+            "field": "i"
+          },
+          {
+            "offset": 78,
+            "virtual_offset": 79,
+            "opcode": 25,
+            "depth": 3,
+            "parent_opcode": 16
+          },
+          {
+            "offset": 79,
+            "virtual_offset": 80,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "DataManager"
+          },
+          {
+            "offset": 84,
+            "virtual_offset": 88,
+            "opcode": 72,
+            "depth": 4,
+            "parent_opcode": 25,
+            "field": "StoreTextList"
+          },
+          {
+            "offset": 87,
+            "virtual_offset": 93,
+            "opcode": 163,
+            "depth": 0,
+            "parent_opcode": null,
+            "reference_kind": "native-index",
+            "reference_value": 163,
+            "symbols": [
+              "AddAdd_PreInt"
+            ]
+          },
+          {
+            "offset": 88,
+            "virtual_offset": 94,
+            "opcode": 71,
+            "depth": 1,
+            "parent_opcode": 163,
+            "field": "i"
+          },
+          {
+            "offset": 91,
+            "virtual_offset": 99,
+            "opcode": 22,
+            "depth": 1,
+            "parent_opcode": 163
+          },
+          {
+            "offset": 92,
+            "virtual_offset": 100,
+            "opcode": 6,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 95,
+            "virtual_offset": 103,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 96,
+            "virtual_offset": 104,
+            "opcode": 31,
+            "depth": 1,
+            "parent_opcode": 4,
+            "literal": "None"
+          },
+          {
+            "offset": 102,
+            "virtual_offset": 110,
+            "opcode": 4,
+            "depth": 0,
+            "parent_opcode": null
+          },
+          {
+            "offset": 103,
+            "virtual_offset": 111,
+            "opcode": 11,
+            "depth": 1,
+            "parent_opcode": 4
+          }
+        ],
+        "execution_verified": false,
+        "selected_fields": [
+          "StoreTextList"
+        ]
+      },
+      "static_consumer_binding_verified": true,
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001249.tui/record/17/field/0/index/12",
+      "source_sha256": "57480adf28fca28fbfe60ad7b86785d36239ff8d7e83a01b5e0b23d70352b6db",
+      "source_resource_sha256": "0677124a3457f7bbcfdc32957b919b5fee6f48f1755567445d33ed6bcb84efb9",
+      "record_key": 17,
+      "physical_index": 12,
+      "target": "修炼需希德币。是否修炼？",
+      "kind": "character-slice-insert",
+      "character_boundary": 3,
+      "byte_boundary": null,
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/8229",
+          "serial_sha256": "3d00286d69ec098d1f5a4d396a79e412d2ea52d54b51a60ca90c35cf483bdeca",
+          "tokens": [
+            {
+              "offset": 132,
+              "virtual_offset": 155,
+              "opcode": 25,
+              "depth": 1,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 133,
+              "virtual_offset": 156,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 139,
+              "virtual_offset": 164,
+              "opcode": 72,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 145,
+              "virtual_offset": 172,
+              "opcode": 28,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "object",
+              "reference_value": -567,
+              "symbols": [
+                "GetGymTextDataIndex"
+              ]
+            },
+            {
+              "offset": 148,
+              "virtual_offset": 177,
+              "opcode": 44,
+              "depth": 2,
+              "parent_opcode": 28,
+              "int": 17
+            },
+            {
+              "offset": 150,
+              "virtual_offset": 179,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 28,
+              "field": "Index"
+            },
+            {
+              "offset": 153,
+              "virtual_offset": 184,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 154,
+              "virtual_offset": 185,
+              "opcode": 15,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 155,
+              "virtual_offset": 186,
+              "opcode": 71,
+              "depth": 1,
+              "parent_opcode": 15,
+              "field": "strMsg"
+            },
+            {
+              "offset": 158,
+              "virtual_offset": 191,
+              "opcode": 112,
+              "depth": 1,
+              "parent_opcode": 15,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 159,
+              "virtual_offset": 192,
+              "opcode": 112,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 160,
+              "virtual_offset": 193,
+              "opcode": 112,
+              "depth": 3,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 161,
+              "virtual_offset": 194,
+              "opcode": 28,
+              "depth": 4,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -628,
+              "symbols": [
+                "LeftA"
+              ]
+            },
+            {
+              "offset": 164,
+              "virtual_offset": 199,
+              "opcode": 54,
+              "depth": 5,
+              "parent_opcode": 28,
+              "field": "MainText"
+            },
+            {
+              "offset": 167,
+              "virtual_offset": 204,
+              "opcode": 16,
+              "depth": 6,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 168,
+              "virtual_offset": 205,
+              "opcode": 71,
+              "depth": 7,
+              "parent_opcode": 16,
+              "field": "Index"
+            },
+            {
+              "offset": 171,
+              "virtual_offset": 210,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 16
+            },
+            {
+              "offset": 172,
+              "virtual_offset": 211,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 173,
+              "virtual_offset": 212,
+              "opcode": 71,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 179,
+              "virtual_offset": 220,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 185,
+              "virtual_offset": 228,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "GymTextList"
+            },
+            {
+              "offset": 188,
+              "virtual_offset": 233,
+              "opcode": 44,
+              "depth": 5,
+              "parent_opcode": 28,
+              "int": 3
+            },
+            {
+              "offset": 190,
+              "virtual_offset": 235,
+              "opcode": 22,
+              "depth": 5,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 191,
+              "virtual_offset": 236,
+              "opcode": 31,
+              "depth": 4,
+              "parent_opcode": 112,
+              "literal": " "
+            },
+            {
+              "offset": 194,
+              "virtual_offset": 239,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 195,
+              "virtual_offset": 240,
+              "opcode": 57,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 196,
+              "virtual_offset": 241,
+              "opcode": 83,
+              "depth": 4,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 197,
+              "virtual_offset": 242,
+              "opcode": 54,
+              "depth": 5,
+              "parent_opcode": 83,
+              "field": "nMoney"
+            },
+            {
+              "offset": 200,
+              "virtual_offset": 247,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 201,
+              "virtual_offset": 248,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 202,
+              "virtual_offset": 249,
+              "opcode": 71,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 208,
+              "virtual_offset": 257,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 214,
+              "virtual_offset": 265,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "GymData"
+            },
+            {
+              "offset": 217,
+              "virtual_offset": 270,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 218,
+              "virtual_offset": 271,
+              "opcode": 28,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -625,
+              "symbols": [
+                "MidA"
+              ]
+            },
+            {
+              "offset": 221,
+              "virtual_offset": 276,
+              "opcode": 54,
+              "depth": 3,
+              "parent_opcode": 28,
+              "field": "MainText"
+            },
+            {
+              "offset": 224,
+              "virtual_offset": 281,
+              "opcode": 16,
+              "depth": 4,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 225,
+              "virtual_offset": 282,
+              "opcode": 71,
+              "depth": 5,
+              "parent_opcode": 16,
+              "field": "Index"
+            },
+            {
+              "offset": 228,
+              "virtual_offset": 287,
+              "opcode": 25,
+              "depth": 5,
+              "parent_opcode": 16
+            },
+            {
+              "offset": 229,
+              "virtual_offset": 288,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 230,
+              "virtual_offset": 289,
+              "opcode": 71,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 236,
+              "virtual_offset": 297,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 242,
+              "virtual_offset": 305,
+              "opcode": 72,
+              "depth": 6,
+              "parent_opcode": 25,
+              "field": "GymTextList"
+            },
+            {
+              "offset": 245,
+              "virtual_offset": 310,
+              "opcode": 44,
+              "depth": 3,
+              "parent_opcode": 28,
+              "int": 3
+            },
+            {
+              "offset": 247,
+              "virtual_offset": 312,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 248,
+              "virtual_offset": 313,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 249,
+              "virtual_offset": 314,
+              "opcode": 25,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 250,
+              "virtual_offset": 315,
+              "opcode": 72,
+              "depth": 1,
+              "parent_opcode": 25,
+              "field": "MessageBox"
+            },
+            {
+              "offset": 255,
+              "virtual_offset": 323,
+              "opcode": 27,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 24,
+              "symbols": [
+                "SetMessage"
+              ]
+            },
+            {
+              "offset": 257,
+              "virtual_offset": 328,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 27,
+              "field": "strMsg"
+            },
+            {
+              "offset": 260,
+              "virtual_offset": 333,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 265,
+              "virtual_offset": 338,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            }
+          ]
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/11695",
+          "serial_sha256": "73f0b4dfa1781a5b81e655527fa522e8100a7f7ce27c99f4912ff882fdb78afc",
+          "tokens": [
+            {
+              "offset": 65,
+              "virtual_offset": 58,
+              "opcode": 25,
+              "depth": 1,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 66,
+              "virtual_offset": 59,
+              "opcode": 72,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 72,
+              "virtual_offset": 67,
+              "opcode": 72,
+              "depth": 2,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 78,
+              "virtual_offset": 75,
+              "opcode": 28,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "object",
+              "reference_value": -567,
+              "symbols": [
+                "GetGymTextDataIndex"
+              ]
+            },
+            {
+              "offset": 81,
+              "virtual_offset": 80,
+              "opcode": 44,
+              "depth": 2,
+              "parent_opcode": 28,
+              "int": 17
+            },
+            {
+              "offset": 83,
+              "virtual_offset": 82,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 28,
+              "field": "Index"
+            },
+            {
+              "offset": 86,
+              "virtual_offset": 87,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 87,
+              "virtual_offset": 88,
+              "opcode": 15,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 88,
+              "virtual_offset": 89,
+              "opcode": 71,
+              "depth": 1,
+              "parent_opcode": 15,
+              "field": "strMsg"
+            },
+            {
+              "offset": 91,
+              "virtual_offset": 94,
+              "opcode": 112,
+              "depth": 1,
+              "parent_opcode": 15,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 92,
+              "virtual_offset": 95,
+              "opcode": 112,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 93,
+              "virtual_offset": 96,
+              "opcode": 112,
+              "depth": 3,
+              "parent_opcode": 112,
+              "reference_kind": "native-index",
+              "reference_value": 112,
+              "symbols": [
+                "Concat_StrStr"
+              ]
+            },
+            {
+              "offset": 94,
+              "virtual_offset": 97,
+              "opcode": 28,
+              "depth": 4,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -628,
+              "symbols": [
+                "LeftA"
+              ]
+            },
+            {
+              "offset": 97,
+              "virtual_offset": 102,
+              "opcode": 54,
+              "depth": 5,
+              "parent_opcode": 28,
+              "field": "MainText"
+            },
+            {
+              "offset": 100,
+              "virtual_offset": 107,
+              "opcode": 16,
+              "depth": 6,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 101,
+              "virtual_offset": 108,
+              "opcode": 71,
+              "depth": 7,
+              "parent_opcode": 16,
+              "field": "Index"
+            },
+            {
+              "offset": 104,
+              "virtual_offset": 113,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 16
+            },
+            {
+              "offset": 105,
+              "virtual_offset": 114,
+              "opcode": 25,
+              "depth": 8,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 106,
+              "virtual_offset": 115,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 112,
+              "virtual_offset": 123,
+              "opcode": 72,
+              "depth": 9,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 118,
+              "virtual_offset": 131,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "GymTextList"
+            },
+            {
+              "offset": 121,
+              "virtual_offset": 136,
+              "opcode": 44,
+              "depth": 5,
+              "parent_opcode": 28,
+              "int": 3
+            },
+            {
+              "offset": 123,
+              "virtual_offset": 138,
+              "opcode": 22,
+              "depth": 5,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 124,
+              "virtual_offset": 139,
+              "opcode": 31,
+              "depth": 4,
+              "parent_opcode": 112,
+              "literal": " "
+            },
+            {
+              "offset": 127,
+              "virtual_offset": 142,
+              "opcode": 22,
+              "depth": 4,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 128,
+              "virtual_offset": 143,
+              "opcode": 57,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 129,
+              "virtual_offset": 144,
+              "opcode": 83,
+              "depth": 4,
+              "parent_opcode": 57
+            },
+            {
+              "offset": 130,
+              "virtual_offset": 145,
+              "opcode": 54,
+              "depth": 5,
+              "parent_opcode": 83,
+              "field": "nMoney"
+            },
+            {
+              "offset": 133,
+              "virtual_offset": 150,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 134,
+              "virtual_offset": 151,
+              "opcode": 25,
+              "depth": 7,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 135,
+              "virtual_offset": 152,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 141,
+              "virtual_offset": 160,
+              "opcode": 72,
+              "depth": 8,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 147,
+              "virtual_offset": 168,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "GymData"
+            },
+            {
+              "offset": 150,
+              "virtual_offset": 173,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 151,
+              "virtual_offset": 174,
+              "opcode": 28,
+              "depth": 2,
+              "parent_opcode": 112,
+              "reference_kind": "object",
+              "reference_value": -625,
+              "symbols": [
+                "MidA"
+              ]
+            },
+            {
+              "offset": 154,
+              "virtual_offset": 179,
+              "opcode": 54,
+              "depth": 3,
+              "parent_opcode": 28,
+              "field": "MainText"
+            },
+            {
+              "offset": 157,
+              "virtual_offset": 184,
+              "opcode": 16,
+              "depth": 4,
+              "parent_opcode": 54
+            },
+            {
+              "offset": 158,
+              "virtual_offset": 185,
+              "opcode": 71,
+              "depth": 5,
+              "parent_opcode": 16,
+              "field": "Index"
+            },
+            {
+              "offset": 161,
+              "virtual_offset": 190,
+              "opcode": 25,
+              "depth": 5,
+              "parent_opcode": 16
+            },
+            {
+              "offset": 162,
+              "virtual_offset": 191,
+              "opcode": 25,
+              "depth": 6,
+              "parent_opcode": 25
+            },
+            {
+              "offset": 163,
+              "virtual_offset": 192,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "UIInfo"
+            },
+            {
+              "offset": 169,
+              "virtual_offset": 200,
+              "opcode": 72,
+              "depth": 7,
+              "parent_opcode": 25,
+              "field": "DataManager"
+            },
+            {
+              "offset": 175,
+              "virtual_offset": 208,
+              "opcode": 72,
+              "depth": 6,
+              "parent_opcode": 25,
+              "field": "GymTextList"
+            },
+            {
+              "offset": 178,
+              "virtual_offset": 213,
+              "opcode": 44,
+              "depth": 3,
+              "parent_opcode": 28,
+              "int": 3
+            },
+            {
+              "offset": 180,
+              "virtual_offset": 215,
+              "opcode": 22,
+              "depth": 3,
+              "parent_opcode": 28
+            },
+            {
+              "offset": 181,
+              "virtual_offset": 216,
+              "opcode": 22,
+              "depth": 2,
+              "parent_opcode": 112
+            },
+            {
+              "offset": 182,
+              "virtual_offset": 217,
+              "opcode": 25,
+              "depth": 0,
+              "parent_opcode": null
+            },
+            {
+              "offset": 183,
+              "virtual_offset": 218,
+              "opcode": 72,
+              "depth": 1,
+              "parent_opcode": 25,
+              "field": "MessageBox"
+            },
+            {
+              "offset": 188,
+              "virtual_offset": 226,
+              "opcode": 27,
+              "depth": 1,
+              "parent_opcode": 25,
+              "reference_kind": "name",
+              "reference_value": 24,
+              "symbols": [
+                "SetMessage"
+              ]
+            },
+            {
+              "offset": 190,
+              "virtual_offset": 231,
+              "opcode": 71,
+              "depth": 2,
+              "parent_opcode": 27,
+              "field": "strMsg"
+            },
+            {
+              "offset": 193,
+              "virtual_offset": 236,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            },
+            {
+              "offset": 198,
+              "virtual_offset": 241,
+              "opcode": 30,
+              "depth": 2,
+              "parent_opcode": 27
+            }
+          ]
+        }
+      ],
+      "key_getter": null,
+      "static_consumer_binding_verified": true,
+      "runtime_verified": false
+    }
+  ],
+  "static_consumer_binding_verified": true,
+  "runtime_verified": false,
+  "context_precondition": "UIInfo/DataManager initialized; source Context-wrapped ByteConst uses selected key in nonnull receiver branch",
+  "notes": [
+    "GetDVMainText and GetStoreMainText are compiled key-search functions, not native registered methods. Missing native method identifier is not absent consumer.",
+    "Original native index helpers/loader offsets and serialized keys are independently checked; no runtime UProperty offset initialization is claimed.",
+    "Store initial windows can display the bare cost suffix before ProcessLocalMessage composes CurPrice+suffix; original behavior is retained.",
+    "Fixed exorcism boundary is5high-bit characters or11bytes including existing ASCIIspace; target can satisfy both paths without modifying native code."
+  ]
+}

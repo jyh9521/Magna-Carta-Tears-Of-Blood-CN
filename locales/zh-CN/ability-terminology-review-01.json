@@ -1,0 +1,883 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "ability-terminology-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000466.abi/record-index/0/field/0",
+      "source_sha256": "242aed03edb3e07c942ed9c0281a6391746deac9a609429cce959a33717e7129",
+      "target": "一阵斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/1/field/0",
+      "source_sha256": "514d2337ef261bb8cb4baef2b0ee3911db6552f66199fdc70ff855a0d99c6504",
+      "target": "真·一阵斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/2/field/0",
+      "source_sha256": "2f40dc1a04348b1e1602283cb7d940e42aa572a7b2351ff3f4c981c24b7a5376",
+      "target": "影斩剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/3/field/0",
+      "source_sha256": "cd07648843e8b3c3a259791a5a74b68bb4ca35a44f64b5736312fca67d631456",
+      "target": "真·影斩剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/4/field/0",
+      "source_sha256": "1fdd08a7f21359480a3e7d7609d05b1533bc446b4a0d37457595395a629f8e73",
+      "target": "空破剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/5/field/0",
+      "source_sha256": "7b14d33d5ca01ec7eaa8d18cdb54a554a3b573c13e97f9a365b6b229dafc3b13",
+      "target": "狂风连剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/6/field/0",
+      "source_sha256": "9e9395639badb858d3ff39c825ecb447f2b2ee93a60dd654371f3a4ccf9d5aa6",
+      "target": "风天双击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/7/field/0",
+      "source_sha256": "14aba321c420a117c9af7db3bf722133d9a1a68d0533e4e01a1efc9c87116a2b",
+      "target": "龙牙虎爪剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/8/field/0",
+      "source_sha256": "4624ed46394768463d71b4462f9b74d1d4e9d36babf5a433119e5adc4087016f",
+      "target": "闪虹剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/9/field/0",
+      "source_sha256": "746f1847529528eef6a363ad8efdf4374b0fdb0093938dd6a893fa03fedb21d7",
+      "target": "苍天十文字斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/10/field/0",
+      "source_sha256": "11446218806cf92743779a185ac7d49ac35832e9ce5037cf0952c4e3b56983f9",
+      "target": "苍天真剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/11/field/0",
+      "source_sha256": "c961b7f9687863a591e76bb1ab4ee6fe1d86b239e20fb9001b3a8d239b45db8b",
+      "target": "六星十剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/12/field/0",
+      "source_sha256": "72f8f10e819cdfcfe81684c7f278fec00fb48cb6abf60a13297a4b3a8a6d45f4",
+      "target": "潮破刻印剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/13/field/0",
+      "source_sha256": "330af8f8f6ee1c1212ea2ab66f6c35826af6c33c741fa604172db84db29cf628",
+      "target": "北风豪雪剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/14/field/0",
+      "source_sha256": "17424e74e9146bbb187f0750a37d65c5305e0c0d657cb7664c018d53389c7a37",
+      "target": "飞燕乱舞斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/15/field/0",
+      "source_sha256": "d897c601bdbf2a799a679fbbb9583837e478a6e1c40038ce3cd6f75d6ee375f8",
+      "target": "真·狂风连剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/16/field/0",
+      "source_sha256": "d528c282ab372ab49c4c544b3b4134148b5b39224f8c395eff3a7655e2b834f1",
+      "target": "真·风天双击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/17/field/0",
+      "source_sha256": "324dd104c0a753a223a65138d8fbf3aee4991be3ba15e507e73271bc6d978cf4",
+      "target": "真·龙牙虎爪剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/18/field/0",
+      "source_sha256": "d02375122f1e93a887bc5891cd2f02964e590f54831cfe15bfe8b61a844da0c4",
+      "target": "真·闪虹剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/19/field/0",
+      "source_sha256": "f987ad159d08df7a37a32b21e55a1f2616dd9c6e0a126bf039b685ada69e6283",
+      "target": "地旋剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/20/field/0",
+      "source_sha256": "c0f4e4b799f4a5e7f30f830d0896808f68e9aab1beb47ce791c2f953f37001ad",
+      "target": "天降雷击剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/21/field/0",
+      "source_sha256": "d4c3e468fd37e323949a1721de10e1ce1d72e316edb7abd1b5f75628749525b9",
+      "target": "阵罗气击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/22/field/0",
+      "source_sha256": "60f8585ed49ef9e604185bfabc1b326f98d7a3d6da3dfddba378278b08d2ce5f",
+      "target": "飞影花下斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/23/field/0",
+      "source_sha256": "f80ed4b38ad4290436ef0ff8268cf1ff6113a56e3a26b7af6ec44bf29cb86d60",
+      "target": "光针烈风剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/28/field/0",
+      "source_sha256": "4b8868fd33ce7742f6ab5bc3c98f8a40ce6aba9cc975632a2a1804796e8aebbe",
+      "target": "柔互剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/31/field/0",
+      "source_sha256": "0c16e8f31cd6eeef1b29049873ec4b8004da5af42659047fe2e72ac578396556",
+      "target": "真·苍天真剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/32/field/0",
+      "source_sha256": "628e611d16dc5ca7cabcc5cbf67c79e2a63f3fab4ee7af3944e0897b7b1c0ad2",
+      "target": "真·六星十剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/33/field/0",
+      "source_sha256": "ff9916bfe1a395b515bcabed327b4c5184117af76bfe51558f3685599bdf63ba",
+      "target": "真·潮破刻印剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/34/field/0",
+      "source_sha256": "18287f69acc628c052ba968bb1ae8db59c25314b40d8867203950fc05b76b72c",
+      "target": "回流岚击破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/35/field/0",
+      "source_sha256": "5859752c4b848496a9146a50b59ab5a5e20a997e70f86eb6a6286701e70056f1",
+      "target": "虚空剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/36/field/0",
+      "source_sha256": "433899a1d850a0b02bc797f92caa8945d1a6186ac5941a7ec22dddef3bbbc26a",
+      "target": "升掌剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/37/field/0",
+      "source_sha256": "50d2d821088651f9a30015fbe7eb68286091eecd9b9110f1a81afdcdaf68159f",
+      "target": "毒牙飞翔剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/38/field/0",
+      "source_sha256": "42fc37bb874786a04480e429481a5f759c23a69aea5c4cb96056d375589d3f63",
+      "target": "雄飞剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/39/field/0",
+      "source_sha256": "170cd0b3f49130a51f80e262f95998e2caa348574edf56f7f62747c2c1f9a578",
+      "target": "群牙斩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/40/field/0",
+      "source_sha256": "a3bc686be246a331c6b6ffe80a0ff888f572e12dd85b19c74775ad1fab2e4448",
+      "target": "极意·柔牙剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/41/field/0",
+      "source_sha256": "f872ea6fc516b33ebda2224ccefd0431b7c6acf393a8257385f56f54de454c46",
+      "target": "森罗天升",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/42/field/0",
+      "source_sha256": "9b768b0b7b53c826fe93e2c0c6483a3c63645f267b2a33e94cd68a6a8073d4ad",
+      "target": "苍天龙爪剑",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/43/field/0",
+      "source_sha256": "8be8403d70d851d3bb135ff4b342a8ba2e0683357a7d3e3b592bb0d09487b1ec",
+      "target": "天地震破阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/44/field/0",
+      "source_sha256": "2e3ef0a7d3bbbf4264b61988a97136208cd5eac5b98044fc3cdf81ca1558c86b",
+      "target": "天下一剑阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/45/field/0",
+      "source_sha256": "b777b04392cba08ac376e9544703f9d44a80be32f25143e9795219dc58aa57e0",
+      "target": "天灵爆裂阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/46/field/0",
+      "source_sha256": "33882fef18339b0c027afec73a4866d9d96629cdef3cd2454dff290354f4a3d1",
+      "target": "黑狼破岩",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/47/field/0",
+      "source_sha256": "9727f98ffa49b38d33492f50f4c1ce9a5565581aca7b7d9f48674906628bb6f7",
+      "target": "五峰纵破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/48/field/0",
+      "source_sha256": "0bd0ee77c5688f423ad7e6c47c944c51f32973f13fcf0deda1bf1c2da6f1e347",
+      "target": "不动岳震拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/49/field/0",
+      "source_sha256": "f66fa31ac59596100bf059caffcb2ab151414a39c8b06c9fab4ed0c5b18f73cd",
+      "target": "狼牙斗破击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/50/field/0",
+      "source_sha256": "022e42bf4ae53acb78fd79ff43f83cd3d9b4c898231c1898ca09b14559d8f8ce",
+      "target": "英雄降临",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/51/field/0",
+      "source_sha256": "8f8d3268fd7e22cba90c728b4be525f1ff1925436ab7f492a63c353db938840b",
+      "target": "高天飞鹰",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/52/field/0",
+      "source_sha256": "bc5a8a2c8a14d1de00737cfa0e1d40abdda8ed239dd8eafa1f2247216b5273c2",
+      "target": "虎鹰乱斗击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/53/field/0",
+      "source_sha256": "a04a43a390eb1503fc68f0b6c8f16dd9d747d669c2459f678a5a051d362b56c5",
+      "target": "震斥晓雷",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/54/field/0",
+      "source_sha256": "b80278de476ad7ce3fcd35829d178b93fedce08e4347cd03995484ab01df020c",
+      "target": "超晓爆碎拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/55/field/0",
+      "source_sha256": "30f07a1e742d1bd74801af7e057d461a2b84652bd60f6bd7cd39fc7dced2cbd1",
+      "target": "雷电灭杀",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/56/field/0",
+      "source_sha256": "f5296d8b7a070ea5e3c966d5b80c96ef5c0071a1757861e26653ec09eee5f6b4",
+      "target": "流星五掌",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/57/field/0",
+      "source_sha256": "962ccce114acd1d25cd54f9b966dfb6191148f914fe60594fa1fa81cc19271e1",
+      "target": "武豪一星",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/58/field/0",
+      "source_sha256": "47db5122589821ad214af541035cc99033bc28b0ae871ad606b3eb53655cb426",
+      "target": "万象灭碎拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/59/field/0",
+      "source_sha256": "2b6cc40590ffcf464d62910afa8f329630dc1a45df739c7ef0524c7b48317d10",
+      "target": "鸣动拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/60/field/0",
+      "source_sha256": "d813617f978110e93eac7b04af7b20c508ccd1c9d35a440aee58e0aa6b4f1223",
+      "target": "一气神化",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/61/field/0",
+      "source_sha256": "77f4cd2aa6f1d109816aa02d8a5a2cedf7a976d441c2cef61eec2995e25165e6",
+      "target": "金刚破掌",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/62/field/0",
+      "source_sha256": "2109545b7375f7952727dd67db90916fe021bd814b2c19eb52f367efd0731c32",
+      "target": "地轴乱击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/63/field/0",
+      "source_sha256": "4d620e22c4edb1a59d89c33f0e6590c4409200b6f72a0684284d2e5a497701cc",
+      "target": "流转惑乱掌",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/64/field/0",
+      "source_sha256": "14a4b63ad0168f766419311adb944b690fa668f0852ab162e7a19988feda16e3",
+      "target": "瞬空连掌击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/67/field/0",
+      "source_sha256": "a4c440403411836b222e99a9b8676066bf7b4e62cffae7571f6fcf164bf45181",
+      "target": "武豪一星",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/69/field/0",
+      "source_sha256": "e31455bd983238aae5c78bf0ff696730cbea31cd04a82ecaba5cdee155e089b7",
+      "target": "地甲不破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/70/field/0",
+      "source_sha256": "75015374a98b68268637cb5cc43b22079506304469c34a3a30faf99b02298eee",
+      "target": "天地激震拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/71/field/0",
+      "source_sha256": "e29662f4c2b4eb3302191620e97a42125ce75086c688c1104902d4471d643f2f",
+      "target": "退魔拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/72/field/0",
+      "source_sha256": "6a4fe53b5a627c6f7765978700d920b150164db0b3f5fd5fde4985d0347f1b1d",
+      "target": "魁魂拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/73/field/0",
+      "source_sha256": "10e11f3de17e5a5c8f3efd446931c9d4db7cf21aa538bcf2768efbe6c81f9bf6",
+      "target": "无限烈弹拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/74/field/0",
+      "source_sha256": "afce8114eff603175499ec9e3b156cb5b849705c690610c8feabdf448442245f",
+      "target": "五裂山溃",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/75/field/0",
+      "source_sha256": "06cd33f72ac9d459bbb0a2c7cabc480f37d5e9744f201369712aaa98e649435c",
+      "target": "双虎击斗掌",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/76/field/0",
+      "source_sha256": "db69aa73e98d7418cfcf7197264b8835d3d35a31ba17cfc35f2d32fe5bbd48ad",
+      "target": "暗魂超炎",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/77/field/0",
+      "source_sha256": "d33432e2f7aa5a66fdc01d5cf7228014fad87f35993b7681068ca7d3ca96aef9",
+      "target": "六斗大龙",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/78/field/0",
+      "source_sha256": "fed1a5ea3ca34f9c6f7cfb69d07aaa06e5897b776c14b04170bdfd71a0b67df7",
+      "target": "天上龙凤",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/79/field/0",
+      "source_sha256": "b1a41848bec6c8b4ac67c9a5c62fa7830d267bf79c8cfd0303fcf7f442d64a6c",
+      "target": "无生一心",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/80/field/0",
+      "source_sha256": "84a068fe09263058e1ad74d5e49d1f920ae37c7bf5e7d4307e7d23d2c6383def",
+      "target": "无心击空拳",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/81/field/0",
+      "source_sha256": "c6c521fc310f83dba2e1f3d49ea493de0c2813a8c0b8fabca96847caef650210",
+      "target": "火焰击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/82/field/0",
+      "source_sha256": "26052c0652bc38b61f1d5b5a6918d0a014cc8e473fccd8a0b92ca23f80cc402f",
+      "target": "火焰乱舞",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/83/field/0",
+      "source_sha256": "9b7105b8352b019c2d656143b95c27af3a7d4efe241c3e0370412da51b612247",
+      "target": "火焰乱流",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/84/field/0",
+      "source_sha256": "df9edc3000bdac923da75664b28f8ec6c8d79a9d74142fc3025a18961512b1de",
+      "target": "火球翔击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/85/field/0",
+      "source_sha256": "a5c0973a6b90e33ceb3508195b039b78296a70a78633e2460212413cfde960d9",
+      "target": "雷球击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/86/field/0",
+      "source_sha256": "e164b7834746c28a19aacd70c5ba42831a997cac8fa7b97a33a28c100eef10e6",
+      "target": "雷声降震",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/87/field/0",
+      "source_sha256": "3fc46a50abe965adc976f0745836cf4c1d6be70d180dc48d3d8b05620c427b87",
+      "target": "十字雷电",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/88/field/0",
+      "source_sha256": "bbefc7cbdeac7d45a1a240346e66c235a8196eb0414587accb6bf780f0b2b542",
+      "target": "雷声电击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/89/field/0",
+      "source_sha256": "c0678d3995b1c0be417a88fe8bfe85a0ffafd5218ec1fa8725c156e15e570526",
+      "target": "飞月降击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/90/field/0",
+      "source_sha256": "5d49bb05beb689e20319c84db26800fc48489e0d23652a3bb2d0dae1e7b53724",
+      "target": "雾笛升射",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/91/field/0",
+      "source_sha256": "11ddcf6faab171591f4a49f9a10cfb0405d0fa07b97092198c1435805052cade",
+      "target": "炼星地轮",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/92/field/0",
+      "source_sha256": "ec033f8f1f4a61fe06fe66b5bbee5437b92794633c98bcbb0b8195c4b66cec3a",
+      "target": "拘缚地盘",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/93/field/0",
+      "source_sha256": "6b32313cfc0f85b4a5290d9a60830257cabf854ef37e4f8fee51e09b3c26417e",
+      "target": "天风波",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/94/field/0",
+      "source_sha256": "0c6d91d70992734b390aac196fad48e5ac1b6dff63a403349fbbebe30fa898f0",
+      "target": "破魔光流",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/97/field/0",
+      "source_sha256": "2d557fb078428341ac68e3d7f2927405f004c5c2bac6029890b5fba2c54aec30",
+      "target": "罗汉烈破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/98/field/0",
+      "source_sha256": "3af77fc79f050cf76b257bdccf69ac976cc3765daa8a2e63e34fa36be0d57a9b",
+      "target": "八极雷击阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/99/field/0",
+      "source_sha256": "e1c98c06f3fcfec32ffac8d81bcfb94549629a35fd088583ebaa7e579bbf89f6",
+      "target": "雷帝向地击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/100/field/0",
+      "source_sha256": "75c6bf30ddb4da1718fa2849a3df418b5e09758799eefa4a56c0ce848500d910",
+      "target": "十文字火焰",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/101/field/0",
+      "source_sha256": "e12d83ce764a849ac73adc6f4b0bcf1b4e473783308006780bdadaf1de11de9e",
+      "target": "烈火光雷",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/102/field/0",
+      "source_sha256": "32ff9010b11ccfdc8ce685efa27af94156dc7c088fb3263cf4e1ace7337e4e6c",
+      "target": "破邪炎雷阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/103/field/0",
+      "source_sha256": "baca02ce48ee9e5f50f11e36b6f1fc6026107fb186fd4fa8a71a2ae73b477063",
+      "target": "助威",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/104/field/0",
+      "source_sha256": "121babc1cff9245916ba4414c44fdddaf3712f9ac99c523400a971399799539c",
+      "target": "治疗之风",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/105/field/0",
+      "source_sha256": "a09a0a217c186d623962cbd40c680c718743cd94908b19378c2e0953e214d482",
+      "target": "治疗水滴",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/106/field/0",
+      "source_sha256": "3d0c61e34f558297a5eb09f23c65eec9dd640ff7f4ca306b062ba2e0baf733ea",
+      "target": "治疗波纹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/107/field/0",
+      "source_sha256": "04c529ea575da3ada8d24f9a6a53869ba170ae005ceff99ad84ef7fa61a377f8",
+      "target": "冰针飞来",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/108/field/0",
+      "source_sha256": "a5a0d90d15cacff7e628d99367296f325b4988d78b9ab6a2cc912d5a520341ca",
+      "target": "水晶针击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/109/field/0",
+      "source_sha256": "a90e79799bef4cf3fa599b5e00440b525148dcda5d8d4c7b2f41535d03c77a1f",
+      "target": "落下冻流",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/110/field/0",
+      "source_sha256": "6a622eacc693808e89ea0ef90431f8efc92454d967646e695a40359e01b7f597",
+      "target": "巨冰一击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/111/field/0",
+      "source_sha256": "74a702db182aef1b14f2049a8647dbd5b47f27ded3ffe7437f0e13d6edd66485",
+      "target": "解毒咒",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/112/field/0",
+      "source_sha256": "10847333bd1d3c51b716a69a2673a0efc37c10f84e1f9066e3d2bc24680e0dc2",
+      "target": "复活咒",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/115/field/0",
+      "source_sha256": "b8bb792bdfe0712b9189346c795276c6bbe26ff40a0f5a43cf9985981a4d712c",
+      "target": "全地复阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/116/field/0",
+      "source_sha256": "b6cb4059b67a13071a1edcf3ae00d448f9590a1ddb2aac0025de7ae2229c3d60",
+      "target": "三元阵礼",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/117/field/0",
+      "source_sha256": "1f880787a8615bdbf191224d31a9dc48098f3d46a41367bfb2d4488360ab52f3",
+      "target": "保身降礼",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/118/field/0",
+      "source_sha256": "8c284acc0c1ae94642ce4aee417f9c52bb7f58c45d5d641f70a5721ca4ca7f92",
+      "target": "真保身礼",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/119/field/0",
+      "source_sha256": "2facc2664333da6305ebcb77fe12bfc83df059c70b8d6693c310af4c4e627eb2",
+      "target": "回复大阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/120/field/0",
+      "source_sha256": "7581d15d62b8a05ee1274677ddc3f95d9de8aa0979d87d89f2fdd7a17ec1f7ea",
+      "target": "无境爆破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/121/field/0",
+      "source_sha256": "b7494f7b00f18bdf1903dda84b5ea33d0f46f1b7e6d67cb7244d9c0d1b523d21",
+      "target": "幻天归阵",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/122/field/0",
+      "source_sha256": "a4a5a10a81462b6a9a4f5bf872346354806130ef7903ea9dae90aee06b6b6981",
+      "target": "纯水直击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/123/field/0",
+      "source_sha256": "b25f871baef2158ef23146c6ab507334c37b48cc80b27008fb22cfb1b01b729b",
+      "target": "激水龙升破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/124/field/0",
+      "source_sha256": "165d5a44d961add98fbd5d4d030c8f7c0e9529ec0876ed7b4f88fa8673bd8700",
+      "target": "水晶冻破",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/125/field/0",
+      "source_sha256": "ebdb3aa82829892929bf1a790938df61e67326db27e66d1d0d36186457061f9b",
+      "target": "冰河袭来",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/126/field/0",
+      "source_sha256": "def89561203ed10936d48d7f5d33ba0d3b128c969ad3c82ba4e1f1dc5b3c83d5",
+      "target": "冰结之境",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/127/field/0",
+      "source_sha256": "817c2f4ed1de848ee9574e3a6ad8eeaeb32839c1fd8a7a31222eb16d0d89f781",
+      "target": "将你的心拥入怀中",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/128/field/0",
+      "source_sha256": "ad5ba63fffa3779acee14a6a61f2af8abb3a8227da817676b0828ad618553e59",
+      "target": "爱的俘虏",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/129/field/0",
+      "source_sha256": "a4a3c64907b1fedce5363c3fbd61bf8c981c4864fa294a7a99a57fedac0e9fb0",
+      "target": "爱的猛烈攻击",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/130/field/0",
+      "source_sha256": "1a191c9b88036e51d30353a95d96139e4093981f2b2473251fcf038fa9992508",
+      "target": "彗星落射",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/131/field/0",
+      "source_sha256": "28afc6872d290ffd640e5aa0c35a926c881a8336373dc5f54a5a5eb82dafa11f",
+      "target": "急击力射",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/132/field/0",
+      "source_sha256": "bb417508498b18cd2d6a462ead5eabd7a7f48d0a61afc74660e7787d7f7e9947",
+      "target": "快速度射",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/133/field/0",
+      "source_sha256": "09d40ac99543ee71df39ba949f5c162883acb78452043bc19537d8a63ebb9bab",
+      "target": "救援一掌弹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/134/field/0",
+      "source_sha256": "53df266e79970fcdc8ed7bb897a91298e2b03b326aca362af7ba9391f89f80b6",
+      "target": "水晶破弹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/135/field/0",
+      "source_sha256": "281c5946ce66f6945f9333f8cb6f448a473760fe2798e085d4b0a474a0f3a0e3",
+      "target": "射袭五空弹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/136/field/0",
+      "source_sha256": "09d40ac99543ee71df39ba949f5c162883acb78452043bc19537d8a63ebb9bab",
+      "target": "救援一掌弹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    },
+    {
+      "id": "SHIP/00000466.abi/record-index/137/field/0",
+      "source_sha256": "1a27f30d1a2f42535441039e113c51615cc16cfd7ad1f7e7d0e0f8bcb17615b4",
+      "target": "特级流星弹",
+      "status": "reviewed",
+      "context": "Complete player skill name; project glossary choice, not an original-Hanja claim; debug descriptions and damaged names omitted; resource lookup use requires separate assessment."
+    }
+  ]
+}

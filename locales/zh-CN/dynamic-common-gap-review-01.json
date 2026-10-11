@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "dynamic-common-gap-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00001255.tui/record/13/field/0/index/12",
+      "source_sha256": "f5f58a49fcfbb22e990c0eef0a6c71c8f5b640463d901a5fb2c27c2bb6937175",
+      "target": "金钱减少了",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/14/field/0/index/13",
+      "source_sha256": "7d493a7f3f3f61c8fd97feec0dc88b6db4980396b6c4ac8b17a073bb3e394fec",
+      "target": "希德币",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/24/field/0/index/23",
+      "source_sha256": "167a5aa6b07120041adbe5d62e0964f2bae0e6c7850f9b951b75687e7e33dd45",
+      "target": "队伍已设为当前队伍",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/25/field/0/index/24",
+      "source_sha256": "7b2c390fdc78e52797806402001b97200518f488e69ca7701d0e659a44ac7706",
+      "target": "队伍：",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/26/field/0/index/25",
+      "source_sha256": "89a6051da9b20a8e904368e6d3106fd724d141ce0f0f3d149114b5240910f2c1",
+      "target": "队伍：",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/27/field/0/index/26",
+      "source_sha256": "99005203786b7e06c9ccd6481ce6c96b49000f08efe0368341c2e3c6e172d290",
+      "target": "加入了队伍",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/28/field/0/index/27",
+      "source_sha256": "5af988c97c202e8bb59b5b3066f17fd71297551768369fac96ac5ab6de7c215f",
+      "target": "被移出队伍",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    },
+    {
+      "id": "SHIP/00001255.tui/record/31/field/0/index/30",
+      "source_sha256": "867007565a102e6d5564a64fb62781af6c98896102ebd993ac8f460e65aae366",
+      "target": "增加了",
+      "status": "reviewed",
+      "context": "Coordinated Korean-to-Chinese language decision; money prefix/suffix, party label/action and stat particle considered as grouped messages. No amount, name or gender invented. Native full consumer/order not newly proven; candidate composition requires final game QA."
+    }
+  ]
+}

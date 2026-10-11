@@ -1,0 +1,465 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "domain": "compiled-interface",
+  "entries": [
+    {
+      "id": "FILE/Engine.u/export/4915/string/0",
+      "source": "God mode off",
+      "source_sha256": "ec7534a369950f26584eb80b9dceb3794c58efebad14a0033f621127d4269268",
+      "target": "无敌模式已关闭",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/Engine.u/export/4915/string/1",
+      "source": "God Mode on",
+      "source_sha256": "53d16fc2d06dd4774790a4aac2d73f7bafaff9c76be994c553661a56d722f972",
+      "target": "无敌模式已开启",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/Engine.u/export/4918/string/0",
+      "source": "You feel ethereal",
+      "source_sha256": "f1fbc46b2bba89ae4423c7093c308b4dd248a248e91fb3715efe8fee712e03a3",
+      "target": "你感到虚无缥缈",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function",
+      "punctuation_review": "UI single sentence without comma: no terminal full stop; original controls and source identity retained."
+    },
+    {
+      "id": "FILE/Engine.u/export/4921/string/0",
+      "source": "You feel much lighter",
+      "source_sha256": "3afcca706beb2fc368382fdc9f5b2b599be69edb489477faab8fb82109bf448f",
+      "target": "你感觉轻盈多了",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function",
+      "punctuation_review": "UI single sentence without comma: no terminal full stop; original controls and source identity retained."
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5171/string/0",
+      "source": "GameSpeed - Normal",
+      "source_sha256": "1a5685990056d0ed885f03eafddcc0ba32ec3cf4f80b5ad54f2695ddf47d1032",
+      "target": "游戏速度：正常",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5172/string/0",
+      "source": "GameSpeed - Slow - ",
+      "source_sha256": "f466db2fe0504c367d10ea84072dbcd1bf3636141051f0ee486f4df5608a8910",
+      "target": "游戏速度：慢速：",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5173/string/0",
+      "source": "GameSpeed - Fast - ",
+      "source_sha256": "984ec75b77e9d97b5f61ff3736b2a3ca56946af55af31873921f22fa694dc33c",
+      "target": "游戏速度：快速：",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/7140/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/7180/string/1",
+      "source": " Sid",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "target": " 希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8307/string/0",
+      "source": "이지 모드",
+      "source_sha256": "c32df376dd69847ab07914d20b53e0d57c9a90526d0ac14895d9b2f6b22c3e72",
+      "target": "简单模式",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8307/string/1",
+      "source": "노말 모드",
+      "source_sha256": "f080829674869ab6b65a08568752c4c3b0be117f3a956a8ac186b9866d19a0a6",
+      "target": "普通模式",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/0",
+      "source": "페이즈종료",
+      "source_sha256": "408c3c27ba68efcc6503a4917e2934c5bf8377d4762031ec639b9794c06f11d5",
+      "target": "结束阶段",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/1",
+      "source": "위치미변경",
+      "source_sha256": "9b23730c7200c8a8bb486f91f0231b0c25ad8ffe37bf57dba2acfd5230979b7d",
+      "target": "不更改位置",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/2",
+      "source": "게임재개",
+      "source_sha256": "b6b53ddd5c424c908e64a85b3d35e1c3534dd172957181d50a85616eed1a1015",
+      "target": "继续游戏",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8437/string/0",
+      "source": " Sid",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "target": " 希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8437/string/1",
+      "source": "RECORD",
+      "source_sha256": "1092e2e43a486c0a247743940abb3210d77c912476ac72e4c854ae4f13383125",
+      "target": "记录",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8721/string/0",
+      "source": "SLOT 1",
+      "source_sha256": "f3a2b489a1f1a3a1e2428b4284de0114c2fae4c74852f620de1cdd0a3b6635ce",
+      "target": "插槽1",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8721/string/1",
+      "source": "SLOT 2",
+      "source_sha256": "edac3f43a28250e6a3cc64c3a196b612d9529998643810b05d7ca62460838fbe",
+      "target": "插槽2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8728/string/0",
+      "source": "Loading Data",
+      "source_sha256": "ea079cb4b24d6ed9a4805aecae6c125aa4a4badacd5c5d3cb26133beaccae990",
+      "target": "正在读取数据",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/0",
+      "source": "Select Your Memorycard",
+      "source_sha256": "6c4e474a4bb4f6e78562bb255606200909c6e709221112488debe6d97b413149",
+      "target": "请选择记忆卡",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/1",
+      "source": "SLOT 1",
+      "source_sha256": "f3a2b489a1f1a3a1e2428b4284de0114c2fae4c74852f620de1cdd0a3b6635ce",
+      "target": "插槽1",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/2",
+      "source": "SLOT 2",
+      "source_sha256": "edac3f43a28250e6a3cc64c3a196b612d9529998643810b05d7ca62460838fbe",
+      "target": "插槽2",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/0",
+      "source": "sura",
+      "source_sha256": "078216422f05f6c2e9e26d80db73e9992fc066501f81adc7f079c5e5725e4b65",
+      "target": "修罗",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/1",
+      "source": "nachal",
+      "source_sha256": "b61d0888a3c3e97c839b0f6ca0906cb33fe45e3ad5e3149bca0e81e09b8243f9",
+      "target": "罗刹",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/2",
+      "source": "yacha",
+      "source_sha256": "4c04a74c89c45ebf986c5d7d5bd942649747b6e2cc45320d29b7f3d29db6ac7b",
+      "target": "夜叉",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9644/string/0",
+      "source": "MONO",
+      "source_sha256": "8e4d22eb5e815ba9c6ea768b45996aac604c77891d6e5ae4c5b6fffe8dbb8cec",
+      "target": "单声道",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9644/string/1",
+      "source": "STEREO",
+      "source_sha256": "453cdbf554164d1659a63edcd088501a9df2fac5ce9df70a270ef36a33aa78d1",
+      "target": "立体声",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9798/string/0",
+      "source": "MAX COMBO",
+      "source_sha256": "7039e34aa11443eba7b46246c6cf76b22fccd960f6dc34994eea0a1a0662333b",
+      "target": "最高连击",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9798/string/1",
+      "source": "EXTRA EXP",
+      "source_sha256": "f1ac1a638c5596020e87de47795e37af4c1e04930eaeafd2691bb704bacbc427",
+      "target": "额外经验值",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/0",
+      "source": "MAIN",
+      "source_sha256": "95832d038fbf7e6529e6969b4a52374ac92395cde5e732ce59bca9d74fdde6b3",
+      "target": "主菜单",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/1",
+      "source": "ITEM",
+      "source_sha256": "8550f340539484c0a7d9425bd20e5bfe51e0c49b123d04ca527614b250880953",
+      "target": "道具",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/2",
+      "source": "EQUIP",
+      "source_sha256": "e7fdd497282c1bb35ac970a720f53eb5615dccfde60a824a1fcb78733456c8c3",
+      "target": "装备",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/3",
+      "source": "STYLE",
+      "source_sha256": "fb2f7d206a2a279298be16da6bc0d26b9fdbf49542bea2dded23238116ae61db",
+      "target": "流派",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/4",
+      "source": "INFO",
+      "source_sha256": "cda14d0b2d954643c80cf0a1ee7ea1896bbe27cffc52c0c554eadc5432984d8b",
+      "target": "信息",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/5",
+      "source": "OPTION",
+      "source_sha256": "3e57b132a4b258aa3b614d46079c96963f400d7c2d7778541b566eed299e8df1",
+      "target": "选项",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/0",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/1",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/2",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/3",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/4",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12125/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12141/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12260/string/1",
+      "source": " Sid",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "target": " 希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12260/string/2",
+      "source": " Sid",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "target": " 希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12274/string/1",
+      "source": " Sid",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "target": " 希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12301/string/0",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12301/string/1",
+      "source": "Sid",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "target": "希德币",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6780/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6781/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6784/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6786/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6787/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6789/string/0",
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "target": "无",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/1",
+      "source": "Ver 0.0.0.",
+      "source_sha256": "5df3cb454313a4db3383368e5e400a0d2724da2ad8f45a8ba69b0d9c084cd07e",
+      "target": "版本 0.0.0.",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/2",
+      "source": "Ver 0.0.",
+      "source_sha256": "b93f86bf8163e794513f8625a097fca5c81b51822afe9a487dea0ec88b2208fd",
+      "target": "版本 0.0.",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/3",
+      "source": "Ver 0.",
+      "source_sha256": "5fe82a11f2afb1fdb502ee3a1189787fb49b0f42551b25505a1dcde826570408",
+      "target": "版本 0.",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/4",
+      "source": "Ver ",
+      "source_sha256": "199d79e67ea29a83bddd00c6270c26669b59cb2595173c9ad8284b0bb90ac4a8",
+      "target": "版本 ",
+      "status": "reviewed",
+      "reinsertion_policy": "translate-compiled-function"
+    }
+  ]
+}

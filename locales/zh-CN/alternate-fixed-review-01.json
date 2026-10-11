@@ -1,0 +1,318 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00004044.cht/slot/0",
+      "source_sha256": "c6a1329b52e567dda13245089666bb8dcee9d59caff6642e716517ddf3a97319",
+      "target": "亚逊是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/1",
+      "source_sha256": "1e94333e518be668eb8a59a0c563e3043844c7652640f90b14ea2a2207deceef",
+      "target": "你知道伊佩莉亚大陆南方，有个叫“亚逊罗文”的$n国家吧？$n那里就是亚逊的国家。$n亚逊的外表与我们人类很相似，$n但耳朵的形状很独特。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/2",
+      "source_sha256": "2db3f7c3cd39067a3ddbc9530545987c9877756610736deca4f0d9f8ee99f773",
+      "target": "据说亚逊是与自然亲近的种族，$n能够与动物心意相通。$n但他们是危险的种族，拒绝与人类交流，$n最后还主动挑起争端。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/3",
+      "source_sha256": "5c3d0be6944309cdf3277a5dc8fd309c9d73225b4ad1d4b27a4d6ba7355008ad",
+      "target": "五十年前，我们人类曾被亚逊逼得节节败退，$n但多亏“八英雄”，我们才得以$n获胜。$n然而几年前，亚逊罗文又以阿蜜拉女王为中心$n团结起来，不断扩张势力……$n而且，“霜龙”也开始肆虐……",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/4",
+      "source_sha256": "8571410ec43270e99831154edb702d01055ee71ed42b4c694b8004f950993760",
+      "target": "霜龙是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/5",
+      "source_sha256": "6b1865397e690182dec8a1f434a0ec2458c1a42a282da952553440f9cba7adb9",
+      "target": "亚逊罗文有一棵叫“光之树”的树。$n亚逊族从“光之树”那里$n获得生命。$n就像植物沐浴阳光而生长一样。$n不过，五十年前，“八英雄”$n封印了“光之树”。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/6",
+      "source_sha256": "f6aa148f7908388a2f2901a8d0a7bc3b5ef158d2e9d63d2feebf769757c3c582",
+      "target": "从那时起，亚逊逐渐衰弱，$n据说还开始受到一种叫“阿缪特病”的怪病$n折磨。$n我们都以为，这下亚逊就会在人类面前$n屈膝臣服。然而……$n唯有人类与亚逊的混血，$n不会患上阿缪特病。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/7",
+      "source_sha256": "4e15d5716000d0d4b47f1de3b6ecee28c2d569de0d7916ae5ea90c23708be56a",
+      "target": "这样诞生的亚逊，$n就是“霜龙”。$n据说他们是半亚逊的突变体，$n不仅不受“救赎之光”的影响，$n而且比过去的亚逊强大得多。$n其中，被称为“四天王”的霜龙，$n更是不容小觑。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/8",
+      "source_sha256": "e5b6109da6c281f957f19908c3328bb909e990ed77a5c407bb6009a61dc128cf",
+      "target": "阿缪特病是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/9",
+      "source_sha256": "461196e25eb85f5ab545ae9a2531b0bf06a78102038e844c74a9d4d6ec350afc",
+      "target": "失去“光之树”的恩惠以后，亚逊$n越来越衰弱，$n最终患上了这种叫“阿缪特病”的怪病。$n一旦患病，$n身体就会逐渐变硬，$n变得像“木头”一样。$n甚至有人传言，亚逊这个种族$n原本就是“树木”。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/10",
+      "source_sha256": "8671a53ad301d2b372238eeb93df4c09ef0768a7299477c728853075085bd0b4",
+      "target": "有人认为，随着不会患上“阿缪特病”的新一代$n亚逊，也就是“霜龙”的出现，$n亚逊将会复兴。$n然而，在大多数亚逊都受到阿缪特病$n侵蚀的现状下，他们的处境恐怕不会$n立刻好转。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/11",
+      "source_sha256": "cdf579b48c397d44c015869312989127684c866f5f2f7c95e8493f8bc8305247",
+      "target": "如今的亚逊有难以对付的阿蜜拉女王……$n今后会怎样，谁也无法预料。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/13",
+      "source_sha256": "42699929e153f26e3969c248c7709510e993e378d478b285aed1eb1d16239600",
+      "target": "她是亚逊罗文的女王。$n戴着面具的钢铁女人……$n在伊佩莉亚，她简直就是恐怖的化身。$n听说她拥有超越亚逊的力量。$n这种力量与“霜龙”的力量，$n似乎又有所不同。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/14",
+      "source_sha256": "c562e85dc53435d83a8391c01277798b146311cd690aa4cc8891e7edefe44c8d",
+      "target": "听说阿蜜拉女王是从亚逊部族中选出来的。$n她甚至带着最强的使魔“凤凰”。$n对于受阿缪特病折磨的亚逊来说，阿蜜拉$n既是希望，$n也可以说，$n是亚逊罗文的象征。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/15",
+      "source_sha256": "69840894d5a56519c0bf620c7eab165c2051edd794d67b2caad1f497a08fe4dd",
+      "target": "据说就连统治亚逊罗文的七部族族长，$n也会在她面前低头。$n“四天王”只向她效忠，$n也许正说明她拥有$n如此强大的权力。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/17",
+      "source_sha256": "e0beb846778b7263b82d30acca47a873aace4274d68eb51bcb2bd38678801a58",
+      "target": "他们是护卫阿蜜拉女王的四位将军，$n各自指挥着“霜龙”部队。$n过去因为要护卫女王，他们很少$n公开露面，$n但最近开始在战场上冲锋陷阵。$n“阿蜜拉之影”这个绰号，$n如今也渐渐被人淡忘了。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/18",
+      "source_sha256": "fc0846f66dd3bc7b2baa5a498f152e644f307f2a22fdef0cdfa149b66b5bd83a",
+      "target": "“四天王”的首领，是一个叫“奥尔哈”的男人，$n据说深受阿蜜拉信任。$n这次“魔法阵”作战中，我们也许会$n遇见他。$n他拥有非凡的实力，$n还带着强大的“使魔”。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/19",
+      "source_sha256": "a44adced0e6c1de14ab4d6d9af8be0cd4f6243dc193e519e3813d6aef085f882",
+      "target": "使魔是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/20",
+      "source_sha256": "77b4602cba41a58cf272c03271277a316cb5678ac560c9820e8a8938233922d9",
+      "target": "“霜龙”中格外强大的人，$n能够操纵一种叫“使魔”的$n强大生物。$n使魔有许多种类，$n其能力远非普通怪物$n可比。$n在战场上，谁都不想遇见这样的对手。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/1",
+      "source_sha256": "b7eccd1f89ca8128d8a361520028d0f4187dff1bb2fd0db66d530c5264e0901f",
+      "target": "那是长在亚逊身体某处，$n类似纹身的东西。$n亚逊通过这个“宾迪”，吸收“光之树”的$n力量。$n如今“光之树”已经被封印，$n它也成了没用的器官。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/2",
+      "source_sha256": "59884c50dd9495548a9c8b964ea33d1c307b1b9c91fe3f9e7375a58a35370bbd",
+      "target": "假如“八英雄”没有封印“光之树”，$n凭借这个“宾迪”，$n亚逊大概还会像以前一样强大。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/4",
+      "source_sha256": "9c48777aaa71145f4e223f0dc055e9ff2b316bf481a65b948e419f65aab11ab2",
+      "target": "你知道他们是五十年前拯救了世界的英雄们，$n对吧？$n“八英雄”封印了“光之树”，$n让伊佩莉亚恢复了和平。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/5",
+      "source_sha256": "2f4f14c73d971c51a9bd28e38b77a05c426da64b8257ce1ca56c4045dbe9338e",
+      "target": "“八英雄”这个称呼，源自构成自然界的$n水、火、风等元素。$n例如水之英雄、火之英雄、大地之英雄……就是这样。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/6",
+      "source_sha256": "a390463452ec5a6396258a02723f95aa314e2fa1e8ecb623e8c386870626d1a7",
+      "target": "这个故事有名得几乎成了传说，$n但“八英雄”$n究竟怎样封印了“光之树”，至今仍是个谜……$n还有传言说，是八英雄中的某一位$n发动了“真名法典”。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/7",
+      "source_sha256": "82cfa8a43c05e52dfe62bb5d18b5ca788178f6ffc4dc5275265d87eec3e66e4e",
+      "target": "真名法典是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/8",
+      "source_sha256": "913082173742c13d4b764a560869944e6e30e17730c902bfb9c2ab509df70566",
+      "target": "关于“真名法典”，谁也不知道确切的情况，$n大家都不清楚……$n它或许是一种通过聚集大量强大的“卡恩”，$n就能引发的奇迹吧。$n不过，过去也有不少人聚集了大量的卡恩，$n却似乎没人引发过奇迹。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/9",
+      "source_sha256": "7eb8093c14acd5c35899bbef9939e4182b865e0e8ade2654248a958979dc1c90",
+      "target": "看来，仅有“卡恩”，$n还不足以发动“真名法典”。$n“真名法典”究竟需要什么条件呢？$n如果能聚集大量的卡恩，想必就能得到$n强大的力量……$n但如果这样仍无法引发奇迹，那么，要发动足以改变世界的$n真名法典，$n还需要什么呢？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/11",
+      "source_sha256": "64bff1f5faa8c884b904db8e2262fa415e931ed26dad39b4db513cf344430a53",
+      "target": "它是构成这个世界的元素。$n不是常说，我们人类也是由无数的“卡恩”$n构成的吗？$n世间万物都由卡恩构成。$n就连人类的记忆，也是由卡恩构成的。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/12",
+      "source_sha256": "af5ff4313f3bb3c53ebe915c9699eefb73c9f20610de6b90001bf0b989521ddd",
+      "target": "这个世界里，存在着多得无法计数的$n“卡恩”。$n借助卡恩的力量，还能施展魔法……$n据学者说，“光之树”$n是向亚逊供应卡恩的装置。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/13",
+      "source_sha256": "ff0e221b52f2546902e86bfbd247aa82304f40909a1be45b84e6e3a31948ad0e",
+      "target": "也就是说，我们与亚逊在根本上是相同的。$n阿玛巴德也常这样说。$n当然，他们大概是从和平主义的立场，$n才这样说的吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/14",
+      "source_sha256": "ab83af49b84209c4b4a00d781e7513c556254c2a0b6e8674170cda09d4ec1f07",
+      "target": "阿玛巴德是什么？",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/15",
+      "source_sha256": "a60fd05066d9cfc1b3144c59e84e653cb6e876972562ee3a5d12110d9371b4e4",
+      "target": "简单来说，就是类似医院的组织，$n因为他们会为病人治疗。$n隶属于阿玛巴德的“巫师”和$n“巫女”，会用一种叫“神力”的特殊力量，$n治疗病人。$n他们也会走遍世界救济穷人，或为了治疗伤员，$n参加战斗。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/16",
+      "source_sha256": "30b6709e4a5cd717b0855af2b4e1223325da12db5732b50d2459ce3c65d25f80",
+      "target": "“阿玛巴德”依靠治疗费和捐款维持运作。$n他们的代表“大巫女”大人，$n是一位备受尊敬的人物。$n而且，她的治愈力量，$n正是一种能施展大范围治疗魔法的“神力”。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/17",
+      "source_sha256": "61f0642dbe5ba6a212313a49f694493723bb016bcbebc52e1d5317d7ca03b033",
+      "target": "你见过几千人的伤势同时得到治疗的景象吗？$n我说的是“大祈愿祭”，$n我小时候只见过一次。$n那股治疗病人的力量，也能让健康的人$n充满活力。$n所以，在战场上举行大祈愿祭，$n士兵们的士气才会大幅提高。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/18",
+      "source_sha256": "28a5646285ebbc5df1a6008e69f79d4253bf3d7219573cb9a26ecb0c40110bcf",
+      "target": "阿玛巴德现任的“大巫女”，是拉德琳娜大人。$n而她的儿子，$n正是联合军的阿格雷安将军。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/20",
+      "source_sha256": "e2d7ef33ff0a007aeab698a4342ba9f15f9eee6394d89881cc30839f9e8f2935",
+      "target": "他是阿玛巴德的大巫女拉德琳娜大人的儿子。$n虽然不会亲自奔赴战场，$n但据说其实是一位出色的剑术高手。$n他平时看起来总是很温和，$n不过，是位公私分明的将军。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00004059.cht/slot/22",
+      "source_sha256": "f5641fe7220241a2ac140872e75be38a2a90930389ab8e57e243df7fd5d51cc7",
+      "target": "如果拉德琳娜大人的儿子阿格雷安将军，$n也拥有“神力”，$n他就会成为阿玛巴德下一任大巫师吧。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00005214.pod/field/0",
+      "source_sha256": "b528749b3aae618da1ed8345af887376dda8a2f913e7b577a7d82daf4525b995",
+      "target": "目前尚未收到亚逊入侵的报告，$n但已有消息称，数名亚逊被目击$n出现在边境地带。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    },
+    {
+      "id": "SHIP/00005214.pod/field/19",
+      "source_sha256": "b528749b3aae618da1ed8345af887376dda8a2f913e7b577a7d82daf4525b995",
+      "target": "目前尚未收到亚逊入侵的报告，$n但已有消息称，数名亚逊被目击$n出现在边境地带。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
+    }
+  ]
+}

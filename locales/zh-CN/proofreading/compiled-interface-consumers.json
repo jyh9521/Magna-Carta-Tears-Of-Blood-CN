@@ -1,0 +1,1743 @@
+{
+  "schema": 1,
+  "file_sha256": "a9f7e2b34bfb5475bab2793821520295d120e2a122ccd363812f2d03c025072b",
+  "objects_sha256": "8f2b6a8c7fe5fe7b58efa89d54655e757644582b145f9a447d56f4ec59dd2ae7",
+  "classifications_sha256": "b018bea462092dc5c51b5c1b01d0de59e97b313f9b00f63f7f13614780466640",
+  "bindings": [
+    {
+      "id": "FILE/Engine.u/export/4915/string/0",
+      "source": "God mode off",
+      "owner": "God",
+      "package": "Engine.u",
+      "source_sha256": "ec7534a369950f26584eb80b9dceb3794c58efebad14a0033f621127d4269268",
+      "source_bytes": 12,
+      "absolute_offset": 861309,
+      "serial_sha256": "5c73f649312ba67026cacc937b0ab2194b5cb76389a0d2f9ec0d6f1a3ed46b7e",
+      "call_context": [
+        {
+          "offset": 55,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 28,
+          "symbols": [
+            "ClientMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/Engine.u/export/4915/string/1",
+      "source": "God Mode on",
+      "owner": "God",
+      "package": "Engine.u",
+      "source_sha256": "53d16fc2d06dd4774790a4aac2d73f7bafaff9c76be994c553661a56d722f972",
+      "source_bytes": 11,
+      "absolute_offset": 861346,
+      "serial_sha256": "5c73f649312ba67026cacc937b0ab2194b5cb76389a0d2f9ec0d6f1a3ed46b7e",
+      "call_context": [
+        {
+          "offset": 92,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 28,
+          "symbols": [
+            "ClientMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/Engine.u/export/4918/string/0",
+      "source": "You feel ethereal",
+      "owner": "Ghost",
+      "package": "Engine.u",
+      "source_sha256": "f1fbc46b2bba89ae4423c7093c308b4dd248a248e91fb3715efe8fee712e03a3",
+      "source_bytes": 17,
+      "absolute_offset": 861546,
+      "serial_sha256": "877832e3df3c5bf4ab4657fb727ef415f6387c5809107d14a1e294b074634018",
+      "call_context": [
+        {
+          "offset": 51,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 28,
+          "symbols": [
+            "ClientMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/Engine.u/export/4921/string/0",
+      "source": "You feel much lighter",
+      "owner": "Fly",
+      "package": "Engine.u",
+      "source_sha256": "3afcca706beb2fc368382fdc9f5b2b599be69edb489477faab8fb82109bf448f",
+      "source_bytes": 21,
+      "absolute_offset": 861859,
+      "serial_sha256": "3b6a447197893072215b64067044d017b947ca635f72e9c4f6c9bd9414a2aeb1",
+      "call_context": [
+        {
+          "offset": 61,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 28,
+          "symbols": [
+            "ClientMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5171/string/0",
+      "source": "GameSpeed - Normal",
+      "owner": "SetGameSpeedNormal",
+      "package": "MrtsEngine.u",
+      "source_sha256": "1a5685990056d0ed885f03eafddcc0ba32ec3cf4f80b5ad54f2695ddf47d1032",
+      "source_bytes": 18,
+      "absolute_offset": 763422,
+      "serial_sha256": "4f09a47305e3e2353287ab5422447469f2be9011c99b170bf0b3b0d4c78d878f",
+      "call_context": [
+        {
+          "offset": 56,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 215,
+          "symbols": [
+            "ClientMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5172/string/0",
+      "source": "GameSpeed - Slow - ",
+      "owner": "SetGameSpeedSlow",
+      "package": "MrtsEngine.u",
+      "source_sha256": "f466db2fe0504c367d10ea84072dbcd1bf3636141051f0ee486f4df5608a8910",
+      "source_bytes": 19,
+      "absolute_offset": 763546,
+      "serial_sha256": "cbff0f97a80fa3421f0b0dcbfb3301a35bdf6d59957004480d28ed27d1349ee9",
+      "call_context": [
+        {
+          "offset": 92,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 215,
+          "symbols": [
+            "ClientMessage"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/5173/string/0",
+      "source": "GameSpeed - Fast - ",
+      "owner": "SetGameSpeedFast",
+      "package": "MrtsEngine.u",
+      "source_sha256": "984ec75b77e9d97b5f61ff3736b2a3ca56946af55af31873921f22fa694dc33c",
+      "source_bytes": 19,
+      "absolute_offset": 763677,
+      "serial_sha256": "09d736c3d2da73c0a601cf767e64585916a37b1b59f127364e5a407dc7467dd8",
+      "call_context": [
+        {
+          "offset": 92,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 215,
+          "symbols": [
+            "ClientMessage"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/7134/string/0",
+      "source": "X ",
+      "owner": "DrawCharmNum",
+      "package": "MrtsEngine.u",
+      "source_sha256": "368dd7f6a7bd943eda712e9c69ad22c37f80f05361b8ad24f32737d7c3339329",
+      "source_bytes": 2,
+      "absolute_offset": 837395,
+      "serial_sha256": "f95d5a349de9765d114bce0e6d3901df2ba1157545d3b2aac8f91ff7a9886ac0",
+      "call_context": [
+        {
+          "offset": 38,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/7140/string/0",
+      "source": "None",
+      "owner": "NewFontObj",
+      "package": "MrtsEngine.u",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "source_bytes": 4,
+      "absolute_offset": 838355,
+      "serial_sha256": "ef66e6fea2811b4333be65bd6ac4ff3ffdc15aa2f0842bee4407d27d29edb227",
+      "call_context": [
+        {
+          "offset": 122,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -55,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/7180/string/1",
+      "source": " Sid",
+      "owner": "DrawMenuInfoWindow",
+      "package": "MrtsEngine.u",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "source_bytes": 4,
+      "absolute_offset": 849075,
+      "serial_sha256": "9097a5d0c16064e4c1f0290ab2d3c5ddaea07a5f2cd7700b640b0ccd17e9a408",
+      "call_context": [
+        {
+          "offset": 373,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -55,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 375,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8307/string/0",
+      "source": "이지 모드",
+      "owner": "InitValue",
+      "package": "MrtsGame.u",
+      "source_sha256": "c32df376dd69847ab07914d20b53e0d57c9a90526d0ac14895d9b2f6b22c3e72",
+      "source_bytes": 9,
+      "absolute_offset": 568773,
+      "serial_sha256": "e5955ac6e95683e47de8587a4a8e9b2e084d47a8a8c7f001d9586c5b460567a8",
+      "call_context": [
+        {
+          "offset": 75,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 115,
+          "symbols": [
+            "SetCaption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8307/string/1",
+      "source": "노말 모드",
+      "owner": "InitValue",
+      "package": "MrtsGame.u",
+      "source_sha256": "f080829674869ab6b65a08568752c4c3b0be117f3a956a8ac186b9866d19a0a6",
+      "source_bytes": 9,
+      "absolute_offset": 568833,
+      "serial_sha256": "e5955ac6e95683e47de8587a4a8e9b2e084d47a8a8c7f001d9586c5b460567a8",
+      "call_context": [
+        {
+          "offset": 135,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 115,
+          "symbols": [
+            "SetCaption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/0",
+      "source": "페이즈종료",
+      "owner": "InitValue",
+      "package": "MrtsGame.u",
+      "source_sha256": "408c3c27ba68efcc6503a4917e2934c5bf8377d4762031ec639b9794c06f11d5",
+      "source_bytes": 10,
+      "absolute_offset": 575048,
+      "serial_sha256": "b6a5637bd18f334155ca29d9dc1d12fd83bfc198fefbfb7a9586dbf961d3a34c",
+      "call_context": [
+        {
+          "offset": 75,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 115,
+          "symbols": [
+            "SetCaption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/1",
+      "source": "위치미변경",
+      "owner": "InitValue",
+      "package": "MrtsGame.u",
+      "source_sha256": "9b23730c7200c8a8bb486f91f0231b0c25ad8ffe37bf57dba2acfd5230979b7d",
+      "source_bytes": 10,
+      "absolute_offset": 575109,
+      "serial_sha256": "b6a5637bd18f334155ca29d9dc1d12fd83bfc198fefbfb7a9586dbf961d3a34c",
+      "call_context": [
+        {
+          "offset": 136,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 115,
+          "symbols": [
+            "SetCaption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8409/string/2",
+      "source": "게임재개",
+      "owner": "InitValue",
+      "package": "MrtsGame.u",
+      "source_sha256": "b6b53ddd5c424c908e64a85b3d35e1c3534dd172957181d50a85616eed1a1015",
+      "source_bytes": 8,
+      "absolute_offset": 575171,
+      "serial_sha256": "b6a5637bd18f334155ca29d9dc1d12fd83bfc198fefbfb7a9586dbf961d3a34c",
+      "call_context": [
+        {
+          "offset": 198,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 115,
+          "symbols": [
+            "SetCaption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8437/string/0",
+      "source": " Sid",
+      "owner": "SetFontObj",
+      "package": "MrtsGame.u",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "source_bytes": 4,
+      "absolute_offset": 577127,
+      "serial_sha256": "6576afd47629a2b9259d5a44a5aaa3ea602916230290aedf67ce40ac1eaa67a4",
+      "call_context": [
+        {
+          "offset": 267,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 270,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8437/string/1",
+      "source": "RECORD",
+      "owner": "SetFontObj",
+      "package": "MrtsGame.u",
+      "source_sha256": "1092e2e43a486c0a247743940abb3210d77c912476ac72e4c854ae4f13383125",
+      "source_bytes": 6,
+      "absolute_offset": 577573,
+      "serial_sha256": "6576afd47629a2b9259d5a44a5aaa3ea602916230290aedf67ce40ac1eaa67a4",
+      "call_context": [
+        {
+          "offset": 734,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8721/string/0",
+      "source": "SLOT 1",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "f3a2b489a1f1a3a1e2428b4284de0114c2fae4c74852f620de1cdd0a3b6635ce",
+      "source_bytes": 6,
+      "absolute_offset": 592903,
+      "serial_sha256": "101132c60d93e4177de79df92d90d9fef35ba341d89b8e5a1af0d4e3c4ef2ef7",
+      "call_context": [
+        {
+          "offset": 72,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8721/string/1",
+      "source": "SLOT 2",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "edac3f43a28250e6a3cc64c3a196b612d9529998643810b05d7ca62460838fbe",
+      "source_bytes": 6,
+      "absolute_offset": 592924,
+      "serial_sha256": "101132c60d93e4177de79df92d90d9fef35ba341d89b8e5a1af0d4e3c4ef2ef7",
+      "call_context": [
+        {
+          "offset": 93,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8728/string/0",
+      "source": "Loading Data",
+      "owner": "BeginState",
+      "package": "MrtsGame.u",
+      "source_sha256": "ea079cb4b24d6ed9a4805aecae6c125aa4a4badacd5c5d3cb26133beaccae990",
+      "source_bytes": 12,
+      "absolute_offset": 593239,
+      "serial_sha256": "de5a8f7ff0fa05d824d9fd8e29e1ecb848caff75230ae8d671246a94b9607c68",
+      "call_context": [
+        {
+          "offset": 49,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 24,
+          "symbols": [
+            "SetMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/0",
+      "source": "Select Your Memorycard",
+      "owner": "EndState",
+      "package": "MrtsGame.u",
+      "source_sha256": "6c4e474a4bb4f6e78562bb255606200909c6e709221112488debe6d97b413149",
+      "source_bytes": 22,
+      "absolute_offset": 593334,
+      "serial_sha256": "dbfeaad872c8704f52a610d02a9d4404d3b9b33a55105acff3373469d9c3dc5a",
+      "call_context": [
+        {
+          "offset": 25,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 24,
+          "symbols": [
+            "SetMessage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/1",
+      "source": "SLOT 1",
+      "owner": "EndState",
+      "package": "MrtsGame.u",
+      "source_sha256": "f3a2b489a1f1a3a1e2428b4284de0114c2fae4c74852f620de1cdd0a3b6635ce",
+      "source_bytes": 6,
+      "absolute_offset": 593371,
+      "serial_sha256": "dbfeaad872c8704f52a610d02a9d4404d3b9b33a55105acff3373469d9c3dc5a",
+      "call_context": [
+        {
+          "offset": 62,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8729/string/2",
+      "source": "SLOT 2",
+      "owner": "EndState",
+      "package": "MrtsGame.u",
+      "source_sha256": "edac3f43a28250e6a3cc64c3a196b612d9529998643810b05d7ca62460838fbe",
+      "source_bytes": 6,
+      "absolute_offset": 593392,
+      "serial_sha256": "dbfeaad872c8704f52a610d02a9d4404d3b9b33a55105acff3373469d9c3dc5a",
+      "call_context": [
+        {
+          "offset": 83,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/0",
+      "source": "sura",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "078216422f05f6c2e9e26d80db73e9992fc066501f81adc7f079c5e5725e4b65",
+      "source_bytes": 4,
+      "absolute_offset": 593555,
+      "serial_sha256": "09b0cf385941c4e8ef195fa89bc762b63e4ebb188fc64b2ac367ebeef65084dc",
+      "call_context": [
+        {
+          "offset": 28,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/1",
+      "source": "nachal",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "b61d0888a3c3e97c839b0f6ca0906cb33fe45e3ad5e3149bca0e81e09b8243f9",
+      "source_bytes": 6,
+      "absolute_offset": 593584,
+      "serial_sha256": "09b0cf385941c4e8ef195fa89bc762b63e4ebb188fc64b2ac367ebeef65084dc",
+      "call_context": [
+        {
+          "offset": 57,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8732/string/2",
+      "source": "yacha",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "4c04a74c89c45ebf986c5d7d5bd942649747b6e2cc45320d29b7f3d29db6ac7b",
+      "source_bytes": 5,
+      "absolute_offset": 593615,
+      "serial_sha256": "09b0cf385941c4e8ef195fa89bc762b63e4ebb188fc64b2ac367ebeef65084dc",
+      "call_context": [
+        {
+          "offset": 88,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9644/string/0",
+      "source": "MONO",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "8e4d22eb5e815ba9c6ea768b45996aac604c77891d6e5ae4c5b6fffe8dbb8cec",
+      "source_bytes": 4,
+      "absolute_offset": 662199,
+      "serial_sha256": "d13486e1e2c5e17979133eab2db8d09c6f557b7985b73bdb958f5cea7399f2fa",
+      "call_context": [
+        {
+          "offset": 1043,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9644/string/1",
+      "source": "STEREO",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "453cdbf554164d1659a63edcd088501a9df2fac5ce9df70a270ef36a33aa78d1",
+      "source_bytes": 6,
+      "absolute_offset": 662257,
+      "serial_sha256": "d13486e1e2c5e17979133eab2db8d09c6f557b7985b73bdb958f5cea7399f2fa",
+      "call_context": [
+        {
+          "offset": 1101,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 20,
+          "symbols": [
+            "AddButton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9798/string/0",
+      "source": "MAX COMBO",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "7039e34aa11443eba7b46246c6cf76b22fccd960f6dc34994eea0a1a0662333b",
+      "source_bytes": 9,
+      "absolute_offset": 674867,
+      "serial_sha256": "cdf44cf33b4ae60004ccfc1203fdbd20d84182a80a3feb29160f55f59d41ec57",
+      "call_context": [
+        {
+          "offset": 226,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9798/string/1",
+      "source": "EXTRA EXP",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "f1ac1a638c5596020e87de47795e37af4c1e04930eaeafd2691bb704bacbc427",
+      "source_bytes": 9,
+      "absolute_offset": 674939,
+      "serial_sha256": "cdf44cf33b4ae60004ccfc1203fdbd20d84182a80a3feb29160f55f59d41ec57",
+      "call_context": [
+        {
+          "offset": 298,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9800/string/0",
+      "source": "MrtsGame.MrtsTextureTestSentinelWindow",
+      "owner": "PrepareViewTexture",
+      "package": "MrtsGame.u",
+      "source_sha256": "076524852e606fa80780998844a2bca30c13983bd8c434a423cf0a4622a68019",
+      "source_bytes": 38,
+      "absolute_offset": 675118,
+      "serial_sha256": "6511e6358c7c851fa9533519fa649322bd399d87477f1bc7cf8415f7576a1d73",
+      "call_context": [
+        {
+          "offset": 111,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 324,
+          "symbols": [
+            "SetSentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9814/string/1",
+      "source": "MrtsGame.MrtsBattleSentinelWindow",
+      "owner": "PrepareBattle",
+      "package": "MrtsGame.u",
+      "source_sha256": "29404a465cba1fad3c2da47e7d1a99ec957483bf7173114da74c53e22919ee7c",
+      "source_bytes": 33,
+      "absolute_offset": 676045,
+      "serial_sha256": "2e6b5fcc05e00d5aabbf7180dfbda2f9631acac1bff12b0cb2f89ad847a31765",
+      "call_context": [
+        {
+          "offset": 129,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 324,
+          "symbols": [
+            "SetSentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9856/string/0",
+      "source": "MrtsGame.MrtsMainSentinelWindow",
+      "owner": "PrepareTitle",
+      "package": "MrtsGame.u",
+      "source_sha256": "d929b6661a68e960e9d684230eafb5172f67a4a7b26caa5b6cff9095089a5e30",
+      "source_bytes": 31,
+      "absolute_offset": 678741,
+      "serial_sha256": "e64b4b88056cfa90691f4bd221a998a8e6597ea560df645e6caebb1bf6927438",
+      "call_context": [
+        {
+          "offset": 43,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 324,
+          "symbols": [
+            "SetSentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9884/string/1",
+      "source": "MrtsGame.MrtsBattleSentinelWindow",
+      "owner": "PrepareBattle",
+      "package": "MrtsGame.u",
+      "source_sha256": "29404a465cba1fad3c2da47e7d1a99ec957483bf7173114da74c53e22919ee7c",
+      "source_bytes": 33,
+      "absolute_offset": 680229,
+      "serial_sha256": "8edbc91b4b4e5cebb758d11001ba89ff5a636b3a805d512627fbee2137fddbbd",
+      "call_context": [
+        {
+          "offset": 145,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 324,
+          "symbols": [
+            "SetSentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/0",
+      "source": "MAIN",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "95832d038fbf7e6529e6969b4a52374ac92395cde5e732ce59bca9d74fdde6b3",
+      "source_bytes": 4,
+      "absolute_offset": 699389,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 27,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/1",
+      "source": "ITEM",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "8550f340539484c0a7d9425bd20e5bfe51e0c49b123d04ca527614b250880953",
+      "source_bytes": 4,
+      "absolute_offset": 699401,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 39,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/2",
+      "source": "EQUIP",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "e7fdd497282c1bb35ac970a720f53eb5615dccfde60a824a1fcb78733456c8c3",
+      "source_bytes": 5,
+      "absolute_offset": 699413,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 51,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/3",
+      "source": "STYLE",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "fb2f7d206a2a279298be16da6bc0d26b9fdbf49542bea2dded23238116ae61db",
+      "source_bytes": 5,
+      "absolute_offset": 699426,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 64,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/4",
+      "source": "INFO",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "cda14d0b2d954643c80cf0a1ee7ea1896bbe27cffc52c0c554eadc5432984d8b",
+      "source_bytes": 4,
+      "absolute_offset": 699439,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 77,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10171/string/5",
+      "source": "OPTION",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_sha256": "3e57b132a4b258aa3b614d46079c96963f400d7c2d7778541b566eed299e8df1",
+      "source_bytes": 6,
+      "absolute_offset": 699451,
+      "serial_sha256": "39b63f8b5feced8aeac8923ded15fecad9db2de2fec6252a95aa72f0e9d72311",
+      "call_context": [
+        {
+          "offset": 89,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 58,
+          "symbols": [
+            "AddPage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/0",
+      "source": " R = ",
+      "owner": "BeforePaint",
+      "package": "MrtsGame.u",
+      "source_sha256": "62b6530b2f1deabe86286762464d3e6d21db165cef87f241d266a35f2d06baa1",
+      "source_bytes": 5,
+      "absolute_offset": 756498,
+      "serial_sha256": "ac9304adbb6f1befebce0de2418afd3ba91700bf297bf70b3bbd080caeddc789",
+      "call_context": [
+        {
+          "offset": 34,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/1",
+      "source": " G = ",
+      "owner": "BeforePaint",
+      "package": "MrtsGame.u",
+      "source_sha256": "02d4f45f70845c1e4b8baed9d5bf1895a6f9f1bc7c47314c339755ad9cf75cb5",
+      "source_bytes": 5,
+      "absolute_offset": 756512,
+      "serial_sha256": "ac9304adbb6f1befebce0de2418afd3ba91700bf297bf70b3bbd080caeddc789",
+      "call_context": [
+        {
+          "offset": 34,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/2",
+      "source": " B = ",
+      "owner": "BeforePaint",
+      "package": "MrtsGame.u",
+      "source_sha256": "633dfc006906ee4c636ba51690d995ef60c3e41206d848716eab638240158795",
+      "source_bytes": 5,
+      "absolute_offset": 756526,
+      "serial_sha256": "ac9304adbb6f1befebce0de2418afd3ba91700bf297bf70b3bbd080caeddc789",
+      "call_context": [
+        {
+          "offset": 34,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/3",
+      "source": " A = ",
+      "owner": "BeforePaint",
+      "package": "MrtsGame.u",
+      "source_sha256": "49de31bdb66955ee1ee199a6d1621762e6d930be3754a45bf0efacbb2119bf7e",
+      "source_bytes": 5,
+      "absolute_offset": 756540,
+      "serial_sha256": "ac9304adbb6f1befebce0de2418afd3ba91700bf297bf70b3bbd080caeddc789",
+      "call_context": [
+        {
+          "offset": 34,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/0",
+      "source": "Sid",
+      "owner": "NotifyfromMessageBox",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 909115,
+      "serial_sha256": "eed9b80bf72ce1998b602cf2ebd07a90881d1e85a6f6c8e09cb1b880bf5ab5bf",
+      "call_context": [
+        {
+          "offset": 4140,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 24,
+          "symbols": [
+            "SetMessage"
+          ]
+        },
+        {
+          "offset": 4142,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 4143,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/1",
+      "source": "Sid",
+      "owner": "NotifyfromMessageBox",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 909194,
+      "serial_sha256": "eed9b80bf72ce1998b602cf2ebd07a90881d1e85a6f6c8e09cb1b880bf5ab5bf",
+      "call_context": [
+        {
+          "offset": 4219,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 24,
+          "symbols": [
+            "SetMessage"
+          ]
+        },
+        {
+          "offset": 4221,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 4222,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/2",
+      "source": "Sid",
+      "owner": "NotifyfromMessageBox",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 911554,
+      "serial_sha256": "eed9b80bf72ce1998b602cf2ebd07a90881d1e85a6f6c8e09cb1b880bf5ab5bf",
+      "call_context": [
+        {
+          "offset": 6579,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 40,
+          "symbols": [
+            "AddMessage"
+          ]
+        },
+        {
+          "offset": 6581,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 6582,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/3",
+      "source": "Sid",
+      "owner": "NotifyfromMessageBox",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 911727,
+      "serial_sha256": "eed9b80bf72ce1998b602cf2ebd07a90881d1e85a6f6c8e09cb1b880bf5ab5bf",
+      "call_context": [
+        {
+          "offset": 6752,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 40,
+          "symbols": [
+            "AddMessage"
+          ]
+        },
+        {
+          "offset": 6754,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 6755,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/11820/string/4",
+      "source": "Sid",
+      "owner": "NotifyfromMessageBox",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 911900,
+      "serial_sha256": "eed9b80bf72ce1998b602cf2ebd07a90881d1e85a6f6c8e09cb1b880bf5ab5bf",
+      "call_context": [
+        {
+          "offset": 6925,
+          "opcode": 27,
+          "reference_kind": "name",
+          "reference_value": 40,
+          "symbols": [
+            "AddMessage"
+          ]
+        },
+        {
+          "offset": 6927,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        },
+        {
+          "offset": 6928,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12125/string/0",
+      "source": "None",
+      "owner": "NewFontObj",
+      "package": "MrtsGame.u",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "source_bytes": 4,
+      "absolute_offset": 994709,
+      "serial_sha256": "7797c84b04cfd920d8d7d319cd10ccc021af6fdcb75a0dc509ea9cc416c1a440",
+      "call_context": [
+        {
+          "offset": 91,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12141/string/0",
+      "source": "None",
+      "owner": "NewFontObj",
+      "package": "MrtsGame.u",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "source_bytes": 4,
+      "absolute_offset": 1000310,
+      "serial_sha256": "414b85d69e68c67bc2923e164368e410e4d762bd3beff6da359c5250556d62ee",
+      "call_context": [
+        {
+          "offset": 89,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12260/string/1",
+      "source": " Sid",
+      "owner": "DrawMoneyInfo",
+      "package": "MrtsGame.u",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "source_bytes": 4,
+      "absolute_offset": 1061216,
+      "serial_sha256": "221ec0d7369bd7835b0568a4ee0ecc56e7e4c4c1465a9c6b7ba35da52877231c",
+      "call_context": [
+        {
+          "offset": 274,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 277,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12260/string/2",
+      "source": " Sid",
+      "owner": "DrawMoneyInfo",
+      "package": "MrtsGame.u",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "source_bytes": 4,
+      "absolute_offset": 1061340,
+      "serial_sha256": "221ec0d7369bd7835b0568a4ee0ecc56e7e4c4c1465a9c6b7ba35da52877231c",
+      "call_context": [
+        {
+          "offset": 407,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 410,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12274/string/1",
+      "source": " Sid",
+      "owner": "Paint",
+      "package": "MrtsGame.u",
+      "source_sha256": "3783e9e0c30534d0bd6e543c8d44adf09f0864b030577020ebe93a3f95751352",
+      "source_bytes": 4,
+      "absolute_offset": 1074647,
+      "serial_sha256": "4e624f7e3f219f07dadcb4dad01a3237a6b390c91cdb41582cd182524162ae42",
+      "call_context": [
+        {
+          "offset": 558,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        },
+        {
+          "offset": 561,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12301/string/0",
+      "source": "Sid",
+      "owner": "Paint",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 1111694,
+      "serial_sha256": "840485422990bef79b3dc40131958c9a97ea484a21ef85abecdf6f1c98d049ce",
+      "call_context": [
+        {
+          "offset": 833,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/12301/string/1",
+      "source": "Sid",
+      "owner": "Paint",
+      "package": "MrtsGame.u",
+      "source_sha256": "c26f41151e1217ed83533017accf61fcf80a8804c23ff21f61cfbc4e4d68d592",
+      "source_bytes": 3,
+      "absolute_offset": 1112422,
+      "serial_sha256": "840485422990bef79b3dc40131958c9a97ea484a21ef85abecdf6f1c98d049ce",
+      "call_context": [
+        {
+          "offset": 1561,
+          "opcode": 28,
+          "reference_kind": "object",
+          "reference_value": -92,
+          "symbols": [
+            "SetText"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6780/string/0",
+      "owner": "GetDVHelpText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 807313,
+      "serial_sha256": "06c2f35146aa88b69f3d6cadbd659482b4907762dec65c5d44be894909a11dc8",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6781/string/0",
+      "owner": "GetDVMainText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 807423,
+      "serial_sha256": "6afafa3b06cb965b5487b0022a96118d83d84406128a6814e029ffa965fc448a",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6784/string/0",
+      "owner": "GetBSHelpText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 807819,
+      "serial_sha256": "b8d9c89b6897c52857e5e728fcb7035fb9f43b37cb6702373d29fd2facba853b",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6786/string/0",
+      "owner": "GetBSMainText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 807988,
+      "serial_sha256": "bd248baf589384ae0e70d7cf4e1391ea0e0874d2774a2d7a9cd3606667e05245",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6787/string/0",
+      "owner": "GetStoreHelpText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 808099,
+      "serial_sha256": "9c864265ad2f60d46781efdf50f24320a0f59b1721095615bdf7e9e6155b79bb",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6789/string/0",
+      "owner": "GetStoreMainText",
+      "package": "MrtsEngine.u",
+      "source_bytes": 4,
+      "absolute_offset": 808249,
+      "serial_sha256": "95ae1808f44d9532d67ff2c2ce4fce77302db6e4ff81398dae795379fc02da79",
+      "call_context": [],
+      "source": "None",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/1",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_bytes": 10,
+      "absolute_offset": 603276,
+      "serial_sha256": "6ab23b72af53932f4c3396e6c20623b7cb2ad85e610640c3ba2a0fa01a7c026c",
+      "call_context": [
+        {
+          "offset": 186,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ],
+      "source": "Ver 0.0.0.",
+      "source_sha256": "5df3cb454313a4db3383368e5e400a0d2724da2ad8f45a8ba69b0d9c084cd07e"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/2",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_bytes": 8,
+      "absolute_offset": 603305,
+      "serial_sha256": "6ab23b72af53932f4c3396e6c20623b7cb2ad85e610640c3ba2a0fa01a7c026c",
+      "call_context": [
+        {
+          "offset": 215,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ],
+      "source": "Ver 0.0.",
+      "source_sha256": "b93f86bf8163e794513f8625a097fca5c81b51822afe9a487dea0ec88b2208fd"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/3",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_bytes": 6,
+      "absolute_offset": 603332,
+      "serial_sha256": "6ab23b72af53932f4c3396e6c20623b7cb2ad85e610640c3ba2a0fa01a7c026c",
+      "call_context": [
+        {
+          "offset": 242,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ],
+      "source": "Ver 0.",
+      "source_sha256": "5fe82a11f2afb1fdb502ee3a1189787fb49b0f42551b25505a1dcde826570408"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/4",
+      "owner": "Created",
+      "package": "MrtsGame.u",
+      "source_bytes": 4,
+      "absolute_offset": 603355,
+      "serial_sha256": "6ab23b72af53932f4c3396e6c20623b7cb2ad85e610640c3ba2a0fa01a7c026c",
+      "call_context": [
+        {
+          "offset": 265,
+          "opcode": 112,
+          "reference_kind": "native-index",
+          "reference_value": 112,
+          "symbols": [
+            "Concat_StrStr"
+          ]
+        }
+      ],
+      "source": "Ver ",
+      "source_sha256": "199d79e67ea29a83bddd00c6270c26669b59cb2595173c9ad8284b0bb90ac4a8"
+    }
+  ],
+  "retained": [
+    {
+      "id": "FILE/MrtsEngine.u/export/7134/string/0",
+      "source_sha256": "368dd7f6a7bd943eda712e9c69ad22c37f80f05361b8ad24f32737d7c3339329",
+      "source": "X ",
+      "decision": "retain-original",
+      "reason": "Keep structural multiplication/color-channel symbols; not a language word.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9800/string/0",
+      "source_sha256": "076524852e606fa80780998844a2bca30c13983bd8c434a423cf0a4622a68019",
+      "source": "MrtsGame.MrtsTextureTestSentinelWindow",
+      "decision": "retain-original",
+      "reason": "Class-reference argument to SetSentinel is a machine-readable class path, not a caption.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9814/string/1",
+      "source_sha256": "29404a465cba1fad3c2da47e7d1a99ec957483bf7173114da74c53e22919ee7c",
+      "source": "MrtsGame.MrtsBattleSentinelWindow",
+      "decision": "retain-original",
+      "reason": "Class-reference argument to SetSentinel is a machine-readable class path, not a caption.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9856/string/0",
+      "source_sha256": "d929b6661a68e960e9d684230eafb5172f67a4a7b26caa5b6cff9095089a5e30",
+      "source": "MrtsGame.MrtsMainSentinelWindow",
+      "decision": "retain-original",
+      "reason": "Class-reference argument to SetSentinel is a machine-readable class path, not a caption.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/9884/string/1",
+      "source_sha256": "29404a465cba1fad3c2da47e7d1a99ec957483bf7173114da74c53e22919ee7c",
+      "source": "MrtsGame.MrtsBattleSentinelWindow",
+      "decision": "retain-original",
+      "reason": "Class-reference argument to SetSentinel is a machine-readable class path, not a caption.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/0",
+      "source_sha256": "62b6530b2f1deabe86286762464d3e6d21db165cef87f241d266a35f2d06baa1",
+      "source": " R = ",
+      "decision": "retain-original",
+      "reason": "Keep structural multiplication/color-channel symbols; not a language word.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/1",
+      "source_sha256": "02d4f45f70845c1e4b8baed9d5bf1895a6f9f1bc7c47314c339755ad9cf75cb5",
+      "source": " G = ",
+      "decision": "retain-original",
+      "reason": "Keep structural multiplication/color-channel symbols; not a language word.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/2",
+      "source_sha256": "633dfc006906ee4c636ba51690d995ef60c3e41206d848716eab638240158795",
+      "source": " B = ",
+      "decision": "retain-original",
+      "reason": "Keep structural multiplication/color-channel symbols; not a language word.",
+      "runtime_visibility_verified": false
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/10852/string/3",
+      "source_sha256": "49de31bdb66955ee1ee199a6d1621762e6d930be3754a45bf0efacbb2119bf7e",
+      "source": " A = ",
+      "decision": "retain-original",
+      "reason": "Keep structural multiplication/color-channel symbols; not a language word.",
+      "runtime_visibility_verified": false
+    }
+  ],
+  "runtime_visibility_verified": false,
+  "import_approved": false
+}

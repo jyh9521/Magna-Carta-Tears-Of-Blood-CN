@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "decisions": [
+    {
+      "id": "FILE/MrtsEngine.u/export/6780/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6781/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6784/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6786/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6787/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsEngine.u/export/6789/string/0",
+      "source_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "decision": "translate-display-fallback",
+      "reason": "StringConst fallback returned by UI main/help getter; object/name None opcodes and comparisons remain protected",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/1",
+      "source_sha256": "5df3cb454313a4db3383368e5e400a0d2724da2ad8f45a8ba69b0d9c084cd07e",
+      "decision": "translate-version-prefix",
+      "reason": "TempB StrProperty version prefix with numeric punctuation preserved; not a texture/resource name",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/2",
+      "source_sha256": "b93f86bf8163e794513f8625a097fca5c81b51822afe9a487dea0ec88b2208fd",
+      "decision": "translate-version-prefix",
+      "reason": "TempB StrProperty version prefix with numeric punctuation preserved; not a texture/resource name",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/3",
+      "source_sha256": "5fe82a11f2afb1fdb502ee3a1189787fb49b0f42551b25505a1dcde826570408",
+      "decision": "translate-version-prefix",
+      "reason": "TempB StrProperty version prefix with numeric punctuation preserved; not a texture/resource name",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    },
+    {
+      "id": "FILE/MrtsGame.u/export/8906/string/4",
+      "source_sha256": "199d79e67ea29a83bddd00c6270c26669b59cb2595173c9ad8284b0bb90ac4a8",
+      "decision": "translate-version-prefix",
+      "reason": "TempB StrProperty version prefix with numeric punctuation preserved; not a texture/resource name",
+      "runtime_visibility_verified": false,
+      "source_classification_preserved": "unresolved"
+    }
+  ],
+  "named_call_counts": {
+    "GetStoreMainText": 234,
+    "GetDVMainText": 56,
+    "GetBSMainText": 54,
+    "GetStoreHelpText": 9,
+    "GetBSHelpText": 6,
+    "GetDVHelpText": 5
+  },
+  "runtime_verified": false
+}

@@ -1,0 +1,974 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "talisman-encyclopedia-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00006460.cdg/slot/0",
+      "source_sha256": "9d88ed3ba937b48c05b2ace3b3de8c51d70cbb923714d67d61ef3955323ff139",
+      "target": "天·意气风发",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/1",
+      "source_sha256": "c58f1f38b00c12a91d174e01edf286c7c4216fb460f83cf76173cf2a0e91c1f7",
+      "target": "鼓舞士气，提高物理攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/2",
+      "source_sha256": "ff5af1189f5e42301f6789d3d882643078b719ec8a493c9b5ed57df4152aa8c2",
+      "target": "天·天空之云",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/3",
+      "source_sha256": "09200c919908572047bd33faee298e41b891c42a4821d540d181f05111bcf7f7",
+      "target": "增加天属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/4",
+      "source_sha256": "6fb040ce32a6a579a7d57960f763345d48d92ff6e2888e40eed8bf317a964ae7",
+      "target": "天·重获行动",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/5",
+      "source_sha256": "a3d8beea30716f69b3a078a4b1b8e1db01baec402b177205b5bc046e60168bf6",
+      "target": "让陷入麻痹的我方角色$n重新行动",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/6",
+      "source_sha256": "03fdb115cada1cef89cc7f19add6ae1bdaada020b765eb273074f62683d36117",
+      "target": "天·犹豫",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/7",
+      "source_sha256": "306cd61d46027b9566a7a321147b8578c03ec240a7e3515cbf3750499e262ca3",
+      "target": "降低敌方全体的物理攻击力，$n使战斗更有利。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/8",
+      "source_sha256": "f6b2ba7c405a976f0eec03ec5df19b1cf3b5c2fdee086feb12edbd001e5cc88b",
+      "target": "天·崩塌的山",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/9",
+      "source_sha256": "b79c21eef8d2ee3779d58cc111190b7c530ddd63e98cda292f69d2d7f2e54958",
+      "target": "少量提高我方的魅力",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/10",
+      "source_sha256": "91fb092c8d85e7d50ed2a55a1e287071c7eafc9db35ceea731b6d6d6855c3d3c",
+      "target": "天·破碎的岩石",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/11",
+      "source_sha256": "471eb01c552366222b66fe2c5668f5d7dfe344ff17779ad665902f9ebd1c19c9",
+      "target": "让石化的身体$n恢复正常",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/12",
+      "source_sha256": "487861bba1fa73d40e4e36e61971ca273409e9c6865615553c6964009f2b7f51",
+      "target": "天·心情高涨",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/13",
+      "source_sha256": "a448fc3fa0a73398195358ea215d051f0ae651bf6ecd66071a597a409498ce3b",
+      "target": "鼓舞全员士气，$n提高全员的物理攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/14",
+      "source_sha256": "efcd0a7466b62d8e052dffb0a2a0e366db9e84004cf4a8127dae3896de4b673d",
+      "target": "天·自己的外壳",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/15",
+      "source_sha256": "893f6b29ef925ba3953a1a114a4ff28451fb44b37bf4830c0571ccdd2513f9c2",
+      "target": "解除我方一人的$n所有异常状态",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/16",
+      "source_sha256": "21bd41ec8713ee21c80bf17191d39b62f875fa19e4e7f929c138ac5a4b240765",
+      "target": "天·克服逆境",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/17",
+      "source_sha256": "47a26645edfab2970e99297d3873abf1a876ad582433eadfe73c319c937c5d05",
+      "target": "适度提高HP，$n使人能够克服任何逆境。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/18",
+      "source_sha256": "9d0b511eed16333fb0611783ae469cae4e5883c53452b7ece3e8f1589382bb68",
+      "target": "风·风之低语",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/19",
+      "source_sha256": "252044ba27618831f3391b8894acdefaf755443a69b12e2bad80954461661ae6",
+      "target": "增加风属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/20",
+      "source_sha256": "2fbb7072594d63fb392540302e1ff3721b4db9d65b175bf01bf71f29a16dfff9",
+      "target": "风·风之疾驰",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/21",
+      "source_sha256": "490714ea5b1c65dcfb900d9aa61c65753f5565f17246c1e092b79e5a93540200",
+      "target": "使范围内的敌人麻痹，$n无法行动。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/22",
+      "source_sha256": "6ebefa81cce31c181f69ded2594bb1e5930b644763ac345cb6ac274311781fb5",
+      "target": "风·无人之地",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/23",
+      "source_sha256": "42dec313a3c5397f4ad121e68a65de513f56f202c936c6414dd4ca03c1f46fcd",
+      "target": "热烈的声援让听者$n集中精神，$n提高魔法攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/24",
+      "source_sha256": "9e5ef226a59ed62e02a16804dfe29df05220777706a45ccdac86a76f353f10b1",
+      "target": "风·裂开的大地",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/25",
+      "source_sha256": "43616e35afb072be21552526ea9cf64c629a3e9b08ef3b89e2ecdaf14a25356c",
+      "target": "适度提高$n我方的魅力",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/26",
+      "source_sha256": "f773e8683627675948d7ccb962ce269ebc6559f7a9d9520ad1818ec89010bdc9",
+      "target": "风·受缚的自由",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/27",
+      "source_sha256": "528e59de782216e70ae4fe15a59f7a343e988c18b07e0ecf2d3d6ec9f835bf6b",
+      "target": "同时解除中毒与麻痹",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/28",
+      "source_sha256": "cac3cf2a9ccde59270b8a35b803b1d227c50fbdcb2d87451607a23727b385a2b",
+      "target": "风·伤口愈合",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/29",
+      "source_sha256": "6831d0ff622eeccdcaf0f0e5e578457911914f11a3c7ff3c52a988aed61dc0f6",
+      "target": "治愈伤口，$n恢复适量HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/30",
+      "source_sha256": "4de73e5adbac3323cea6f19d6fe2a7ad7f3ae15dde9ab25b7c98881b5961cb73",
+      "target": "风·寂静世界",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/32",
+      "source_sha256": "a232c1af3f5e513fd3bbf636d90d39df94ce7c23311b20ca8c18923596d97b37",
+      "target": "风·大逃脱",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/33",
+      "source_sha256": "705b17b32047699d8fabfcae61fe5218cac50185ea1601406a579ccb76ca2ba0",
+      "target": "让人从不利的战斗中$n安然脱身",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/34",
+      "source_sha256": "1ae4f9d2f3fb58bc37fb463085eb4fa1fa3236ed3422a5de13cd7405c90c1cf9",
+      "target": "风·天使之声",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/35",
+      "source_sha256": "faf9192150f87470dc400323c0cb30cfd2f328666190e1fcead4f92ff55e79b6",
+      "target": "天使之声环绕我方，$n抵御敌人的物理攻击。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/36",
+      "source_sha256": "d83eb289428f74adddea6dfc3093963e95c3f4b668cbc88eeb56ebfa98cc24f7",
+      "target": "江·江河泛滥",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/37",
+      "source_sha256": "b66f3ba0fbb2617a1b6755331d53f023bf394f467c21e5b8b13f13a87fb51e1e",
+      "target": "增加江属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/38",
+      "source_sha256": "6890692baf0d2e8f4c84cff36a0a6f599e05d2d2fcc6f361a733b8db163745e2",
+      "target": "江·小心使用",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/39",
+      "source_sha256": "3dadd41316f71c0516d1eda75ecadc8141b42db534221e113878086cb7f4899e",
+      "target": "使敌人中毒，$n逐渐削减HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/40",
+      "source_sha256": "aa947095378683d5b102ceef136c50ebfb21faad7c088cd81fd3e8bb26e898c3",
+      "target": "江·堕落之惧",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/41",
+      "source_sha256": "2783d807210061d54c2ca4b5981ce9341a8c473cfb2a0568ec0999a3ef4f2f41",
+      "target": "不为任何事物迷惑，$n坚定心志，$n大幅提高魔法防御力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/42",
+      "source_sha256": "023031ccbca1e670f02f7e6b842fcc2fa8c7f7c4c742d8df2b505700a500527d",
+      "target": "江·熄灭的火",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/43",
+      "source_sha256": "85c76cfc25ca5091cb0724e53702828eb421d133c1c900e1872470f9f85ecd30",
+      "target": "少量降低敌方的魅力",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/44",
+      "source_sha256": "a10bcefdb161ae31e101b808e551628d6c66902a2d5b63e2b5c7e3a3f3666a75",
+      "target": "江·愤怒之拳",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/45",
+      "source_sha256": "105196cfe2d5eb65fe08abdead02b5c6c9671cbd331c91d7cf1071a301a038ec",
+      "target": "提高敌人受到的伤害",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/46",
+      "source_sha256": "eba49e6be42563b6927916fc3297a4926e4753bb274e79ac313a4aa498208eb7",
+      "target": "江·祝福之声",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/47",
+      "source_sha256": "9bc29b1c4c036b28d41a453029acb3fef0f06cbb96d04160e9a1421376a33243",
+      "target": "受到祝福，伤口完全愈合，$nHP完全恢复。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/48",
+      "source_sha256": "eec8a0fad8cbaffde9506ff7b7b887096407fbcb9aa2c5f2553977ce32ca7ef4",
+      "target": "江·坚定信任",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/49",
+      "source_sha256": "c8cf21187644b121475e24507d86d385403efde2397c489d1e89462bce25a327",
+      "target": "解除全员的异常状态",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/50",
+      "source_sha256": "5c51192be91cb5efa37a7b61e92ad52e98f6d4e1e1de1ee17e404e00762888ac",
+      "target": "江·万物归初",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/51",
+      "source_sha256": "036aa57139b7f682bce31c039071424e6ca04eeefcf60f9fb528020c25d10d34",
+      "target": "大幅降低敌方的魅力，$n使其丧失战斗意愿。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/52",
+      "source_sha256": "af0aa9d9cff6643ee19f5b8ec21a675d8ec5b67d9642c366456a60cb5d66e678",
+      "target": "江·必然结果",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/53",
+      "source_sha256": "6b13bfdab38b24dc39b493a19c44b0d19a0c6185f3f86f9ab708af305c36c474",
+      "target": "帮助获得少量额外经验",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/54",
+      "source_sha256": "d881c90f15e369f91d23f0230bab6a6124df17513391568cc66ed805c74a3c4b",
+      "target": "水·中和的毒",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/55",
+      "source_sha256": "ce9347c0eca9f4a2fc2d5cbc4badaa3d9c34275dae51a9e24ae40886c69d9ebf",
+      "target": "治疗中毒的实用符咒",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/56",
+      "source_sha256": "57a092602e235d1bf62003e9310a5a9305f901bb9794c9aa37e1cca618c8237f",
+      "target": "水·水之流动",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/57",
+      "source_sha256": "260fd2e8f09a816bde40680615a0f19095f92a296be8a1c6243cbaa72e4beb3a",
+      "target": "增加水属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/58",
+      "source_sha256": "98ee89fdf962762a147f4b81126c69114075d1c5f276a2e1f6720b11f1560481",
+      "target": "水·小小谢意",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/59",
+      "source_sha256": "3322d770cf2cd5f1170dbe78c99df28d0579a874ebcd0fc67417a5e505ee9d73",
+      "target": "恢复少量HP，$n使人心怀感激。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/60",
+      "source_sha256": "bf03232c64b68accd62d32d26a66e58d5eb6937ad0544d69aa573996dccc799a",
+      "target": "水·剥落的铠甲",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/61",
+      "source_sha256": "2463768941efdecb646bf7989c37b6ae2e2e2d4008e55a789d3fdc511c3bb3d2",
+      "target": "使目标恢复到$n防御提升前的状态",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/62",
+      "source_sha256": "683d7c431e17113aeebc95976f6fe3a34cefafdec7c3db2da614b8ce3bbf522e",
+      "target": "水·中断的电击",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/63",
+      "source_sha256": "2a53f9e9811c1d7672dff6e8093e2b50a7de736cd0c011d0eac39c12a8164de7",
+      "target": "适度降低$n敌方的魅力",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/64",
+      "source_sha256": "ddd64cf9ef9fbb0474fad6c80ee0deba8bfeaa5c891b1c52fffe25be13f3a730",
+      "target": "水·如同新芽",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/65",
+      "source_sha256": "b10d330823846bb87679709d85a2b41ff6fc78f34fd2572be9fa02508a2dc509",
+      "target": "将强大生命力分享给全员，$n恢复少量HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/66",
+      "source_sha256": "2a7eb5d1772a8d5b48348f6a06388d2b515165f5357f0ec540c9060b41da0ad9",
+      "target": "水·一人为众人",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/67",
+      "source_sha256": "9f8103cda5c853c80799eea4c2d37d56ce1fa0efa6afb0626ca5d167aa26b913",
+      "target": "集中我方全员的精神，$n提高魔法攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/68",
+      "source_sha256": "5744d278e619af85938f1471a535079a0da6adeb400ab0b6562d14217dbf2966",
+      "target": "水·团结的力量",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/69",
+      "source_sha256": "98037d91fc68478461582257c52287fd2afa6f4848467843d14c2612b7c3bb15",
+      "target": "解除全员的异常状态，$n并恢复少量HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/70",
+      "source_sha256": "70b8bcd950cfbc4ec07f6896be30f2b45d8264a6a0d95096c467e16f5c80617e",
+      "target": "水·天界回响",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/71",
+      "source_sha256": "adda7c99ba20c2f70de65124d0ced03c76f10a0fd0da55ff8c1c4fc83701d956",
+      "target": "天上的回响将祝福广泛传开，$n大幅恢复我方全员的HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/72",
+      "source_sha256": "40c39353c69625ddbf569e3d225fa36ef0080ecd7561ef357fc2c3aa4ba233cb",
+      "target": "山·终极孤独",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/73",
+      "source_sha256": "8848dce6a81ae9fcb84831d4a1d9e1b07389f3398e69363cc9fe1d6f14bb2d82",
+      "target": "提高精神力，$n获得抵御任何魔法攻击的能力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/74",
+      "source_sha256": "78e65fc2e18181d7df31024e871c03bf6d2ecef29f0e0225f21b1aae4d367fc1",
+      "target": "山·山之回响",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/75",
+      "source_sha256": "ea813cbd06827d1101127624a7546309da64541add0f2cd3334493cc50551bee",
+      "target": "增加山属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/76",
+      "source_sha256": "9220e0cd9aec7c8cfc96b00c2dc284bb73e166ace897d9024ccf7804ffdd2ada",
+      "target": "山·麻痹的身体",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/77",
+      "source_sha256": "08f3df6d61f39d793521f86d6c41fe1088d52ea10eeb47ddb0449836d8693256",
+      "target": "使敌方一人麻痹。$n不要对女性使用！",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/78",
+      "source_sha256": "3d67ffe125e8a3281df1b25e5d0d1da54d0ed32e520e25db55cabb3cea689890",
+      "target": "山·悲伤连锁",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/79",
+      "source_sha256": "058e0161434642898e1455207cebae5e9892b9c97c9da0b5229cd5de3cdeb8f8",
+      "target": "扰乱敌人的精神，$n削弱其对魔法攻击的防御。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/80",
+      "source_sha256": "d41858cba99d896840c828ac48ca54cf579f0ada8e8ee93b4e95f0434b3c2e0b",
+      "target": "山·暗黑天空",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/82",
+      "source_sha256": "424d1bca31c5c94bb2259b33640e0e99465c905a3243213e19bb28655768007a",
+      "target": "山·放马过来！",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/83",
+      "source_sha256": "f67aa81109a14b412c213a219526d3c27444fe739040e47d237cb70c454e8abd",
+      "target": "大幅减少$n敌人攻击造成的伤害",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/84",
+      "source_sha256": "c43a70b0fc8abf9ff0944ff632407baa904684b1c4959fb3bd0fec5d14fd6832",
+      "target": "山·禁止接触",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/85",
+      "source_sha256": "839ebbcd0a3a121503eeb772fcc0eff0bd6a7458735cd67f08f05e011afa0a8b",
+      "target": "提高我方全员的精神力，$n增强对魔法攻击的抗性。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/86",
+      "source_sha256": "90874e1e4d11005e50a7586ca9e27d752f044b23a46a3475c618d33670823b47",
+      "target": "山·颠倒的世界",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/88",
+      "source_sha256": "e7609aaf2404cdc2db3be19598a595ac539997ccb256e1ab1372d4edaf6358fa",
+      "target": "山·救援船",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/89",
+      "source_sha256": "adb32c8882a1b6cdaeeaf0db60e47cd29b4c1a8486dc241d8f0ba709cadd019e",
+      "target": "帮助获得大量经验值",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/90",
+      "source_sha256": "b90cbb2f95271b096000e0b6c0d7e3ab1d7121a622506733e2acfbb87a82e4fa",
+      "target": "地·大地回响",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/91",
+      "source_sha256": "0a0c70dd1c0b6b116a1b7eba4c079947e3b26de8c017d65969d6d573ea8281a1",
+      "target": "增加地属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/92",
+      "source_sha256": "b704d639ff8a519137ef2a26711ae363cfda931627f4021417dc9fa177704365",
+      "target": "地·精神统一",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/93",
+      "source_sha256": "f6043a17dbcc04fe9c59eb648cc80bba17eaaa43cb21167a8f9e46e37ca57bfa",
+      "target": "集中精神，$n提高魔法攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/94",
+      "source_sha256": "ae887de32f1da1702b4f9cd06761c72cf2b4dd7d3695e6f03c6ad90196bf14c7",
+      "target": "地·石像之眼",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/95",
+      "source_sha256": "a2cc6a20b712b46bb2fff7b398c5ab9eb9390beeec47c8d07b2a086776833bfb",
+      "target": "使敌方一人石化。$n小心，身体会变成石头！",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/96",
+      "source_sha256": "8a0bb95b8912d8ad6c6366692a7e5ee12f692bf659f63255c0286271a948c72b",
+      "target": "地·消逝的风",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/98",
+      "source_sha256": "bfe0bc40c4c4175936c47b973142d04445a106b5ec026539f22ce06303d74fd7",
+      "target": "地·无法遵从的命令",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/99",
+      "source_sha256": "6a9e285bb01b24114e73c7d710a82904a86f9bc1d1d1ccec32903dd0db97f39b",
+      "target": "拒绝命令，$n使统率力大幅下降。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/100",
+      "source_sha256": "3717e63406f738421ae734ebf10ee4d79aefacd59dfdab5fdf7792dfc980dc87",
+      "target": "地·井然有序",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/101",
+      "source_sha256": "e22f486e0ec9405ff2d7960016d833eccbbbbf07492078d8dc1cd5dcd07f6e81",
+      "target": "让我方一人恢复井然有序的状态，$n解除混乱。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/102",
+      "source_sha256": "2407f2fea009dcd23a53f1de44e855447025d4ebd85e6d1572103b0bb5c364f3",
+      "target": "地·出发！",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/103",
+      "source_sha256": "2987e0c739e0e25f3a50126c73c798b6fd4f60ceddecf009c95caed7041dee10",
+      "target": "提高全员的物理与魔法攻击力，$n使其进入最佳战斗状态。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/104",
+      "source_sha256": "886a485df5f6538a5e03095d28b6671069c7865662dd0f547c87fe0e3fd82e28",
+      "target": "地·跟我来！",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/105",
+      "source_sha256": "b2877de9a122df9e2cc07650b590dd6c80d95fe869569761d1578218c2427092",
+      "target": "让全员同心协力，$n提高统率力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/106",
+      "source_sha256": "2d4a31ad7efc500a62897d0788f4a5974b593d3b0d6537d2af36f3a3cc8ff2e5",
+      "target": "地·小小幸福",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/107",
+      "source_sha256": "adb32c8882a1b6cdaeeaf0db60e47cd29b4c1a8486dc241d8f0ba709cadd019e",
+      "target": "帮助获得大量经验值",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/108",
+      "source_sha256": "209d929e0a5dff263d42a7ae55e7da003722fda3d0bde8c7da6c28d5939161f5",
+      "target": "火·如同疾风",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/109",
+      "source_sha256": "fc4574025e32c4206325435a4c5579e0a575052c421c492cb2f3ed83b7ba880b",
+      "target": "在我方心中点燃自豪感，$n提高物理攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/110",
+      "source_sha256": "e25302cdf5e4e1b2cae6c02545613ef04d24d4727218c54f4318c96b36896824",
+      "target": "火·火之激情",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/111",
+      "source_sha256": "b987e7601d81caab750493e987e322070a45e3bc77ebf43dc9021cfdbf253fdb",
+      "target": "增加火属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/112",
+      "source_sha256": "5d7b72b6dd6439679f7994100f871fbf1c8aa35d2c1c50ff0c86a93651f74561",
+      "target": "火·灵魂分离",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/113",
+      "source_sha256": "b5594de3ed7ebd43171c8986c8be3dc115dbe5281c5856afdf63ec773227a7b9",
+      "target": "使范围内的敌人中毒的$n强力符咒",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/114",
+      "source_sha256": "eea44306519b9843221f7bddeb6345294168f1697c67ae27cb40979a1890621c",
+      "target": "火·痛苦终结",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/115",
+      "source_sha256": "12acdb241ab95c50d41e0d24ee66733073c02f7658e2adc16d737b42d48b380e",
+      "target": "让人恐惧疼痛，$n降低物理防御力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/116",
+      "source_sha256": "bf010b7b14b96a35a2c3f30ad4380d72f8ecd574e8382a42fedfbb1b0ed5cc4c",
+      "target": "火·干涸的江河",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/118",
+      "source_sha256": "a25ae186eb082183dde684f57481b040c23a099c1483356fca24421ad778ddb7",
+      "target": "火·回归最初",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/119",
+      "source_sha256": "717ed53437e84f95be4b7fa2414d44a2b72d8265493cb7b81a79cc38d9ab2818",
+      "target": "使敌方全体恢复到防御提升前的状态，$n降低其物理攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import. Original CDG description says physical attack decreases although its defence-up wording and ITM description emphasize removing defence-up. Literal physical-attack wording retained, not silently rewritten into a runtime effect claim; inconsistency remains in source notes."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/120",
+      "source_sha256": "87849968b494f85e7a9013c4e22ec61c97ce2c3c659a8b3f4f2d50e1f73a6f10",
+      "target": "火·如我所愿",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/121",
+      "source_sha256": "9a37821904675a5ffa700c75003d8be5f66df2523e5c94550d96bfc3849484f8",
+      "target": "给予全员力量，$n使其能够承受任何困境。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/122",
+      "source_sha256": "a42db39dd953df2b5656b992ea4db317c21dc46a87eacc7318279056b7f909f8",
+      "target": "火·充盈世界",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/123",
+      "source_sha256": "628ff88d861ece498d770a8861a6ab654dcc4c3f9dcf809e86b710fc8ab8b724",
+      "target": "补满所有属性的卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/124",
+      "source_sha256": "68ab75e13cb41f78d070a49405a92692e4c33792d3826d97953c6bacf1ea64c1",
+      "target": "火·心脏的跳动",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/125",
+      "source_sha256": "8acafcfac3159fa5145d2e583a3ea63ffd693d9dc0db6e25b7a8c233d1e1a2b9",
+      "target": "连死者也能复活的珍贵符咒",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/126",
+      "source_sha256": "e8148027222df3b6689bddcff5e3f61eb08a7a26b0aa2ddea3e728d876ff8ce7",
+      "target": "雷·失落的时间",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/127",
+      "source_sha256": "395666f5bbc69f1a5799880a124a6c3e87289e9ffc3887fca0f2e06a1d23c0d2",
+      "target": "使敌方一人中毒并麻痹，$n令其受到大量伤害。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/128",
+      "source_sha256": "5db0d671b26441bc694bdffc0f6d195152f096dd4c2f40fa4774c1584c5772e3",
+      "target": "雷·守护我的力量",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/129",
+      "source_sha256": "775a86c9c6768b2aa747eda645f4645446eb8cb0a274ae8d5c62d8ec14da004b",
+      "target": "借助未知的力量，$n提高物理防御力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/130",
+      "source_sha256": "9c71fd9184d5fd9d9d15279d0b268d41e88b747cfb77a49cf759099d562208ea",
+      "target": "雷·雷鸣",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/131",
+      "source_sha256": "401341ac4d68ed382e9fa6c64a201439c6af3fbd5cb3eb4de46afb0411be6820",
+      "target": "增加雷属性卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/132",
+      "source_sha256": "a3ba99926db1a041529e5a23404f0fbecfd29260a034e0c9a9a635fb34feffad",
+      "target": "雷·动摇的心",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/133",
+      "source_sha256": "1f08f1f412f9cec004d401a782f637f0a3ef3c371fe576295d5bdd8fcb36adb5",
+      "target": "使敌方全体精神涣散，$n降低魔法攻击力。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/134",
+      "source_sha256": "b49ab7e977c3e4bcebf2d51381adc07a01b2fb9b4c9dea65789de64d8a977a57",
+      "target": "雷·缓慢的时间",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/135",
+      "source_sha256": "7b63acf97607e609f72cf74cf0b0a979bf7783d665e3de0c8084a4839eb570fe",
+      "target": "解除我方一人的战斗不能状态，$n并恢复少量HP。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/136",
+      "source_sha256": "95f6724f0dffb310d5240212cd7d569fe0b55101c754bb64e8b52bda63b079e5",
+      "target": "雷·泛滥之水",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/138",
+      "source_sha256": "2bad9738e28a971a652e2ca55092386d1c8fafde458ef945674056e4b934ffa8",
+      "target": "雷·无敌最强",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/139",
+      "source_sha256": "0ce8902972edc88815221af3270d86b1073bc17bbb1bc0eee20348d77540d1e5",
+      "target": "以强大的魅力，$n使战斗向有利方向发展。",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/140",
+      "source_sha256": "1dbad9f7e590065bd061610dd1ad1fcef52c6761ff55918711bb1695c1d9bca3",
+      "target": "雷·守护众人的力量",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/141",
+      "source_sha256": "72dcb994b8d91f30633b6e3b7a3b3fcd7e66feb56b856cf3104795686e40794b",
+      "target": "保护全员免受$n物理攻击的符咒",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/142",
+      "source_sha256": "b17264f73c50d5e2454ff14b9ae928a851dee8d71ee501538e038167ba1e510f",
+      "target": "雷·充盈的心",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    },
+    {
+      "id": "SHIP/00006460.cdg/slot/143",
+      "source_sha256": "0be652f43c8f7dfc5f772327b4a390af9ae3c9a86a71dc3686bb7eaf57790075",
+      "target": "增加所有属性的卡恩",
+      "status": "reviewed",
+      "context": "CDG talisman encyclopedia name/description;72 names match canonical ITM titles after whitespace lookup for review only, original source identity unchanged.66 descriptions manually reviewed; control sequence and ally/enemy/effect scope preserved. Matching titles do not imply verified shared cache or automatic linked import."
+    }
+  ]
+}

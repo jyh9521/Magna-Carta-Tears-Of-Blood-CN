@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "source_corpus_sha256": "39884cc3e9175811800c92ee8ae7f3d1a50b96a67bb9d0d41cf0fb8f84895dc6",
+  "entries": [
+    {
+      "id": "SHIP/00000357.fpb/seq/19",
+      "resource": "SHIP/00000357.fpb",
+      "resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+      "source_sha256": "191f877320bbb86e95b2098204bc4e8d2dccd48f4a4848f054d14e37a18464ad",
+      "offset": 602,
+      "source_bytes": 29,
+      "source_encoding": "cp932",
+      "reading_sha256": "cf083f15aedf1e5b1ccd5678f9b9e0fb0b6717210f169a9080ebb6b1af002b5c",
+      "target": "$D06阿玛巴德？$D26 $D06巫女？",
+      "status": "reviewed",
+      "import_approved": false,
+      "runtime_encoding_verified": false,
+      "context": "Fullwidth Katakana-only source reviewed against canonical names; shop weapon callouts are wording decisions, not inventory identity claims. Original bytes and native text span bound independently.",
+      "native_binding": {
+        "id": "SHIP/00000357.fpb/seq/19",
+        "source_resource": "SHIP/00000357.fpb",
+        "source_resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+        "source_offset": 602,
+        "source_bytes": 29,
+        "source_sha256": "191f877320bbb86e95b2098204bc4e8d2dccd48f4a4848f054d14e37a18464ad",
+        "physical_index": 18,
+        "native_record_key": 19
+      }
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/22",
+      "resource": "SHIP/00000357.fpb",
+      "resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+      "source_sha256": "6409ffc4b1adf06e74f5e3bedcf0ae2c69cdd6a3fd31f858d22ddc4a9b3b355c",
+      "offset": 722,
+      "source_bytes": 31,
+      "source_encoding": "cp932",
+      "reading_sha256": "cf9309a1562c64b3f8444b91e4895f8750b682f475edc80d37a3c26f7385a5ea",
+      "target": "$D08莉丝？？$D68 $D15莉丝！",
+      "status": "reviewed",
+      "import_approved": false,
+      "runtime_encoding_verified": false,
+      "context": "Fullwidth Katakana-only source reviewed against canonical names; shop weapon callouts are wording decisions, not inventory identity claims. Original bytes and native text span bound independently.",
+      "native_binding": {
+        "id": "SHIP/00000357.fpb/seq/22",
+        "source_resource": "SHIP/00000357.fpb",
+        "source_resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+        "source_offset": 722,
+        "source_bytes": 31,
+        "source_sha256": "6409ffc4b1adf06e74f5e3bedcf0ae2c69cdd6a3fd31f858d22ddc4a9b3b355c",
+        "physical_index": 21,
+        "native_record_key": 22
+      }
+    },
+    {
+      "id": "SHIP/00000357.fpb/seq/23",
+      "resource": "SHIP/00000357.fpb",
+      "resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+      "source_sha256": "e6f602ece71cd0b697ffeb71b4d1aeb99fb9cfa4e453e0eb2fe345ee62fbf33a",
+      "offset": 753,
+      "source_bytes": 8,
+      "source_encoding": "cp932",
+      "reading_sha256": "d7f27c2e2760b73e5ed7d67812713d7b5c180048828dd896785d4e46c45d60bb",
+      "target": "莉丝！",
+      "status": "reviewed",
+      "import_approved": false,
+      "runtime_encoding_verified": false,
+      "context": "Fullwidth Katakana-only source reviewed against canonical names; shop weapon callouts are wording decisions, not inventory identity claims. Original bytes and native text span bound independently.",
+      "native_binding": {
+        "id": "SHIP/00000357.fpb/seq/23",
+        "source_resource": "SHIP/00000357.fpb",
+        "source_resource_sha256": "8a4e944a233942d7154639ab8f367ca8224cfd69a101865ca16f59341628105b",
+        "source_offset": 753,
+        "source_bytes": 8,
+        "source_sha256": "e6f602ece71cd0b697ffeb71b4d1aeb99fb9cfa4e453e0eb2fe345ee62fbf33a",
+        "physical_index": 22,
+        "native_record_key": 23
+      }
+    },
+    {
+      "id": "SHIP/00001202.fpb/seq/14",
+      "resource": "SHIP/00001202.fpb",
+      "resource_sha256": "ab69f498c046c5e8cd43e648d85f3b75c72aa52b98a9f712cff642916ae93816",
+      "source_sha256": "62c2f19d5b457a19f1ea65328b24f34333aa3672c199523cdb201a2ede68b72c",
+      "offset": 1402,
+      "source_bytes": 30,
+      "source_encoding": "cp932",
+      "reading_sha256": "1e894316c5af139bb08ff6ce2a79df6fdd3f635ea46099e38f3ff7f0c56dfd91",
+      "target": "长剑！优质盾！",
+      "status": "reviewed",
+      "import_approved": false,
+      "runtime_encoding_verified": false,
+      "context": "Fullwidth Katakana-only source reviewed against canonical names; shop weapon callouts are wording decisions, not inventory identity claims. Original bytes and native text span bound independently.",
+      "native_binding": {
+        "id": "SHIP/00001202.fpb/seq/14",
+        "source_resource": "SHIP/00001202.fpb",
+        "source_resource_sha256": "ab69f498c046c5e8cd43e648d85f3b75c72aa52b98a9f712cff642916ae93816",
+        "source_offset": 1402,
+        "source_bytes": 30,
+        "source_sha256": "62c2f19d5b457a19f1ea65328b24f34333aa3672c199523cdb201a2ede68b72c",
+        "physical_index": 14,
+        "native_record_key": 14
+      }
+    },
+    {
+      "id": "SHIP/00004044.cht/slot/12",
+      "resource": "SHIP/00004044.cht",
+      "resource_sha256": "589b5660f77a80e3c046944ab6e64495ae013de69616c293728845e8b66e8e4d",
+      "source_sha256": "a6c557e9fa6d5a78befbd08fc2fb3ad1133d2a025b7537f47d5508e7061888f0",
+      "offset": 6412,
+      "source_bytes": 12,
+      "source_encoding": "cp932",
+      "reading_sha256": "a86ae59c9b5176f24f3639240a94dfd5cbd332b8e29ce7453fecc1a86c451653",
+      "target": "阿蜜拉女王？",
+      "status": "reviewed",
+      "import_approved": false,
+      "runtime_encoding_verified": false,
+      "context": "Fullwidth Katakana-only source reviewed against canonical names; shop weapon callouts are wording decisions, not inventory identity claims. Original bytes and native text span bound independently."
+    }
+  ]
+}

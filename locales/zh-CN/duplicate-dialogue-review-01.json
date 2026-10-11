@@ -1,0 +1,2073 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "duplicate-dialogue-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/0/field/0",
+      "source_sha256": "0b371f5970888ed8ebc85902068064fc32d4f45ca84d39c61055c563071139cf",
+      "target": "风月流",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/16/field/0",
+      "source_sha256": "30a2102bf849c4d2665983066c62870ee66147cd8ca700992571c39a1ce51324",
+      "target": "火球魔道流",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/19/field/0",
+      "source_sha256": "d245bbbe627bf437b6d90809a2c9a4d53e11d97f1b068a309075fc7fddc513e5",
+      "target": "天命流",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/226/field/0",
+      "source_sha256": "0b371f5970888ed8ebc85902068064fc32d4f45ca84d39c61055c563071139cf",
+      "target": "风月流",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001930.fpb/seq/20",
+      "source_sha256": "350d4fa5f0ad4a043de2328b238c42ac99c06e24e657953e04c82d25d9c19230",
+      "target": "工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/116",
+      "source_sha256": "ab32862ca726e7489191349e3b0959c1b633a32d40f9d5217d0222ab950003bc",
+      "target": "杂货店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/117",
+      "source_sha256": "bbe1694981b742fe0bcae4ab6aa8bb8107ddae7852da9da45192debdcb7c8c29",
+      "target": "道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/118",
+      "source_sha256": "a259344e5ad13443e3b7d2d020dd7ec0170af6bf5e723b9e065687a9e778daa2",
+      "target": "欢迎光临！",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/122",
+      "source_sha256": "f6133ea0a4dfeb1b0eeba1e1b0e0bb8039d08904e01de2824dfdb832ac0a02f3",
+      "target": "占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/123",
+      "source_sha256": "a1ddcc72a79f1752d8740c40eb7c7ddacea985bf118e2241138c5145efb72976",
+      "target": "商人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/126",
+      "source_sha256": "427b33f05be6349908e5170d111f61c611e51671d7b3958a850170d87f987c80",
+      "target": "伊佩莉亚大陆任何地方，都能送你前往。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/137",
+      "source_sha256": "d58a29fe3920bb0d73a94ad9ce3fa269301b85a86e74e75ddf50d40b10427245",
+      "target": "啊，真烦。别再闯进来了。$n这里是我家。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001932.fpb/seq/138",
+      "source_sha256": "847448b39010e0cb8e21beecb4d46eeabb8ccad9fa91e427958fbc0218ef0792",
+      "target": "父亲真是的，偏要把这种麻烦事，$n留给我。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001939.fpb/seq/18",
+      "source_sha256": "350d4fa5f0ad4a043de2328b238c42ac99c06e24e657953e04c82d25d9c19230",
+      "target": "工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001939.fpb/seq/19",
+      "source_sha256": "6e768fcd7a26bc30f2da38f72c9432a8f52a1d47a20c5b44869ed1c486f6a985",
+      "target": "占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001939.fpb/seq/21",
+      "source_sha256": "4f043faab71b5e90b5fd42902129e725dbb32da1a22b131f97200b18b4d7aab1",
+      "target": "道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001939.fpb/seq/22",
+      "source_sha256": "868776e55df919d156026cf1b119a8ecc69274ce8d78dc60414cbefaee15bbd3",
+      "target": "欢迎光临！",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00001939.fpb/seq/23",
+      "source_sha256": "94e3e6624a02052f340b41e39913f3876c6b8918c4f010ac690ff9f621702786",
+      "target": "谢谢惠顾。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/1/field/9",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/3/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/3/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/4/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/6/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/6/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/6/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/9/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/10/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/11/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/11/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/12/field/0",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/12/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/12/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/13/field/0",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/14/field/0",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/14/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/15/field/9",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/16/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/17/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/24/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/28/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/35/field/0",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/35/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/36/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/36/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/37/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/38/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/38/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/38/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/38/field/9",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/39/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/39/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/40/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/40/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/42/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/43/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/43/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/44/field/0",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/44/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/44/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/46/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/49/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/49/field/9",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/51/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/52/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/53/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/54/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/54/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/56/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/57/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/60/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/66/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/66/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/67/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/68/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/69/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/70/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/71/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/72/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/73/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/73/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/74/field/6",
+      "source_sha256": "d4c96a98f62739e9d6b68b569a72d253e5e1530d399cfb2d714c528b4f5e0823",
+      "target": "呵呵。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/75/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/76/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/77/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/77/field/9",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/80/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/84/field/2",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/86/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/87/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/87/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/88/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/88/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/88/field/6",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/90/field/3",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00003531.gft/record-index/90/field/5",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005175.cht/slot/2",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005175.cht/slot/5",
+      "source_sha256": "e95df4a303aca5dd64ab00d230ad3710b44119be775be3132466549450252eb8",
+      "target": "那是……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005175.cht/slot/25",
+      "source_sha256": "305cec90683af49f03714056df84c7fbc563f4bcdbf2eabd66284cdd414bea90",
+      "target": "哼。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005175.cht/slot/44",
+      "source_sha256": "5f0170421deab33497769291df5d6f29679b1ebb61d5ded3e324adfad2f073b0",
+      "target": "请住手。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005176.cht/slot/3",
+      "source_sha256": "93778f8843b6093bbc6ff7b81fa464d57e27f05f46a5a389491968beb9d80d30",
+      "target": "对不起……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005176.cht/slot/7",
+      "source_sha256": "93778f8843b6093bbc6ff7b81fa464d57e27f05f46a5a389491968beb9d80d30",
+      "target": "对不起……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005176.cht/slot/11",
+      "source_sha256": "1857be1d9facb20f6eee58ec4b4ba82eebcad1c5947afb1b3a1863130ef013f6",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005176.cht/slot/21",
+      "source_sha256": "3463298a20c97609b828ed8eafdaa8059b0441049fbde106144525a289c67b8b",
+      "target": "咦？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005176.cht/slot/96",
+      "source_sha256": "0b3e86c2fd3c7631813cc4a25d02fcac990d3bd9ffd5a61958ffa53529a7a5f9",
+      "target": "那倒也是。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005177.cht/slot/37",
+      "source_sha256": "891f481690ea6728f7d6bb606a366c5c59c87fdf42cd2eddb16059b729f87c29",
+      "target": "队长，你没事吧？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005180.cht/slot/16",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00005180.cht/slot/47",
+      "source_sha256": "11b6d9928b2f71d98bcc5071f1ba5d2a2aa23f751d42466e4f03af3be54bcf0c",
+      "target": "是啊。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00007533.cht/slot/35",
+      "source_sha256": "e476a353540b95c0e0a4d622c9322cb4c68bec2a10042236b16c58caef174b14",
+      "target": "原来如此……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00008125.cht/slot/19",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00008126.cht/slot/4",
+      "source_sha256": "6103552d3f5db2568bc55375274471d8633286f7bb72569587175123dadfdbcc",
+      "target": "什么？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00008126.cht/slot/8",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00008127.cht/slot/72",
+      "source_sha256": "ae0aef5c8a3abfa2eb4d0efd57a88bb392939f45683bfef1178e1aa7158a0f0d",
+      "target": "怎么了？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012031.cht/slot/5",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012035.cht/slot/33",
+      "source_sha256": "465dce401101e3ca06265d9dba766e26945abb610223f5439ae3eb4078f7a9c6",
+      "target": "不知道……说不清。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012036.cht/slot/1",
+      "source_sha256": "e2669c4fffb9634b46c98dcd0db1fc85b3ca5d64d29d23526617554917b198f2",
+      "target": "谢谢。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012036.cht/slot/10",
+      "source_sha256": "92e4697e8b8ff7726bc424b7e77f3c5af11d828d993be39585b8c5aa0e0e6dff",
+      "target": "莉丝……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012037.cht/slot/2",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012038.cht/slot/29",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012038.cht/slot/37",
+      "source_sha256": "ae0aef5c8a3abfa2eb4d0efd57a88bb392939f45683bfef1178e1aa7158a0f0d",
+      "target": "怎么了？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012038.cht/slot/52",
+      "source_sha256": "d3811dc9cbb6a97069498ba8db53bb264680a2143a8573194830c6aaa189efc8",
+      "target": "我没事。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012040.cht/slot/17",
+      "source_sha256": "00c9f5e6c9533cf5063634885e1c9a30df8066ec0da8af57316f233aeb3710ca",
+      "target": "莉安娜……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012041.cht/slot/15",
+      "source_sha256": "00c9f5e6c9533cf5063634885e1c9a30df8066ec0da8af57316f233aeb3710ca",
+      "target": "莉安娜……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012041.cht/slot/21",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012041.cht/slot/38",
+      "source_sha256": "c357fdd8017f803c6e3389fac74540e5effb30a388c1c716bd22e2f70448667a",
+      "target": "嗯……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012041.cht/slot/45",
+      "source_sha256": "00c9f5e6c9533cf5063634885e1c9a30df8066ec0da8af57316f233aeb3710ca",
+      "target": "莉安娜……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012042.cht/slot/5",
+      "source_sha256": "e95df4a303aca5dd64ab00d230ad3710b44119be775be3132466549450252eb8",
+      "target": "那是……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012042.cht/slot/11",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012043.cht/slot/23",
+      "source_sha256": "2c32cd47490ae4c7eddbb8d80b6d7c7c1632df3765370ee64a5547645ba79a67",
+      "target": "……是。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012047.cht/slot/18",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012047.cht/slot/57",
+      "source_sha256": "1a5b5120adf52e962738e672c2e940e50874f634551f3f48a0e0a6fb59153ef0",
+      "target": "怎么了？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012047.cht/slot/82",
+      "source_sha256": "92e4697e8b8ff7726bc424b7e77f3c5af11d828d993be39585b8c5aa0e0e6dff",
+      "target": "莉丝……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012047.cht/slot/92",
+      "source_sha256": "daac4fe57fdc915b3e7cc8e36f8c9e11d730ba84342da1fe8de3708d498355ab",
+      "target": "准备好了吗？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012048.cht/slot/2",
+      "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
+      "target": "卡琳兹……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012048.cht/slot/16",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012048.cht/slot/23",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012048.cht/slot/29",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012049.cht/slot/12",
+      "source_sha256": "f759ccb9f01bf4d62cc687cc40b1a94a8c68dd34524938365d5d884fb074be6f",
+      "target": "队长……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00012050.cht/slot/5",
+      "source_sha256": "2031866b84d910bb9691ad5fab68a6bc0af7330ce1f0189811005cc654599fb5",
+      "target": "嗯。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015099.fpb/seq/1",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/20",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/21",
+      "source_sha256": "b38158b7cb6ba8b61b6bff16e8ae2ead9a032551b4dbe20c06ec2b94ee33292e",
+      "target": "神圣的阿玛巴德大神殿的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/25",
+      "source_sha256": "829f3fbbe8712d45083cbff95b7ccff3edc39a60003fb4a0fbfe198c429487ca",
+      "target": "神圣的阿玛巴德大神殿的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/27",
+      "source_sha256": "7159e377c919e903dde7cbb8fc2ac17dc493195edff1a5ebce9552e2c873c04c",
+      "target": "要不要为未来$n占一次卜？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/28",
+      "source_sha256": "fd4c1959d0fde4b2c50ce4bdbcc262fc9b04fa0fc8f030ad39fe2964f9635d64",
+      "target": "愿你的前路，充满$n好运。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/31",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/32",
+      "source_sha256": "86d60a9bec15806acffba1a11aa5f9c3218cab2d9d18d2ff1050d6b9ece954d8",
+      "target": "神圣的阿玛巴德大神殿$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015208.fpb/seq/33",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015209.fpb/seq/20",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015210.fpb/seq/19",
+      "source_sha256": "77b2ef08e4fdf02e36c5b06e9d3c9d1b56b4d1f5dc12643fb61c5c67ae518754",
+      "target": "想要更强的武器吗？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/3",
+      "source_sha256": "321f739fc71a172d9d0bb12552ee05a082d625aa5909604db2b1b36602a87607",
+      "target": "马拉卡特解放阵线真正的敌人，应该是亚逊，$n为什么要对埃蒙这样……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/4",
+      "source_sha256": "7ad55b5cdcd6dd84709c227d7c38b56057a3f432d05b1fb3b6afe702655c5d01",
+      "target": "我觉得，解放阵线那些家伙$n就是卑鄙的胆小鬼。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/36",
+      "source_sha256": "35c94c18f317b11145e20c7f6e006b42030a2ebd61634ae9b7abc084dee9b6b9",
+      "target": "雷米耶装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/37",
+      "source_sha256": "5d208b120d3e0ec17d8d0f40b16b2ac1cc4648e9819b5bcbab1cc669aa660171",
+      "target": "欢迎光临。这里是马拉卡特雷米耶的装备店。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/39",
+      "source_sha256": "7f055fa6ff5da6b25a53360369aadcb39967d3fe01832daa929b2319d8ea428f",
+      "target": "马拉卡特雷米耶的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/40",
+      "source_sha256": "b6278e37b52f749f21392a14048f1e3ddb6fbda87468e618dface89b516a4867",
+      "target": "雷米耶道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/41",
+      "source_sha256": "73815d08135568abf865035dc5d49aabdd7a1e990e073936cbf65838c9761f96",
+      "target": "欢迎来到雷米耶。需要什么$n道具？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/42",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/43",
+      "source_sha256": "78c8abeeff1f348c3d893a1ab1e872ad6bb4f8217f199ca43b2e0424a40d3bb6",
+      "target": "马拉卡特雷米耶的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/44",
+      "source_sha256": "f200a104ebf0814d1c991d0c0c31d177350341b5e635cbe7428037cdc10b4971",
+      "target": "雷米耶占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/45",
+      "source_sha256": "48e847ffa06651b4f5dfa1c0b84aca3bb5723b96a4e2cd18db492803cd471419",
+      "target": "为你占卜，$n今后是否会有好事发生。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/46",
+      "source_sha256": "c244b118e3f1834edaf5042cbb401df3d2159d50600f2386fbd294e2cc3d6b91",
+      "target": "愿神庇佑你。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/47",
+      "source_sha256": "334af21f6ca0f45c7e1b95c7ef0553a0acf9e19e11dd0cba98d64bc0b34a8182",
+      "target": "雷米耶工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/48",
+      "source_sha256": "a13ffa92762ba87a3c22767afe0098088db95f327114c406c253822e52936cb1",
+      "target": "我是雷米耶工坊的主人。想要更好的装备吗？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/49",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/50",
+      "source_sha256": "1ac48a034960bdbbfb1d74be05b88c08b78b022346b0dcb5c9f03dcf668c0e12",
+      "target": "马拉卡特雷米耶$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/51",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/53",
+      "source_sha256": "2ec6c997109dc2e88da22ba1d80dba47208cc197d8ccb88ec435ccbae03a467e",
+      "target": "这里是珠宝店格兰朱。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015211.fpb/seq/54",
+      "source_sha256": "26d1e9ff88a1881eab447d20b0d2e26df6a778d9630fc9b2d1da79fc666ce529",
+      "target": "主要从事珠宝加工。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015212.fpb/seq/37",
+      "source_sha256": "7159e377c919e903dde7cbb8fc2ac17dc493195edff1a5ebce9552e2c873c04c",
+      "target": "要不要为未来$n占一次卜？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015212.fpb/seq/38",
+      "source_sha256": "fd4c1959d0fde4b2c50ce4bdbcc262fc9b04fa0fc8f030ad39fe2964f9635d64",
+      "target": "愿你的前路，充满$n好运。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015212.fpb/seq/39",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/36",
+      "source_sha256": "c4105049e5977e4c0b4066ae40ac26d352dc8da94229c2f8ec46b0d59e7495d4",
+      "target": "埃丰索装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/37",
+      "source_sha256": "e8e9244fcce047427279c8d17f57fd58310d8b9ccdb9636934af7a6a110a65d3",
+      "target": "欢迎光临。需要什么装备？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/38",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/39",
+      "source_sha256": "2df3d805d76a0e8aeff49c7d6b77a295ec719549d945ba55048842eb5db16b4b",
+      "target": "马拉卡特埃丰索的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/40",
+      "source_sha256": "d07763abb23afd60f1dfc34ba8ddabb23c0841e6fc9a3f1dd23ae96ba2f30d66",
+      "target": "埃丰索道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/41",
+      "source_sha256": "0278fa2ce405ac34f0c45162d086cd98c9cbb06597f6ac6bff00428e3f295afb",
+      "target": "欢迎光临。需要什么道具？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/43",
+      "source_sha256": "2fc601cf032926c52bf7f793390f603423553651c73a96b79b6cf19414b2eea0",
+      "target": "马拉卡特埃丰索的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/44",
+      "source_sha256": "e78c27cba010e7650bc5c186f4ff15a66d4731a6eeee9e9ac5d779eb369ee794",
+      "target": "埃丰索工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/46",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015213.fpb/seq/47",
+      "source_sha256": "7fef77651a35eb50ec813058e9c73b9bb9465b9e5805007119f0adf257ab1b30",
+      "target": "马拉卡特埃丰索$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/37",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/41",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/44",
+      "source_sha256": "7159e377c919e903dde7cbb8fc2ac17dc493195edff1a5ebce9552e2c873c04c",
+      "target": "要不要为未来$n占一次卜？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/45",
+      "source_sha256": "fd4c1959d0fde4b2c50ce4bdbcc262fc9b04fa0fc8f030ad39fe2964f9635d64",
+      "target": "愿你的前路，充满$n好运。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/48",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015214.fpb/seq/50",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015215.fpb/seq/44",
+      "source_sha256": "48e847ffa06651b4f5dfa1c0b84aca3bb5723b96a4e2cd18db492803cd471419",
+      "target": "为你占卜，$n今后是否会有好事发生。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015215.fpb/seq/45",
+      "source_sha256": "c244b118e3f1834edaf5042cbb401df3d2159d50600f2386fbd294e2cc3d6b91",
+      "target": "愿神庇佑你。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015215.fpb/seq/48",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015216.fpb/seq/38",
+      "source_sha256": "5dbe94643a33975d2b749695d1f8734d1de6333be59e71df0f03a499db5c2193",
+      "target": "雷斯蒂道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015216.fpb/seq/42",
+      "source_sha256": "e04dfebd6dee18c24baa13bf83d0f2511ead783cee66bddda09e479db9ca057d",
+      "target": "雷斯蒂装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015216.fpb/seq/44",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/21",
+      "source_sha256": "829f3fbbe8712d45083cbff95b7ccff3edc39a60003fb4a0fbfe198c429487ca",
+      "target": "神圣的阿玛巴德大神殿的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/23",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/25",
+      "source_sha256": "b38158b7cb6ba8b61b6bff16e8ae2ead9a032551b4dbe20c06ec2b94ee33292e",
+      "target": "神圣的阿玛巴德大神殿的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/26",
+      "source_sha256": "7159e377c919e903dde7cbb8fc2ac17dc493195edff1a5ebce9552e2c873c04c",
+      "target": "要不要为未来$n占一次卜？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually.;exact-source variant review: canonical LiberationFront or whole fortune phrase/control boundary;letter date spacing unified;resource identities remain independent"
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/30",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/32",
+      "source_sha256": "86d60a9bec15806acffba1a11aa5f9c3218cab2d9d18d2ff1050d6b9ece954d8",
+      "target": "神圣的阿玛巴德大神殿$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015217.fpb/seq/33",
+      "source_sha256": "ef87b5b40643c900f7fad35fc34ffc2e8aef6f4818652ae89805eeec3accc695",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/37",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/38",
+      "source_sha256": "b6278e37b52f749f21392a14048f1e3ddb6fbda87468e618dface89b516a4867",
+      "target": "雷米耶道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/39",
+      "source_sha256": "78c8abeeff1f348c3d893a1ab1e872ad6bb4f8217f199ca43b2e0424a40d3bb6",
+      "target": "马拉卡特雷米耶的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/42",
+      "source_sha256": "35c94c18f317b11145e20c7f6e006b42030a2ebd61634ae9b7abc084dee9b6b9",
+      "target": "雷米耶装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/43",
+      "source_sha256": "7f055fa6ff5da6b25a53360369aadcb39967d3fe01832daa929b2319d8ea428f",
+      "target": "马拉卡特雷米耶的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/45",
+      "source_sha256": "c244b118e3f1834edaf5042cbb401df3d2159d50600f2386fbd294e2cc3d6b91",
+      "target": "愿神庇佑你。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/46",
+      "source_sha256": "f200a104ebf0814d1c991d0c0c31d177350341b5e635cbe7428037cdc10b4971",
+      "target": "雷米耶占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/49",
+      "source_sha256": "334af21f6ca0f45c7e1b95c7ef0553a0acf9e19e11dd0cba98d64bc0b34a8182",
+      "target": "雷米耶工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/50",
+      "source_sha256": "1ac48a034960bdbbfb1d74be05b88c08b78b022346b0dcb5c9f03dcf668c0e12",
+      "target": "马拉卡特雷米耶$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/51",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015220.fpb/seq/56",
+      "source_sha256": "2ec6c997109dc2e88da22ba1d80dba47208cc197d8ccb88ec435ccbae03a467e",
+      "target": "这里是珠宝店格兰朱。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015221.fpb/seq/37",
+      "source_sha256": "7b3bddeaf357ed73917c1ce7a740f693606b7b07a7db3170318175da879ee278",
+      "target": "诺提亚占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015221.fpb/seq/41",
+      "source_sha256": "a126cd5464a551dcad7242951e766c5a616e4d31eae0ea38660dd38a9f52b647",
+      "target": "诺提亚工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015221.fpb/seq/42",
+      "source_sha256": "b1dc4f7e961313ada6a6b3fd654c9fa37a380a2ae80d4310ae4bd6d387bc64cb",
+      "target": "吉拉特首都诺提亚$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015222.fpb/seq/36",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015222.fpb/seq/38",
+      "source_sha256": "d58a29fe3920bb0d73a94ad9ce3fa269301b85a86e74e75ddf50d40b10427245",
+      "target": "啊，真烦。别再闯进来了。$n这里是我家。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015222.fpb/seq/39",
+      "source_sha256": "847448b39010e0cb8e21beecb4d46eeabb8ccad9fa91e427958fbc0218ef0792",
+      "target": "父亲真是的，偏要把这种麻烦事，$n留给我。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015222.fpb/seq/40",
+      "source_sha256": "2218143046f85ead31dd2b2f4252d12baddffb1efd0ba35a668e7df5a0ee78b2",
+      "target": "要看就快看，看完出去。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/36",
+      "source_sha256": "189738fdfd4f20c577d5e51cb27aa351491b96d57e47b35049db08601a655ec2",
+      "target": "这里是吉拉特首都诺提亚的道具店。$n想买什么？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/37",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/38",
+      "source_sha256": "91dac87565ad4ade59f1a1e909490c8600fc70105388638d0cff315baeafb271",
+      "target": "诺提亚道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/39",
+      "source_sha256": "9e65aa8531c3b48b34537fc3ac833c7151b41329dafb1ecb32b944698680a5ca",
+      "target": "吉拉特首都诺提亚的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/40",
+      "source_sha256": "9e7efbffa9b410f1249e56d2353098e02fa47ca569a24d19d5660fe5c4e84f6f",
+      "target": "这里是吉拉特首都诺提亚的装备店。$n想买什么？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/41",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/42",
+      "source_sha256": "23f9f847008242243151d2e7b4535e11f10b89949c2623ffe3df7489197cf5c5",
+      "target": "诺提亚装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015223.fpb/seq/43",
+      "source_sha256": "4c88346d3ed475d6c6ca4b7d3500e004a15af21cbc00a142ffd546d3d42ac5e9",
+      "target": "吉拉特首都诺提亚的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015224.fpb/seq/36",
+      "source_sha256": "884ceccdd6b255e541edac320e47ecc3623be10b67717b2b6d9f4c7a7dbfeb59",
+      "target": "要不要为未来，$n占一次卜？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015224.fpb/seq/39",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/38",
+      "source_sha256": "d07763abb23afd60f1dfc34ba8ddabb23c0841e6fc9a3f1dd23ae96ba2f30d66",
+      "target": "埃丰索道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/39",
+      "source_sha256": "2fc601cf032926c52bf7f793390f603423553651c73a96b79b6cf19414b2eea0",
+      "target": "马拉卡特埃丰索的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/40",
+      "source_sha256": "e8e9244fcce047427279c8d17f57fd58310d8b9ccdb9636934af7a6a110a65d3",
+      "target": "欢迎光临。需要什么装备？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/41",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/42",
+      "source_sha256": "c4105049e5977e4c0b4066ae40ac26d352dc8da94229c2f8ec46b0d59e7495d4",
+      "target": "埃丰索装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/43",
+      "source_sha256": "2df3d805d76a0e8aeff49c7d6b77a295ec719549d945ba55048842eb5db16b4b",
+      "target": "马拉卡特埃丰索的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/45",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015225.fpb/seq/46",
+      "source_sha256": "e78c27cba010e7650bc5c186f4ff15a66d4731a6eeee9e9ac5d779eb369ee794",
+      "target": "埃丰索工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015226.fpb/seq/31",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015226.fpb/seq/45",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015227.fpb/seq/44",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015228.fpb/seq/36",
+      "source_sha256": "e04dfebd6dee18c24baa13bf83d0f2511ead783cee66bddda09e479db9ca057d",
+      "target": "雷斯蒂装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015228.fpb/seq/41",
+      "source_sha256": "5dbe94643a33975d2b749695d1f8734d1de6333be59e71df0f03a499db5c2193",
+      "target": "雷斯蒂道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015228.fpb/seq/40",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015229.fpb/seq/20",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015229.fpb/seq/21",
+      "source_sha256": "b38158b7cb6ba8b61b6bff16e8ae2ead9a032551b4dbe20c06ec2b94ee33292e",
+      "target": "神圣的阿玛巴德大神殿的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015229.fpb/seq/34",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015229.fpb/seq/31",
+      "source_sha256": "86d60a9bec15806acffba1a11aa5f9c3218cab2d9d18d2ff1050d6b9ece954d8",
+      "target": "神圣的阿玛巴德大神殿$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015229.fpb/seq/32",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015230.fpb/seq/20",
+      "source_sha256": "83481a7daa34dad1e8ab84cd6c9aa5052c3f4e54e841b4366c02ecfdeb1ccec7",
+      "target": "有什么需要，请随时再次光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/36",
+      "source_sha256": "35c94c18f317b11145e20c7f6e006b42030a2ebd61634ae9b7abc084dee9b6b9",
+      "target": "雷米耶装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/39",
+      "source_sha256": "7f055fa6ff5da6b25a53360369aadcb39967d3fe01832daa929b2319d8ea428f",
+      "target": "马拉卡特雷米耶的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/40",
+      "source_sha256": "b6278e37b52f749f21392a14048f1e3ddb6fbda87468e618dface89b516a4867",
+      "target": "雷米耶道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/43",
+      "source_sha256": "78c8abeeff1f348c3d893a1ab1e872ad6bb4f8217f199ca43b2e0424a40d3bb6",
+      "target": "马拉卡特雷米耶的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/44",
+      "source_sha256": "f200a104ebf0814d1c991d0c0c31d177350341b5e635cbe7428037cdc10b4971",
+      "target": "雷米耶占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/47",
+      "source_sha256": "334af21f6ca0f45c7e1b95c7ef0553a0acf9e19e11dd0cba98d64bc0b34a8182",
+      "target": "雷米耶工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/49",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/50",
+      "source_sha256": "1ac48a034960bdbbfb1d74be05b88c08b78b022346b0dcb5c9f03dcf668c0e12",
+      "target": "马拉卡特雷米耶$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/51",
+      "source_sha256": "2ec6c997109dc2e88da22ba1d80dba47208cc197d8ccb88ec435ccbae03a467e",
+      "target": "这里是珠宝店格兰朱。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015232.fpb/seq/54",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015233.fpb/seq/38",
+      "source_sha256": "7b3bddeaf357ed73917c1ce7a740f693606b7b07a7db3170318175da879ee278",
+      "target": "诺提亚占卜屋",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015233.fpb/seq/40",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015233.fpb/seq/41",
+      "source_sha256": "a126cd5464a551dcad7242951e766c5a616e4d31eae0ea38660dd38a9f52b647",
+      "target": "诺提亚工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015233.fpb/seq/42",
+      "source_sha256": "b1dc4f7e961313ada6a6b3fd654c9fa37a380a2ae80d4310ae4bd6d387bc64cb",
+      "target": "吉拉特首都诺提亚$n工坊的主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015234.fpb/seq/36",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015234.fpb/seq/40",
+      "source_sha256": "2218143046f85ead31dd2b2f4252d12baddffb1efd0ba35a668e7df5a0ee78b2",
+      "target": "要看就快看，看完出去。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015235.fpb/seq/36",
+      "source_sha256": "91dac87565ad4ade59f1a1e909490c8600fc70105388638d0cff315baeafb271",
+      "target": "诺提亚道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015235.fpb/seq/39",
+      "source_sha256": "9e65aa8531c3b48b34537fc3ac833c7151b41329dafb1ecb32b944698680a5ca",
+      "target": "吉拉特首都诺提亚的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015235.fpb/seq/40",
+      "source_sha256": "23f9f847008242243151d2e7b4535e11f10b89949c2623ffe3df7489197cf5c5",
+      "target": "诺提亚装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015235.fpb/seq/41",
+      "source_sha256": "9e7efbffa9b410f1249e56d2353098e02fa47ca569a24d19d5660fe5c4e84f6f",
+      "target": "这里是吉拉特首都诺提亚的装备店。$n想买什么？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015235.fpb/seq/43",
+      "source_sha256": "4c88346d3ed475d6c6ca4b7d3500e004a15af21cbc00a142ffd546d3d42ac5e9",
+      "target": "吉拉特首都诺提亚的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015236.fpb/seq/39",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/39",
+      "source_sha256": "c4105049e5977e4c0b4066ae40ac26d352dc8da94229c2f8ec46b0d59e7495d4",
+      "target": "埃丰索装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/40",
+      "source_sha256": "e8e9244fcce047427279c8d17f57fd58310d8b9ccdb9636934af7a6a110a65d3",
+      "target": "欢迎光临。需要什么装备？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/42",
+      "source_sha256": "2df3d805d76a0e8aeff49c7d6b77a295ec719549d945ba55048842eb5db16b4b",
+      "target": "马拉卡特埃丰索的$n装备店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/43",
+      "source_sha256": "d07763abb23afd60f1dfc34ba8ddabb23c0841e6fc9a3f1dd23ae96ba2f30d66",
+      "target": "埃丰索道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/46",
+      "source_sha256": "2fc601cf032926c52bf7f793390f603423553651c73a96b79b6cf19414b2eea0",
+      "target": "马拉卡特埃丰索的$n道具店",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/47",
+      "source_sha256": "e78c27cba010e7650bc5c186f4ff15a66d4731a6eeee9e9ac5d779eb369ee794",
+      "target": "埃丰索工坊主人",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015237.fpb/seq/49",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015238.fpb/seq/45",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015239.fpb/seq/52",
+      "source_sha256": "e690a343ef767bb32c1b9c0753658d52d00ba12b6cbb06d6b38519cfd352e423",
+      "target": "想要更强的装备，请随时光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015239.fpb/seq/54",
+      "source_sha256": "cea971b6a9f52a4f55394ebd6be065331dc0da9bb2446b2806784cd07918bd6b",
+      "target": "欢迎光临。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015653.fpb/seq/1",
+      "source_sha256": "5f1bef7bd3e6d6ec51c7bbc0bfe1f441d40367cbaaf3d62fdfdefab540d662fa",
+      "target": "嗯，卡琳兹。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015676.fpb/seq/0",
+      "source_sha256": "bd961274f52d8438a3c091bc581f26723eccb7977861b1866cb4f49415fc7262",
+      "target": "呃……等等……等一下。$n我、我……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015676.fpb/seq/1",
+      "source_sha256": "b9f719b946e11b0e9ae0cf590aaafd828d3ed82cada63ee828f295374552eacf",
+      "target": "临死了，才知道害怕？想想那些被你杀死的人类。你没有资格，说软弱的话！",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015943.fpb/seq/1",
+      "source_sha256": "6103552d3f5db2568bc55375274471d8633286f7bb72569587175123dadfdbcc",
+      "target": "什么？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00015943.fpb/seq/5",
+      "source_sha256": "92e4697e8b8ff7726bc424b7e77f3c5af11d828d993be39585b8c5aa0e0e6dff",
+      "target": "莉丝……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016053.fpb/seq/3",
+      "source_sha256": "3463298a20c97609b828ed8eafdaa8059b0441049fbde106144525a289c67b8b",
+      "target": "咦？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016053.fpb/seq/5",
+      "source_sha256": "c357fdd8017f803c6e3389fac74540e5effb30a388c1c716bd22e2f70448667a",
+      "target": "嗯……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016587.fpb/seq/5",
+      "source_sha256": "8808e82e02ec2a518929a7531228b19aa2a8f5ad0b46b8e095d55c0dd78a3283",
+      "target": "哦……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016587.fpb/seq/8",
+      "source_sha256": "2031866b84d910bb9691ad5fab68a6bc0af7330ce1f0189811005cc654599fb5",
+      "target": "嗯。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016751.fpb/seq/0",
+      "source_sha256": "67f0aaf8bea4c6194bffdf721ad5a77b0c9ccace2cf020352d7718902d15d96b",
+      "target": "您还好吗？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016762.cht/slot/6",
+      "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
+      "target": "卡琳兹……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016762.cht/slot/8",
+      "source_sha256": "2031866b84d910bb9691ad5fab68a6bc0af7330ce1f0189811005cc654599fb5",
+      "target": "嗯。",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016763.cht/slot/4",
+      "source_sha256": "9bcedcd3c31e6211e8e535a40ee43d6a845b48c7e0b31cdd75b72860da523509",
+      "target": "嗯？",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016767.cht/slot/17",
+      "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
+      "target": "卡琳兹……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    },
+    {
+      "id": "SHIP/00016767.cht/slot/22",
+      "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
+      "target": "卡琳兹……",
+      "status": "reviewed",
+      "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "source_corpus_sha256": "67fc32012b4db29990c4e0e25d0873fa508a4012fbb4eb03a787f904461647e6",
+  "entries": [
+    {
+      "id": "SHIP/00000218.fpb/seq/0",
+      "resource": "SHIP/00000218.fpb",
+      "resource_sha256": "3e4940ecc469bdc530dd0785aa4f846d2a19653d3b598d787b275e283b6cc8b6",
+      "offset": 0,
+      "source_bytes": 43,
+      "source_sha256": "759b157800cf47a58d9862929e6903db66cacb33681bbf85a7d78c25c5d0f910",
+      "source": "안녕하세요, 필드 이벤트 테스트입니다.\u0000\u0000\u0000\u0000\u0000\u0000",
+      "reading_sha256": "90d140da52d7353c64669b369cda8d6f3a3ebf951be571c145b3260749471d11",
+      "target": "你好，这是场景事件测试。",
+      "status": "reviewed",
+      "trailing_zero_bytes": 6,
+      "binding": {
+        "id": "SHIP/00000218.fpb/seq/0",
+        "source_resource": "SHIP/00000218.fpb",
+        "source_resource_sha256": "3e4940ecc469bdc530dd0785aa4f846d2a19653d3b598d787b275e283b6cc8b6",
+        "source_offset": 0,
+        "source_bytes": 43,
+        "source_sha256": "759b157800cf47a58d9862929e6903db66cacb33681bbf85a7d78c25c5d0f910",
+        "physical_index": 0,
+        "native_record_key": 0
+      }
+    }
+  ]
+}

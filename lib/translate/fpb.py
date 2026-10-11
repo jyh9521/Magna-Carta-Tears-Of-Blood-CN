@@ -43,6 +43,14 @@ def synthesize_implicit_seq0(windows: list[Window],
     """Prepend a synthetic ``seq=0`` window covering the bytes before the
     first explicit window (or the whole data section if there are none).
 
+    This is a legacy catalog view alias, NOT a native record identity.
+    The native loader at 0x3007c0 reads the header triple at +4 as the
+    first record (key, offset, length). Nineteen supported original files
+    have a nonzero header key. Six prefixes are omitted by this helper
+    because a later explicit record has key zero. Consult the native
+    audit before assigning consumer keys or treating a prefix as opaque.
+    Existing catalog IDs remain stable until source-bound migration.
+
     By convention, every byte of an .fpb's data section belongs to some
     record. When the first explicit window starts past offset 0, the
     bytes before it form an implicit ``seq=0`` record (verified across

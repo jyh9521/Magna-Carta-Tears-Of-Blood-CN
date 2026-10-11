@@ -1,0 +1,568 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "milestone": "dojo-course-review-01",
+  "glossary": "GLOSSARY.md",
+  "entries": [
+    {
+      "id": "SHIP/00004670.dod/record-index/0/field/0",
+      "source_sha256": "03915253c14804e01961f59e2e5352034a622bc326b002fd4f8ddbf3d165e02c",
+      "target": "流星道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00004670.dod/record-index/0/field/1",
+      "source_sha256": "7d5d087140b02f93025002265a6f0eb6c0805c40dd9d9cbdaa4643a1c607ec08",
+      "target": "通过流星道场的梅课程，$n需要击败道场师范。$n流星流采用剑术，$n可选角色仅限$n使用剑术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00005186.dod/record-index/0/field/0",
+      "source_sha256": "b25b2eaa411d93b235a1d9b3ab370da78bb4e4109780a1d494296befbf9acbe2",
+      "target": "流星道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00005186.dod/record-index/0/field/1",
+      "source_sha256": "98d873c630a4bb44fb90cab2a6de40db4888930d8451bb246191d60b6e23fa86",
+      "target": "通过流星道场的兰课程，$n需要击败道场师范。$n流星流采用剑术，$n可选角色仅限剑术使用者。$n兰课程的师范$n会使用使人中毒的武器。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00005215.dod/record-index/0/field/0",
+      "source_sha256": "c611c96854afd0b06d26e2674988ef36a18bacf31b25145e961fb6d79d7f8e5e",
+      "target": "流星道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00005215.dod/record-index/0/field/1",
+      "source_sha256": "f6cca3859609b7ed498565cc0f6bb383ee316f9e6334809fa4665ed578a480bd",
+      "target": "通过流星道场的菊课程，$n需要击败道场师范。$n流星流采用剑术，$n可选角色仅限$n使用剑术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00011440.dod/record-index/0/field/0",
+      "source_sha256": "f0405a5add2b2168b9d73a596053f9f33f138207f58b50f0930ce21c16a635ab",
+      "target": "流星道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00011440.dod/record-index/0/field/1",
+      "source_sha256": "52c64e5a6329be6a3619490de97a4bb1ea47c13110d8f10345e1603934e5fa99",
+      "target": "通过流星道场的竹课程，$n需要击败道场师范。$n流星流采用剑术，$n可选角色仅限$n使用剑术的角色。$n竹课程的师范$n会使用使人混乱的武器。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00011453.dod/record-index/0/field/0",
+      "source_sha256": "46a4e56ab40e6b144dca746979c98117329f4b1463c60f90d9b39151b68e53c6",
+      "target": "流星道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00011453.dod/record-index/0/field/1",
+      "source_sha256": "def6aa7722ba1770292f020b363d8d76045328f1d4058ba0b81a4c3a1a1e90e8",
+      "target": "通过流派晋级考试，$n需要击败道场大师范。$n流星流采用剑术，$n可选角色仅限$n使用剑术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013203.dod/record-index/0/field/0",
+      "source_sha256": "5f49b80472c8f5d1f807de2c793c2c07907bf5cf0e27348a92eec69074f43cbc",
+      "target": "黑云道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013203.dod/record-index/0/field/1",
+      "source_sha256": "da47fdd646c6e4585fe89de07022a5fc46343bc34dc1478b0dfb5ed36a2f9b07",
+      "target": "通过黑云道场的梅课程，$n需要击败道场师范。$n大地强波流采用魔法，$n可选角色仅限$n使用魔法的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013204.dod/record-index/0/field/0",
+      "source_sha256": "d0460ec2d01769bfb9cd647e165a5784b777123356a74a8e57f0306cbd62d3b3",
+      "target": "黑云道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013204.dod/record-index/0/field/1",
+      "source_sha256": "e16cf0cd8b551b4e66d754f20766fd83c267a65fba35c1845b2a488cf8276998",
+      "target": "通过黑云道场的兰课程，$n需要击败道场师范。$n大地强波流采用魔法，$n可选角色仅限$n使用魔法的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013205.dod/record-index/0/field/0",
+      "source_sha256": "3c0b7ea3dd1f7259c4a330fb019b16043f475ca49f8fbd1455cbb6b03bd5586f",
+      "target": "黑云道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013205.dod/record-index/0/field/1",
+      "source_sha256": "5f944eef1e2cb759d70e5e4d030206e721b75104200553a8058c315b739c43e4",
+      "target": "通过黑云道场的菊课程，$n需要击败道场师范。$n大地强波流采用魔法，$n可选角色仅限$n使用魔法的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013206.dod/record-index/0/field/0",
+      "source_sha256": "2f9a7d0f68037bc877f3bb948a20f23bb8b92a797ec3c2a13256265f62476b82",
+      "target": "黑云道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013206.dod/record-index/0/field/1",
+      "source_sha256": "908c7814cf7a06acc72549d0b9a51b9816f8def64236d0ca97475c9554d54be2",
+      "target": "通过黑云道场的竹课程，$n需要击败道场师范。$n大地强波流采用魔法，$n可选角色仅限$n使用魔法的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013207.dod/record-index/0/field/0",
+      "source_sha256": "997a5c4a1e8d51cb487a7a01899995a543292139a2c8dee7ea0dac759f5ff761",
+      "target": "黑云道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013207.dod/record-index/0/field/1",
+      "source_sha256": "85bc78d495c7304ccd4cfdef8c4a61977ed7515a8aa6df3122c236ebb41f11b4",
+      "target": "通过流派晋级考试，$n需要击败道场大师范。$n大地强波流采用魔法，$n可选角色仅限$n使用魔法的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013285.dod/record-index/0/field/0",
+      "source_sha256": "67529bd83e89a4ce49b4cff0575ce5bf5baaaa6fa5c76cec6e4025b225a313fb",
+      "target": "阿罗道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013285.dod/record-index/0/field/1",
+      "source_sha256": "f75126bd15466306d8621c49f9da314edb6ef2245575e38c85d6a5ef402aab4f",
+      "target": "通过阿罗道场的梅课程，$n需要击败道场师范。$n方旋周还流采用剑术，$n可选角色仅限$n使用剑术的角色。$n方旋周还流的师范$n拥有极高的防御力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013286.dod/record-index/0/field/0",
+      "source_sha256": "7d5afd43ae1ad194da0dca98e469f543165477186b62e5851dc633bc3a836a9c",
+      "target": "阿罗道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013286.dod/record-index/0/field/1",
+      "source_sha256": "4e992de530a182fe26b0234e3c58b33145fcc7e8e1c79682fe8a91e5d79be903",
+      "target": "通过阿罗道场的兰课程，$n需要击败道场师范。$n方旋周还流采用剑术，$n可选角色仅限$n使用剑术的角色。$n方旋周还流的师范$n拥有极高的防御力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013287.dod/record-index/0/field/0",
+      "source_sha256": "0a9f055e5e1f1ef3233999ff44b1b0bc8c055e738f3bc1b94d5e7a4cc098401a",
+      "target": "阿罗道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013287.dod/record-index/0/field/1",
+      "source_sha256": "95d4fa1cbcac2d2cd42690e97985f91ca823dd9a91a017a01100d47ad951468f",
+      "target": "通过阿罗道场的菊课程，$n需要击败道场师范。$n方旋周还流采用剑术，$n可选角色仅限$n使用剑术的角色。$n方旋周还流的师范$n拥有极高的防御力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013288.dod/record-index/0/field/0",
+      "source_sha256": "45c005a0b8e9cac42be8d19af82ad829b595b18a10b4fda92661f08b21f98031",
+      "target": "阿罗道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013288.dod/record-index/0/field/1",
+      "source_sha256": "488cd7690c7904632fa3adeb47fd6cc4750153047de4faf8aaa88521f7f713b2",
+      "target": "通过阿罗道场的竹课程，$n需要击败道场师范。$n方旋周还流采用剑术，$n可选角色仅限$n使用剑术的角色。$n方旋周还流的师范$n拥有极高的防御力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013289.dod/record-index/0/field/0",
+      "source_sha256": "2fb3689dfeac357c36f37871312524273c838735016d0ec5b888bc7865fcf334",
+      "target": "阿罗道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013289.dod/record-index/0/field/1",
+      "source_sha256": "dafaeddfdc03214c31f8a5ca0ae70f46368c1fa15f4dfe8f2cc477598172353a",
+      "target": "通过流派晋级考试，$n需要击败道场师范。$n方旋周还流采用剑术，$n可选角色仅限$n使用剑术的角色。$n方旋周还流的师范$n拥有极高的防御力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013295.dod/record-index/0/field/0",
+      "source_sha256": "18693983f442e410c2028466b51acb026b50c959e39312e1f2edd69614e5097a",
+      "target": "天道道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013295.dod/record-index/0/field/1",
+      "source_sha256": "fcd6d77b62ee3901242ca862d85229f2461c9abf3c09798f3357aa30b38299e2",
+      "target": "通过天道道场的梅课程，$n需要击败道场师范。$n天命启心流采用剑术，$n可选角色仅限$n使用剑术的角色。$n天命启心流的师范$n拥有极高的魅力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013296.dod/record-index/0/field/0",
+      "source_sha256": "731eac8dfd0208e5f2e57f487ffefd1c592c372c170507139feb60889b3a304b",
+      "target": "天道道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013296.dod/record-index/0/field/1",
+      "source_sha256": "7cc94dba740cdfa1e35180a816abbb1fbd5e88489ca6e7b1362ca3bd8fa75043",
+      "target": "通过天道道场的兰课程，$n需要击败道场师范。$n天命启心流采用剑术，$n可选角色仅限$n使用剑术的角色。$n天命启心流的师范$n拥有极高的魅力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013297.dod/record-index/0/field/0",
+      "source_sha256": "778686dd4d053362189eda59b709f2ec4726e2eeb59dc67a75cd21756d8d6c38",
+      "target": "天道道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013297.dod/record-index/0/field/1",
+      "source_sha256": "3e311a4de86f9cf1c5733134aeb75cd6ce2bea6b518146e7e098e6c3a69aa905",
+      "target": "通过天道道场的菊课程，$n需要击败道场师范。$n天命启心流采用剑术，$n可选角色仅限$n使用剑术的角色。$n天命启心流的师范$n拥有极高的魅力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013298.dod/record-index/0/field/0",
+      "source_sha256": "6eab614643b66cea596713fc9b28771b9e16061c1c1740cc22157d8b76127823",
+      "target": "天道道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013298.dod/record-index/0/field/1",
+      "source_sha256": "88d09b764f4f908c23fda347351d90c25d8c7caa6e0a399dff6172ff234b820d",
+      "target": "通过天道道场的竹课程，$n需要击败道场师范。$n天命启心流采用剑术，$n可选角色仅限$n使用剑术的角色。$n天命启心流的师范$n拥有极高的魅力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013299.dod/record-index/0/field/0",
+      "source_sha256": "ef61bed20f0033c6319f73a6b720c52ef9ff08e41239f99d75f3268329192295",
+      "target": "天道道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013299.dod/record-index/0/field/1",
+      "source_sha256": "fd4bf87a2d08b299a8622a501e4963c9657d14825c63517ca7cebe5c6f712ed2",
+      "target": "通过流派晋级考试，$n需要击败道场师范。$n天命启心流采用剑术，$n可选角色仅限$n使用剑术的角色。$n天命启心流的师范$n拥有极高的魅力。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013344.dod/record-index/0/field/0",
+      "source_sha256": "14d169905deecf091af74a0907afa66942d76570898067b85cb2d929235fa463",
+      "target": "破邪道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013344.dod/record-index/0/field/1",
+      "source_sha256": "5c0892ef7a639a7de0b3bc71ffa83842a73acfb9c3fa56d5106bbf5985349a49",
+      "target": "通过破邪道场的梅课程，$n需要击败道场师范。$n乱火翔烈掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013345.dod/record-index/0/field/0",
+      "source_sha256": "13fb88993b188edd81598d85e59276b2621fcdda0471c8f08adf183ef3f50404",
+      "target": "破邪道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013345.dod/record-index/0/field/1",
+      "source_sha256": "4083819d7cbc0e4eb5c80975a5efcdc4d343d98a4340fea19f925751cbc507f4",
+      "target": "通过破邪道场的兰课程，$n需要击败道场师范。$n乱火翔烈掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n兰课程的师范$n会使出毒属性攻击。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013346.dod/record-index/0/field/0",
+      "source_sha256": "0fc913b2e2542e65fb720b0c156198a97e043db495deea6d1922fdfac691dc36",
+      "target": "破邪道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013346.dod/record-index/0/field/1",
+      "source_sha256": "96410c811fa2e0ad184e0e69575eb700c2c7235d699c5430136e3fb565afc095",
+      "target": "通过破邪道场的菊课程，$n需要击败道场师范。$n乱火翔烈掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013347.dod/record-index/0/field/0",
+      "source_sha256": "64e456fab4a6b1e682eccc0908af716692a4cd3b482afbcafd6b80b5bcc2e2ee",
+      "target": "破邪道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013347.dod/record-index/0/field/1",
+      "source_sha256": "5370914864bcc166164039ee84b76d97b362d36cf75120ead4699e95cbd0da88",
+      "target": "通过破邪道场的竹课程，$n需要击败道场师范。$n乱火翔烈掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n竹课程的师范$n会使出混乱属性攻击。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013348.dod/record-index/0/field/0",
+      "source_sha256": "3cc117d898f8e404867565c0c61e672de40632d800817dc8034b8152003b880a",
+      "target": "破邪道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013348.dod/record-index/0/field/1",
+      "source_sha256": "b0e9c501f05d6f123ca7977a3bbf0707cb66558e59805a9cbd5a1fa7a1210175",
+      "target": "通过流派晋级考试，$n需要击败道场师范。$n乱火翔烈掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013350.dod/record-index/0/field/0",
+      "source_sha256": "35fb396d5f993c315e2c0d2fc391d8af79dd1fb57def5962fb91c0b35348477f",
+      "target": "帕克朱道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013350.dod/record-index/0/field/1",
+      "source_sha256": "f7b0f5c19ff127afdc0f5a977aabdd883435c59c2b4a0e4cbe5e76fb32b9c4fe",
+      "target": "通过帕克朱道场的梅课程，$n需要以一次攻击$n击碎圆木。$n大地脉动掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n圆木非常坚固，$n请全力以赴。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013351.dod/record-index/0/field/0",
+      "source_sha256": "a537887836da396c8ff378629f0fd5745dcd420e853f5d0068a1d2e6b4ee06f9",
+      "target": "帕克朱道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013351.dod/record-index/0/field/1",
+      "source_sha256": "5c8919db8379080b1af2bd49953978ea8dcb2fbcb84e2a495118564c073b7faf",
+      "target": "通过帕克朱道场的兰课程，$n需要以一次攻击$n击碎更大的圆木。$n大地脉动掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013352.dod/record-index/0/field/0",
+      "source_sha256": "3ef308b016f572523ec52ebffe72938186f15788cad8d56e91d2b75c046361a5",
+      "target": "帕克朱道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013352.dod/record-index/0/field/1",
+      "source_sha256": "c6bff80ad97fdb734cd07659f94a5dd49015b971db6ec006674ffa5054090d1b",
+      "target": "通过帕克朱道场的菊课程，$n需要以一次攻击$n击碎道场里最大的圆木。$n大地脉动掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013353.dod/record-index/0/field/0",
+      "source_sha256": "f3c464a5c8e13efbbadceb696064769b5b0199c048726ad02e25ceff5608067f",
+      "target": "帕克朱道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013353.dod/record-index/0/field/1",
+      "source_sha256": "4cbdc147af1819e8b03c58641083eea0c0f8ff73a12daaedc62b24d231a4087e",
+      "target": "通过帕克朱道场的竹课程，$n需要以一次攻击$n击碎岩石。$n大地脉动掌采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013354.dod/record-index/0/field/0",
+      "source_sha256": "37991667f82f487cc82e0f570a20b6ef7b93c50b4f84b66fd094bd2f828966fe",
+      "target": "帕克朱道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013354.dod/record-index/0/field/1",
+      "source_sha256": "0c27af440c91bbad921a5734b169bc559f5bb776a77dc181ed433036f919f2fa",
+      "target": "通过流派晋级考试，$n需要以一次攻击$n击碎道场里最大的岩石。$n大地脉动掌$n采用拳术，$n可选角色仅限$n使用拳术的角色。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013356.dod/record-index/0/field/0",
+      "source_sha256": "7481c7f722ce498e68d1a0d2ac0be226664495c43fbf34df60f9e63319c72f75",
+      "target": "泰坤道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013356.dod/record-index/0/field/1",
+      "source_sha256": "0cdbfd68b0532a82560c08c46539de4ab1f74bbcd8776347d47b21be6e0d7da0",
+      "target": "通过泰坤道场的梅课程，$n需要击败道场师范。$n泰山激层掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n必须在7回合内获胜。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013357.dod/record-index/0/field/0",
+      "source_sha256": "7158a4becad0a1ebf239a696523d5b76e52dc2493e63e6e083b880f0802549f8",
+      "target": "泰坤道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013357.dod/record-index/0/field/1",
+      "source_sha256": "98111e854a06b6e74df1672b5dd9bec718fd5851fed37475c250d9ceb1fca35f",
+      "target": "通过泰坤道场的兰课程，$n需要击败道场师范。$n泰山激层掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n必须在6回合内获胜。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013358.dod/record-index/0/field/0",
+      "source_sha256": "14c72a28a100064703700504ebfecc61ac78cf06b2653ccb0bf2cd86686322c2",
+      "target": "泰坤道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013358.dod/record-index/0/field/1",
+      "source_sha256": "b11170ecd9d9b372b6528a2ec3a6452aead90270955db9666c9272f45c3a90c0",
+      "target": "通过泰坤道场的菊课程，$n需要击败道场师范。$n泰山激层掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n必须在5回合内获胜。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013359.dod/record-index/0/field/0",
+      "source_sha256": "875ab143d7a7a73122ba9b801a7e3a132c93c0f6199e9e79cf8d3796aa70d92e",
+      "target": "泰坤道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013359.dod/record-index/0/field/1",
+      "source_sha256": "296f83b2d65df9e778bc5a4091926aa7aabb28da28bc3e376b78ca96bf51d9fb",
+      "target": "通过泰坤道场的竹课程，$n需要击败道场师范。$n泰山激层掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n必须在4回合内获胜。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013360.dod/record-index/0/field/0",
+      "source_sha256": "1c7015064267522ca32790d77d4086f01b32ed6fb6ffca4ea4b61914b69630ed",
+      "target": "泰坤道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013360.dod/record-index/0/field/1",
+      "source_sha256": "1432162436b07d58d9d8ebbf95d7977ed478e15887c6a2817a0c7320f9ccd170",
+      "target": "通过流派晋级考试，$n需要击败道场大师范。$n泰山激层掌采用拳术，$n可选角色仅限$n使用拳术的角色。$n必须在3回合内获胜。$n务必小心。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013363.dod/record-index/0/field/0",
+      "source_sha256": "8a35b17c0f1a5542fc475a17503e0c5c2a4bf6717b18b1e048d01042bae03415",
+      "target": "清音道场·梅课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013363.dod/record-index/0/field/1",
+      "source_sha256": "3be03ed882f5fd1bbb7e43822bde96993edb850934fbd5a01f6597d9fdca1d26",
+      "target": "通过清音道场的梅课程，$n需要击败道场师范。$n水连流采用魔法，$n可选角色仅限$n使用魔法的角色。$n只要撑过3次攻击，$n就能通过梅课程。$n当然，也可以主动攻击$n并击败对手。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013364.dod/record-index/0/field/0",
+      "source_sha256": "725130c367a2b0d99445ee1d288c8ebfb5c60c52581c99665b651598ea92d244",
+      "target": "清音道场·兰课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013364.dod/record-index/0/field/1",
+      "source_sha256": "5d9391143bf441993658472dfc989f55de5b2ff1d7bcde36bbff5cdbd49edd7d",
+      "target": "通过清音道场的兰课程，$n需要击败道场师范。$n水连流采用魔法，$n可选角色仅限魔法使用者。$n只要撑过4次攻击，$n就能通过兰课程。$n当然，也可以主动攻击$n并击败对手。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013365.dod/record-index/0/field/0",
+      "source_sha256": "265c83524dc65f6bf7679c9e202b08d9a084ece386ee512468bbd2916c64e3fd",
+      "target": "清音道场·菊课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013365.dod/record-index/0/field/1",
+      "source_sha256": "f2333619bd3ebbb150a6cbebcab8d05960918ced478adcd5c4d947576fc93f22",
+      "target": "通过清音道场的菊课程，$n需要击败道场师范。$n水连流采用魔法，$n可选角色仅限$n使用魔法的角色。$n只要撑过5次攻击，$n就能通过菊课程。$n当然，也可以主动攻击$n并击败对手。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013366.dod/record-index/0/field/0",
+      "source_sha256": "34bfa22a38816fbbe3bfc8ade7aa9964339e03b1d482044616dbd65146383cbe",
+      "target": "清音道场·竹课程",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013366.dod/record-index/0/field/1",
+      "source_sha256": "bf7bbfd12fc8019e3c1f29d81219759c9bfed5f62dd45a4470e1b6dee4626409",
+      "target": "通过清音道场的竹课程，$n需要击败道场师范。$n水连流采用魔法，$n可选角色仅限$n使用魔法的角色。$n只要撑过6次攻击，$n就能通过竹课程。$n当然，也可以主动攻击$n并击败对手。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013367.dod/record-index/0/field/0",
+      "source_sha256": "ce5831a1736bd9e34ffa8ea0defa1e9a37a01fd8debc7e6d4d3647b4c7adccf6",
+      "target": "清音道场·晋级考试",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    },
+    {
+      "id": "SHIP/00013367.dod/record-index/0/field/1",
+      "source_sha256": "22883691ff1bcb9a2b4e91f8d370bab44564426194e6f589f17ce66446ff7c44",
+      "target": "通过流派晋级考试，$n需要击败道场大师范。$n水连流采用魔法，$n可选角色仅限$n使用魔法的角色。$n只要撑过7次攻击，$n就能通过晋级考试。$n当然，也可以主动攻击$n并击败对手。",
+      "status": "reviewed",
+      "context": "DOD course title/instruction; 40 course pairs reviewed for combat category, pass condition, poison/confusion, charisma/defence, 7-to-3 turn limits and 3-to-7 incoming attacks. Original control sequence retained; Chinese words not split at explicit breaks. Static source slot identity retained; runtime QA separate."
+    }
+  ]
+}

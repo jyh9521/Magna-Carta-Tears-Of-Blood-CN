@@ -90,14 +90,18 @@
     {
       "id": "SHIP/00004567.fpb/seq/0",
       "source_sha256": "b7630de5dcb3cd866086a7297330dc75624ad76eee991c43cc228931ab4d8db8",
-      "status": "needs-source-review",
-      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+      "status": "resolved-source-bound-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed.",
+      "historical_review_reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00004567.fpb/seq/1",
       "source_sha256": "8742fd199fc858f1214bb22294fc11fe7b78720fb734811f312f21f3fdce17ba",
-      "status": "needs-source-review",
-      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed."
+      "status": "resolved-source-bound-review",
+      "reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed.",
+      "historical_review_reason": "Source explicitly describes a test field or movie/debug mode; production visibility unconfirmed.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00004668.fpb/seq/14",
@@ -906,14 +910,18 @@
     {
       "id": "SHIP/00007682.fpb/seq/0",
       "source_sha256": "00933c592401e9bfc888134754a54ef6a8cf135668821ae0f26023ff03c10391",
-      "status": "needs-source-review",
-      "reason": "Latin-script incantation of unresolved language/meaning; protected verbatim pending source interpretation, not fabricated as a Chinese sentence."
+      "status": "resolved-source-bound-review",
+      "reason": "Latin-script incantation of unresolved language/meaning; protected verbatim pending source interpretation, not fabricated as a Chinese sentence.",
+      "historical_review_reason": "Latin-script incantation of unresolved language/meaning; protected verbatim pending source interpretation, not fabricated as a Chinese sentence.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00007682.fpb/seq/1",
       "source_sha256": "a916e5bafceb9aa7bcc2fbfd2bbdda86edbf20e36880aa01aaa568d1d5582a03",
-      "status": "needs-source-review",
-      "reason": "Hangul phonetic reading of the unresolved Latin-script incantation; source correspondence retained pending interpretation, not fabricated translation."
+      "status": "resolved-source-bound-review",
+      "reason": "Hangul phonetic reading of the unresolved Latin-script incantation; source correspondence retained pending interpretation, not fabricated translation.",
+      "historical_review_reason": "Hangul phonetic reading of the unresolved Latin-script incantation; source correspondence retained pending interpretation, not fabricated translation.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00008210.fpb/seq/18",
@@ -1080,14 +1088,18 @@
     {
       "id": "SHIP/00000432.fpb/seq/3",
       "source_sha256": "7a0e30c23077bc4d3a36c2fb95d1f3cb5c75171dee2eaafb578cdd6929d6dd6a",
-      "status": "needs-source-review",
-      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+      "status": "resolved-source-bound-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified.",
+      "historical_review_reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00000432.fpb/seq/4",
       "source_sha256": "504948a89d23bbeee61a36569f622210faa0706a0eefbd104f95ec6f7fcbf859",
-      "status": "needs-source-review",
-      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified."
+      "status": "resolved-source-bound-review",
+      "reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified.",
+      "historical_review_reason": "Numeric or answer-label candidate, not confirmed dialogue; runtime role unverified.",
+      "resolution": "Stage159 full prose or test label reviewed; incantation phonetic only, meaning unresolved; previous quarantine observation preserved."
     },
     {
       "id": "SHIP/00000453.fpb/seq/18",

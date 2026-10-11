@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "source_corpus_sha256": "08573b640c3042261d7441bae925f7de2be4bb1ebd1c21670e85f8665ebf85ce",
+  "entries": [
+    {
+      "id": "SHIP/00007533.cht/slot/8",
+      "resource": "SHIP/00007533.cht",
+      "resource_sha256": "959a9eb4a322c8f3041d7a5023f56e9ab3b4f89b7b4998ee7196941a1369d23c",
+      "offset": 4284,
+      "source_bytes": 75,
+      "source_sha256": "586748eb0cdf50de61ca7e690d46d56119df3f646cbea5f31c78a921a90e76f8",
+      "source": "후우, 리스가 떠나다니 아쉬운데. 우리 혈루에 받아들여도 좋았을 텐데 말이야.\n",
+      "reading_sha256": "d3f472a0bdcc9a9380783038dd65dc7eecec6288e337aa9e74ebf6a055d1d475",
+      "target": "唉，莉丝走了，真让人舍不得。其实让她加入我们血泪也挺好的。\n",
+      "status": "reviewed",
+      "binding": {
+        "id": "SHIP/00007533.cht/slot/8",
+        "resource": "SHIP/00007533.cht",
+        "resource_sha256": "959a9eb4a322c8f3041d7a5023f56e9ab3b4f89b7b4998ee7196941a1369d23c",
+        "offset": 4284,
+        "source_bytes": 75,
+        "source_sha256": "586748eb0cdf50de61ca7e690d46d56119df3f646cbea5f31c78a921a90e76f8",
+        "native_read_bytes": 512,
+        "runtime_verified": false,
+        "record_index": 8,
+        "numeric_metadata_hex": "0800000001000000000000000b000000"
+      }
+    },
+    {
+      "id": "SHIP/00016768.cht/slot/16",
+      "resource": "SHIP/00016768.cht",
+      "resource_sha256": "9f2bc063204e8228d197a28400e3a32e0aeb126647f357addba4313023cd3bfb",
+      "offset": 8540,
+      "source_bytes": 83,
+      "source_sha256": "8dc1fafa854fee431514aec98b04f82645e25f05b3400e10a7d885e83800d75b",
+      "source": "그래도 요새 칸의 흐름이 불안정해서 몬스터가자주 날뛴다고 하니까, 좀 걱정이 돼서...\n",
+      "reading_sha256": "210c55a1d8ad4881cf79025ce1bc99eb8c9046ad45dcecc38e4054d7c7ee35c7",
+      "target": "不过，听说最近卡恩的流动不太稳定，怪物也经常作乱，所以我有点担心……\n",
+      "status": "reviewed",
+      "binding": {
+        "id": "SHIP/00016768.cht/slot/16",
+        "resource": "SHIP/00016768.cht",
+        "resource_sha256": "9f2bc063204e8228d197a28400e3a32e0aeb126647f357addba4313023cd3bfb",
+        "offset": 8540,
+        "source_bytes": 83,
+        "source_sha256": "8dc1fafa854fee431514aec98b04f82645e25f05b3400e10a7d885e83800d75b",
+        "native_read_bytes": 512,
+        "runtime_verified": false,
+        "record_index": 16,
+        "numeric_metadata_hex": "10000000010000000300000008000000"
+      }
+    }
+  ]
+}

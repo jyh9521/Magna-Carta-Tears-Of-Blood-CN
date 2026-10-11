@@ -1,5 +1,75 @@
 # Pitfalls
 
+stage168首次完整font构建在“empty glyph raster”停止，因为公告原文尾部全角空格保留到译文，U+3000本就没有墨迹。不要删字符或画假点：通用font builder仅允许Unicode Zs空bitmap，保持advance；字母/替换符/换行/tab/零宽与非Zs空字形仍拒绝。原失败命令/输入/stdout/stderr/exit保存在168/build-commands.json，修正后rebuild2全量验证。CDG263切片是旧leading-string边界，原生是526双字符串记录；record首u32不是Key，真实Key是+4。
+
+新CHT16655/41的경험치 칸指经验值格，不能把其中칸机械替换为卡恩。登记最长源短语后继续使用既有最长匹配规则，旧卡恩系统术语不改变；全量validator会检测经验/经验值等不一致。
+
+stage167初ASCII测试fixture的“20% off”实际会被TOKEN认成printf的“% o”，不是numeric-percent；因此正确被值/顺序测试拒绝。改用无printf碰撞的“20% reduction”作为字面fixture，默认严格语法不变；失败stdout/stderr/exit保存在167/initial-fixture-failure.json。相同源词不自动建立链接，POD两个槽与ITM/CDG重复仍保持独立身份；CHT旧516B零跑段继续不能当512B真实容量。
+
+百分比、非ASCII尖括号名与箭头被通用markup/printf验证器隔离，不等于这些正文无需翻译。94条单独语言复核通过后仍保持原导入门禁；不得全局允许任意%/尖括号，不得把制表符/换行/NUL静默剥离。POD组合顺序与独立field0/19不能合并；翻译模板初稿重复“会得到…就会出现”已修正后逐条复核。
+
+仅要求平假名会漏掉只有片假名的姓名/商店叫卖。词形筛选应接受全角片假名，同时保留严格原字节/往返/hash/native消费链门禁；半角噪声或私用字不因此升格为可翻译文本。
+
+## Zero-run capacity can include numeric words (stage164)
+
+CHTleading-slot scans previously yielded516 writablebytes because a post-textu32 happened to be zero. Actual native reader consumes512bytes. Do not replace the original whole-segment hash with a shorter unbound hash;keep its fingerprint andseparately protect the physical tail. New37alternatefields write512 andpreserve original20/4-byte tail as appropriate. Independently check all oldtargets against the native bound andall record numericmetadata after rebuilding.
+
+
+## A default-codec rejection fixture must actually fail (stage163)
+
+The initial fixture名前は？ also decodes strictly as CP949. That is not evidence for silent fallback: both codecs accept those bytes, with different meaning. Use a real failed primary-codec windowヤソンじゃないだろうな？ to verify the default remains strict CP949. The first verification script guessed the six added glyphs from all154readings; actual115FPB inventory is裙旱祷蜂寺豁, while沐浴 belong to still-unimportedCHT. The prefix assertion correctly rejected that guessed oracle; independently compare baseline/current inventories and fix the verifier, not the built glyph data. Production inputs require explicit source/reading hashes andsource locale, not whichever decoder happens to return Unicode.
+
+
+## Alternate-codec success is not import approval (stage162)
+
+167primary-decode failures yield164CP932 round trips, but only154 have usable lexical readings with Hiragana and no private-use characters. The remaining13 are not guessed prose or automatically retained as harmless data. Reading audit rejects changed resource/span/hash, unknown controls, invented runtime/import claims and corrupt native record bindings. The first draft Japanese カン alias was wrongly set to 坎; full-old-draft validation rejected it because the existing Korean canonical term 칸 is 卡恩. Fix the new alias and new targets, not old correct translations. The same check found 巫者/大巫者 should use existing 巫师/大巫师 rather than copying Japanese kanji. Protected$n boundaries cannot be dropped to improve typography; three initial draft count mismatches were corrected before saving the reviewed profile.
+
+
+## Full-size hash fixture memory overlaps (stage161)
+
+A small synthetic item hash fixture passed, but479 twelve-byte nodes at0xa000 overwrote the initially chosen0xb000 bucket region. This produced false missing-key/failing lookups; actual game data was unchanged. Use nonoverlapping0x9000 buckets/0xa000 nodes andverify every original key,hash collisions,duplicate replacement andmissing fallback. Do not convert a fixture memory bug into a game-format conclusion. Read exact instruction words: a guessed bne register field1690000b was rejected; source word1682000b is the verified anchor.
+
+
+## FPB sequence is not a guessed native ordinal (stage157)
+
+Using seq+1 against00000358 bound record11 while the requested source span was record10; source hash rejected the mistake. Match raw pool offset, length and SHA256 uniquely, then verify first numeric-key lookup. A zero named compiled-call count did not make GetPlayBookDataText unused: Then_2DObjectControl_Chat calls its helper directly in native code. Trace native consumers as well as VM symbols.
+
+
+## Saved script source is not live bytecode (stage156)
+
+PilotTextList and RoadSignTextList exist as ArrayProperty exports but the full original script-token inventory has no selected property reference or GetPilotTextDataIndex calls. An explicit --field request correctly fails, rather than calling zero matches verified. MrtsPilot archived ScriptText contains PilotTextList in a commented-out confirmation state. Do not promote translations from comment matches. SetDestList callback is564bytes, exceeding512 default; use a caller-selected bounded scan rather than silently searching until some unrelated return.
+
+
+## SGI pending count is not a name count (stage155)
+
+The246 historical pending entries were206 names plus40 descriptions. A Name-only assertion failed on field1. Bind source field_index and description HelpText independently; no blanket name-only proof. The first field selector CurStyleData was absent from annotated tokens and correctly failed; actual StyleData references are used. A StyleData.Name string comparison must not be ignored: trace AddList a_Name to Caption, and preserve all original/translated equality classes before promotion.
+
+
+## Static amount promotion and stale quarantine count (stage154)
+
+The historical test asserted that all seven TUI templates remained pending. After four amount chains were statically bound, that fixed count failed (3 versus7). Preserve the old negative fixture; update the regression to require the exact remaining tilde/travel IDs and verify all four promoted source hashes/targets/static bindings. Do not remove the quarantine guard or permit arbitrary fields. Retry the whole transaction in fresh isolated directories.
+
+
+## Reusing an older registry silently drops intervening batches (stage153)
+
+Copying a stage152 rebuild script still referencing151 omitted the suffix batch when adding Common fragments. Font count alone did not detect it because no new glyphs were needed. Scope showed8 missing instead of0. Use immediate previous complete command registry, require exact reviewed/selected counts, and rebuild in a fresh directory; initial output is not authoritative.
+
+
+## Getter-only searches miss direct array text (stage151)
+
+No literal getter call is not evidence that a TUI fragment is unused. Direct FieldMenuTextList/CommonTextList array accesses recovered nine missing consumers after getter-only analysis. Conversely, a direct array literal is a physical ordinal, whereas a getter integer is a stored key. Use actual expression parent/child boundaries, never the nearest integer. Do not translate Korean particles alone: Name+stat+number+trailingverb becomes unnatural Chinese unless coordinated predicate placement is reviewed.
+
+
+## Getter integer is not a physical line number (stage149)
+
+A preceding caller scan listed integers against physical TUI ordinals; GetNationName(238) then appeared to fetch the damage-record label. Original native lookup disproves this association: integer238 matches record key238, whereas damage record key300 is physical ordinal238. Never select a field using a nearby number or array ordinal without source-key binding.144 reparsed literal FieldTextData calls differ from physical ordinals. New audit preserves original catalog IDs and exposes the actual key/source pair; dynamic integers require further expression analysis.
+
+
+## Configuration templates are not dialogue grammar (stage147)
+
+The first attempted configuration import stopped at %k/%w: the generic dialogue placeholder checker intentionally rejects those Engine template macros; interface angle delimiters also have different meanings. Do not globally loosen dialogue grammar to make config pass. Add consumer-specific exact-token validation and use the checked character-encoding primitive afterward. The partial config-copies directory is not authoritative; config-copies2 is the verified receipt. Unknown macro changes, hotkey changes and raw line delimiters fail tests.
+
+
 ## 上游历史（upstream-reported，非本次运行时复现）
 来源 soyjxck TECHNICAL D9-D40，审计版本见 PHASE1_RESEARCH.md。
 - D19/20：只移植字体到USA MrtsEngine，部分字形改善而布局损坏；font/metrics/decoder要配套。
@@ -356,3 +426,119 @@ stage88初次工具假设字段引用全部为本地正export，真实import引�
 ## stage92 音频优先接续
 
 见 [音频优先核查](MOVIE_ASR_REVIEW.md)。全46影片库存：45音轨完成本地原语言候选转写，1片无音轨；283片段、174低置信度片段定点OCR队列，26个空白折叠源匹配不作exact去重。停止全帧OCR，批量清理有哈希清单；原资源/6334译稿不改。音频候选流程完成不等于全游戏覆盖完成，继续保留静默视觉文字与未知native语义。
+
+## 全字符集合的字号与词义检查
+
+当前2176字库存中NormalFont19px的分号越过共同baseline；改用18px并逐字复核后通过，KatakanaFont15px通过，不裁切或忽略该字符。扩容map必须配合实际扩容Font tables验证，不能沿用仅原韩文range的MappedEncoder缺省构造。
+
+韩语`사과`也表示道歉，`옥`可出现在监牢等复合词中，`하곤`可为语法结构。名词校验使用显式exact-source元数据，仅绑定完整字段名称，不能为了消除误报而把对话中的道歉翻译成苹果。原专名最长匹配及未知控制隔离继续保留。
+
+### leading field指纹范围与可写容量不同
+
+CHT/ECD等旧slot视图的slot_sha256锁定整个上游segment，observed_byte_capacity只描述leading正文的首NUL/零区。不能直接用后者长度检验完整slot hash，也不能为了让hash通过而把trailer变成可写容量。实际143字段触发该问题；现采用完整segment hash、独立trailer hash、leading-only写入及全资源非选择字节比较。四个专门回归测试保留。
+
+### 自动翻译先导不构成全文校对
+
+本地NLLB转换模型的韩中先导可译普通问候，但在大魔法阵/血泪等专名上产生错误、未知字符和句子遗漏。把名词预换成中文也没有通过该样本。候选没有并入正式批次；来源为Meta NLLB及Yasmin Moslem的[CTranslate2转换说明](https://forum.opennmt.net/t/nllb-200-with-ctranslate2/5090)，下载hash和实际命令/输出保留ignored work。该结果只约束此次模型/配置与输入，不能泛化为全部自动翻译系统的表现。
+
+### ASS文件hash必须绑定落盘字节
+
+Windows默认write_text会把LF换成CRLF，内存ASS字符串的hash不等于落盘文件hash。27个现有成片的ASS语义与SFD未改变；receipt保留旧LF内容hash，并补正确的实际文件hash，旧receipt另存。后续工具显式写LF并从实际文件计算hash。音轨/帧数通过不替代字幕文件身份核对。
+
+### 无音轨SFD的本地预览提取
+
+991802没有音轨。上游`sfd_muxer.SFD.from_file`在构造对象时要求ADX参数，空音轨会触发`not an ADX/SFA file: head=`，不是原视频损坏。FFmpeg视频stream-copy在该片原时间戳下会报告重复DTS；失败中间流保留。只读预览提取改用同一上游`container._demux_streams`取得视频/音频payload，显式要求音频为空，再独立转码为MP4；733帧及完整无音轨解码检查通过。不更改上游库、原SFD或游戏播放时轴。
+
+### 大面积字幕遮罩导致原画遮挡
+
+stage93下方黑色字幕带和全屏故事面板覆盖原动画，用户完整成片验收判定不可接受；保留音轨/帧数不代表原画保留。stage94移除所有背景drawing和Mask style，长段落分成最多两行短句，使用无背景白字描边硬字幕。对白位置70%避免与原底部韩文重叠，歌曲/滚动文字位置84%。原画内烧录文字仍然存在，不宣称已消除。初次无背景样本显示84%对白位置与原韩文重叠，因此对白上移；初次候选保留，当前构建以`*-94-final`目录为准。
+
+### 空白区不能从单张画面推广到全部影片
+
+991803截图右下区域较空，但180111/181307原韩文可横跨画面中线。stage95以21部所有参考字幕窗口起中末的345张原帧核查每片边界，取红框内更靠右的矩形，不把单帧或OCR无输出当作每帧无字证明。原帧hash、OCR低置信度及全帧未穷尽标记保留。固定两行排版解除后，仍须受矩形像素高度约束；标点连续串必须与前一个原子绑定，否则挪走单个前字仍会在下一行留下标点。
+
+## 右侧硬字幕的字体度量不一致（stage97）
+
+已验证：Pillow的EM像素大小与libass的ASS字号不是同一个尺度。思源黑体24px的ascent/descent为28/7，ASS样式采用35号字才能匹配24px测宽。旧版按18px测宽却渲染18号ASS字，造成可用区域内明显小字和空白。`pixel_font_size=true`启用字体度量校准；逐行独立定位避免字体高升降部导致行间距膨胀。其他布局默认不启用，避免改动已验收范围之外的影片。对181307的55秒原帧已生成并检查24px新版样张；原生韩文仍保留。
+
+## 按字符凑宽度会拆散中文词组（stage98）
+
+已验证：stage97虽保护名词表，却仍把其他文本逐字符排版，181307的“作出什么判决”在行尾/翻页处被拆散。仅追加少量禁拆词或自动分词不能等同于逐句语义复核。stage98为21部115个源cue添加显式词组和语义页，复核页不允许自动按高度切割；保持大字号，不通过缩字掩盖问题。180115寻找亚逊的一句改为先说明寻找对象再描述宾迪，避免长定语在狭窄区域造成悬空翻页，含义保持不变。
+
+## 严格编码往返不等于语言解释正确
+
+六个CHT源字段在主CP949解释下呈现无语义文字，但完全相同的原字节也能严格CP932往返，得到连贯日文问题/说明。两种编码的字节往返都成立；不能把主解码strict误称为语言语义已证实，也不能据六例全盘替换编码。保留原源hash和主参考，按字段记录替代读法与原保护控制序列，译文独立回填。具体字段与往返记录为stage105 camp-context-review.json。
+
+## 中文润色不能越过动态字符串的固定截取边界
+
+占卜金额14与商店金额7的调用先放数量再接字段，单字段译成需要花费希德币会形成100需要花费希德币。消灾编号9同时出现LeftA／MidA的5字符截取与Left／Mid的11字节截取；原ELF标量代码确认A版按高位双字节扫描，非A版按字节。使用5个双字节前缀字符加一个ASCII空格同时满足两者，不能仅凭整句自然或font cmap通过而改长度。列表最终绑定与完整运行未确认，显式pending policy保持；没有盲改原ELF或调用常量。见DYNAMIC_TEXT_CONSUMERS.md。
+
+2026-10-11 stage141：partition-only FPB错误统一报overlap；六个原文件实为领先pool前缀和显式seq0导致未合成implicit视图。诊断必须看实际区间，不能删除前缀来满足partition，也不能把未编号误判为无显示。新backend保留gap／tail并仅重定位明确窗口。
+
+2026-10-11 stage142：celfid mirror清单24项不是全属SHIP，3个配置／INT原属FILE。错误以SHIP定位会KeyError psx2user.ini；首失败记录initial-mirror-owner-failure.json保留。按resource owner绑定后全24offset/hash核对。font增长后原物理offset已移动，只有原流验证offset、改流重新唯一定位资源才可同步缓存；不得直接套原offset。
+
+## Whole-resource style name collisions (stage155)
+
+The initial 206-name subset passed but all249 source/encoded name comparisons found eight collisions with older translated names. The failure report is retained. Test all249 including previously reviewed and unchanged fields; do not fix the test by reducing its domain. Orthographic qualifiers preserve five base names and original equality partitions, without assuming unused or distinct gameplay.
+
+Stage157 initial suite also retained an old six-field quarantine assertion after105 source-bound promotions. It failed as expected; replace it with exact six-ID/profile hash/target assertions and explicit static-not-runtime checks, then test fresh baseline/rollback copies. The original failure output remains saved.
+
+## Batch consumers have distinct schemas (stage158)
+
+Appending an ordinary FPB batch to every command with --batch broke configuration validation because the configuration path requires references.und. Append only to FONT_INVENTORY, SCOPE and PREFLIGHT; do not pass it to CONFIG_VALIDATE, CONFIG_IMPORT or the native header-only batch parser. Preserve the failed command and rebuild into a fresh output directory.
+
+The second build reached SHIP_IMPORT but duplicated the new batch: its --batch already points to the preflight-generated selected-copy-batch that includes the new entries. Keep source registry inputs separate from derived aggregate inputs. Rebuild fresh after removing that duplicate argument; do not weaken duplicate-ID validation.
+
+stage169初次构建计划误把CHT新batch也附加给配置专用validator，触发references[und] KeyError；原资料未损坏。修正配置专用输入，只给ordinary scope/font/preflight/import加入新batch。build-initial-failure.json保存实际失败；不得以失败计划作为发布证据。
+
+stage169同类输入计划错误还触发CONFIG_IMPORT、SHIP_IMPORT重复identity、HEADERS错误policy；分别保存在build-second/third/fourth-input-failure.json。只给FONT_INVENTORY/SCOPE/PREFLIGHT追加ordinary batch，SHIP_IMPORT读取已合并preflight batch，配置与header输入保持专用。失败header输出目录保留为header-copies-failed-input；原文件没有改动。
+
+stage170：两条TUI制表符源字段00000682 key17/physical16与00001240 key192/physical9补译，native256/MainFString4及真实Key查询绑定。single-tab-byte-v1只允许一个TAB，保留09字节并保持数字、protected tokens在TAB两侧顺序，默认API仍拒绝控制字节。风之符咒依名词表部件统一，不写护符；全角空格保留。14616reviewed、2013terms、2464chars/两5131glyph；5control→3control，8decode/其他scope/动画ISO继续，最终验证见170/VERIFICATION.txt。原文中的TAB实际排版语义不因静态存储确认而冒称已验收。
+
+stage170首次语言目标用“风之护符”被全量glossary checker以部件부적拒绝；按已有2013词表修正为风之符咒。并未绕过校验或改源字段。
+
+stage171：00000218.fpb实际header key0/offset0/length43绑定，37B可见韩文场景测试对白后6个NUL。terminal-null-padding-v1以source/reading/target/native hashes启用，仅源末尾零字节；目标正文无NUL，rewrite_fpb在译文bytes后追加原6zero并更新native header长度，不删除源padding、不改原档、不推断事件未使用。普通14239/含FILE14617reviewed、2013terms；剩2control与8decode集中00000106源异常窗口，其他scope及ISO继续。完整验证171/VERIFICATION.txt；默认FPB API原行为不变，无自动padding判断。
+
+stage171初次scope对任何NUL强制隔离，即便源已hash/native-bound核实。仅允许有效terminal-null-padding-v1 proof；未绑定或伪造拒绝。CLI新proof helper缺少src模块路径时报ModuleNotFoundError，按通用tools/src/lib路径修正，实际失败记录保留。新scope2与2scope测试验证，不改原source。
+
+stage172：00000106.fpb十个原生记录明确列为retain-source-fault（8个CP949 bytewindow截断字符、1个非语法测试残片えうれおいつえれｄ+3NUL、1个9NUL全零记录）。prepare_source_fault_retention按原SHIP/ELF/nativeKey/physical/span/fullpool/hash核查，派生catalog只添加retention proof，原decode/controls/editable/backend/offset/raw均不改变。scope单列源异常保留10，不计已翻译、不授予import、不声明事件未使用；普通scopereview仍不能跳过quarantine。171字库/AFS实际bytes不改，14617reviewed/2013terms/1011资源14614fields。新scope不再有deferred-decode/control，原8failed/2quarantine如实保留；10Latin/3configsemantics/3pending/compiled/native/image/layout与已验收动画/最终ISO继续。证据172/VERIFICATION.txt。
+
+stage173：余10Latin范围收拢：9条可读英文补译（CommonSid1/GFTOrhaText2/FDS原型6），vbvb b source-bound literal保留（累计139）。GFT原92*822+8、native180/arrayf4，GetGiftData按首Key0比较；0/1键唯一，OrhaText源70/nativea8，Core结构最后StrProperty，compiled10958 BeginState的SetChatText参数，不是内部tag。CommonGetCommonTextIndex312920→3127f0/array130，key19实际physical18。FDS03633为2*2052+8四512文本原型，与active03591同定槽schema；不宣称其游戏加载已执行。Sid→希德币、Orha1/2→奥尔哈1/2、pparkjju/2→朴柱/2项目统一，不推断人物身份性别，数字与机器metadata保留。14626reviewed/2018terms；最终字库/AFS验证173/VERIFICATION.txt。10源异常仍保留，3configsemantics/3pending/compiled/native/image/layout及动画ISO继续。
+
+stage173初次5alias插在名词表尾注之后，被连续表格回归拒绝。修正插入真实最后术语行后，保留5alias内容、尾注与已有2013词条。test-initial-failure.json和初manifest保留，重新在baseline-tests2/rollback-copy2跑完整事务。
+
+
+## 默认Player不等于主角
+
+DefaultPlayer/URL中的Player是引擎默认身份，不能凭可读英文替换为卡琳兹。协议描述有native配置加载，不意味着已证实剧情可见或运行不可见。应把显式保留决断与原semantic分类分开，不用新分类掩盖旧未确认状态。
+
+
+typed存储回填与动态模板替换证明不应混为一谈：保留原标记、key与槽，用户测试可验收翻译后的模板，即使没有覆盖所有历史运行分支。不能删除~或把模板重写为假定主角名；无compiled调用也不是无用证明。
+
+
+## builtin注册采用栈溢出模板
+
+对intUObjectexecJump等套用旧inline PMF工具会报exact inline method descriptor copy missing or ambiguous。不是回调不存在，也不能把name table+4的初始0当地址。原initializer将source/destination指针SQ到栈后LQ恢复，FPR复制PMF。新bounded tracer闭合此实际模板；unknown/call/branch直接停止并报错，不越过未知执行流猜寄存器。
+
+
+## Display call不等于每个参数都是标题
+
+SetSentinel收取MrtsGame.Mrts*Window类路径，即使旧semantic表将该call归入display候选，也必须保护这些machine-readable参数。compiled front-end保留它们；不能因全文翻译要求破坏类lookup。47个真实显示label分开写入语言batch，等待bytecode/cache backend。
+
+
+stage177首次alias插入选中了文末示例表，连续词表回归失败。已用最后actual approved term row重定位，原2018词条与文末说明逐行恢复一致，失败日志保存test-initial-failure.json；最终事务使用隔离copy2重新验证。
+
+## stage178 real import repair and cache boundaries
+
+The first ordinary-copy run failed properties/Function tail changed because property_block includes native_tail_sha256/native_tail_bytes for the entire post-property object. Those derived research metrics naturally change when scripts change; compare property stack/rows/end and the actual Function tail instead. Initial command/output/exit1 is retained in178/ordinary-command-initial-failure.json; actual properties and tail are still exact.
+
+Do not substitute next-token offset for the exact child-expression end, normalize historical Context skip words, treat Assert diagnostic words as branches, or equate streamed script prefixes with complete serial bodies. Several selected stream prefixes do not have the ordinary Function tail immediately following. The overlay intentionally retains all metadata beyond the unique prefix, and demands consensus across every original alignment. Runtime acceptance remains a separate test.
+
+## stage179 ISO/UDF directory-group ordering regression
+
+The first complete movie+archive ISO failed independent verification with unexpected appended extent. Source acceptance list placesMOVIE99/1825381 beforeMOVIE18/189992; upstreampatch_iso batches byparent directory and therefore appends allMOVIE18 beforeMOVIE99. UDF planner/validator usedglobalinput order and selecteddifferent extents. The literal exit1 log remains in179/iso-build-initial-failure.json; the unverified4.25GB image was subsequently removed with its hash recorded in180/obsolete-generated-images.json. grouped_replacements now normalizes the exact directory-batch order before planning/writing/checking; a cross-directory regression test guards it. Successful candidate was rebuilt from the original, not accepted by weakening validation.
+
+
+## stage180 标题与 UI 反馈修正
+
+stage180：菜单位图不会随普通文本回填自动翻译。旧预览按BGRA呈现蓝色羽毛，标题实证应为RGB；palette原字节不改。LINEAR清单键不是.lin文件名，首轮重建在manifest门禁失败，修正stem键后重建。另一同名标题变体源像素不同，门禁拒绝，不强写。首次在派生selected-copy-batch中改UI已恢复，随后按canonical registry同步；只有新integrated-afs2可作为本版输入。隔离基线测试需创建work临时目录，缺目录造成的四项失败日志保留，补目录后1913项通过。

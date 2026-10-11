@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000218.fpb/seq/0",
+      "source_sha256": "759b157800cf47a58d9862929e6903db66cacb33681bbf85a7d78c25c5d0f910",
+      "target": "你好，这是场景事件测试。",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Source-bound actual numeric FPB record; original terminal zero count retained in rebuilt record length. Target prose NUL-free; original source unchanged; event reachability/runtime layout not claimed."
+    }
+  ]
+}

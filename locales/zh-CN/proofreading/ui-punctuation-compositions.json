@@ -1,0 +1,248 @@
+{
+  "schema": 1,
+  "source_textbuffer": "FILE/MrtsGame.u/MrtsMainSaveLoadWindow/TextBuffer",
+  "source_text_sha256": "c727d7803bc24b90a16ce2365393d46432ed20b1993ffb93899a11c79745a42b",
+  "runtime_verified": false,
+  "groups": [
+    {
+      "keys": [
+        143,
+        199,
+        142
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/143/field/0/index/120",
+          "source_sha256": "60977ab318a6fb5a05d63123171b36e13e55a1121200a294635461872157a596",
+          "target": "正在保存。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/199/field/0/index/121",
+          "source_sha256": "f9134f3814052436fba267575fb51885aeca8fa52bbe2156f41f1cc82b14d1ca",
+          "target": "请勿关闭电源，也勿拔出",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/142/field/0/index/122",
+          "source_sha256": "0d4cde7aa8739b6968266397e3ed702c975933caf61810c500c037aa010abac5",
+          "target": "记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "正在保存。请勿关闭电源，也勿拔出记忆卡(PS2)。",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        175,
+        199,
+        142
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/175/field/0/index/128",
+          "source_sha256": "b13b7c30258d2a4c1325573feb23b3cb147fb743d7b3114d01d13aadeefa1890",
+          "target": "正在读取。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/199/field/0/index/121",
+          "source_sha256": "f9134f3814052436fba267575fb51885aeca8fa52bbe2156f41f1cc82b14d1ca",
+          "target": "请勿关闭电源，也勿拔出",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/142/field/0/index/122",
+          "source_sha256": "0d4cde7aa8739b6968266397e3ed702c975933caf61810c500c037aa010abac5",
+          "target": "记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "正在读取。请勿关闭电源，也勿拔出记忆卡(PS2)。",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        204,
+        199,
+        142
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/204/field/0/index/139",
+          "source_sha256": "1d07a13a3b8885a6f9e153b312bde5a7368fc3dc3ca0f42f639abc069bd3afd6",
+          "target": "正在格式化。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/199/field/0/index/121",
+          "source_sha256": "f9134f3814052436fba267575fb51885aeca8fa52bbe2156f41f1cc82b14d1ca",
+          "target": "请勿关闭电源，也勿拔出",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/142/field/0/index/122",
+          "source_sha256": "0d4cde7aa8739b6968266397e3ed702c975933caf61810c500c037aa010abac5",
+          "target": "记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "正在格式化。请勿关闭电源，也勿拔出记忆卡(PS2)。",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        96,
+        166,
+        165
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/96/field/0/index/91",
+          "source_sha256": "426c79b90a037624016d371767ef5dc2635d3601179ad8b0f8afccb630551a3e",
+          "target": "正在检查插槽1中的",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/166/field/0/index/92",
+          "source_sha256": "3edb3ddb7b4fa57a689abac4b4de260d68b2e9cc0d87f63fb368102686f02961",
+          "target": "记忆卡(PS2)。请勿关闭电源，",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/165/field/0/index/93",
+          "source_sha256": "3a6e68463c42c9d6a90c87fc05cf309ce3cac5e46cea7b8040d271e849170ab6",
+          "target": "也勿拔出记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "正在检查插槽1中的记忆卡(PS2)。请勿关闭电源，也勿拔出记忆卡(PS2)。",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        159,
+        160,
+        151
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/159/field/0/index/102",
+          "source_sha256": "b5b413793dff96f62b009731e23648c11a22d65ad123f5c6155018b25444e13b",
+          "target": "要继续开始游戏吗？",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/160/field/0/index/101",
+          "source_sha256": "1ad79e030541b5d2d5aa20d567d21e41f3a94d87b9f82a2ce9de050e5d193411",
+          "target": "保存新的游戏数据需要",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/151/field/0/index/112",
+          "source_sha256": "d6d226777950382a61ed030065c4902d590c34886a881c8b63ccc4569da2553e",
+          "target": "至少80KB的可用空间。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "要继续开始游戏吗？保存新的游戏数据需要至少80KB的可用空间。",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        164,
+        194,
+        163,
+        162,
+        157
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/164/field/0/index/94",
+          "source_sha256": "242aa4f06161915a7a8fe1e8d13ec45a434dfac366ab0eb5b55ced6372604d38",
+          "target": "记忆卡插槽1中",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/194/field/0/index/95",
+          "source_sha256": "9913c51757f8450dd215c88bf457af3af6ae4e1689579a6df68c0695c99cf273",
+          "target": "没有记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/163/field/0/index/96",
+          "source_sha256": "90412db8cf3a698a1d85dbf16238ed5f2a5a06fb93d93dae4fc4ecda39eb4034",
+          "target": "保存新的游戏数据需要",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/162/field/0/index/97",
+          "source_sha256": "d6d226777950382a61ed030065c4902d590c34886a881c8b63ccc4569da2553e",
+          "target": "至少80KB的可用空间。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/157/field/0/index/105",
+          "source_sha256": "278efa5a0484171679fa2f720ec11b2481b9ac4260b7fdf69e9811b9495238c7",
+          "target": "要继续保存吗？",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "记忆卡插槽1中没有记忆卡(PS2)。保存新的游戏数据需要至少80KB的可用空间。要继续保存吗？",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    },
+    {
+      "keys": [
+        164,
+        194,
+        198
+      ],
+      "source_bound_fields": [
+        {
+          "id": "SHIP/00001240.tui/record/164/field/0/index/94",
+          "source_sha256": "242aa4f06161915a7a8fe1e8d13ec45a434dfac366ab0eb5b55ced6372604d38",
+          "target": "记忆卡插槽1中",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/194/field/0/index/95",
+          "source_sha256": "9913c51757f8450dd215c88bf457af3af6ae4e1689579a6df68c0695c99cf273",
+          "target": "没有记忆卡(PS2)。",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        },
+        {
+          "id": "SHIP/00001240.tui/record/198/field/0/index/106",
+          "source_sha256": "34a243f59fbee61adf52e5a81d734f99155cb04575efba8dafd4e5f69251fbe4",
+          "target": "要继续读取吗？",
+          "status": "reviewed",
+          "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
+        }
+      ],
+      "composed_text": "记忆卡插槽1中没有记忆卡(PS2)。要继续读取吗？",
+      "decision": "retain punctuation: full display contains a comma or multiple sentences"
+    }
+  ]
+}

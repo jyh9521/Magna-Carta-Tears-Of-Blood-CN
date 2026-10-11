@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00007533.cht/slot/8",
+      "source_sha256": "586748eb0cdf50de61ca7e690d46d56119df3f646cbea5f31c78a921a90e76f8",
+      "target": "唉，莉丝走了，真让人舍不得。其实让她加入我们血泪也挺好的。\n",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Original terminal byte0A preserved exactly before NUL; native512 CHT storage/source hashes verified. No substitution to $n or deletion, runtime layout not claimed."
+    },
+    {
+      "id": "SHIP/00016768.cht/slot/16",
+      "source_sha256": "8dc1fafa854fee431514aec98b04f82645e25f05b3400e10a7d885e83800d75b",
+      "target": "不过，听说最近卡恩的流动不太稳定，怪物也经常作乱，所以我有点担心……\n",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "Original terminal byte0A preserved exactly before NUL; native512 CHT storage/source hashes verified. No substitution to $n or deletion, runtime layout not claimed."
+    }
+  ]
+}

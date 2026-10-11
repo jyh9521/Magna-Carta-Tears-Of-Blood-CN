@@ -1,5 +1,97 @@
 # Technical Notes — Magna Carta localization
 
+Verified(stage168)：原CDG header72/type5、8+72*526=37880B；每条先读4B至stack264，再读第二u32至nativeKey0，源Name255→native10，后续两u32→native8/c，再读Desc255→native1c；native array118/count11c/stride40，callback311100..311270按nativeKey0比较后复制两FString。原source+4是Key，不能用丢弃的首u32推lookup。CDG六个目标odd slot31/81/87/97/117/137各对应real record15/40/43/48/58/68。Store308250/Gym308950 loader path/source key/Main256/Help256及28stride、array148/16c与native lookup anchors绑定；Store key4/5/12对应physical9/10/18，Gymkey1physical1。静态存储及lookup不冒称所有UIconsumer/游戏事件已执行。
+
+Verified(stage167)：27FPB独立原native numericKey first-match与source offset/length/hash，3CHT及48POD原native512→FString链；ITM六个Comment原record398..403、594serializedstride/255slot/native50，原numericKey经2fe510选择同一physicalindex，源slot/padding/hash保持。派生entry只解除这些已验证字段的control quarantine并附原source/reading/target/nativebinding hashes；原source bytes由import/preflight再核查。runtime_control_semantics_verified=false保留；不宣称全部renderer/事件或其他consumer已执行。
+
+stage166的literal-control-readings审计只证明原字节CP949往返、已知$n/$D/printf token保持、数字百分比及箭头顺序、非ASCII括号名称和名词表一致；它不证明百分比/括号的所有原生consumer语义，不更改generic protected_tokens，也不解除source quarantine。原8坏边界FPB与7个有控制字节字段继续保留。
+
+Verified：stage165四个FPB片假名窗口按实际pool offset/length/hash唯一匹配native record，再验证first numericKey；CHT字段00004044/slot12真实text offset6412，512B文本，前16B/后4B numeric保持。全角片假名可读性不等于运行时编码/事件执行证明。原8个00000106.fpb坏边界窗口继续保留。
+
+## Native fixed dialogue storage andreal write bounds (stage164)
+
+CHT path4b7740/native path ref2ffb38 andPartyData path4bb7e0/ref3a39ac read3headerwords andrecords with fouru32,512byte text andoneu32. Native reads512 at2ffc44/3a3ac0, conversion1a54c0 andbytecopy116c70;3a3bb0 passes the textFString int0 argument to3a3140, which copies it into aFString at+8 in68-byte child records while numericmetadata remains separate. GetNextChatData3a00e0 copies FString fields at+8/+14/+20. This is static storage, not proof ofall consumers or branchreachability.
+
+POD path4b9070/ref329ec0 reads fiveu32 then24text slots with interleavedword separators atfield10/15 andthreefinalwords;originalsize12328. Sourcefield0/offset20 mapsnativeFString+18,field19/offset9756 maps+fc. The39source/resource/span hashes andnative anchors are reproducibly checked by audit_native_fixed_dialogue.py. Original maincorpus remains frozen;fieldlanguage/codec are explicit in a derived catalog.
+
+
+## Field-local alternate reading gate (stage163)
+
+Verified115 original FPB spans use the157 actual numeric-key chat payload copy; original ELF fingerprint andinstruction anchors are checked when deriving a source catalog. Only original decodefailed/dialogue-window fields with unique native source bindings are selected. Every selected field retains raw_hex/source hash/offset/length/key andgets ja-JP references/cp932 explicitly; source_interpretation records original failed status, raw/UTF-8reading hashes andfalse runtime encoding claim. Shared source_interpretation helpers fail on missing language/proof, wrongreadings/raw bytes or unsupportedcodec. rewrite_fpb has explicit per-sequence source_encodings without automatic fallback; untargeted/gap/header identity behavior remains. The originalprimary corpus is never overwritten. CHT37/POD2 remain separate; no nativeconsumer proof is invented for fixed fields.
+
+
+## Source-hashed alternate decoding audit (stage162)
+
+Audit154 previously failed primary-codec spans against the unchanged original SHIP archive. CP932 round trip and Hiragana/no-private-use checks alone do not prove display encoding or reachability. Explicit corpus/resource/span/reading hashes, protected token validation and original raw_hex are required.115FPB spans additionally match unique actual native records and first numeric-key lookup using the verified157chat protocol.37CHT and2POD fixed spans remain linguistic evidence without new native-consumer approval. Tool output keeps source_still_quarantined=true/import_approved=false. No change to the ordinary source catalog, active fonts or generated AFS is made in162.
+
+
+## Named-resource storage andnumeric lookup (stage161)
+
+Verified original ELF/SHIP: CHA loader30afe0/path4b79b0 reads301 records,299serialized bytes with255-byteName intoFString+44 in56-byte native records(array+28/count+2c); GetCharData310070→310170 compares numericKey. ABI30cec0/path4b7a70 reads358 records192bytes,40-byteName→+4 and128-byteComment→+24 in48-byte native records(array+4c/count+50); GetSkillData310300→3103f0 compares storedKey. ITM2fdb00/path4b76a0 reads479 records594bytes,255-byteName→+c and255-byteComment→+50 in100-byte native records(array+94/count+98). GetItemData30fdd0 calls2fe510 withnumericKey;12-byte hash node(next/key/physicalIndex),bucketmask andmissing-key fallback+564 are independent ofdisplay strings. Duplicate loading updates the numeric physical-index value at2fdca8; synthetic duplicate fixture matches this anchor, originals have unique keys.
+
+1138 actual address-computation fixtures and481 item-hash fixtures pass. Compiled10975 sendsCharData.Name/ItemData.Name intoShowChatMessageBox;11048/12107 feedSkillData.Name/Comment intoAddList afternumericStyleData.Skill lookup andempty-name guard. This is static storage/producer evidence, not proof ofall consumer absence, runtime property initialization or reachability. Generic tool audit_named_resource_data.py remains versionlocked andlocale-neutral.
+
+
+## Native FPB text consumer protocol (stage157)
+
+Verified original ELF: registered Then_2DObjectControl_Chat callback0x37cad0..0x37d1bc calls0x342560 at0x37cb30. The numeric text key is loaded from event+0x98, FieldData pointer follows+0x78/+0x220/+0x340; independent talker field+0x94 is not derived from the text. The output FString stack+0x90 is copied to+0x80, passed to constructor0x37d4b0, copied to ChatParam+4, and enqueued via vtable+0x18. Native anchors lock this payload path; it does not use payload strings as actor lookup keys.
+
+105 previously deferred labels/development lines uniquely bind pool offset/length/hash to actual FPB records and first numeric-key match. Locale profile does not assume seq+1: an attempted ordinal formula was contradicted by00000358 record10. Only exact source matches authorize the copy; source IDs/control sequences and translations remain unchanged. This verifies a static text-consumer protocol, not that every event/legacy record is reachable or visual layout is accepted.
+
+
+## Additional text indices and bounded long callbacks (stage156)
+
+Verified original native key lookup: RoadSign callback0x3135a0/helper0x313680 reads array0x190/count0x194; Pilot callback0x3136d0/helper0x3137b0 reads array0x19c/count0x1a0. Both use the same exact20-word28-byte record key-search template as Store/Divination/Gym. The 00011012.tui loader0x309990 binds path0x4b78f0, array0x19c, serialized256-byte MainText and HelpText into native FString+4/+16. This establishes storage, not insertion order.
+
+MrtsPilot.SetDestList has a564-byte registered callback, so the prior512-byte return scan correctly rejected it. Registration now accepts an explicitly bounded aligned callback_limit, default512 unchanged; it never expands on failure and includes the delay slot inside the bound. CLI --callback-limit1024 binds this callback through its exact initializer. Archived MrtsPilot ScriptText references PilotTextList[2] only inside a commented-out state; comments and source references do not prove compiled consumers or unused runtime data. Remaining three dynamic TUI entries stay pending; no partial consumer proof is promoted.
+
+
+## Style text and caption filter source chain (stage155)
+
+Verified static: SGI loader0x30d350 binds ..\Sgi\00000468.sgi at0x4b7ab0. It reads source Key4B, Name100B then later Description67B; Name becomes FString+4 and description+88 in100-byte native records at array+0x40/count+0x44. Original GetStyleData descriptor binds callback0x310760, helper0x3109b0 scans Key, not physical index.249 actual scalar address computations confirm100-byte stride. Numeric key/data remain separate from strings.
+
+Name participates in UI display and a case-insensitive caption comparison, so display evidence alone was insufficient. Same MrtsFieldListBox outer5 AddStyle11161 passes StyleData.Name to AddList12251; that function assigns a_Name to List.Caption and a_ID independently to List.ID. SetSubListBox11048 compares StyleData.Name against SelectedItem.Caption. This is label consistency, not a source-language hardcoded identifier. The initial whole-resource check found eight collisions between five Korean/Hanja spelling groups, missed by the promoted-only test. Eight Hanja-form labels now add an orthographic qualifier; five exact-source glossary rows match. The full 249-name equality check, including retained names, is required before approval. AddStyleInfo12135 assigns Description to List.HelpText. Structured profile has206 names/40 descriptions; static copy approval does not claim runtime property initialization or visual fit.
+
+
+## Amount consumer source chain (stage154)
+
+Verified static: GetStoreMainText6789 and GetDVMainText6781 are compiled functions (36tokens), looping physical i and comparing array[i].Key to ID before returning MainText. Searching for intUMrtsUIInfoexecGetStoreMainText/GetDVMainText fails because those names are not native registered methods; this does not mean the consumers are absent. Original GetStore/Divination/GymTextDataIndex callbacks0x312e80/0x3130e0/0x313210 call0x312f60/0x3131c0/0x3132f0; helpers compare stored key in28byte records at arrays0x148/0x160/0x16c. All20 words each checked;360 bounded actual instruction fixtures passed. Source loaders share these arrays.
+
+ProcessLocalMessage6717 composes computed amount plus DV key14; key9 uses LeftA5/amount/MidA5. ShowAllWindow8049 uses Left11/amount/Mid11. Gym8229/11695 obtain key17 into Index and use GymTextList[Index].MainText with LeftA3/MidA3. Store11770 composes CurPrice plus key7; initial windows also show the bare suffix before later composition, an original behavior rather than an invented constant amount. Source/hash/token profile and actual encoded native boundaries bind four translation-copy decisions. Static consumer proof is separate from runtime property initialization, allocation and visual fit.
+
+
+## Map confirmation full expression (stage152)
+
+Verified static in original FILE/MrtsGame.u/export/11986: call425 GetMapTextDataIndex, literal4 at428, output TextID430; assignment434 sets TextData from MapTextList array438 indexed by TextID439. SetMessage547 concatenates NextNodeData.Name and TextData.MainText at549. Source serial hash and all expression tokens bind the translation decision. No nearby-integer inference or runtime reachability claim. Remaining seven suffix decisions are explicitly linguistic, not newly proven consumer bindings.
+
+
+## Getter and direct-array consumers are different (stage151)
+
+Verified static: four index-method descriptor copies bind FieldMenuTextIndex0x312840→0x3127a0, CommonTextIndex0x312920→0x3127f0, MapTextDataIndex0x313340→0x313420 and BattleTextDataIndex0x313470→0x313550. FieldMenu helper compares stored keys, as stage149 established. However direct compiled ArrayElement literals select physical array ordinals, not source record IDs. These two paths must remain separate.
+
+Reparsing all eight supported original packages with four exact property selectors produced329 getter calls and283 whole objects. Bounded ArrayElement/DynArrayElement parent-child analysis found200 text-list reads,105 literal physical indices and95 nonliteral expressions. Nine missing fields appear in explicit consumers: NotifyFromWindow12188 contains style/stat messages, BeginState10975 contains recipient/item/gift confirmation, and MrtsStateToroChanged337 plus10271/10314 use spirit-stone suffixes. Literal ordinals bind source catalog geometry independently of getter keys; this is not a runtime property-offset initialization proof.
+
+The source stat branches check nonzero values, not strictly positive ones. Fixtures preserve signed numbers, including -5; no absolute-value rewrite or new amount is inserted. New Chinese fragments move the predicate to the pre-number particle slot and reduce the old trailing predicate to punctuation. Whole expressions and object serial hashes are retained for reproducible review. Source masks, bytecode order and resource IDs are unchanged.
+
+
+## Native field text keys (stage149)
+
+Verified static: registered intUMrtsUIInfoexecGetFieldTextData callback0x3f2c90 calls0x3f2e00, which loads the data object at this+0x2c and calls0x3127a0. That exact helper scans array0x13c/count0x140, uses28-byte stride, compares requested integer with stored key at record+0, writes the first matching physical index through output pointer. Getter copies MainText at+4 and HelpText at+16. Native loader0x30ac40 binds path0x4b7990 to ..\UIText\00001240.tui, reads keys and256-byte text halves into the same layout. This binds the field-file and native-member chain without inferred UProperty offsets.
+
+Verified offline:120 fixtures execute the actual original lookup words, covering sparse/unsorted keys, duplicate first match, empty table and absent keys. Generic scalar execution adds checked SLL and memory-bounded SW, with regression tests. Reparsed251 getter calls and177 selected whole-function objects yield144 literal FieldTextData calls and12 nonliteral arguments. All144 literal keys differ from physical source ordinals; source archive/value hashes and geometry are checked independently. GetNationName(238) is source record key238, not ordinal238. Dynamic arguments remain unbound; presence or lack of literal calls is not reachability proof.
+
+Verified static: helper0x1a54c0 is exactly JR ra followed by MOVE v0,a0 in its delay slot. The field loader and the previously audited Store/Divination/Gym loaders call the same helper, so this buffer conversion is identity, not a guessed encoding conversion. Full allocation/game execution and unrelated property initialization remain unverified. Current source-only audit changes no resource targets or final ISO.
+
+
+## Configuration encoding and cache resizing (stage147)
+
+Verified: 372 selected ASCII-source .int/.ini values were individually reviewed and copied with byte/hash/line/section/key binding. Seventeen preference descriptors expose quoted Caption/Parent labels while Class, Category, flags and punctuation remain machine data. Parent rewrites require an exact source caption/scalar label in the same batch; undefined Networking remains unchanged. Printf/opaque Engine macros %o/%k/%w, accelerators, literal newline escapes, paths, delimiters and wrappers retain exact token order. These checks preserve opaque syntax, not a claimed interpretation of death macros or PS2 reachability of editor/setup fields.
+
+`MappedEncoder.encode_characters` separates explicit glyph encoding from consumer grammar validation. Default `encode` still runs the unchanged dialogue protected-token gate, including rejecting %w there. Configuration uses the primitive only after its format-specific source-bound validation and rejects NUL/CR/LF encoded bytes. The original ASCII source parser remains strict; a byte-valued configuration-line parser independently checks rebuilt identity and untargeted values.
+
+Verified: original startup bundle contains one whole Core.int body and two matching padded128-name/u32-size records; one whole psx2game.ini body and three matching size records. Source-bound profiles record these counts and hashes. Whole-file overlays relocate unchanged intervals and update only the verified size words, allowing value-length changes. This is distinct from equal-size SHIP resource mirrors. Native/runtime interpretation of those records and selected configuration reachability remains unverified. Independent extraction confirms all372 values, two cached bodies/five new size words and no old whole bodies; 13434 SHIP targets/358 held original fields, original AFS TOC/order, two actual fonts and20 total cache mirrors also pass.
+
+
 ## Research status: KR_SMALL_CHARSET_STATIC_VERIFIED
 
 截至2026-10-08：仅韩版输入；33字小字集PoC完成静态验证，旧单字版截图确认UI显示“测”，不是完整中文补丁。研究见 [第一阶段报告](docs/PHASE1_RESEARCH.md)，新版本验收边界见 [小字集QA](docs/QA_TEXT_POC.md)。
@@ -392,3 +484,88 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ## stage92 音频优先接续
 
 见 [音频优先核查](docs/MOVIE_ASR_REVIEW.md)。全46影片库存：45音轨完成本地原语言候选转写，1片无音轨；283片段、174低置信度片段定点OCR队列，26个空白折叠源匹配不作exact去重。停止全帧OCR，批量清理有哈希清单；原资源/6334译稿不改。音频候选流程完成不等于全游戏覆盖完成，继续保留静默视觉文字与未知native语义。
+
+## 全量测试准备阶段的有界写回
+
+见 `docs/FULL_TEST_PREPARATION.md`。字幕回封装直接复用sfd-muxer，27个候选保留原ADX完整字节与解码帧数；不声明容器时轴或PS2播放器验收。固定字段写回绑定资源hash、完整slot/field hash、原offset/容量、source hash与控制符，只写独立副本；4个FPB命名字段复用已有重建器。当前844字段/13资源未接入缓存、AFS和ISO，不开放未知格式的盲写。
+
+### 当前回填增量
+
+十批2128字段通过当前4901glyph两Font映射写入227个独立资源副本，容量溢出0。CHT/ECD的完整segment指纹与leading可写范围分别验证；trailer不增加容量。Source-alias支持仅接受唯一别名，别名/规范ID碰撞作为重复拒绝，不改既有ID/hash/status。1126项单元测试通过，非缓存/AFS/ISO或运行验收。
+
+## stage137 动态提示的金额与原生截取
+
+原FILE对象重解析349条getter调用；原ELF描述符静态复制绑定四个截取方法，693组标量原指令离线执行验证双字节字符／字节截取差异。三条金额译文按调用顺序修订，列表初始化与成员最终绑定未闭合，不提升pending policy。详见 [动态消费者](docs/DYNAMIC_TEXT_CONSUMERS.md)。
+
+2026-10-11 stage138：3个TUI原生loader逐原word核对，Core MrtsTextData三成员／四ArrayProperty内层及NextField链重解析。函数路径与record读入顺序静态已验证，运行期成员offset和转换完整语义未确认，不授权pending回填。见docs/DYNAMIC_TEXT_CONSUMERS.md。
+
+## 原生FPB首记录核查（stage143）
+
+**Verified（版本锁定静态证据）**：原ELF的`..\FPB\%08d.fpb`唯一地址配对指向加载函数0x3007c0。函数读取count后，循环count次读取key四字节及offset/length各四字节。因此+0x04/+0x08/+0x0c不是padding，而是第一个实际record；后续才是旧parser称为windows的record。目的数组为FieldData的+0x19c或+0x1a8，record stride16、字符串在+4。独立的完整qualified method注册复制链绑定GetPlayBookDataText→0x3424d0→0x342560；getter以10000分数组并对第二数组的key减10000，按key首个匹配返回，不按文件record序号索引。不是UIInfo.GetFieldTextData的TUI消费者。
+
+实际SHIP扫描707个可解析FPB、1个8字节文件00001945.fpb仍不支持；19个header key非零，没有重复native key。六个原pool-gap对应真实首record：00004668 key13、00004669 key10、00004800 key11、00004994 key1、00005047 key2、00006436 key1。这些前缀不能继续归为无编号不可见padding；已有源hash/字节坐标保持，后续补译并增加明确header-record回填路径。其余13个非零首key已有legacy seq/0几何链接，旧ID是catalog alias而非native key，不能直接重命名或与显式0合并。
+
+`tools/audit_native_method_registration.py`与`tools/audit_native_playbook.py`可从原ELF/SHIP/冻结corpus复核；指令原words和完整源hash是依据，Capstone对R5900 LQ/SQ的通用反汇编仅探索参考。证据在work/visible-text-143/native-playbook.json。未声称加载函数已在游戏执行、所有资源场景都可达、字符转换或画面排版通过。953资源候选AFS继续保留；此证据尚不自动改写六prefix或生成最终ISO。
+
+## 原生首record补译与独立回填（stage144）
+
+六个真实header record已在locales/zh-CN/header-dialogue-review-01.json按冻结source hash补译并逐句reviewed，native key13/10/11/1/2/1和pool-gap旧ID分别保留。江之英雄约书亚／救赎之光／光之树／格兰朱／马拉卡特／埃琉内德圣会／普诺森／莫莉沿用名词表。04800原Japanese汉字问号缺损按上下文解释，不声称恢复原字；原bytes严格CP949往返，CP932读取失败。$n顺序和数量保持、未知说话者不新增性别。
+
+通用rewrite_fpb_header和tools/import_fpb_headers.py使用明确native key、首record源hash、原AFS/corpus/已回填copy hash及物理font mapping；仅替换header window，显式record keys/order/body字节、内部gap和tail不改，offset统一加delta，header length和pool size同步。拒绝key/hash/offset/overlap/bounds/control/empty mismatches。实际在stage141的六个正文已译副本上继续回填，header-copies2/headers.json权威；两次构建六输出byte-identical，新增目标无glyph缺口，现有两font已覆盖。11新tests、1471测试通过（baseline/rollback1460）。
+
+此特殊header batch与24普通batch独立：普通13383 reviewed不变，新增6 reviewed→合计13389，实际普通回填13025+header6。冻结corpus中旧reference语义不改写，通过native绑定特殊header policy授权副本。下一步把六副本合并到当前953资源完整import receipt/AFS构建和独立验证，不能拿旧stage142AFS当已含六prefix的最终ISO。860普通缺口、358pending及其他scope/layout/movieintegration未闭合。
+
+## 全资源副本与首record合并（stage145）
+
+通用tools/merge_resource_imports.py验证原953副本及6header overlay的source/base/output hash、相同physical-font/map、当前翻译batch hash，重复/已应用overlay、delta不一致、正文越界或body/gap/tail改变均拒绝；更新普通field new_offset、member size和selected field计数，但header字段另列，绝不把native key伪装成旧seq/0。每个输出副本重新读取。
+
+实际953资源／13031字段已完整整合候选FILE/SHIP AFS，包括6首record及18 whole缓存镜像；两font仍5086 glyph，原member顺序/TOC metadata、manifest sizes、compression roundtrip通过。独立从AFS再提取并核对13025普通目标+6header目标、358pending原bytes、2font及18cache。权威work/visible-text-145/integrated-afs/integration.json；旧142候选不再是最新。8新tests，1479通过（baseline/rollback1471）。860普通缺口和358pending角色等范围／换行溢出／已验收动画整合／最终ISO仍需完成，不称当前candidate为全量最终ISO。
+
+## ABI剩余字段补译与实际整合（stage146）
+
+剩余ABI403字段/217原文值逐项完成reviewed；185处口语占位描述只译你能懂吗，不杜撰技能效果，2处否定占位只译说了也不懂。问号残损Hanja名称按用户授权采用项目选名，不宣称恢复原汉字。音效标记中的sound+莉丝是角色标签，不能机械命中独立soundless=无声；新增完整compound exact-source词条解决该语境。人物/怪物/江火雷天地名称沿用既有词表，数字/下划线/Test保留，未知奥尔哈性别不新增。194新词条，名词表1862项；25普通batch13786+6header独立batch→13792 reviewed/0draft。全25普通批重新source/hash/control/glossary/source-font检查通过。
+
+重新冻结scope：普通缺口860→457（INT370/TUI65/INI2/ITM15/ODD5），358pending不变；101控制/167解码/3语义/266Latin等独立缺口未被取消。原corpus分类和源hash不修改，新ABI文本的语义名称解释不等于每个label已证明运行可达。
+
+现有2419字符顺序保留、追加11→2430；两actualfont2667→5097glyph，既有5086bitmap/metrics/tail与旧2419map全保持。11字形紧凑实际glyph预览已查看，两font对13792目标编码/反解完全往返。实际953资源13428普通字段+6header→13434已回填和重整AFS，overflow0/held0，358pending保持原bytes。两font已物理整合package/startup bundle，18缓存镜像、manifest sizes、原AFS member顺序/TOC metadata保持；独立AFS再提取全13434target、2font及18cache通过。权威work/visible-text-146/integrated-afs/integration.json；旧145字体和AFS不再代表新增ABI字段的最新版。
+
+7新数据回归tests，1486通过（baseline/rollback1479）；实际font/resources/AFS工具命令记录build-commands.json。最终ISO未生成：继续457普通候选、358pending、其他scope/control/compiled/image/native和换行/溢出，再整合25已验收SFD并生成用户测试ISO。
+
+stage169 terminal-line-feed-v1：07533.cht slot8与16768.cht slot16原文本末尾均含byte0A。native CHT512读入/identity转换/FString拷贝已有版本锁定证据；本次严格保留0A于译文字节末尾、NUL前，不擅改分页码。explicit policy通过raw/source reading/target/native binding哈希验证；default grammar与普通编码路径不变，运行布局仍待测试。
+
+stage170：两条TUI制表符源字段00000682 key17/physical16与00001240 key192/physical9补译，native256/MainFString4及真实Key查询绑定。single-tab-byte-v1只允许一个TAB，保留09字节并保持数字、protected tokens在TAB两侧顺序，默认API仍拒绝控制字节。风之符咒依名词表部件统一，不写护符；全角空格保留。14616reviewed、2013terms、2464chars/两5131glyph；5control→3control，8decode/其他scope/动画ISO继续，最终验证见170/VERIFICATION.txt。原文中的TAB实际排版语义不因静态存储确认而冒称已验收。
+
+stage171：00000218.fpb实际header key0/offset0/length43绑定，37B可见韩文场景测试对白后6个NUL。terminal-null-padding-v1以source/reading/target/native hashes启用，仅源末尾零字节；目标正文无NUL，rewrite_fpb在译文bytes后追加原6zero并更新native header长度，不删除源padding、不改原档、不推断事件未使用。普通14239/含FILE14617reviewed、2013terms；剩2control与8decode集中00000106源异常窗口，其他scope及ISO继续。完整验证171/VERIFICATION.txt；默认FPB API原行为不变，无自动padding判断。
+
+stage172：00000106.fpb十个原生记录明确列为retain-source-fault（8个CP949 bytewindow截断字符、1个非语法测试残片えうれおいつえれｄ+3NUL、1个9NUL全零记录）。prepare_source_fault_retention按原SHIP/ELF/nativeKey/physical/span/fullpool/hash核查，派生catalog只添加retention proof，原decode/controls/editable/backend/offset/raw均不改变。scope单列源异常保留10，不计已翻译、不授予import、不声明事件未使用；普通scopereview仍不能跳过quarantine。171字库/AFS实际bytes不改，14617reviewed/2013terms/1011资源14614fields。新scope不再有deferred-decode/control，原8failed/2quarantine如实保留；10Latin/3configsemantics/3pending/compiled/native/image/layout与已验收动画/最终ISO继续。证据172/VERIFICATION.txt。
+
+stage173：余10Latin范围收拢：9条可读英文补译（CommonSid1/GFTOrhaText2/FDS原型6），vbvb b source-bound literal保留（累计139）。GFT原92*822+8、native180/arrayf4，GetGiftData按首Key0比较；0/1键唯一，OrhaText源70/nativea8，Core结构最后StrProperty，compiled10958 BeginState的SetChatText参数，不是内部tag。CommonGetCommonTextIndex312920→3127f0/array130，key19实际physical18。FDS03633为2*2052+8四512文本原型，与active03591同定槽schema；不宣称其游戏加载已执行。Sid→希德币、Orha1/2→奥尔哈1/2、pparkjju/2→朴柱/2项目统一，不推断人物身份性别，数字与机器metadata保留。14626reviewed/2018terms；最终字库/AFS验证173/VERIFICATION.txt。10源异常仍保留，3configsemantics/3pending/compiled/native/image/layout及动画ISO继续。
+
+
+## 配置元数据消费者（stage174）
+
+Verified static：URL初始化26c120..26c670逐键读取；ProtocolDescription key VA4b5a30，26c1c8..26c254保存至5c3bd0；Name key4b5a48，26c254..26c2e0保存至5c3bf0。DefaultPlayer/User段通过26f250配置段读取，26f2d0单键覆盖，见205858..205878、205930..205948与2b35b4..2b35d8的原instruction窗口。保留Player默认身份与协议描述，不把它们替换为故事人物名。消费者绑定不是运行执行或全路径不可见证明；存储role决断与可见性分开。
+
+
+stage175 typed-bank decision: Gym loader308950/array16c/lookup3132f0，actual30→23、31→24；Pilot loader309990 path4b78f0/array19c/lookup3137b0，actual1→1，read256→nativeMain+4，readHelp256→+10，buffer identity1a54c0。指令anchors与actual source keys逐字节验证。仅证明存储/索引/回填几何，不冒称placeholder替换与compiled运行可达性。
+
+
+## 原VM编译文字回填前置（stage176）
+
+原builtin注册不是已有a0/v1连续复制模板：initializer4d2130..4d3fe4使用R5900 SQ/LQ保存指针，再LWC1/SWC1复制3-word PMF。新增只读audit_native_stack_registration.py严格拒绝未知指令/call/branch，独立绑定6个builtin：Jump18ab70、JumpIfNot18abf0、Context18b180、StringConst18bdd0、Case18aaa0、Assert18acd0。static copy verified，不表示initializer执行。Jump将u16与frame node+3c代码基址相加；Context有3Bskip头并按相对位移跳过表达式；Assert的u16用于断言位置，不误当跳转。StringConst调用1a54c0身份转换并推进至原NUL，再+1。编译字符串变长不能只写字符串：virtual跳转、Context skip、header长度、缓存流及package表需要同时处理，尚未写入这些脚本。
+
+
+## 脚本显示字面量范围
+
+stage90的visible-text-candidate不是所有参数都应翻译：SetSentinel的4个MrtsGame类路径属于机器调用参数，按原值保留。47条真正语言标签及9个保留参数通过原FILE/package/export/body与ancestor symbols复核，未以附近字符串猜call位置；IDs/serial/source hashes和原NUL位置不改。字体新增需求见177/compiled-font-inventory；当前175正式asset不包含这47条新脚本译文。
+
+## Compiled Function variable-length backend (stage178)
+
+Verified static: original47display literals in24Functions reparse with unchanged references/opcode/depth topology. Optional include_spans records the exact recursive return boundary; default extraction output remains identical. Every original jump/case target must be a token/VM-end boundary; Context/ClassContext and Skip preserve the original relative target, including observed short historical distances. Only literal bytes, script size and relocated u16 fields change; properties, diagnostic Assert operands and Function tails remain exact. Replicated Functions, Iterator and label tables fail closed in this limited backend.
+
+Compact object/name references occupy4VM bytes irrespective of their disk compact-index width. Source/code coordinates are not package offsets or cached-stream physical offsets. For24selected cache prefixes, every valid bounded original alignment produces identical translated prefix bytes. Duplicated opcode/context-low bytes remain duplicated; modified size/jump/skip words follow the original multiplicity. Metadata after the observed prefix is untouched, including cases where the ordinary Function tail is not contiguous in the stream. All3ordinary/cached tables and wrapper sizes reparse after overlay; untargeted intervals and archive members are exact. This does not prove an independent stream serializer or game execution.
+
+
+## stage180 标题与 UI 反馈修正
+
+标题菜单是 LINEAR 的 P8 位图而非普通字符串。00013133.lin 五状态菜单、00015559.lin 小标题及 00000624.lin 一致缓存同步，三流九数组；palette、lazy 指针、包表和非目标像素保留。00015560.lin 为不同指纹变体，不按同名猜测覆盖。详细证据见 docs/UI_TITLE_REVISION.md。

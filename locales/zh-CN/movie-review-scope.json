@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "decision_source": "user full original-video review 2026-10-10",
+  "subtitle_required": [
+    "180101",
+    "180111",
+    "180115",
+    "180216",
+    "180233",
+    "180291",
+    "180292",
+    "180293",
+    "180294",
+    "180295",
+    "180296",
+    "180328",
+    "180407",
+    "181207",
+    "181306",
+    "181307",
+    "181310",
+    "181406",
+    "181818",
+    "182216",
+    "182223",
+    "1825381",
+    "189992",
+    "991803",
+    "991804"
+  ],
+  "no_subtitles": [
+    "180217",
+    "1802171",
+    "180709",
+    "180820",
+    "1812072",
+    "1812073",
+    "1813102",
+    "1821101",
+    "1821102",
+    "1821103",
+    "189991",
+    "189993",
+    "990108",
+    "991801",
+    "991802",
+    "992222",
+    "993333",
+    "994444",
+    "995555",
+    "996666",
+    "997777"
+  ],
+  "scrolling_text_only": [
+    "180101",
+    "991804"
+  ],
+  "lyrics_only": [
+    "189992"
+  ],
+  "remove_existing_subtitles": [
+    "180217",
+    "1802171"
+  ],
+  "layout": {
+    "opaque_background": false,
+    "position": "per-movie audited lower-right for dialogue; lower-center for songs and scrolling text",
+    "max_lines": null,
+    "height_bounded_pagination": true,
+    "forbid_dash": true,
+    "forbid_line_initial_punctuation": true
+  },
+  "new_render_human_review": "pending"
+}

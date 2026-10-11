@@ -1,0 +1,4178 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "bindings": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/32/field/0",
+      "source_sha256": "3cc2b5a33320ac18b8cbed234cdadb376b01e5aac170dfa2fe7ac87f5f0cd90d",
+      "source": "인삼인형류",
+      "target": "人参娃娃流",
+      "physical_index": 32,
+      "source_record_key": 38,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/33/field/0",
+      "source_sha256": "33a1329b62f3caa3a2742c871bfd8d032ff8f5c612e2464be63ef384cf300645",
+      "source": "인삼인형류2",
+      "target": "人参娃娃流2",
+      "physical_index": 33,
+      "source_record_key": 152,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/34/field/0",
+      "source_sha256": "74d2441c56625d77b20a9d0cc8ad86550e27687683dbdcf0f94f7f1f37ef6768",
+      "source": "이블헤어류",
+      "target": "邪恶野兔流",
+      "physical_index": 34,
+      "source_record_key": 39,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/35/field/0",
+      "source_sha256": "3ded273f08803e9818c755cf5649b1280ea4a16c786eedeb82e786c3407c429e",
+      "source": "이블헤어류2",
+      "target": "邪恶野兔流2",
+      "physical_index": 35,
+      "source_record_key": 103,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/36/field/0",
+      "source_sha256": "9c5a7bdaf5dbec613998ae7f9a7d71b91f94f48fb89243037bb4808eb4b914cc",
+      "source": "이블헤어류3",
+      "target": "邪恶野兔流3",
+      "physical_index": 36,
+      "source_record_key": 104,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/37/field/0",
+      "source_sha256": "fbc37ba5b85948f85880ebe4eae92ebf2237055e0be0e429e6ce94f87fd8896a",
+      "source": "캣핸즈류",
+      "target": "猫爪怪流",
+      "physical_index": 37,
+      "source_record_key": 40,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/38/field/0",
+      "source_sha256": "ca7ec9581be32b1af3cbefd8dd956f88547a11ddb65299fef9c9e8c37b9ca6c4",
+      "source": "캣핸즈류2",
+      "target": "猫爪怪流2",
+      "physical_index": 38,
+      "source_record_key": 151,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/39/field/0",
+      "source_sha256": "777350ca2441531949fed69187ea388d15bb48136aed2c9dfa74a0ce0044a894",
+      "source": "라텔류",
+      "target": "拉泰尔流",
+      "physical_index": 39,
+      "source_record_key": 41,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/40/field/0",
+      "source_sha256": "140821ddff832035051f60004592c79d7b1ef9f6e69065f51e90cbb6bfb1b5f2",
+      "source": "라텔류2",
+      "target": "拉泰尔流2",
+      "physical_index": 40,
+      "source_record_key": 138,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/41/field/0",
+      "source_sha256": "2411279e1f11728d0a0e71c4d2e795f3ae9a1bc0ea54d6ff321e68a3e78ac13a",
+      "source": "라텔류3",
+      "target": "拉泰尔流3",
+      "physical_index": 41,
+      "source_record_key": 139,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/42/field/0",
+      "source_sha256": "b11ca87412c4b610126b3a4da55767d5ba5abffa5427422112b4d05777536049",
+      "source": "제규라류",
+      "target": "杰古拉流",
+      "physical_index": 42,
+      "source_record_key": 42,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/43/field/0",
+      "source_sha256": "17053f343e35a9267e3b7339776ab783551d0373263f77b890b0ec787bc61782",
+      "source": "제규라류2",
+      "target": "杰古拉流2",
+      "physical_index": 43,
+      "source_record_key": 94,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/44/field/0",
+      "source_sha256": "87b6593bcc56aa81693f538619600d0f0593418f47afc39993ad281702057d5b",
+      "source": "만티시저류",
+      "target": "螳螂剪怪流",
+      "physical_index": 44,
+      "source_record_key": 43,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/45/field/0",
+      "source_sha256": "7027988fb5df78c2736fcc575ab574a52cdb16dd2dc437befcb79e2eb66d8120",
+      "source": "만티시저류2",
+      "target": "螳螂剪怪流2",
+      "physical_index": 45,
+      "source_record_key": 121,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/46/field/0",
+      "source_sha256": "c6e2cd93b90e4cb1126283092067b9b2a0ee3a71dbfbccfa4e71c038458c78de",
+      "source": "리자드플라이류",
+      "target": "飞蜥流",
+      "physical_index": 46,
+      "source_record_key": 44,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/47/field/0",
+      "source_sha256": "b5ab030d437adfbc3ea4a4e2129d6735386f122878beee4864cb302fa19b274d",
+      "source": "리자드플라이류2",
+      "target": "飞蜥流2",
+      "physical_index": 47,
+      "source_record_key": 95,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/48/field/0",
+      "source_sha256": "024727e8245f066b328eaa6b60ca9e33285ed6cd38535847cd141732b5326244",
+      "source": "오마레브류",
+      "target": "奥马雷布流",
+      "physical_index": 48,
+      "source_record_key": 45,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/49/field/0",
+      "source_sha256": "865c284824e86c3a3b645e40b99719b06573aa6f068a1d2b87f4ad8288cb052d",
+      "source": "오마레브류2",
+      "target": "奥马雷布流2",
+      "physical_index": 49,
+      "source_record_key": 146,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/50/field/0",
+      "source_sha256": "ab2152f27ff2a90ec3fc295f11b65f13561e87c61626245b4939b65e4aa25adf",
+      "source": "크로우비스트류",
+      "target": "鸦兽流",
+      "physical_index": 50,
+      "source_record_key": 46,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/51/field/0",
+      "source_sha256": "d5531621d99f43d5f13254513d6c11d553b19d97da80a8cd2cd185431d83fc65",
+      "source": "크로우비스트류2",
+      "target": "鸦兽流2",
+      "physical_index": 51,
+      "source_record_key": 92,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/52/field/0",
+      "source_sha256": "907053f6f099836ccdc422be0f553ad249277570583aedee5bd7536035f3a38e",
+      "source": "옹골리안트류",
+      "target": "翁戈利安特流",
+      "physical_index": 52,
+      "source_record_key": 47,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/53/field/0",
+      "source_sha256": "c029a2fdb267a49d86c2141dede9850453b64e3435dd22640bb9dfbf515457d1",
+      "source": "옹골리안트류2",
+      "target": "翁戈利安特流2",
+      "physical_index": 53,
+      "source_record_key": 125,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/54/field/0",
+      "source_sha256": "308def85b2af357d770ef0b3f03ca82681ae6a0c956881b62e510c2d36869e35",
+      "source": "운디네류",
+      "target": "温蒂妮流",
+      "physical_index": 54,
+      "source_record_key": 48,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/55/field/0",
+      "source_sha256": "4f2844f0a333694cd3ff32b3cdc7c51cf88ea920442ed3885a5c2ddb2b280a78",
+      "source": "운디네류2",
+      "target": "温蒂妮流2",
+      "physical_index": 55,
+      "source_record_key": 126,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/56/field/0",
+      "source_sha256": "2a611587a705efdc7bd91115496f6f86f7cc6773b2f45911fc5d2b58f5e2c152",
+      "source": "구울류",
+      "target": "食尸鬼流",
+      "physical_index": 56,
+      "source_record_key": 49,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/57/field/0",
+      "source_sha256": "379b96335912e6a027c21f52261a9db306eed61ab3d1be33027f053f3800fcff",
+      "source": "구울류2",
+      "target": "食尸鬼流2",
+      "physical_index": 57,
+      "source_record_key": 164,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/58/field/0",
+      "source_sha256": "cc11dd259195fdcdd24ff03eeb6526c147de3825edb63460976d19d1efbb17d9",
+      "source": "레드마기류",
+      "target": "红魔导士流",
+      "physical_index": 58,
+      "source_record_key": 50,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/59/field/0",
+      "source_sha256": "3a85ab41de61eca3ad5a073d86fd4f2fc98572c365a0bfbb74a5dd919440841d",
+      "source": "레드마기류2",
+      "target": "红魔导士流2",
+      "physical_index": 59,
+      "source_record_key": 93,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/60/field/0",
+      "source_sha256": "58e424567e715e5ae7a316fa6e42150bff0ae79d81f53238f8f199af03039903",
+      "source": "우드골렘류",
+      "target": "木魔像流",
+      "physical_index": 60,
+      "source_record_key": 51,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/61/field/0",
+      "source_sha256": "75a80424545c2bb0ef7e35b3bf2ef27c47e3e19d5280a64127b7db308414624d",
+      "source": "우드골렘류2",
+      "target": "木魔像流2",
+      "physical_index": 61,
+      "source_record_key": 161,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/62/field/0",
+      "source_sha256": "c239775d7eb1b2d28d848639bf5647f8bffcaa208fdec3c8b51176b6116e1713",
+      "source": "플레온류",
+      "target": "弗雷昂流",
+      "physical_index": 62,
+      "source_record_key": 52,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/63/field/0",
+      "source_sha256": "80c574fc897aa23536e2f6dba3e7064d0010cd04f1ce5619e04d2f29a9513a33",
+      "source": "플레온류2",
+      "target": "弗雷昂流2",
+      "physical_index": 63,
+      "source_record_key": 170,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/64/field/0",
+      "source_sha256": "b752524f4eb4eaf02855a018a7ff75f5e23aa03cfee68fa9ee1fa1f4a7266206",
+      "source": "샐러맨더류",
+      "target": "沙罗曼达流",
+      "physical_index": 64,
+      "source_record_key": 53,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/65/field/0",
+      "source_sha256": "c4091fe05b46fd6795b4fda165367f3305bed0f8675cb0f3d81c92d4355a5034",
+      "source": "불스류",
+      "target": "蛮牛流",
+      "physical_index": 65,
+      "source_record_key": 54,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/66/field/0",
+      "source_sha256": "c0ae79d99e0177197b3e56de666d53dd3a344e18e7a22785bee5bf2bee9ef3a3",
+      "source": "불스류2",
+      "target": "蛮牛流2",
+      "physical_index": 66,
+      "source_record_key": 102,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/67/field/0",
+      "source_sha256": "c9691ecfbfa5e97bf2a6437473584eee004f3e5175eb43e8a8e1af232b2cee54",
+      "source": "브슈류",
+      "target": "布修流",
+      "physical_index": 67,
+      "source_record_key": 55,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/68/field/0",
+      "source_sha256": "93c6c3bf366cbbcd46363bd4c404d0d6bbd8b66f080cfd0ac3910521aa172b39",
+      "source": "브슈류2",
+      "target": "布修流2",
+      "physical_index": 68,
+      "source_record_key": 153,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/69/field/0",
+      "source_sha256": "fa98b298ddb2a60b54bb5b547249e52e9102d7640c45a71ae149a71adfd6191f",
+      "source": "피쉬본류1",
+      "target": "骸骨鱼流1",
+      "physical_index": 69,
+      "source_record_key": 56,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/70/field/0",
+      "source_sha256": "85583a78f557eac2ba0cf65656e224112348df52f1a4d535e68d6188b77316d2",
+      "source": "피쉬본류2",
+      "target": "骸骨鱼流2",
+      "physical_index": 70,
+      "source_record_key": 82,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/71/field/0",
+      "source_sha256": "6d944b4a9e34f8ac0b5a470ef2f8d5eecc1f3b8d9f269dcda17cd9b268d17c68",
+      "source": "피쉬본류3",
+      "target": "骸骨鱼流3",
+      "physical_index": 71,
+      "source_record_key": 193,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/72/field/0",
+      "source_sha256": "4d6f5f1c1e63864aefc96f5758f4a7e014bbf45e1ef264d3cc70228ecee9a67c",
+      "source": "카레뵈류",
+      "target": "卡雷贝流",
+      "physical_index": 72,
+      "source_record_key": 57,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/73/field/0",
+      "source_sha256": "1992b75382bef86ec7ce6587537bc1686d32db0945fac8cdb9e8597b28172ce9",
+      "source": "카레뵈류2",
+      "target": "卡雷贝流2",
+      "physical_index": 73,
+      "source_record_key": 96,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/74/field/0",
+      "source_sha256": "592b8a92bc444ea8f4f78bc24b09389b368896cb28ae73267f3b927c6da95802",
+      "source": "카레뵈류3",
+      "target": "卡雷贝流3",
+      "physical_index": 74,
+      "source_record_key": 97,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/75/field/0",
+      "source_sha256": "53f876d47f86d6cc8a91a35c4310cf9d699fe121185e77429151ab1425dd4fdd",
+      "source": "칼데라맨류",
+      "target": "火山人流",
+      "physical_index": 75,
+      "source_record_key": 58,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/76/field/0",
+      "source_sha256": "5c4fe7c29a18625afb876fb57042aa6c4094d148f40301474383c6175fc64d8b",
+      "source": "칼데라맨류2",
+      "target": "火山人流2",
+      "physical_index": 76,
+      "source_record_key": 188,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/77/field/0",
+      "source_sha256": "6756e1b801af7c7564dd48b6b86c53f7f7f28bcf8c9fa2961963e2d6857a517d",
+      "source": "다캄즈류",
+      "target": "达卡姆兹流",
+      "physical_index": 77,
+      "source_record_key": 59,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/78/field/0",
+      "source_sha256": "9c60c861dfcee3a28425ea586973045bd47fdbdbcf4e1dcb0c35a4c79fd19189",
+      "source": "다캄즈류2",
+      "target": "达卡姆兹流2",
+      "physical_index": 78,
+      "source_record_key": 159,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/79/field/0",
+      "source_sha256": "51b02ac7004ca9575bdf7017c339cb622b05a5bbb8e68b7ec4713dc2eee018b2",
+      "source": "다캄즈류3",
+      "target": "达卡姆兹流3",
+      "physical_index": 79,
+      "source_record_key": 160,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/80/field/0",
+      "source_sha256": "8d29c785805d879134e550c949a146ac02117a473c85ba1dae77b4f996f47f44",
+      "source": "켄타우르스류",
+      "target": "半人马流",
+      "physical_index": 80,
+      "source_record_key": 60,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/81/field/0",
+      "source_sha256": "4e74fc2cf172aaabe56a3ba2d7568959ebd1142aec9d6435ddd6fccc89053e15",
+      "source": "리노터스류",
+      "target": "犀角兽流",
+      "physical_index": 81,
+      "source_record_key": 61,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/82/field/0",
+      "source_sha256": "953bef018270e8fbbb4fe6dc18ac54d769a1ec56a3c446089e9b62fbc65c64e1",
+      "source": "유래쿤류",
+      "target": "尤拉坤流",
+      "physical_index": 82,
+      "source_record_key": 62,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/83/field/0",
+      "source_sha256": "cf7ac6b482eafaecf96b23675400a99cfb5f9b1168e8571b277faaef70b56836",
+      "source": "유래쿤류2",
+      "target": "尤拉坤流2",
+      "physical_index": 83,
+      "source_record_key": 112,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/84/field/0",
+      "source_sha256": "65eaf1dac0d24aa6cfa789afb9579cb54a1d91f9a7cf89809c56043caef5eca7",
+      "source": "화의신수류",
+      "target": "火之神兽流",
+      "physical_index": 84,
+      "source_record_key": 63,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/85/field/0",
+      "source_sha256": "b2e93b8f26a79de47ce29b171762c8c8e0d2625d6470dd0764c8ffe2fd6fccd5",
+      "source": "화의신수류2",
+      "target": "火之神兽流2",
+      "physical_index": 85,
+      "source_record_key": 109,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/86/field/0",
+      "source_sha256": "443b0f5c4f8107a7185e2dd7cecc156c5720b483d047db1ec9b631e1443a6789",
+      "source": "화의신수류3",
+      "target": "火之神兽流3",
+      "physical_index": 86,
+      "source_record_key": 108,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/87/field/0",
+      "source_sha256": "0d64b26f3e2520ea25a879a26fbe4050ac07aee8e34d6bca56b93eefc47b428a",
+      "source": "혼기가스류1",
+      "target": "霍恩基加斯流1",
+      "physical_index": 87,
+      "source_record_key": 64,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/88/field/0",
+      "source_sha256": "8c44bdc4bef8dc060409659b279c5a138551e307b9765773f77b22e003cf48a6",
+      "source": "혼기가스류2",
+      "target": "霍恩基加斯流2",
+      "physical_index": 88,
+      "source_record_key": 83,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/89/field/0",
+      "source_sha256": "c70775b3538acbfbe8890c095668b39d60b9d1b495e9c8a845518127246256ba",
+      "source": "번개신수류1",
+      "target": "雷之神兽流1",
+      "physical_index": 89,
+      "source_record_key": 65,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/90/field/0",
+      "source_sha256": "c582e98661a841ee314097123a509e1e5b05cc5a85156384318356a76c424ce2",
+      "source": "번개신수류2",
+      "target": "雷之神兽流2",
+      "physical_index": 90,
+      "source_record_key": 111,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/91/field/0",
+      "source_sha256": "30ced87e69f5c738348efc72cf7c595331656605b6ef4672d716c2bf5dcc4031",
+      "source": "번개신수류3",
+      "target": "雷之神兽流3",
+      "physical_index": 91,
+      "source_record_key": 110,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/92/field/0",
+      "source_sha256": "2c919146baf9183f53e88e2f540c439b9f3b010e286b5d69be1be0ab78fbca50",
+      "source": "산의신수류",
+      "target": "山之神兽流",
+      "physical_index": 92,
+      "source_record_key": 66,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/93/field/0",
+      "source_sha256": "e7227a54afacd55e9ad83ad19022c31ef24ede14bef673a1708af0316499c431",
+      "source": "산의신수류2",
+      "target": "山之神兽流2",
+      "physical_index": 93,
+      "source_record_key": 162,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/94/field/0",
+      "source_sha256": "04f4447501eeeb9327fbcf93a771857774f9bbe5d041b7d64e9e764b9c46f508",
+      "source": "산의신수류3",
+      "target": "山之神兽流3",
+      "physical_index": 94,
+      "source_record_key": 163,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/95/field/0",
+      "source_sha256": "1947be28e5331578029bce61e6eb9a2e20cdf6f70fbdee925703696d900a3550",
+      "source": "스틸하트류1",
+      "target": "钢铁之心流1",
+      "physical_index": 95,
+      "source_record_key": 67,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/96/field/0",
+      "source_sha256": "32c3d0f9f1e5b5639167e9a6f9485832e64c0f8a07128090dc7e687a167f57e9",
+      "source": "스틸하트류2",
+      "target": "钢铁之心流2",
+      "physical_index": 96,
+      "source_record_key": 84,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/97/field/0",
+      "source_sha256": "f662514e0fefe9641800348bda1881325b6ceeb6f3fc6097b1cf277a8e142b3e",
+      "source": "천의신수류",
+      "target": "天之神兽流",
+      "physical_index": 97,
+      "source_record_key": 68,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/98/field/0",
+      "source_sha256": "75ee06fd61460fb529378ba846fce5731aafdcbe24fa3db33593a2503d7a65de",
+      "source": "천의신수류2",
+      "target": "天之神兽流2",
+      "physical_index": 98,
+      "source_record_key": 134,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/99/field/0",
+      "source_sha256": "155b66154a40e69dbd258a8bead298b50f48ead284455bc4a84cdbfbe4044f38",
+      "source": "천의신수류3",
+      "target": "天之神兽流3",
+      "physical_index": 99,
+      "source_record_key": 135,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/100/field/0",
+      "source_sha256": "f48bd70584633650287d0fdf905317f8845025388b1f57eaa899fa163af10ea2",
+      "source": "데스레이븐류",
+      "target": "死亡渡鸦流",
+      "physical_index": 100,
+      "source_record_key": 69,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/101/field/0",
+      "source_sha256": "5a8d8a5d560999f9a45e875032cba30b1b876aa7602ddbbc24f4ebf2fc6dd758",
+      "source": "강의신수류1",
+      "target": "江之神兽流1",
+      "physical_index": 101,
+      "source_record_key": 70,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/102/field/0",
+      "source_sha256": "2fe9fe521f8e1acac2b08a081c99b6c23055b34fc67a7b279759c1a7d741fd7c",
+      "source": "강의신수류2",
+      "target": "江之神兽流2",
+      "physical_index": 102,
+      "source_record_key": 132,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/103/field/0",
+      "source_sha256": "06dd39577c866f34b3fa80441543de5765cd57b60e9ac3b5e5755687ce0c08f8",
+      "source": "강의신수류3",
+      "target": "江之神兽流3",
+      "physical_index": 103,
+      "source_record_key": 133,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/104/field/0",
+      "source_sha256": "db4199816ffc0b063899aadf87bd5f624874cf44aac9ee76ab9e341e9f95b0f1",
+      "source": "서큐버스류1",
+      "target": "魅魔流1",
+      "physical_index": 104,
+      "source_record_key": 71,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/105/field/0",
+      "source_sha256": "36d0bbdf6ca9b5db0c2b1b14cbf0f3418ab6e00a6b19940c6ca15d3aff5fa3f7",
+      "source": "스네이크아이류",
+      "target": "蛇眼怪流",
+      "physical_index": 105,
+      "source_record_key": 72,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/106/field/0",
+      "source_sha256": "18a479cb5dcc7ddcaa33abd349853b8b67872a93038f8cd0b4ee09771eeec59f",
+      "source": "스네이크아이류2",
+      "target": "蛇眼怪流2",
+      "physical_index": 106,
+      "source_record_key": 140,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/107/field/0",
+      "source_sha256": "7f14f6019eff6ca50df5d8d961e37c1677596eb1f0f9e9c5160a40a410027007",
+      "source": "스네이크아이류3",
+      "target": "蛇眼怪流3",
+      "physical_index": 107,
+      "source_record_key": 141,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/108/field/0",
+      "source_sha256": "a29460ae4a472e0c56cf8128f9936d1acefecf204240b9b834b7d7dae85054cb",
+      "source": "피닉스류",
+      "target": "菲尼克斯流",
+      "physical_index": 108,
+      "source_record_key": 73,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/109/field/0",
+      "source_sha256": "4df2658133cdab9f9494f29e0b9c0c9067c921c769d3424281a7299187045406",
+      "source": "몬스터아그레이언류",
+      "target": "阿格雷安怪物形态流",
+      "physical_index": 109,
+      "source_record_key": 74,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/110/field/0",
+      "source_sha256": "83bd5592ad276ca9e93f1d0e82222fc4003bc4030b3579f244ef1aa5174339a5",
+      "source": "몬스터아그레이언류2",
+      "target": "阿格雷安怪物形态流2",
+      "physical_index": 110,
+      "source_record_key": 185,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/111/field/0",
+      "source_sha256": "b6bf24783dd87a997bb37470f072b0d13d6106dc1eadc0235d479c8996a909a0",
+      "source": "몬스터아그레이언류3",
+      "target": "阿格雷安怪物形态流3",
+      "physical_index": 111,
+      "source_record_key": 186,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/112/field/0",
+      "source_sha256": "0048dbf536af6211ba423e9b503a28cbbc46a4b48d91ba0a0d47e8fc7850ac4e",
+      "source": "몬스터아그레이언류4",
+      "target": "阿格雷安怪物形态流4",
+      "physical_index": 112,
+      "source_record_key": 187,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/113/field/0",
+      "source_sha256": "0f17422765c8f35eba6d46541ab5dd09ca7a03593d01f5864177f739db98c1b5",
+      "source": "몬스터아그레이언류5",
+      "target": "阿格雷安怪物形态流5",
+      "physical_index": 113,
+      "source_record_key": 245,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/115/field/0",
+      "source_sha256": "90def34f6fe58c35ffbc55999194d09b18af1dbd8b0826bae914af9e231d91db",
+      "source": "궁신파오류",
+      "target": "弓神破奥流",
+      "physical_index": 115,
+      "source_record_key": 154,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/116/field/0",
+      "source_sha256": "53ae4f7bda25823590b4754cd08a7e207ef3f60d42302f7e418cdc4f1aab5ea6",
+      "source": "이신오상류",
+      "target": "二神五象流",
+      "physical_index": 116,
+      "source_record_key": 76,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/117/field/0",
+      "source_sha256": "3ec35019f8ba6af9556648394637e99dfc46a47cded990833b1f7203179e9835",
+      "source": "삼신란오류",
+      "target": "三神乱奥流",
+      "physical_index": 117,
+      "source_record_key": 86,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/118/field/0",
+      "source_sha256": "5f00402086b74b497839fdcc5666fbc4ccd8169cc0db43cca7189d22fc75ab42",
+      "source": "연합군칼류",
+      "target": "联合军之剑流",
+      "physical_index": 118,
+      "source_record_key": 78,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/119/field/0",
+      "source_sha256": "f10c45652dc57272ec099f0006711c37d3d2d16a974bc0a1430198969089f62a",
+      "source": "연합군칼류2",
+      "target": "联合军之剑流2",
+      "physical_index": 119,
+      "source_record_key": 127,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/120/field/0",
+      "source_sha256": "5b76ea47d4bac947d5e192c864aa9b2ec9f673da371002e8b98ae41420c1de64",
+      "source": "연합군마법류",
+      "target": "联合军魔法流",
+      "physical_index": 120,
+      "source_record_key": 79,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/121/field/0",
+      "source_sha256": "10de880fe5e5e480fce56b072a5837e2f7edf9475fd92eee6d16e20712a8698d",
+      "source": "연합군마법류2",
+      "target": "联合军魔法流2",
+      "physical_index": 121,
+      "source_record_key": 128,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/122/field/0",
+      "source_sha256": "4f1053c06d94010a8ce9a707226964ba03ad85d9069f84ea37b1a2156ca7c6ec",
+      "source": "승리",
+      "target": "胜利",
+      "physical_index": 122,
+      "source_record_key": 80,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/123/field/0",
+      "source_sha256": "b5ead0c337cb4446ac10ebd91a6378df5d8471d695dd3ae9722471d16f1b6db3",
+      "source": "패배",
+      "target": "败北",
+      "physical_index": 123,
+      "source_record_key": 81,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/124/field/0",
+      "source_sha256": "79a12599b874a2870edf72af8e67f51a2415842276a42ae5b9576701da25f1ba",
+      "source": "검실패류",
+      "target": "剑术失败流",
+      "physical_index": 124,
+      "source_record_key": 87,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/125/field/0",
+      "source_sha256": "2474abc3a46108d79c6ab86e1ed56fdfefb20177cb6e15ae9f8876c08c2a5645",
+      "source": "권실패류",
+      "target": "拳术失败流",
+      "physical_index": 125,
+      "source_record_key": 88,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/126/field/0",
+      "source_sha256": "1b2eff7a89ebdfa1b6876c64c67b69424e6b3ee660faef2ec2358b4580eb1f68",
+      "source": "적술실패류",
+      "target": "赤术失败流",
+      "physical_index": 126,
+      "source_record_key": 89,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/127/field/0",
+      "source_sha256": "518326f8b6840a010fc010f776b5bd379b24fceee440dc91abfd5b57c42ee9c8",
+      "source": "청술실패류",
+      "target": "青术失败流",
+      "physical_index": 127,
+      "source_record_key": 90,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/128/field/0",
+      "source_sha256": "c1c6ae14ac112b71078007e55ac59fe77c6eb5a9da6391a07d5b18fe47880ffb",
+      "source": "활실패류",
+      "target": "弓术失败流",
+      "physical_index": 128,
+      "source_record_key": 91,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/129/field/0",
+      "source_sha256": "7fceec7eb562f079cf4569ca0fb5aac51a080b8133d1efdf0298b97ee2ca1e94",
+      "source": "서큐버스류2",
+      "target": "魅魔流2",
+      "physical_index": 129,
+      "source_record_key": 113,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/130/field/0",
+      "source_sha256": "03ef1de2defb02a419ac6b3ff4cfb2840b8895bb91396ffc996045f506be9b5c",
+      "source": "서큐버스류3",
+      "target": "魅魔流3",
+      "physical_index": 130,
+      "source_record_key": 114,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/131/field/0",
+      "source_sha256": "c8dad0d64e9f20a723262f025069bb4831f67b35163801d5f620eeff6f887c5b",
+      "source": "yaz_test류",
+      "target": "yaz_test流",
+      "physical_index": 131,
+      "source_record_key": 115,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/132/field/0",
+      "source_sha256": "3210666e47cd0d1fd67e43534ddb26df98eb51c2c64964c55065c0ed269db57a",
+      "source": "야즈테스트류",
+      "target": "亚兹测试流",
+      "physical_index": 132,
+      "source_record_key": 116,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/133/field/0",
+      "source_sha256": "2f1bdbc6888fe1d1a46d198acc0ad84ce7a5cef240bfd995d185180c257c8939",
+      "source": "효과_진성류",
+      "target": "效果_真星流",
+      "physical_index": 133,
+      "source_record_key": 117,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/134/field/0",
+      "source_sha256": "a2d645f2191e9dc483c16f4bb5ea89e3ab9fe5529166970e78b53ba051bcba80",
+      "source": "효과_태곤류",
+      "target": "效果_泰坤流",
+      "physical_index": 134,
+      "source_record_key": 118,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/135/field/0",
+      "source_sha256": "0f1e5bb06a0248a264741cc7ec61c472da251401aafb6f3e2dda9c040b776f46",
+      "source": "효과_주홍류",
+      "target": "效果_朱红流",
+      "physical_index": 135,
+      "source_record_key": 119,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/136/field/0",
+      "source_sha256": "71d9022b3a85fd670a956acbcb3d6551b11f58570592706d88c52e30e88af6bf",
+      "source": "영향권테스트류",
+      "target": "影响范围测试流",
+      "physical_index": 136,
+      "source_record_key": 120,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/137/field/0",
+      "source_sha256": "eda525b19fbfdf791ad1184dfa1491dee6a4a510575b6f19ca7176cf98bead7e",
+      "source": "오르하패밀리어류",
+      "target": "奥尔哈使魔流",
+      "physical_index": 137,
+      "source_record_key": 122,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/138/field/0",
+      "source_sha256": "893106bafc1da545a96326575fbe9a0022fa6bcf3618ab6a13529b8f720f1ad9",
+      "source": "오르하패밀리어류2",
+      "target": "奥尔哈使魔流2",
+      "physical_index": 138,
+      "source_record_key": 123,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/139/field/0",
+      "source_sha256": "0e657d8d2502b03078efacb1fd26ecea2d4d2ba58df18c049a08a0c18209472f",
+      "source": "오르하패밀리어류3",
+      "target": "奥尔哈使魔流3",
+      "physical_index": 139,
+      "source_record_key": 124,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/140/field/0",
+      "source_sha256": "11c15bd55fa7f8cca6d199c4eafc788a4a70c3e352df4de8fa40b7a72ddd763d",
+      "source": "바스피류",
+      "target": "巴斯皮流",
+      "physical_index": 140,
+      "source_record_key": 129,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/141/field/0",
+      "source_sha256": "381805aa6949624624503b3ac4309990655c4ef4591fba756a03984dc8337d72",
+      "source": "바스피류2",
+      "target": "巴斯皮流2",
+      "physical_index": 141,
+      "source_record_key": 130,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/142/field/0",
+      "source_sha256": "1155a2558d3ce22ea968227de7ca32b8e285444f21f3dca31ac60729df705bbe",
+      "source": "바스피류3",
+      "target": "巴斯皮流3",
+      "physical_index": 142,
+      "source_record_key": 131,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/143/field/0",
+      "source_sha256": "de72d99f82edc134c893d9283fef4b24ee55bf40e17a46d800bdb6b97cd7e71e",
+      "source": "바스피류4",
+      "target": "巴斯皮流4",
+      "physical_index": 143,
+      "source_record_key": 136,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/144/field/0",
+      "source_sha256": "6b8c6b4ee2dd70089fcc8632a737b9c0ac83097b333e54c5ef31c0efc25beb86",
+      "source": "부적효과테스트류",
+      "target": "符咒效果测试流",
+      "physical_index": 144,
+      "source_record_key": 137,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/145/field/0",
+      "source_sha256": "7ae6dc7afb661ce9e3f79409b833b1f00dc80055fe9ac92d298823275f7bb854",
+      "source": "아사드류",
+      "target": "阿萨德流",
+      "physical_index": 145,
+      "source_record_key": 142,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/146/field/0",
+      "source_sha256": "eaa2332ed0439f4f31093603c7ac0d08e0a3ed7e2da2e4cc6fb35dbbf420b795",
+      "source": "캐리안류",
+      "target": "凯莉安流",
+      "physical_index": 146,
+      "source_record_key": 143,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/147/field/0",
+      "source_sha256": "f6cc24a5c01d4c384892c5615f61259fc2a9f9ef9feaf1a79b6c744b1e432e9c",
+      "source": "아사드류2",
+      "target": "阿萨德流2",
+      "physical_index": 147,
+      "source_record_key": 144,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/148/field/0",
+      "source_sha256": "2560b3b0ced145fedfe8b99203ee4d443ed1254cac80761c45f1e50f89ce831c",
+      "source": "캐리안류2",
+      "target": "凯莉安流2",
+      "physical_index": 148,
+      "source_record_key": 145,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/149/field/0",
+      "source_sha256": "63e2d585b8c8a881c9cb8f22990c1d5b9dff80e46e86cd0ee385ae623d4e4be7",
+      "source": "아사드류3",
+      "target": "阿萨德流3",
+      "physical_index": 149,
+      "source_record_key": 155,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/150/field/0",
+      "source_sha256": "d6753fe8619a78d904e7789dfffc46f68584b82965bc617471a919868a5b939f",
+      "source": "최종판칼린츠",
+      "target": "最终版卡琳兹",
+      "physical_index": 150,
+      "source_record_key": 147,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/151/field/0",
+      "source_sha256": "4f9aae2cfb1df890d76b2901a6cdae6657933ea348064aa1368ed3bfa1f7cb75",
+      "source": "최종판리스",
+      "target": "最终版莉丝",
+      "physical_index": 151,
+      "source_record_key": 148,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/152/field/0",
+      "source_sha256": "a5f95493be4d2ba6029b4a8c050331d26c2635c285997091d141214278ab34ea",
+      "source": "최종판리안나",
+      "target": "最终版莉安娜",
+      "physical_index": 152,
+      "source_record_key": 149,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/153/field/0",
+      "source_sha256": "ddfd26244ae9bd302369f7e924c209c2b979862d78a9310217ae5fce256465da",
+      "source": "최종판크리스",
+      "target": "最终版克里斯",
+      "physical_index": 153,
+      "source_record_key": 150,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/154/field/0",
+      "source_sha256": "f27009b09198bf0050caa41baad4a26ffa0a45f27e21dbaa6ed2d49fc4f632c8",
+      "source": "켄타우르스류1",
+      "target": "半人马流1",
+      "physical_index": 154,
+      "source_record_key": 156,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/155/field/0",
+      "source_sha256": "ce41316e25422c26007e4113f8237ea0c6855fdf397ae4e3cdcfba31d0367376",
+      "source": "켄타우르스류2",
+      "target": "半人马流2",
+      "physical_index": 155,
+      "source_record_key": 157,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/156/field/0",
+      "source_sha256": "eaffb37393ba68fc61b92c5da49e617c430520faa9dd0443049e93e702510811",
+      "source": "켄타우르스류3",
+      "target": "半人马流3",
+      "physical_index": 156,
+      "source_record_key": 158,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/157/field/0",
+      "source_sha256": "7ddf0d7b5164dcd00dae8f883c1a1fef2cdcdd852420b5c6917698102c1aecc3",
+      "source": "天命?心流",
+      "target": "天命启心流（汉字名）",
+      "physical_index": 157,
+      "source_record_key": 165,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/158/field/0",
+      "source_sha256": "7ddf0d7b5164dcd00dae8f883c1a1fef2cdcdd852420b5c6917698102c1aecc3",
+      "source": "天命?心流",
+      "target": "天命启心流（汉字名）",
+      "physical_index": 158,
+      "source_record_key": 182,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/159/field/0",
+      "source_sha256": "4e4ac83c36a405a80aedbacafcb911fc8d60360eb2a9f4f5692f3e31382cac5e",
+      "source": "泰山激層掌流",
+      "target": "泰山激层掌流（汉字名）",
+      "physical_index": 159,
+      "source_record_key": 166,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/160/field/0",
+      "source_sha256": "4e4ac83c36a405a80aedbacafcb911fc8d60360eb2a9f4f5692f3e31382cac5e",
+      "source": "泰山激層掌流",
+      "target": "泰山激层掌流（汉字名）",
+      "physical_index": 160,
+      "source_record_key": 183,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/161/field/0",
+      "source_sha256": "fd30205cb6fefc62cc93d52f739cf02ec3f6c35be07815e6e50cb067c664ed49",
+      "source": "大破邪道流",
+      "target": "大破邪道流（汉字名）",
+      "physical_index": 161,
+      "source_record_key": 167,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/162/field/0",
+      "source_sha256": "fd30205cb6fefc62cc93d52f739cf02ec3f6c35be07815e6e50cb067c664ed49",
+      "source": "大破邪道流",
+      "target": "大破邪道流（汉字名）",
+      "physical_index": 162,
+      "source_record_key": 184,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/163/field/0",
+      "source_sha256": "50d2aaabd44afeaf7f54d43bc6d3593485e5be481b4bb8261681cf905c6549cc",
+      "source": "水連流",
+      "target": "水连流（汉字名）",
+      "physical_index": 163,
+      "source_record_key": 168,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/164/field/0",
+      "source_sha256": "be2039e8763d0a53807f20a25379af37c14527755f460a8a85e9b17136cfd501",
+      "source": "無弓?破流",
+      "target": "无弓双破流（汉字名）",
+      "physical_index": 164,
+      "source_record_key": 169,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/165/field/0",
+      "source_sha256": "7fabfc438c371d87040bc408275246e15ae8202fe49710271c587c3c9843ca08",
+      "source": "方旋周還流(도장_수련생1)",
+      "target": "方旋周还流（道场学员1）",
+      "physical_index": 165,
+      "source_record_key": 171,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/165/field/1",
+      "source_sha256": "1c367ab739768634dbbed3315871cb6a1808ae8c096be91c45d0976046b85b8d",
+      "source": "渦?いて流れる水のように、柔軟な動きの流派。複?の敵を攻?できる。",
+      "target": "动作如旋涡流水般柔韧的流派，可攻击多个敌人。",
+      "physical_index": 165,
+      "source_record_key": 171,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/166/field/0",
+      "source_sha256": "5f7dadbcba8bcfed265a4b6c54ca6f322b3aa40817be9ba3f45e5eda7da62caa",
+      "source": "方旋周還流(도장_수련생2)",
+      "target": "方旋周还流（道场学员2）",
+      "physical_index": 166,
+      "source_record_key": 212,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/166/field/1",
+      "source_sha256": "1c367ab739768634dbbed3315871cb6a1808ae8c096be91c45d0976046b85b8d",
+      "source": "渦?いて流れる水のように、柔軟な動きの流派。複?の敵を攻?できる。",
+      "target": "动作如旋涡流水般柔韧的流派，可攻击多个敌人。",
+      "physical_index": 166,
+      "source_record_key": 212,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/167/field/0",
+      "source_sha256": "6d7e3f621b1dd0b03a6542eaf95573a40bdaa426b003fa671174fe7a2fa1e586",
+      "source": "方旋周還流(도장_수련생3)",
+      "target": "方旋周还流（道场学员3）",
+      "physical_index": 167,
+      "source_record_key": 211,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/167/field/1",
+      "source_sha256": "1c367ab739768634dbbed3315871cb6a1808ae8c096be91c45d0976046b85b8d",
+      "source": "渦?いて流れる水のように、柔軟な動きの流派。複?の敵を攻?できる。",
+      "target": "动作如旋涡流水般柔韧的流派，可攻击多个敌人。",
+      "physical_index": 167,
+      "source_record_key": 211,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/168/field/0",
+      "source_sha256": "a1f10b55e08097d0d7bb2242bb0fde19b2bb784632efe4fc670cb44438c63020",
+      "source": "方旋周還流(도장_수련생4)",
+      "target": "方旋周还流（道场学员4）",
+      "physical_index": 168,
+      "source_record_key": 210,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/168/field/1",
+      "source_sha256": "1c367ab739768634dbbed3315871cb6a1808ae8c096be91c45d0976046b85b8d",
+      "source": "渦?いて流れる水のように、柔軟な動きの流派。複?の敵を攻?できる。",
+      "target": "动作如旋涡流水般柔韧的流派，可攻击多个敌人。",
+      "physical_index": 168,
+      "source_record_key": 210,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/169/field/0",
+      "source_sha256": "b7439649b4a4e081a93675fba51ab459d0f09656178ad9a382e530e0aa6d7b46",
+      "source": "方旋周還流(도장_사범)",
+      "target": "方旋周还流（道场师范）",
+      "physical_index": 169,
+      "source_record_key": 217,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/169/field/1",
+      "source_sha256": "1c367ab739768634dbbed3315871cb6a1808ae8c096be91c45d0976046b85b8d",
+      "source": "渦?いて流れる水のように、柔軟な動きの流派。複?の敵を攻?できる。",
+      "target": "动作如旋涡流水般柔韧的流派，可攻击多个敌人。",
+      "physical_index": 169,
+      "source_record_key": 217,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/170/field/0",
+      "source_sha256": "a65eef48bffeafea461a52a840b727ace8fefdce6ee78fc70b8b85abbc07bada",
+      "source": "流星一光流?改(도장_수련생1)",
+      "target": "流星一光流·改（道场学员1）",
+      "physical_index": 170,
+      "source_record_key": 173,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/170/field/1",
+      "source_sha256": "1301aac8b2556f0cff874b5ff6390e19ca65bc6212719ced0eafa5cdeb1f013d",
+      "source": "流星一光流の改式流派。電?をともなうのが特?。",
+      "target": "流星一光流的改良流派，以伴随雷电为特点。",
+      "physical_index": 170,
+      "source_record_key": 173,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/171/field/0",
+      "source_sha256": "9eeccafb040f37eb0eec07b476f4609c8456e4379ad25cbf80204b09c85ea686",
+      "source": "流星一光流?改(도장_수련생2)",
+      "target": "流星一光流·改（道场学员2）",
+      "physical_index": 171,
+      "source_record_key": 216,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/171/field/1",
+      "source_sha256": "1301aac8b2556f0cff874b5ff6390e19ca65bc6212719ced0eafa5cdeb1f013d",
+      "source": "流星一光流の改式流派。電?をともなうのが特?。",
+      "target": "流星一光流的改良流派，以伴随雷电为特点。",
+      "physical_index": 171,
+      "source_record_key": 216,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/172/field/0",
+      "source_sha256": "16618d68d1bf4a89cbe83fb88602a02b75608a70347aef50d1d13e746f9d774c",
+      "source": "流星一光流?改(도장_수련생3)",
+      "target": "流星一光流·改（道场学员3）",
+      "physical_index": 172,
+      "source_record_key": 215,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/172/field/1",
+      "source_sha256": "1301aac8b2556f0cff874b5ff6390e19ca65bc6212719ced0eafa5cdeb1f013d",
+      "source": "流星一光流の改式流派。電?をともなうのが特?。",
+      "target": "流星一光流的改良流派，以伴随雷电为特点。",
+      "physical_index": 172,
+      "source_record_key": 215,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/173/field/0",
+      "source_sha256": "414edee4b27cb76b385003625dec2d1bfde40ab221587b2408c0180502a1a24a",
+      "source": "流星一光流?改(도장_수련생4)",
+      "target": "流星一光流·改（道场学员4）",
+      "physical_index": 173,
+      "source_record_key": 214,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/173/field/1",
+      "source_sha256": "1301aac8b2556f0cff874b5ff6390e19ca65bc6212719ced0eafa5cdeb1f013d",
+      "source": "流星一光流の改式流派。電?をともなうのが特?。",
+      "target": "流星一光流的改良流派，以伴随雷电为特点。",
+      "physical_index": 173,
+      "source_record_key": 214,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/174/field/0",
+      "source_sha256": "ae61718a025f677b4c890b0fe46e3e59165a8e47d9279dd2f161cc4dcbccb9a5",
+      "source": "流星一光流?改(도장_사범)",
+      "target": "流星一光流·改（道场师范）",
+      "physical_index": 174,
+      "source_record_key": 213,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/174/field/1",
+      "source_sha256": "1301aac8b2556f0cff874b5ff6390e19ca65bc6212719ced0eafa5cdeb1f013d",
+      "source": "流星一光流の改式流派。電?をともなうのが特?。",
+      "target": "流星一光流的改良流派，以伴随雷电为特点。",
+      "physical_index": 174,
+      "source_record_key": 213,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/175/field/0",
+      "source_sha256": "9a3704d631f686d677c14c1b815abef00d837e1a335c294efd9bd1c97ebfe9d2",
+      "source": "大地?破流(도장_수련생1)",
+      "target": "大地强波流（道场学员1）",
+      "physical_index": 175,
+      "source_record_key": 174,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/175/field/1",
+      "source_sha256": "70a9de3f5c8dc5535695def82ccea0452b71d39b5828b8a7392a4e80bf383a22",
+      "source": "地のカンで?力な物理攻?を加える",
+      "target": "利用地属性卡恩发动强大的物理攻击",
+      "physical_index": 175,
+      "source_record_key": 174,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/176/field/0",
+      "source_sha256": "a4c45e658d9cd941a9681eaec30ba181690f366384cc1d64a22f420c4bb88c2f",
+      "source": "大地?破流(도장_수련생2)",
+      "target": "大地强波流（道场学员2）",
+      "physical_index": 176,
+      "source_record_key": 222,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/176/field/1",
+      "source_sha256": "70a9de3f5c8dc5535695def82ccea0452b71d39b5828b8a7392a4e80bf383a22",
+      "source": "地のカンで?力な物理攻?を加える",
+      "target": "利用地属性卡恩发动强大的物理攻击",
+      "physical_index": 176,
+      "source_record_key": 222,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/177/field/0",
+      "source_sha256": "0b86f0df3bcc10682d00d684440990da29d73ed343f371b57f83ba4dd71f9ac1",
+      "source": "大地?破流(도장_수련생3)",
+      "target": "大地强波流（道场学员3）",
+      "physical_index": 177,
+      "source_record_key": 221,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/177/field/1",
+      "source_sha256": "70a9de3f5c8dc5535695def82ccea0452b71d39b5828b8a7392a4e80bf383a22",
+      "source": "地のカンで?力な物理攻?を加える",
+      "target": "利用地属性卡恩发动强大的物理攻击",
+      "physical_index": 177,
+      "source_record_key": 221,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/178/field/0",
+      "source_sha256": "08b1b644f26e6be7f99c779fb321733c34c67c4884fceb1d88f770e5908ed9bf",
+      "source": "大地?破流(도장_수련생4)",
+      "target": "大地强波流（道场学员4）",
+      "physical_index": 178,
+      "source_record_key": 220,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/178/field/1",
+      "source_sha256": "70a9de3f5c8dc5535695def82ccea0452b71d39b5828b8a7392a4e80bf383a22",
+      "source": "地のカンで?力な物理攻?を加える",
+      "target": "利用地属性卡恩发动强大的物理攻击",
+      "physical_index": 178,
+      "source_record_key": 220,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/179/field/0",
+      "source_sha256": "b1305d5618e5e703beeabe2c5710ee9dc7c45b5f980134412ce7b5c5706ba162",
+      "source": "大地?破流(도장_사범)",
+      "target": "大地强波流（道场师范）",
+      "physical_index": 179,
+      "source_record_key": 219,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/179/field/1",
+      "source_sha256": "70a9de3f5c8dc5535695def82ccea0452b71d39b5828b8a7392a4e80bf383a22",
+      "source": "地のカンで?力な物理攻?を加える",
+      "target": "利用地属性卡恩发动强大的物理攻击",
+      "physical_index": 179,
+      "source_record_key": 219,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/180/field/0",
+      "source_sha256": "facb0aeed3ce2605277d1de10164563684e6bb7ee9f900663605557205c5a757",
+      "source": "??風月流(도장_수련생1)",
+      "target": "真·风月流（道场学员1）",
+      "physical_index": 180,
+      "source_record_key": 175,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/180/field/1",
+      "source_sha256": "c5e76c59edae05030964eef9f1f36494d98cb0b79b3aecdaa525543a534c1e97",
+      "source": "風月流の究極?義。すべてを悟ったものだけが到達できる。",
+      "target": "风月流的究极奥义，只有彻底领悟的人才能达到。",
+      "physical_index": 180,
+      "source_record_key": 175,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/181/field/0",
+      "source_sha256": "634701bd0afaeb474cca3d7a5ca819a56e42c0e302be754f212e765ced6933ec",
+      "source": "??風月流(도장_수련생2)",
+      "target": "真·风月流（道场学员2）",
+      "physical_index": 181,
+      "source_record_key": 226,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/181/field/1",
+      "source_sha256": "c5e76c59edae05030964eef9f1f36494d98cb0b79b3aecdaa525543a534c1e97",
+      "source": "風月流の究極?義。すべてを悟ったものだけが到達できる。",
+      "target": "风月流的究极奥义，只有彻底领悟的人才能达到。",
+      "physical_index": 181,
+      "source_record_key": 226,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/182/field/0",
+      "source_sha256": "0c51a7d919ac8a097eff1e879a63e4b607bbe4bc98f788c0445655505b93dcd5",
+      "source": "??風月流(도장_수련생3)",
+      "target": "真·风月流（道场学员3）",
+      "physical_index": 182,
+      "source_record_key": 225,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/182/field/1",
+      "source_sha256": "c5e76c59edae05030964eef9f1f36494d98cb0b79b3aecdaa525543a534c1e97",
+      "source": "風月流の究極?義。すべてを悟ったものだけが到達できる。",
+      "target": "风月流的究极奥义，只有彻底领悟的人才能达到。",
+      "physical_index": 182,
+      "source_record_key": 225,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/183/field/0",
+      "source_sha256": "dc418e8a3084deb88763946979f2fe72155a0373e3a14646bbce1634ff8d94ae",
+      "source": "??風月流(도장_수련생4)",
+      "target": "真·风月流（道场学员4）",
+      "physical_index": 183,
+      "source_record_key": 224,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/183/field/1",
+      "source_sha256": "c5e76c59edae05030964eef9f1f36494d98cb0b79b3aecdaa525543a534c1e97",
+      "source": "風月流の究極?義。すべてを悟ったものだけが到達できる。",
+      "target": "风月流的究极奥义，只有彻底领悟的人才能达到。",
+      "physical_index": 183,
+      "source_record_key": 224,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/184/field/0",
+      "source_sha256": "95b783f95eb8acdb6238a9eaad5606eeaebc8485616f5470444b359b4021f020",
+      "source": "??風月流(도장_사범)",
+      "target": "真·风月流（道场师范）",
+      "physical_index": 184,
+      "source_record_key": 223,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/184/field/1",
+      "source_sha256": "c5e76c59edae05030964eef9f1f36494d98cb0b79b3aecdaa525543a534c1e97",
+      "source": "風月流の究極?義。すべてを悟ったものだけが到達できる。",
+      "target": "风月流的究极奥义，只有彻底领悟的人才能达到。",
+      "physical_index": 184,
+      "source_record_key": 223,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/185/field/0",
+      "source_sha256": "d1d63ee24ef88758c0a85021116d473fa43c27fd09ac0ffc0f20910b8b730697",
+      "source": "?火翔烈掌流(도장_수련생1)",
+      "target": "乱火翔烈掌流（道场学员1）",
+      "physical_index": 185,
+      "source_record_key": 176,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/185/field/1",
+      "source_sha256": "aa7a9f51be6b53ac8f574da4aa228e43d7817f021b1995d9c92fc9b7df39e891",
+      "source": "無?にはじけ飛ぶ火の粉のように、?烈な流派",
+      "target": "如纷乱迸散的火星般猛烈的流派",
+      "physical_index": 185,
+      "source_record_key": 176,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/186/field/0",
+      "source_sha256": "b8f8856512b479c1381bd94cde91b9304451da2e5fe123709b357238f51d46fe",
+      "source": "?火翔烈掌流(도장_수련생2)",
+      "target": "乱火翔烈掌流（道场学员2）",
+      "physical_index": 186,
+      "source_record_key": 230,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/186/field/1",
+      "source_sha256": "aa7a9f51be6b53ac8f574da4aa228e43d7817f021b1995d9c92fc9b7df39e891",
+      "source": "無?にはじけ飛ぶ火の粉のように、?烈な流派",
+      "target": "如纷乱迸散的火星般猛烈的流派",
+      "physical_index": 186,
+      "source_record_key": 230,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/187/field/0",
+      "source_sha256": "3b6770b7744cbf96f607179460200d9e000fbb8fa6e6d7296c52515234e63e83",
+      "source": "?火翔烈掌流(도장_수련생3)",
+      "target": "乱火翔烈掌流（道场学员3）",
+      "physical_index": 187,
+      "source_record_key": 229,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/187/field/1",
+      "source_sha256": "aa7a9f51be6b53ac8f574da4aa228e43d7817f021b1995d9c92fc9b7df39e891",
+      "source": "無?にはじけ飛ぶ火の粉のように、?烈な流派",
+      "target": "如纷乱迸散的火星般猛烈的流派",
+      "physical_index": 187,
+      "source_record_key": 229,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/188/field/0",
+      "source_sha256": "aa29ef9802d475b7f00cf71184941941ed5852186a30322729559a599168e496",
+      "source": "?火翔烈掌流(도장_수련생4)",
+      "target": "乱火翔烈掌流（道场学员4）",
+      "physical_index": 188,
+      "source_record_key": 228,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/188/field/1",
+      "source_sha256": "aa7a9f51be6b53ac8f574da4aa228e43d7817f021b1995d9c92fc9b7df39e891",
+      "source": "無?にはじけ飛ぶ火の粉のように、?烈な流派",
+      "target": "如纷乱迸散的火星般猛烈的流派",
+      "physical_index": 188,
+      "source_record_key": 228,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/189/field/0",
+      "source_sha256": "f9a9d2f611d98b1b9894c07a92c4ab6720673153710ae4fb27b23246d604d0d8",
+      "source": "?火翔烈掌流(도장_사범)",
+      "target": "乱火翔烈掌流（道场师范）",
+      "physical_index": 189,
+      "source_record_key": 227,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/189/field/1",
+      "source_sha256": "aa7a9f51be6b53ac8f574da4aa228e43d7817f021b1995d9c92fc9b7df39e891",
+      "source": "無?にはじけ飛ぶ火の粉のように、?烈な流派",
+      "target": "如纷乱迸散的火星般猛烈的流派",
+      "physical_index": 189,
+      "source_record_key": 227,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/190/field/0",
+      "source_sha256": "a0f0a90086c9a08e10019cfeb6c09b47ec01a8335a1826283d72fc6e78c3592c",
+      "source": "大地脈動掌流(도장_수련생1)",
+      "target": "大地脉动掌流（道场学员1）",
+      "physical_index": 190,
+      "source_record_key": 177,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/190/field/1",
+      "source_sha256": "e2dcb0ecd402b3710279e3b355aa0c602597002cb96cacb90421803dc289c01a",
+      "source": "大地が?れるほど、極限の力を引き出す流派",
+      "target": "激发极限力量，足以震动大地的流派。",
+      "physical_index": 190,
+      "source_record_key": 177,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/191/field/0",
+      "source_sha256": "761d041cfff303a9f4e781cee6528c0e128e534d445aadfc2e560a9ff921d866",
+      "source": "大地脈動掌流(도장_수련생2)",
+      "target": "大地脉动掌流（道场学员2）",
+      "physical_index": 191,
+      "source_record_key": 234,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/191/field/1",
+      "source_sha256": "e2dcb0ecd402b3710279e3b355aa0c602597002cb96cacb90421803dc289c01a",
+      "source": "大地が?れるほど、極限の力を引き出す流派",
+      "target": "激发极限力量，足以震动大地的流派。",
+      "physical_index": 191,
+      "source_record_key": 234,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/192/field/0",
+      "source_sha256": "5d42e14e40f24dc6f05bfc9fe905b330af86b8d79fb6ecea843706b1ffb50342",
+      "source": "大地脈動掌流(도장_수련생3)",
+      "target": "大地脉动掌流（道场学员3）",
+      "physical_index": 192,
+      "source_record_key": 233,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/192/field/1",
+      "source_sha256": "e2dcb0ecd402b3710279e3b355aa0c602597002cb96cacb90421803dc289c01a",
+      "source": "大地が?れるほど、極限の力を引き出す流派",
+      "target": "激发极限力量，足以震动大地的流派。",
+      "physical_index": 192,
+      "source_record_key": 233,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/193/field/0",
+      "source_sha256": "495f980d310f7743050fef91e3a7427c7589311472832ccba7285e5ef1f2d9f9",
+      "source": "大地脈動掌流(도장_수련생4)",
+      "target": "大地脉动掌流（道场学员4）",
+      "physical_index": 193,
+      "source_record_key": 232,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/193/field/1",
+      "source_sha256": "e2dcb0ecd402b3710279e3b355aa0c602597002cb96cacb90421803dc289c01a",
+      "source": "大地が?れるほど、極限の力を引き出す流派",
+      "target": "激发极限力量，足以震动大地的流派。",
+      "physical_index": 193,
+      "source_record_key": 232,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/194/field/0",
+      "source_sha256": "1f33f4b7854d61d923b6655a09a58961ecfac6365389468bcf994d8b7febc518",
+      "source": "大地脈動掌流(도장_사범)",
+      "target": "大地脉动掌流（道场师范）",
+      "physical_index": 194,
+      "source_record_key": 231,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/194/field/1",
+      "source_sha256": "e2dcb0ecd402b3710279e3b355aa0c602597002cb96cacb90421803dc289c01a",
+      "source": "大地が?れるほど、極限の力を引き出す流派",
+      "target": "激发极限力量，足以震动大地的流派。",
+      "physical_index": 194,
+      "source_record_key": 231,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/195/field/0",
+      "source_sha256": "c8182438c53fad81b65962a667dab559d12619778a91fbf7768a1ab61fc1294b",
+      "source": "泰山激層掌流(도장_수련생1)",
+      "target": "泰山激层掌流（道场学员1）",
+      "physical_index": 195,
+      "source_record_key": 179,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/195/field/1",
+      "source_sha256": "744bd4b5a2367f0f5ebeb5289441a65c8ffd8f78a40901a478755558fa7465ea",
+      "source": "五つの山が?れるほど?大な、究極の流派",
+      "target": "威力强大到足以震撼五座山岳的究极流派",
+      "physical_index": 195,
+      "source_record_key": 179,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/196/field/0",
+      "source_sha256": "333656eacaa489d9159ceb0c5bb712d06a14abf82df9020af93486e9b8fa591e",
+      "source": "泰山激層掌流(도장_수련생2)",
+      "target": "泰山激层掌流（道场学员2）",
+      "physical_index": 196,
+      "source_record_key": 238,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/196/field/1",
+      "source_sha256": "744bd4b5a2367f0f5ebeb5289441a65c8ffd8f78a40901a478755558fa7465ea",
+      "source": "五つの山が?れるほど?大な、究極の流派",
+      "target": "威力强大到足以震撼五座山岳的究极流派",
+      "physical_index": 196,
+      "source_record_key": 238,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/197/field/0",
+      "source_sha256": "96807da080c5bd40e56cb9473f7391b4f0828778b180a50ffa99194dfbfa5b42",
+      "source": "泰山激層掌流(도장_수련생3)",
+      "target": "泰山激层掌流（道场学员3）",
+      "physical_index": 197,
+      "source_record_key": 237,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/197/field/1",
+      "source_sha256": "744bd4b5a2367f0f5ebeb5289441a65c8ffd8f78a40901a478755558fa7465ea",
+      "source": "五つの山が?れるほど?大な、究極の流派",
+      "target": "威力强大到足以震撼五座山岳的究极流派",
+      "physical_index": 197,
+      "source_record_key": 237,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/198/field/0",
+      "source_sha256": "acf0d3b4f440078609a17b3abb14d6c00f6ac5b91b69cf4f795c6dc038eef581",
+      "source": "泰山激層掌流(도장_수련생4)",
+      "target": "泰山激层掌流（道场学员4）",
+      "physical_index": 198,
+      "source_record_key": 236,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/198/field/1",
+      "source_sha256": "744bd4b5a2367f0f5ebeb5289441a65c8ffd8f78a40901a478755558fa7465ea",
+      "source": "五つの山が?れるほど?大な、究極の流派",
+      "target": "威力强大到足以震撼五座山岳的究极流派",
+      "physical_index": 198,
+      "source_record_key": 236,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/199/field/0",
+      "source_sha256": "3bd99fe1ddd15cd29d10c539b9c8a6fd978691a0adafbf400072abafab5463c2",
+      "source": "泰山激層掌流(도장_사범)",
+      "target": "泰山激层掌流（道场师范）",
+      "physical_index": 199,
+      "source_record_key": 235,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/199/field/1",
+      "source_sha256": "744bd4b5a2367f0f5ebeb5289441a65c8ffd8f78a40901a478755558fa7465ea",
+      "source": "五つの山が?れるほど?大な、究極の流派",
+      "target": "威力强大到足以震撼五座山岳的究极流派",
+      "physical_index": 199,
+      "source_record_key": 235,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/200/field/0",
+      "source_sha256": "f3338909bf4a75e1769547796aed5d26328d1f7d26fcc8b877b7ea5d4fe46719",
+      "source": "水連流(도장_수련생1)",
+      "target": "水连流（道场学员1）",
+      "physical_index": 200,
+      "source_record_key": 180,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/200/field/1",
+      "source_sha256": "1d8ae6baa6cace1d0c8e2000429c3fc36716ade3d1b8354f3999f377c8464e3f",
+      "source": "江のカンで攻?する流派",
+      "target": "利用江属性卡恩攻击的流派",
+      "physical_index": 200,
+      "source_record_key": 180,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/201/field/0",
+      "source_sha256": "1d49cc309b2c7ea179257c76e595020e02fb5f6ad0eadf02cf61f677d50f582a",
+      "source": "水連流(도장_수련생2)",
+      "target": "水连流（道场学员2）",
+      "physical_index": 201,
+      "source_record_key": 242,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/201/field/1",
+      "source_sha256": "1d8ae6baa6cace1d0c8e2000429c3fc36716ade3d1b8354f3999f377c8464e3f",
+      "source": "江のカンで攻?する流派",
+      "target": "利用江属性卡恩攻击的流派",
+      "physical_index": 201,
+      "source_record_key": 242,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/202/field/0",
+      "source_sha256": "6d60a31b064ac5799ca36d349d900301a0bce300393a90885ed766760458d831",
+      "source": "水連流(도장_수련생3)",
+      "target": "水连流（道场学员3）",
+      "physical_index": 202,
+      "source_record_key": 241,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/202/field/1",
+      "source_sha256": "1d8ae6baa6cace1d0c8e2000429c3fc36716ade3d1b8354f3999f377c8464e3f",
+      "source": "江のカンで攻?する流派",
+      "target": "利用江属性卡恩攻击的流派",
+      "physical_index": 202,
+      "source_record_key": 241,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/203/field/0",
+      "source_sha256": "ea550e2ccda9692c06c5f32202886e3a9f626395505bbc4188c011f209a779d2",
+      "source": "水連流(도장_수련생4)",
+      "target": "水连流（道场学员4）",
+      "physical_index": 203,
+      "source_record_key": 240,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/203/field/1",
+      "source_sha256": "1d8ae6baa6cace1d0c8e2000429c3fc36716ade3d1b8354f3999f377c8464e3f",
+      "source": "江のカンで攻?する流派",
+      "target": "利用江属性卡恩攻击的流派",
+      "physical_index": 203,
+      "source_record_key": 240,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/204/field/0",
+      "source_sha256": "35c5afe954140519c6c7a4421891578f6c80bca2f0c52ef0a3bda76205dec921",
+      "source": "水連流(도장_사범)",
+      "target": "水连流（道场师范）",
+      "physical_index": 204,
+      "source_record_key": 239,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/204/field/1",
+      "source_sha256": "1d8ae6baa6cace1d0c8e2000429c3fc36716ade3d1b8354f3999f377c8464e3f",
+      "source": "江のカンで攻?する流派",
+      "target": "利用江属性卡恩攻击的流派",
+      "physical_index": 204,
+      "source_record_key": 239,
+      "field": 1,
+      "role": "help-description"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/205/field/0",
+      "source_sha256": "c16e3680d8703a34f09f55cd3a6598156a1b9015ee61f84b96705dc718aa0e18",
+      "source": "프로스트웜류2",
+      "target": "霜龙流2",
+      "physical_index": 205,
+      "source_record_key": 189,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/206/field/0",
+      "source_sha256": "1a883846ac0a81045e38a69d5bbeaa62ac4cd62dbc600cfe576131839628f46e",
+      "source": "프로스트웜류3",
+      "target": "霜龙流3",
+      "physical_index": 206,
+      "source_record_key": 190,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/207/field/0",
+      "source_sha256": "eaf991042826161b113bb0ddc5375fad603ec4b1f309db813b3f6dfcd6fbe6bb",
+      "source": "아밀라류",
+      "target": "阿蜜拉流",
+      "physical_index": 207,
+      "source_record_key": 191,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/217/field/0",
+      "source_sha256": "4b234ad111baa5995c0b9f6db00f6b4408c4401e5b839e330c203df26be4f04f",
+      "source": "아스탈류",
+      "target": "阿斯塔尔流",
+      "physical_index": 217,
+      "source_record_key": 202,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/218/field/0",
+      "source_sha256": "894392a53e2ebc7ca1d593341b5746ab58c2d21c32b075f216ff1ef3539af2cb",
+      "source": "스데이류",
+      "target": "斯戴流",
+      "physical_index": 218,
+      "source_record_key": 203,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/219/field/0",
+      "source_sha256": "41754a1006a613c67286378095994930c053141cee9f62a0ded9c6d03043b75e",
+      "source": "아스탈류2",
+      "target": "阿斯塔尔流2",
+      "physical_index": 219,
+      "source_record_key": 204,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/220/field/0",
+      "source_sha256": "bed2a1df69fe64fa676e9803608ef46b167760fcbbb63085a9511bf732fa904e",
+      "source": "롯시류",
+      "target": "罗茜流",
+      "physical_index": 220,
+      "source_record_key": 205,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/221/field/0",
+      "source_sha256": "33e44fbf78bb5e5e07fefd8ea8ed9f0da73368e9d6aa9ccf4e00c876d180de3b",
+      "source": "스데이류2",
+      "target": "斯戴流2",
+      "physical_index": 221,
+      "source_record_key": 206,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/222/field/0",
+      "source_sha256": "868a5bbf0d48fe903ac29e66a6892dae5c508f935cec23bc0bee44a0dd331595",
+      "source": "롯시류2",
+      "target": "罗茜流2",
+      "physical_index": 222,
+      "source_record_key": 207,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/223/field/0",
+      "source_sha256": "0ea5273c89b861d06d2d573317b22bb8509ff50e6435272f6f9c408ef1595a4f",
+      "source": "사운드리스",
+      "target": "无声",
+      "physical_index": 223,
+      "source_record_key": 208,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/224/field/0",
+      "source_sha256": "5a5c0e34c0f95937323dd8e9bfa286de914dd249d71dcba2eb78f0eab73929b9",
+      "source": "투르보_물리공격_땅",
+      "target": "图尔博_物理攻击_地",
+      "physical_index": 224,
+      "source_record_key": 243,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/225/field/0",
+      "source_sha256": "e6b323d50de6bbd4b8e2d5381f660fdac7b1c6a37c017899d5fe7e5abb490b89",
+      "source": "투르보_물리공격_산",
+      "target": "图尔博_物理攻击_山",
+      "physical_index": 225,
+      "source_record_key": 244,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/227/field/0",
+      "source_sha256": "e2ab7a7aca14512602d1dd161cfdb643660d970a58d3cbc9a2a15426feb542d6",
+      "source": "튜토리얼_오르하",
+      "target": "教程_奥尔哈",
+      "physical_index": 227,
+      "source_record_key": 247,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/228/field/0",
+      "source_sha256": "9e6210048255e266f75270ea25900c15fe3f3fda80e86b32ca1b6eb65fadad5a",
+      "source": "튜토리얼_캐리안",
+      "target": "教程_凯莉安",
+      "physical_index": 228,
+      "source_record_key": 248,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/229/field/0",
+      "source_sha256": "b26d3d88e8737d395484de1d705037d5ad8dbfaca5e0ebb4589d91de3129de06",
+      "source": "튜토리얼_아사드",
+      "target": "教程_阿萨德",
+      "physical_index": 229,
+      "source_record_key": 249,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/230/field/0",
+      "source_sha256": "0bf69969973c9f9e3ec028311bb06e4d0f9513bfd4893eaea8327f422c6cd7e7",
+      "source": "튜토리얼_아밀라",
+      "target": "教程_阿蜜拉",
+      "physical_index": 230,
+      "source_record_key": 250,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/231/field/0",
+      "source_sha256": "1d0725c3f2fdcb7d54c92d8498d9c062e3fd6d62d604956eac1815b35012c6ad",
+      "source": "튜토리얼_프로스트웜",
+      "target": "教程_霜龙",
+      "physical_index": 231,
+      "source_record_key": 251,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/232/field/0",
+      "source_sha256": "79c4093d2f3ca7ac3a8c4a3cca6553980b59d387d9f12ddb26dc96a075eaaae8",
+      "source": "튜토리얼_롯시",
+      "target": "教程_罗茜",
+      "physical_index": 232,
+      "source_record_key": 256,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/233/field/0",
+      "source_sha256": "05453335b39816944c698bb5ee7a38e4a99576772d4f7c9dec2db6cb7d70c612",
+      "source": "무자_두방때리기",
+      "target": "巫师_两次打击",
+      "physical_index": 233,
+      "source_record_key": 252,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/234/field/0",
+      "source_sha256": "117e645d53cfb035c3ee8e55a0a330eb92f49e6a3a8647ca9502c82a8c976861",
+      "source": "무자_세방때리기",
+      "target": "巫师_三次打击",
+      "physical_index": 234,
+      "source_record_key": 253,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/235/field/0",
+      "source_sha256": "6362dc4e7ad7b5582f4fb723197918feb1e246f5889a0e8a840ed61cdc234d31",
+      "source": "무녀_마법류_화계",
+      "target": "巫女_魔法流_火系",
+      "physical_index": 235,
+      "source_record_key": 254,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/236/field/0",
+      "source_sha256": "5d270ac26e184a3d83512d98363a8b35fbf9718d6849d4658386652a172abf76",
+      "source": "무녀_마법류_뇌계",
+      "target": "巫女_魔法流_雷系",
+      "physical_index": 236,
+      "source_record_key": 255,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/237/field/0",
+      "source_sha256": "3759d5f7e131c40663515bb0b66b15be68f608882cfd803c137516760ba9cd1b",
+      "source": "아그레이언_천벌",
+      "target": "阿格雷安_天罚",
+      "physical_index": 237,
+      "source_record_key": 257,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/238/field/0",
+      "source_sha256": "3ac187223121f6df06c22afb8bcf6adfd420e1eea95f118cb495a3d82c9ae3d6",
+      "source": "아그레이언_멸망의미",
+      "target": "阿格雷安_毁灭之美",
+      "physical_index": 238,
+      "source_record_key": 258,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/239/field/0",
+      "source_sha256": "8be3da67996354421ff079713425622a35a10828ab80f6353a2d6997303b55f3",
+      "source": "아그레이언_탄검",
+      "target": "阿格雷安_弹剑",
+      "physical_index": 239,
+      "source_record_key": 259,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/240/field/0",
+      "source_sha256": "0e1cc83c734a066fb82d640da33843904e9b828cab52762bc6cc001f8b918fb5",
+      "source": "강화프로스트웜_뇌",
+      "target": "强化霜龙_雷",
+      "physical_index": 240,
+      "source_record_key": 260,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/241/field/0",
+      "source_sha256": "fb5554692f94176d8f08c8217077824ce21e1fecb322c321b42a48b15212f280",
+      "source": "강화프로스트웜_화",
+      "target": "强化霜龙_火",
+      "physical_index": 241,
+      "source_record_key": 261,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/242/field/0",
+      "source_sha256": "b0a8b9e56b465e2bddba8131d61a47ac499c8a5e65b5890ea87dbf63cfe2cac6",
+      "source": "최종판프로스트웜_뇌",
+      "target": "最终版霜龙_雷",
+      "physical_index": 242,
+      "source_record_key": 262,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/243/field/0",
+      "source_sha256": "4b48630e94fe771356e816f7d3ed203a939cdab402f4a9e207cfe6729a3094a8",
+      "source": "최종판프로스트웜_화",
+      "target": "最终版霜龙_火",
+      "physical_index": 243,
+      "source_record_key": 263,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/244/field/0",
+      "source_sha256": "ea0f930e8ebec75a486c9e607dbdc83a6073cc322bc8920b5f2092fe2ccf50b7",
+      "source": "큰바위부수기류",
+      "target": "大岩石击碎流",
+      "physical_index": 244,
+      "source_record_key": 264,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/245/field/0",
+      "source_sha256": "0cff120e0bec6aa6c4c2b4f0907c4e6aedf60b22a3c2678da604de272c3cd195",
+      "source": "작은바위부수기류",
+      "target": "小岩石击碎流",
+      "physical_index": 245,
+      "source_record_key": 265,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/246/field/0",
+      "source_sha256": "ff7c25611c362d06aa356fbfaaa9d2b7864c6dd60f260edfa1f035c18d07c7df",
+      "source": "첫째통나무부수기류",
+      "target": "第一根圆木击碎流",
+      "physical_index": 246,
+      "source_record_key": 266,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/247/field/0",
+      "source_sha256": "7ee3ff78d710c21898672d2eb44d4c91bce2f54d2f6ca606cf694cf2973dce5e",
+      "source": "둘째통나무부수기류",
+      "target": "第二根圆木击碎流",
+      "physical_index": 247,
+      "source_record_key": 267,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/248/field/0",
+      "source_sha256": "cce48b64a3cd496f66437eea187c9337f287ecde13f72b0ece7275b44135b69a",
+      "source": "막내통나무부수기류",
+      "target": "最小圆木击碎流",
+      "physical_index": 248,
+      "source_record_key": 268,
+      "field": 0,
+      "role": "display-name-and-caption-consistency"
+    }
+  ],
+  "source_name_equality_partition_preserved": true,
+  "caption_producer_closed_statically": true,
+  "numeric_identifiers_unchanged": true,
+  "runtime_verified": false,
+  "source_evidence": "tools/audit_native_style.py",
+  "changed_batches": [
+    "locales/zh-CN/style-description-review-01.json"
+  ],
+  "promoted_field_counts": {
+    "names": 206,
+    "descriptions": 40
+  },
+  "description_help_consumer_closed_statically": true,
+  "orthographic_label_corrections": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/157/field/0",
+      "source": "天命?心流",
+      "old_target": "天命启心流",
+      "target": "天命启心流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/158/field/0",
+      "source": "天命?心流",
+      "old_target": "天命启心流",
+      "target": "天命启心流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/159/field/0",
+      "source": "泰山激層掌流",
+      "old_target": "泰山激层掌流",
+      "target": "泰山激层掌流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/160/field/0",
+      "source": "泰山激層掌流",
+      "old_target": "泰山激层掌流",
+      "target": "泰山激层掌流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/161/field/0",
+      "source": "大破邪道流",
+      "old_target": "大破邪道流",
+      "target": "大破邪道流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/162/field/0",
+      "source": "大破邪道流",
+      "old_target": "大破邪道流",
+      "target": "大破邪道流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/163/field/0",
+      "source": "水連流",
+      "old_target": "水连流",
+      "target": "水连流（汉字名）"
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/164/field/0",
+      "source": "無弓?破流",
+      "old_target": "无弓双破流",
+      "target": "无弓双破流（汉字名）"
+    }
+  ],
+  "all_name_bindings": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/0/field/0",
+      "source_hex": "c7b3bff9b7f9",
+      "target": "风月流",
+      "physical_index": 0
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/1/field/0",
+      "source_hex": "c0afbcbac0cfb1a4b7f9",
+      "target": "流星一光流",
+      "physical_index": 1
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/2/field/0",
+      "source_hex": "c3b5bfacbbf3b9abb7f9",
+      "target": "天缘翔舞流",
+      "physical_index": 2
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/3/field/0",
+      "source_hex": "c1f820c0afbcbac0cfb1a4b7f9",
+      "target": "真·流星一光流",
+      "physical_index": 3
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/4/field/0",
+      "source_hex": "b9e6bcb1c1d6c8afb7f9",
+      "target": "方旋周还流",
+      "physical_index": 4
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/5/field/0",
+      "source_hex": "b9abb7c9c1f8c8a5b7f9",
+      "target": "武灵镇魂流",
+      "physical_index": 5
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/6/field/0",
+      "source_hex": "c1f820c3b5bfacbbf3b9abb7f9",
+      "target": "真·天缘翔舞流",
+      "physical_index": 6
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/7/field/0",
+      "source_hex": "c3b5b8edb0e8bdc9b7f9",
+      "target": "天命启心流",
+      "physical_index": 7
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/8/field/0",
+      "source_hex": "c1f820c7b3bff9b7f9",
+      "target": "真·风月流",
+      "physical_index": 8
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/9/field/0",
+      "source_hex": "b0ddc0e5c1f8bbeab7f9",
+      "target": "击掌震山流",
+      "physical_index": 9
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/10/field/0",
+      "source_hex": "bedfbcb1bdc5c0e5b7f9",
+      "target": "夜旋神掌流",
+      "physical_index": 10
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/11/field/0",
+      "source_hex": "c3b5b3fab0ddc0e5b7f9",
+      "target": "天雷击掌流",
+      "physical_index": 11
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/12/field/0",
+      "source_hex": "b3adc8adbbf3bfadc0e5b7f9",
+      "target": "乱火翔烈掌流",
+      "physical_index": 12
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/13/field/0",
+      "source_hex": "b9dfc6c4b7c4c7b3b7f9",
+      "target": "爆破烈风流",
+      "physical_index": 13
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/14/field/0",
+      "source_hex": "b4ebc1f6b8c6b5bfc0e5b7f9",
+      "target": "大地脉动掌流",
+      "physical_index": 14
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/15/field/0",
+      "source_hex": "c5c2bbeab0ddc3fec0e5b7f9",
+      "target": "泰山激层掌流",
+      "physical_index": 15
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/16/field/0",
+      "source_hex": "c8adb1b8b8b6b5b5b7f9",
+      "target": "火球魔道流",
+      "physical_index": 16
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/17/field/0",
+      "source_hex": "b3fac0fcb7f9",
+      "target": "雷电流",
+      "physical_index": 17
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/18/field/0",
+      "source_hex": "b4ebc1f6b0adc6c4b7f9",
+      "target": "大地强波流",
+      "physical_index": 18
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/19/field/0",
+      "source_hex": "c3b5b8edb7f9",
+      "target": "天命流",
+      "physical_index": 19
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/20/field/0",
+      "source_hex": "c6c8bfeec0fcb0ddb7f9",
+      "target": "八云电击流",
+      "physical_index": 20
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/21/field/0",
+      "source_hex": "b4ebc6c4bbe7b5b5b7f9",
+      "target": "大破邪道流",
+      "physical_index": 21
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/22/field/0",
+      "source_hex": "b1b8bbfdb7f9",
+      "target": "救生流",
+      "physical_index": 22
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/23/field/0",
+      "source_hex": "c3bbbfeeb7f9",
+      "target": "青云流",
+      "physical_index": 23
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/24/field/0",
+      "source_hex": "c3bbc3b5c8b0bcbab7f9",
+      "target": "青天活星流",
+      "physical_index": 24
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/25/field/0",
+      "source_hex": "bcf6c1a6c3cab8edb7f9",
+      "target": "水帝招命流",
+      "physical_index": 25
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/26/field/0",
+      "source_hex": "bcf6bfacb7f9",
+      "target": "水连流",
+      "physical_index": 26
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/27/field/0",
+      "source_hex": "c8afb5bfb7f9",
+      "target": "幻动流",
+      "physical_index": 27
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/28/field/0",
+      "source_hex": "b9a6b7c9b7f9",
+      "target": "妙灵流",
+      "physical_index": 28
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/29/field/0",
+      "source_hex": "b1d8b0ddb7f9",
+      "target": "极击流",
+      "physical_index": 29
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/30/field/0",
+      "source_hex": "b0edb1c3c1f8b7f9",
+      "target": "古弓阵流",
+      "physical_index": 30
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/31/field/0",
+      "source_hex": "b9abb1c3bdd6c6c4b7f9",
+      "target": "无弓双破流",
+      "physical_index": 31
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/32/field/0",
+      "source_hex": "c0cebbefc0cec7fcb7f9",
+      "target": "人参娃娃流",
+      "physical_index": 32
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/33/field/0",
+      "source_hex": "c0cebbefc0cec7fcb7f932",
+      "target": "人参娃娃流2",
+      "physical_index": 33
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/34/field/0",
+      "source_hex": "c0ccbaedc7ecbeeeb7f9",
+      "target": "邪恶野兔流",
+      "physical_index": 34
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/35/field/0",
+      "source_hex": "c0ccbaedc7ecbeeeb7f932",
+      "target": "邪恶野兔流2",
+      "physical_index": 35
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/36/field/0",
+      "source_hex": "c0ccbaedc7ecbeeeb7f933",
+      "target": "邪恶野兔流3",
+      "physical_index": 36
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/37/field/0",
+      "source_hex": "c4b9c7dac1eeb7f9",
+      "target": "猫爪怪流",
+      "physical_index": 37
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/38/field/0",
+      "source_hex": "c4b9c7dac1eeb7f932",
+      "target": "猫爪怪流2",
+      "physical_index": 38
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/39/field/0",
+      "source_hex": "b6f3c5dab7f9",
+      "target": "拉泰尔流",
+      "physical_index": 39
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/40/field/0",
+      "source_hex": "b6f3c5dab7f932",
+      "target": "拉泰尔流2",
+      "physical_index": 40
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/41/field/0",
+      "source_hex": "b6f3c5dab7f933",
+      "target": "拉泰尔流3",
+      "physical_index": 41
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/42/field/0",
+      "source_hex": "c1a6b1d4b6f3b7f9",
+      "target": "杰古拉流",
+      "physical_index": 42
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/43/field/0",
+      "source_hex": "c1a6b1d4b6f3b7f932",
+      "target": "杰古拉流2",
+      "physical_index": 43
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/44/field/0",
+      "source_hex": "b8b8c6bcbdc3c0fab7f9",
+      "target": "螳螂剪怪流",
+      "physical_index": 44
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/45/field/0",
+      "source_hex": "b8b8c6bcbdc3c0fab7f932",
+      "target": "螳螂剪怪流2",
+      "physical_index": 45
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/46/field/0",
+      "source_hex": "b8aec0dab5e5c7c3b6f3c0ccb7f9",
+      "target": "飞蜥流",
+      "physical_index": 46
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/47/field/0",
+      "source_hex": "b8aec0dab5e5c7c3b6f3c0ccb7f932",
+      "target": "飞蜥流2",
+      "physical_index": 47
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/48/field/0",
+      "source_hex": "bfc0b8b6b7b9baeab7f9",
+      "target": "奥马雷布流",
+      "physical_index": 48
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/49/field/0",
+      "source_hex": "bfc0b8b6b7b9baeab7f932",
+      "target": "奥马雷布流2",
+      "physical_index": 49
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/50/field/0",
+      "source_hex": "c5a9b7cebfecbaf1bdbac6aeb7f9",
+      "target": "鸦兽流",
+      "physical_index": 50
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/51/field/0",
+      "source_hex": "c5a9b7cebfecbaf1bdbac6aeb7f932",
+      "target": "鸦兽流2",
+      "physical_index": 51
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/52/field/0",
+      "source_hex": "bfcbb0f1b8aebec8c6aeb7f9",
+      "target": "翁戈利安特流",
+      "physical_index": 52
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/53/field/0",
+      "source_hex": "bfcbb0f1b8aebec8c6aeb7f932",
+      "target": "翁戈利安特流2",
+      "physical_index": 53
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/54/field/0",
+      "source_hex": "bfeeb5f0b3d7b7f9",
+      "target": "温蒂妮流",
+      "physical_index": 54
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/55/field/0",
+      "source_hex": "bfeeb5f0b3d7b7f932",
+      "target": "温蒂妮流2",
+      "physical_index": 55
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/56/field/0",
+      "source_hex": "b1b8bfefb7f9",
+      "target": "食尸鬼流",
+      "physical_index": 56
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/57/field/0",
+      "source_hex": "b1b8bfefb7f932",
+      "target": "食尸鬼流2",
+      "physical_index": 57
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/58/field/0",
+      "source_hex": "b7b9b5e5b8b6b1e2b7f9",
+      "target": "红魔导士流",
+      "physical_index": 58
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/59/field/0",
+      "source_hex": "b7b9b5e5b8b6b1e2b7f932",
+      "target": "红魔导士流2",
+      "physical_index": 59
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/60/field/0",
+      "source_hex": "bfecb5e5b0f1b7bdb7f9",
+      "target": "木魔像流",
+      "physical_index": 60
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/61/field/0",
+      "source_hex": "bfecb5e5b0f1b7bdb7f932",
+      "target": "木魔像流2",
+      "physical_index": 61
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/62/field/0",
+      "source_hex": "c7c3b7b9bfc2b7f9",
+      "target": "弗雷昂流",
+      "physical_index": 62
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/63/field/0",
+      "source_hex": "c7c3b7b9bfc2b7f932",
+      "target": "弗雷昂流2",
+      "physical_index": 63
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/64/field/0",
+      "source_hex": "bbf8b7afb8c7b4f5b7f9",
+      "target": "沙罗曼达流",
+      "physical_index": 64
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/65/field/0",
+      "source_hex": "bad2bdbab7f9",
+      "target": "蛮牛流",
+      "physical_index": 65
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/66/field/0",
+      "source_hex": "bad2bdbab7f932",
+      "target": "蛮牛流2",
+      "physical_index": 66
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/67/field/0",
+      "source_hex": "baeabdb4b7f9",
+      "target": "布修流",
+      "physical_index": 67
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/68/field/0",
+      "source_hex": "baeabdb4b7f932",
+      "target": "布修流2",
+      "physical_index": 68
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/69/field/0",
+      "source_hex": "c7c7bdacbabbb7f931",
+      "target": "骸骨鱼流1",
+      "physical_index": 69
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/70/field/0",
+      "source_hex": "c7c7bdacbabbb7f932",
+      "target": "骸骨鱼流2",
+      "physical_index": 70
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/71/field/0",
+      "source_hex": "c7c7bdacbabbb7f933",
+      "target": "骸骨鱼流3",
+      "physical_index": 71
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/72/field/0",
+      "source_hex": "c4abb7b9bac6b7f9",
+      "target": "卡雷贝流",
+      "physical_index": 72
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/73/field/0",
+      "source_hex": "c4abb7b9bac6b7f932",
+      "target": "卡雷贝流2",
+      "physical_index": 73
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/74/field/0",
+      "source_hex": "c4abb7b9bac6b7f933",
+      "target": "卡雷贝流3",
+      "physical_index": 74
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/75/field/0",
+      "source_hex": "c4aeb5a5b6f3b8c7b7f9",
+      "target": "火山人流",
+      "physical_index": 75
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/76/field/0",
+      "source_hex": "c4aeb5a5b6f3b8c7b7f932",
+      "target": "火山人流2",
+      "physical_index": 76
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/77/field/0",
+      "source_hex": "b4d9c4afc1eeb7f9",
+      "target": "达卡姆兹流",
+      "physical_index": 77
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/78/field/0",
+      "source_hex": "b4d9c4afc1eeb7f932",
+      "target": "达卡姆兹流2",
+      "physical_index": 78
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/79/field/0",
+      "source_hex": "b4d9c4afc1eeb7f933",
+      "target": "达卡姆兹流3",
+      "physical_index": 79
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/80/field/0",
+      "source_hex": "c4cbc5b8bfecb8a3bdbab7f9",
+      "target": "半人马流",
+      "physical_index": 80
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/81/field/0",
+      "source_hex": "b8aeb3ebc5cdbdbab7f9",
+      "target": "犀角兽流",
+      "physical_index": 81
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/82/field/0",
+      "source_hex": "c0afb7a1c4efb7f9",
+      "target": "尤拉坤流",
+      "physical_index": 82
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/83/field/0",
+      "source_hex": "c0afb7a1c4efb7f932",
+      "target": "尤拉坤流2",
+      "physical_index": 83
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/84/field/0",
+      "source_hex": "c8adc0c7bdc5bcf6b7f9",
+      "target": "火之神兽流",
+      "physical_index": 84
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/85/field/0",
+      "source_hex": "c8adc0c7bdc5bcf6b7f932",
+      "target": "火之神兽流2",
+      "physical_index": 85
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/86/field/0",
+      "source_hex": "c8adc0c7bdc5bcf6b7f933",
+      "target": "火之神兽流3",
+      "physical_index": 86
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/87/field/0",
+      "source_hex": "c8a5b1e2b0a1bdbab7f931",
+      "target": "霍恩基加斯流1",
+      "physical_index": 87
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/88/field/0",
+      "source_hex": "c8a5b1e2b0a1bdbab7f932",
+      "target": "霍恩基加斯流2",
+      "physical_index": 88
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/89/field/0",
+      "source_hex": "b9f8b0b3bdc5bcf6b7f931",
+      "target": "雷之神兽流1",
+      "physical_index": 89
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/90/field/0",
+      "source_hex": "b9f8b0b3bdc5bcf6b7f932",
+      "target": "雷之神兽流2",
+      "physical_index": 90
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/91/field/0",
+      "source_hex": "b9f8b0b3bdc5bcf6b7f933",
+      "target": "雷之神兽流3",
+      "physical_index": 91
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/92/field/0",
+      "source_hex": "bbeac0c7bdc5bcf6b7f9",
+      "target": "山之神兽流",
+      "physical_index": 92
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/93/field/0",
+      "source_hex": "bbeac0c7bdc5bcf6b7f932",
+      "target": "山之神兽流2",
+      "physical_index": 93
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/94/field/0",
+      "source_hex": "bbeac0c7bdc5bcf6b7f933",
+      "target": "山之神兽流3",
+      "physical_index": 94
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/95/field/0",
+      "source_hex": "bdbac6bfc7cfc6aeb7f931",
+      "target": "钢铁之心流1",
+      "physical_index": 95
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/96/field/0",
+      "source_hex": "bdbac6bfc7cfc6aeb7f932",
+      "target": "钢铁之心流2",
+      "physical_index": 96
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/97/field/0",
+      "source_hex": "c3b5c0c7bdc5bcf6b7f9",
+      "target": "天之神兽流",
+      "physical_index": 97
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/98/field/0",
+      "source_hex": "c3b5c0c7bdc5bcf6b7f932",
+      "target": "天之神兽流2",
+      "physical_index": 98
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/99/field/0",
+      "source_hex": "c3b5c0c7bdc5bcf6b7f933",
+      "target": "天之神兽流3",
+      "physical_index": 99
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/100/field/0",
+      "source_hex": "b5a5bdbab7b9c0ccbaecb7f9",
+      "target": "死亡渡鸦流",
+      "physical_index": 100
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/101/field/0",
+      "source_hex": "b0adc0c7bdc5bcf6b7f931",
+      "target": "江之神兽流1",
+      "physical_index": 101
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/102/field/0",
+      "source_hex": "b0adc0c7bdc5bcf6b7f932",
+      "target": "江之神兽流2",
+      "physical_index": 102
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/103/field/0",
+      "source_hex": "b0adc0c7bdc5bcf6b7f933",
+      "target": "江之神兽流3",
+      "physical_index": 103
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/104/field/0",
+      "source_hex": "bcadc5a5b9f6bdbab7f931",
+      "target": "魅魔流1",
+      "physical_index": 104
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/105/field/0",
+      "source_hex": "bdbab3d7c0ccc5a9bec6c0ccb7f9",
+      "target": "蛇眼怪流",
+      "physical_index": 105
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/106/field/0",
+      "source_hex": "bdbab3d7c0ccc5a9bec6c0ccb7f932",
+      "target": "蛇眼怪流2",
+      "physical_index": 106
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/107/field/0",
+      "source_hex": "bdbab3d7c0ccc5a9bec6c0ccb7f933",
+      "target": "蛇眼怪流3",
+      "physical_index": 107
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/108/field/0",
+      "source_hex": "c7c7b4d0bdbab7f9",
+      "target": "菲尼克斯流",
+      "physical_index": 108
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/109/field/0",
+      "source_hex": "b8f3bdbac5cdbec6b1d7b7b9c0ccbef0b7f9",
+      "target": "阿格雷安怪物形态流",
+      "physical_index": 109
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/110/field/0",
+      "source_hex": "b8f3bdbac5cdbec6b1d7b7b9c0ccbef0b7f932",
+      "target": "阿格雷安怪物形态流2",
+      "physical_index": 110
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/111/field/0",
+      "source_hex": "b8f3bdbac5cdbec6b1d7b7b9c0ccbef0b7f933",
+      "target": "阿格雷安怪物形态流3",
+      "physical_index": 111
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/112/field/0",
+      "source_hex": "b8f3bdbac5cdbec6b1d7b7b9c0ccbef0b7f934",
+      "target": "阿格雷安怪物形态流4",
+      "physical_index": 112
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/113/field/0",
+      "source_hex": "b8f3bdbac5cdbec6b1d7b7b9c0ccbef0b7f935",
+      "target": "阿格雷安怪物形态流5",
+      "physical_index": 113
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/114/field/0",
+      "source_hex": "77696e6d61696e2773207374796c65",
+      "target": "winmain的流派",
+      "physical_index": 114
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/115/field/0",
+      "source_hex": "b1c3bdc5c6c4bfc0b7f9",
+      "target": "弓神破奥流",
+      "physical_index": 115
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/116/field/0",
+      "source_hex": "c0ccbdc5bfc0bbf3b7f9",
+      "target": "二神五象流",
+      "physical_index": 116
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/117/field/0",
+      "source_hex": "bbefbdc5b6f5bfc0b7f9",
+      "target": "三神乱奥流",
+      "physical_index": 117
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/118/field/0",
+      "source_hex": "bfacc7d5b1bac4aeb7f9",
+      "target": "联合军之剑流",
+      "physical_index": 118
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/119/field/0",
+      "source_hex": "bfacc7d5b1bac4aeb7f932",
+      "target": "联合军之剑流2",
+      "physical_index": 119
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/120/field/0",
+      "source_hex": "bfacc7d5b1bab8b6b9fdb7f9",
+      "target": "联合军魔法流",
+      "physical_index": 120
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/121/field/0",
+      "source_hex": "bfacc7d5b1bab8b6b9fdb7f932",
+      "target": "联合军魔法流2",
+      "physical_index": 121
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/122/field/0",
+      "source_hex": "bdc2b8ae",
+      "target": "胜利",
+      "physical_index": 122
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/123/field/0",
+      "source_hex": "c6d0b9e8",
+      "target": "败北",
+      "physical_index": 123
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/124/field/0",
+      "source_hex": "b0cbbdc7c6d0b7f9",
+      "target": "剑术失败流",
+      "physical_index": 124
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/125/field/0",
+      "source_hex": "b1c7bdc7c6d0b7f9",
+      "target": "拳术失败流",
+      "physical_index": 125
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/126/field/0",
+      "source_hex": "c0fbbcfabdc7c6d0b7f9",
+      "target": "赤术失败流",
+      "physical_index": 126
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/127/field/0",
+      "source_hex": "c3bbbcfabdc7c6d0b7f9",
+      "target": "青术失败流",
+      "physical_index": 127
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/128/field/0",
+      "source_hex": "c8b0bdc7c6d0b7f9",
+      "target": "弓术失败流",
+      "physical_index": 128
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/129/field/0",
+      "source_hex": "bcadc5a5b9f6bdbab7f932",
+      "target": "魅魔流2",
+      "physical_index": 129
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/130/field/0",
+      "source_hex": "bcadc5a5b9f6bdbab7f933",
+      "target": "魅魔流3",
+      "physical_index": 130
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/131/field/0",
+      "source_hex": "79617a5f74657374b7f9",
+      "target": "yaz_test流",
+      "physical_index": 131
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/132/field/0",
+      "source_hex": "bedfc1eec5d7bdbac6aeb7f9",
+      "target": "亚兹测试流",
+      "physical_index": 132
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/133/field/0",
+      "source_hex": "c8bfb0fa5fc1f8bcbab7f9",
+      "target": "效果_真星流",
+      "physical_index": 133
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/134/field/0",
+      "source_hex": "c8bfb0fa5fc5c2b0efb7f9",
+      "target": "效果_泰坤流",
+      "physical_index": 134
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/135/field/0",
+      "source_hex": "c8bfb0fa5fc1d6c8abb7f9",
+      "target": "效果_朱红流",
+      "physical_index": 135
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/136/field/0",
+      "source_hex": "bfb5c7e2b1c7c5d7bdbac6aeb7f9",
+      "target": "影响范围测试流",
+      "physical_index": 136
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/137/field/0",
+      "source_hex": "bfc0b8a3c7cfc6d0b9d0b8aebeeeb7f9",
+      "target": "奥尔哈使魔流",
+      "physical_index": 137
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/138/field/0",
+      "source_hex": "bfc0b8a3c7cfc6d0b9d0b8aebeeeb7f932",
+      "target": "奥尔哈使魔流2",
+      "physical_index": 138
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/139/field/0",
+      "source_hex": "bfc0b8a3c7cfc6d0b9d0b8aebeeeb7f933",
+      "target": "奥尔哈使魔流3",
+      "physical_index": 139
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/140/field/0",
+      "source_hex": "b9d9bdbac7c7b7f9",
+      "target": "巴斯皮流",
+      "physical_index": 140
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/141/field/0",
+      "source_hex": "b9d9bdbac7c7b7f932",
+      "target": "巴斯皮流2",
+      "physical_index": 141
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/142/field/0",
+      "source_hex": "b9d9bdbac7c7b7f933",
+      "target": "巴斯皮流3",
+      "physical_index": 142
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/143/field/0",
+      "source_hex": "b9d9bdbac7c7b7f934",
+      "target": "巴斯皮流4",
+      "physical_index": 143
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/144/field/0",
+      "source_hex": "bacec0fbc8bfb0fac5d7bdbac6aeb7f9",
+      "target": "符咒效果测试流",
+      "physical_index": 144
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/145/field/0",
+      "source_hex": "bec6bbe7b5e5b7f9",
+      "target": "阿萨德流",
+      "physical_index": 145
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/146/field/0",
+      "source_hex": "c4b3b8aebec8b7f9",
+      "target": "凯莉安流",
+      "physical_index": 146
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/147/field/0",
+      "source_hex": "bec6bbe7b5e5b7f932",
+      "target": "阿萨德流2",
+      "physical_index": 147
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/148/field/0",
+      "source_hex": "c4b3b8aebec8b7f932",
+      "target": "凯莉安流2",
+      "physical_index": 148
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/149/field/0",
+      "source_hex": "bec6bbe7b5e5b7f933",
+      "target": "阿萨德流3",
+      "physical_index": 149
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/150/field/0",
+      "source_hex": "c3d6c1bec6c7c4aeb8b0c3f7",
+      "target": "最终版卡琳兹",
+      "physical_index": 150
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/151/field/0",
+      "source_hex": "c3d6c1bec6c7b8aebdba",
+      "target": "最终版莉丝",
+      "physical_index": 151
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/152/field/0",
+      "source_hex": "c3d6c1bec6c7b8aebec8b3aa",
+      "target": "最终版莉安娜",
+      "physical_index": 152
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/153/field/0",
+      "source_hex": "c3d6c1bec6c7c5a9b8aebdba",
+      "target": "最终版克里斯",
+      "physical_index": 153
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/154/field/0",
+      "source_hex": "c4cbc5b8bfecb8a3bdbab7f931",
+      "target": "半人马流1",
+      "physical_index": 154
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/155/field/0",
+      "source_hex": "c4cbc5b8bfecb8a3bdbab7f932",
+      "target": "半人马流2",
+      "physical_index": 155
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/156/field/0",
+      "source_hex": "c4cbc5b8bfecb8a3bdbab7f933",
+      "target": "半人马流3",
+      "physical_index": 156
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/157/field/0",
+      "source_hex": "f4b8d9a43fe3fdd7b5",
+      "target": "天命启心流（汉字名）",
+      "physical_index": 157
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/158/field/0",
+      "source_hex": "f4b8d9a43fe3fdd7b5",
+      "target": "天命启心流（汉字名）",
+      "physical_index": 158
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/159/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b5",
+      "target": "泰山激层掌流（汉字名）",
+      "physical_index": 159
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/160/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b5",
+      "target": "泰山激层掌流（汉字名）",
+      "physical_index": 160
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/161/field/0",
+      "source_hex": "d3def7f2def7d4b3d7b5",
+      "target": "大破邪道流（汉字名）",
+      "physical_index": 161
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/162/field/0",
+      "source_hex": "d3def7f2def7d4b3d7b5",
+      "target": "大破邪道流（汉字名）",
+      "physical_index": 162
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/163/field/0",
+      "source_hex": "e2a9d6a7d7b5",
+      "target": "水连流（汉字名）",
+      "physical_index": 163
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/164/field/0",
+      "source_hex": "d9edcfe13ff7f2d7b5",
+      "target": "无弓双破流（汉字名）",
+      "physical_index": 164
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/165/field/0",
+      "source_hex": "dbb0e0c1f1b2fcbdd7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "方旋周还流（道场学员1）",
+      "physical_index": 165
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/166/field/0",
+      "source_hex": "dbb0e0c1f1b2fcbdd7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "方旋周还流（道场学员2）",
+      "physical_index": 166
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/167/field/0",
+      "source_hex": "dbb0e0c1f1b2fcbdd7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "方旋周还流（道场学员3）",
+      "physical_index": 167
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/168/field/0",
+      "source_hex": "dbb0e0c1f1b2fcbdd7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "方旋周还流（道场学员4）",
+      "physical_index": 168
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/169/field/0",
+      "source_hex": "dbb0e0c1f1b2fcbdd7b528b5b5c0e55fbbe7b9fc29",
+      "target": "方旋周还流（道场师范）",
+      "physical_index": 169
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/170/field/0",
+      "source_hex": "eafce0f8ece9cec3d7b53fcbc728b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "流星一光流·改（道场学员1）",
+      "physical_index": 170
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/171/field/0",
+      "source_hex": "eafce0f8ece9cec3d7b53fcbc728b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "流星一光流·改（道场学员2）",
+      "physical_index": 171
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/172/field/0",
+      "source_hex": "eafce0f8ece9cec3d7b53fcbc728b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "流星一光流·改（道场学员3）",
+      "physical_index": 172
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/173/field/0",
+      "source_hex": "eafce0f8ece9cec3d7b53fcbc728b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "流星一光流·改（道场学员4）",
+      "physical_index": 173
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/174/field/0",
+      "source_hex": "eafce0f8ece9cec3d7b53fcbc728b5b5c0e55fbbe7b9fc29",
+      "target": "流星一光流·改（道场师范）",
+      "physical_index": 174
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/175/field/0",
+      "source_hex": "d3def2a23ff7f2d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "大地强波流（道场学员1）",
+      "physical_index": 175
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/176/field/0",
+      "source_hex": "d3def2a23ff7f2d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "大地强波流（道场学员2）",
+      "physical_index": 176
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/177/field/0",
+      "source_hex": "d3def2a23ff7f2d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "大地强波流（道场学员3）",
+      "physical_index": 177
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/178/field/0",
+      "source_hex": "d3def2a23ff7f2d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "大地强波流（道场学员4）",
+      "physical_index": 178
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/179/field/0",
+      "source_hex": "d3def2a23ff7f2d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "大地强波流（道场师范）",
+      "physical_index": 179
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/180/field/0",
+      "source_hex": "3f3ff9a6eac5d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "真·风月流（道场学员1）",
+      "physical_index": 180
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/181/field/0",
+      "source_hex": "3f3ff9a6eac5d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "真·风月流（道场学员2）",
+      "physical_index": 181
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/182/field/0",
+      "source_hex": "3f3ff9a6eac5d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "真·风月流（道场学员3）",
+      "physical_index": 182
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/183/field/0",
+      "source_hex": "3f3ff9a6eac5d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "真·风月流（道场学员4）",
+      "physical_index": 183
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/184/field/0",
+      "source_hex": "3f3ff9a6eac5d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "真·风月流（道场师范）",
+      "physical_index": 184
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/185/field/0",
+      "source_hex": "3ffbfddfd6d6adede6d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "乱火翔烈掌流（道场学员1）",
+      "physical_index": 185
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/186/field/0",
+      "source_hex": "3ffbfddfd6d6adede6d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "乱火翔烈掌流（道场学员2）",
+      "physical_index": 186
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/187/field/0",
+      "source_hex": "3ffbfddfd6d6adede6d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "乱火翔烈掌流（道场学员3）",
+      "physical_index": 187
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/188/field/0",
+      "source_hex": "3ffbfddfd6d6adede6d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "乱火翔烈掌流（道场学员4）",
+      "physical_index": 188
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/189/field/0",
+      "source_hex": "3ffbfddfd6d6adede6d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "乱火翔烈掌流（道场师范）",
+      "physical_index": 189
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/190/field/0",
+      "source_hex": "d3def2a2d8e6d4d1ede6d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "大地脉动掌流（道场学员1）",
+      "physical_index": 190
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/191/field/0",
+      "source_hex": "d3def2a2d8e6d4d1ede6d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "大地脉动掌流（道场学员2）",
+      "physical_index": 191
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/192/field/0",
+      "source_hex": "d3def2a2d8e6d4d1ede6d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "大地脉动掌流（道场学员3）",
+      "physical_index": 192
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/193/field/0",
+      "source_hex": "d3def2a2d8e6d4d1ede6d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "大地脉动掌流（道场学员4）",
+      "physical_index": 193
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/194/field/0",
+      "source_hex": "d3def2a2d8e6d4d1ede6d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "大地脉动掌流（道场师范）",
+      "physical_index": 194
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/195/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "泰山激层掌流（道场学员1）",
+      "physical_index": 195
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/196/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "泰山激层掌流（道场学员2）",
+      "physical_index": 196
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/197/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "泰山激层掌流（道场学员3）",
+      "physical_index": 197
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/198/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "泰山激层掌流（道场学员4）",
+      "physical_index": 198
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/199/field/0",
+      "source_hex": "f7c1dfa3ccadf6b5ede6d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "泰山激层掌流（道场师范）",
+      "physical_index": 199
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/200/field/0",
+      "source_hex": "e2a9d6a7d7b528b5b5c0e55fbcf6b7c3bbfd3129",
+      "target": "水连流（道场学员1）",
+      "physical_index": 200
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/201/field/0",
+      "source_hex": "e2a9d6a7d7b528b5b5c0e55fbcf6b7c3bbfd3229",
+      "target": "水连流（道场学员2）",
+      "physical_index": 201
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/202/field/0",
+      "source_hex": "e2a9d6a7d7b528b5b5c0e55fbcf6b7c3bbfd3329",
+      "target": "水连流（道场学员3）",
+      "physical_index": 202
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/203/field/0",
+      "source_hex": "e2a9d6a7d7b528b5b5c0e55fbcf6b7c3bbfd3429",
+      "target": "水连流（道场学员4）",
+      "physical_index": 203
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/204/field/0",
+      "source_hex": "e2a9d6a7d7b528b5b5c0e55fbbe7b9fc29",
+      "target": "水连流（道场师范）",
+      "physical_index": 204
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/205/field/0",
+      "source_hex": "c7c1b7cebdbac6aebffab7f932",
+      "target": "霜龙流2",
+      "physical_index": 205
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/206/field/0",
+      "source_hex": "c7c1b7cebdbac6aebffab7f933",
+      "target": "霜龙流3",
+      "physical_index": 206
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/207/field/0",
+      "source_hex": "bec6b9d0b6f3b7f9",
+      "target": "阿蜜拉流",
+      "physical_index": 207
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/208/field/0",
+      "source_hex": "416d696c615f53696465",
+      "target": "阿米拉_侧面",
+      "physical_index": 208
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/209/field/0",
+      "source_hex": "53756d6d6f6e5f4669727374",
+      "target": "召唤_第一阶段",
+      "physical_index": 209
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/210/field/0",
+      "source_hex": "53756d6d6f6e5f5365636f6e64",
+      "target": "召唤_第二阶段",
+      "physical_index": 210
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/211/field/0",
+      "source_hex": "53756d6d6f6e5f46697273745f43617269616e",
+      "target": "召唤_第一阶段_凯莉安",
+      "physical_index": 211
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/212/field/0",
+      "source_hex": "53756d6d6f6e5f5365636f6e645f532e45796573",
+      "target": "召唤_第二阶段_S之眼",
+      "physical_index": 212
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/213/field/0",
+      "source_hex": "53756d6d6f6e5f46697273745f4f726861",
+      "target": "召唤_第一阶段_奥哈",
+      "physical_index": 213
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/214/field/0",
+      "source_hex": "53756d6d6f6e5f5365636f6e645f442e526176656e",
+      "target": "召唤_第二阶段_D渡鸦",
+      "physical_index": 214
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/215/field/0",
+      "source_hex": "53756d6d6f6e5f46697273745f4c6f746879",
+      "target": "召唤_第一阶段_罗蒂",
+      "physical_index": 215
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/216/field/0",
+      "source_hex": "53756d6d6f6e5f5365636f6e645f532e4865617274",
+      "target": "召唤_第二阶段_S之心",
+      "physical_index": 216
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/217/field/0",
+      "source_hex": "bec6bdbac5bbb7f9",
+      "target": "阿斯塔尔流",
+      "physical_index": 217
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/218/field/0",
+      "source_hex": "bdbab5a5c0ccb7f9",
+      "target": "斯戴流",
+      "physical_index": 218
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/219/field/0",
+      "source_hex": "bec6bdbac5bbb7f932",
+      "target": "阿斯塔尔流2",
+      "physical_index": 219
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/220/field/0",
+      "source_hex": "b7d4bdc3b7f9",
+      "target": "罗茜流",
+      "physical_index": 220
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/221/field/0",
+      "source_hex": "bdbab5a5c0ccb7f932",
+      "target": "斯戴流2",
+      "physical_index": 221
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/222/field/0",
+      "source_hex": "b7d4bdc3b7f932",
+      "target": "罗茜流2",
+      "physical_index": 222
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/223/field/0",
+      "source_hex": "bbe7bfeeb5e5b8aebdba",
+      "target": "无声",
+      "physical_index": 223
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/224/field/0",
+      "source_hex": "c5f5b8a3bab85fb9b0b8aeb0f8b0dd5fb6a5",
+      "target": "图尔博_物理攻击_地",
+      "physical_index": 224
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/225/field/0",
+      "source_hex": "c5f5b8a3bab85fb9b0b8aeb0f8b0dd5fbbea",
+      "target": "图尔博_物理攻击_山",
+      "physical_index": 225
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/226/field/0",
+      "source_hex": "c7b3bff9b7f9",
+      "target": "风月流",
+      "physical_index": 226
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/227/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fbfc0b8a3c7cf",
+      "target": "教程_奥尔哈",
+      "physical_index": 227
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/228/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fc4b3b8aebec8",
+      "target": "教程_凯莉安",
+      "physical_index": 228
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/229/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fbec6bbe7b5e5",
+      "target": "教程_阿萨德",
+      "physical_index": 229
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/230/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fbec6b9d0b6f3",
+      "target": "教程_阿蜜拉",
+      "physical_index": 230
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/231/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fc7c1b7cebdbac6aebffa",
+      "target": "教程_霜龙",
+      "physical_index": 231
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/232/field/0",
+      "source_hex": "c6a9c5e4b8aebef35fb7d4bdc3",
+      "target": "教程_罗茜",
+      "physical_index": 232
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/233/field/0",
+      "source_hex": "b9abc0da5fb5ceb9e6b6a7b8aeb1e2",
+      "target": "巫师_两次打击",
+      "physical_index": 233
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/234/field/0",
+      "source_hex": "b9abc0da5fbcbcb9e6b6a7b8aeb1e2",
+      "target": "巫师_三次打击",
+      "physical_index": 234
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/235/field/0",
+      "source_hex": "b9abb3e05fb8b6b9fdb7f95fc8adb0e8",
+      "target": "巫女_魔法流_火系",
+      "physical_index": 235
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/236/field/0",
+      "source_hex": "b9abb3e05fb8b6b9fdb7f95fb3fab0e8",
+      "target": "巫女_魔法流_雷系",
+      "physical_index": 236
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/237/field/0",
+      "source_hex": "bec6b1d7b7b9c0ccbef05fc3b5b9fa",
+      "target": "阿格雷安_天罚",
+      "physical_index": 237
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/238/field/0",
+      "source_hex": "bec6b1d7b7b9c0ccbef05fb8eab8c1c0c7b9cc",
+      "target": "阿格雷安_毁灭之美",
+      "physical_index": 238
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/239/field/0",
+      "source_hex": "bec6b1d7b7b9c0ccbef05fc5bab0cb",
+      "target": "阿格雷安_弹剑",
+      "physical_index": 239
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/240/field/0",
+      "source_hex": "b0adc8adc7c1b7cebdbac6aebffa5fb3fa",
+      "target": "强化霜龙_雷",
+      "physical_index": 240
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/241/field/0",
+      "source_hex": "b0adc8adc7c1b7cebdbac6aebffa5fc8ad",
+      "target": "强化霜龙_火",
+      "physical_index": 241
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/242/field/0",
+      "source_hex": "c3d6c1bec6c7c7c1b7cebdbac6aebffa5fb3fa",
+      "target": "最终版霜龙_雷",
+      "physical_index": 242
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/243/field/0",
+      "source_hex": "c3d6c1bec6c7c7c1b7cebdbac6aebffa5fc8ad",
+      "target": "最终版霜龙_火",
+      "physical_index": 243
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/244/field/0",
+      "source_hex": "c5abb9d9c0a7bacebcf6b1e2b7f9",
+      "target": "大岩石击碎流",
+      "physical_index": 244
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/245/field/0",
+      "source_hex": "c0dbc0bab9d9c0a7bacebcf6b1e2b7f9",
+      "target": "小岩石击碎流",
+      "physical_index": 245
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/246/field/0",
+      "source_hex": "c3b9c2b0c5ebb3aab9abbacebcf6b1e2b7f9",
+      "target": "第一根圆木击碎流",
+      "physical_index": 246
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/247/field/0",
+      "source_hex": "b5d1c2b0c5ebb3aab9abbacebcf6b1e2b7f9",
+      "target": "第二根圆木击碎流",
+      "physical_index": 247
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/248/field/0",
+      "source_hex": "b8b7b3bbc5ebb3aab9abbacebcf6b1e2b7f9",
+      "target": "最小圆木击碎流",
+      "physical_index": 248
+    }
+  ],
+  "additional_latin_name_bindings": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/114/field/0",
+      "source_sha256": "bd510640f08370fa051889c16325bd1573a0eb1db9d57f255d3453cdf56bac1e",
+      "source": "winmain's style",
+      "target": "winmain的流派",
+      "physical_index": 114,
+      "source_record_key": 75,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 28626,
+      "source_bytes": 15,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/208/field/0",
+      "source_sha256": "9d197adc05654ade77b6823146a7b05deea6a6a38bb6b1145719f205455dbacd",
+      "source": "Amila_Side",
+      "target": "阿米拉_侧面",
+      "physical_index": 208,
+      "source_record_key": 192,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 52220,
+      "source_bytes": 10,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/209/field/0",
+      "source_sha256": "d221d7e00248f0074a1006576ac0b8f95c553d5755b098cb711a007e9a109e01",
+      "source": "Summon_First",
+      "target": "召唤_第一阶段",
+      "physical_index": 209,
+      "source_record_key": 194,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 52471,
+      "source_bytes": 12,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/210/field/0",
+      "source_sha256": "20af44cdb3c1e7301ca779752777490bc62a9b9567a36af02c8ce927f05f96d3",
+      "source": "Summon_Second",
+      "target": "召唤_第二阶段",
+      "physical_index": 210,
+      "source_record_key": 195,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 52722,
+      "source_bytes": 13,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/211/field/0",
+      "source_sha256": "3e3b02473808fe8288da46dae9109629b074992e2f2291ab0d5835d23c75803f",
+      "source": "Summon_First_Carian",
+      "target": "召唤_第一阶段_凯莉安",
+      "physical_index": 211,
+      "source_record_key": 196,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 52973,
+      "source_bytes": 19,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/212/field/0",
+      "source_sha256": "0e16ad52ece6d5a533e95396e90fcc3cad29fae23c173c5a2242255e4974b846",
+      "source": "Summon_Second_S.Eyes",
+      "target": "召唤_第二阶段_S之眼",
+      "physical_index": 212,
+      "source_record_key": 197,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 53224,
+      "source_bytes": 20,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/213/field/0",
+      "source_sha256": "84735762519378727bafdfdb57535e46cf963236d128699d6ee76e808cded578",
+      "source": "Summon_First_Orha",
+      "target": "召唤_第一阶段_奥哈",
+      "physical_index": 213,
+      "source_record_key": 198,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 53475,
+      "source_bytes": 17,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/214/field/0",
+      "source_sha256": "04b53283b55d1b923e64b06447569082e7e1a0e85a4d05ec35b54c531a9d7190",
+      "source": "Summon_Second_D.Raven",
+      "target": "召唤_第二阶段_D渡鸦",
+      "physical_index": 214,
+      "source_record_key": 199,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 53726,
+      "source_bytes": 21,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/215/field/0",
+      "source_sha256": "b7faf0a562bc85149409ab7500ae4c31306517dce1b3e955bf41cc2840224039",
+      "source": "Summon_First_Lothy",
+      "target": "召唤_第一阶段_罗蒂",
+      "physical_index": 215,
+      "source_record_key": 200,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 53977,
+      "source_bytes": 18,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/216/field/0",
+      "source_sha256": "580e978d42f8c54c0a5ff0765a26f8730d1232674b31f568c84ad58ee77240e5",
+      "source": "Summon_Second_S.Heart",
+      "target": "召唤_第二阶段_S之心",
+      "physical_index": 216,
+      "source_record_key": 201,
+      "field": 0,
+      "source_resource": "SHIP/00000468.sgi",
+      "source_resource_sha256": "ebb1958edb3224c37e27bdf4dabdc8755213a76d5970aec9dd0cb4e8264efff2",
+      "source_offset": 54228,
+      "source_bytes": 21,
+      "role": "display-name-and-caption-consistency",
+      "runtime_verified": false
+    }
+  ],
+  "all_names_have_targets": true
+}

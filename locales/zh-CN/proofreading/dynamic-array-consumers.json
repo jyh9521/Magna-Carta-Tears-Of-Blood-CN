@@ -1,0 +1,466 @@
+{
+  "schema": 1,
+  "bindings": [
+    {
+      "id": "SHIP/00001240.tui/record/73/field/0/index/67",
+      "source_sha256": "e80542f451a021073ccb638ecc6bf4d03d9fd7ba7fe13719034a66c06cd53d6f",
+      "target": "（收礼者）：",
+      "record_key": 73,
+      "physical_index": 67,
+      "array_property": "FieldMenuTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/10975",
+          "serial_sha256": "61e13ac81b47fa374b754752562c27097dd1bdeb021b1d84e23fe312cdfe6e51",
+          "array_token_offset": 130,
+          "field_token_offset": 140
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/10975",
+          "serial_sha256": "61e13ac81b47fa374b754752562c27097dd1bdeb021b1d84e23fe312cdfe6e51",
+          "array_token_offset": 229,
+          "field_token_offset": 239
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001240.tui/record/87/field/0/index/81",
+      "source_sha256": "ddc95f2bfa9fe06b20670bc9d3e95642d31623d30c134de1bae508e9cb76b15e",
+      "target": "属性的精灵石",
+      "record_key": 87,
+      "physical_index": 81,
+      "array_property": "FieldMenuTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/337",
+          "serial_sha256": "ad2a5f9a542fb231e914dc9fa8d400bdd8b1e0156a3c6119eb50273cdedc060d",
+          "array_token_offset": 527,
+          "field_token_offset": 543
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/10271",
+          "serial_sha256": "69edf70fedb4bbbea85d4302f20258f34f9e175fed18228da08b964a8b8bca5e",
+          "array_token_offset": 149,
+          "field_token_offset": 165
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/10314",
+          "serial_sha256": "2784b27037142185184ef74f77d5e9b956bf22c5bb9eff071568684ce7a21961",
+          "array_token_offset": 134,
+          "field_token_offset": 150
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001240.tui/record/88/field/0/index/82",
+      "source_sha256": "82a70025a7ac3ebaa7c2afe43e6acbca84bc2f5c9c3daf15cff7f0669c1dcd53",
+      "target": "属性的精灵石：转换完成",
+      "record_key": 88,
+      "physical_index": 82,
+      "array_property": "FieldMenuTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/337",
+          "serial_sha256": "ad2a5f9a542fb231e914dc9fa8d400bdd8b1e0156a3c6119eb50273cdedc060d",
+          "array_token_offset": 618,
+          "field_token_offset": 634
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/23/field/0/index/22",
+      "source_sha256": "4058a2cf4553a0139cfd0c21e9de160c5b698499028108eba21d0db03ec6230f",
+      "target": "获得流派[",
+      "record_key": 23,
+      "physical_index": 22,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 426,
+          "field_token_offset": 435
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/29/field/0/index/28",
+      "source_sha256": "fb05e9ee7dcca03969b3804e6118ef987d3f9c31a1acab7fd0495be7ac55528f",
+      "target": "]！",
+      "record_key": 29,
+      "physical_index": 28,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 449,
+          "field_token_offset": 458
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/30/field/0/index/29",
+      "source_sha256": "262e1c94cd31b4735bb5f4be90ed9568d955dd7f258f67875e4a437b200f8679",
+      "target": "的",
+      "record_key": 30,
+      "physical_index": 29,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 661,
+          "field_token_offset": 670
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 824,
+          "field_token_offset": 833
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 987,
+          "field_token_offset": 996
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1150,
+          "field_token_offset": 1159
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1317,
+          "field_token_offset": 1326
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1487,
+          "field_token_offset": 1496
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1639,
+          "field_token_offset": 1648
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2194,
+          "field_token_offset": 2203
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2357,
+          "field_token_offset": 2366
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2520,
+          "field_token_offset": 2529
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2683,
+          "field_token_offset": 2692
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2850,
+          "field_token_offset": 2859
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3020,
+          "field_token_offset": 3029
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3172,
+          "field_token_offset": 3181
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/32/field/0/index/31",
+      "source_sha256": "bcc6e4ca670b7649ca319dcd4344fd0b48e2d831dea5c820c59c22a00093f753",
+      "target": "",
+      "record_key": 32,
+      "physical_index": 31,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 718,
+          "field_token_offset": 727
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 881,
+          "field_token_offset": 890
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1044,
+          "field_token_offset": 1053
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1207,
+          "field_token_offset": 1216
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1381,
+          "field_token_offset": 1390
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1533,
+          "field_token_offset": 1542
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1696,
+          "field_token_offset": 1705
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2251,
+          "field_token_offset": 2260
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2414,
+          "field_token_offset": 2423
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2577,
+          "field_token_offset": 2586
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2740,
+          "field_token_offset": 2749
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2914,
+          "field_token_offset": 2923
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3066,
+          "field_token_offset": 3075
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3229,
+          "field_token_offset": 3238
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/36/field/0/index/35",
+      "source_sha256": "99243f743d2e077d6286550226ff8e612ee7ab2830a2e5d5a0a3ac833b75ef40",
+      "target": "增加了",
+      "record_key": 36,
+      "physical_index": 35,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 693,
+          "field_token_offset": 702
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 856,
+          "field_token_offset": 865
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1019,
+          "field_token_offset": 1028
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1182,
+          "field_token_offset": 1191
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2226,
+          "field_token_offset": 2235
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2389,
+          "field_token_offset": 2398
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2552,
+          "field_token_offset": 2561
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2715,
+          "field_token_offset": 2724
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "id": "SHIP/00001255.tui/record/37/field/0/index/36",
+      "source_sha256": "455421c961d761ae6ae9404a03bad1292b2a9c8883b7cbbb3aa8e606848b1372",
+      "target": "增加了",
+      "record_key": 37,
+      "physical_index": 36,
+      "array_property": "CommonTextList",
+      "consumers": [
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1349,
+          "field_token_offset": 1358
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1508,
+          "field_token_offset": 1517
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 1671,
+          "field_token_offset": 1680
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 2882,
+          "field_token_offset": 2891
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3041,
+          "field_token_offset": 3050
+        },
+        {
+          "object_id": "FILE/MrtsGame.u/export/12188",
+          "serial_sha256": "749acc538e88fffb0182b080eb0b5eefa672f905380259dea3823fbdb0384c61",
+          "array_token_offset": 3204,
+          "field_token_offset": 3213
+        }
+      ],
+      "runtime_verified": false
+    }
+  ],
+  "compositions": [
+    {
+      "kind": "style-obtained",
+      "consumer": "FILE/MrtsGame.u/export/12188",
+      "statement_offset": 399,
+      "parts": [
+        "CharData.Name",
+        {
+          "resource": "SHIP/00001255.tui",
+          "physical_index": 22
+        },
+        "StyleData.Name",
+        {
+          "resource": "SHIP/00001255.tui",
+          "physical_index": 28
+        }
+      ],
+      "sample": "卡琳兹获得流派[血泪]！"
+    },
+    {
+      "kind": "stat-change",
+      "consumer": "FILE/MrtsGame.u/export/12188",
+      "statement_offset": 632,
+      "parts": [
+        "CharData.Name",
+        {
+          "resource": "SHIP/00001255.tui",
+          "physical_index": 29
+        },
+        "FieldMenuTextList[153].MainText",
+        {
+          "resource": "SHIP/00001255.tui",
+          "physical_index": 35
+        },
+        "CurItemData.STR",
+        {
+          "resource": "SHIP/00001255.tui",
+          "physical_index": 31
+        }
+      ],
+      "sample": "卡琳兹的力量增加了5。",
+      "numeric_sign_preserved": true
+    },
+    {
+      "kind": "gift-confirmation",
+      "consumer": "FILE/MrtsGame.u/export/10975",
+      "statement_offset": 106,
+      "parts": [
+        "CharData.Name",
+        {
+          "resource": "SHIP/00001240.tui",
+          "physical_index": 67
+        },
+        "CommonTextList[33].MainText",
+        "ItemData.Name",
+        "CommonTextList[34].MainText",
+        "FieldMenuTextList[70].MainText"
+      ],
+      "sample": "卡琳兹（收礼者）：[治疗药]赠送这件道具吗？"
+    }
+  ],
+  "runtime_verified": false
+}

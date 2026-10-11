@@ -18,7 +18,7 @@
 |生产ISO命令Windows路径|Verified static|pycdlib metadata fallback与实际KR ISO两处in-place已通过；runtime仍待测|
 |FILE manifest stale|Fixed in PoC static|PoC同步celfid压缩长度，保留其他manifest记录；runtime影响待测|
 |SFD时长/时间戳/中文字幕|Investigating|180216静态音频一致，0.103944s drift与warning；中文ASS/游戏同步未验收|
-|大规模翻译/Release|Not started|PoC门禁与阶段验收完成后才能进入批量翻译|
+|大规模翻译/Release|In progress|最新15批8462字段，余5781结构化候选；完整校对、缓存联动、影片及最终ISO仍未完成|
 
 测试须记录PCSX2版本/backend/BIOS、原版与测试版hash、冷启动、截图和每个验收项；不能只用savestate或静态测试代替。
 
@@ -255,3 +255,16 @@ Core.u 表后连续 2229 B 与普通包的 144 个源片段逐字节对应，观
 ## stage92 音频优先接续
 
 见 [音频优先核查](MOVIE_ASR_REVIEW.md)。全46影片库存：45音轨完成本地原语言候选转写，1片无音轨；283片段、174低置信度片段定点OCR队列，26个空白折叠源匹配不作exact去重。停止全帧OCR，批量清理有哈希清单；原资源/6334译稿不改。音频候选流程完成不等于全游戏覆盖完成，继续保留静默视觉文字与未知native语义。
+
+stage172：00000106.fpb十个原生记录明确列为retain-source-fault（8个CP949 bytewindow截断字符、1个非语法测试残片えうれおいつえれｄ+3NUL、1个9NUL全零记录）。prepare_source_fault_retention按原SHIP/ELF/nativeKey/physical/span/fullpool/hash核查，派生catalog只添加retention proof，原decode/controls/editable/backend/offset/raw均不改变。scope单列源异常保留10，不计已翻译、不授予import、不声明事件未使用；普通scopereview仍不能跳过quarantine。171字库/AFS实际bytes不改，14617reviewed/2013terms/1011资源14614fields。新scope不再有deferred-decode/control，原8failed/2quarantine如实保留；10Latin/3configsemantics/3pending/compiled/native/image/layout与已验收动画/最终ISO继续。证据172/VERIFICATION.txt。
+
+## 当前集成测试状态（stage179，取代以上历史计数）
+
+14683reviewed/0draft已实际回填，固定槽byteoverflow0；字库2466新增，各5133字形。25部影片采用用户已验收字幕产物，21部原版保留。完整测试ISO已通过静态ISO9660/UDF双视图和非目标字节验证；它不是正式发布，也没有继承旧PoC的运行验收。
+
+本版需实际冷启动、菜单/对话长文换行与裁切、动画播放/跳过、战斗、切场景及正常存读档。1150编译支持/程序值及10源异常字段原样保留；静态范围决断不等于证明所有潜在运行文字都可见或不可见。提供本版hash与问题截图/场景，按实际测试反馈定位。
+
+
+## stage180 标题与 UI 反馈修正
+
+stage180修正了用户报告的标题菜单韩文位图、小标题和UI句末标点；静态回读通过，非本版模拟器截图验收。用户须同路径冷启动而非旧即时存档；见 UI_TITLE_REVISION.md。

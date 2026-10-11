@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "source_corpus_sha256": "39884cc3e9175811800c92ee8ae7f3d1a50b96a67bb9d0d41cf0fb8f84895dc6",
+  "bindings": [
+    {
+      "id": "SHIP/00004044.cht/slot/12",
+      "resource": "SHIP/00004044.cht",
+      "resource_sha256": "589b5660f77a80e3c046944ab6e64495ae013de69616c293728845e8b66e8e4d",
+      "offset": 6412,
+      "source_bytes": 12,
+      "source_sha256": "a6c557e9fa6d5a78befbd08fc2fb3ad1133d2a025b7537f47d5508e7061888f0",
+      "native_read_bytes": 512,
+      "runtime_verified": false,
+      "record_index": 12,
+      "numeric_metadata_hex": "0c000000030000000000000000000000",
+      "native_source_parameter": "t0 text FString; first-copy offset8, additional branch stores preserved by numeric metadata"
+    }
+  ]
+}

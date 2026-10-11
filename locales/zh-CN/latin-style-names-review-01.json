@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "entries": [
+    {
+      "id": "SHIP/00000468.sgi/record-index/114/field/0",
+      "source_sha256": "bd510640f08370fa051889c16325bd1573a0eb1db9d57f255d3453cdf56bac1e",
+      "target": "winmain的流派",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/208/field/0",
+      "source_sha256": "9d197adc05654ade77b6823146a7b05deea6a6a38bb6b1145719f205455dbacd",
+      "target": "阿米拉_侧面",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/209/field/0",
+      "source_sha256": "d221d7e00248f0074a1006576ac0b8f95c553d5755b098cb711a007e9a109e01",
+      "target": "召唤_第一阶段",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/210/field/0",
+      "source_sha256": "20af44cdb3c1e7301ca779752777490bc62a9b9567a36af02c8ce927f05f96d3",
+      "target": "召唤_第二阶段",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/211/field/0",
+      "source_sha256": "3e3b02473808fe8288da46dae9109629b074992e2f2291ab0d5835d23c75803f",
+      "target": "召唤_第一阶段_凯莉安",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/212/field/0",
+      "source_sha256": "0e16ad52ece6d5a533e95396e90fcc3cad29fae23c173c5a2242255e4974b846",
+      "target": "召唤_第二阶段_S之眼",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/213/field/0",
+      "source_sha256": "84735762519378727bafdfdb57535e46cf963236d128699d6ee76e808cded578",
+      "target": "召唤_第一阶段_奥哈",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/214/field/0",
+      "source_sha256": "04b53283b55d1b923e64b06447569082e7e1a0e85a4d05ec35b54c531a9d7190",
+      "target": "召唤_第二阶段_D渡鸦",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/215/field/0",
+      "source_sha256": "b7faf0a562bc85149409ab7500ae4c31306517dce1b3e955bf41cc2840224039",
+      "target": "召唤_第一阶段_罗蒂",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    },
+    {
+      "id": "SHIP/00000468.sgi/record-index/216/field/0",
+      "source_sha256": "580e978d42f8c54c0a5ff0765a26f8730d1232674b31f568c84ad58ee77240e5",
+      "target": "召唤_第二阶段_S之心",
+      "status": "reviewed",
+      "reinsertion_policy": "translate",
+      "context": "SGI Name displayed via proven native numeric-key lookup and same-source AddStyle/AddList caption producer. Preserve all original key fields, underscores and source equality classes. Unexpanded S/D abbreviations and unknown Lothy receive consistent project display labels; no actor identity or mechanic inferred. winmain remains a developer label, not invented as a person."
+    }
+  ]
+}

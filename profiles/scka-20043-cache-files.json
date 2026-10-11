@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "game_profile": "profiles/scka-20043.json",
+  "files": [
+    {
+      "resource": "FILE/Core.int",
+      "cached_path": "Core.int",
+      "source_sha256": "fc408e789490034ffbc50fa0b67b9adce6189be5c258742c65dcf075277cbd21",
+      "source_bytes": 3375,
+      "expected_file_records": 2,
+      "expected_payloads": 1
+    },
+    {
+      "resource": "FILE/psx2game.ini",
+      "cached_path": "psx2game.ini",
+      "source_sha256": "67db5e4171e752f7da3dcfd56d12d9bd5e98a2114ada8440d98840f15b06063f",
+      "source_bytes": 4098,
+      "expected_file_records": 3,
+      "expected_payloads": 1
+    }
+  ]
+}
