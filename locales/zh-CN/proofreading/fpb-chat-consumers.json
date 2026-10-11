@@ -1337,7 +1337,7 @@
       "source_bytes": 112,
       "native_record_key": 0,
       "physical_index": 0,
-      "target": "阿斯塔尔的阴谋逐渐揭晓，神秘的第三个人物也出现了。而在这些事情之外，卡琳兹与莉丝之间，爱情也开始萌芽。",
+      "target": "阿斯塔尔的阴谋逐渐揭晓，神秘的第三个人物也出现了。而在这些事情之外，卡林兹与莉丝之间，爱情也开始萌芽。",
       "role": "native-fpb-text-to-chat-string-payload",
       "specific_event_execution_verified": false
     },
@@ -1350,7 +1350,7 @@
       "source_bytes": 79,
       "native_record_key": 1,
       "physical_index": 1,
-      "target": "第三个人物究竟是谁？卡琳兹和莉丝的前方，又有什么命运在等待？",
+      "target": "第三个人物究竟是谁？卡林兹和莉丝的前方，又有什么命运在等待？",
       "role": "native-fpb-text-to-chat-string-payload",
       "specific_event_execution_verified": false
     },

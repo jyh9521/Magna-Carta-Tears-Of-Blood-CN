@@ -203,7 +203,7 @@
     {
       "id": "SHIP/00005251.pod/field/0",
       "source_sha256": "beda673c249d5bb87ae18e1e3fd13dbb48c6c8bb24bf96632b103e6f21265ef6",
-      "target": "最近亚逊频繁来到伊佩莉亚，目的不明。传闻他们在寻找什么东西，据说负责调查的几人已被发现死于非命。",
+      "target": "最近亚逊频繁来到伊菲利亚，目的不明。传闻他们在寻找什么东西，据说负责调查的几人已被发现死于非命。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -217,7 +217,7 @@
     {
       "id": "SHIP/00005251.pod/field/19",
       "source_sha256": "63a6a84c3d63a897e48bc47459e2eaae1b086ce9f667249747393c413b13868d",
-      "target": "最近亚逊经常来到伊佩莉亚。",
+      "target": "最近亚逊经常来到伊菲利亚。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -322,7 +322,7 @@
     {
       "id": "SHIP/00005256.pod/field/0",
       "source_sha256": "5c11bce2d69c1efc8862f4b538f53c48c9190609c04d92ae96d026a68bdca679",
-      "target": "卡琳兹～哇，能看到卡琳兹耶，小小的。真神奇。",
+      "target": "卡林兹～哇，能看到卡林兹耶，小小的。真神奇。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -350,7 +350,7 @@
     {
       "id": "SHIP/00005256.pod/field/4",
       "source_sha256": "8594819fefe81f3454a086745e0266176971f3d997b3e84b9e97af5024a9b7b7",
-      "target": "我没事。$n有朱丝蒂娜陪着，很安心。",
+      "target": "我没事。$n有朱斯蒂娜陪着，很安心。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -371,7 +371,7 @@
     {
       "id": "SHIP/00005257.pod/field/1",
       "source_sha256": "f45ffaf769f2954b6ca52aa886f7626292f0179aa2620325c65a1cda8f81462a",
-      "target": "唔……只是想问问，卡琳兹过得怎么样。",
+      "target": "唔……只是想问问，卡林兹过得怎么样。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -616,7 +616,7 @@
     {
       "id": "SHIP/00005267.pod/field/3",
       "source_sha256": "cb91e279266492cec52b36931e0d1891227b49b87e27064034ac7899d1a90657",
-      "target": "这么说，回忆录的其余部分还留在伊佩莉亚的某处。",
+      "target": "这么说，回忆录的其余部分还留在伊菲利亚的某处。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -952,7 +952,7 @@
     {
       "id": "SHIP/00007249.pod/field/2",
       "source_sha256": "d91af57404a2f608886731291e709105d5605f5cf3093ba6f103da52507563b0",
-      "target": "那里……是卡琳兹的故乡。如今已经成了废墟。",
+      "target": "那里……是卡林兹的故乡。如今已经成了废墟。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -980,14 +980,14 @@
     {
       "id": "SHIP/00007250.pod/field/0",
       "source_sha256": "cc460aa9b0a203d43ffb094a4172f32b143c51b04d2c4ac62b09b4a50e639486",
-      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿蜜拉女王，是令人恐惧的存在。",
+      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿米拉女王，是令人恐惧的存在。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00007250.pod/field/19",
       "source_sha256": "cc460aa9b0a203d43ffb094a4172f32b143c51b04d2c4ac62b09b4a50e639486",
-      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿蜜拉女王，是令人恐惧的存在。",
+      "target": "四天王以首领奥尔哈为中心，还有罗茜、凯莉安和阿萨德。他们辅佐阿米拉女王，是令人恐惧的存在。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -1568,14 +1568,14 @@
     {
       "id": "SHIP/00007306.pod/field/0",
       "source_sha256": "02cd8289a2ab8c6d77ec928c27a9d54932d42402781d2cea4518e9587635a88a",
-      "target": "拜耶尔虽然封闭，却也不至于对伊佩莉亚的危机置之不理。",
+      "target": "拜耶尔虽然封闭，却也不至于对伊菲利亚的危机置之不理。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00007306.pod/field/19",
       "source_sha256": "02cd8289a2ab8c6d77ec928c27a9d54932d42402781d2cea4518e9587635a88a",
-      "target": "拜耶尔虽然封闭，却也不至于对伊佩莉亚的危机置之不理。",
+      "target": "拜耶尔虽然封闭，却也不至于对伊菲利亚的危机置之不理。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -1708,14 +1708,14 @@
     {
       "id": "SHIP/00007338.pod/field/0",
       "source_sha256": "f0b6a224ebed101dc817c4e5f38b98abd432241d23a4675f32c65eb6149e0240",
-      "target": "你若想相信卡琳兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
+      "target": "你若想相信卡林兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00007338.pod/field/19",
       "source_sha256": "f0b6a224ebed101dc817c4e5f38b98abd432241d23a4675f32c65eb6149e0240",
-      "target": "你若想相信卡琳兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
+      "target": "你若想相信卡林兹，就去相信他。$n如果总是焦躁地盘算该不该相信，就什么也做不了。即使信任会令自己受伤，只要有勇气承受，$n就去相信吧。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -1799,14 +1799,14 @@
     {
       "id": "SHIP/00011478.pod/field/0",
       "source_sha256": "0101da77f680074108c4e41b6c73e0b3d429d4e823b6420540cf8c89aea23285",
-      "target": "卡琳兹，我身体很好，过得也好。$n别担心。",
+      "target": "卡林兹，我身体很好，过得也好。$n别担心。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00011478.pod/field/19",
       "source_sha256": "0101da77f680074108c4e41b6c73e0b3d429d4e823b6420540cf8c89aea23285",
-      "target": "卡琳兹，我身体很好，过得也好。$n别担心。",
+      "target": "卡林兹，我身体很好，过得也好。$n别担心。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -1827,14 +1827,14 @@
     {
       "id": "SHIP/00013498.pod/field/0",
       "source_sha256": "39d9aa8ee6f86fcb43d2e0a4dcbd392b4cce87320366aa4b609386392950d965",
-      "target": "卡琳兹，快到阿雷莫里山来。我会在那里等你们。",
+      "target": "卡林兹，快到阿雷莫里山来。我会在那里等你们。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00013498.pod/field/19",
       "source_sha256": "39d9aa8ee6f86fcb43d2e0a4dcbd392b4cce87320366aa4b609386392950d965",
-      "target": "卡琳兹，快到阿雷莫里山来。我会在那里等你们。",
+      "target": "卡林兹，快到阿雷莫里山来。我会在那里等你们。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
@@ -1869,14 +1869,14 @@
     {
       "id": "SHIP/00016591.pod/field/0",
       "source_sha256": "c34c5aa52bff4518cbec2c6ee164617ec8cd9c25ba72fb7453ea1316e99cbbf5",
-      "target": "卡琳兹，我过得很好，别担心。",
+      "target": "卡林兹，我过得很好，别担心。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },
     {
       "id": "SHIP/00016591.pod/field/19",
       "source_sha256": "c34c5aa52bff4518cbec2c6ee164617ec8cd9c25ba72fb7453ea1316e99cbbf5",
-      "target": "卡琳兹，我过得很好，别担心。",
+      "target": "卡林兹，我过得很好，别担心。",
       "status": "reviewed",
       "context": "Communication dialogue; independent first/alternate message fields translated with stable identities; original control token values/count/order retained; glossary checked; source spelling variations do not establish linked groups."
     },

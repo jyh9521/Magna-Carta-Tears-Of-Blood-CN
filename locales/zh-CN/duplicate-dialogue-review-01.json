@@ -77,7 +77,7 @@
     {
       "id": "SHIP/00001932.fpb/seq/126",
       "source_sha256": "427b33f05be6349908e5170d111f61c611e51671d7b3958a850170d87f987c80",
-      "target": "伊佩莉亚大陆任何地方，都能送你前往。",
+      "target": "伊菲利亚大陆任何地方，都能送你前往。",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     },
@@ -931,7 +931,7 @@
     {
       "id": "SHIP/00012048.cht/slot/2",
       "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
-      "target": "卡琳兹……",
+      "target": "卡林兹……",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     },
@@ -1967,7 +1967,7 @@
     {
       "id": "SHIP/00015653.fpb/seq/1",
       "source_sha256": "5f1bef7bd3e6d6ec51c7bbc0bfe1f441d40367cbaaf3d62fdfdefab540d662fa",
-      "target": "嗯，卡琳兹。",
+      "target": "嗯，卡林兹。",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     },
@@ -2037,7 +2037,7 @@
     {
       "id": "SHIP/00016762.cht/slot/6",
       "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
-      "target": "卡琳兹……",
+      "target": "卡林兹……",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     },
@@ -2058,14 +2058,14 @@
     {
       "id": "SHIP/00016767.cht/slot/17",
       "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
-      "target": "卡琳兹……",
+      "target": "卡林兹……",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     },
     {
       "id": "SHIP/00016767.cht/slot/22",
       "source_sha256": "7f4e94ede0a5f161052698a4d6fcce41870eba19cfc3f2192c54bde4cd460821",
-      "target": "卡琳兹……",
+      "target": "卡林兹……",
       "status": "reviewed",
       "context": "Reviewed exact-source duplicate: complete greeting/shop label/short dialogue response or complete style name; identities remain independent, linked_group=false. Source hash and protected token order checked individually."
     }

@@ -557,3 +557,12 @@ stage180：菜单位图不会随普通文本回填自动翻译。旧预览按BGR
 ## PCSX2诊断 datapath
 
 本地v2.8.2的 -datapath 对输入目录再追加 PCSX2 子目录。首次184探针误将INI放在父目录，日志停在输入源初始化且无ELF执行，记录保留。纠正为 <datapath>/PCSX2/inis/PCSX2.ini 后观察原ELF冷启动执行。软件SaveFrame开关未产生图像，不将空诊断输出当作视觉验收；隔离设置不影响用户日常配置。
+# PCSX2 贴图根目录与区域哈希
+
+`Textures` 应指向贴图根目录，模拟器会追加 serial/replacements；指向 replacements 内部会导致多拼一层目录。
+旧 r-region 和旧 TCC 位在 PCSX2 2.8.2 名称解析中已兼容，不应因此重新猜纹理哈希。
+跨版本复用必须保持 CLUT 与格式键，不用无调色板哈希的别名强配。具体证据及恢复见 [高清贴图复用](HD_TEXTURE_PACK.md)。
+
+## 名称修订与字幕容器检查
+
+不能将保留旧输入比较值的历史UI标点recipe当作当前游戏文字，也不能只改名词表而漏掉已生成的SFD与celfid副本。stage187保留旧recipe、另做源hash绑定增量后处理并全ISO回读。影片严格-xerror framehash在旧/新SFD上均因rawvideo muxer非单调DTS停止；复核使用既有decoder_outcome的窄日志规则，要求完整相等帧数/退出0，保留日志且container_timing_verified=false，不移除SFD时间戳、不将此说成新的游戏内播放验收。

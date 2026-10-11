@@ -1176,7 +1176,7 @@
       "id": "SHIP/00000468.sgi/record-index/150/field/0",
       "source_sha256": "d6753fe8619a78d904e7789dfffc46f68584b82965bc617471a919868a5b939f",
       "source": "최종판칼린츠",
-      "target": "最终版卡琳兹",
+      "target": "最终版卡林兹",
       "physical_index": 150,
       "source_record_key": 147,
       "field": 0,
@@ -2146,7 +2146,7 @@
       "id": "SHIP/00000468.sgi/record-index/207/field/0",
       "source_sha256": "eaf991042826161b113bb0ddc5375fad603ec4b1f309db813b3f6dfcd6fbe6bb",
       "source": "아밀라류",
-      "target": "阿蜜拉流",
+      "target": "阿米拉流",
       "physical_index": 207,
       "source_record_key": 191,
       "field": 0,
@@ -2276,7 +2276,7 @@
       "id": "SHIP/00000468.sgi/record-index/230/field/0",
       "source_sha256": "0bf69969973c9f9e3ec028311bb06e4d0f9513bfd4893eaea8327f422c6cd7e7",
       "source": "튜토리얼_아밀라",
-      "target": "教程_阿蜜拉",
+      "target": "教程_阿米拉",
       "physical_index": 230,
       "source_record_key": 250,
       "field": 0,
@@ -3430,7 +3430,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/150/field/0",
       "source_hex": "c3d6c1bec6c7c4aeb8b0c3f7",
-      "target": "最终版卡琳兹",
+      "target": "最终版卡林兹",
       "physical_index": 150
     },
     {
@@ -3772,7 +3772,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/207/field/0",
       "source_hex": "bec6b9d0b6f3b7f9",
-      "target": "阿蜜拉流",
+      "target": "阿米拉流",
       "physical_index": 207
     },
     {
@@ -3910,7 +3910,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/230/field/0",
       "source_hex": "c6a9c5e4b8aebef35fbec6b9d0b6f3",
-      "target": "教程_阿蜜拉",
+      "target": "教程_阿米拉",
       "physical_index": 230
     },
     {

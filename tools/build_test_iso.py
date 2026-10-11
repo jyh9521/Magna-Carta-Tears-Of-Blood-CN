@@ -10,6 +10,7 @@ from font_poc import require,file_digest,digest,output_directory
 from iso import patch_iso,_portable_metadata,SECTOR
 from udf_overlay import plan_udf_overlay,apply_udf_overlay
 from iso_validation import verify_iso_overlay
+from movie_revision import validated_revision
 
 
 def grouped_replacements(replacements):
@@ -33,7 +34,8 @@ def checked_inputs(plan,movies,files):
     movie_files={name.rsplit('/',1)[1].removesuffix('.SFD'):name for name in files if name.endswith('.SFD')};seen=set();movie_proofs=[]
     require(len(movie_files)==movies['selected_count']+movies['retained_original_count'],'original movie inventory mismatch')
     for row in movies['movies']:
-        name=row['movie'];require(name not in seen and name in movie_files and row['manual_movie_acceptance'] is True,'unaccepted/duplicate/unknown movie');seen.add(name)
+        name=row['movie'];require(name not in seen and name in movie_files,'duplicate/unknown movie')
+        require(row['manual_movie_acceptance'] is True or validated_revision(row),'unaccepted movie');seen.add(name)
         path=Path(row['sfd_path']);review=Path(row['accepted_review_path'])
         require(path.stat().st_size==row['sfd_bytes'] and file_digest(path)==row['sfd_sha256'],'accepted SFD fingerprint mismatch '+name)
         require(file_digest(review)==row['accepted_review_sha256'],'accepted MP4 fingerprint mismatch '+name)

@@ -2261,7 +2261,7 @@
     {
       "id": "SHIP/00000466.abi/record-index/268/field/0",
       "source_sha256": "d6753fe8619a78d904e7789dfffc46f68584b82965bc617471a919868a5b939f",
-      "target": "最终版卡琳兹",
+      "target": "最终版卡林兹",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
@@ -2352,42 +2352,42 @@
     {
       "id": "SHIP/00000466.abi/record-index/281/field/0",
       "source_sha256": "423ab207eb5f8bef90a13c513802d6f82e2c068eb676ee0337351aaeb0fbeee3",
-      "target": "语音卡琳兹05",
+      "target": "语音卡林兹05",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
     {
       "id": "SHIP/00000466.abi/record-index/282/field/0",
       "source_sha256": "bfebce2470c990aee4a1f9dcf097aebab3dfaeb4dc520fb5d4d57f4386a923b3",
-      "target": "语音卡琳兹11",
+      "target": "语音卡林兹11",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
     {
       "id": "SHIP/00000466.abi/record-index/283/field/0",
       "source_sha256": "40b8d0733aaaf5d37440abaffb7bc10565c02995a3c74bac3740b2b07536ae67",
-      "target": "语音卡琳兹12",
+      "target": "语音卡林兹12",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
     {
       "id": "SHIP/00000466.abi/record-index/284/field/0",
       "source_sha256": "0dcf5e9bd129be314b4fe9326f22cae6c68551845e833424511f41692ba99b59",
-      "target": "语音卡琳兹13",
+      "target": "语音卡林兹13",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
     {
       "id": "SHIP/00000466.abi/record-index/285/field/0",
       "source_sha256": "cc1f07e18baf8f3c3cce9a7e3dfd526204caec025390f84bbfadd0bd9d0d28ec",
-      "target": "语音卡琳兹14",
+      "target": "语音卡林兹14",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
     {
       "id": "SHIP/00000466.abi/record-index/286/field/0",
       "source_sha256": "67f887f12c3cb4a5bcef8690f7a05a2b5e865967a3d0d3b4823fbab6e323e8ab",
-      "target": "语音卡琳兹15",
+      "target": "语音卡林兹15",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
@@ -2583,7 +2583,7 @@
     {
       "id": "SHIP/00000466.abi/record-index/314/field/0",
       "source_sha256": "0e890001fb685c7937965fbed9379b9396976cb81627395268e9e39416157b1d",
-      "target": "阿蜜拉_魔法",
+      "target": "阿米拉_魔法",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },
@@ -2688,7 +2688,7 @@
     {
       "id": "SHIP/00000466.abi/record-index/338/field/0",
       "source_sha256": "0bf69969973c9f9e3ec028311bb06e4d0f9513bfd4893eaea8327f422c6cd7e7",
-      "target": "教程_阿蜜拉",
+      "target": "教程_阿米拉",
       "status": "reviewed",
       "context": "ABI remaining name/description source and fixed geometry reviewed. Canonical actors/monsters/element names retained; numbers,Test and underscore structure retained. Enemy/development/sound labels are not inferred reachable merely from lexical translation. Unknown gender not invented."
     },

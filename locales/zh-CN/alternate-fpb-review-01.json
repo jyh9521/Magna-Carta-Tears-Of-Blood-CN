@@ -253,7 +253,7 @@
     {
       "id": "SHIP/00001202.fpb/seq/6",
       "source_sha256": "4d32cb8e94625198117cd7b831a54dcf2e554c38ddc13da2614bd81e8d1acec6",
-      "target": "你见过阿蜜拉女王吗？她像蜂后一样$n可怕。在战场上受伤之后，她就用面具$n遮住了脸。",
+      "target": "你见过阿米拉女王吗？她像蜂后一样$n可怕。在战场上受伤之后，她就用面具$n遮住了脸。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
@@ -261,7 +261,7 @@
     {
       "id": "SHIP/00001202.fpb/seq/8",
       "source_sha256": "1c38a79ef48e752b1e330d1753efae52d01dea0bb7d15c18c082b5d2b0a880fe",
-      "target": "阿蜜拉麾下四天王的剑术也很厉害。$n那些家伙还各自拥有使魔。",
+      "target": "阿米拉麾下四天王的剑术也很厉害。$n那些家伙还各自拥有使魔。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
@@ -333,7 +333,7 @@
     {
       "id": "SHIP/00001907.fpb/seq/9",
       "source_sha256": "a52bbff0a1d3fee133a211d7bd88cb2130f4c1c70b1f5452f3a1d619ea9c6ed9",
-      "target": "卡琳兹，你觉得所有亚逊都该死吗？",
+      "target": "卡林兹，你觉得所有亚逊都该死吗？",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
@@ -653,7 +653,7 @@
     {
       "id": "SHIP/00011739.fpb/seq/1",
       "source_sha256": "713a61c3a065fac8c798d52b76160bb68e2d5af3243452641045adf424f46ad0",
-      "target": "现在是开玩笑的时候吗！？明明有我们在，$n却还是让敌人抓走了卡琳兹！",
+      "target": "现在是开玩笑的时候吗！？明明有我们在，$n却还是让敌人抓走了卡林兹！",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
@@ -677,7 +677,7 @@
     {
       "id": "SHIP/00011739.fpb/seq/6",
       "source_sha256": "92062bbdb8a6a7e0a4dc5cea427f3ab5825bebaa8f2a5f72bfe910f092eebe38",
-      "target": "请求什么？为了救卡琳兹，$n请他们攻打亚逊罗文吗？",
+      "target": "请求什么？为了救卡林兹，$n请他们攻打亚逊罗文吗？",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."

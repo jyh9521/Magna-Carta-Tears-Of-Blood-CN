@@ -37,7 +37,7 @@
     {
       "id": "SHIP/00004044.cht/slot/12",
       "source_sha256": "a6c557e9fa6d5a78befbd08fc2fb3ad1133d2a025b7537f47d5508e7061888f0",
-      "target": "阿蜜拉女王？",
+      "target": "阿米拉女王？",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."

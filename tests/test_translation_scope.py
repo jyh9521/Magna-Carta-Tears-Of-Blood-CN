@@ -28,17 +28,17 @@ class TranslationScopeTests(unittest.TestCase):
     def test_config_display_candidate(self):
         e=fixture(text='New Game');e['semantic']='visible-text-candidate';r=dict(resource='FILE/a.int');self.assertEqual(disposition(r,e)[0],'translate-candidate')
     def test_alias_and_reuse_not_link(self):
-        e=fixture(source_aliases=['old']);r=dict(self.resource,entries=[e,fixture('b')]);b=dict(locale='zh-CN',entries=[dict(id='old',source_sha256='hash',target='卡琳兹',status='draft')])
+        e=fixture(source_aliases=['old']);r=dict(self.resource,entries=[e,fixture('b')]);b=dict(locale='zh-CN',entries=[dict(id='old',source_sha256='hash',target='卡林兹',status='draft')])
         rows,s=freeze(dict(resources=[r]),[b]);self.assertEqual(s['existing_translations'],1);self.assertEqual(s['reuse_suggestions'],1)
         self.assertFalse(rows[1]['reuse_suggestion']['linked_group']);self.assertFalse(rows[1]['import_approved'])
     def test_bad_source_hash(self):
-        r=dict(self.resource,entries=[fixture()]);b=dict(locale='zh-CN',entries=[dict(id='a',source_sha256='wrong',target='卡琳兹',status='draft')])
+        r=dict(self.resource,entries=[fixture()]);b=dict(locale='zh-CN',entries=[dict(id='a',source_sha256='wrong',target='卡林兹',status='draft')])
         with self.assertRaises(ValueError):freeze(dict(resources=[r]),[b])
     def test_ambiguous_alias_rejected(self):
-        r=dict(self.resource,entries=[fixture(source_aliases=['old']),fixture('b',source_aliases=['old'])]);b=dict(locale='zh-CN',entries=[dict(id='old',source_sha256='hash',target='卡琳兹',status='draft')])
+        r=dict(self.resource,entries=[fixture(source_aliases=['old']),fixture('b',source_aliases=['old'])]);b=dict(locale='zh-CN',entries=[dict(id='old',source_sha256='hash',target='卡林兹',status='draft')])
         with self.assertRaises(ValueError):freeze(dict(resources=[r]),[b])
     def test_duplicate_target_rejected(self):
-        r=dict(self.resource,entries=[fixture()]);b=dict(locale='zh-CN',entries=[dict(id='a',source_sha256='hash',target='卡琳兹',status='draft')])
+        r=dict(self.resource,entries=[fixture()]);b=dict(locale='zh-CN',entries=[dict(id='a',source_sha256='hash',target='卡林兹',status='draft')])
         with self.assertRaises(ValueError):freeze(dict(resources=[r]),[b,b])
     def test_unresolved_not_counted_translated(self):
         e=fixture();e['semantic']='unresolved';r=dict(self.resource,entries=[e]);rows,s=freeze(dict(resources=[r]),[])

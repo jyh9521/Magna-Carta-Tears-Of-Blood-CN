@@ -1,18 +1,107 @@
 {
   "schema": 1,
-  "texts": ["没有存档", "请选择要读取的存档", "卡琳兹", "驯服之剑", "风月流", "目前担任联合军特种部队“血泪”的指挥官。"],
+  "texts": [
+    "没有存档",
+    "请选择要读取的存档",
+    "卡林兹",
+    "驯服之剑",
+    "风月流",
+    "目前担任联合军特种部队“血泪”的指挥官。"
+  ],
   "variants": [
-    {"id": "sans-regular-native", "font": "sans-regular", "raster_options": null},
-    {"id": "sans-regular-ss4", "font": "sans-regular", "raster_options": {"supersample": 4}},
-    {"id": "sans-medium-native", "font": "sans-medium", "raster_options": null},
-    {"id": "sans-medium-ss4", "font": "sans-medium", "raster_options": {"supersample": 4}},
-    {"id": "serif-regular-native", "font": "serif-regular", "raster_options": null},
-    {"id": "serif-regular-ss4", "font": "serif-regular", "raster_options": {"supersample": 4}},
-    {"id": "sans-regular-ss4-gamma115", "font": "sans-regular", "raster_options": {"supersample": 4, "gamma": 1.15}},
-    {"id": "sans-regular-ss4-soft", "font": "sans-regular", "raster_options": {"supersample": 4, "thresholds": [32, 112, 192]}},
-    {"id": "sans-regular-ss4-hard", "font": "sans-regular", "raster_options": {"supersample": 4, "thresholds": [56, 144, 224]}},
-    {"id": "sans-regular-ss4-bold025", "font": "sans-regular", "raster_options": {"supersample": 4, "embolden_px": 0.25, "embolden_strength": 0.5}},
-    {"id": "serif-regular-ss4-gamma115", "font": "serif-regular", "raster_options": {"supersample": 4, "gamma": 1.15}},
-    {"id": "serif-regular-ss4-bold025", "font": "serif-regular", "raster_options": {"supersample": 4, "embolden_px": 0.25, "embolden_strength": 0.5}}
+    {
+      "id": "sans-regular-native",
+      "font": "sans-regular",
+      "raster_options": null
+    },
+    {
+      "id": "sans-regular-ss4",
+      "font": "sans-regular",
+      "raster_options": {
+        "supersample": 4
+      }
+    },
+    {
+      "id": "sans-medium-native",
+      "font": "sans-medium",
+      "raster_options": null
+    },
+    {
+      "id": "sans-medium-ss4",
+      "font": "sans-medium",
+      "raster_options": {
+        "supersample": 4
+      }
+    },
+    {
+      "id": "serif-regular-native",
+      "font": "serif-regular",
+      "raster_options": null
+    },
+    {
+      "id": "serif-regular-ss4",
+      "font": "serif-regular",
+      "raster_options": {
+        "supersample": 4
+      }
+    },
+    {
+      "id": "sans-regular-ss4-gamma115",
+      "font": "sans-regular",
+      "raster_options": {
+        "supersample": 4,
+        "gamma": 1.15
+      }
+    },
+    {
+      "id": "sans-regular-ss4-soft",
+      "font": "sans-regular",
+      "raster_options": {
+        "supersample": 4,
+        "thresholds": [
+          32,
+          112,
+          192
+        ]
+      }
+    },
+    {
+      "id": "sans-regular-ss4-hard",
+      "font": "sans-regular",
+      "raster_options": {
+        "supersample": 4,
+        "thresholds": [
+          56,
+          144,
+          224
+        ]
+      }
+    },
+    {
+      "id": "sans-regular-ss4-bold025",
+      "font": "sans-regular",
+      "raster_options": {
+        "supersample": 4,
+        "embolden_px": 0.25,
+        "embolden_strength": 0.5
+      }
+    },
+    {
+      "id": "serif-regular-ss4-gamma115",
+      "font": "serif-regular",
+      "raster_options": {
+        "supersample": 4,
+        "gamma": 1.15
+      }
+    },
+    {
+      "id": "serif-regular-ss4-bold025",
+      "font": "serif-regular",
+      "raster_options": {
+        "supersample": 4,
+        "embolden_px": 0.25,
+        "embolden_strength": 0.5
+      }
+    }
   ]
 }

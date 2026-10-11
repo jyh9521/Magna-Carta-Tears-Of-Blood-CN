@@ -116,7 +116,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('她是我的救命恩人', self.row(2124, 8)['target'])
         self.assertIn('她', self.row(2140, 12)['target'])
         self.assertIn('他', self.row(2148, 2)['target'])
-        self.assertIn('卡琳兹', self.row(2148, 3)['target'])
+        self.assertIn('卡林兹', self.row(2148, 3)['target'])
         self.assertIn('阿泽尔', self.row(2144, 1)['target'])
 
     def test_opposed_revenge_statements_and_death_claim_remain(self):
@@ -383,7 +383,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('可能', self.row(5373, 6)['target'])
         self.assertIn('绝不会让霜龙受到冷落', self.row(5373, 8)['target'])
         self.assertIn('逐步克服阿缪特病', self.row(5390, 6)['target'])
-        self.assertIn('只要别让阿蜜拉得到', self.row(5390, 12)['target'])
+        self.assertIn('只要别让阿米拉得到', self.row(5390, 12)['target'])
         self.assertIn('复苏', self.row(5374, 5)['target'])
 
     def test_memoir_female_arian_and_isha_parenthetical_doubt(self):
@@ -402,7 +402,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('我反对', self.row(5613, 0)['target'])
         self.assertIn('母亲', self.row(5613, 10)['target'])
         self.assertIn('大巫女替身', self.row(5617, 8)['target'])
-        self.assertIn('朱丝蒂娜', self.row(5617, 23)['target'])
+        self.assertIn('朱斯蒂娜', self.row(5617, 23)['target'])
         self.assertIn('绑架大巫女', self.row(5618, 3)['target'])
         self.assertIn('凯莉安', self.row(5618, 4)['target'])
         self.assertIn('阿萨德', self.row(5618, 5)['target'])
@@ -517,8 +517,8 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
 
     def test_rehas_birthday_preparation_and_funeral_not_rewritten(self):
         self.assertIn('蕾哈丝', self.row(5653, 1)['target'])
-        self.assertIn('卡琳兹的生日', self.row(5653, 2)['target'])
-        self.assertIn('卡琳兹先吃', self.row(5653, 16)['target'])
+        self.assertIn('卡林兹的生日', self.row(5653, 2)['target'])
+        self.assertIn('卡林兹先吃', self.row(5653, 16)['target'])
         self.assertIn('说不定', self.row(5653, 17)['target'])
         self.assertIn('死了', self.row(5662, 8)['target'])
         self.assertIn('蕾哈丝的葬礼', self.row(5680, 1)['target'])
@@ -714,7 +714,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('那个女人',self.row(7454,9)['target'])
         self.assertIn('饶她一命',self.row(7454,9)['target'])
         self.assertIn('莉丝死了',self.row(7508,4)['target'])
-        self.assertIn('阿蜜拉',self.row(7508,5)['target'])
+        self.assertIn('阿米拉',self.row(7508,5)['target'])
         self.assertIn('她需要你',self.row(7508,6)['target'])
 
     def test_late_story_whole_clauses_controls_and_aircraft_number(self):
@@ -841,7 +841,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('年过六十',self.row(11217,12)['target'])
         self.assertIn('布兰的哥哥阿伦',self.row(11410,2)['target'])
         self.assertIn('双胞胎',self.row(11410,4)['target'])
-        self.assertIn('巫女朱丝蒂娜',self.row(11410,5)['target'])
+        self.assertIn('巫女朱斯蒂娜',self.row(11410,5)['target'])
 
     def test_neikan_alias_does_not_prove_gender_and_orha_not_assigned_he(self):
         target=self.row(11422,13)['target']
@@ -992,7 +992,7 @@ class LegacyStoryProofreadingTests(unittest.TestCase):
         self.assertIn('使用了大魔法',self.row(13603,5)['target'])
         self.assertIn('莉丝的妹妹',self.row(13600,8)['target'])
         self.assertIn('唯一的妹妹',self.row(13600,8)['target'])
-        self.assertIn('我对卡琳兹',self.row(14259,19)['target'])
+        self.assertIn('我对卡林兹',self.row(14259,19)['target'])
 
     def test_unconscious_trial_and_teacher_predictions_remain_source_claims(self):
         self.assertIn('下意识拔剑',self.row(432,7)['target'])

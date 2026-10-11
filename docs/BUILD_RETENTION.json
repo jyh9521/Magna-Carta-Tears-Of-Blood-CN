@@ -4,8 +4,8 @@
     {
       "path": "test-iso/Magna-Carta-zh-CN-test.iso",
       "size": 4250691584,
-      "sha256": "ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f",
-      "role": "integrated-zh-CN-medium-mixed-pending-visual-acceptance"
+      "sha256": "65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36",
+      "role": "integrated-zh-CN-term-revision-medium-mixed-pending-visual-acceptance"
     }
   ],
   "retired": [

@@ -11,7 +11,7 @@
       "consumer_serial_sha256": "1914bbb4c2d794cdc8dfc828eaf960efb72ee2452a06ddd7373aba0791f6464f",
       "call_offset": 139,
       "composition": "CharName + MainText",
-      "sample_result": "卡琳兹的友好度提高了",
+      "sample_result": "卡林兹的友好度提高了",
       "runtime_verified": false
     },
     {
@@ -24,7 +24,7 @@
       "consumer_serial_sha256": "1914bbb4c2d794cdc8dfc828eaf960efb72ee2452a06ddd7373aba0791f6464f",
       "call_offset": 658,
       "composition": "CharName + MainText",
-      "sample_result": "卡琳兹的友好度降低了",
+      "sample_result": "卡林兹的友好度降低了",
       "runtime_verified": false
     },
     {
@@ -37,7 +37,7 @@
       "consumer_serial_sha256": "1914bbb4c2d794cdc8dfc828eaf960efb72ee2452a06ddd7373aba0791f6464f",
       "call_offset": 485,
       "composition": "CharName + MainText",
-      "sample_result": "卡琳兹的友好度没有变化",
+      "sample_result": "卡林兹的友好度没有变化",
       "runtime_verified": false
     },
     {
@@ -50,7 +50,7 @@
       "consumer_serial_sha256": "b50c37e86ffcf882a18dcf14d7e4be09aea04a6e5f76260bca3505b511c299fe",
       "call_offset": 614,
       "composition": "SetText(MainText) independent UI component",
-      "sample_result": "卡琳兹最高伤害记录 [ ",
+      "sample_result": "卡林兹最高伤害记录 [ ",
       "runtime_verified": false
     },
     {
@@ -63,7 +63,7 @@
       "consumer_serial_sha256": "b50c37e86ffcf882a18dcf14d7e4be09aea04a6e5f76260bca3505b511c299fe",
       "call_offset": 673,
       "composition": "SetText(MainText) independent UI component",
-      "sample_result": "卡琳兹 ] / 记录刷新次数 [ ",
+      "sample_result": "卡林兹 ] / 记录刷新次数 [ ",
       "runtime_verified": false
     },
     {
@@ -76,7 +76,7 @@
       "consumer_serial_sha256": "b50c37e86ffcf882a18dcf14d7e4be09aea04a6e5f76260bca3505b511c299fe",
       "call_offset": 775,
       "composition": "SetText(MainText) independent UI component",
-      "sample_result": "卡琳兹认证编号 [ ",
+      "sample_result": "卡林兹认证编号 [ ",
       "runtime_verified": false
     }
   ],

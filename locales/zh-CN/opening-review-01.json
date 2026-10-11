@@ -635,7 +635,7 @@
     {
       "id": "SHIP/00000460.cha/slot/0",
       "source_sha256": "44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540",
-      "target": "卡琳兹",
+      "target": "卡林兹",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     }

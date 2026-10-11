@@ -418,7 +418,7 @@
           "physical_index": 28
         }
       ],
-      "sample": "卡琳兹获得流派[血泪]！"
+      "sample": "卡林兹获得流派[血泪]！"
     },
     {
       "kind": "stat-change",
@@ -441,7 +441,7 @@
           "physical_index": 31
         }
       ],
-      "sample": "卡琳兹的力量增加了5。",
+      "sample": "卡林兹的力量增加了5。",
       "numeric_sign_preserved": true
     },
     {
@@ -459,7 +459,7 @@
         "CommonTextList[34].MainText",
         "FieldMenuTextList[70].MainText"
       ],
-      "sample": "卡琳兹（收礼者）：[治疗药]赠送这件道具吗？"
+      "sample": "卡林兹（收礼者）：[治疗药]赠送这件道具吗？"
     }
   ],
   "runtime_verified": false

@@ -210,7 +210,7 @@
     {
       "id": "SHIP/00014107.tui/record/30/field/0/index/29",
       "source_sha256": "8f89ac3309e599a4b991f8a7fee8ba656b3a6e74b4b366e764e9a8815d6a4258",
-      "target": "我确实曾住在伊佩莉亚。$n那些想杀死父亲的人$n到底是谁？我不知道……",
+      "target": "我确实曾住在伊菲利亚。$n那些想杀死父亲的人$n到底是谁？我不知道……",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -245,7 +245,7 @@
     {
       "id": "SHIP/00014107.tui/record/35/field/0/index/34",
       "source_sha256": "aa1045ed43007a748416a488dcbec74e10445049ca3077222b48662582bc2235",
-      "target": "……（只有蕾哈丝记得卡琳兹的生日。$n连我都忘了。$n果然是蕾哈丝……原来如此～）",
+      "target": "……（只有蕾哈丝记得卡林兹的生日。$n连我都忘了。$n果然是蕾哈丝……原来如此～）",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -336,14 +336,14 @@
     {
       "id": "SHIP/00014107.tui/record/48/field/0/index/47",
       "source_sha256": "b887d07a5aeee691710d070f81a35b6ca0239c2e6bb34046592f3b0213a09e62",
-      "target": "幸好卡琳兹理解了我。$n记忆恢复得越多，我就越不安。$n找回记忆……不知为何让我害怕……",
+      "target": "幸好卡林兹理解了我。$n记忆恢复得越多，我就越不安。$n找回记忆……不知为何让我害怕……",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
     {
       "id": "SHIP/00014107.tui/record/49/field/0/index/48",
       "source_sha256": "ab6a2e640de28438229b53ad856c1176ae8f239638887f21b78536bf1a978334",
-      "target": "卡琳兹到底在谋划什么？$n会不会也和阿格雷安将军$n有关？",
+      "target": "卡林兹到底在谋划什么？$n会不会也和阿格雷安将军$n有关？",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -469,7 +469,7 @@
     {
       "id": "SHIP/00014107.tui/record/67/field/0/index/66",
       "source_sha256": "19c331dbe520738da1001f28cba8f106114277bf540da063494b5417b2d802bb",
-      "target": "卡琳兹平安吗？$n一定要把他救出来。",
+      "target": "卡林兹平安吗？$n一定要把他救出来。",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -483,7 +483,7 @@
     {
       "id": "SHIP/00014107.tui/record/69/field/0/index/68",
       "source_sha256": "04472de49724a20332e7c22b0dcf769e44e7677bcf1f532a8edef86365fd98d4",
-      "target": "我要救出卡琳兹。$n就像他曾经救我那样……！",
+      "target": "我要救出卡林兹。$n就像他曾经救我那样……！",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -497,7 +497,7 @@
     {
       "id": "SHIP/00014107.tui/record/71/field/0/index/70",
       "source_sha256": "02dcfc2d0ad12846da9f01d5240c628f6aa3d81fed06a964dc320473ff444f26",
-      "target": "……（卡琳兹，希望你平安无事。）",
+      "target": "……（卡林兹，希望你平安无事。）",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -511,7 +511,7 @@
     {
       "id": "SHIP/00014107.tui/record/73/field/0/index/72",
       "source_sha256": "702366dd987ba929f13d111c1b0fea22f75e48221a18e5dd89f3d5edb73d9ca0",
-      "target": "卡琳兹……脸色似乎也不好，$n真让人担心。其实这一次，$n我也很不安。",
+      "target": "卡林兹……脸色似乎也不好，$n真让人担心。其实这一次，$n我也很不安。",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },

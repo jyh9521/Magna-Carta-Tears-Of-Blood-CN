@@ -42,7 +42,7 @@
     {
       "id": "SHIP/00003600.cht/slot/5",
       "source_sha256": "d6f639743359525a32a5bd4b2150250125eaf99bb7ecac4ed933f00a640fda05",
-      "target": "卡琳兹……接下来怎么办？",
+      "target": "卡林兹……接下来怎么办？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -70,7 +70,7 @@
     {
       "id": "SHIP/00003600.cht/slot/9",
       "source_sha256": "a6e3755c5f5f2b06c8632aa7c7c84e2e5552e3e3d9534ae3f857121e28fc988e",
-      "target": "这个嘛……总之得先出去吧。$n我也不清楚，就跟着卡琳兹走好了。",
+      "target": "这个嘛……总之得先出去吧。$n我也不清楚，就跟着卡林兹走好了。",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -168,7 +168,7 @@
     {
       "id": "SHIP/00003609.cht/slot/13",
       "source_sha256": "64032714d6acf362f9f4de96d8e7144b0ac12b680e73f6ae17af3f149de2c048",
-      "target": "卡琳兹，真有你的。不过哈伦，你该不会真爱上她了吧？",
+      "target": "卡林兹，真有你的。不过哈伦，你该不会真爱上她了吧？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -280,7 +280,7 @@
     {
       "id": "SHIP/00003609.cht/slot/29",
       "source_sha256": "757047a1136d14f749119f6e437477d5bfd47e5ad9b5c8c6dbcc12fb70e94d53",
-      "target": "算了。反正我们又不是联合军。$n就像卡琳兹说的，哪有工夫$n在意那些家伙？",
+      "target": "算了。反正我们又不是联合军。$n就像卡林兹说的，哪有工夫$n在意那些家伙？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -413,7 +413,7 @@
     {
       "id": "SHIP/00003609.cht/slot/50",
       "source_sha256": "10f2581fa6c52848404428d0b4ff24b8d9f57ee31c227fafebf6c8efd0562eb3",
-      "target": "卡琳兹说得对。$n学你这个混蛋能有什么好处？",
+      "target": "卡林兹说得对。$n学你这个混蛋能有什么好处？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -749,7 +749,7 @@
     {
       "id": "SHIP/00005175.cht/slot/33",
       "source_sha256": "d8675f5a07b5a2e33bbcc73f3faabffd72408a9944f734a694b73c2e88e91c9d",
-      "target": "原来卡琳兹也和我想的一样。",
+      "target": "原来卡林兹也和我想的一样。",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -945,14 +945,14 @@
     {
       "id": "SHIP/00005175.cht/slot/64",
       "source_sha256": "ea05be4ef047bb873410c12ef33a41cb5b4ebbdd4932441a3609bd55c89176da",
-      "target": "卡琳兹现在也能和玛雅$n沟通了吗？",
+      "target": "卡林兹现在也能和玛雅$n沟通了吗？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
     {
       "id": "SHIP/00005176.cht/slot/0",
       "source_sha256": "ad618a270903031b66c3d8446d9dca090fdac9b02e1be109bcb577557514e3c3",
-      "target": "我没有成为卡琳兹的负担吧？",
+      "target": "我没有成为卡林兹的负担吧？",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -973,7 +973,7 @@
     {
       "id": "SHIP/00005176.cht/slot/4",
       "source_sha256": "66d2a0149daf0f4a96fe20382aae0f0dbf99041a324b935e7e2a92153045b1f9",
-      "target": "没关系，卡琳兹都叫你别在意了。放心把他当佣人使唤就好。",
+      "target": "没关系，卡林兹都叫你别在意了。放心把他当佣人使唤就好。",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -994,14 +994,14 @@
     {
       "id": "SHIP/00005176.cht/slot/9",
       "source_sha256": "128374e69162b1b1e7ef3c60ea477f04158e0576345d1cd7d2ea5a9974d64876",
-      "target": "你能不能清醒一点？$n卡琳兹说的是重要的事。$n莉丝，你也要记住。",
+      "target": "你能不能清醒一点？$n卡林兹说的是重要的事。$n莉丝，你也要记住。",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
     {
       "id": "SHIP/00005176.cht/slot/10",
       "source_sha256": "5591f5b3b5647a7a1abd83e079437b93801dc8068df3e8dd78dfda2061faf4d6",
-      "target": "卡琳兹，这是我在大神殿试着$n做的，算是救我的谢礼。尝尝吧。",
+      "target": "卡林兹，这是我在大神殿试着$n做的，算是救我的谢礼。尝尝吧。",
       "status": "reviewed",
       "context": "CHT camp conversation; source-bound sequential exchange and alternate responses reviewed for voice, named referents and pronouns. Reith/리스 is female, Calintz/칼린츠 male. Name 아세스 follows project canonical Azel decision; status of other old drafts not promoted. Original protected control sequence retained."
     },
@@ -1148,7 +1148,7 @@
     {
       "id": "SHIP/00005176.cht/slot/34",
       "source_sha256": "05a484ba8137253b39fe6d0520b95d8dbde6d52c51abf043b72fb9ae0b5e2d15",
-      "target": "呵呵，我看着卡琳兹也会好奇。还想多了解他一些。",
+      "target": "呵呵，我看着卡林兹也会好奇。还想多了解他一些。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1211,7 +1211,7 @@
     {
       "id": "SHIP/00005176.cht/slot/45",
       "source_sha256": "c3fdf3f73b973b84d0a70d96b940d5a75bbc3fa127e01355c4ea644d01a0b99e",
-      "target": "这可是绝密消息。我弄到朱丝蒂娜的三围了。$n怎么样？感兴趣吧？",
+      "target": "这可是绝密消息。我弄到朱斯蒂娜的三围了。$n怎么样？感兴趣吧？",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1288,7 +1288,7 @@
     {
       "id": "SHIP/00005176.cht/slot/56",
       "source_sha256": "1fb3b84022e9199c08c9cd327b8f901b42ef78c9010b87343be0e5357843b690",
-      "target": "别、别说！不，请您千万别说，卡琳兹大人。",
+      "target": "别、别说！不，请您千万别说，卡林兹大人。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1365,7 +1365,7 @@
     {
       "id": "SHIP/00005176.cht/slot/67",
       "source_sha256": "5c6855683367c836746287015bf3d57d8d9062f3c2e44a6bc1f4704857e3906f",
-      "target": "哎，原来卡琳兹是阿泽尔的师父啊。",
+      "target": "哎，原来卡林兹是阿泽尔的师父啊。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1470,7 +1470,7 @@
     {
       "id": "SHIP/00005176.cht/slot/83",
       "source_sha256": "52d20e00b34d51e1ecaf087518aed47ab37742f2ba4f1b3a3f4e7cf7fa44882a",
-      "target": "看来你猜错了。跟本大爷比，你还差得远呢，卡琳兹。",
+      "target": "看来你猜错了。跟本大爷比，你还差得远呢，卡林兹。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1582,14 +1582,14 @@
     {
       "id": "SHIP/00005177.cht/slot/2",
       "source_sha256": "e377346212f28e99e5ed444a2488f273d16aa14a5c4574245f543af1eba07e45",
-      "target": "也是，有朱丝蒂娜小姐在呢。",
+      "target": "也是，有朱斯蒂娜小姐在呢。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
     {
       "id": "SHIP/00005177.cht/slot/3",
       "source_sha256": "8d2479b5b015bbc157b9f77c439bd22357cf15414c20f35bdcd4373c0b850ffd",
-      "target": "哦，原来你心里也很在意啊，卡琳兹。",
+      "target": "哦，原来你心里也很在意啊，卡林兹。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1645,7 +1645,7 @@
     {
       "id": "SHIP/00005177.cht/slot/11",
       "source_sha256": "14f30d7731f864f1d1a68b332ecc383f87194b75c57876fa98aba07b1dccd375",
-      "target": "你果然不懂女人。卡琳兹，想好好谈一场恋爱，就得听我这恋爱学博士$n克里斯大人的讲座……",
+      "target": "你果然不懂女人。卡林兹，想好好谈一场恋爱，就得听我这恋爱学博士$n克里斯大人的讲座……",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1813,7 +1813,7 @@
     {
       "id": "SHIP/00005177.cht/slot/36",
       "source_sha256": "4bcbe4e2dd5422c56ad390f18b376f735d50f8f8542519e50a26ff7197a00693",
-      "target": "果然还是卡琳兹最好。$n居然这么认真地听我说话。",
+      "target": "果然还是卡林兹最好。$n居然这么认真地听我说话。",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1855,7 +1855,7 @@
     {
       "id": "SHIP/00005178.cht/slot/2",
       "source_sha256": "1065926f9dffe4428b9ea100830c4a514719b510d777c382d6253fe6da31e0df",
-      "target": "什么什么什么？哪、哪里像了？$n根本一点都不像！你只是随口说说吧，卡琳兹？嗯？",
+      "target": "什么什么什么？哪、哪里像了？$n根本一点都不像！你只是随口说说吧，卡林兹？嗯？",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1911,7 +1911,7 @@
     {
       "id": "SHIP/00005178.cht/slot/10",
       "source_sha256": "82c9b820362c686981f0282fcdf04e6a90492f8fe6819e83dfc4bbe5222f4606",
-      "target": "卡琳兹，你对莉丝有什么看法？",
+      "target": "卡林兹，你对莉丝有什么看法？",
       "status": "reviewed",
       "context": "Camp exchange and alternate branch reviewed in sequence; original source identity/hash and control sequence retained. Female Lehas/Reith/Maya, male Calintz/Chris/Haren/Azel; pronouns selected by actual interlocutor/referent, not mechanical name replacement. Unspecified mixed-party reference avoids inferred all-female gender."
     },
@@ -1967,7 +1967,7 @@
     {
       "id": "SHIP/00005178.cht/slot/18",
       "source_sha256": "2629ddc023c7c46f2db6fe91e46ba637e6eba238ec9239355d8642f456392944",
-      "target": "真难得，卡琳兹居然会这么坦率地回答。",
+      "target": "真难得，卡林兹居然会这么坦率地回答。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2100,7 +2100,7 @@
     {
       "id": "SHIP/00005178.cht/slot/37",
       "source_sha256": "20650f991bfd3cec4db8c16d4f10a937739cfe202ded187e437a682569ac17d4",
-      "target": "哎呀，我们玛雅可是很喜欢飞上天空的。卡琳兹，以后有关玛雅的事，$n先来问我。明白了吗？",
+      "target": "哎呀，我们玛雅可是很喜欢飞上天空的。卡林兹，以后有关玛雅的事，$n先来问我。明白了吗？",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2226,7 +2226,7 @@
     {
       "id": "SHIP/00005180.cht/slot/14",
       "source_sha256": "dcf461192847a65b20fe32107d305c72f638e7f92f9ce3c3bb923e7b5e311361",
-      "target": "阿泽尔，你也了解卡琳兹吧。$n卡琳兹是想带着你一起走。$n因为他需要你的剑术。",
+      "target": "阿泽尔，你也了解卡林兹吧。$n卡林兹是想带着你一起走。$n因为他需要你的剑术。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2289,7 +2289,7 @@
     {
       "id": "SHIP/00005180.cht/slot/24",
       "source_sha256": "68a56b5a3eac8ce1296c99a91b50a163c59cc699a1838769a83979510f498e84",
-      "target": "卡琳兹说得没错。$n你这家伙，非得把那张蠢嘴缝上才肯清醒吗？",
+      "target": "卡林兹说得没错。$n你这家伙，非得把那张蠢嘴缝上才肯清醒吗？",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2303,7 +2303,7 @@
     {
       "id": "SHIP/00005180.cht/slot/26",
       "source_sha256": "d667c03bb640fd9b9bd575811b56361894b6a03e9302a3cec96366afa80f5014",
-      "target": "啊，惊人发言！喂，你们都听见了吗？$n卡琳兹居然说……！",
+      "target": "啊，惊人发言！喂，你们都听见了吗？$n卡林兹居然说……！",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2450,7 +2450,7 @@
     {
       "id": "SHIP/00005180.cht/slot/49",
       "source_sha256": "c14556327f95467dc68c3e4931c7d53278cacc80c315fd882b12933bad9cc8a4",
-      "target": "你是说，放弃也是我的自由吧？$n毕竟卡琳兹不是会强迫别人的人。",
+      "target": "你是说，放弃也是我的自由吧？$n毕竟卡林兹不是会强迫别人的人。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2569,7 +2569,7 @@
     {
       "id": "SHIP/00007533.cht/slot/17",
       "source_sha256": "2ae0e1417d0ca46c07d28a18bb306c7076063c3f5d2eca3bea42b65e2be3f428",
-      "target": "卡琳兹，以后会去阿玛巴德看看吧？",
+      "target": "卡林兹，以后会去阿玛巴德看看吧？",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2590,7 +2590,7 @@
     {
       "id": "SHIP/00007533.cht/slot/20",
       "source_sha256": "e8d011016214563457addac2e4ed5256cd7b8051a1555591f9c5b36325bd20ec",
-      "target": "哈哈，体谅他一下。这家伙肯定是害羞了，才会这么说。其实他会第一个跑去呢。我早就看见卡琳兹和莉丝对望时擦出火花了。",
+      "target": "哈哈，体谅他一下。这家伙肯定是害羞了，才会这么说。其实他会第一个跑去呢。我早就看见卡林兹和莉丝对望时擦出火花了。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -2653,7 +2653,7 @@
     {
       "id": "SHIP/00007533.cht/slot/29",
       "source_sha256": "c7b295731a72604695514a7bd6f5a87089dc3249621df584f76720e66f9f5333",
-      "target": "哎呀，别说这种没用的话。你想妨碍卡琳兹的好事吗，嗯？",
+      "target": "哎呀，别说这种没用的话。你想妨碍卡林兹的好事吗，嗯？",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternate response reviewed. Reith/Lehas/Maya female; Calintz/Azel/Chris male. Rescue, rival origin-place replies and ironic/joking roles retained as independent source IDs; no name co-occurrence pronoun rewrite. Native protected tokens unchanged."
     },
@@ -3129,14 +3129,14 @@
     {
       "id": "SHIP/00008127.cht/slot/6",
       "source_sha256": "cd7af322a60a5b692a8aa256cfd068375266f52195222b67373672bee9e5ba84",
-      "target": "有朱丝蒂娜在，应该没事吧。",
+      "target": "有朱斯蒂娜在，应该没事吧。",
       "status": "reviewed",
       "context": "Camp sequence and alternate replies contextually reviewed: war/peace argument, Joshua memoir and Light of Salvation, Ladrinne/Justina family-loss and divine-power motivation. Actual female referents use she in Chinese; male Captain/Chris use he. Rianna describes her husband doing household cooking, not reversed gender. Original IDs/hash/protected tokens retained."
     },
     {
       "id": "SHIP/00008127.cht/slot/7",
       "source_sha256": "7ac0fd07c1a4f25bb4dc7518aa715f8af94ac038b1b8e95f2cf103f47d536f30",
-      "target": "哎呀，这话可真不负责任。$n卡琳兹的爱就只有这么一点吗？",
+      "target": "哎呀，这话可真不负责任。$n卡林兹的爱就只有这么一点吗？",
       "status": "reviewed",
       "context": "Camp sequence and alternate replies contextually reviewed: war/peace argument, Joshua memoir and Light of Salvation, Ladrinne/Justina family-loss and divine-power motivation. Actual female referents use she in Chinese; male Captain/Chris use he. Rianna describes her husband doing household cooking, not reversed gender. Original IDs/hash/protected tokens retained."
     },
@@ -3374,7 +3374,7 @@
     {
       "id": "SHIP/00008127.cht/slot/43",
       "source_sha256": "e0aa3534f0a2b70d5dc82b71fd16300e3acd7a851c16860be4d11e9f32c489e8",
-      "target": "卡琳兹也会觉得难受啊。受到那样的对待，他怎么可能高兴？而且他是领队，遇到这种事肯定比你们更频繁。体谅他一下吧。",
+      "target": "卡林兹也会觉得难受啊。受到那样的对待，他怎么可能高兴？而且他是领队，遇到这种事肯定比你们更频繁。体谅他一下吧。",
       "status": "reviewed",
       "context": "Camp sequence and alternate replies contextually reviewed: war/peace argument, Joshua memoir and Light of Salvation, Ladrinne/Justina family-loss and divine-power motivation. Actual female referents use she in Chinese; male Captain/Chris use he. Rianna describes her husband doing household cooking, not reversed gender. Original IDs/hash/protected tokens retained."
     },
@@ -3493,7 +3493,7 @@
     {
       "id": "SHIP/00008127.cht/slot/60",
       "source_sha256": "f25c242d5f146cb453162e75a963eacface9bb39e98c33119f6f872b11609c11",
-      "target": "朱丝蒂娜有没有恋人呢？她可是个可爱又端庄的姑娘。",
+      "target": "朱斯蒂娜有没有恋人呢？她可是个可爱又端庄的姑娘。",
       "status": "reviewed",
       "context": "Camp sequence and alternate replies contextually reviewed: war/peace argument, Joshua memoir and Light of Salvation, Ladrinne/Justina family-loss and divine-power motivation. Actual female referents use she in Chinese; male Captain/Chris use he. Rianna describes her husband doing household cooking, not reversed gender. Original IDs/hash/protected tokens retained."
     },
@@ -3682,7 +3682,7 @@
     {
       "id": "SHIP/00008145.cht/slot/10",
       "source_sha256": "f58a394c3af7a08b9c7097c42ee52f571819e8c7e384a97a7a2d9a6bf6b3046d",
-      "target": "对、对不起。我没顾及朱丝蒂娜的心情，一时就……",
+      "target": "对、对不起。我没顾及朱斯蒂娜的心情，一时就……",
       "status": "reviewed",
       "context": "Camp sequence and alternate replies contextually reviewed: war/peace argument, Joshua memoir and Light of Salvation, Ladrinne/Justina family-loss and divine-power motivation. Actual female referents use she in Chinese; male Captain/Chris use he. Rianna describes her husband doing household cooking, not reversed gender. Original IDs/hash/protected tokens retained."
     },
@@ -3927,7 +3927,7 @@
     {
       "id": "SHIP/00012031.cht/slot/8",
       "source_sha256": "0b2688416d411db25cb6a97295ba05162650e5f2985f74faab3f4583a324f40e",
-      "target": "今天是你的生日啊。生日快乐，卡琳兹。要是能办场聚会就好了。",
+      "target": "今天是你的生日啊。生日快乐，卡林兹。要是能办场聚会就好了。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -3969,7 +3969,7 @@
     {
       "id": "SHIP/00012031.cht/slot/14",
       "source_sha256": "ed02f8e246b8915199269e138f820b5af24155c9d9fbbd07cf11c75d973e20e7",
-      "target": "什么嘛，感觉都不像卡琳兹了。真让人不好意思。",
+      "target": "什么嘛，感觉都不像卡林兹了。真让人不好意思。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4025,7 +4025,7 @@
     {
       "id": "SHIP/00012031.cht/slot/22",
       "source_sha256": "0e86d843b69751cc5b83fa57f945b0a4cbe3be1919de2465cb32d430faa52d5b",
-      "target": "哎呀，这可不像卡琳兹啊。",
+      "target": "哎呀，这可不像卡林兹啊。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4165,7 +4165,7 @@
     {
       "id": "SHIP/00012034.cht/slot/8",
       "source_sha256": "a09a0dd8270a0cc077e205ebb4728d47ee49e753c736ebc23a6c3a55831cc8e4",
-      "target": "卡琳兹，回去以后，你代表我们向蕾哈丝道个歉吧。哈伦固执得很，绝不会听劝的。",
+      "target": "卡林兹，回去以后，你代表我们向蕾哈丝道个歉吧。哈伦固执得很，绝不会听劝的。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4522,7 +4522,7 @@
     {
       "id": "SHIP/00012035.cht/slot/22",
       "source_sha256": "f087ffd06bbd79ae5ae67178d1017b386567df40e0ff77a5ae695c4907844875",
-      "target": "和卡琳兹？",
+      "target": "和卡林兹？",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4557,7 +4557,7 @@
     {
       "id": "SHIP/00012035.cht/slot/27",
       "source_sha256": "1c434cbe444c3f591c8df06189d336361d1b685259e87adc6aacc2ba6b4a7dfd",
-      "target": "终究还是由莉丝自己决定。朱丝蒂娜，你也别干涉太多。",
+      "target": "终究还是由莉丝自己决定。朱斯蒂娜，你也别干涉太多。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4578,7 +4578,7 @@
     {
       "id": "SHIP/00012035.cht/slot/30",
       "source_sha256": "f2b28831a491628f6f4e09167e87bd815716377c5c645059a3bea44c41f5965e",
-      "target": "喂，别在旁边煽风点火。莉丝，你怎么被朱丝蒂娜几句话就说得垂头丧气了？这么没精神地坐倒在地，可就真的完了。",
+      "target": "喂，别在旁边煽风点火。莉丝，你怎么被朱斯蒂娜几句话就说得垂头丧气了？这么没精神地坐倒在地，可就真的完了。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4627,7 +4627,7 @@
     {
       "id": "SHIP/00012035.cht/slot/38",
       "source_sha256": "58d2f0a085a2a8416fafd209a501abcf97b71841558130bcc64dea103c8bdc5a",
-      "target": "朱丝蒂娜，你为什么问这种莫名其妙的问题？别为难莉丝。她肯定会这么做啊。",
+      "target": "朱斯蒂娜，你为什么问这种莫名其妙的问题？别为难莉丝。她肯定会这么做啊。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -4942,7 +4942,7 @@
     {
       "id": "SHIP/00012036.cht/slot/25",
       "source_sha256": "4fc5cba69f4d4eccaaeb167456fe978895eb079032c24d965ba004de9dea4c2a",
-      "target": "我……真是帮不上什么忙。$n朱丝蒂娜和莉安娜都在$n担心我。当然，还有劳尔。",
+      "target": "我……真是帮不上什么忙。$n朱斯蒂娜和莉安娜都在$n担心我。当然，还有劳尔。",
       "status": "reviewed",
       "context": "Sequential camp exchange and alternative responses reviewed: birthday, Bayer exclusion, Lehas dispute and bereavement, Reith memory and personal agency, Raul trust/rescue. Female referents Lehas/Reith/Rianna use Chinese she; male Raul he. Apple/cause analogy preserved as hypothetical dialogue, no automatic apology/workshop mistranslation. Native protected tokens and independent source identity unchanged."
     },
@@ -5054,7 +5054,7 @@
     {
       "id": "SHIP/00012037.cht/slot/6",
       "source_sha256": "d750ccf6d870c740e74c9a819b4488f8ec73f23df0ea2436f669ed15258acbaa",
-      "target": "卡琳兹，我也明白你的心情，不过别说得那么冷酷。大家都在后悔啊。",
+      "target": "卡林兹，我也明白你的心情，不过别说得那么冷酷。大家都在后悔啊。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5068,7 +5068,7 @@
     {
       "id": "SHIP/00012037.cht/slot/8",
       "source_sha256": "0e750fb2da25a835d7c4258f386c533e8c4a124ae1edecebb08d36b8bdd1634f",
-      "target": "够了。你们越是这样，卡琳兹的处境就越为难。你们还想听什么？想得到安慰，就自己$n安慰自己吧。",
+      "target": "够了。你们越是这样，卡林兹的处境就越为难。你们还想听什么？想得到安慰，就自己$n安慰自己吧。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5635,14 +5635,14 @@
     {
       "id": "SHIP/00012039.cht/slot/0",
       "source_sha256": "f4b5730faa03dae958b37da869304c0bf96214a60a442b41c3082b8a4f49b3ec",
-      "target": "你相信卡琳兹吗？连他在浮游城做了什么都不知道？",
+      "target": "你相信卡林兹吗？连他在浮游城做了什么都不知道？",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/1",
       "source_sha256": "57cc505a50e8db180b0702636e96ab17ec99d0c8c7454128621009d82ddafe3a",
-      "target": "我会相信卡琳兹。",
+      "target": "我会相信卡林兹。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5656,7 +5656,7 @@
     {
       "id": "SHIP/00012039.cht/slot/3",
       "source_sha256": "0f19d1844d60bf486d320be82e5ffdef5d15245eb862840bd303c0fd341f6c6b",
-      "target": "就算是这样……我想卡琳兹一定也有自己的考虑。",
+      "target": "就算是这样……我想卡林兹一定也有自己的考虑。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5705,28 +5705,28 @@
     {
       "id": "SHIP/00012039.cht/slot/10",
       "source_sha256": "0376bf70a4badde3c3068f74c24b2f3de2064a28adbeafe55e5ef09a8f540e9a",
-      "target": "这件事虽然告一段落，可对卡琳兹的怀疑并没有消失。",
+      "target": "这件事虽然告一段落，可对卡林兹的怀疑并没有消失。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/11",
       "source_sha256": "7f733b4ef8808d86e6b280bd793884a1397dab375fc9a708f88b3e1be3b68cc8",
-      "target": "我知道，卡琳兹很可疑……",
+      "target": "我知道，卡林兹很可疑……",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/12",
       "source_sha256": "fb677018c2d337763ffd4a04254cf774dd4db91bd241c51d36c4f7375a903218",
-      "target": "说实话，这话或许很无情，可卡琳兹救过你，不代表他一定是好人。有时人也会为了自己的需要去救别人。",
+      "target": "说实话，这话或许很无情，可卡林兹救过你，不代表他一定是好人。有时人也会为了自己的需要去救别人。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/13",
       "source_sha256": "3a0beb8c4894db78626dca46ca9298dc2806836d3f5876e8655827ae2bf3ab5a",
-      "target": "不必说到那种地步吧。莉丝相信卡琳兹，就像你相信拉德琳娜大人一样。",
+      "target": "不必说到那种地步吧。莉丝相信卡林兹，就像你相信拉德琳娜大人一样。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5747,7 +5747,7 @@
     {
       "id": "SHIP/00012039.cht/slot/16",
       "source_sha256": "4d73b0eb67bcc940017a4389d91810a3f0a07b22487ff7b0bad7b3a047292d23",
-      "target": "不过莉丝相信卡琳兹，$n不是吗？",
+      "target": "不过莉丝相信卡林兹，$n不是吗？",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5761,21 +5761,21 @@
     {
       "id": "SHIP/00012039.cht/slot/18",
       "source_sha256": "54aba7aa69a1795f8f139a650031dc6411cdb2d4c9ac5f9a5e6ac89d75417f0f",
-      "target": "是啊，朱丝蒂娜，你也相信拉德琳娜大人吧。就算她被人误会，你也会信她到底。莉丝也是一样。",
+      "target": "是啊，朱斯蒂娜，你也相信拉德琳娜大人吧。就算她被人误会，你也会信她到底。莉丝也是一样。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/19",
       "source_sha256": "b5f56696f15072ec42406f29e5a9c419fedcaee1f9e94fefc36f1dc819151d11",
-      "target": "信不信卡琳兹，是你的自由。$n我没什么特别想说的。$n因为我对他了解太少，既不足以怀疑他，也不足以信任他。",
+      "target": "信不信卡林兹，是你的自由。$n我没什么特别想说的。$n因为我对他了解太少，既不足以怀疑他，也不足以信任他。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012039.cht/slot/20",
       "source_sha256": "3fcdc32ba5dfe22d61fdfe0aae51fcbcd7a548409a38d67ecf3801efcd3fa5b8",
-      "target": "是，我相信卡琳兹。",
+      "target": "是，我相信卡林兹。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -5796,7 +5796,7 @@
     {
       "id": "SHIP/00012039.cht/slot/23",
       "source_sha256": "bb238896770ddf6b5988bff443870a7fc031a09455355df5ecfaafcebf2fdc67",
-      "target": "我想相信卡琳兹，可是……",
+      "target": "我想相信卡林兹，可是……",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -6020,7 +6020,7 @@
     {
       "id": "SHIP/00012040.cht/slot/30",
       "source_sha256": "9ac609d7dbbd5cb481105c4310368c5936fcedb0eeaea98d42a884c49141a8e1",
-      "target": "劳尔想说什么，我也明白。朱丝蒂娜似乎也觉得那封信有些奇怪。不过为了莉安娜，$n我想暂时先把这些话放一放。",
+      "target": "劳尔想说什么，我也明白。朱斯蒂娜似乎也觉得那封信有些奇怪。不过为了莉安娜，$n我想暂时先把这些话放一放。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -6034,21 +6034,21 @@
     {
       "id": "SHIP/00012041.cht/slot/0",
       "source_sha256": "151e91c347b722e6eb807f254f9709f891047b0e41645f4d715f66070e027d9d",
-      "target": "到了这一步，你还觉得能$n相信卡琳兹吗？",
+      "target": "到了这一步，你还觉得能$n相信卡林兹吗？",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/1",
       "source_sha256": "476cbf4e94ff10d1a9ca37e6b307f3cb321e9555896e7f2309b25005f8497a62",
-      "target": "……我不知道。我相信卡琳兹，可他为什么会这样。",
+      "target": "……我不知道。我相信卡林兹，可他为什么会这样。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/2",
       "source_sha256": "84e8601eb072be5973017fa1403db0f0e84d52839bd20e6069b7ec44e84ed084",
-      "target": "是啊，你会困惑，我理解。卡琳兹这样的行为也让我意外。毕竟曾经是同伴，做得这么绝，$n实在不像他们。",
+      "target": "是啊，你会困惑，我理解。卡林兹这样的行为也让我意外。毕竟曾经是同伴，做得这么绝，$n实在不像他们。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -6062,28 +6062,28 @@
     {
       "id": "SHIP/00012041.cht/slot/4",
       "source_sha256": "e999d8357b1d5e49bb9a79a4f7708bbcb35f2cfa8cc10a31496672cd55f97221",
-      "target": "我很失望。可卡琳兹说不定也有苦衷。",
+      "target": "我很失望。可卡林兹说不定也有苦衷。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/6",
       "source_sha256": "1fb3de47daef932457d9f41a16c5a3e7347a5213dd964cac2dcc3b1c009f833a",
-      "target": "我一时激动，就跑了出来……但也许卡琳兹有不得不那么做的理由。",
+      "target": "我一时激动，就跑了出来……但也许卡林兹有不得不那么做的理由。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/7",
       "source_sha256": "3071aabc26b2dc053b25b73c9a1931616dbe292f87e29a0d4e906a3994934a56",
-      "target": "这想法很像你，可是不是也该冷静一点？当然，卡琳兹这样的行为也让我意外。毕竟曾经是同伴，做得这么绝，实在不像他们。",
+      "target": "这想法很像你，可是不是也该冷静一点？当然，卡林兹这样的行为也让我意外。毕竟曾经是同伴，做得这么绝，实在不像他们。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/8",
       "source_sha256": "404470fc6150295dedd96b2a959dae05c969979620fe3871fd074ff6a9272a03",
-      "target": "莉丝想相信卡琳兹。故意让她起疑心可不好。朱丝蒂娜，你说的话也没有把握吧。",
+      "target": "莉丝想相信卡林兹。故意让她起疑心可不好。朱斯蒂娜，你说的话也没有把握吧。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -6139,21 +6139,21 @@
     {
       "id": "SHIP/00012041.cht/slot/17",
       "source_sha256": "f62a7b12ef3b9af9f7a8f375e7d57c5c47d9db805c198c0e5a856a74b0f864df",
-      "target": "我想见卡琳兹，听他说明。",
+      "target": "我想见卡林兹，听他说明。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/18",
       "source_sha256": "6b62ac71fb2c8f05c936cb94b1f600297d2d935cfbb2e9fb0b3c0252efb2e66c",
-      "target": "卡琳兹？",
+      "target": "卡林兹？",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
     {
       "id": "SHIP/00012041.cht/slot/19",
       "source_sha256": "976d30bed51188e887b2793bedc03c65ed914cb9ac8c2a7e64ffde43ec2e62cd",
-      "target": "那时我情绪激动，没有注意，可卡琳兹并没有说出真正要说的事。我不觉得他会乖乖接受逮捕莉安娜的命令。朱丝蒂娜也许又会说我太相信别人。",
+      "target": "那时我情绪激动，没有注意，可卡林兹并没有说出真正要说的事。我不觉得他会乖乖接受逮捕莉安娜的命令。朱斯蒂娜也许又会说我太相信别人。",
       "status": "reviewed",
       "context": "Sequential camp and alternative response review: Lehas/Phyllis bereavement, Hugh/Agreian pledge, Calintz/Reith trust and Rianna husband letter/trial. Actual female Ladrinne/Lehas/Reith/Rianna and male Calintz/Chris/Haren/Raul referents differentiated. Wrong/open and corrected/closed options retained independently; no source ID merge or literal source spelling correction. Protected control sequence retained."
     },
@@ -6167,7 +6167,7 @@
     {
       "id": "SHIP/00012041.cht/slot/22",
       "source_sha256": "231c1c7c072847a349bf0335ad60cf47ae1f019efe35dd4f70489b3dcd4daa22",
-      "target": "也许卡琳兹无法违抗，所以才不得不接受命令。也可能他原本想让我们逃走。$n还可以借助大巫女大人或阿格雷安将军的力量。",
+      "target": "也许卡林兹无法违抗，所以才不得不接受命令。也可能他原本想让我们逃走。$n还可以借助大巫女大人或阿格雷安将军的力量。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6188,7 +6188,7 @@
     {
       "id": "SHIP/00012041.cht/slot/25",
       "source_sha256": "e84d6901c039f4884f2ec40d6afebef5274d4ba5aab8db78527b8479222641fc",
-      "target": "别这么说。卡琳兹……不是那种人。",
+      "target": "别这么说。卡林兹……不是那种人。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6223,7 +6223,7 @@
     {
       "id": "SHIP/00012041.cht/slot/30",
       "source_sha256": "eb8387853a7d62971a9b0c547a2c4e9c7a86a28d9c32b75bc001ecd13cf07c77",
-      "target": "我们并不知道卡琳兹在想什么。",
+      "target": "我们并不知道卡林兹在想什么。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6251,7 +6251,7 @@
     {
       "id": "SHIP/00012041.cht/slot/34",
       "source_sha256": "134bc39cd23e871fbeb945034ffccffd4adaa2e4a0fd1800531b5dd8a02b7a55",
-      "target": "哎呀，朱丝蒂娜，你这是怎么了？居然替卡琳兹说话。",
+      "target": "哎呀，朱斯蒂娜，你这是怎么了？居然替卡林兹说话。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6286,7 +6286,7 @@
     {
       "id": "SHIP/00012041.cht/slot/40",
       "source_sha256": "3d033175afe4eb24d0ccb917310cf54920b223498f8549d85926675706d76d1c",
-      "target": "这想法有些过激吧。我虽然不了解卡琳兹，可也觉得他不是那么不讲义气的人。",
+      "target": "这想法有些过激吧。我虽然不了解卡林兹，可也觉得他不是那么不讲义气的人。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6377,7 +6377,7 @@
     {
       "id": "SHIP/00012041.cht/slot/54",
       "source_sha256": "89edf4fb5bed2c177fef2c34d9ac125f35e657a1a4b11ab685f52a016f8eaae2",
-      "target": "卡琳兹为什么要那么做呢？",
+      "target": "卡林兹为什么要那么做呢？",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6391,7 +6391,7 @@
     {
       "id": "SHIP/00012041.cht/slot/56",
       "source_sha256": "80f20efe77210c39d2feef76b6d5f784607c55f686f7f07f235e775c044d6290",
-      "target": "我想相信卡琳兹。",
+      "target": "我想相信卡林兹。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6461,7 +6461,7 @@
     {
       "id": "SHIP/00012041.cht/slot/67",
       "source_sha256": "55ba58ce228117159284439074f488e2f113fc5a19550f961b29c62c3547bd20",
-      "target": "原来如此。我也略有耳闻，是朱丝蒂娜告诉我的。",
+      "target": "原来如此。我也略有耳闻，是朱斯蒂娜告诉我的。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -6594,7 +6594,7 @@
     {
       "id": "SHIP/00012042.cht/slot/12",
       "source_sha256": "190bd33cdc2a9925903d4adf69f094419252457d61bdb29dc0f2825ddcdf03f0",
-      "target": "想想看，劳尔、朱丝蒂娜他们本来都和这件事无关，只因为我说要去……",
+      "target": "想想看，劳尔、朱斯蒂娜他们本来都和这件事无关，只因为我说要去……",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -7224,7 +7224,7 @@
     {
       "id": "SHIP/00012044.cht/slot/14",
       "source_sha256": "8cc5187e731ffc29b02e8bc54f83f729e436917cfeeaf7b2fa787e87e6bfce9b",
-      "target": "可是……卡琳兹怎么可能……",
+      "target": "可是……卡林兹怎么可能……",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -7245,7 +7245,7 @@
     {
       "id": "SHIP/00012044.cht/slot/17",
       "source_sha256": "f8533c57cabc25d936e360056f32eb95478c8b3aad3468475cba42166362c3d8",
-      "target": "你……怀疑卡琳兹？",
+      "target": "你……怀疑卡林兹？",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -7266,14 +7266,14 @@
     {
       "id": "SHIP/00012044.cht/slot/20",
       "source_sha256": "07879a8acca0587094e890428aa2e1dad40c8efeecf345239d1499bdf6fffd22",
-      "target": "别垂头丧气。我也相信卡琳兹。凭我的直觉，总觉得不是他。",
+      "target": "别垂头丧气。我也相信卡林兹。凭我的直觉，总觉得不是他。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
     {
       "id": "SHIP/00012044.cht/slot/21",
       "source_sha256": "215b592f20b9f64f672de9a6fb3404b82ce4eb2235484c0d924320788f61be38",
-      "target": "嗯……我想相信卡琳兹。",
+      "target": "嗯……我想相信卡林兹。",
       "status": "reviewed",
       "context": "Camp sequential exchange/alternate response reviewed: Astal/Rianna love and separation, Raul counsel, Reith childhood memory/subordinate slip and war/identity, Calintz suspicion and negotiation. Actual male/female referents preserved; apparent contradictory wrong-memory choices retained with corrections. Native controls/source IDs/hash unchanged."
     },
@@ -7385,7 +7385,7 @@
     {
       "id": "SHIP/00012045.cht/slot/15",
       "source_sha256": "3907cb449fcfde8eb08596d6158517debb5e6012bab09f07079a5bc36e9d6675",
-      "target": "卡琳兹，你有仇恨也好，可眼前的情况更重要。别被感情冲昏头。",
+      "target": "卡林兹，你有仇恨也好，可眼前的情况更重要。别被感情冲昏头。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7553,7 +7553,7 @@
     {
       "id": "SHIP/00012046.cht/slot/13",
       "source_sha256": "4ee45d48374a3e8c8a7975f9b0c0f3506b7bb46f203225c0d0e833f0722362a4",
-      "target": "好了，玛雅，体谅他一下。卡琳兹是为你着想才这么说的。万一我们陷入危险，我也会想办法让你和阿泽尔逃出去。",
+      "target": "好了，玛雅，体谅他一下。卡林兹是为你着想才这么说的。万一我们陷入危险，我也会想办法让你和阿泽尔逃出去。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7567,7 +7567,7 @@
     {
       "id": "SHIP/00012046.cht/slot/15",
       "source_sha256": "bbce9e8e617c24561298b93befa2cec96223a6ac5b3369b1f96768bf0f3c8aac",
-      "target": "体谅他一下。卡琳兹很珍惜你，不想让你陷入危险。",
+      "target": "体谅他一下。卡林兹很珍惜你，不想让你陷入危险。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7637,7 +7637,7 @@
     {
       "id": "SHIP/00012047.cht/slot/1",
       "source_sha256": "c02c61f7a55026666f9d51da7960da32a1199b4ca434f42d2f2b76f7269fe834",
-      "target": "这就是卡琳兹。",
+      "target": "这就是卡林兹。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7651,14 +7651,14 @@
     {
       "id": "SHIP/00012047.cht/slot/3",
       "source_sha256": "5ce862bcfc8f128455309a544d08e998a2e402dcb16578cbf04a2ed69c91a46e",
-      "target": "也正因如此，才有这些同伴留在卡琳兹身边吧。",
+      "target": "也正因如此，才有这些同伴留在卡林兹身边吧。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
     {
       "id": "SHIP/00012047.cht/slot/4",
       "source_sha256": "81fa06beab34c3d1c3bd71ce8ae41c7ba9d4d8231375ef59d61c6616eb5f381d",
-      "target": "为什么这么说？你就那么不理解卡琳兹？",
+      "target": "为什么这么说？你就那么不理解卡林兹？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7686,7 +7686,7 @@
     {
       "id": "SHIP/00012047.cht/slot/8",
       "source_sha256": "0384e0a451e2cbaaeb0247687350dd8537165edc719b4fa97640d55149ffc2ce",
-      "target": "别担心，卡琳兹不会有事的。$n小姐，你喜欢卡琳兹，对吧？",
+      "target": "别担心，卡林兹不会有事的。$n小姐，你喜欢卡林兹，对吧？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7714,7 +7714,7 @@
     {
       "id": "SHIP/00012047.cht/slot/12",
       "source_sha256": "c16e9b061a02d03d91c2be9b2f408932da54acaea4aa988487ed8a14e9d742e8",
-      "target": "卡琳兹到现在还是孤独的。即使有我们这些同伴，他的心也仍然留在已经毁灭的风月林。",
+      "target": "卡林兹到现在还是孤独的。即使有我们这些同伴，他的心也仍然留在已经毁灭的风月林。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7735,7 +7735,7 @@
     {
       "id": "SHIP/00012047.cht/slot/15",
       "source_sha256": "4258bf66e618c902c4b5616907dc87871dd18ab2f44100470d9112fbb141062d",
-      "target": "我想留在卡琳兹身边。",
+      "target": "我想留在卡林兹身边。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7749,7 +7749,7 @@
     {
       "id": "SHIP/00012047.cht/slot/17",
       "source_sha256": "9ca307003cba16721ba849d3c4629e6d8b1d985a7a9a24f8103cfa05d091cb69",
-      "target": "卡琳兹真的……变强了许多。已经不是以前那个爱哭的胆小鬼了。",
+      "target": "卡林兹真的……变强了许多。已经不是以前那个爱哭的胆小鬼了。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7791,7 +7791,7 @@
     {
       "id": "SHIP/00012047.cht/slot/24",
       "source_sha256": "4a63fba8de3aeca652108c9c4990e8b3de4ad67ee0bd0a0c95cd690465c67a06",
-      "target": "就算恢复记忆，你也会继续$n留在卡琳兹身边吗？",
+      "target": "就算恢复记忆，你也会继续$n留在卡林兹身边吗？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7819,7 +7819,7 @@
     {
       "id": "SHIP/00012047.cht/slot/28",
       "source_sha256": "5e912bfe9de71450d33b4d091aaca0ec25ce003468b6aa555729115770952227",
-      "target": "因为……对卡琳兹来说，莉丝越来越重要了。",
+      "target": "因为……对卡林兹来说，莉丝越来越重要了。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7882,14 +7882,14 @@
     {
       "id": "SHIP/00012047.cht/slot/38",
       "source_sha256": "4ff977b2fd8ec957cbf982b43beba980996c00b9e0bffb75c87eaab46d3ca8f6",
-      "target": "原来如此。不过没关系。只要你心里惦记着卡琳兹……也让他明白这一点。",
+      "target": "原来如此。不过没关系。只要你心里惦记着卡林兹……也让他明白这一点。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
     {
       "id": "SHIP/00012047.cht/slot/39",
       "source_sha256": "e7da9c78b4b79e41a76019783d589de09a432a1a1f90f66b7868091566ba95fe",
-      "target": "嗯……现在先想办法救出卡琳兹吧。",
+      "target": "嗯……现在先想办法救出卡林兹吧。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7910,7 +7910,7 @@
     {
       "id": "SHIP/00012047.cht/slot/42",
       "source_sha256": "077679deaddffa6ec3bb1813842113ff536c711b456b565d7ebea283552db015",
-      "target": "如果是为了救卡琳兹……",
+      "target": "如果是为了救卡林兹……",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7945,7 +7945,7 @@
     {
       "id": "SHIP/00012047.cht/slot/47",
       "source_sha256": "fbda45503de8decbb6b95f57fec82843fc3fcc79c688a431fa33b672142245b0",
-      "target": "可你现在还说要去救卡琳兹？真是没出息。$n你以为是在开玩笑吗？",
+      "target": "可你现在还说要去救卡林兹？真是没出息。$n你以为是在开玩笑吗？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -7966,7 +7966,7 @@
     {
       "id": "SHIP/00012047.cht/slot/51",
       "source_sha256": "0c39d638371ce6f04f42c71868ee90fd2a0cafaceafc3d509f5655358f24ff35",
-      "target": "你在担心卡琳兹吧？",
+      "target": "你在担心卡林兹吧？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8008,7 +8008,7 @@
     {
       "id": "SHIP/00012047.cht/slot/59",
       "source_sha256": "d58a57fced2242ac02bfc4a8a1cdf2a0f6851725627b51aa826bf05413139d1a",
-      "target": "好了，莉丝，得从表情读出来。玛雅是在担心你，怕你因为卡琳兹$n难受。",
+      "target": "好了，莉丝，得从表情读出来。玛雅是在担心你，怕你因为卡林兹$n难受。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8029,7 +8029,7 @@
     {
       "id": "SHIP/00012047.cht/slot/62",
       "source_sha256": "52d73d55b4c603165b9b3360d2de990558c1409f58498a4899fb1ad1e075528b",
-      "target": "咦？猜错了？怎么回事？嗯，那是在担心卡琳兹？还是……",
+      "target": "咦？猜错了？怎么回事？嗯，那是在担心卡林兹？还是……",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8078,14 +8078,14 @@
     {
       "id": "SHIP/00012047.cht/slot/69",
       "source_sha256": "772544005294b13786fb2fd8ce788b7fe109d3156aa49a899fe11d46ff614b5d",
-      "target": "只从感情出发，我也理解。我也知道，莉丝最想见到卡琳兹。",
+      "target": "只从感情出发，我也理解。我也知道，莉丝最想见到卡林兹。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
     {
       "id": "SHIP/00012047.cht/slot/70",
       "source_sha256": "25c74fcce99d210327a7c86535f8b0b1e0ff2f088e50c5cd3fef8f91c486cb77",
-      "target": "别担心，朱丝蒂娜。我已经决定和亚逊战斗了。而且论神力，我还比你强一些，不是吗？",
+      "target": "别担心，朱斯蒂娜。我已经决定和亚逊战斗了。而且论神力，我还比你强一些，不是吗？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8190,14 +8190,14 @@
     {
       "id": "SHIP/00012047.cht/slot/86",
       "source_sha256": "3009450738ee40a24e67e8aa891db6bbb4aef7a9917aced71730ec9b9a5c0632",
-      "target": "不过就算发生那种事，我也会救卡琳兹。",
+      "target": "不过就算发生那种事，我也会救卡林兹。",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
     {
       "id": "SHIP/00012047.cht/slot/87",
       "source_sha256": "29a6004dce1fc125e815a0dac782fd101de625c7ed0a04b69992dc8ac5ce1d6f",
-      "target": "真冷酷。你是说，卡琳兹比其他人更重要？",
+      "target": "真冷酷。你是说，卡林兹比其他人更重要？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8211,7 +8211,7 @@
     {
       "id": "SHIP/00012047.cht/slot/89",
       "source_sha256": "eedbfd0aef79587632cee5389eafc5bc51991497d927b18fe2665d0ecd161c93",
-      "target": "代替？别开玩笑了。你消失以后，卡琳兹会怎么样？说自己愿意为了别人牺牲，不也是自我满足吗？根本不懂留下的人是什么心情，只顾着一个人装好人，不是吗！？",
+      "target": "代替？别开玩笑了。你消失以后，卡林兹会怎么样？说自己愿意为了别人牺牲，不也是自我满足吗？根本不懂留下的人是什么心情，只顾着一个人装好人，不是吗！？",
       "status": "reviewed",
       "context": "Sequential camp exchange/alternate replies reviewed: Neikan raid, Maya/Azel escape, Reith-Calintz rescue and Eonis romantic encouragement. Eonis is female; the man recalling his old lover in Eonis reply is her romantic referent, not speaker gender. Female Reith captured while rescuing Calintz; actual antecedents retained. Independent IDs/hash and native token sequence retained."
     },
@@ -8799,7 +8799,7 @@
     {
       "id": "SHIP/00012050.cht/slot/22",
       "source_sha256": "e78b974d94337148c0a57130baade0f4fa2074aed416b8c0c87b08dbbd846e4b",
-      "target": "阿泽尔，最难过的人是卡琳兹。他心里的伤还没有愈合。",
+      "target": "阿泽尔，最难过的人是卡林兹。他心里的伤还没有愈合。",
       "status": "reviewed",
       "context": "Camp sequence/tutorial context reviewed: Reith capture and death, Calintz/Mano source names, Eonis older sister, Trinity circle/buttons, leadership/carisma/friendship, eight environmental Kan, Shura/Rakshasa/Yaksha and shields, record bonus examples. Source numeric/button labels and protected controls retained; tutorial text is literal source explanation, not verified runtime mechanics. Reith female, Calintz male; no source identity merge."
     },
@@ -9002,7 +9002,7 @@
     {
       "id": "SHIP/00012050.cht/slot/53",
       "source_sha256": "d575b9cd5232983094cb1777575fd6c17cd32cdcfe2ed65dc4b14c8741d231ca",
-      "target": "没用的。我也和卡琳兹你是一样的心情。",
+      "target": "没用的。我也和卡林兹你是一样的心情。",
       "status": "reviewed",
       "context": "Camp sequence/tutorial context reviewed: Reith capture and death, Calintz/Mano source names, Eonis older sister, Trinity circle/buttons, leadership/carisma/friendship, eight environmental Kan, Shura/Rakshasa/Yaksha and shields, record bonus examples. Source numeric/button labels and protected controls retained; tutorial text is literal source explanation, not verified runtime mechanics. Reith female, Calintz male; no source identity merge."
     },
@@ -9023,7 +9023,7 @@
     {
       "id": "SHIP/00012050.cht/slot/56",
       "source_sha256": "f34ae9dbd1cf63d3dcab7cf5d04637d8c98350cde6f3e03008585b7a9d8ab7c2",
-      "target": "是啊……原来如此。姐姐和我以前住在风月林。我第一次见到你时会吃惊，是因为我认出了你。$n就算你改名叫卡琳兹，我也知道你就是玛诺。",
+      "target": "是啊……原来如此。姐姐和我以前住在风月林。我第一次见到你时会吃惊，是因为我认出了你。$n就算你改名叫卡林兹，我也知道你就是玛诺。",
       "status": "reviewed",
       "context": "Camp sequence/tutorial context reviewed: Reith capture and death, Calintz/Mano source names, Eonis older sister, Trinity circle/buttons, leadership/carisma/friendship, eight environmental Kan, Shura/Rakshasa/Yaksha and shields, record bonus examples. Source numeric/button labels and protected controls retained; tutorial text is literal source explanation, not verified runtime mechanics. Reith female, Calintz male; no source identity merge."
     },
@@ -9548,7 +9548,7 @@
     {
       "id": "SHIP/00016762.cht/slot/3",
       "source_sha256": "1633b679fa27238aace463d4ff36e3a814761b8905e1a55c4f27293cf3cd2863",
-      "target": "被霜龙的气势压住，慌了手脚，结果大魔法发动迟了，还给了阿蜜拉阻挡的机会。",
+      "target": "被霜龙的气势压住，慌了手脚，结果大魔法发动迟了，还给了阿米拉阻挡的机会。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9583,7 +9583,7 @@
     {
       "id": "SHIP/00016762.cht/slot/10",
       "source_sha256": "29d354fc28702a9d1c16a65e7f428da007c638f021e37e4ec31e18ff7e9c28b2",
-      "target": "阿蜜拉果然可怕。她的能力比传闻还强。",
+      "target": "阿米拉果然可怕。她的能力比传闻还强。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9625,7 +9625,7 @@
     {
       "id": "SHIP/00016762.cht/slot/16",
       "source_sha256": "31090a3bdb2c453e1898d3cdfc7a979a256cb023e031306e3050ee2779406f4d",
-      "target": "要是没有阿蜜拉，他们怎么可能挡得住。只要没有那个女王……！",
+      "target": "要是没有阿米拉，他们怎么可能挡得住。只要没有那个女王……！",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9716,7 +9716,7 @@
     {
       "id": "SHIP/00016763.cht/slot/7",
       "source_sha256": "544d7af0cc3627fb8c3b7c21cd1ac2fd5092f71003fcd85f60adc1fa06d067bf",
-      "target": "嗯……卡琳兹。",
+      "target": "嗯……卡林兹。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9793,7 +9793,7 @@
     {
       "id": "SHIP/00016764.cht/slot/0",
       "source_sha256": "4df7214a4dcfc322db398edc0849d17c353d21bac76978e48e3e845cb0a37635",
-      "target": "哎呀，真是个美人。卡琳兹，你可真不简单。",
+      "target": "哎呀，真是个美人。卡林兹，你可真不简单。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9849,7 +9849,7 @@
     {
       "id": "SHIP/00016764.cht/slot/8",
       "source_sha256": "9f18b138b7d75faac6b0a915a215b7ce0e214eea6edfe218fa0776fca2d6be00",
-      "target": "嗯？卡琳兹有喜欢的人？我想见见！",
+      "target": "嗯？卡林兹有喜欢的人？我想见见！",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -9989,7 +9989,7 @@
     {
       "id": "SHIP/00016765.cht/slot/9",
       "source_sha256": "35993c0a558e0228cfbb241185dea574cab5d0b503985fbd22f048117b1a5842",
-      "target": "够了，卡琳兹。$n你也知道哈伦为什么这样说。",
+      "target": "够了，卡林兹。$n你也知道哈伦为什么这样说。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10094,7 +10094,7 @@
     {
       "id": "SHIP/00016767.cht/slot/12",
       "source_sha256": "eade8374a2a2391ee3fa0271ea8a2cc992d4605fed6cae99dd1429ffc3288bd7",
-      "target": "一定和阿蜜拉挡住大魔法阵有关。",
+      "target": "一定和阿米拉挡住大魔法阵有关。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10143,7 +10143,7 @@
     {
       "id": "SHIP/00016767.cht/slot/20",
       "source_sha256": "4f9fbe4c3aaf314975d7ad373bd8831f37875c73ac24e44e0ce2e4912b8e9e55",
-      "target": "真复杂啊！那阿蜜拉发动了真名法典的传闻，看来是真的？",
+      "target": "真复杂啊！那阿米拉发动了真名法典的传闻，看来是真的？",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10206,7 +10206,7 @@
     {
       "id": "SHIP/00016767.cht/slot/30",
       "source_sha256": "b8c0911ed45c89e294c155f47ab8a3aaa891fc37a366c97ae6d84f9673ee0f2a",
-      "target": "哎呀，卡琳兹也有可爱的一面呢。",
+      "target": "哎呀，卡林兹也有可爱的一面呢。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10234,7 +10234,7 @@
     {
       "id": "SHIP/00016767.cht/slot/34",
       "source_sha256": "514028ee1c2529289b891d27f3695ec87b8ec8266bea47736c21f63517e3d6ea",
-      "target": "哎呀……对这么可爱的姑娘，也太冷淡了$n吧，卡琳兹？",
+      "target": "哎呀……对这么可爱的姑娘，也太冷淡了$n吧，卡林兹？",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10311,7 +10311,7 @@
     {
       "id": "SHIP/00016767.cht/slot/45",
       "source_sha256": "98e248e2b43382e3fcb421f35088dfedbfc5d0529ae8123d34fc20a8ec5b5b2e",
-      "target": "啊……卡琳兹果然冷酷。$n居然伤害克里斯这颗纤细的心！",
+      "target": "啊……卡林兹果然冷酷。$n居然伤害克里斯这颗纤细的心！",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10325,7 +10325,7 @@
     {
       "id": "SHIP/00016767.cht/slot/47",
       "source_sha256": "c5e606b7707a31e671e0f4e34022cf3458a1e789021169b69119a019cd97b00b",
-      "target": "啊……哈伦比卡琳兹更冷酷。",
+      "target": "啊……哈伦比卡林兹更冷酷。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     },
@@ -10528,7 +10528,7 @@
     {
       "id": "SHIP/00016863.cht/slot/10",
       "source_sha256": "067c4270631509c0f2324a6e46e8566751a9eb7117307d06b8bb9bf5769ecfad",
-      "target": "朱丝蒂娜小姐说过，有这个可能。不过普通程度的神力做不到。",
+      "target": "朱斯蒂娜小姐说过，有这个可能。不过普通程度的神力做不到。",
       "status": "reviewed",
       "context": "Camp sequential exchange and alternate response reviewed: grand-magic failure/Amila queen, Reith first journey, Calintz/Azel surrogate father-son joke, Haren/Phyllis revenge and rescue/poison mission. Actual female Reith/Amila/Phyllis and male Captain/Azel/Chris referents differentiated. Original opaque controls, source ID/hash and independent branches retained."
     }

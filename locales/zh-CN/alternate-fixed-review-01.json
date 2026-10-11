@@ -13,7 +13,7 @@
     {
       "id": "SHIP/00004044.cht/slot/1",
       "source_sha256": "1e94333e518be668eb8a59a0c563e3043844c7652640f90b14ea2a2207deceef",
-      "target": "你知道伊佩莉亚大陆南方，有个叫“亚逊罗文”的$n国家吧？$n那里就是亚逊的国家。$n亚逊的外表与我们人类很相似，$n但耳朵的形状很独特。",
+      "target": "你知道伊菲利亚大陆南方，有个叫“亚逊罗文”的$n国家吧？$n那里就是亚逊的国家。$n亚逊的外表与我们人类很相似，$n但耳朵的形状很独特。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -29,7 +29,7 @@
     {
       "id": "SHIP/00004044.cht/slot/3",
       "source_sha256": "5c3d0be6944309cdf3277a5dc8fd309c9d73225b4ad1d4b27a4d6ba7355008ad",
-      "target": "五十年前，我们人类曾被亚逊逼得节节败退，$n但多亏“八英雄”，我们才得以$n获胜。$n然而几年前，亚逊罗文又以阿蜜拉女王为中心$n团结起来，不断扩张势力……$n而且，“霜龙”也开始肆虐……",
+      "target": "五十年前，我们人类曾被亚逊逼得节节败退，$n但多亏“八英雄”，我们才得以$n获胜。$n然而几年前，亚逊罗文又以阿米拉女王为中心$n团结起来，不断扩张势力……$n而且，“霜龙”也开始肆虐……",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -93,7 +93,7 @@
     {
       "id": "SHIP/00004044.cht/slot/11",
       "source_sha256": "cdf579b48c397d44c015869312989127684c866f5f2f7c95e8493f8bc8305247",
-      "target": "如今的亚逊有难以对付的阿蜜拉女王……$n今后会怎样，谁也无法预料。",
+      "target": "如今的亚逊有难以对付的阿米拉女王……$n今后会怎样，谁也无法预料。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -101,7 +101,7 @@
     {
       "id": "SHIP/00004044.cht/slot/13",
       "source_sha256": "42699929e153f26e3969c248c7709510e993e378d478b285aed1eb1d16239600",
-      "target": "她是亚逊罗文的女王。$n戴着面具的钢铁女人……$n在伊佩莉亚，她简直就是恐怖的化身。$n听说她拥有超越亚逊的力量。$n这种力量与“霜龙”的力量，$n似乎又有所不同。",
+      "target": "她是亚逊罗文的女王。$n戴着面具的钢铁女人……$n在伊菲利亚，她简直就是恐怖的化身。$n听说她拥有超越亚逊的力量。$n这种力量与“霜龙”的力量，$n似乎又有所不同。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -109,7 +109,7 @@
     {
       "id": "SHIP/00004044.cht/slot/14",
       "source_sha256": "c562e85dc53435d83a8391c01277798b146311cd690aa4cc8891e7edefe44c8d",
-      "target": "听说阿蜜拉女王是从亚逊部族中选出来的。$n她甚至带着最强的使魔“凤凰”。$n对于受阿缪特病折磨的亚逊来说，阿蜜拉$n既是希望，$n也可以说，$n是亚逊罗文的象征。",
+      "target": "听说阿米拉女王是从亚逊部族中选出来的。$n她甚至带着最强的使魔“凤凰”。$n对于受阿缪特病折磨的亚逊来说，阿米拉$n既是希望，$n也可以说，$n是亚逊罗文的象征。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -125,7 +125,7 @@
     {
       "id": "SHIP/00004044.cht/slot/17",
       "source_sha256": "e0beb846778b7263b82d30acca47a873aace4274d68eb51bcb2bd38678801a58",
-      "target": "他们是护卫阿蜜拉女王的四位将军，$n各自指挥着“霜龙”部队。$n过去因为要护卫女王，他们很少$n公开露面，$n但最近开始在战场上冲锋陷阵。$n“阿蜜拉之影”这个绰号，$n如今也渐渐被人淡忘了。",
+      "target": "他们是护卫阿米拉女王的四位将军，$n各自指挥着“霜龙”部队。$n过去因为要护卫女王，他们很少$n公开露面，$n但最近开始在战场上冲锋陷阵。$n“阿米拉之影”这个绰号，$n如今也渐渐被人淡忘了。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -133,7 +133,7 @@
     {
       "id": "SHIP/00004044.cht/slot/18",
       "source_sha256": "fc0846f66dd3bc7b2baa5a498f152e644f307f2a22fdef0cdfa149b66b5bd83a",
-      "target": "“四天王”的首领，是一个叫“奥尔哈”的男人，$n据说深受阿蜜拉信任。$n这次“魔法阵”作战中，我们也许会$n遇见他。$n他拥有非凡的实力，$n还带着强大的“使魔”。",
+      "target": "“四天王”的首领，是一个叫“奥尔哈”的男人，$n据说深受阿米拉信任。$n这次“魔法阵”作战中，我们也许会$n遇见他。$n他拥有非凡的实力，$n还带着强大的“使魔”。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."
@@ -173,7 +173,7 @@
     {
       "id": "SHIP/00004059.cht/slot/4",
       "source_sha256": "9c48777aaa71145f4e223f0dc055e9ff2b316bf481a65b948e419f65aab11ab2",
-      "target": "你知道他们是五十年前拯救了世界的英雄们，$n对吧？$n“八英雄”封印了“光之树”，$n让伊佩莉亚恢复了和平。",
+      "target": "你知道他们是五十年前拯救了世界的英雄们，$n对吧？$n“八英雄”封印了“光之树”，$n让伊菲利亚恢复了和平。",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "Source-hashed alternate reading and native512-byte fixed text read to FString, numeric metadata preserved. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/UI layout not claimed."

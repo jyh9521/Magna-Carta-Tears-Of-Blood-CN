@@ -1279,7 +1279,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/150/field/0",
       "source_sha256": "d6753fe8619a78d904e7789dfffc46f68584b82965bc617471a919868a5b939f",
-      "target": "最终版卡琳兹",
+      "target": "最终版卡林兹",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "SGI source-bound linguistic review unchanged. Stage155 source loader/key getter and native record fields verified. Name feeds list Caption/acquisition display; caption filter producer is same MrtsFieldListBox.AddList a_Name, numeric a_ID separate; complete source/translated name equality partition checked. Source hashes/targets/status/record keys and opaque bytes retained. Candidate copy authorized; runtime initialization/visual QA remain unverified."
@@ -2055,7 +2055,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/207/field/0",
       "source_sha256": "eaf991042826161b113bb0ddc5375fad603ec4b1f309db813b3f6dfcd6fbe6bb",
-      "target": "阿蜜拉流",
+      "target": "阿米拉流",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "SGI source-bound linguistic review unchanged. Stage155 source loader/key getter and native record fields verified. Name feeds list Caption/acquisition display; caption filter producer is same MrtsFieldListBox.AddList a_Name, numeric a_ID separate; complete source/translated name equality partition checked. Source hashes/targets/status/record keys and opaque bytes retained. Candidate copy authorized; runtime initialization/visual QA remain unverified."
@@ -2159,7 +2159,7 @@
     {
       "id": "SHIP/00000468.sgi/record-index/230/field/0",
       "source_sha256": "0bf69969973c9f9e3ec028311bb06e4d0f9513bfd4893eaea8327f422c6cd7e7",
-      "target": "教程_阿蜜拉",
+      "target": "教程_阿米拉",
       "status": "reviewed",
       "reinsertion_policy": "translate",
       "context": "SGI source-bound linguistic review unchanged. Stage155 source loader/key getter and native record fields verified. Name feeds list Caption/acquisition display; caption filter producer is same MrtsFieldListBox.AddList a_Name, numeric a_ID separate; complete source/translated name equality partition checked. Source hashes/targets/status/record keys and opaque bytes retained. Candidate copy authorized; runtime initialization/visual QA remain unverified."

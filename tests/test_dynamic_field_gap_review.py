@@ -16,7 +16,7 @@ class DynamicFieldGapTests(unittest.TestCase):
  def test_affinity_composition_keeps_name_and_relation(self):
   bindings=[e for e in self.profile['bindings'] if e['native_key'] in (92,93,208)]
   self.assertEqual(len(bindings),3)
-  for e in bindings:self.assertEqual(e['composition'],'CharName + MainText');self.assertTrue(e['target'].startswith('的友好度'));self.assertEqual(e['sample_result'],'卡琳兹'+e['target'])
+  for e in bindings:self.assertEqual(e['composition'],'CharName + MainText');self.assertTrue(e['target'].startswith('的友好度'));self.assertEqual(e['sample_result'],'卡林兹'+e['target'])
  def test_brackets_slash_spaces_are_component_text(self):
   bykey={e['native_key']:e for e in self.profile['bindings']};self.assertEqual(bykey[300]['target'],'最高伤害记录 [ ');self.assertEqual(bykey[301]['target'],' ] / 记录刷新次数 [ ');self.assertEqual(bykey[303]['target'],'认证编号 [ ')
   for k in (300,301,303):self.assertEqual(bykey[k]['composition'],'SetText(MainText) independent UI component')

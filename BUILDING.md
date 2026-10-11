@@ -408,3 +408,7 @@ For a disposable rollback test use tools/rollback_test_iso_copy.py --report buil
 ## stage184 默认 A-medium-mixed
 
 现有 full-font-profile.json 已选定 Medium 混合栅格化。build_font_expansion.py 与 verify_expanded_locale.py 的 fonts 分支复用既有 rebuild_mapped_font；缺少该字段的历史 profile 行为不变。原2667字形和2466字符映射保留。仅字体升级使用 overlay_font_resources.py 更新两个Font与对应唯一celfid缓存，不重做译文/UI/影片。准确命令、输入hash、原子发布与宋体回退见 docs/DEFAULT_FONT_INTEGRATION.md。
+
+## 同长度名词修订（stage187）
+
+以184已验证的FILE/SHIP为输入，tools/apply_term_revision.py按locales/zh-CN/proofreading/term-revision-01.json校验源hash、明确文本范围、原/新编码、非目标间隔，同步完整缓存副本；不在未知版本上扫描盲改。字体已经覆盖新名，不调整映射。影片使用现有build_movie_subtitles.py重制，movie_revision.py验证名称之外ASS字节不变、原音轨一致及完整解码。build_test_iso.py允许此明确修订路径，manual_movie_acceptance=false与此前人工通过的布局依据分开，不伪造新验收。具体命令及冻结输入见 docs/TERMINOLOGY_REVISION.md。

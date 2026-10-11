@@ -28,7 +28,7 @@ ISO9660/UDF28个替换文件双视图回读一致；26个增长文件重定位�
 
 大小：4250691584 B
 
-SHA-256：`ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f`
+SHA-256：`65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36`
 
 原ISO SHA-256：`6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`
 
@@ -44,3 +44,8 @@ SHA-256：`ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f`
 ## stage184 A-medium-mixed 默认字体
 
 Medium18px/SS4与15px原生混合方案已整合并覆盖同名ISO，原字格、映射与步进保持。相对182宋体版，ISO62文件只FILE变化，只有Font序列和对应缓存的追加bitmap改变；译文/脚本/UI图片/动画保持。1972测试、1964源码回滚、独立ISO与字库比对通过；宋体备份保留。PCSX2隔离冷启动日志观察ELF执行；没有采集到渲染帧，正文/菜单视觉验收尚待冷启动测试。见 DEFAULT_FONT_INTEGRATION.md。
+
+
+## stage187 名词统一版
+
+同名ISO已更新为卡林兹、朱斯蒂娜、阿米拉、伊菲利亚。280资源/627文字及7缓存副本/35处同步，4部动画仅改名称并重编码。62文件独立对比只有FILE、SHIP和这4部动画变化；字体、UI图、ELF和42部其他影片保持。新影片保留既有布局人工验收依据，但本次新成片未冒称重新人工验收。详见 TERMINOLOGY_REVISION.md。当前hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36，4250691584 B。

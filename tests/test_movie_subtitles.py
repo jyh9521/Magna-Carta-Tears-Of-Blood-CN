@@ -187,7 +187,7 @@ class MovieSubtitlesTests(unittest.TestCase):
         with self.assertRaises(ValueError):self.render([dict(start=100,end=1000,target='甲'*90)],safe_region=[449,246,627,338],font_size=24,semantic_pages=[dict(target='甲'*90,page_units=[['甲']*90])])
 
     def test_reviewed_glossary_name_split_rejected(self):
-        with self.assertRaises(ValueError):self.render([dict(start=100,end=500,target='卡琳兹')],semantic_pages=[dict(target='卡琳兹',page_units=[['卡琳'],['兹']])])
+        with self.assertRaises(ValueError):self.render([dict(start=100,end=500,target='卡林兹')],semantic_pages=[dict(target='卡林兹',page_units=[['卡琳'],['兹']])])
 
     def test_all_21_semantic_reviews_match_source_and_keep_phrases(self):
         import json

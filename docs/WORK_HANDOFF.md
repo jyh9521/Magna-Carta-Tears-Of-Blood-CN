@@ -426,3 +426,7 @@ stage182 已生成宋体 UI 修正版并覆盖同名测试路径；六标签/整
 ## stage185 存储清理与源码同步
 
 实际删除1084大输出文件/47.68GiB逻辑大小；保留当前184测试镜像、宋体回退、黑体字库备份、原版及25验收影片/当前预览。四PoC退役，删除完成的回滚副本与旧字幕中间资源；研究报告、配置和源数据保持。完整记录 LOCAL_STORAGE_MAINTENANCE.md；不把仍需游戏视觉验收的字体声明为通关验收。源码/docs基线隔离回滚与测试记录见185/VERIFICATION.txt；GitHub提交身份以本轮发布记录为准。
+
+## stage187 四名修订与影片同步
+
+现行卡林兹、朱斯蒂娜、阿米拉、伊菲利亚；280SHIP/627处加7缓存副本/35处；名字长度/映射不变。180101、181307、182223、1825381重制，ASS仅名称变化，音频相等；其余42影片保持。最新档案work/terminology-187/integrated-afs，动画清单同目录movie-manifest.json（4条明确validated_revision而非新人工验收），输入计划iso-input-plan.json。当前同名测试ISO hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36。旧184ISO作为本次必要回退保存在187/baseline-test.iso；不保留额外已完成的ISO测试副本。完整证据 TERMINOLOGY_REVISION.md / 187 VERIFICATION.txt；Git提交和远端身份以本轮publication记录为准。

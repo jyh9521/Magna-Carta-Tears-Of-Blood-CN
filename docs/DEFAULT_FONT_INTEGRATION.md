@@ -29,7 +29,7 @@ overlay_font_resources 防御式校验源AFS、旧字库、几何与所有metric
 
 - 基线1964、修改1972、隔离源码回滚1964项测试通过。
 - ISO9660/UDF回读及非目标字节验证通过；独立对照前版62文件、两实验字库、映射与106受保护输入通过。
-- 当前ISO：build/test-iso/Magna-Carta-zh-CN-test.iso，4250691584字节，SHA-256 `ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f`。
+- stage184历史ISO：build/test-iso/Magna-Carta-zh-CN-test.iso，4250691584字节，SHA-256 `ff00bdff03ff455aaed77986a8795d94efa4dca0e0fd7462bb2d0685218b673f`。
 - 宋体完整ISO、两字体、旧配置和报告保留在 work/font-default-184/fallback。旧ISO hash `dcf769e5d15ee3a548a48137e1ead344ffad2f0b1116f1891a83b28d7950b43e`。
 - `work/font-default-184/ROLLBACK.sh <新的work目录中的恢复ISO路径>` 只在独立副本验证恢复，不改当前ISO。源码基线zip同时保留本任务前已有修改，而非回到GitHEAD。经确认要切回宋体时，可原子复制此备份ISO到测试路径，并恢复对应报告/哈希；重新生成宋体继续使用 serif-font-profile.json。
 - 完整命令、输出、退出状态与输入见 work/font-default-184/VERIFICATION.txt。
@@ -37,3 +37,5 @@ overlay_font_resources 防御式校验源AFS、旧字库、几何与所有metric
 ## 运行检查边界
 
 运行检查使用隔离PCSX2配置、禁用纹理替换、冷启动新ISO，不加载旧即时存档。日志与结果保留在 work/font-default-184/runtime-probe-2；独立诊断启动并非菜单、正文、换行及全部场景的视觉验收。实际检查应从新ISO冷启动：标题后进入正常存档/新游戏，查看没有存档、读取提示、姓名、道具、流派与人物介绍，同时核对普通字体和小字体的清晰度、标点及裁切；最后正常存读档。旧即时存档可能保留旧RAM中的字体，不能代替首次冷启动。
+
+现行名词修订镜像为stage187，字体和映射仍与本文选定方案相同；当前身份见 TEST_ISO.md。

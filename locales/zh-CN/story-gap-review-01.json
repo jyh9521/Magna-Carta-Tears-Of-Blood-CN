@@ -379,7 +379,7 @@
     {
       "id": "SHIP/00001930.fpb/seq/21",
       "source_sha256": "806c672c55dbabf363960a29a99efb80d9be870f66a0ccf0a453565debe9f54d",
-      "target": "欢迎，卡琳兹先生。$n您是来修理武器的吗？$n也有新武器，请看看吧。",
+      "target": "欢迎，卡林兹先生。$n您是来修理武器的吗？$n也有新武器，请看看吧。",
       "status": "reviewed",
       "context": "Independent source-bound FPB exchange, letter, local NPC/shop or instruction reviewed in sequence. Japanese question-mark damage interpreted contextually, not claimed recovered. Names use project canonical choices, true referents/female Lehas and Ladrinne versus male Calintz/Agreian differentiated. Native protected controls, source bytes/hash and IDs retained."
     },
@@ -760,7 +760,7 @@
     {
       "id": "SHIP/00001932.fpb/seq/129",
       "source_sha256": "3cebd5f4289ece412e990861600cbd3bceb2eb9c68987045162de24e0e69fd4d",
-      "target": "南边连接米雷娜大道和雷斯蒂，$n北边通往阿玛巴德大神殿，$n这里是伊佩莉亚大陆最大的城市。",
+      "target": "南边连接米雷娜大道和雷斯蒂，$n北边通往阿玛巴德大神殿，$n这里是伊菲利亚大陆最大的城市。",
       "status": "reviewed",
       "context": "Independent source-bound FPB exchange, letter, local NPC/shop or instruction reviewed in sequence. Japanese question-mark damage interpreted contextually, not claimed recovered. Names use project canonical choices, true referents/female Lehas and Ladrinne versus male Calintz/Agreian differentiated. Native protected controls, source bytes/hash and IDs retained."
     },
@@ -1250,7 +1250,7 @@
     {
       "id": "SHIP/00004800.fpb/seq/14",
       "source_sha256": "ab30aa3ab11e9f27c3f84f8e16d145aca9dcd4eca0a9f11b730859242a1f4fe7",
-      "target": "黑色亚逊因为光之树被封印，$n遭到追责并被放逐。$n$n不过听说，幸存的黑色亚逊已被阿蜜拉女王$n赦免了罪责。",
+      "target": "黑色亚逊因为光之树被封印，$n遭到追责并被放逐。$n$n不过听说，幸存的黑色亚逊已被阿米拉女王$n赦免了罪责。",
       "status": "reviewed",
       "context": "Independent source-bound FPB exchange, letter, local NPC/shop or instruction reviewed in sequence. Japanese question-mark damage interpreted contextually, not claimed recovered. Names use project canonical choices, true referents/female Lehas and Ladrinne versus male Calintz/Agreian differentiated. Native protected controls, source bytes/hash and IDs retained."
     },
@@ -1491,7 +1491,7 @@
     {
       "id": "SHIP/00005065.fpb/seq/15",
       "source_sha256": "b4198f362a87bb7274d11ede2bc8dfed6da74ef3ff527c8ee70b1d2f19760f6d",
-      "target": "喂，你听说了吗？$n那个一直在疗养的阿蜜拉女王，$n听说已经回来了……",
+      "target": "喂，你听说了吗？$n那个一直在疗养的阿米拉女王，$n听说已经回来了……",
       "status": "reviewed",
       "context": "Independent source-bound FPB exchange, letter, local NPC/shop or instruction reviewed in sequence. Japanese question-mark damage interpreted contextually, not claimed recovered. Names use project canonical choices, true referents/female Lehas and Ladrinne versus male Calintz/Agreian differentiated. Native protected controls, source bytes/hash and IDs retained."
     },
@@ -1722,7 +1722,7 @@
     {
       "id": "SHIP/00005182.fpb/seq/5",
       "source_sha256": "9f0ab5803c9fccd7acb4d70c3caedc2b0371df005490bb48fdba5cc5efee88aa",
-      "target": "听说，自从亚逊的阿蜜拉挡住联合军的$n大魔法攻击，$n情况就变成这样了……$n这会不会就是传说中，$n那个叫什么真名法典的$n影响呢？",
+      "target": "听说，自从亚逊的阿米拉挡住联合军的$n大魔法攻击，$n情况就变成这样了……$n这会不会就是传说中，$n那个叫什么真名法典的$n影响呢？",
       "status": "reviewed",
       "context": "Independent source-bound FPB exchange, letter, local NPC/shop or instruction reviewed in sequence. Japanese question-mark damage interpreted contextually, not claimed recovered. Names use project canonical choices, true referents/female Lehas and Ladrinne versus male Calintz/Agreian differentiated. Native protected controls, source bytes/hash and IDs retained."
     },
@@ -2083,14 +2083,14 @@
     {
       "id": "SHIP/00015208.fpb/seq/10",
       "source_sha256": "d7578be2b6b0e351867a0d08289791e846a3a283780fee4e5292651e0eea30f4",
-      "target": "黑色亚逊因光之树封印事件遭到灭族，幸存的少数黑色亚逊$n似乎得到了阿蜜拉女王的赦免。",
+      "target": "黑色亚逊因光之树封印事件遭到灭族，幸存的少数黑色亚逊$n似乎得到了阿米拉女王的赦免。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
     {
       "id": "SHIP/00015208.fpb/seq/11",
       "source_sha256": "141fedea53ef78c69579e1321abdd37207937ecd34a273a3418467d821e78c4a",
-      "target": "那些获得赦免的黑色亚逊成了忠于$n阿蜜拉女王的士兵，而他们的$n族长就是阿萨德。",
+      "target": "那些获得赦免的黑色亚逊成了忠于$n阿米拉女王的士兵，而他们的$n族长就是阿萨德。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
@@ -2307,21 +2307,21 @@
     {
       "id": "SHIP/00015209.fpb/seq/12",
       "source_sha256": "4c1eb0d75f72b1f373e563344d2eb5c50189e195e58efd677fd0abaaed04cbd3",
-      "target": "这么说也许不太好，不过没有卡琳兹队长的时候，血泪并没有那么了不起。",
+      "target": "这么说也许不太好，不过没有卡林兹队长的时候，血泪并没有那么了不起。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
     {
       "id": "SHIP/00015209.fpb/seq/13",
       "source_sha256": "0715bed1bf51b875552c0afc81edef1205cf4e5ce5d29a8068162293374f878b",
-      "target": "当时只是一支满脑子复仇的部队。我觉得正是多亏了卡琳兹队长，才有了今天的名声。",
+      "target": "当时只是一支满脑子复仇的部队。我觉得正是多亏了卡林兹队长，才有了今天的名声。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
     {
       "id": "SHIP/00015209.fpb/seq/14",
       "source_sha256": "61b16f67fe8f413b73f4ceb57622063dfeedf79e33cf8636a3453742ba9dcff7",
-      "target": "问题是那些名声大半都是恶名。$n你也知道，大多都是卡琳兹队长$n闯下的恶名吧？呵呵呵。",
+      "target": "问题是那些名声大半都是恶名。$n你也知道，大多都是卡林兹队长$n闯下的恶名吧？呵呵呵。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
@@ -2412,7 +2412,7 @@
     {
       "id": "SHIP/00015210.fpb/seq/7",
       "source_sha256": "f31754ca29301e7cea3595d88559854997bfacbc095b195130f979d5efdeb41d",
-      "target": "卡琳兹队长的部队，几乎占了血泪战斗力的大半吧。",
+      "target": "卡林兹队长的部队，几乎占了血泪战斗力的大半吧。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
@@ -2615,7 +2615,7 @@
     {
       "id": "SHIP/00015211.fpb/seq/19",
       "source_sha256": "5db8b8272305bd64990d1102e10383af1aec2c516c3aa39a33c2a15e9e406198",
-      "target": "听说血泪的卡琳兹队长，也是那里出身吧？",
+      "target": "听说血泪的卡林兹队长，也是那里出身吧？",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor exchange reviewed in source sequence. War opinions/rivalry are speaker claims. Discounts25/10 percent off. Ladrinne mother and Agreian son distinguished. IDs/source hashes and protected controls retained; Japanese missing characters interpreted contextually, not recovered."
     },
@@ -4162,7 +4162,7 @@
     {
       "id": "SHIP/00015217.fpb/seq/12",
       "source_sha256": "8469e4cf9cc7d2f777b16f07ff812f185f8c67bfd3c56b393efb047454d09b75",
-      "target": "伊佩莉亚各地的卡恩异常现象，$n正越来越严重。",
+      "target": "伊菲利亚各地的卡恩异常现象，$n正越来越严重。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop dialogue reviewed in sequence. Conflicting mother-son doubts and assertions retain speaker viewpoint; Lehas female loss/attachment and Agreian male rescue referents reviewed. Spy accusations, magical-origin hypothesis, battle strategy and historical opinions remain claims, not verified mechanics/history. Original source IDs/hashes/protected controls retained."
     },
@@ -4190,14 +4190,14 @@
     {
       "id": "SHIP/00015217.fpb/seq/16",
       "source_sha256": "bec977104104798784ff98a4d6c0d04b2b6ab2a89d1abc631a803bcc5c7878b2",
-      "target": "黑色亚逊因光之树封印事件遭到灭族，但幸存的少数黑色亚逊$n似乎得到了阿蜜拉女王的赦免。",
+      "target": "黑色亚逊因光之树封印事件遭到灭族，但幸存的少数黑色亚逊$n似乎得到了阿米拉女王的赦免。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop dialogue reviewed in sequence. Conflicting mother-son doubts and assertions retain speaker viewpoint; Lehas female loss/attachment and Agreian male rescue referents reviewed. Spy accusations, magical-origin hypothesis, battle strategy and historical opinions remain claims, not verified mechanics/history. Original source IDs/hashes/protected controls retained."
     },
     {
       "id": "SHIP/00015217.fpb/seq/17",
       "source_sha256": "57664506bb977988b264be19e3cad1524069b8ced58337917bbba531ae42533c",
-      "target": "那些获得赦免的黑色亚逊成了忠于阿蜜拉$n女王的士兵，据说他们的族长就是阿萨德。",
+      "target": "那些获得赦免的黑色亚逊成了忠于阿米拉$n女王的士兵，据说他们的族长就是阿萨德。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop dialogue reviewed in sequence. Conflicting mother-son doubts and assertions retain speaker viewpoint; Lehas female loss/attachment and Agreian male rescue referents reviewed. Spy accusations, magical-origin hypothesis, battle strategy and historical opinions remain claims, not verified mechanics/history. Original source IDs/hashes/protected controls retained."
     },
@@ -4309,7 +4309,7 @@
     {
       "id": "SHIP/00015218.fpb/seq/3",
       "source_sha256": "bc1c92f8579e3eae89a63dfd8dda4f4f1957dab582991b20357a86ffaf01e3b8",
-      "target": "我们也只能把卡琳兹队长$n一直相信到底吧。",
+      "target": "我们也只能把卡林兹队长$n一直相信到底吧。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop dialogue reviewed in sequence. Conflicting mother-son doubts and assertions retain speaker viewpoint; Lehas female loss/attachment and Agreian male rescue referents reviewed. Spy accusations, magical-origin hypothesis, battle strategy and historical opinions remain claims, not verified mechanics/history. Original source IDs/hashes/protected controls retained."
     },
@@ -4365,7 +4365,7 @@
     {
       "id": "SHIP/00015218.fpb/seq/12",
       "source_sha256": "b28cbb5e328effec7a90661018b7e28cce367d565aac4d381f18e76c39bdd30a",
-      "target": "阿格雷安将军和卡琳兹队长$n究竟是什么关系？",
+      "target": "阿格雷安将军和卡林兹队长$n究竟是什么关系？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop dialogue reviewed in sequence. Conflicting mother-son doubts and assertions retain speaker viewpoint; Lehas female loss/attachment and Agreian male rescue referents reviewed. Spy accusations, magical-origin hypothesis, battle strategy and historical opinions remain claims, not verified mechanics/history. Original source IDs/hashes/protected controls retained."
     },
@@ -5478,7 +5478,7 @@
     {
       "id": "SHIP/00015223.fpb/seq/24",
       "source_sha256": "c38ceee8d82cd25047b6d0f40a9d4100d141c2fb578281f9ba1177819d0d5e32",
-      "target": "阿蜜拉女王身体出了问题的传闻，$n说不定是真的。",
+      "target": "阿米拉女王身体出了问题的传闻，$n说不定是真的。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop/Emon coexistence exchange reviewed in source sequence. Wanted-person descriptions,spy accusations,queen health,Agreian praise and FourKings frontline reports remain each speaker claims; mutually opposed Emon interpretations retained. Stone disease versus Amut relation uncertain as source. Gender of husband/general/hermit distinguished. Source IDs/hashes/protected control order preserved."
     },
@@ -5492,7 +5492,7 @@
     {
       "id": "SHIP/00015223.fpb/seq/26",
       "source_sha256": "44e76c3133d70e301257aca8ede000552b00898582ae5a50ad7c08c8b78f4366",
-      "target": "难道阿蜜拉女王的健康，$n真的出了问题？",
+      "target": "难道阿米拉女王的健康，$n真的出了问题？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop/Emon coexistence exchange reviewed in source sequence. Wanted-person descriptions,spy accusations,queen health,Agreian praise and FourKings frontline reports remain each speaker claims; mutually opposed Emon interpretations retained. Stone disease versus Amut relation uncertain as source. Gender of husband/general/hermit distinguished. Source IDs/hashes/protected control order preserved."
     },
@@ -7592,7 +7592,7 @@
     {
       "id": "SHIP/00015232.fpb/seq/25",
       "source_sha256": "8ae7d4cf49f36662b43ea8784e2eef55fc4294fc2359cec3919d91048b8df08a",
-      "target": "不过，按照那份情报，阿蜜拉女王似乎有个妹妹。",
+      "target": "不过，按照那份情报，阿米拉女王似乎有个妹妹。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8082,7 +8082,7 @@
     {
       "id": "SHIP/00015234.fpb/seq/12",
       "source_sha256": "93dbf18f5542d21466ca65830b845088ab33c4b3af4115101620a2f8b24d1898",
-      "target": "听说阿蜜拉女王是个美人？",
+      "target": "听说阿米拉女王是个美人？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8096,7 +8096,7 @@
     {
       "id": "SHIP/00015234.fpb/seq/14",
       "source_sha256": "2b43911ea751fca7cc7b2aba0ee00bd860245f8d6b6d1f1eb6f375d6267b060b",
-      "target": "既然如此，只要除掉阿蜜拉就行了吧？",
+      "target": "既然如此，只要除掉阿米拉就行了吧？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8285,14 +8285,14 @@
     {
       "id": "SHIP/00015235.fpb/seq/3",
       "source_sha256": "212256d24f5563178a391b0d31581ea2d0dbcd5902995222329d2ee27eade573",
-      "target": "听说阿蜜拉女王死了，这是真的吗？",
+      "target": "听说阿米拉女王死了，这是真的吗？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
     {
       "id": "SHIP/00015235.fpb/seq/4",
       "source_sha256": "6b6e67005fbb9c538d505dbebc6916652db0da1b75eef4d9652d30fc97684dba",
-      "target": "人类中又没人见过阿蜜拉女王，也没办法证实吧？",
+      "target": "人类中又没人见过阿米拉女王，也没办法证实吧？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8376,7 +8376,7 @@
     {
       "id": "SHIP/00015235.fpb/seq/16",
       "source_sha256": "a4054c1be5ac881f2ebed4fd9f765392bc5c688468dc0c64d625ab56ed9300b4",
-      "target": "听说人类迁居伊佩莉亚，是因为真名法典。",
+      "target": "听说人类迁居伊菲利亚，是因为真名法典。",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8404,7 +8404,7 @@
     {
       "id": "SHIP/00015235.fpb/seq/20",
       "source_sha256": "d6f215ce7e079262fa34b402821a7fa241c120596f5954ec6b50a7e9e93597d2",
-      "target": "如果因此连伊佩莉亚大陆都沉没了，该怎么办？",
+      "target": "如果因此连伊菲利亚大陆都沉没了，该怎么办？",
       "status": "reviewed",
       "context": "Independent source-bound town/shop exchange reviewed in source sequence. Female queen/sister/Lehas/Ladrinne andmale dreaming man/Agreian/hermit/boyfriend differentiated; daughter/mother/bloodline terms kept literally as viewpoint. Amut wood-like disease versus human petrification,magna/continent/artifact theories andqueen-death rumours remain attributed/uncertain. Conflicting revenge/peace/general-operation opinions retained. Native protected controls,source hashes andindependent IDs preserved."
     },
@@ -8600,21 +8600,21 @@
     {
       "id": "SHIP/00015236.fpb/seq/9",
       "source_sha256": "4923fc362b6cfd9573179b482a6789ffa9d2977bd5a9f718282cc004cfcef26e",
-      "target": "就算阿蜜拉女王死了，亚逊也不会消失吧。",
+      "target": "就算阿米拉女王死了，亚逊也不会消失吧。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
     {
       "id": "SHIP/00015236.fpb/seq/10",
       "source_sha256": "29d121ad78ca3dd57fb614086b7f02cddc8291d71372f929a739f803ccd441ce",
-      "target": "在阿蜜拉女王之前，亚逊就已经存在了啊。",
+      "target": "在阿米拉女王之前，亚逊就已经存在了啊。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
     {
       "id": "SHIP/00015236.fpb/seq/11",
       "source_sha256": "57650d00a400b19c3040b42e9b6a2b9aa18f2551cc2e00c96cf8c9855518d8ff",
-      "target": "大家都误会了。就算阿蜜拉$n女王死了，亚逊也不会消失。",
+      "target": "大家都误会了。就算阿米拉$n女王死了，亚逊也不会消失。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -9916,7 +9916,7 @@
     {
       "id": "SHIP/00015655.fpb/seq/1",
       "source_sha256": "a89c1cf9c3a8f5c0fff8b2a02d4c7d1b95bb61556ea19bb59914c6f66b810317",
-      "target": "嗯，卡琳兹也晚安。",
+      "target": "嗯，卡林兹也晚安。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -9951,7 +9951,7 @@
     {
       "id": "SHIP/00015885.fpb/seq/0",
       "source_sha256": "22e8a057d604ef9f8d785e8bd9bb39dfdd5e77fed7a8b7ccaa7d360f33621d5a",
-      "target": "神学的缺失：$n$n关于伊佩莉亚大陆为什么缺乏神学这一概念，有着各种假说。虽然阿玛巴德还残留着一点神学观念，但实际上，伊佩莉亚大陆上并不存在信仰并研究神的学问。",
+      "target": "神学的缺失：$n$n关于伊菲利亚大陆为什么缺乏神学这一概念，有着各种假说。虽然阿玛巴德还残留着一点神学观念，但实际上，伊菲利亚大陆上并不存在信仰并研究神的学问。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -9965,7 +9965,7 @@
     {
       "id": "SHIP/00015886.fpb/seq/0",
       "source_sha256": "c24d4914db1c4b9285676fff4857a57b3b8e0d5a1358aaca4a30cc3bddd2ab41",
-      "target": "冶金术的起源与现状：$n$n伊佩莉亚冶金术的发展，完全源于对飞机的需求。制造飞机不可或缺的骨架和外壳，在这一领域完全依赖冶金术的帮助。",
+      "target": "冶金术的起源与现状：$n$n伊菲利亚冶金术的发展，完全源于对飞机的需求。制造飞机不可或缺的骨架和外壳，在这一领域完全依赖冶金术的帮助。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -10105,7 +10105,7 @@
     {
       "id": "SHIP/00015893.fpb/seq/0",
       "source_sha256": "36c9af66114d93e73c71525c4a23e05e713a065f8d8f503730dc950d4dd11497",
-      "target": "伊佩莉亚战争史：$n$n……除了前文提到的原因，人类联合军在战争初期取得对亚逊优势，还有一个决定性因素，就是人类拥有运用集体战术的经验。",
+      "target": "伊菲利亚战争史：$n$n……除了前文提到的原因，人类联合军在战争初期取得对亚逊优势，还有一个决定性因素，就是人类拥有运用集体战术的经验。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -10147,7 +10147,7 @@
     {
       "id": "SHIP/00015894.fpb/seq/3",
       "source_sha256": "c2e9101ad67c958d4596b945c7ab5843f6f11552072294cfffc68a41e6bee9e2",
-      "target": "这种疑问，源于八英雄返回伊佩莉亚之后的行迹。他们以沉默与隐居的方式，消失在历史之中，其中有许多令人无法释怀之处。",
+      "target": "这种疑问，源于八英雄返回伊菲利亚之后的行迹。他们以沉默与隐居的方式，消失在历史之中，其中有许多令人无法释怀之处。",
       "status": "reviewed",
       "context": "Independent source-bound town/vendor or library book fragment reviewed in sequence. Book authors historical/technical/opinion claims retained as in-game prose;unfinished source fragments not invented. Tricas male,Yustin female,queen female andsoldier30years preserved. Originalsource hashes/IDs/protected control order kept;no global source recoding."
     },
@@ -10189,7 +10189,7 @@
     {
       "id": "SHIP/00015896.fpb/seq/1",
       "source_sha256": "569bb04344c92b4f1e99cada10b860f79d5c3ffee944a02513bea63122306a6a",
-      "target": "地狱般的航行结束后，人类最终定居在伊佩莉亚大陆。虽然只是未得到证实、也鲜为人知的假说，但在迁徙时代以前，人类似乎拥有与宾迪相似的器官。$n也就是说，人类也曾是通过身体某个部分吸收卡恩的存在。",
+      "target": "地狱般的航行结束后，人类最终定居在伊菲利亚大陆。虽然只是未得到证实、也鲜为人知的假说，但在迁徙时代以前，人类似乎拥有与宾迪相似的器官。$n也就是说，人类也曾是通过身体某个部分吸收卡恩的存在。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10259,7 +10259,7 @@
     {
       "id": "SHIP/00015900.fpb/seq/0",
       "source_sha256": "ea0db3434d5c0b2abc5cc91c8ad9064333099d1c043b83fec3f80c8bf7464f6e",
-      "target": "关于未知真相的几个故事，第8章：$n$n据说在人类迁居伊佩莉亚以前居住的大陆上，有一种被称为世界之柱的存在。",
+      "target": "关于未知真相的几个故事，第8章：$n$n据说在人类迁居伊菲利亚以前居住的大陆上，有一种被称为世界之柱的存在。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10301,7 +10301,7 @@
     {
       "id": "SHIP/00015902.fpb/seq/0",
       "source_sha256": "4e8129b864836f7b8b926329330e4d322b9426e7a5450951f734100ab836e798",
-      "target": "亚逊统一王国：$n$n开拓时代即将结束时，人类逐渐开始居住在伊佩莉亚大陆各地，人口也开始爆炸性增长。",
+      "target": "亚逊统一王国：$n$n开拓时代即将结束时，人类逐渐开始居住在伊菲利亚大陆各地，人口也开始爆炸性增长。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10336,7 +10336,7 @@
     {
       "id": "SHIP/00015903.fpb/seq/6",
       "source_sha256": "8acb0f12ea3be392df7e62b65edef4a62609d27e54fcec9ca5eb9bdfb411934f",
-      "target": "4艘移民船伤痕累累地抵达了某片大陆。$n那就是伊佩莉亚大陆，我们如今生活的地方。战胜自然、幸存并抵达伊佩莉亚的船只，名为拜耶尔号、马拉卡特号、阿玛巴德号，以及吉拉特号。",
+      "target": "4艘移民船伤痕累累地抵达了某片大陆。$n那就是伊菲利亚大陆，我们如今生活的地方。战胜自然、幸存并抵达伊菲利亚的船只，名为拜耶尔号、马拉卡特号、阿玛巴德号，以及吉拉特号。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10707,7 +10707,7 @@
     {
       "id": "SHIP/00016053.fpb/seq/1",
       "source_sha256": "3e79a5d26a6ab8199c9827aff4dc121ded28e678d91160d3523190d79282552b",
-      "target": "嗯，朱丝蒂娜。",
+      "target": "嗯，朱斯蒂娜。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10721,7 +10721,7 @@
     {
       "id": "SHIP/00016053.fpb/seq/4",
       "source_sha256": "0bd10b97a6bb16d4aecc0e20e9479fa87ef8f35d0c2bfb9c4547b0765cffb40b",
-      "target": "之前一直有卡琳兹他们帮忙，可接下来只有我们两个人，所以必须想清楚再行动。",
+      "target": "之前一直有卡林兹他们帮忙，可接下来只有我们两个人，所以必须想清楚再行动。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10735,7 +10735,7 @@
     {
       "id": "SHIP/00016053.fpb/seq/7",
       "source_sha256": "7bdf6981e70dd331c1ec2ebe3090e24b452a77f03da7ff2112bcddfd4a02b773",
-      "target": "明白了，朱丝蒂娜。所以把路上的精灵石全都改成“水”或者“江”属性就行了吧？",
+      "target": "明白了，朱斯蒂娜。所以把路上的精灵石全都改成“水”或者“江”属性就行了吧？",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10819,7 +10819,7 @@
     {
       "id": "SHIP/00016111.fpb/seq/1",
       "source_sha256": "07baea7af5f0df6e1d81f853912b54f314e4224fb9264b3c6e4d425449c876ac",
-      "target": "卡琳兹说，这里的怪物比奥尔本森林的$n怪物强得多。$n大家小心。",
+      "target": "卡林兹说，这里的怪物比奥尔本森林的$n怪物强得多。$n大家小心。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -10840,14 +10840,14 @@
     {
       "id": "SHIP/00016120.fpb/seq/1",
       "source_sha256": "490ec69072716f88dd40ba454681a2e59651313f4dd0bf8e790d6fc65a3350fc",
-      "target": "卡琳兹说，这里的怪物很强，$n让我们先别去。$n等以后变强了再来吧。",
+      "target": "卡林兹说，这里的怪物很强，$n让我们先别去。$n等以后变强了再来吧。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
     {
       "id": "SHIP/00016143.fpb/seq/0",
       "source_sha256": "2aa0222fbe1d9620957d9b2ae9cf8056b6a8c7ffee30333cb280c1b2639e9712",
-      "target": "阿斯塔尔的阴谋逐渐揭晓，神秘的第三个人物也出现了。而在这些事情之外，卡琳兹与莉丝之间，爱情也开始萌芽。",
+      "target": "阿斯塔尔的阴谋逐渐揭晓，神秘的第三个人物也出现了。而在这些事情之外，卡林兹与莉丝之间，爱情也开始萌芽。",
       "status": "reviewed",
       "context": "Source-bound language review retained. Stage157 original FPB record pool offset/length/hash uniquely matches first numeric-key lookup. Native Then_2DObjectControl_Chat obtains text via FieldData.GetPlayBookDataText and copies it into queued chat FString; numeric event/talker fields are separate. The source label is a text payload, not an actor lookup key in this verified route. Original numeric keys/controls/source bytes/targets/status remain unchanged. Specific event reachability and in-game layout are not claimed.",
       "reinsertion_policy": "translate"
@@ -10855,7 +10855,7 @@
     {
       "id": "SHIP/00016143.fpb/seq/1",
       "source_sha256": "42a46a741acc300da117dce3f8c586adcd63a8763eac0b97e53da801a9b07e35",
-      "target": "第三个人物究竟是谁？卡琳兹和莉丝的前方，又有什么命运在等待？",
+      "target": "第三个人物究竟是谁？卡林兹和莉丝的前方，又有什么命运在等待？",
       "status": "reviewed",
       "context": "Source-bound language review retained. Stage157 original FPB record pool offset/length/hash uniquely matches first numeric-key lookup. Native Then_2DObjectControl_Chat obtains text via FieldData.GetPlayBookDataText and copies it into queued chat FString; numeric event/talker fields are separate. The source label is a text payload, not an actor lookup key in this verified route. Original numeric keys/controls/source bytes/targets/status remain unchanged. Specific event reachability and in-game layout are not claimed.",
       "reinsertion_policy": "translate"
@@ -11039,7 +11039,7 @@
     {
       "id": "SHIP/00016573.fpb/seq/7",
       "source_sha256": "54840414cc385e41f1d43ce6c6a7160e46dfe70e90ec157a9b53b597e7402064",
-      "target": "去感受卡恩的流动。$n感受对方卡恩的流动。$n该睁开双眼，看清真正的世界了，卡琳兹！",
+      "target": "去感受卡恩的流动。$n感受对方卡恩的流动。$n该睁开双眼，看清真正的世界了，卡林兹！",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11102,7 +11102,7 @@
     {
       "id": "SHIP/00016587.fpb/seq/10",
       "source_sha256": "7b983ae0b619c237ff26cab17298a487d922db0906b7475bf192c480d30329af",
-      "target": "嗯！明白了，卡琳兹！",
+      "target": "嗯！明白了，卡林兹！",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11207,7 +11207,7 @@
     {
       "id": "SHIP/00016642.fpb/seq/0",
       "source_sha256": "ee9db5cb0a5b53323257a11bf7b2f442f3e63d45cc77ba07134aa221a0cdc532",
-      "target": "好久不见，卡琳兹。$n我儿子克里斯也还好吧？",
+      "target": "好久不见，卡林兹。$n我儿子克里斯也还好吧？",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11403,7 +11403,7 @@
     {
       "id": "SHIP/00016693.fpb/seq/17",
       "source_sha256": "9af67bbcf83fc3dc1a93ee63eb17b01bd40d1321de6ba8d71b59954b4338e08c",
-      "target": "那莉丝，今后一定要好好$n保管这块石头。不但别告诉莉安娜，也别告诉卡琳兹。",
+      "target": "那莉丝，今后一定要好好$n保管这块石头。不但别告诉莉安娜，也别告诉卡林兹。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11424,7 +11424,7 @@
     {
       "id": "SHIP/00016693.fpb/seq/20",
       "source_sha256": "6a7898cf613b869be58c01f7fe8ed98091f2b457a39cebb414de8ba44e77e2b5",
-      "target": "嗯，既然朱丝蒂娜都这么说了，我就谁也不告诉，一直带着。不过，等记忆全找回来以后，就能告诉卡琳兹了吧？",
+      "target": "嗯，既然朱斯蒂娜都这么说了，我就谁也不告诉，一直带着。不过，等记忆全找回来以后，就能告诉卡林兹了吧？",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11809,7 +11809,7 @@
     {
       "id": "SHIP/00016831.fpb/seq/0",
       "source_sha256": "11f17bf06d5ccd6fbc3fe536d52edb013c25dedcaa4cf2720b1a579e065f0ee2",
-      "target": "获得特殊能力“真红的圣痕”。$n$n$n“真红的圣痕”是菲尼克斯赋予的$n保护能力，能将卡琳兹受到的$n所有伤害减半。$n这项效果同时适用于物理攻击$n和魔法攻击。",
+      "target": "获得特殊能力“真红的圣痕”。$n$n$n“真红的圣痕”是菲尼克斯赋予的$n保护能力，能将卡林兹受到的$n所有伤害减半。$n这项效果同时适用于物理攻击$n和魔法攻击。",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
@@ -11823,14 +11823,14 @@
     {
       "id": "SHIP/00016959.fpb/seq/0",
       "source_sha256": "a03aa55ab61c73e615b68e9a79ddae0d9a5709ee889c5fc6730890d5aee5de7a",
-      "target": "想知道卡琳兹先生在做什么，$n问阿格雷安将军不是更快吗？$n现在没必要去拉埃杜山区吧？",
+      "target": "想知道卡林兹先生在做什么，$n问阿格雷安将军不是更快吗？$n现在没必要去拉埃杜山区吧？",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },
     {
       "id": "SHIP/00016959.fpb/seq/1",
       "source_sha256": "fb0178ee30a39664980e3a177865274a0f52893f87791309e76f1b64aaa12c10",
-      "target": "（我想见阿格雷安将军，$n听听卡琳兹最近怎么样。）",
+      "target": "（我想见阿格雷安将军，$n听听卡林兹最近怎么样。）",
       "status": "reviewed",
       "context": "Independent source-bound book fragment,main-story or combat/tutorial exchange reviewed in sequence. Book claims remain fictional author viewpoints;source120plus/4boats andoriginalchakra polarities/buttons/style/halfdamage numerical claims kept,not runtime-proven. Queen/Lehas/Ladrinne/Lise/Muen female andCalintz/Agreian/Rostein/Chris male referents distinguished;unknown unnamedYason not assigned pronoun gender. Source IDs/hash/protected controls unchanged."
     },

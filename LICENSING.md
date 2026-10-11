@@ -46,3 +46,9 @@ stage180仅新增项目生成的透明中文艺术PNG与指纹配方，不提交
 ## 当前默认 Medium 字体
 
 A-medium-mixed 使用 Adobe Source Han Sans SC Medium 2.005R，输入SHA-256 1df61d31687d04fd2f928a3bb6ca6cd61f0e988cc267cf317f32406edbb49f70，字体内嵌 SIL OFL 1.1。沿用 assets/fonts/SourceHanSans-LICENSE.txt；不提交OTF或完整游戏字库。Regular/Serif历史记录仍保留，各自许可继续适用。
+## 本地高清贴图输入
+
+用户提供的 SLUS-21221 高清 DDS 包仅作本地 SCKA-20043 替换使用。随包未提供作者、版本或再分发许可，
+不将其收入仓库或发布包。`tools/port_texture_pack.py` 只生成目录、等价名称和身份清单，
+不赋予素材再分发许可。文件命名语义依据 PCSX2 2.8.2 开源代码，来源链接及验证边界见
+[高清贴图复用](docs/HD_TEXTURE_PACK.md)。

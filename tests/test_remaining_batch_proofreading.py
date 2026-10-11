@@ -29,6 +29,6 @@ class RemainingBatchProofreadingTests(unittest.TestCase):
  def test_ija_project_name_unified_without_source_identifier_merge(self):
   a=self.entry('interface-review-02.json','00002792.tui/record/42/');self.assertEqual(a['target'],'伊夏');s=(ROOT/'GLOSSARY.md').read_text('utf8');self.assertIn('| 이쟈 | 伊夏 |',s);self.assertIn('身份关联为高置信推定',s)
  def test_opening_character_alias_and_card_fragments_preserved(self):
-  a=self.entry('opening-review-01.json','00000460.cha/slot/0');self.assertEqual(a['source_sha256'],'44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540');self.assertEqual(a['target'],'卡琳兹')
+  a=self.entry('opening-review-01.json','00000460.cha/slot/0');self.assertEqual(a['source_sha256'],'44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540');self.assertEqual(a['target'],'卡林兹')
   es=self.batch('opening-review-01.json');s=''.join(next(e['target'] for e in es if ('/record/'+str(n)+'/') in e['id']) for n in [96,166,165]);self.assertEqual(s,'正在检查插槽1中的记忆卡(PS2)。请勿关闭电源，也勿拔出记忆卡(PS2)。')
 if __name__=='__main__':unittest.main()

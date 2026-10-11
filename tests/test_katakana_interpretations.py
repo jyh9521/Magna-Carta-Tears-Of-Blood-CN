@@ -43,7 +43,7 @@ class KatakanaInterpretationTests(unittest.TestCase):
     def test_private_use_with_katakana_still_rejected(self):
         with self.assertRaisesRegex(ValueError,'private-use'):audit_field(*self.fixture('リース\ue000'))
     def test_new_five_profile_preserves_canonical_names_and_controls(self):
-        p=json.loads((ROOT/'locales/zh-CN/proofreading/alternate-source-readings-02.json').read_text('utf8'));self.assertEqual(len(p['entries']),5);self.assertEqual(sum('native_binding' in x for x in p['entries']),4);self.assertEqual([x['target'] for x in p['entries']],['$D06阿玛巴德？$D26 $D06巫女？','$D08莉丝？？$D68 $D15莉丝！','莉丝！','长剑！优质盾！','阿蜜拉女王？']);self.assertTrue(all(x['status']=='reviewed' and x['import_approved'] is False and x['runtime_encoding_verified'] is False for x in p['entries']))
+        p=json.loads((ROOT/'locales/zh-CN/proofreading/alternate-source-readings-02.json').read_text('utf8'));self.assertEqual(len(p['entries']),5);self.assertEqual(sum('native_binding' in x for x in p['entries']),4);self.assertEqual([x['target'] for x in p['entries']],['$D06阿玛巴德？$D26 $D06巫女？','$D08莉丝？？$D68 $D15莉丝！','莉丝！','长剑！优质盾！','阿米拉女王？']);self.assertTrue(all(x['status']=='reviewed' and x['import_approved'] is False and x['runtime_encoding_verified'] is False for x in p['entries']))
     def test_combined_readings_keep_old154_and_add_exact5(self):
         p=ROOT/'locales/zh-CN/proofreading';a=json.loads((p/'alternate-source-readings.json').read_text('utf8'));b=json.loads((p/'alternate-source-readings-02.json').read_text('utf8'));m=merge_profiles([a,b]);self.assertEqual(m['entries'][:154],a['entries']);self.assertEqual(len(m['entries']),159)
     def test_new_fixed_binding_is_physical_record12(self):

@@ -10,8 +10,8 @@ class ConsistencyTests(unittest.TestCase):
     def setUp(self):
         row=field('id','칼린츠'.encode('cp949'),0)
         self.c=dict(source_locale='ko-KR',resources=[dict(entries=[row])])
-        self.b=dict(schema=1,locale='zh-CN',entries=[dict(id='id',source_sha256=row['source_sha256'],target='卡琳兹',status='draft')])
-        self.t=GlossaryTerms();self.t.append(('칼린츠','卡琳兹'))
+        self.b=dict(schema=1,locale='zh-CN',entries=[dict(id='id',source_sha256=row['source_sha256'],target='卡林兹',status='draft')])
+        self.t=GlossaryTerms();self.t.append(('칼린츠','卡林兹'))
     def run_audit(self,**kw):return audit(self.c,[('batch',self.b)],self.t,**kw)
     def test_success_does_not_assert_proofreading(self):
         x=self.run_audit();self.assertEqual(x['summary']['lexical_issues'],0)
@@ -28,12 +28,12 @@ class ConsistencyTests(unittest.TestCase):
     def test_cross_batch_duplicate_rejected(self):
         with self.assertRaises(ValueError):audit(self.c,[('a',self.b),('b',self.b)],self.t)
     def test_script_filter_opt_in(self):
-        self.b['entries'][0]['target']='卡琳兹かな'
+        self.b['entries'][0]['target']='卡林兹かな'
         self.assertFalse(any(i['kind']=='source-script-in-target' for i in self.run_audit()['issues']))
         self.assertTrue(any(i['kind']=='source-script-in-target' for i in self.run_audit(unexpected_script_pattern='[ぁ-ヿ]')['issues']))
     def test_variant_not_automatically_unified(self):
         row=copy.deepcopy(self.c['resources'][0]['entries'][0]);row['id']='id2';self.c['resources'][0]['entries'].append(row)
-        target=copy.deepcopy(self.b['entries'][0]);target.update(id='id2',target='卡琳兹大人');self.b['entries'].append(target)
+        target=copy.deepcopy(self.b['entries'][0]);target.update(id='id2',target='卡林兹大人');self.b['entries'].append(target)
         x=self.run_audit();self.assertEqual(x['summary']['same_source_target_variants'],1)
         self.assertFalse(x['context_variants'][0]['linked_group'])
     def test_character_pronoun_profile_binds_canonical_terms(self):

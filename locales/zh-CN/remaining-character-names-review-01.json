@@ -42,7 +42,7 @@
     {
       "id": "SHIP/00000460.cha/record-index/242/field/0",
       "source_sha256": "dbd57dc2fd4301a0944a45328468285d9a68bc159f9cabf94fd1e608c396686d",
-      "target": "卡琳兹",
+      "target": "卡林兹",
       "status": "reviewed",
       "context": "CHA display-name field0; complete source identity and slot fingerprint retained; project naming decision, not original-kanji claim."
     },

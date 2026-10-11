@@ -42,7 +42,7 @@
     {
       "id": "SHIP/00007460.ecd/slot/5",
       "source_sha256": "21769db8d0eafe239c70930bfbc46415f4634ac7d012e196876e5ff16f989297",
-      "target": "说起来，卡琳兹，刚才在旅馆外，$n联合军的队长正在找你。$n不过我没理他……",
+      "target": "说起来，卡林兹，刚才在旅馆外，$n联合军的队长正在找你。$n不过我没理他……",
       "status": "reviewed",
       "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
     },
@@ -427,7 +427,7 @@
     {
       "id": "SHIP/00011173.ecd/slot/0",
       "source_sha256": "6557458e08961c7f295e8a4b8028514625ca382ef1faba4595bb94dc5b0db3e0",
-      "target": "最了解卡琳兹的人，$n应该是阿格雷安将军吧？",
+      "target": "最了解卡林兹的人，$n应该是阿格雷安将军吧？",
       "status": "reviewed",
       "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
     },
@@ -567,7 +567,7 @@
     {
       "id": "SHIP/00011182.ecd/slot/0",
       "source_sha256": "d17f3fc20a8af0a28fff5d51027fe74cc93af667b2d1356e90e6a100679fc289",
-      "target": "靠我们自己的力量越过格雷顿山脉，$n救出卡琳兹！",
+      "target": "靠我们自己的力量越过格雷顿山脉，$n救出卡林兹！",
       "status": "reviewed",
       "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
     },
@@ -672,7 +672,7 @@
     {
       "id": "SHIP/00011186.ecd/slot/5",
       "source_sha256": "fbcc8e425fc9c7787ea0ca290fac3917a49f4064e90188fc30d9e207d24ef53d",
-      "target": "现在回阿斯蒂内湖。$n带着朱丝蒂娜……$n必须和休戈做个了断。",
+      "target": "现在回阿斯蒂内湖。$n带着朱斯蒂娜……$n必须和休戈做个了断。",
       "status": "reviewed",
       "context": "Story progression hint; all original explicit line-break tokens retained; canonical names checked against glossary; runtime line layout assessed separately."
     },

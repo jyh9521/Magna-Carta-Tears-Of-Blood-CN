@@ -77,7 +77,7 @@
     {
       "id": "SHIP/00000953.itm/record-index/465/field/0",
       "source_sha256": "1ae2d5ba24fca16ab707a4ca8ec5384daea21cd1e236da9073a2389aec8304d6",
-      "target": "阿蜜拉_法杖",
+      "target": "阿米拉_法杖",
       "status": "reviewed",
       "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
     },
@@ -273,7 +273,7 @@
     {
       "id": "SHIP/00001240.tui/record/241/field/0/index/179",
       "source_sha256": "6ae7b44dfeb94bf5cb5a522bb09cf2671912671444db2641e256ca9c5cffc7b8",
-      "target": "卡琳兹_状态说明",
+      "target": "卡林兹_状态说明",
       "status": "reviewed",
       "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
     },
@@ -315,7 +315,7 @@
     {
       "id": "SHIP/00001240.tui/record/247/field/0/index/185",
       "source_sha256": "f5df8e7b723359a2236330de37eb27c85716e4704a27c5f8a929f9c6a71264b2",
-      "target": "朱丝蒂娜_说明",
+      "target": "朱斯蒂娜_说明",
       "status": "reviewed",
       "context": "Complete source-bound display-name/status-description label; development/question markers, underscores, suffix letters and numeric recipe references retained. Character names use canonical glossary, no gender inference. Source record identifiers unchanged; runtime reachability separately assessed."
     },

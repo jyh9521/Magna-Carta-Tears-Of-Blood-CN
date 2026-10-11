@@ -91,7 +91,7 @@
     {
       "id": "SHIP/00003583.cht/slot/12",
       "source_sha256": "459955de7d3cfd91cdd39cf4d020bf70758a256401137cc98feb4d545974035c",
-      "target": "卡琳兹说得没错，一向都是这样。",
+      "target": "卡林兹说得没错，一向都是这样。",
       "status": "reviewed",
       "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
     },
@@ -189,7 +189,7 @@
     {
       "id": "SHIP/00003583.cht/slot/26",
       "source_sha256": "52551fad47bae988c96c861cd89e6e247737564c467f83bfd63cf6a557299bfe",
-      "target": "你还真爱抬杠。$n卡琳兹怎么会是那个意思？",
+      "target": "你还真爱抬杠。$n卡林兹怎么会是那个意思？",
       "status": "reviewed",
       "context": "Camp conversation before the great magic operation; dialogue sequence reviewed as a continuous exchange, protected explicit line breaks retained; runtime layout checked separately."
     },

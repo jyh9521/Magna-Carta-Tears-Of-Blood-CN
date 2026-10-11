@@ -965,7 +965,7 @@
     {
       "id": "SHIP/00002792.tui/record/0/field/0/index/0",
       "source_sha256": "44af1a401b28f2ea3c962306fdb2e074d7be32815498585e7c86f080f3ef6540",
-      "target": "卡琳兹",
+      "target": "卡林兹",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -979,7 +979,7 @@
     {
       "id": "SHIP/00002792.tui/record/48/field/0/index/2",
       "source_sha256": "6dfac9d5f5d553a967d1694c9f6d0bbf883552d6a2edee6026415cf49c038d63",
-      "target": "阿蜜拉·莉丝·莉艾因·杰斯",
+      "target": "阿米拉·莉丝·莉艾因·杰斯",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },
@@ -1049,7 +1049,7 @@
     {
       "id": "SHIP/00002792.tui/record/11/field/0/index/12",
       "source_sha256": "897feb010f7845ac137607f3deab78234043af828f40d52eceab0acdfc9c4fa9",
-      "target": "朱丝蒂娜·伯恩",
+      "target": "朱斯蒂娜·伯恩",
       "status": "reviewed",
       "context": "Source-bound legacy linguistic proofreading: remaining character commentary/interface/menu/opening fields;source IDs/hashes/control ordering retained;unknown speaker gender not inferred from record number;memory-card fragments retain existing cross-field Chinese order without claiming consumer proof;Ija spelling project-normalized to Isha as a high-confidence name decision,not identity/cache merge;linguistic review is not actual font/import/runtime authorization"
     },

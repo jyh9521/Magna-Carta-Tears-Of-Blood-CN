@@ -7,14 +7,14 @@
     {
       "id": "SHIP/00001643.nod/record-index/0/field/1",
       "source_sha256": "b27c1232d6a5a41b8669520375296bc851643f085769520f6ea50ffa3441df6f",
-      "target": "卡琳兹的师父——杰卡尔特之家",
+      "target": "卡林兹的师父——杰卡尔特之家",
       "status": "reviewed",
       "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
     },
     {
       "id": "SHIP/00001643.nod/record-index/1/field/1",
       "source_sha256": "6b06312f3c988e18f42e5996452821ddc5188b9f93fa1ae9f254ea8522927e93",
-      "target": "伊佩莉亚大陆北方，无人能够生活的荒芜之地。",
+      "target": "伊菲利亚大陆北方，无人能够生活的荒芜之地。",
       "status": "reviewed",
       "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
     },
@@ -203,7 +203,7 @@
     {
       "id": "SHIP/00001643.nod/record-index/21/field/1",
       "source_sha256": "9b1d184ea4683ec61c4888030b531b9226b741a315b6b5546a9b52341fc7b290",
-      "target": "伊佩莉亚最大的沙漠",
+      "target": "伊菲利亚最大的沙漠",
       "status": "reviewed",
       "context": "World-map name or place description. Japanese literal question-mark gaps receive context-based project wording, not a claimed restoration of original characters; Gal?t is provisionally rendered Jiaerte. Runtime layout and lookup use assessed separately."
     },

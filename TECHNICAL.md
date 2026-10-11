@@ -584,3 +584,7 @@ Compact object/name references occupy4VM bytes irrespective of their disk compac
 ## stage184 选定默认字体
 
 Verified：A-medium-mixed 两字库由原ISO重新扩展生成，与实验完整字库逐字节相同；原2667 bitmap、全metrics/编码表和 opaque tail 保持。普通Font与两个唯一startup Font副本同步，只改变追加glyph bitmap。相较宋体ISO，62文件仅FILE.AFS内容不同，成员变化限AFSFileIndex.idx、MrtsEngine.u、celfid.lix；非Font包字节、SHIP、LINEAR、影片与ELF未改。1972单元测试及独立回读通过；隔离源码回滚1964通过。PCSX2冷启动执行原ELF的日志属于有限运行证据，不是正文视觉验收。见 DEFAULT_FONT_INTEGRATION.md。
+
+## stage187 同长度术语替换
+
+Verified：四名新编码均已在既有映射中，编码长度分别6/8/6/8字节保持。280SHIP资源的627个物理词串仅改名称字节，FPB原索引/窗口/长度不变，固定槽几何及控制不变；FILE七个完整缓存副本同步35处。独立实际ISO回读验证627处新增新名与全部旧名零残留、缓存零残留；MrtsEngine、字库、LINEAR/ELF及42部非目标影片保持。非全游戏动态显示证明。详见 docs/TERMINOLOGY_REVISION.md。

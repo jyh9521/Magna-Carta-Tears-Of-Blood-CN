@@ -166,14 +166,14 @@ class StoryGapContextTests(unittest.TestCase):
     def test_husband_reference_and_queen_health_are_not_swapped(self):
         rows = {e['id']: e['target'] for e in self.batch()}
         self.assertIn('丈夫', rows['SHIP/00015228.fpb/seq/12'])
-        self.assertIn('阿蜜拉女王的健康', rows['SHIP/00015223.fpb/seq/26'])
+        self.assertIn('阿米拉女王的健康', rows['SHIP/00015223.fpb/seq/26'])
         self.assertTrue(rows['SHIP/00015223.fpb/seq/26'].endswith('？'))
 
     def test_dream_man_and_queen_sister_referents(self):
         rows = {e['id']: e['target'] for e in self.batch()}
         self.assertIn('男人', rows['SHIP/00015228.fpb/seq/30'])
         self.assertIn('他', rows['SHIP/00015228.fpb/seq/31'])
-        self.assertIn('阿蜜拉女王', rows['SHIP/00015232.fpb/seq/25'])
+        self.assertIn('阿米拉女王', rows['SHIP/00015232.fpb/seq/25'])
         self.assertIn('妹妹', rows['SHIP/00015232.fpb/seq/25'])
         self.assertEqual(rows['SHIP/00015232.fpb/seq/28'], '她不只是一位大巫女。')
 

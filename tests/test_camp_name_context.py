@@ -130,7 +130,7 @@ class CampNameContextTests(unittest.TestCase):
         rows = {r['id']: r['target'] for r in b['entries']}
         self.assertIn('她一定很爱他', rows['SHIP/00012038.cht/slot/49'])
         self.assertIn('她被人误会', rows['SHIP/00012039.cht/slot/18'])
-        self.assertIn('卡琳兹', rows['SHIP/00012039.cht/slot/19'])
+        self.assertIn('卡林兹', rows['SHIP/00012039.cht/slot/19'])
         self.assertIn('信任他', rows['SHIP/00012039.cht/slot/19'])
 
     def test_rianna_letter_and_calintz_response_controls(self):

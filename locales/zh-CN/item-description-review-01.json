@@ -1659,14 +1659,14 @@
     {
       "id": "SHIP/00000953.itm/record-index/236/field/1",
       "source_sha256": "9c651360600ff4339cd8eb4f7556a4202f6529cfca660decd814430eac50e05b",
-      "target": "记载伊佩莉亚地理的书",
+      "target": "记载伊菲利亚地理的书",
       "status": "reviewed",
       "context": "ITM natural-language description; each source sentence reviewed for equipment effects, immunity versus attack status, ally/enemy and one/all scope, HP, experience multipliers and canonical names. Source ID/hash retained; visibility and actual mapped import separately assessed."
     },
     {
       "id": "SHIP/00000953.itm/record-index/237/field/1",
       "source_sha256": "c751bd26a1c191a40b2a1c99751810b63c4da7e195c83e0e1373275afc7dcc96",
-      "target": "记载伊佩莉亚气象的书",
+      "target": "记载伊菲利亚气象的书",
       "status": "reviewed",
       "context": "ITM natural-language description; each source sentence reviewed for equipment effects, immunity versus attack status, ally/enemy and one/all scope, HP, experience multipliers and canonical names. Source ID/hash retained; visibility and actual mapped import separately assessed."
     },
@@ -2961,7 +2961,7 @@
     {
       "id": "SHIP/00000953.itm/record-index/471/field/1",
       "source_sha256": "2d68ccb07c02311607ed393389a3e2d389978e4c5b1834d87d71d86b8d4e31f4",
-      "target": "与卡琳兹持有的手镯形状相同",
+      "target": "与卡林兹持有的手镯形状相同",
       "status": "reviewed",
       "context": "ITM natural-language description; each source sentence reviewed for equipment effects, immunity versus attack status, ally/enemy and one/all scope, HP, experience multipliers and canonical names. Source ID/hash retained; visibility and actual mapped import separately assessed."
     },
