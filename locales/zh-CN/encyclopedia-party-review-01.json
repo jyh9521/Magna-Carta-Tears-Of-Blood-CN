@@ -21,14 +21,14 @@
     {
       "id": "SHIP/00003591.fds/record-index/0/field/2",
       "source_sha256": "bcfb591c3ddd0f22e8b886a39c086e456f72ea28f1905a69d91ed8c2181f94c1",
-      "target": "有点累了",
+      "target": "有点累了。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/0/field/3",
       "source_sha256": "93fa788d350f3b32418a3bde1746975d580ee25d4af9ce071f2aaf5afbdb2ed9",
-      "target": "别管我",
+      "target": "别管我。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -42,21 +42,21 @@
     {
       "id": "SHIP/00003591.fds/record-index/1/field/1",
       "source_sha256": "2b95e4f5820ece62449c88df8637bb6f42cf762274259cac27e4447e0a815ace",
-      "target": "这点程度很轻松",
+      "target": "这点程度很轻松。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/1/field/2",
       "source_sha256": "3151ef6e826b74e096f15d71973f4507ee996257bffa1db6502eaf2b2f3a9b79",
-      "target": "还算过得去吧",
+      "target": "还算过得去吧。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/1/field/3",
       "source_sha256": "3d6faacd47a0e6a6895103e73a60c5920da2a9be06bf3632e9256bead532307e",
-      "target": "今天没什么干劲",
+      "target": "今天没什么干劲。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -70,7 +70,7 @@
     {
       "id": "SHIP/00003591.fds/record-index/2/field/1",
       "source_sha256": "6a6a4a6f97f0880dbf2fd437228496654f8352fb0a213b3757bd21d2eac0e50f",
-      "target": "反正也没别的事可做",
+      "target": "反正也没别的事可做。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -84,35 +84,35 @@
     {
       "id": "SHIP/00003591.fds/record-index/2/field/3",
       "source_sha256": "8a25fcae45261d3fb9c9eb5415b9efba7f8089ab5c49acf31b1d3a1fd1972f09",
-      "target": "别来烦我",
+      "target": "别来烦我。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/3/field/0",
       "source_sha256": "86c8e19fcbf58b458212f5781bc1236d83dc295dd3c7a443c8a4f3b1c55a0ed1",
-      "target": "今天心情不错",
+      "target": "今天心情不错。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/3/field/1",
       "source_sha256": "0070ec7e6700086e06ea3fcfd005094446fa9bc148c3b7f948a3f102b02a9ef2",
-      "target": "只要和大家在一起就没问题",
+      "target": "只要和大家在一起就没问题。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/3/field/2",
       "source_sha256": "c17d1f5786176cdcf7c9cff2a872d47a78d8645f64c233ae4272eceb1ef77303",
-      "target": "总觉得提不起劲",
+      "target": "总觉得提不起劲。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/3/field/3",
       "source_sha256": "01f86f0b93a85fe7923e104bba79fe2a732864e79b9477f5e2aed3e7e48b40e1",
-      "target": "今天就到此为止吧",
+      "target": "今天就到此为止吧。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -133,7 +133,7 @@
     {
       "id": "SHIP/00003591.fds/record-index/4/field/2",
       "source_sha256": "4af626f0d8e13aa4dd4544dbfa4ae80236e39c70f3c524b9a53e53a3b59154da",
-      "target": "浑身酸痛啊",
+      "target": "浑身酸痛啊。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -147,14 +147,14 @@
     {
       "id": "SHIP/00003591.fds/record-index/5/field/0",
       "source_sha256": "b39c192e8212b58e0d8ea2fc727bda260d0412b8fc56099ec4c8dfa694c8a636",
-      "target": "现在似乎正是好时机",
+      "target": "现在似乎正是好时机。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/5/field/1",
       "source_sha256": "740872b9c7faac677194fe7e3cae1fbeacdc5f3f7781441fc31a1756a85b8365",
-      "target": "为了任务的话",
+      "target": "为了任务的话。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -168,7 +168,7 @@
     {
       "id": "SHIP/00003591.fds/record-index/5/field/3",
       "source_sha256": "ee0ab0b77aac86c9cad9290a0883bcf0e395b29e470a0871d58d7b28565653a4",
-      "target": "身体状况不太好",
+      "target": "身体状况不太好。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -189,7 +189,7 @@
     {
       "id": "SHIP/00003591.fds/record-index/6/field/2",
       "source_sha256": "99c201c44c310bc1288ee54695763d05aaf89b3d6a74d436ca046cbdc7525479",
-      "target": "开始有点饿了",
+      "target": "开始有点饿了。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -231,7 +231,7 @@
     {
       "id": "SHIP/00003591.fds/record-index/8/field/0",
       "source_sha256": "f36a48c4a0c302bc63a3d4bc7d93b59632c435d9289b9e81160a0cb4823f5be4",
-      "target": "今天的心情棒极了",
+      "target": "今天的心情棒极了。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
@@ -259,14 +259,14 @@
     {
       "id": "SHIP/00003591.fds/record-index/9/field/0",
       "source_sha256": "d8b2f54164953b0474798ea45e42fa4a39d084c6ff13247d4312855c96f34a8a",
-      "target": "一起走吧",
+      "target": "一起走吧。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },
     {
       "id": "SHIP/00003591.fds/record-index/9/field/1",
       "source_sha256": "1457d83d7d12272cbe9fa5532b252c00f2cc314c1163ff146ea1fa087bf52b46",
-      "target": "现在还不是放弃的时候",
+      "target": "现在还不是放弃的时候。",
       "status": "reviewed",
       "context": "Monster encyclopedia description or party readiness line; protected line breaks retained; source question-mark damage excluded; runtime layout assessed separately."
     },

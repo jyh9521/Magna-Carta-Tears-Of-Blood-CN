@@ -32,11 +32,11 @@ class UIPunctuationTests(unittest.TestCase):
    with self.assertRaises(ValueError):validated_empty_suffix(dict(source,**{k:v}),row)
  def review(self):return json.loads((ROOT/'locales/zh-CN/proofreading/ui-punctuation-review.json').read_text('utf8'))
  def test_every_changed_field_has_reviewed_exact_delta(self):
-  rows=self.review();self.assertEqual(len(rows),636);self.assertEqual(len({x['id'] for x in rows}),636)
+  rows=self.review();self.assertEqual(len(rows),592);self.assertEqual(len({x['id'] for x in rows}),592)
   for q in rows:self.assertEqual(q['status'],'reviewed');self.assertEqual(q['target'],omit_period(q['previous_target']));self.assertRegex(q['source_sha256'],r'^[a-f0-9]{64}$')
  def test_save_empty_message(self):
   rows=json.loads((ROOT/'locales/zh-CN/opening-review-01.json').read_text('utf8'))['entries'];self.assertEqual(next(e['target'] for e in rows if '/record/176/' in e['id']),'没有存档')
- def test_all_original_movie_text_unchanged_by_ui_profile(self):self.assertFalse(any('.fpb/' in q['id'] or '.cht/' in q['id'] or '00014107.tui' in q['id'] for q in self.review()))
+ def test_all_original_movie_text_unchanged_by_ui_profile(self):self.assertFalse(any('.fpb/' in q['id'] or '.cht/' in q['id'] or '.ecd/' in q['id'] or '.fds/' in q['id'] or '00014107.tui' in q['id'] for q in self.review()))
  def test_composed_messages_retain_exact_fragments(self):
   rows=json.loads((ROOT/'locales/zh-CN/opening-review-01.json').read_text('utf8'))['entries'];by={e['id']:e for e in rows};p=json.loads((ROOT/'locales/zh-CN/proofreading/ui-punctuation-compositions.json').read_text('utf8'))
   self.assertEqual(len(p['groups']),7)

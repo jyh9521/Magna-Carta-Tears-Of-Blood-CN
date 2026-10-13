@@ -1,0 +1,442 @@
+[
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/0/field/2",
+    "source_sha256": "bcfb591c3ddd0f22e8b886a39c086e456f72ea28f1905a69d91ed8c2181f94c1",
+    "role": "narrative",
+    "previous_target": "有点累了",
+    "target": "有点累了。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/0/field/3",
+    "source_sha256": "93fa788d350f3b32418a3bde1746975d580ee25d4af9ce071f2aaf5afbdb2ed9",
+    "role": "narrative",
+    "previous_target": "别管我",
+    "target": "别管我。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/1/field/1",
+    "source_sha256": "2b95e4f5820ece62449c88df8637bb6f42cf762274259cac27e4447e0a815ace",
+    "role": "narrative",
+    "previous_target": "这点程度很轻松",
+    "target": "这点程度很轻松。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/1/field/2",
+    "source_sha256": "3151ef6e826b74e096f15d71973f4507ee996257bffa1db6502eaf2b2f3a9b79",
+    "role": "narrative",
+    "previous_target": "还算过得去吧",
+    "target": "还算过得去吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/1/field/3",
+    "source_sha256": "3d6faacd47a0e6a6895103e73a60c5920da2a9be06bf3632e9256bead532307e",
+    "role": "narrative",
+    "previous_target": "今天没什么干劲",
+    "target": "今天没什么干劲。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/2/field/1",
+    "source_sha256": "6a6a4a6f97f0880dbf2fd437228496654f8352fb0a213b3757bd21d2eac0e50f",
+    "role": "narrative",
+    "previous_target": "反正也没别的事可做",
+    "target": "反正也没别的事可做。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/2/field/3",
+    "source_sha256": "8a25fcae45261d3fb9c9eb5415b9efba7f8089ab5c49acf31b1d3a1fd1972f09",
+    "role": "narrative",
+    "previous_target": "别来烦我",
+    "target": "别来烦我。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/3/field/0",
+    "source_sha256": "86c8e19fcbf58b458212f5781bc1236d83dc295dd3c7a443c8a4f3b1c55a0ed1",
+    "role": "narrative",
+    "previous_target": "今天心情不错",
+    "target": "今天心情不错。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/3/field/1",
+    "source_sha256": "0070ec7e6700086e06ea3fcfd005094446fa9bc148c3b7f948a3f102b02a9ef2",
+    "role": "narrative",
+    "previous_target": "只要和大家在一起就没问题",
+    "target": "只要和大家在一起就没问题。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/3/field/2",
+    "source_sha256": "c17d1f5786176cdcf7c9cff2a872d47a78d8645f64c233ae4272eceb1ef77303",
+    "role": "narrative",
+    "previous_target": "总觉得提不起劲",
+    "target": "总觉得提不起劲。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/3/field/3",
+    "source_sha256": "01f86f0b93a85fe7923e104bba79fe2a732864e79b9477f5e2aed3e7e48b40e1",
+    "role": "narrative",
+    "previous_target": "今天就到此为止吧",
+    "target": "今天就到此为止吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/4/field/2",
+    "source_sha256": "4af626f0d8e13aa4dd4544dbfa4ae80236e39c70f3c524b9a53e53a3b59154da",
+    "role": "narrative",
+    "previous_target": "浑身酸痛啊",
+    "target": "浑身酸痛啊。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/5/field/0",
+    "source_sha256": "b39c192e8212b58e0d8ea2fc727bda260d0412b8fc56099ec4c8dfa694c8a636",
+    "role": "narrative",
+    "previous_target": "现在似乎正是好时机",
+    "target": "现在似乎正是好时机。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/5/field/1",
+    "source_sha256": "740872b9c7faac677194fe7e3cae1fbeacdc5f3f7781441fc31a1756a85b8365",
+    "role": "narrative",
+    "previous_target": "为了任务的话",
+    "target": "为了任务的话。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/5/field/3",
+    "source_sha256": "ee0ab0b77aac86c9cad9290a0883bcf0e395b29e470a0871d58d7b28565653a4",
+    "role": "narrative",
+    "previous_target": "身体状况不太好",
+    "target": "身体状况不太好。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/6/field/2",
+    "source_sha256": "99c201c44c310bc1288ee54695763d05aaf89b3d6a74d436ca046cbdc7525479",
+    "role": "narrative",
+    "previous_target": "开始有点饿了",
+    "target": "开始有点饿了。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/8/field/0",
+    "source_sha256": "f36a48c4a0c302bc63a3d4bc7d93b59632c435d9289b9e81160a0cb4823f5be4",
+    "role": "narrative",
+    "previous_target": "今天的心情棒极了",
+    "target": "今天的心情棒极了。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/9/field/0",
+    "source_sha256": "d8b2f54164953b0474798ea45e42fa4a39d084c6ff13247d4312855c96f34a8a",
+    "role": "narrative",
+    "previous_target": "一起走吧",
+    "target": "一起走吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00003591.fds/record-index/9/field/1",
+    "source_sha256": "1457d83d7d12272cbe9fa5532b252c00f2cc314c1163ff146ea1fa087bf52b46",
+    "role": "narrative",
+    "previous_target": "现在还不是放弃的时候",
+    "target": "现在还不是放弃的时候。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007460.ecd/slot/0",
+    "source_sha256": "06eaefa3bdc943894c92cafe609b416fdcf574fd9511661cafdb79d5d3f6f8e1",
+    "role": "narrative",
+    "previous_target": "赶快离开这个洞窟吧",
+    "target": "赶快离开这个洞窟吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007460.ecd/slot/6",
+    "source_sha256": "e2c061abb8f6f9c03f90be7663a773b80e150894ef9f238734135569fe937c50",
+    "role": "narrative",
+    "previous_target": "快去救巫师吧",
+    "target": "快去救巫师吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007460.ecd/slot/9",
+    "source_sha256": "efbc5ce69f7b3591d499827353f25263eac3dba265a6063d3060537fbce3de01",
+    "role": "narrative",
+    "previous_target": "去旅馆给阿泽尔治疗",
+    "target": "去旅馆给阿泽尔治疗。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007500.ecd/slot/0",
+    "source_sha256": "96c05a0c420c30e211789b5fe18d4d1e546dbb47da49c7a9ae37d070c1022f54",
+    "role": "narrative",
+    "previous_target": "快回血泪总部吧",
+    "target": "快回血泪总部吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007500.ecd/slot/8",
+    "source_sha256": "93c4ccdff246e99be1cfaeab39d01fcba68dcc47a0e26a3137025379c2192b6b",
+    "role": "narrative",
+    "previous_target": "去二楼拜见$n拉德琳娜大人吧",
+    "target": "去二楼拜见$n拉德琳娜大人吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007500.ecd/slot/9",
+    "source_sha256": "623710249db54c83f481b445bb0e964f16a1571743b2e2697bc4a7f1aeeadd54",
+    "role": "narrative",
+    "previous_target": "快用通讯器向蕾哈丝$n报告现在的情况吧",
+    "target": "快用通讯器向蕾哈丝$n报告现在的情况吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00007501.ecd/slot/2",
+    "source_sha256": "c72726083434469606bfdef67027410386b6f2408c041a32063117d4d3eb4c74",
+    "role": "narrative",
+    "previous_target": "快回布伦先生和莉丝$n所在的房间吧",
+    "target": "快回布伦先生和莉丝$n所在的房间吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00008339.ecd/slot/1",
+    "source_sha256": "eb662131f02d97a6ea8cfaf5e1c059ce01ec4be8c7102ec09630d0939a2e5e0f",
+    "role": "narrative",
+    "previous_target": "快离开亚逊罗文吧",
+    "target": "快离开亚逊罗文吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00010015.ecd/slot/2",
+    "source_sha256": "82fb17984e099403c4b64a543443dff909b3c2e03623519453a0578584b03980",
+    "role": "narrative",
+    "previous_target": "刚才我看到一个小孩$n拿着奇怪的鳃",
+    "target": "刚才我看到一个小孩$n拿着奇怪的鳃。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011167.ecd/slot/4",
+    "source_sha256": "b047d4ea3a069a50af98e2aa500695bbf8697dcd91e065f229d89b628d298bde",
+    "role": "narrative",
+    "previous_target": "先离开亚逊罗文吧",
+    "target": "先离开亚逊罗文吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011169.ecd/slot/1",
+    "source_sha256": "1245257b23d8341c63b6aed9aee284b299a7c813bc070d1c5c3119b2a2bbb71c",
+    "role": "narrative",
+    "previous_target": "乘罗斯蒂28号去北冰原吧",
+    "target": "乘罗斯蒂28号去北冰原吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011169.ecd/slot/3",
+    "source_sha256": "877d3c5eef05fe86528dd4593fb0fdcf529d5e6ad7e6a62efd48cb400c5b630f",
+    "role": "narrative",
+    "previous_target": "快把这位假扮拉德琳娜大人的人$n送到风月林去吧",
+    "target": "快把这位假扮拉德琳娜大人的人$n送到风月林去吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011169.ecd/slot/4",
+    "source_sha256": "ebe9b5d92b08e372cc71e9ba68969636582cbd2a4dfdb2879a70e9240595b217",
+    "role": "narrative",
+    "previous_target": "去会议室和血泪的伙伴们会合吧",
+    "target": "去会议室和血泪的伙伴们会合吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011172.ecd/slot/1",
+    "source_sha256": "23dc57c98b83028d45904806b19d26f78af480bc21922fd14b34b4f324b478bd",
+    "role": "narrative",
+    "previous_target": "把含有江之卡恩的物品带回血泪吧",
+    "target": "把含有江之卡恩的物品带回血泪吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011172.ecd/slot/2",
+    "source_sha256": "bd1570277ef71c7d80467bc878a60ee21d1a7b378870ce7a36f29edabe14fbf7",
+    "role": "narrative",
+    "previous_target": "打倒雷斯蒂森林里的龙之弗雷昂吧",
+    "target": "打倒雷斯蒂森林里的龙之弗雷昂吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011172.ecd/slot/4",
+    "source_sha256": "c3ac2bec629d2cadcbeffe5dac5341794c0e7eb1634b649626566905ae43e115",
+    "role": "narrative",
+    "previous_target": "去拜鲁克斯调查水之碎片吧",
+    "target": "去拜鲁克斯调查水之碎片吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011172.ecd/slot/5",
+    "source_sha256": "16f6d9175e4fa9f96d9e66fd5e11d7093a5c9e68e83e219cc76a3c9405300b88",
+    "role": "narrative",
+    "previous_target": "通过通讯联系蕾哈丝小姐吧",
+    "target": "通过通讯联系蕾哈丝小姐吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011172.ecd/slot/7",
+    "source_sha256": "474719dd40099d764f0d96972177bcd58f1aab5523d2eea91a7108201b7908a7",
+    "role": "narrative",
+    "previous_target": "得回总部了解受损情况",
+    "target": "得回总部了解受损情况。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011175.ecd/slot/0",
+    "source_sha256": "e7dc5d9c4ad469f5c3012e0602c5c74c7424b823a7b63cca3a9bdba82003ffbe",
+    "role": "narrative",
+    "previous_target": "快去迎接阿伦大人吧",
+    "target": "快去迎接阿伦大人吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011175.ecd/slot/1",
+    "source_sha256": "3c718c8777d8721dae7104cdd7c19bf8977bb39d779dbde0783a41e00affbdaa",
+    "role": "narrative",
+    "previous_target": "把阿伦大人$n送到阿玛巴德大神殿吧",
+    "target": "把阿伦大人$n送到阿玛巴德大神殿吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011176.ecd/slot/1",
+    "source_sha256": "7591146606aefb21e658d2874174c350c5f2caab1863822ee46b42d35d268504",
+    "role": "narrative",
+    "previous_target": "我们也该$n回阿玛巴德大神殿了",
+    "target": "我们也该$n回阿玛巴德大神殿了。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011183.ecd/slot/1",
+    "source_sha256": "8462dd86ef97d3f983ce380c0953aa0f8b6119aaf7ec5f0ab897fee065f15a3d",
+    "role": "narrative",
+    "previous_target": "再去一趟图尔博据点吧",
+    "target": "再去一趟图尔博据点吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011183.ecd/slot/4",
+    "source_sha256": "2f7c0fb863b30eb5eba5ae24d5a0699c25ab2f7e34c1cd9436c710bf6d05beb9",
+    "role": "narrative",
+    "previous_target": "去阿斯蒂内湖吧",
+    "target": "去阿斯蒂内湖吧。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011186.ecd/slot/0",
+    "source_sha256": "59bb23bfb681e317c347c9358259396770e252570ad1d148387e614e125d34f0",
+    "role": "narrative",
+    "previous_target": "看来得先去塞尔顿山脉的$n图尔博据点调查一下",
+    "target": "看来得先去塞尔顿山脉的$n图尔博据点调查一下。",
+    "changed": true,
+    "status": "reviewed"
+  },
+  {
+    "batch": "work/visible-text-175/rebuild1/preflight/selected-copy-batch.json",
+    "id": "SHIP/00011186.ecd/slot/3",
+    "source_sha256": "332b63ecf713be69366f075a471c52cf352c61e49fa09270397456e840ea5795",
+    "role": "narrative",
+    "previous_target": "向师父展示我领悟到的东西吧",
+    "target": "向师父展示我领悟到的东西吧。",
+    "changed": true,
+    "status": "reviewed"
+  }
+]
