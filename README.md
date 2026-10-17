@@ -1,38 +1,85 @@
-# 真名法典：真红的圣痕 — 本地化工程
+# 真名法典：真红的圣痕 简体中文汉化
 
-Magna Carta: Tears of Blood / 마그나카르타 진홍의 성흔，PS2，目标简体中文 zh-CN。
+PS2 版《Magna Carta: Tears of Blood》（마그나카르타 진홍의 성흔）的简体中文汉化与可重建本地化工具链。
 
-当前：已生成简体中文集成测试镜像，正在进行实际游戏验收，尚非正式发布版。
+当前目标语言为 `zh-CN`。仓库保留结构化译文、字库配置、资源重建工具与技术研究，技术层尽量保持语言无关，便于后续维护与其他语言复用。
 
-现行译名：卡林兹、朱斯蒂娜、阿米拉、伊菲利亚；627处普通文本及35处缓存更新，4部相关动画重制。[名词修订与验证](docs/TERMINOLOGY_REVISION.md)。
+## 支持版本与当前状态
 
-- 14683 条已校对译文完成回填，名词表 2021 项；两套字库各 5133 字形。
-- 25 部已验收中文字幕影片已整合，21 部无需中文字幕的影片保持原版。
-- 顶部六标签、整理与魅力完成图片汉化；默认采用思源黑体 Medium 的 A-medium-mixed，保留宋体回退版；[字体集成](docs/DEFAULT_FONT_INTEGRATION.md)。
-- 标题菜单与小标题完成中文图片替换；3631 个 UI 字段全量核查，修正 636 处句末标点。
-- 1998 项自动测试通过（含高清贴图及名词修订验证），已有 ISO9660/UDF 双视图回读与非目标字节验证。完整流程、动态排版、战斗与正常存读档仍需实际游戏测试；静态通过不代表全游戏零漏译或通关验收。
+基于韩版 **SCKA-20043**，原版文件身份由 [版本配置](profiles/scka-20043.json) 锁定。美版与日版不作为当前构建目标。
 
-本地测试镜像位于 `build/test-iso/Magna-Carta-zh-CN-test.iso`。更新镜像后完全关闭游戏并冷启动，不加载旧即时存档。[测试内容与镜像身份](docs/TEST_ISO.md) · [标题与 UI 修正](docs/UI_TITLE_REVISION.md)
+**简体中文集成测试镜像已生成，正在进行实际游戏验收，尚非正式发布版。**
 
-仓库提供译文数据、字库配置、工具和技术文档，不提供完整游戏镜像。构建需自行提供受支持的韩版原始文件；参见 [构建说明](BUILDING.md)。现阶段构建链中仍有已记录的阶段输入与本地审计产物，尚未整理为单命令发布构建。
+- **文本**：14683 条已校对译文完成回填，名词表 2021 项；现行译名为卡林兹、朱斯蒂娜、阿米拉、伊菲利亚。
+- **字库**：两套字库各 5133 字形，默认采用思源黑体 Medium 的 `A-medium-mixed` 方案；宋体方案的配置与构建记录保留。
+- **图片文字**：标题菜单、小标题、顶部六标签，以及整理、魅力等界面图片已汉化；3631 个 UI 字段完成核查，修正 636 处句末标点。
+- **动画字幕**：25 部中文字幕影片已整合，并完成结束码与时间戳的无损修复；21 部无需中文字幕的影片保持原版。
+- **验证**：已有自动化测试、ISO9660/UDF 双视图回读与非目标字节验证。完整流程、动态排版、战斗与正常存读档仍需实际游戏测试。
 
-- [文本目录与数量](docs/TEXT_CATALOG.md) · [统一术语表](GLOSSARY.md) · [思源黑体与测试镜像](docs/SOURCE_HAN_FONT.md)
-- [开场与存档UI试译](docs/QA_OPENING_TRIAL.md)
-- [第一阶段研究与证据](docs/PHASE1_RESEARCH.md)
-- [开发与测试进展](docs/STATUS.md) · [单字PoC验收](docs/QA_GLYPH_POC.md) · [版本管理](docs/VERSIONING.md)
-- [单姓名候选验收](docs/QA_NAME_POC.md) · [新增槽PoC验收](docs/QA_EXPANDED_POC.md) · [一键构建与独立验证](docs/POC_PIPELINE.md)
-- [小字集PoC测试步骤](docs/QA_TEXT_POC.md) · [新增字库实验与试译门禁](docs/FONT_EXPANSION.md)
-- [复现研究](BUILDING.md) · [技术](TECHNICAL.md) · [格式](docs/FILE_FORMATS.md)
-- [数据设计](TRANSLATING.md) · [陷阱](docs/PITFALLS.md) · [未验收项目](docs/KNOWN_ISSUES.md)
-- [许可与来源](LICENSING.md)
+结构化文本回填和静态验证通过，不等于全游戏零漏译或完整通关验收。详细范围见 [测试镜像说明](docs/TEST_ISO.md) 与 [已知问题及验收记录](docs/KNOWN_ISSUES.md)；文档中的早期阶段记录不代表当前构建状态。
 
-基于 [soyjxck 的上游 undub 项目](https://github.com/soyjxck/magna-carta-tears-of-blood-undub)，保留Git历史及AFS/ISO/文本/SFD实现。
-英文CG字幕由GXZ95贡献，SofDec组件沿用sfd-muxer（源自nebulas-star/SFD_Muxer）。
-当前研究输入仅包含韩版ISO；优先研究韩版runtime+中文字库，复用上游工具，不要求先取得美日ISO。
-本地ISO/ELF/AFS/SFD/fonts及输出不进入Git。构建需要外部提供原版输入；所有实验输出写入work/build。
+## 获取与使用
 
-[字形栅格化离线实验](docs/FONT_RENDER_EXPERIMENT.md) 已完成；用户选定 A-medium-mixed 后，其配置与两字库已正式集成到当前测试ISO，见[默认字体集成](docs/DEFAULT_FONT_INTEGRATION.md)。
+目前以本地集成测试为主，尚未提供面向玩家的正式发行包。仓库提供源码、译文、配置和技术文档，不包含完整游戏镜像；构建需自行提供受支持的韩版原始文件。
 
-[本地存储维护](docs/LOCAL_STORAGE_MAINTENANCE.md)：仅保留当前测试镜像与必要回退、权威影片输入及预览；旧媒体和完整回滚副本不长期堆积。生成资产不上传仓库。
+当前本地测试镜像：
 
-[韩版复用美版高清贴图](docs/HD_TEXTURE_PACK.md)：提供纹理键规范化与本地安装工具；已验证启动阶段 4 个替换键，不宣称全游戏贴图覆盖。高清包不进入仓库，也不写入 ISO。
+```text
+build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso
+```
+
+首次整体验收请完全关闭游戏后，通过 PCSX2 冷启动该镜像，不加载旧版本的即时存档。依次检查标题与新游戏、角色与道具菜单、动画播放及跳过、战斗、正常保存和读取；反馈时附上镜像身份、模拟器版本、问题场景、复现操作及截图。
+
+镜像内容、历史版本与身份记录见 [测试镜像说明](docs/TEST_ISO.md)。其中旧文件名和旧哈希属于对应阶段，不应混用。
+
+### 可选高清贴图
+
+提供美版高清贴图在韩版中的纹理键规范化与本地安装工具，独立于汉化 ISO。已验证启动阶段的 4 个替换键，不代表全游戏贴图覆盖；贴图包不随仓库分发。详见 [高清贴图复用](docs/HD_TEXTURE_PACK.md)。
+
+## 从源码重建
+
+构建依赖受支持的原版输入、外部字体及相应工具。现阶段仍有已记录的阶段输入与本地审计产物依赖，尚未整理成干净检出后即可运行的单命令发布构建。
+
+- [构建说明](BUILDING.md)：依赖、输入身份与各阶段构建方法。
+- [字库方案与默认字体集成](docs/DEFAULT_FONT_INTEGRATION.md)：字体配置、重建与验证范围。
+- [PoC 构建与独立验证](docs/POC_PIPELINE.md)：早期最小验证链，不是当前完整汉化版的一键发布入口。
+- [本地存储与构建保留](docs/BUILD_STORAGE.md)：当前输出、必要输入和历史产物的保留及恢复边界。
+
+构建输出写入 `work/`、`build/` 等忽略目录。原版 ISO、ELF、完整 AFS、影片及生成的游戏资源不进入 Git。
+
+## 仓库结构
+
+| 路径 | 内容 |
+| --- | --- |
+| `locales/zh-CN/` | 结构化译文、校对记录与语言配置 |
+| `GLOSSARY.md` | 项目统一术语表 |
+| `profiles/` | 受支持版本的指纹与资源约束 |
+| `tools/`、`lib/` | 提取、校验、字库生成与资源重建工具 |
+| `subs/` | 上游字幕及相关素材说明，来源与许可单独保留 |
+| `assets/` | 字体来源、许可与项目配置素材 |
+| `tests/` | 自动化验证与回归测试 |
+| `docs/` | 格式研究、技术发现、构建与验收记录 |
+| `work/`、`build/` | 本地工作数据与生成物，不随源码分发 |
+
+## 参与翻译与维护
+
+翻译与校对以 [统一术语表](GLOSSARY.md) 和 [翻译说明](TRANSLATING.md) 为准。保留源标识、控制码、占位符和资源引用，通过验证后再进入构建流程；现行四项译名的修订范围见 [名词修订与验证](docs/TERMINOLOGY_REVISION.md)。
+
+语言数据与通用工具尽量分离。新增语言需要对应译文、字体覆盖与游戏内验收，不代表更换目录名即可完成适配。
+
+## 开发与测试文档
+
+- [技术说明](TECHNICAL.md) · [文件格式](docs/FILE_FORMATS.md) · [陷阱与失败记录](docs/PITFALLS.md)
+- [文本目录与覆盖范围](docs/TEXT_CATALOG.md) · [标题与 UI 修正](docs/UI_TITLE_REVISION.md)
+- [开发与测试进展](docs/STATUS.md) · [未验收项目](docs/KNOWN_ISSUES.md)
+- [版本管理](docs/VERSIONING.md) · [许可与来源](LICENSING.md)
+
+## 上游与致谢
+
+本项目基于 [soyjxck/magna-carta-tears-of-blood-undub](https://github.com/soyjxck/magna-carta-tears-of-blood-undub)，保留上游 Git 历史及 AFS、ISO、文本与 SFD 实现的贡献归属。上游英文 CG 字幕由 **GXZ95** 贡献；SofDec 组件沿用 **sfd-muxer**，来源为 **nebulas-star/SFD_Muxer**。
+
+中文字体采用 Adobe 思源字体，遵循其 SIL OFL 许可；具体版本、来源与配置见 [字体说明](docs/SOURCE_HAN_FONT.md) 和 [许可说明](LICENSING.md)。
+
+## 许可
+
+本项目自编代码与文档适用 [MIT](LICENSE)，原创译文按 [译文许可](LICENSE-translations.md) 授权。上游代码、字幕、字体及依赖分别遵循自身许可，根目录许可不覆盖其他作者的作品或原游戏资源。上游授权边界及发布前待确认事项见 [LICENSING.md](LICENSING.md)。
