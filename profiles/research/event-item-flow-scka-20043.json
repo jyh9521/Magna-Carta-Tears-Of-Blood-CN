@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "elf_sha256": "35cc6048f0e1f68d06bf3e515b99de3263e5092be62d6215cff5e74aa0ea15f0",
+  "ship_sha256": "09d2e4d1f72e40b5d12da7b872226c446a21dde12bf1601bb4dfe58887a5d33a",
+  "resources": {
+    "00005705.fld": {
+      "sha256": "2850dbdece6096429d130262e0b84be1a076941529aa5881a8db9dcb15d29678",
+      "event_offset": 17238,
+      "version": 35
+    },
+    "00006790.fld": {
+      "sha256": "2bbaa6b0fbab0a9dc0a713b73a65b42ab0b003e78181d8cf805eed6f0da6ba15",
+      "event_offset": 156,
+      "version": 35
+    },
+    "00005946.fld": {
+      "sha256": "0909e4cb7b032303967552dd8d509116224b778a2118f8b6e856acd209beaf9c",
+      "event_offset": 534,
+      "version": 35
+    },
+    "00001675.fld": {
+      "sha256": "31e2ac488fdc2c408cb5ef7d381c35688b87bbbf1a365ec65c1f1b48f8b73fd9",
+      "event_offset": 3371,
+      "version": 35
+    },
+    "00002404.fld": {
+      "sha256": "fc3c5baf517cb1e985526c852032aa5f433de90f949f99c4156a489af6078624",
+      "event_offset": 2907,
+      "version": 35
+    },
+    "00013756.fld": {
+      "sha256": "6ad3ae7a21f1476765e5c244ecf335116f75230c8f600c98f4e391508c18fef3",
+      "event_offset": 88,
+      "version": 32
+    }
+  },
+  "item_id": 497
+}
