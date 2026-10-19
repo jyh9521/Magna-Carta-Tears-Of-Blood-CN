@@ -417,3 +417,8 @@ For a disposable rollback test use tools/rollback_test_iso_copy.py --report buil
 ## FPB选择项句号增量（2026-10-19）
 
 43字段/14资源通过原生key及源hash绑定去句号；仅SHIP变动，已确认没有启动缓存镜像。工具 patch_option_periods.py，现行规则 single_clause_period 与历史配方分开；当前用户仍测试温蒂妮，候选位于work/option-trigger-196/MODIFIED_FILE.iso，未覆盖已打开的movies-fixed.iso。证据与复现见 docs/OPTION_PUNCTUATION_AND_TRIGGER.md。
+
+
+## 2026-10-19 测试镜像保留与缓存清理
+
+43字段选项句号修正候选现已移动至 `build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso`，hash226bb9116dc873c024d742c377d0a4fecaec6a0648bf4fd81e31709a19064e6b。此前“work下候选未替换”的文字为历史状态。旧生成档案已清理；历史命令若引用缺失中间件，应按docs/BUILD_STORAGE.md恢复映射/压缩包恢复，或从原始输入和配方重建，不应重新积累完整ISO副本。

@@ -49,3 +49,8 @@ Medium18px/SS4与15px原生混合方案已整合并覆盖同名ISO，原字格�
 ## stage187 名词统一版
 
 同名ISO已更新为卡林兹、朱斯蒂娜、阿米拉、伊菲利亚。280资源/627文字及7缓存副本/35处同步，4部动画仅改名称并重编码。62文件独立对比只有FILE、SHIP和这4部动画变化；字体、UI图、ELF和42部其他影片保持。新影片保留既有布局人工验收依据，但本次新成片未冒称重新人工验收。详见 TERMINOLOGY_REVISION.md。当前hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36，4250691584 B。
+
+
+## 2026-10-19 唯一当前测试入口
+
+当前仅保留 `build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso`，SHA256 `226bb9116dc873c024d742c377d0a4fecaec6a0648bf4fd81e31709a19064e6b`；已合入43字段选项标点修正。上文其他测试ISO路径/hash均属历史版本，不再代表当前可用文件。原版开发输入另保留；本轮不创建第三镜像。详见BUILD_STORAGE.md。

@@ -2,10 +2,10 @@
   "schema": 1,
   "protected": [
     {
-      "path": "test-iso/Magna-Carta-zh-CN-test.iso",
-      "size": 4250691584,
-      "sha256": "65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36",
-      "role": "integrated-zh-CN-term-revision-medium-mixed-pending-visual-acceptance"
+      "path": "test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso",
+      "size": 4250683392,
+      "sha256": "226bb9116dc873c024d742c377d0a4fecaec6a0648bf4fd81e31709a19064e6b",
+      "role": "latest-options43-punctuation-and-movie-playback-fixed-pending-runtime-acceptance"
     }
   ],
   "retired": [
@@ -40,6 +40,14 @@
       "role": "text-baseline-partial-visual-observation",
       "status": "superseded-output-removed",
       "reason": "integrated test ISO supersedes bounded PoC; research/source/reports preserved"
+    },
+    {
+      "path": "test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso",
+      "size": 4250683392,
+      "sha256": "ee81e78ce1f7461ab39cfbf68773966529d4ef4a11de3212adc4b5ff7d7d8226",
+      "role": "integrated-dialogue-period-revision-movie-playback-fixed-pending-full-runtime-acceptance",
+      "status": "superseded-image-replaced-in-place",
+      "reason": "2026-10-19 latest option-punctuation43-field candidate promoted to same stable path; old hash retired"
     }
   ]
 }

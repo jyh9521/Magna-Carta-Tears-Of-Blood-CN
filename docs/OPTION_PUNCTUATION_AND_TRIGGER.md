@@ -35,3 +35,7 @@ hash槽使用该次输入的SHA256；未知版本/旧目标不匹配即失败。
 ## 当前交付身份
 
 候选镜像：`work/option-trigger-196/MODIFIED_FILE.iso`，SHA256 `226bb9116dc873c024d742c377d0a4fecaec6a0648bf4fd81e31709a19064e6b`。用户仍在测试温蒂妮，故本轮不覆盖当前打开的 movies-fixed.iso（旧hash `ee81e78ce1f7461ab39cfbf68773966529d4ef4a11de3212adc4b5ff7d7d8226`）。候选作为本轮唯一临时第三镜像保留；独立回滚测试副本不长期保留。待用户结束游戏后再替换当前测试镜像并恢复两ISO留存策略。
+
+## 2026-10-19 清理后的镜像位置
+
+上述候选已移动到固定测试入口 `build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso`，SHA256 `226bb9116dc873c024d742c377d0a4fecaec6a0648bf4fd81e31709a19064e6b`。旧ee81测试镜像已替换，work下不再保留第三份ISO；原始构建报告仍记录当时的历史路径，新位置由work/option-trigger-196/ARTIFACT_LOCATION.json指明。当前只有1份测试ISO，另保留根目录原版开发输入。
