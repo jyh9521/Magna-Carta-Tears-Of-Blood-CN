@@ -1,11 +1,21 @@
 """Explicit UI-only sentence-end policy; narrative text is not normalized."""
 import re
+import unicodedata
 
 
 def single_sentence_period(text):
     body = text.rstrip()
     return (body.endswith('。') and body.count('。') == 1
             and not any(c in body[:-1] for c in '，,!?！？；;…'))
+
+
+def single_clause_period(text):
+    """Current no-other-punctuation rule; legacy recipes keep their v1 behavior."""
+    body = text.rstrip()
+    visible = re.sub(r'\$n|\$D\d{2}', '', body[:-1])
+    visible = re.sub(r'(?<=\d)\.(?=\d)', '', visible)
+    return (body.endswith('。') and bool(visible.strip())
+            and not any(unicodedata.category(c).startswith('P') for c in visible))
 
 
 def omit_period(text):

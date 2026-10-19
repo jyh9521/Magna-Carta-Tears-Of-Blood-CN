@@ -9387,9 +9387,10 @@
     {
       "id": "SHIP/00004673.fpb/seq/16",
       "source_sha256": "fbabd28e72529a938cf1d6ed58d8df438c1ad4619f26462d9e6cede1c63d3f66",
-      "target": "乘坐。",
+      "target": "乘坐",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Lise aging hypothesis and spies reveal, faction opinions, town NPCs, R1/button/HP tutorial, eight heroes and source gender, Joshua fragment memoir, family shop and aircraft28. River hero is Jiang not steel; currency Seed distinct from Sid personal name. Fragment boundaries, uncertain pronouns, source IDs/hashes/control/policy preserved; not runtime verified."
+      "context": "Source-bound legacy proofreading: Lise aging hypothesis and spies reveal, faction opinions, town NPCs, R1/button/HP tutorial, eight heroes and source gender, Joshua fragment memoir, family shop and aircraft28. River hero is Jiang not steel; currency Seed distinct from Sid personal name. Fragment boundaries, uncertain pronouns, source IDs/hashes/control/policy preserved; not runtime verified.",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00004673.fpb/seq/17",
@@ -21896,16 +21897,18 @@
     {
       "id": "SHIP/00007685.fpb/seq/6",
       "source_sha256": "0adb007a5a6232159db768b91daabd522863ca1387f8fbdd518bfb9d3d69b078",
-      "target": "购买。",
+      "target": "购买",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Pnosen widowhood and elder ghost source dialogue;familiar defiance andOrha release/hostage threats kept as speaker claims;ten-year fright idiom not literal lifespan;Mano/Hugo childhood displays retained;Lise/Amila/Muen vision/self-blame andRaul sacrifice perspectives not flattened;Agreian bracelet impersonation andoriginal ownership source proof distinguished from emotional sonlikebond;Lianna husband male andresearch information hearing fixed;unidentified Orha/contact notgendered,mixed Lise party neutral;river/water fragments,3000Sid,aircraft28/source numbers andbuttons unchanged;full Chinese words andcontrols/hash/policy preserved;no game-time chronology/cache mechanism asserted"
+      "context": "Source-bound legacy proofreading: Pnosen widowhood and elder ghost source dialogue;familiar defiance andOrha release/hostage threats kept as speaker claims;ten-year fright idiom not literal lifespan;Mano/Hugo childhood displays retained;Lise/Amila/Muen vision/self-blame andRaul sacrifice perspectives not flattened;Agreian bracelet impersonation andoriginal ownership source proof distinguished from emotional sonlikebond;Lianna husband male andresearch information hearing fixed;unidentified Orha/contact notgendered,mixed Lise party neutral;river/water fragments,3000Sid,aircraft28/source numbers andbuttons unchanged;full Chinese words andcontrols/hash/policy preserved;no game-time chronology/cache mechanism asserted",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00007685.fpb/seq/7",
       "source_sha256": "13f65a727bcf0de98ba93574d69611ae6e119a719f0de6ad41ae437517e5c634",
-      "target": "不购买。",
+      "target": "不购买",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Pnosen widowhood and elder ghost source dialogue;familiar defiance andOrha release/hostage threats kept as speaker claims;ten-year fright idiom not literal lifespan;Mano/Hugo childhood displays retained;Lise/Amila/Muen vision/self-blame andRaul sacrifice perspectives not flattened;Agreian bracelet impersonation andoriginal ownership source proof distinguished from emotional sonlikebond;Lianna husband male andresearch information hearing fixed;unidentified Orha/contact notgendered,mixed Lise party neutral;river/water fragments,3000Sid,aircraft28/source numbers andbuttons unchanged;full Chinese words andcontrols/hash/policy preserved;no game-time chronology/cache mechanism asserted"
+      "context": "Source-bound legacy proofreading: Pnosen widowhood and elder ghost source dialogue;familiar defiance andOrha release/hostage threats kept as speaker claims;ten-year fright idiom not literal lifespan;Mano/Hugo childhood displays retained;Lise/Amila/Muen vision/self-blame andRaul sacrifice perspectives not flattened;Agreian bracelet impersonation andoriginal ownership source proof distinguished from emotional sonlikebond;Lianna husband male andresearch information hearing fixed;unidentified Orha/contact notgendered,mixed Lise party neutral;river/water fragments,3000Sid,aircraft28/source numbers andbuttons unchanged;full Chinese words andcontrols/hash/policy preserved;no game-time chronology/cache mechanism asserted",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00007685.fpb/seq/8",
@@ -27566,16 +27569,18 @@
     {
       "id": "SHIP/00011463.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference"
+      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00011463.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference"
+      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00011463.fpb/seq/3",
@@ -27594,16 +27599,18 @@
     {
       "id": "SHIP/00011463.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference"
+      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00011463.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference"
+      "context": "Source-bound legacy proofreading: Lise/queen/Muen female andsister jealousy/woodening notflattened;Raul self-identifies Lansoni/skyhero,Alan/Bran male twinbrothers explicit;Rehas female diary,Siben male,Phyllis female andHaren male lovers,war trauma/blame andcomfort kept distinct;Neikan alias-sex uncertainty andunidentified Orha pronouns neutral,unverified Derun gender notadded;legal/arrest promises remain character claims;river/wind/water fragments anddojo courses unified,source dates/counts/control/ID/hash/policy unchanged;25 mixedJP fields strict CP932 rawhash/roundtrip reviewed,primary references unchanged;no runtime/chronology/actorcache inference",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00011463.fpb/seq/7",
@@ -28959,16 +28966,18 @@
     {
       "id": "SHIP/00011955.fpb/seq/3",
       "source_sha256": "e868db04fa1a3e315a23e51c7e57eb29d40a43e921c050a491317b90f4dcbccb",
-      "target": "是。",
+      "target": "是",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00011955.fpb/seq/4",
       "source_sha256": "dfbab037b3bdd7bfdd67456ce4f99abeaca3f544bf0398a399c4fe3ea0789170",
-      "target": "否。",
+      "target": "否",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00012008.fpb/seq/0",
@@ -29568,16 +29577,18 @@
     {
       "id": "SHIP/00013197.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013197.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013197.fpb/seq/3",
@@ -29596,16 +29607,18 @@
     {
       "id": "SHIP/00013197.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013197.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013197.fpb/seq/7",
@@ -30128,16 +30141,18 @@
     {
       "id": "SHIP/00013229.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013229.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013229.fpb/seq/3",
@@ -30156,16 +30171,18 @@
     {
       "id": "SHIP/00013229.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013229.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013229.fpb/seq/8",
@@ -30310,16 +30327,18 @@
     {
       "id": "SHIP/00013294.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013294.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013294.fpb/seq/3",
@@ -30338,16 +30357,18 @@
     {
       "id": "SHIP/00013294.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013294.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013294.fpb/seq/8",
@@ -30464,16 +30485,18 @@
     {
       "id": "SHIP/00013311.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013311.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013311.fpb/seq/3",
@@ -30492,16 +30515,18 @@
     {
       "id": "SHIP/00013311.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013311.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013311.fpb/seq/8",
@@ -30618,16 +30643,18 @@
     {
       "id": "SHIP/00013349.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013349.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013349.fpb/seq/3",
@@ -30646,16 +30673,18 @@
     {
       "id": "SHIP/00013349.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013349.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013349.fpb/seq/8",
@@ -30779,16 +30808,18 @@
     {
       "id": "SHIP/00013355.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013355.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013355.fpb/seq/3",
@@ -30807,16 +30838,18 @@
     {
       "id": "SHIP/00013355.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013355.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013355.fpb/seq/7",
@@ -30975,16 +31008,18 @@
     {
       "id": "SHIP/00013361.fpb/seq/1",
       "source_sha256": "ca667c9ae54e9f0dcd772f56cf997c06e0c38e5a4e9cd91d45ee44400a9ede79",
-      "target": "参加修行。",
+      "target": "参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013361.fpb/seq/2",
       "source_sha256": "2764bba4625bb877e3991baad2151cdf02d053fdc7a38f99573996cdb46d4ffe",
-      "target": "不参加修行。",
+      "target": "不参加修行",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013361.fpb/seq/3",
@@ -31003,16 +31038,18 @@
     {
       "id": "SHIP/00013361.fpb/seq/5",
       "source_sha256": "6b2bf98679b31b583484c69cf4d4bb556aaf63ce770df7e6551dcf8aaa69a0d8",
-      "target": "离开。",
+      "target": "离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013361.fpb/seq/6",
       "source_sha256": "442068d3bfb67277ba99d276f57215063a899e0846fddb0611462ce26180ea98",
-      "target": "暂时不离开。",
+      "target": "暂时不离开",
       "status": "reviewed",
-      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged"
+      "context": "Source-bound legacy proofreading: final scenes and tutorial/dojo dialogue;Radlinne surrogate mother claims vs denials preserved,Muen/Amila sisters andCalinz male;unidentified Orha andcraftsman pronouns neutral;source samegroup dojo spelling variants unified in target only;Kan mechanics,shield1to5,attack counts7to1,GREAT/Miss anddirection symbols preserved as character instructions notruntime proof;whole TrinityDrive/RakshasaMode terms andphrase boundaries,source hash/protected tokens/policy unchanged",
+      "text_role": "option"
     },
     {
       "id": "SHIP/00013361.fpb/seq/7",

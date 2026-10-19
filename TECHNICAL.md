@@ -588,3 +588,8 @@ Verified：A-medium-mixed 两字库由原ISO重新扩展生成，与实验完整
 ## stage187 同长度术语替换
 
 Verified：四名新编码均已在既有映射中，编码长度分别6/8/6/8字节保持。280SHIP资源的627个物理词串仅改名称字节，FPB原索引/窗口/长度不变，固定槽几何及控制不变；FILE七个完整缓存副本同步35处。独立实际ISO回读验证627处新增新名与全部旧名零残留、缓存零残留；MrtsEngine、字库、LINEAR/ELF及42部非目标影片保持。非全游戏动态显示证明。详见 docs/TERMINOLOGY_REVISION.md。
+
+
+## 隐身即时存档与FPB选项（2026-10-19）
+
+真实EE快照验证：共享开关000C3FE0为0，003F72C0/4和003F746C/70仍保留隐身跳转。repair_detection_state.py只在新副本恢复原ELF指纹绑定的四条指令，不写事件变量。patch_option_periods.py按FPB实际native key重建窗口，保留未选文本及尾段，不以文件扩展名推断剧情角色。详见 docs/OPTION_PUNCTUATION_AND_TRIGGER.md。

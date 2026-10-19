@@ -412,3 +412,8 @@ For a disposable rollback test use tools/rollback_test_iso_copy.py --report buil
 ## 同长度名词修订（stage187）
 
 以184已验证的FILE/SHIP为输入，tools/apply_term_revision.py按locales/zh-CN/proofreading/term-revision-01.json校验源hash、明确文本范围、原/新编码、非目标间隔，同步完整缓存副本；不在未知版本上扫描盲改。字体已经覆盖新名，不调整映射。影片使用现有build_movie_subtitles.py重制，movie_revision.py验证名称之外ASS字节不变、原音轨一致及完整解码。build_test_iso.py允许此明确修订路径，manual_movie_acceptance=false与此前人工通过的布局依据分开，不伪造新验收。具体命令及冻结输入见 docs/TERMINOLOGY_REVISION.md。
+
+
+## FPB选择项句号增量（2026-10-19）
+
+43字段/14资源通过原生key及源hash绑定去句号；仅SHIP变动，已确认没有启动缓存镜像。工具 patch_option_periods.py，现行规则 single_clause_period 与历史配方分开；当前用户仍测试温蒂妮，候选位于work/option-trigger-196/MODIFIED_FILE.iso，未覆盖已打开的movies-fixed.iso。证据与复现见 docs/OPTION_PUNCTUATION_AND_TRIGGER.md。

@@ -566,3 +566,8 @@ stage180：菜单位图不会随普通文本回填自动翻译。旧预览按BGR
 ## 名称修订与字幕容器检查
 
 不能将保留旧输入比较值的历史UI标点recipe当作当前游戏文字，也不能只改名词表而漏掉已生成的SFD与celfid副本。stage187保留旧recipe、另做源hash绑定增量后处理并全ISO回读。影片严格-xerror framehash在旧/新SFD上均因rawvideo muxer非单调DTS停止；复核使用既有decoder_outcome的窄日志规则，要求完整相等帧数/退出0，保留日志且container_timing_verified=false，不移除SFD时间戳、不将此说成新的游戏内播放验收。
+
+
+## 发现指令残留与选择项分类（2026-10-19）
+
+真实p2s中隐身latch=0但四处发现跳转仍生效；关闭作弊总开关不会执行OFF恢复，重新进图不等于重载ELF，旧即时存档还会带回修改。FPB中同时含剧情与选择项，不再以扩展名整批视为剧情。详见 OPTION_PUNCTUATION_AND_TRIGGER.md。

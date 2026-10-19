@@ -445,18 +445,20 @@
     {
       "id": "SHIP/00005420.fpb/seq/27",
       "source_sha256": "08e6119c3c7259c144ab1eb33543bf1034ea64eaec18adf90e26d73be7997548",
-      "target": "全品类商品正在享受七五折优惠。",
+      "target": "全品类商品正在享受七五折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00005420.fpb/seq/28",
       "source_sha256": "0da6cc7b3b33a45fc91189f82f7a019612432d7734af62c0409fca289a209dc7",
-      "target": "全品类商品正在享受九折优惠。",
+      "target": "全品类商品正在享受九折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00005420.fpb/seq/31",
@@ -597,18 +599,20 @@
     {
       "id": "SHIP/00007658.fpb/seq/4",
       "source_sha256": "1f671bb20f0a4fc5f7d11d55dd747e611135f256a758f4d4654bb1c26650ede0",
-      "target": "全品类商品正在享受七五折优惠。",
+      "target": "全品类商品正在享受七五折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00007658.fpb/seq/5",
       "source_sha256": "668fd7d26166b44de02a1c50a95ec230bafec606909d1f6fdbd5170b7d4aceaf",
-      "target": "全品类商品正在享受九折优惠。",
+      "target": "全品类商品正在享受九折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00007658.fpb/seq/8",
@@ -621,18 +625,20 @@
     {
       "id": "SHIP/00011094.fpb/seq/4",
       "source_sha256": "1f671bb20f0a4fc5f7d11d55dd747e611135f256a758f4d4654bb1c26650ede0",
-      "target": "全品类商品正在享受七五折优惠。",
+      "target": "全品类商品正在享受七五折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00011094.fpb/seq/5",
       "source_sha256": "668fd7d26166b44de02a1c50a95ec230bafec606909d1f6fdbd5170b7d4aceaf",
-      "target": "全品类商品正在享受九折优惠。",
+      "target": "全品类商品正在享受九折优惠",
       "status": "reviewed",
       "reinsertion_policy": "translate",
-      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed."
+      "context": "Source-hashed alternate reading and actual FPB numeric-key chat payload. Source locale/codec explicit in derived catalog; primary corpus unchanged. Event reachability/layout not claimed.",
+      "text_role": "shop-status"
     },
     {
       "id": "SHIP/00011094.fpb/seq/8",
