@@ -1,3 +1,5 @@
+> 2026-10-22：本轮开发结束，最新镜像已收到完整通关反馈。归档入口见 [ARCHIVAL_HANDOFF](docs/ARCHIVAL_HANDOFF.md)。以下阶段记录保留作为研究与重建依据，不代表当前仍停留在旧阶段。
+
 # Building and Research
 
 ## Optional field/detection/battle-speed candidates

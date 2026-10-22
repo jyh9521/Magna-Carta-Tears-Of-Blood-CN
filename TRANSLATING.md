@@ -1,3 +1,5 @@
+> 2026-10-22：本轮开发结束，最新镜像已收到完整通关反馈。归档入口见 [ARCHIVAL_HANDOFF](docs/ARCHIVAL_HANDOFF.md)。以下阶段记录保留作为研究与重建依据，不代表当前仍停留在旧阶段。
+
 > 当前接续：stage146，25普通批13786+6header→13792 reviewed/0draft，1862术语；457普通缺口358pending及其他范围/排版仍未闭合，实际字库与AFS最新证据见docs/WORK_HANDOFF.md。
 
 原94条literal语言稿全部接入两个ordinary batch，分别84与10；94稿与第一批保持源ID/target/状态，不把重复ITM/CDG或POD槽合并。公告末尾全角空格作为已确认的字面字符保留；制表/换行/NUL不是空间字符，继续隔离，不随此字体修复删去。

@@ -37,3 +37,8 @@ README 的状态摘要以本记录为准。TEST_ISO、KNOWN_ISSUES 等文档中�
 ## 本轮验证
 
 只修改发布状态文档，不修改 ISO 或运行时代码。命令、退出状态、基线/修改/独立副本回滚结果见本地 `build/release-preparation-20261022/VERIFICATION.txt`。该目录属于忽略的构建输出，不作为干净检出构建的输入依赖。
+
+
+## 2026-10-22 归档交接补记
+
+后续按维护者要求整理本地与GitHub，当前状态及保留/恢复方法见[归档交接](ARCHIVAL_HANDOFF.md)。源码改动已保存为独立提交；归档整理不等于差分发行包已制作、许可待办已关闭或GitHub Release已创建。

@@ -1,3 +1,5 @@
+> 2026-10-22 归档整理：最新版本已收到完整通关、未报告问题的反馈。当前版本身份与恢复入口以 [归档交接](ARCHIVAL_HANDOFF.md) 为准；下列阶段计数、旧镜像路径和待验状态为历史记录。可选金手指的未测项不随整体通关反馈自动转为通过。
+
 # Known Issues
 
 ## Field/speed experimental cheats

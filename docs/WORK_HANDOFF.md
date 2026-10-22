@@ -1,3 +1,5 @@
+> 2026-10-22 归档整理：最新版本已收到完整通关、未报告问题的反馈。当前版本身份与恢复入口以 [归档交接](ARCHIVAL_HANDOFF.md) 为准；下列阶段计数、旧镜像路径和待验状态为历史记录。可选金手指的未测项不随整体通关反馈自动转为通过。
+
 stage191：顶部六标签在两个field_part1的211/233/255行共48个旧图残留，非字体问题；clear_rect显式向下清1px，设置coverage-mask统一其余五标签，非目标像素/属性/表/调色板保持。新ISO62文件只LINEAR变，保留stage190字体及换行、全部影片。当前实际ISO名Magna-Carta-Tears-of-Blood-zh-CN-test.iso；以hash锁定后覆盖，不创建重复镜像。详情TAB_FRINGE_REVISION.md、work/tab-fringe-191。冷启动菜单视觉复测待验。
 
 stage190：14683译文扫描、2992字段/592资源重排；词表和数字单位不拆、闭合标点不打头，FPB全部keys/未选record/tail保持。两font新增字形有效advance内水平1px留白，Normal1773宽字拟合16px，原2667/metrics/映射保持，cache同步。指定tabs-fixed.iso覆盖，62文件仅FILE/SHIP变，旧test.iso保留。预览ASCII旧19px全格绘制引出数字尾部原残留，修成advance裁剪；不改原数字。详情FONT_SIDE_AND_LAYOUT_REVISION.md及font-side-190证据，游戏冷启动复测待验。
