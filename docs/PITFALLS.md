@@ -1,5 +1,9 @@
 # Pitfalls
 
+## Detect-mode animation parameter is not a proven movement speed
+
+The 0.5 constant at KR 00402CAC flows through 00388B80 to an animation virtual call, including a sequence name such as eclipse. Changing it is not evidence of faster movement. The field/speed research instead records ResetSpeed's real numeric speed stores and flags its selector semantics as pending runtime QA. Do not infer gameplay speed from nearby float constants or from 60 FPS changes.
+
 stage168首次完整font构建在“empty glyph raster”停止，因为公告原文尾部全角空格保留到译文，U+3000本就没有墨迹。不要删字符或画假点：通用font builder仅允许Unicode Zs空bitmap，保持advance；字母/替换符/换行/tab/零宽与非Zs空字形仍拒绝。原失败命令/输入/stdout/stderr/exit保存在168/build-commands.json，修正后rebuild2全量验证。CDG263切片是旧leading-string边界，原生是526双字符串记录；record首u32不是Key，真实Key是+4。
 
 新CHT16655/41的경험치 칸指经验值格，不能把其中칸机械替换为卡恩。登记最长源短语后继续使用既有最长匹配规则，旧卡恩系统术语不改变；全量validator会检测经验/经验值等不一致。
@@ -566,6 +570,68 @@ stage180：菜单位图不会随普通文本回填自动翻译。旧预览按BGR
 ## 名称修订与字幕容器检查
 
 不能将保留旧输入比较值的历史UI标点recipe当作当前游戏文字，也不能只改名词表而漏掉已生成的SFD与celfid副本。stage187保留旧recipe、另做源hash绑定增量后处理并全ISO回读。影片严格-xerror framehash在旧/新SFD上均因rawvideo muxer非单调DTS停止；复核使用既有decoder_outcome的窄日志规则，要求完整相等帧数/退出0，保留日志且container_timing_verified=false，不移除SFD时间戳、不将此说成新的游戏内播放验收。
+
+
+## 字格内逐字clamp不保留字体共同基线
+
+参考字顶边不是全字符集合的最小顶边；逐字clamp会改变少数字形的坐标基准。应量化后测全集、统一平移并检查上下透明边界；不得通过裁掉顶笔画、强迫包围盒等高或缩字绕过。透明边界针对采样风险，不等于已证明具体游戏GS过滤根因，见FONT_ALIGNMENT_REVISION.md。
+
+
+## UI字图的RGB振铃不能直接变为不透明描边
+
+黑底RGB Lanczos后的任意非零颜色若都映射到非透明索引，会产生暗色杂点。目标五标签采用L覆盖率门限后生成局部轮廓，并限制原中性灰阶；其他资产不全局改写。见TAB_SHADOW_REVISION.md。
+
+
+## stage190 陷阱
+
+新增字形横向有效步进内1px留白，宽墨迹量化前拟合；全量14683译文扫描及2992字段换行修订。离线预览必须按metrics裁剪数字字格，避免把原字格尾部画到邻字上。指定tabs-fixed.iso更新，其他测试ISO保留；冷启动视觉复测尚待验收。详见 FONT_SIDE_AND_LAYOUT_REVISION.md。
+
+
+## stage191 顶栏底边
+
+顶部六标签两个副本的211/233/255行是旧图残留，上一轮仅覆盖21px字格未清理端点行。新增显式clear_rect向下清1px，设置统一coverage-mask；包表、调色板及非目标像素保持。详见 TAB_FRINGE_REVISION.md。测试ISO沿用目前实际文件名Magna-Carta-Tears-of-Blood-zh-CN-test.iso，字库/换行/影片不回退，冷启动视觉复测待验。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。
+
+## Cross-region battle cheat hooks
+
+Do not reuse an upstream raw object/vtable-address bit as a Korean affiliation test: such address bits can change between builds. Korean team bytes and native class-cast paths provide independent anchors. Preserve R5900 128-bit GPRs with SQ/LQ rather than a 32-bit scratch save. ELF-unmapped code caves still need dynamic ownership checks; synthetic RAM proof is not emulator memory evidence. See [BATTLE_CHEAT_PORT.md](BATTLE_CHEAT_PORT.md).
+
+## Hotkey OFF is distinct from removing a patch group
+
+Never implement OFF by merely stopping ON writes: modified instruction memory remains. Conditional restores must use verified original words. Clearing a GUI group also removes its OFF handler, so preselect modes and use the runtime latch. PCSX2 extended condition bodies must not mix ordinary word commands with RAW commands; exact skip lengths and group boundaries are tested. The actual input consumer is preferable to a foreign-region fixed pad address. See [HOTKEY_CHEATS.md](HOTKEY_CHEATS.md).
+
+## libpad raw buttons versus engine-internal masks
+
+The Korean consumer byte-swaps packet buttons into its internal mask. Using
+that combination with SDK SELECT/Up/Down masks broke the hotkey wrapper.
+Live captured packet `00 73 EE FF` and independent raw replay expose the
+mistake; a generated packet fixture had duplicated it and falsely passed.
+Keep raw captures separate from mask-to-packet test generators. Corrected
+wrapper uses `byte2 | byte3 << 8`; physical repaired ON/OFF remains pending.
+See [HOTKEY_CHEATS.md](HOTKEY_CHEATS.md).
+
+## Renamed cheat sections retain stale selection names
+
+A player-edited `[60帧]` section no longer matched saved `Enable = 60 FPS`.
+The startup log loaded the internal controller and other selected effects,
+but omitted the frame-rate group. Captured controller commands still matched
+the working byte-order repair exactly. Only the enabled FPS name was migrated;
+player-edited descriptions/PNACH bytes were preserved. This explains the FPS
+selection failure, not a proven failure of the detector for other effects.
+Evidence: `build/hotkey-selection-repair/VERIFICATION.txt`. Reload the settings
+window after an external INI change; verify actual selected groups on cold boot.
+
+## SFD全帧解码不等于播放器结束验收（2026-10-12）
+
+全46影片均可FFmpeg完整解码，但25部重编码ES缺精确EOF的B7；容器B9不能替代视频B7，EOF flush会掩盖该差异。本地sfd-muxer0.1.1的10位temporal_reference错误右移还导致时轴问题，隔离只修位移仍未消除所有DTS倒退。解析器不得用pos+4>=len忽略精确EOF的4字节start code。原输入、全量报告、失败与修正实验证据保持，见[MOVIE_PLAYBACK_AUDIT.md](MOVIE_PLAYBACK_AUDIT.md)。
+
+## 不重编码的SFD修复与旧缓存失效
+
+仅改旧parser一行仍有DTS倒退，正式修复改用完整ES全局I/P时轴并保留现有字幕视频，仅加B7。追加B7应增加最后视频PES length并缩减padding，不能只放到SFD容器B9后。生成入口显式bf0并后处理，cache stamp改version2/playback_repair1，避免修复工具正确但仍复用旧坏输出。旧已验收画面通过全帧像素hash继承，不把它扩展为播放结束验收。详见[MOVIE_PLAYBACK_REPAIR.md](MOVIE_PLAYBACK_REPAIR.md)。
 
 
 ## 发现指令残留与选择项分类（2026-10-19）

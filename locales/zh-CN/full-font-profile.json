@@ -42,7 +42,10 @@
       },
       "raster_options": {
         "supersample": 4
-      }
+      },
+      "placement": "shared-origin-guarded",
+      "edge_guard": 1,
+      "horizontal_guard": 1
     },
     "KatakanaFont": {
       "base_sha256": "7e388bbef0dd2d685835ef81d9430d4ba04c53f5fd862593ee9e21c4713112e5",
@@ -59,8 +62,12 @@
         "：": 10,
         "；": 10,
         "、": 10
-      }
+      },
+      "placement": "shared-origin-guarded",
+      "edge_guard": 1,
+      "horizontal_guard": 1
     }
   },
-  "selected_experiment": "A-medium-mixed"
+  "selected_experiment": "A-medium-mixed",
+  "bitmap_padding": "zero-outside-metric"
 }

@@ -39,6 +39,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            190,
+            46,
+            212
           ]
         },
         {
@@ -59,6 +68,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            190,
+            96,
+            212
           ]
         },
         {
@@ -79,6 +97,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            212,
+            46,
+            234
           ]
         },
         {
@@ -99,6 +126,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            212,
+            96,
+            234
           ]
         },
         {
@@ -119,6 +155,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            234,
+            46,
+            256
           ]
         },
         {
@@ -139,6 +184,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            234,
+            96,
+            256
           ]
         },
         {
@@ -159,7 +213,17 @@
             4,
             4,
             4
-          ]
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            51,
+            128,
+            106,
+            144
+          ],
+          "palette_mode": "color"
         }
       ]
     },
@@ -198,6 +262,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            190,
+            46,
+            212
           ]
         },
         {
@@ -218,6 +291,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            190,
+            96,
+            212
           ]
         },
         {
@@ -238,6 +320,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            212,
+            46,
+            234
           ]
         },
         {
@@ -258,6 +349,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            212,
+            96,
+            234
           ]
         },
         {
@@ -278,6 +378,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            0,
+            234,
+            46,
+            256
           ]
         },
         {
@@ -298,6 +407,15 @@
             4,
             4,
             4
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            50,
+            234,
+            96,
+            256
           ]
         },
         {
@@ -318,7 +436,17 @@
             4,
             4,
             4
-          ]
+          ],
+          "raster_mode": "coverage-mask",
+          "coverage_threshold": 48,
+          "edge_guard": 1,
+          "clear_rect": [
+            51,
+            128,
+            106,
+            144
+          ],
+          "palette_mode": "color"
         }
       ]
     },

@@ -34,6 +34,7 @@ from typing import TypeGuard
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "lib"))
+sys.path.insert(0, str(ROOT / "tools"))
 from ffmpeg import find_or_build_ffmpeg
 from sfd_muxer import SFD, SofdecMuxer
 
@@ -107,7 +108,8 @@ def _cache_stamp(job: CutsceneJob, hardsub: bool) -> dict[str, object]:
             "sha256": hashlib.sha256(job.ass.read_bytes()).hexdigest(),
         }
     return {
-        "version": 1,
+        "version": 2,
+        "playback_repair": 1,
         "src_size": job.src_size,
         "src_mtime": int(job.src_sfd.stat().st_mtime),
         "hardsub": bool(hardsub),
@@ -163,6 +165,7 @@ def _hardsub_video(m1v_in: Path, m1v_out: Path, ass: Path | None, ffmpeg: Path,
          "-i", str(m1v_in),
          "-vf", vf,
          "-c:v", "mpeg1video",
+         "-bf", "0",
          "-b:v", f"{kbps}k",
          "-minrate", f"{kbps}k",
          "-maxrate", f"{kbps}k",
@@ -283,6 +286,9 @@ def build_cutscene(job: CutsceneJob, work_dir: Path, ffmpeg: Path,
             _hardsub_video(m1v, subbed, job.ass if job.has_subs else None,
                            ffmpeg, stretch=stretch, hold=hold)
             SofdecMuxer(subbed, sfa).write(tmp)
+            from movie_playback import repair_sfd
+            repaired, _ = repair_sfd(tmp.read_bytes())
+            tmp.write_bytes(repaired)
         else:
             shutil.copyfile(job.src_sfd, tmp)
         tmp.replace(out)

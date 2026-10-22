@@ -1,5 +1,16 @@
 # Known Issues
 
+## Field/speed experimental cheats
+
+The complete shared-switch revision now gates all 14 active effects. Its 110
+cheat tests and 84 individual ON/OFF transitions are offline models; mid-battle
+speed OFF, QTE/undetected hotkey transitions and controller/gameplay acceptance
+remain pending. See [ALL_HOTKEYS.md](ALL_HOTKEYS.md).
+
+Update 2026-10-12: the user reports undetected and battle-speed options work; the walking option is withdrawn. Auto-QTE has offline native/source/compiled proof only and requires a first input to start an attack rhythm. Combo, counterattack, sound cues and actual no-input completion remain pending runtime QA. See [QTE_CHEATS.md](QTE_CHEATS.md).
+
+Walking base-speed selectors may affect more than detect mode. Native enemy-detection bypass is not model transparency or proof that all encounters are suppressed. Battle 2x/4x modifies the native speed coefficient; whole-battle wall-clock speed, rhythm timing, transitions and dynamic C4000 cave ownership await OFF/on testing. Additions are independent of the existing SELECT latch. See [FIELD_SPEED_CHEATS.md](FIELD_SPEED_CHEATS.md).
+
 研究状态：已有局部zh-CN PoC运行截图，尚无完整验收或正式发布的中文补丁。以下是验收缺口，不声称是已复现的中文游戏崩溃。
 
 | 项目 | 状态 | 证据/下一步 |
@@ -278,6 +289,50 @@ stage182 宋体试用与 UI 调整已静态构建和镜像回读；运行中全�
 ## A-medium-mixed 视觉验收
 
 当前默认字体已集成并静态回读通过。PCSX2 v2.8.2隔离冷启动诊断记录SCKA-20043/AE86E04C及ELF执行、NTSC640×448配置；60秒后主动结束诊断，进程状态1是诊断终止，不是游戏自然退出。SaveFrame诊断未生成帧文件，因此未证明正文、小字体和全部菜单视觉效果，仍需当前ISO冷启动实测。用户配置/存档/存储卡未改；不用旧savestate代替更新后首次冷启动。
+
+
+## stage188 字形定位修正
+
+两字体保留 A-medium-mixed 栅格化参数，默认追加 shared-origin-guarded 定位及上下各1px透明边界，取消逐字 y clamp。独立4932字形墨迹不变、全metrics/映射/原字形保持，资源及缓存已同步。详情 FONT_ALIGNMENT_REVISION.md；同场景冷启动视觉验收仍待复测。
+
+
+## stage190 验收
+
+新增字形横向有效步进内1px留白，宽墨迹量化前拟合；全量14683译文扫描及2992字段换行修订。离线预览必须按metrics裁剪数字字格，避免把原字格尾部画到邻字上。指定tabs-fixed.iso更新，其他测试ISO保留；冷启动视觉复测尚待验收。详见 FONT_SIDE_AND_LAYOUT_REVISION.md。
+
+## Optional NTSC-K 60 FPS patch
+
+The frame-limit instruction port is statically verified; rendered FPS, gameplay speed, combat and FMV timing require OFF/on runtime acceptance. See [FRAME_LIMIT_PATCH.md](FRAME_LIMIT_PATCH.md).
+
+
+## stage191 顶栏底边
+
+顶部六标签两个副本的211/233/255行是旧图残留，上一轮仅覆盖21px字格未清理端点行。新增显式clear_rect向下清1px，设置统一coverage-mask；包表、调色板及非目标像素保持。详见 TAB_FRINGE_REVISION.md。测试ISO沿用目前实际文件名Magna-Carta-Tears-of-Blood-zh-CN-test.iso，字库/换行/影片不回退，冷启动视觉复测待验。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。
+
+## Gameplay cheat runtime acceptance
+
+Eight optional money/item instruction ports have offline proof only. Item modes must be mutually exclusive and OFF during equipment changes (JP upstream hang report, KR reproduction pending). Battle/absolute RAM/stat injections remain unported. Code rollback does not revert changed saves. See [GAMEPLAY_CHEAT_PORT.md](GAMEPLAY_CHEAT_PORT.md).
+
+## Battle cheat candidates
+
+Five selected battle effects now have native anchors and offline proofs. HP updates occur on queries, so healing is not guaranteed invulnerability and enemy HP 1 is not guaranteed one-hit damage. HP modes are mutually exclusive. Dynamic cave availability and actual battle/save/scene behavior remain unverified; switching/off requires a cold boot. Enemy leadership/level/stat/instant-wipe codes remain unported. See [BATTLE_CHEAT_PORT.md](BATTLE_CHEAT_PORT.md).
+
+## Hotkey variant acceptance
+
+SELECT+Up/Down candidate now covers the 14 supported preselected sections with an unlabelled control dispatcher. 84 controlled transitions restore original effect instructions; real button response and dynamic cave ownership are still pending. Use a cold boot on installation/selection changes, then hotkey OFF rather than cancelling checkboxes. Numeric/save changes remain. See [HOTKEY_CHEATS.md](HOTKEY_CHEATS.md).
+
+## FMV结束卡住（2026-10-12）
+
+当前测试ISO中180111已由用户A/B验证：保留其他汉化、恢复原SFD后正常。全部25部修改影片缺视频sequence_end_code B7，23部有解复用DTS倒退，另21原片保持。全帧解码通过并未排除此故障；目前仅完成全量排查，没有发布修复版。完整清单及修复门禁见[MOVIE_PLAYBACK_AUDIT.md](MOVIE_PLAYBACK_AUDIT.md)。
+
+## FMV全量修复测试版（取代“仅完成排查”交付状态）
+
+25修改影片已无损补B7并重建PTS/DTS。新movies-fixed.iso全46静态复检通过，所有中文字幕像素与音轨保持；原旧test.iso仍含旧缺陷，不覆盖。游戏内180111重测与其他24部逐场景结束/跳过验收待实际测试，见[MOVIE_PLAYBACK_REPAIR.md](MOVIE_PLAYBACK_REPAIR.md)。
 
 
 ## 温蒂妮触发排查（2026-10-19）

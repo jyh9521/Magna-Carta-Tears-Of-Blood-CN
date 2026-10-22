@@ -264,11 +264,14 @@ def main():
                 (wd/'fonts').mkdir();shutil.copyfile(a.font,wd/'fonts/font.otf');shutil.copyfile(out/(name+'.ass'),wd/'subtitle.ass')
                 output=wd/'subbed.m1v'
                 cmd=[str(a.executable.resolve()),'-nostdin','-y','-hide_banner','-loglevel','warning','-i','original.m1v',
-                     '-vf','ass=subtitle.ass:fontsdir=fonts','-c:v','mpeg1video','-b:v','5500k','-minrate','5500k','-maxrate','5500k',
+                     '-vf','ass=subtitle.ass:fontsdir=fonts','-c:v','mpeg1video','-bf','0','-b:v','5500k','-minrate','5500k','-maxrate','5500k',
                      '-bufsize','1800k','-r','30000/1001',str(output.name)]
                 result=subprocess.run(cmd,cwd=wd,capture_output=True)
                 (wd/'encode.log').write_bytes(result.stderr);core.require(result.returncode==0,'subtitle encode failed')
                 candidate=wd/(name+'.SFD');SofdecMuxer(output,sfa).write(candidate)
+                from movie_playback import repair_sfd
+                playback_bytes,playback_proof=repair_sfd(candidate.read_bytes())
+                candidate.write_bytes(playback_bytes)
                 core.require(SFD.from_file(candidate).extract_audio()==audio,'original ADX changed')
                 # Framehash output avoids the null muxer's timestamp rescaling.
                 # Still retain the log and require a full, exact frame count.
@@ -282,7 +285,7 @@ def main():
                 core.require(outcome['complete'],'rebuilt SFD full decode failed or frame count changed')
                 receipt.update(candidate=str(candidate.resolve()),candidate_sha256=core.file_digest(candidate),adx_sha256=core.digest(audio),
                                adx_byte_identical=True,full_decode_exit=verified.returncode,encode_command=cmd,decoded_frames=frames,
-                               decoder_outcome=outcome,container_timing_verified=False)
+                               decoder_outcome=outcome,playback_repair=playback_proof,container_timing_verified=False)
                 (out/'build-progress.json').write_text(json.dumps(receipts,ensure_ascii=False,indent=2)+'\n','utf8')
                 print(f'SUBTITLE SFD PASS movie={name} adx_identical=true full_decode_exit=0',flush=True)
         finally:cd.close()

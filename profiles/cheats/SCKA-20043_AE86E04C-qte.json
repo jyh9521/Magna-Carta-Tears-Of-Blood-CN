@@ -1,0 +1,21 @@
+{
+  "serial": "SCKA-20043",
+  "crc": "AE86E04C",
+  "elf_sha256": "35cc6048f0e1f68d06bf3e515b99de3263e5092be62d6215cff5e74aa0ea15f0",
+  "elf_size": 4439344,
+  "runtime_verified": false,
+  "codes": [
+    {
+      "id": "auto_qte",
+      "label": "战斗其他（可独立启用）\\自动QTE（首键启动）",
+      "description": "选招式/目标并按首个QTE键启动后，后续拍点由原生超时分支自动Great；不在菜单连按。可配合2倍/4倍速度，反击/连招待复测。取消后冷启动恢复。",
+      "va": "002F8B8C",
+      "expected": "000217FE",
+      "replacement": "24020001",
+      "binding": "intUMrtsDataManagerexecGetGreat",
+      "context_start": "002F8B80",
+      "context_hex": "b5078290bc1702000800e003fe170200",
+      "status": "verified native binding/instruction; auto progress deduced from original compiled/source branches; runtime pending"
+    }
+  ]
+}

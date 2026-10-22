@@ -61,6 +61,11 @@ def expected_fonts(engine: bytes, game: dict, locale: dict, old_entries: list[di
             fonts[name],_=rebuild(expanded,dict(entries=entries),font,locale['fonts'][name])
         else:
             fonts[name]=patch_font(expanded,encoder,font,locale['alignment_reference'],locale['advance'],locale.get('font_raster_sizes', {}).get(name))
+        policy=locale.get('bitmap_padding','preserve')
+        core.require(policy in ('preserve','zero-outside-metric'),'unknown bitmap padding policy')
+        if policy=='zero-outside-metric':
+            from sanitize_font_padding import sanitize
+            fonts[name],_=sanitize(fonts[name])
         replacements[index]=fonts[name]
     return fonts,replacements,encoder
 

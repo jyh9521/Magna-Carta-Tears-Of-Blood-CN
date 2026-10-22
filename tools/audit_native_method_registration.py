@@ -30,7 +30,7 @@ def bind_inline(image,identifier,*,callback_limit=512):
     require(isinstance(callback_limit,int) and not isinstance(callback_limit,bool) and 8<=callback_limit<=65536 and callback_limit%4==0,
             "callback window must be an aligned integer from8 to65536bytes")
     raw=identifier.encode('ascii')+b'\0';blob=image.blob
-    require(identifier.startswith('intU') and 'exec' in identifier,'qualified native identifier required')
+    require(identifier.startswith(('intU','intA')) and 'exec' in identifier,'qualified native identifier required')
     strings=[];start=0
     while (off:=blob.find(raw,start))>=0:
         start=off+1

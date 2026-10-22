@@ -1,5 +1,16 @@
 # Building and Research
 
+## Optional field/detection/battle-speed candidates
+
+For the current complete installed menu, use `tools/unify_cheat_hotkeys.py` with
+`src/patches/SCKA-20043_AE86E04C-all-hotkeys.pnach`, and verify with
+`tools/verify_all_hotkeys.py`. Component outputs below must pass this final
+unification step to receive SELECT-Up/Down behavior. See [ALL_HOTKEYS.md](docs/ALL_HOTKEYS.md).
+
+Use `tools/build_field_speed_cheats.py` with the original version-locked ELF and `profiles/cheats/SCKA-20043_AE86E04C-field-speed.json`. Baseline/apply/modified/rollback operate on separate offline EE fixtures; pnach emits standalone additions. See [FIELD_SPEED_CHEATS.md](docs/FIELD_SPEED_CHEATS.md) for exact builds, evidence levels, independent selection and runtime QA. These candidates do not alter the localization ISO or installed cheats.
+
+The walking row is withdrawn from current PNACH emission. Auto-QTE uses `tools/build_qte_cheats.py` with its separate qte profile and original ELF; the read-only `tools/audit_qte_flow.py` also requires original FILE.AFS. Rebuild/rollback and first-input semantics are documented in [QTE_CHEATS.md](docs/QTE_CHEATS.md).
+
 连续literal派生允许在167/source-interpretations2上再读literal-control-readings-02与literal-control-consumers-02，输出10新目标并保留累计94字段规则和前一解释metadata hash；第一个84profile的输出格式仍兼容。全量构建权威为168/rebuild2，build-commands2.json；rebuild1失败在空白字形检查，不是可交付资源。Unicode Zs空白字形允许0bitmap+正常advance，未知缺字仍拒绝。
 
 literal派生catalog用tools/prepare_control_interpretations.py读取165/source-interpretations1、literal-control-readings及literal-control-consumers；它先核验原archive/ELF/三组anchors、独立阅读/原生span再输出84字段ordinary batch。控制规则不是全局fallback。完整167构建注册见work/visible-text-167/build-commands.json；此前所有普通批+新增literal-control-review-01一起重建全量字体、SHIP/FILE及cache。
@@ -412,6 +423,55 @@ For a disposable rollback test use tools/rollback_test_iso_copy.py --report buil
 ## 同长度名词修订（stage187）
 
 以184已验证的FILE/SHIP为输入，tools/apply_term_revision.py按locales/zh-CN/proofreading/term-revision-01.json校验源hash、明确文本范围、原/新编码、非目标间隔，同步完整缓存副本；不在未知版本上扫描盲改。字体已经覆盖新名，不调整映射。影片使用现有build_movie_subtitles.py重制，movie_revision.py验证名称之外ASS字节不变、原音轨一致及完整解码。build_test_iso.py允许此明确修订路径，manual_movie_acceptance=false与此前人工通过的布局依据分开，不伪造新验收。具体命令及冻结输入见 docs/TERMINOLOGY_REVISION.md。
+
+
+## stage188 字形定位修正
+
+两字体保留 A-medium-mixed 栅格化参数，默认追加 shared-origin-guarded 定位及上下各1px透明边界，取消逐字 y clamp。独立4932字形墨迹不变、全metrics/映射/原字形保持，资源及缓存已同步。详情 docs/FONT_ALIGNMENT_REVISION.md；同场景冷启动视觉验收仍待复测。
+
+
+## stage189 顶部标签修正版（独立ISO）
+
+仅修正编成/道具/装备/流派/信息两图集副本的暗色杂点。新产物build/test-iso/Magna-Carta-zh-CN-tabs-fixed.iso，原测试ISO不覆盖；字体、译文、动画保持。详情 docs/TAB_SHADOW_REVISION.md。
+
+
+## stage190 构建步骤
+
+新增字形横向有效步进内1px留白，宽墨迹量化前拟合；全量14683译文扫描及2992字段换行修订。离线预览必须按metrics裁剪数字字格，避免把原字格尾部画到邻字上。指定tabs-fixed.iso更新，其他测试ISO保留；冷启动视觉复测尚待验收。详见 docs/FONT_SIDE_AND_LAYOUT_REVISION.md。
+
+## Optional frame-limit patch
+
+See [FRAME_LIMIT_PATCH.md](docs/FRAME_LIMIT_PATCH.md) for original-ELF validation, separate-copy patch proof and PNACH use. This option is not integrated into the localization ISO build.
+
+
+## stage191 顶栏底边
+
+顶部六标签两个副本的211/233/255行是旧图残留，上一轮仅覆盖21px字格未清理端点行。新增显式clear_rect向下清1px，设置统一coverage-mask；包表、调色板及非目标像素保持。详见 docs/TAB_FRINGE_REVISION.md。测试ISO沿用目前实际文件名Magna-Carta-Tears-of-Blood-zh-CN-test.iso，字库/换行/影片不回退，冷启动视觉复测待验。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。
+
+## Optional gameplay cheat generation
+
+Region profile plus reproducible separate-copy tools: [GAMEPLAY_CHEAT_PORT.md](docs/GAMEPLAY_CHEAT_PORT.md). These optional PNACH sections are not applied to the localization ISO build.
+
+## Optional battle cheat generation
+
+See [BATTLE_CHEAT_PORT.md](docs/BATTLE_CHEAT_PORT.md). The generated combined PNACH retains earlier sections; four HP modes are mutually exclusive. EE-memory proof files are synthetic test artifacts, not ISO/ELF replacements. Battle hooks are not integrated into localization ISO builds.
+
+## Optional controller hotkey variant
+
+[HOTKEY_CHEATS.md](docs/HOTKEY_CHEATS.md) documents version-locked input sampling, selected-group ON/OFF restoration and reproducible generation. The direct-mode source remains separate; hotkey installation preserves checkbox settings and requires one initial cold boot. Runtime controller acceptance remains pending.
+
+## 动画播放结束检查门禁
+
+当前25部修改影片已发现ES结束码与时间戳问题，完整FFmpeg解码不能作为发布级播放验收。新增tools/audit_movie_playback.py可从两个hash锁定ISO全面比对46影片的双文件系统、视频/音频解码、帧数、SCR/PTS/DTS与B7/B9。命令和当前故障列表见[全量动画报告](docs/MOVIE_PLAYBACK_AUDIT.md)。此轮没有生成正式修复镜像，构建后仍须用户同场景播放结束验收。
+
+## 动画结束修复构建入口
+
+当前推荐movies-fixed.iso已包含全部25部无损修复。tools/movie_playback.py实施完整ES I/P帧序时间轴与B7后处理；两个字幕重编码入口自动调用，bf0显式固定，cutscenes缓存版本2阻止旧输出复用。tools/repair_movie_playback.py可从hash绑定的旧镜像重现修复/独立回滚，命令、输入清单生成与2200测试见[修复报告](docs/MOVIE_PLAYBACK_REPAIR.md)。不要将已修复镜像作为旧输入重复应用。
 
 
 ## FPB选择项句号增量（2026-10-19）

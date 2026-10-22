@@ -458,3 +458,21 @@ Cached prefix rewriting requires a unique complete source header and unique perm
 ## stage182 菜单与宋体修正
 
 stage182 字体重绘保留全部序列化布局，只写新增槽 bitmap/metrics；46×21 tab 图块、整理 (219,122,36,18)、魅力 (51,128,55,16) 与镜像副本见 UI_FONT_REVISION.md。
+
+
+## stage191 顶栏底边
+
+顶部六标签两个副本的211/233/255行是旧图残留，上一轮仅覆盖21px字格未清理端点行。新增显式clear_rect向下清1px，设置统一coverage-mask；包表、调色板及非目标像素保持。详见 TAB_FRINGE_REVISION.md。测试ISO沿用目前实际文件名Magna-Carta-Tears-of-Blood-zh-CN-test.iso，字库/换行/影片不回退，冷启动视觉复测待验。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。
+
+## MPEG视频结束码与SFD容器结束码（2026-10-12）
+
+Verified：本项目46原影片视频ES末尾含00 00 01 B7(sequence_end_code)，SFD容器末尾另含00 00 01 B9(program_end_code)。25现行汉化ES均缺B7但保留B9。temporal_reference在picture_start_code后占10位，读取为(byte4<<2)|(byte5>>6)，picture_coding_type为(byte5>>3)&7；完整ES跨PES边界解析与B帧PTS重排需要分别核查。证据见[MOVIE_PLAYBACK_AUDIT.md](MOVIE_PLAYBACK_AUDIT.md)，不将格式缺陷直接称为已完成游戏内因果证明。
+
+## I/P影片无损时间轴修复
+
+完整ES的I/P帧解码顺序等于显示顺序，经10位TR/GOP递增核查后以全局frame index与精确帧周期映射PES PTS/DTS。29.97为3003 ticks，不在GOP/扇区重置全局时间。B7写入末视频PES payload并缩减既有padding，文件尺寸与ISO/UDF元数据保持。此方法对B/D帧、非12B视频PES头和不足padding输入明确失败，非通用B帧重排方案。实现与全25真实验证见[MOVIE_PLAYBACK_REPAIR.md](MOVIE_PLAYBACK_REPAIR.md)。

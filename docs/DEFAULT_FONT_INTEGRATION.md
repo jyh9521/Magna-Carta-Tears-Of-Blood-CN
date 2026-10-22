@@ -39,3 +39,8 @@ overlay_font_resources 防御式校验源AFS、旧字库、几何与所有metric
 运行检查使用隔离PCSX2配置、禁用纹理替换、冷启动新ISO，不加载旧即时存档。日志与结果保留在 work/font-default-184/runtime-probe-2；独立诊断启动并非菜单、正文、换行及全部场景的视觉验收。实际检查应从新ISO冷启动：标题后进入正常存档/新游戏，查看没有存档、读取提示、姓名、道具、流派与人物介绍，同时核对普通字体和小字体的清晰度、标点及裁切；最后正常存读档。旧即时存档可能保留旧RAM中的字体，不能代替首次冷启动。
 
 现行名词修订镜像为stage187，字体和映射仍与本文选定方案相同；当前身份见 TEST_ISO.md。
+
+
+## stage188 字形定位修正
+
+两字体保留 A-medium-mixed 栅格化参数，默认追加 shared-origin-guarded 定位及上下各1px透明边界，取消逐字 y clamp。独立4932字形墨迹不变、全metrics/映射/原字形保持，资源及缓存已同步。详情 FONT_ALIGNMENT_REVISION.md；同场景冷启动视觉验收仍待复测。

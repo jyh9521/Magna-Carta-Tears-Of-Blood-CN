@@ -28,7 +28,7 @@ ISO9660/UDF28个替换文件双视图回读一致；26个增长文件重定位�
 
 大小：4250691584 B
 
-SHA-256：`65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36`
+SHA-256：`af65484a8507a26fcc522e3035f620decb2a77cd30953e8b282484bc62659f40`
 
 原ISO SHA-256：`6242476a66a96110fb6ee1a1dd668eedd70d3df6c835f0de9192451b5f4fcd45`
 
@@ -48,7 +48,36 @@ Medium18px/SS4与15px原生混合方案已整合并覆盖同名ISO，原字格�
 
 ## stage187 名词统一版
 
-同名ISO已更新为卡林兹、朱斯蒂娜、阿米拉、伊菲利亚。280资源/627文字及7缓存副本/35处同步，4部动画仅改名称并重编码。62文件独立对比只有FILE、SHIP和这4部动画变化；字体、UI图、ELF和42部其他影片保持。新影片保留既有布局人工验收依据，但本次新成片未冒称重新人工验收。详见 TERMINOLOGY_REVISION.md。当前hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36，4250691584 B。
+同名ISO已更新为卡林兹、朱斯蒂娜、阿米拉、伊菲利亚。280资源/627文字及7缓存副本/35处同步，4部动画仅改名称并重编码。62文件独立对比只有FILE、SHIP和这4部动画变化；字体、UI图、ELF和42部其他影片保持。新影片保留既有布局人工验收依据，但本次新成片未冒称重新人工验收。详见 TERMINOLOGY_REVISION.md。该阶段历史hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36，4250691584 B。
+
+
+## stage188 字库定位与边界修正版
+
+同名测试ISO仅更新FILE.AFS内两套Font追加位图与启动缓存。字号、栅格化、映射、全部字形步进、译文、UI图及46动画不改。上下透明守护、取消逐字clamp；2005项测试及旧版本隔离恢复通过。当前SHA256 af65484a8507a26fcc522e3035f620decb2a77cd30953e8b282484bc62659f40，大小4250691584 B。冷启动正文同场景待验，详见FONT_ALIGNMENT_REVISION.md。
+
+
+## stage189 顶部标签修正版（独立ISO）
+
+仅修正编成/道具/装备/流派/信息两图集副本的暗色杂点。新产物build/test-iso/Magna-Carta-zh-CN-tabs-fixed.iso，原测试ISO不覆盖；字体、译文、动画保持。详情 TAB_SHADOW_REVISION.md。
+
+
+## stage190 测试镜像
+
+新增字形横向有效步进内1px留白，宽墨迹量化前拟合；全量14683译文扫描及2992字段换行修订。离线预览必须按metrics裁剪数字字格，避免把原字格尾部画到邻字上。指定tabs-fixed.iso更新，其他测试ISO保留；冷启动视觉复测尚待验收。详见 FONT_SIDE_AND_LAYOUT_REVISION.md。
+
+
+## stage191 顶栏底边
+
+顶部六标签两个副本的211/233/255行是旧图残留，上一轮仅覆盖21px字格未清理端点行。新增显式clear_rect向下清1px，设置统一coverage-mask；包表、调色板及非目标像素保持。详见 TAB_FRINGE_REVISION.md。测试ISO沿用目前实际文件名Magna-Carta-Tears-of-Blood-zh-CN-test.iso，字库/换行/影片不回退，冷启动视觉复测待验。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。
+
+## 全25汉化动画结束修复版（2026-10-12）
+
+推荐本次测试路径：build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso，SHA256 `ae27f5b509f763df5051a106b7971c8e455599a132de13e08947917814807be1`，4250683392字节。25影片结束码/时间戳无损修复；全46完整解码/ISO9660/UDF/像素及音轨验证通过，DTS倒退0，21原片和其他字节不改。旧test.iso未覆盖，保留回退但仍含旧FMV缺陷。2200测试及独立ISO副本回滚通过，游戏内实际结束/跳过待复测。详细证据[MOVIE_PLAYBACK_REPAIR.md](MOVIE_PLAYBACK_REPAIR.md)。
 
 
 ## 2026-10-19 唯一当前测试入口

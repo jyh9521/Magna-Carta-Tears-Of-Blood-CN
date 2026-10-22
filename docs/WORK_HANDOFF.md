@@ -1,3 +1,11 @@
+stage191：顶部六标签在两个field_part1的211/233/255行共48个旧图残留，非字体问题；clear_rect显式向下清1px，设置coverage-mask统一其余五标签，非目标像素/属性/表/调色板保持。新ISO62文件只LINEAR变，保留stage190字体及换行、全部影片。当前实际ISO名Magna-Carta-Tears-of-Blood-zh-CN-test.iso；以hash锁定后覆盖，不创建重复镜像。详情TAB_FRINGE_REVISION.md、work/tab-fringe-191。冷启动菜单视觉复测待验。
+
+stage190：14683译文扫描、2992字段/592资源重排；词表和数字单位不拆、闭合标点不打头，FPB全部keys/未选record/tail保持。两font新增字形有效advance内水平1px留白，Normal1773宽字拟合16px，原2667/metrics/映射保持，cache同步。指定tabs-fixed.iso覆盖，62文件仅FILE/SHIP变，旧test.iso保留。预览ASCII旧19px全格绘制引出数字尾部原残留，修成advance裁剪；不改原数字。详情FONT_SIDE_AND_LAYOUT_REVISION.md及font-side-190证据，游戏冷启动复测待验。
+
+stage189：顶部五标签两副本改coverage-mask（48阈值、1px局部轮廓/透明边界）；设置和其他图像不改。独立ISO名Magna-Carta-zh-CN-tabs-fixed.iso，不覆盖原测试版。ISO62文件只有LINEAR变化，字体/文本/动画相同；2013tests、baseline/rollback2005及LINEAR精确恢复。工作证据tab-shadow-189，详情TAB_SHADOW_REVISION.md，冷启动菜单待视觉验收。
+
+stage188：重建两套字库，共用完整映射全集定位基准，上下1px透明守护，取消逐字clamp。4932新增字形墨迹逐像素不变、边界非零0；字号/参数/映射/原2667/步进保持。字体资源及启动缓存同步，ISO62文件仅FILE变化。2005tests、隔离1998及旧FILE/ISO精确恢复通过。详情FONT_ALIGNMENT_REVISION.md，work/font-alignment-188。用户截图同场景冷启动视觉复测待验，不冒称杂线实测根因。
+
 stage173：余10Latin范围收拢：9条可读英文补译（CommonSid1/GFTOrhaText2/FDS原型6），vbvb b source-bound literal保留（累计139）。GFT原92*822+8、native180/arrayf4，GetGiftData按首Key0比较；0/1键唯一，OrhaText源70/nativea8，Core结构最后StrProperty，compiled10958 BeginState的SetChatText参数，不是内部tag。CommonGetCommonTextIndex312920→3127f0/array130，key19实际physical18。FDS03633为2*2052+8四512文本原型，与active03591同定槽schema；不宣称其游戏加载已执行。Sid→希德币、Orha1/2→奥尔哈1/2、pparkjju/2→朴柱/2项目统一，不推断人物身份性别，数字与机器metadata保留。14626reviewed/2018terms；最终字库/AFS验证173/VERIFICATION.txt。10源异常仍保留，3configsemantics/3pending/compiled/native/image/layout及动画ISO继续。
 
 stage172：00000106.fpb十个原生记录明确列为retain-source-fault（8个CP949 bytewindow截断字符、1个非语法测试残片えうれおいつえれｄ+3NUL、1个9NUL全零记录）。prepare_source_fault_retention按原SHIP/ELF/nativeKey/physical/span/fullpool/hash核查，派生catalog只添加retention proof，原decode/controls/editable/backend/offset/raw均不改变。scope单列源异常保留10，不计已翻译、不授予import、不声明事件未使用；普通scopereview仍不能跳过quarantine。171字库/AFS实际bytes不改，14617reviewed/2013terms/1011资源14614fields。新scope不再有deferred-decode/control，原8failed/2quarantine如实保留；10Latin/3configsemantics/3pending/compiled/native/image/layout与已验收动画/最终ISO继续。证据172/VERIFICATION.txt。
@@ -430,3 +438,8 @@ stage182 已生成宋体 UI 修正版并覆盖同名测试路径；六标签/整
 ## stage187 四名修订与影片同步
 
 现行卡林兹、朱斯蒂娜、阿米拉、伊菲利亚；280SHIP/627处加7缓存副本/35处；名字长度/映射不变。180101、181307、182223、1825381重制，ASS仅名称变化，音频相等；其余42影片保持。最新档案work/terminology-187/integrated-afs，动画清单同目录movie-manifest.json（4条明确validated_revision而非新人工验收），输入计划iso-input-plan.json。当前同名测试ISO hash 65c1c0a8e48008016db5e8a897d4e157423a42f4ea1d58242ee4e682f9993b36。旧184ISO作为本次必要回退保存在187/baseline-test.iso；不保留额外已完成的ISO测试副本。完整证据 TERMINOLOGY_REVISION.md / 187 VERIFICATION.txt；Git提交和远端身份以本轮publication记录为准。
+
+
+## stage192 菜单渲染
+
+原字库存储填充全量清理，保持有效笔画/编码/步进；四信息按钮按27px按钮与1..18墨迹中心将Y5改4，属性主体与描边60处Y上移2px。魅力两个图集副本改为有透明边界的彩色coverage-mask。普通资源及启动缓存同步；译文/动画/ELF保持。详细重建、原字形填充字节变化及尚待游戏同场景验证的边界见docs/UI_RENDER_REVISION.md（docs内路径为UI_RENDER_REVISION.md）。

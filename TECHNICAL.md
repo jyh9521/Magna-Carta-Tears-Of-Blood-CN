@@ -590,6 +590,52 @@ Verified：A-medium-mixed 两字库由原ISO重新扩展生成，与实验完整
 Verified：四名新编码均已在既有映射中，编码长度分别6/8/6/8字节保持。280SHIP资源的627个物理词串仅改名称字节，FPB原索引/窗口/长度不变，固定槽几何及控制不变；FILE七个完整缓存副本同步35处。独立实际ISO回读验证627处新增新名与全部旧名零残留、缓存零残留；MrtsEngine、字库、LINEAR/ELF及42部非目标影片保持。非全游戏动态显示证明。详见 docs/TERMINOLOGY_REVISION.md。
 
 
+## stage188 字形定位修正
+
+两字体保留 A-medium-mixed 栅格化参数，默认追加 shared-origin-guarded 定位及上下各1px透明边界，取消逐字 y clamp。独立4932字形墨迹不变、全metrics/映射/原字形保持，资源及缓存已同步。详情 docs/FONT_ALIGNMENT_REVISION.md；同场景冷启动视觉验收仍待复测。
+
+
+## stage190 字形与文本布局
+
+新增字形横向有效步进内1px留白，宽墨迹量化前拟合；全量14683译文扫描及2992字段换行修订。离线预览必须按metrics裁剪数字字格，避免把原字格尾部画到邻字上。指定tabs-fixed.iso更新，其他测试ISO保留；冷启动视觉复测尚待验收。详见 docs/FONT_SIDE_AND_LAYOUT_REVISION.md。
+
+## NTSC-K frame-limit patch
+
+Static instruction/context and version-locked offline patch/rollback proof are documented in [FRAME_LIMIT_PATCH.md](docs/FRAME_LIMIT_PATCH.md). Actual 60 FPS/game-speed/FMV acceptance remains pending.
+
+## Optional gameplay cheat ports
+
+Eight independent NTSC-K instruction ports with native method binding, per-case original-byte checks and isolated rollback evidence are documented in [GAMEPLAY_CHEAT_PORT.md](docs/GAMEPLAY_CHEAT_PORT.md). US/JP absolute RAM and battle injections remain unported; runtime acceptance is pending.
+
+## NTSC-K battle hook candidates
+
+Five HP/friendly-leadership candidates, native class/team/HP evidence, full-width R5900 register handling and synthetic EE-memory proofs are documented in [BATTLE_CHEAT_PORT.md](docs/BATTLE_CHEAT_PORT.md). The PMF registration audit now admits intA names with the same exact descriptor-copy checks. Runtime cave ownership and gameplay acceptance remain pending.
+
+## Korean input hook and cheat latch
+
+Original input consumer 0017C738 calls padRead-compatible 00120800 with packet destination S0+2A4; the following code combines bytes 2/3 and inverts the mask. The optional controller wrapper samples this actual packet instead of a guessed Japanese RAM offset, with 000C3FE0 latched OFF by default. Named sections use exact-count extended ON writes and original-instruction OFF restores. See [HOTKEY_CHEATS.md](docs/HOTKEY_CHEATS.md) for evidence levels and model/runtime separation.
+
+## Field detection and battle-speed candidates
+
+Version-locked walking-configuration, enemy-detection and native battle-speed coefficient candidates are documented in [FIELD_SPEED_CHEATS.md](docs/FIELD_SPEED_CHEATS.md). The walking selector's exact detect-only semantics and all gameplay outcomes remain unverified. Original ISO/ELF and installed PNACH are unchanged.
+
+## Original-engine auto-QTE branch
+
+The walking option is now withdrawn. User feedback reports undetected and battle speed work. Native GetGreat callback 002F8B40 calls 002F8B80; changing JR delay slot 002F8B8C from 000217FE to 24020001 forces true without setting a saved flag. Original MrtsGame.u TestBit/TimeOver compiled dependencies and source explain first-input-started automatic later beats; QTE runtime acceptance remains pending. See [QTE_CHEATS.md](docs/QTE_CHEATS.md).
+
+## Complete shared SELECT switch
+
+All 14 active effects now share C3FE0, with original-instruction OFF blocks for discovery/QTE and a full-word latch==1 runtime guard in the C4000 speed maintenance hook. OFF releases its owned +23C coefficient even while current mode remains 2. All 84 individual transitions and 110 cheat tests pass offline; unified runtime acceptance is pending. See [ALL_HOTKEYS.md](docs/ALL_HOTKEYS.md).
+
+## 全46影片结束逻辑排查（2026-10-12）
+
+用户180111原SFD对照成功后进行全量检查：25汉化影片缺ES B7，23部解复用DTS倒退；21原片逐字节保持。92次完整解码均通过，说明此前检查不足以证明游戏播放结束。sfd-muxer0.1.1的temporal_reference读法错误；隔离一行修正仍有残余时轴问题。完整数据与证据等级见[全量动画报告](docs/MOVIE_PLAYBACK_AUDIT.md)。未修改真实依赖包或ISO，字幕内容不改。
+
+## 汉化影片全量无损修复
+
+25修改SFD保留字幕ES与ADX，在末video PES内追加B7；按完整ES全局I/P帧序重建3003tick PTS/DTS，目录/尺寸/21原片/其他资产不改。两个生成入口已接入后处理并清退旧缓存身份。全46独立复检DTS倒退0，92完整解码/像素/音轨/音频时戳一致；用户动态验收仍单列。见[修复报告](docs/MOVIE_PLAYBACK_REPAIR.md)。
+
+
 ## 隐身即时存档与FPB选项（2026-10-19）
 
 真实EE快照验证：共享开关000C3FE0为0，003F72C0/4和003F746C/70仍保留隐身跳转。repair_detection_state.py只在新副本恢复原ELF指纹绑定的四条指令，不写事件变量。patch_option_periods.py按FPB实际native key重建窗口，保留未选文本及尾段，不以文件扩展名推断剧情角色。详见 docs/OPTION_PUNCTUATION_AND_TRIGGER.md。

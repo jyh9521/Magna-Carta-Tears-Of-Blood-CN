@@ -1,0 +1,7 @@
+gametitle=Magna Carta NTSC-K QTE candidate (SCKA-20043 / AE86E04C)
+// Original native debug path; no global controller injection.
+// First input starts an attack rhythm; subsequent timeout beats auto-complete.
+[战斗其他（可独立启用）\自动QTE（首键启动）]
+description=选招式/目标并按首个QTE键启动后，后续拍点由原生超时分支自动Great；不在菜单连按。可配合2倍/4倍速度，反击/连招待复测。取消后冷启动恢复。
+// intUMrtsDataManagerexecGetGreat; 000217FE -> 24020001; runtime pending.
+patch=1,EE,002F8B8C,word,24020001

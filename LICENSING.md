@@ -52,3 +52,7 @@ A-medium-mixed 使用 Adobe Source Han Sans SC Medium 2.005R，输入SHA-256 1df
 不将其收入仓库或发布包。`tools/port_texture_pack.py` 只生成目录、等价名称和身份清单，
 不赋予素材再分发许可。文件命名语义依据 PCSX2 2.8.2 开源代码，来源链接及验证边界见
 [高清贴图复用](docs/HD_TEXTURE_PACK.md)。
+
+## Gameplay cheat references
+
+US original gameplay codes come from root670/CheatDevicePS2 CheatDatabase.txt, GPL-3.0; retain source attribution and upstream license boundaries in derived PNACH/profile data. JP Xterminator Extreme reference has no stated redistribution license; only brief references and independent KR instruction findings are recorded, not the full page. Neither reference licenses original game assets. See docs/GAMEPLAY_CHEAT_PORT.md.

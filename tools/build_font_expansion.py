@@ -66,6 +66,15 @@ def main() -> None:
         else:
             modified = patch_font(expanded, encoder, args.font, locale['alignment_reference'], locale['advance'], locale.get('font_raster_sizes', {}).get(name))
         result = verify_slots(serial, modified, count, args.range_start)
+        policy=locale.get('bitmap_padding','preserve')
+        core.require(policy in ('preserve','zero-outside-metric'),'unknown bitmap padding policy')
+        if policy=='zero-outside-metric':
+            from sanitize_font_padding import sanitize
+            modified,result['padding_cleanup']=sanitize(modified)
+            result['final_sha256']=core.digest(modified)
+            result['pre_padding_original_bitmap_preserved']=result['original_bitmap_preserved']
+            original_info=font_data(serial);final_info=font_data(modified)
+            result['original_bitmap_preserved']=serial[original_info['bitmap_start']:original_info['bitmap_start']+original_info['bitmap_bytes']]==modified[final_info['bitmap_start']:final_info['bitmap_start']+original_info['bitmap_bytes']]
         new_info, _, metrics, _ = parts(modified)
         for item in entries:
             core.require(lookup(code, new_info['ranges'], new_info['bases'], bytes.fromhex(item['bytes']))['return_u32'] == item['glyph'], 'new glyph lookup mismatch')
@@ -94,7 +103,7 @@ def main() -> None:
                   code_start=f'{args.range_start:04X}', code_end=entries[-1]['bytes'],
                   packages_rebuilt=False, iso_generated=False, runtime='unverified')
     (out / 'font-expansion.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf8')
-    print(f'FONT EXPANSION STATIC PASS fonts={len(results)} glyphs={first}->{first + count} added={count} original_glyphs_preserved=true iso_generated=false')
+    print(f'FONT EXPANSION STATIC PASS fonts={len(results)} glyphs={first}->{first + count} added={count} original_effective_ink_preserved=true bitmap_padding={locale.get("bitmap_padding","preserve")} iso_generated=false')
 
 
 if __name__ == '__main__': main()
