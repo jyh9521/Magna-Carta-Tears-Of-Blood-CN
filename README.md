@@ -25,7 +25,7 @@ PS2 版《Magna Carta: Tears of Blood》（마그나카르타 진홍의 성흔�
 最终本地镜像（沿用已有文件名，内容不因归档整理而重建）：
 
 ```text
-build/test-iso/Magna-Carta-Tears-of-Blood-zh-CN-movies-fixed.iso
+build/test-iso/Magna-Carta-Tears-of-Blood-CN-v1.0.iso
 ```
 
 镜像大小 **4250683392 字节**，SHA-256：
